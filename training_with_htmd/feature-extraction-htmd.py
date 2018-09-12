@@ -17,8 +17,8 @@ from oddt import toolkit
 from oddt import datasets
 
 # Directory paths
-data_dir = "dataset"
-pdbbind_dir = os.path.join(data_dir, "refined-set-2016")
+data_dir = "../dataset"
+pdbbind_dir = os.path.join(data_dir, "refined-set-2016/")
 pdbbind_dataset = datasets.pdbbind(home=pdbbind_dir, default_set='refined', version=2016)
 
 
@@ -56,9 +56,10 @@ def get_pdb_complex_feature(protein_file, ligand_file):
     return np.concatenate((protein_featuers, ligand_features), axis=3)
 
 
-def get_pdb_features(ids):
+def get_pdb_features(ids, sets="refined"):
     """ Returns features for given pdb ids"""
-    features = []
+    pdb_ids = []
+    pdb_features = []
 
     for pdbid in tqdm(ids):
         protein_file = os.path.join(pdbbind_dir, pdbid, pdbid + "_protein.pdbqt")
@@ -66,15 +67,16 @@ def get_pdb_features(ids):
         if not os.path.isfile(protein_file) or not os.path.isfile(ligand_file): continue
 
         try:
-            features = get_features(protein_file, ligand_file)
+            features = get_pdb_complex_feature(protein_file, ligand_file)
         except Exception as e:
-            print("ERROR in ", pdbid , " ", str(e))
+            #print("ERROR in ", pdbid , " ", str(e))
             continue
 
-        features.append(features)
+        pdb_ids.append(pdbid)
+        pdb_features.append(features)
     
     # Convert the list of features as numpy array and return
-    data_x = np.array(features, dtype=np.float32)
+    data_x = np.array(pdb_features, dtype=np.float32)
     data_y = np.array([pdbbind_dataset.sets[sets][_id] for _id in pdb_ids], dtype=np.float32)
 
     return data_x, data_y
@@ -91,7 +93,7 @@ def get_features():
     
     # Get the features 
     print("Extracting features for the core set")
-    core_x, core_y = get_pdb_features(core_ids)
+    core_x, core_y = get_pdb_features(core_ids, sets="core")
     print("Extracting features for the refined set")
     refined_x, refined_y = get_pdb_features(refined_ids)    
     

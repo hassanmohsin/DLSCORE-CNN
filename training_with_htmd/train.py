@@ -25,13 +25,15 @@ from sklearn.metrics import r2_score
 
 sys.path.append("models/")
 sys.path.append("scripts/")
-from my_classes import DataGenerator, AugmentedDataGenerator
+from generators import DataGenerator, AugmentedDataGenerator
 from models import Squeeze_model
 
-def train(nb_batch=32, nb_epochs=100, learning_rate=1e-4, augmented=False, mutlti_gpu=0):
+data_dir = "../dataset"
+
+def train(nb_batch=32, nb_epochs=100, l_rate=1e-4, augmented=False, multi_gpu=0):
 
   # Load the data
-  h5f = h5py.File('data/data.h5', 'r')
+  h5f = h5py.File(os.path.join(data_dir, "data.h5"), 'r')
   train_x, train_y = h5f['train_x'][:], h5f['train_y'][:]
   valid_x, valid_y = h5f['valid_x'][:], h5f['valid_y'][:]
   test_x, test_y = h5f['test_x'][:], h5f['test_y'][:]
@@ -40,13 +42,13 @@ def train(nb_batch=32, nb_epochs=100, learning_rate=1e-4, augmented=False, mutlt
   print("Data shapes: ", train_x.shape, valid_x.shape, test_x.shape)
 
   # Training parameters
-  if mutlti_gpu : nb_batch = mutlti_gpu*nb_batch # Assigning same batch size to all the gpus
+  if multi_gpu : nb_batch = multi_gpu*nb_batch # Assigning same batch size to all the gpus
 
   # Build the model 
   model_input = Input(shape=(24, 24, 24, 16))
   model = Model(inputs=model_input, outputs=Squeeze_model(model_input))
 
-  if multi_gpu: model = multi_gpu_model(model, gpus=mutlti_gpu)
+  if multi_gpu: model = multi_gpu_model(model, gpus=multi_gpu)
 
   # Compile the model
   model.compile(optimizer=optimizers.adam(lr=l_rate, beta_1=0.99, beta_2=0.999),
@@ -74,6 +76,7 @@ def train(nb_batch=32, nb_epochs=100, learning_rate=1e-4, augmented=False, mutlt
 
   # Generators
   if augmented:
+    print("TRINING ON AUGMENTED DATA")
     data_gen = AugmentedDataGenerator(x=train_x, y=train_y, batch_size=nb_batch)
     val_gen = AugmentedDataGenerator(x=valid_x, y=valid_y, batch_size=nb_batch)
   else:
@@ -90,14 +93,14 @@ def train(nb_batch=32, nb_epochs=100, learning_rate=1e-4, augmented=False, mutlt
                                 callbacks=callbacks_list)
 
   # Plot training history
-  plt.figure()
-  plt.plot(history['loss'])
-  plt.plot(history['val_loss'])
-  plt.xlabel("Epochs")
-  plt.ylabel("Loss (MSE)")
-  plt.legend(['Train Loss', 'Validation Loss'])
-  plt.savefig('training_history.png', format='png', dpi=1000)
-  plt.show()
+  #plt.figure()
+  #plt.plot(history['loss'])
+  #plt.plot(history['val_loss'])
+  #plt.xlabel("Epochs")
+  #plt.ylabel("Loss (MSE)")
+  #plt.legend(['Train Loss', 'Validation Loss'])
+  #plt.savefig('training_history.png', format='png', dpi=1000)
+  #plt.show()
 
   # Load the best weights
   model.load_weights(weigts_filepath)
@@ -109,3 +112,11 @@ def train(nb_batch=32, nb_epochs=100, learning_rate=1e-4, augmented=False, mutlt
 
   test_r2 = r2_score(y_true=test_y, y_pred=model.predict(test_x))
   print("Test r2: ", test_r2)
+
+
+
+if __name__=="__main__": 
+  # Without augmentation
+  #train(nb_epochs=100)
+  # With augmented data (24 rotation)
+  train(nb_epochs=1,nb_batch=4, augmented=True, multi_gpu=4)
