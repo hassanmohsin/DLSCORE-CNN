@@ -17,14 +17,13 @@ from oddt import toolkit
 from oddt import datasets
 
 # Directory paths
-data_dir = "data"
-if not os.path.isdir(data_dir): os.makedirs(data_dir)
-pdbbind_dir = "/home/PDBbind/pdbbind_2016/refined-set-2016"
+data_dir = "dataset"
+pdbbind_dir = os.path.join(data_dir, "refined-set-2016")
 pdbbind_dataset = datasets.pdbbind(home=pdbbind_dir, default_set='refined', version=2016)
 
 
-def get_features(protein_file, ligand_file):
-    """ Returns voxel features """
+def get_pdb_complex_feature(protein_file, ligand_file):
+    """ Returns voxel features for a pdb complex """
 
     def get_prop(mol, left_most_point):
         """ Returns atom occupancies """
@@ -57,21 +56,10 @@ def get_features(protein_file, ligand_file):
     return np.concatenate((protein_featuers, ligand_features), axis=3)
 
 
-def get_set_features(sets="refined"):
-    """ Returns features for all the complexes in a set. """ 
-    pdb_ids = []
-    pdb_features = []
-    # List only the core complexes. This is the test set.
-    core_ids = list(pdbbind_dataset.sets['core'].keys())
-    # List the refined ids. The set of core ids is a subset of refined ids
-    refined_ids = list(pdbbind_dataset.sets['refined'].keys()) 
-    # remove core ids
-    refined_ids = [i for i in refined_ids if i not in core_ids]
-    
-    ids = refined_ids
-    if sets == "core": ids = core_ids
+def get_pdb_features(ids):
+    """ Returns features for given pdb ids"""
+    features = []
 
-    # Get the features for all the pdbbind refined complexes
     for pdbid in tqdm(ids):
         protein_file = os.path.join(pdbbind_dir, pdbid, pdbid + "_protein.pdbqt")
         ligand_file = os.path.join(pdbbind_dir, pdbid, pdbid + "_ligand.pdbqt")
@@ -83,27 +71,43 @@ def get_set_features(sets="refined"):
             print("ERROR in ", pdbid , " ", str(e))
             continue
 
-        pdb_ids.append(pdbid)
-        pdb_features.append(features)
+        features.append(features)
     
     # Convert the list of features as numpy array and return
-    data_x = np.array(pdb_features, dtype=np.float32)
+    data_x = np.array(features, dtype=np.float32)
     data_y = np.array([pdbbind_dataset.sets[sets][_id] for _id in pdb_ids], dtype=np.float32)
-    
+
     return data_x, data_y
 
 
+def get_features():
+    """ Returns features for all the complexes in the dataset. """ 
+    # List ids in the core set
+    core_ids = list(pdbbind_dataset.sets['core'].keys())
+    # List ids in the refined set
+    refined_ids = list(pdbbind_dataset.sets['refined'].keys()) 
+    # remove core ids from the refined set.
+    refined_ids = [i for i in refined_ids if i not in core_ids]
+    
+    # Get the features 
+    print("Extracting features for the core set")
+    core_x, core_y = get_pdb_features(core_ids)
+    print("Extracting features for the refined set")
+    refined_x, refined_y = get_pdb_features(refined_ids)    
+    
+    return core_x, core_y, refined_x, refined_y
+
+
 def main():
-    test_x, test_y = get_set_features(sets="core")
-    print("Feature shape in the test set: ", test_x.shape)
-
-    train_x, train_y = get_set_features(sets="refined")
+    # Get the features
+    test_x, test_y, train_x, train_y = get_features()
+    # Split it
     train_x, valid_x, train_y, valid_y = train_test_split(train_x, train_y, test_size=0.2, random_state=1)
-    print("Feature shape in the training and validation set: ", train_x.shape, valid_x.shape)
+    print("Shapes in the training, test and the validation set: ", train_x.shape, test_x.shape, valid_x.shape)
 
+    # Save it
     print("Saving the data in data.h5")
-
-    h5f = h5py.File(os.path.join(data_dir, "data_core_htmd.h5"), 'w')
+    h5f = h5py.File(os.path.join(data_dir, "data.h5"), 'w')
     h5f.create_dataset('train_x', data=train_x)
     h5f.create_dataset('train_y', data=train_y)
     h5f.create_dataset('valid_x', data=valid_x)
