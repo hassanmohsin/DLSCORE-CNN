@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_2  and  C2_3 
+REMARK       I    between atoms: C4_2  and  N_7 
+REMARK    2  A    between atoms: C2_3  and  C1_4 
+REMARK    3  A    between atoms: C1_4  and  S_5 
+REMARK    4  A    between atoms: C8_8  and  C9_9 
+ROOT
+ATOM      1  O1  X8Z d          29.550   2.809 -42.540  0.00  0.00    -0.273 OA
+ATOM      2  C4  X8Z d          29.013   3.741 -43.218  0.00  0.00     0.225 C 
+ATOM      3  N   X8Z d          29.796   4.706 -43.749  0.00  0.00    -0.337 N 
+ATOM      4  C8  X8Z d          31.292   4.731 -43.547  0.00  0.00     0.188 C 
+ATOM      5  C5  X8Z d          29.377   5.896 -44.579  0.00  0.00     0.127 C 
+ATOM      6  C6  X8Z d          30.613   6.671 -44.854  0.00  0.00     0.022 C 
+ATOM      7  C7  X8Z d          31.796   5.876 -44.382  0.00  0.00     0.038 C 
+ENDROOT
+BRANCH   2   8
+ATOM      8  C2  X8Z d          27.492   3.742 -43.396  0.00  0.00     0.083 C 
+ATOM      9  C3  X8Z d          26.897   4.580 -42.253  0.00  0.00     0.020 C 
+BRANCH   8  10
+ATOM     10  C1  X8Z d          27.006   2.288 -43.391  0.00  0.00     0.084 C 
+BRANCH  10  11
+ATOM     11  S   X8Z d          27.107   1.462 -44.980  0.00  0.00    -0.181 SA
+ATOM     12  H4  X8Z d          26.770   0.516 -44.888  0.00  0.00     0.101 HD
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   2   8
+BRANCH   4  13
+ATOM     13  C9  X8Z d          31.642   4.944 -42.056  0.00  0.00     0.196 C 
+ATOM     14  O3  X8Z d          30.855   5.431 -41.269  0.00  0.00    -0.646 OA
+ATOM     15  O2  X8Z d          32.817   4.576 -41.683  0.00  0.00    -0.646 OA
+ENDBRANCH   4  13
+TORSDOF 4

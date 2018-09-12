@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_2  and  C5'_4 
+REMARK    2  A    between atoms: C5'_4  and  C4'_5 
+REMARK    3  A    between atoms: C1'_7  and  N9_8 
+REMARK    4  A    between atoms: C6_13  and  N6_14 
+REMARK    5  A    between atoms: C2'_18  and  O2'_19 
+REMARK    6  A    between atoms: C3'_20  and  O3'_21 
+ROOT
+ATOM      1  C4' EP4 d          43.985  50.548  11.145  0.00  0.00     0.181 C 
+ATOM      2  O4' EP4 d          44.460  49.189  11.298  0.00  0.00    -0.354 OA
+ATOM      3  C1' EP4 d          44.044  48.773  12.618  0.00  0.00     0.262 C 
+ATOM      4  C2' EP4 d          44.439  49.932  13.458  0.00  0.00     0.198 C 
+ATOM      5  C3' EP4 d          44.103  51.142  12.560  0.00  0.00     0.181 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N9  EP4 d          44.765  47.550  13.077  0.00  0.00    -0.294 N 
+ATOM      7  C4  EP4 d          44.213  46.320  13.079  0.00  0.00     0.167 A 
+ATOM      8  N3  EP4 d          42.987  45.889  12.705  0.00  0.00    -0.222 NA
+ATOM      9  C5  EP4 d          45.143  45.453  13.555  0.00  0.00     0.149 A 
+ATOM     10  C2  EP4 d          42.670  44.513  12.812  0.00  0.00     0.237 A 
+ATOM     11  N1  EP4 d          43.635  43.623  13.316  0.00  0.00    -0.222 NA
+ATOM     12  C6  EP4 d          44.842  44.129  13.674  0.00  0.00     0.155 A 
+ATOM     13  N7  EP4 d          46.266  46.175  13.831  0.00  0.00    -0.236 NA
+ATOM     14  C8  EP4 d          46.030  47.462  13.534  0.00  0.00     0.214 A 
+BRANCH  12  15
+ATOM     15  N6  EP4 d          45.806  43.310  14.132  0.00  0.00    -0.382 N 
+ATOM     16  H13 EP4 d          46.722  43.694  14.404  0.00  0.00     0.157 HD
+ATOM     17  H14 EP4 d          45.628  42.299  14.211  0.00  0.00     0.157 HD
+ENDBRANCH  12  15
+ENDBRANCH   3   6
+BRANCH   4  18
+ATOM     18  O2' EP4 d          43.608  49.845  14.644  0.00  0.00    -0.388 OA
+ATOM     19  H17 EP4 d          42.693  49.892  14.392  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' EP4 d          44.952  51.204  10.134  0.00  0.00     0.268 C 
+BRANCH  20  21
+ATOM     21  N2  EP4 d          44.652  52.631   9.884  0.00  0.00    -0.076 N 
+ATOM     22  CG  EP4 d          45.824  53.269   9.259  0.00  0.00     0.269 C 
+ATOM     23  CE  EP4 d          43.519  52.821   8.975  0.00  0.00     0.269 C 
+ATOM     24  H4  EP4 d          44.448  53.078  10.764  0.00  0.00     0.279 HD
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   5  25
+ATOM     25  O3' EP4 d          42.804  51.603  12.929  0.00  0.00    -0.390 OA
+ATOM     26  H19 EP4 d          42.808  51.859  13.844  0.00  0.00     0.210 HD
+ENDBRANCH   5  25
+TORSDOF 6

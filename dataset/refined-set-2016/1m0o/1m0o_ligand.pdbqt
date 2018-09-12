@@ -1,0 +1,54 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  C4A_4 
+REMARK    2  A    between atoms: C3_2  and  O1_7 
+REMARK    3  A    between atoms: C4A_4  and  N2_9 
+REMARK    4  A    between atoms: C5A_8  and  O2_12 
+REMARK    5  A    between atoms: N2_9  and  C_13 
+REMARK    6  A    between atoms: O2_12  and  P1_14 
+REMARK    7  A    between atoms: C_13  and  P2_17 
+REMARK    8  A    between atoms: C_13  and  CA2_15 
+ROOT
+ATOM      1  C4  MPM d          17.289  52.338  16.549  0.00  0.00     0.026 A 
+ATOM      2  C3  MPM d          16.288  53.247  16.095  0.00  0.00     0.102 A 
+ATOM      3  C5  MPM d          18.364  52.000  15.639  0.00  0.00    -0.002 A 
+ATOM      4  C2  MPM d          16.401  53.786  14.782  0.00  0.00     0.064 A 
+ATOM      5  C6  MPM d          18.433  52.575  14.378  0.00  0.00     0.127 A 
+ATOM      6  C5A MPM d          19.330  51.064  16.103  0.00  0.00     0.223 C 
+ATOM      7  N1  MPM d          17.455  53.449  13.993  0.00  0.00    -0.262 NA
+ATOM      8  C2A MPM d          15.370  54.774  14.259  0.00  0.00     0.073 C 
+ENDROOT
+BRANCH   1   9
+ATOM      9  C4A MPM d          17.292  51.718  17.964  0.00  0.00     0.127 C 
+BRANCH   9  10
+ATOM     10  N2  MPM d          16.373  52.182  18.754  0.00  0.00    -0.276 NA
+BRANCH  10  11
+ATOM     11  C   MPM d          16.153  51.798  20.173  0.00  0.00     0.162 C 
+ATOM     12  CA1 MPM d          16.960  50.512  20.686  0.00  0.00     0.056 C 
+BRANCH  11  13
+ATOM     13  P2  MPM d          14.498  51.687  20.454  0.00  0.00     0.290 P 
+ATOM     14  O7  MPM d          13.752  52.793  19.779  0.00  0.00    -0.638 OA
+ATOM     15  O6  MPM d          14.201  51.714  21.897  0.00  0.00    -0.638 OA
+ATOM     16  O8  MPM d          14.023  50.391  19.921  0.00  0.00    -0.638 OA
+ENDBRANCH  11  13
+BRANCH  11  17
+ATOM     17  CA2 MPM d          16.782  52.960  20.997  0.00  0.00     0.043 C 
+ATOM     18  CA3 MPM d          16.160  54.315  20.645  0.00  0.00     0.008 C 
+ENDBRANCH  11  17
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   2  19
+ATOM     19  O1  MPM d          15.229  53.611  16.898  0.00  0.00    -0.358 OA
+ATOM     20  H3  MPM d          15.559  54.027  17.686  0.00  0.00     0.217 HD
+ENDBRANCH   2  19
+BRANCH   6  21
+ATOM     21  O2  MPM d          19.215  49.709  16.017  0.00  0.00    -0.278 OA
+BRANCH  21  22
+ATOM     22  P1  MPM d          20.133  48.742  16.746  0.00  0.00     0.422 P 
+ATOM     23  O4  MPM d          21.458  48.798  16.211  0.00  0.00    -0.617 OA
+ATOM     24  O5  MPM d          20.063  49.050  18.159  0.00  0.00    -0.617 OA
+ATOM     25  O3  MPM d          19.678  47.393  16.471  0.00  0.00    -0.617 OA
+ENDBRANCH  21  22
+ENDBRANCH   6  21
+TORSDOF 8

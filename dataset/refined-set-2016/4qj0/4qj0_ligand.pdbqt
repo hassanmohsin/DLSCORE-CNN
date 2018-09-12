@@ -1,0 +1,81 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_6  and  S14_2 
+REMARK    2  A    between atoms: S14_2  and  C8_7 
+REMARK    3  A    between atoms: C18_4  and  O20_5 
+REMARK    4  A    between atoms: C18_4  and  C17_6 
+REMARK    5  A    between atoms: C9_12  and  N19_20 
+REMARK    6  A    between atoms: C5_15  and  S1_16 
+REMARK    7  A    between atoms: S1_16  and  N4_18 
+REMARK    8  A    between atoms: N19_20  and  C21_21 
+REMARK    9  A    between atoms: C21_21  and  C30_22 
+REMARK   10  A    between atoms: C21_21  and  C22_28 
+REMARK   11  A    between atoms: C22_28  and  O29_29 
+REMARK   12  A    between atoms: C22_28  and  C23_30 
+ROOT
+ATOM      1  C8  WWX d          27.250   5.652  10.685  0.00  0.00     0.130 A 
+ATOM      2  C7  WWX d          27.156   4.930   9.502  0.00  0.00     0.180 A 
+ATOM      3  F12 WWX d          28.085   5.078   8.500  0.00  0.00    -0.201 F 
+ATOM      4  C6  WWX d          26.088   4.033   9.336  0.00  0.00     0.182 A 
+ATOM      5  F11 WWX d          26.004   3.346   8.179  0.00  0.00    -0.201 F 
+ATOM      6  C9  WWX d          26.255   5.548  11.685  0.00  0.00     0.094 A 
+ATOM      7  C10 WWX d          25.182   4.671  11.467  0.00  0.00     0.170 A 
+ATOM      8  F13 WWX d          24.197   4.443  12.300  0.00  0.00    -0.202 F 
+ATOM      9  C5  WWX d          25.121   3.926  10.295  0.00  0.00     0.161 A 
+ENDROOT
+BRANCH   6  10
+ATOM     10  N19 WWX d          26.366   6.325  12.859  0.00  0.00    -0.375 N 
+ATOM     11  H8  WWX d          27.128   6.171  13.535  0.00  0.00     0.160 HD
+BRANCH  10  12
+ATOM     12  C21 WWX d          25.333   7.377  13.078  0.00  0.00     0.148 C 
+BRANCH  12  13
+ATOM     13  C30 WWX d          25.745   8.582  12.256  0.00  0.00    -0.033 A 
+ATOM     14  C35 WWX d          25.274   8.672  10.935  0.00  0.00     0.009 A 
+ATOM     15  C34 WWX d          25.700   9.775  10.113  0.00  0.00     0.001 A 
+ATOM     16  C33 WWX d          26.555  10.777  10.615  0.00  0.00     0.000 A 
+ATOM     17  C32 WWX d          26.973  10.674  11.954  0.00  0.00     0.001 A 
+ATOM     18  C31 WWX d          26.582   9.586  12.763  0.00  0.00     0.009 A 
+ENDBRANCH  12  13
+BRANCH  12  19
+ATOM     19  C22 WWX d          25.134   7.731  14.577  0.00  0.00     0.178 C 
+BRANCH  19  20
+ATOM     20  O29 WWX d          24.130   8.664  14.652  0.00  0.00    -0.388 OA
+ATOM     21  H16 WWX d          24.380   9.437  14.159  0.00  0.00     0.210 HD
+ENDBRANCH  19  20
+BRANCH  19  22
+ATOM     22  C23 WWX d          24.741   6.434  15.185  0.00  0.00    -0.027 A 
+ATOM     23  C28 WWX d          23.385   6.019  15.103  0.00  0.00     0.010 A 
+ATOM     24  C27 WWX d          22.996   4.744  15.541  0.00  0.00     0.001 A 
+ATOM     25  C26 WWX d          23.998   3.948  16.064  0.00  0.00     0.000 A 
+ATOM     26  C25 WWX d          25.354   4.431  16.188  0.00  0.00     0.001 A 
+ATOM     27  C24 WWX d          25.784   5.674  15.695  0.00  0.00     0.010 A 
+ENDBRANCH  19  22
+ENDBRANCH  12  19
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+BRANCH   1  28
+ATOM     28  S14 WWX d          28.721   6.699  10.770  0.00  0.00     0.182 S 
+ATOM     29  O16 WWX d          29.072   7.181  12.203  0.00  0.00    -0.222 OA
+ATOM     30  O15 WWX d          29.992   5.878  10.377  0.00  0.00    -0.222 OA
+BRANCH  28  31
+ATOM     31  C17 WWX d          28.735   8.041   9.556  0.00  0.00     0.172 C 
+BRANCH  31  32
+ATOM     32  C18 WWX d          30.110   8.719   9.544  0.00  0.00     0.179 C 
+BRANCH  32  33
+ATOM     33  O20 WWX d          29.985   9.790  10.456  0.00  0.00    -0.400 OA
+ATOM     34  H3  WWX d          29.765   9.449  11.315  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+BRANCH   9  35
+ATOM     35  S1  WWX d          23.851   2.696  10.109  0.00  0.00     0.263 S 
+ATOM     36  O3  WWX d          23.121   2.931   8.789  0.00  0.00    -0.201 OA
+ATOM     37  O2  WWX d          24.706   1.438   9.924  0.00  0.00    -0.201 OA
+BRANCH  35  38
+ATOM     38  N4  WWX d          22.713   2.378  11.217  0.00  0.00    -0.324 N 
+ATOM     39  H6  WWX d          22.029   1.670  11.042  0.00  0.00     0.169 HD
+ATOM     40  H7  WWX d          22.694   2.890  12.076  0.00  0.00     0.169 HD
+ENDBRANCH  35  38
+ENDBRANCH   9  35
+TORSDOF 12

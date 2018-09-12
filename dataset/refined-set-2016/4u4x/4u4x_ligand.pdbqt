@@ -1,0 +1,23 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAM_12  and  CAG_13 
+ROOT
+ATOM      1  CAH MOL d         -24.371 -18.947  18.001  0.00  0.00     0.258 C 
+ATOM      2  NAJ MOL d         -23.726 -18.471  16.771  0.00  0.00    -0.297 N 
+ATOM      3  SAN MOL d         -23.456 -16.865  16.834  0.00  0.00     0.280 S 
+ATOM      4  OAB MOL d         -24.754 -16.149  16.929  0.00  0.00    -0.199 OA
+ATOM      5  OAC MOL d         -22.590 -16.556  15.666  0.00  0.00    -0.199 OA
+ATOM      6  CAL MOL d         -22.594 -16.697  18.329  0.00  0.00     0.198 A 
+ATOM      7  NAI MOL d         -21.846 -15.582  18.463  0.00  0.00    -0.246 NA
+ATOM      8  CAE MOL d         -21.133 -15.386  19.649  0.00  0.00     0.118 A 
+ATOM      9  CAD MOL d         -21.194 -16.324  20.656  0.00  0.00     0.022 A 
+ATOM     10  CAF MOL d         -21.967 -17.466  20.520  0.00  0.00     0.034 A 
+ATOM     11  CAK MOL d         -22.700 -17.690  19.341  0.00  0.00     0.074 A 
+ATOM     12  NAM MOL d         -23.488 -18.788  19.175  0.00  0.00    -0.362 N 
+ATOM     13  H   MOL d         -23.484 -19.055  15.996  0.00  0.00     0.174 HD
+ENDROOT
+BRANCH  12  14
+ATOM     14  CAG MOL d         -23.607 -19.853  20.205  0.00  0.00     0.120 C 
+ATOM     15  CAA MOL d         -22.318 -20.686  20.246  0.00  0.00     0.026 C 
+ENDBRANCH  12  14
+TORSDOF 1

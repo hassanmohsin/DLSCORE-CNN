@@ -1,0 +1,51 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_14  and  O3A_4 
+REMARK    2  A    between atoms: O6_9  and  PB_8 
+REMARK    3  A    between atoms: PA_10  and  O6_9 
+REMARK    4  A    between atoms: O5_11  and  PA_10 
+REMARK    5  A    between atoms: C5_12  and  O5_11 
+REMARK    6  A    between atoms: C4_13  and  C5_12 
+REMARK    7  A    between atoms: C4_13  and  C3_14 
+REMARK    8  A    between atoms: C3_14  and  C2_15 
+REMARK    9  A    between atoms: C2_15  and  C1_16 
+ROOT
+ATOM      1  C5  DP6 d          26.719  24.840  46.830  0.00  0.00     0.184 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O5  DP6 d          28.114  24.769  47.141  0.00  0.00    -0.289 OA
+BRANCH   2   3
+ATOM      3  PA  DP6 d          29.206  24.517  45.990  0.00  0.00     0.418 P 
+ATOM      4  O1A DP6 d          28.910  25.362  44.813  0.00  0.00    -0.624 OA
+ATOM      5  O2A DP6 d          30.564  24.607  46.587  0.00  0.00    -0.624 OA
+BRANCH   3   6
+ATOM      6  O6  DP6 d          28.917  22.973  45.644  0.00  0.00    -0.173 OA
+BRANCH   6   7
+ATOM      7  PB  DP6 d          29.587  22.230  44.383  0.00  0.00     0.431 P 
+ATOM      8  O1B DP6 d          30.068  23.169  43.348  0.00  0.00    -0.616 OA
+ATOM      9  O2B DP6 d          28.444  21.248  43.833  0.00  0.00    -0.616 OA
+ATOM     10  O3B DP6 d          30.746  21.292  44.982  0.00  0.00    -0.616 OA
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C4  DP6 d          25.996  25.511  48.001  0.00  0.00     0.065 C 
+BRANCH  11  12
+ATOM     12  C3  DP6 d          24.487  25.655  47.797  0.00  0.00     0.065 C 
+ATOM     13  C3A DP6 d          23.813  24.338  48.187  0.00  0.00     0.046 C 
+BRANCH  12  14
+ATOM     14  O3A DP6 d          24.017  26.694  48.658  0.00  0.00    -0.390 OA
+ATOM     15  H4  DP6 d          24.433  27.514  48.419  0.00  0.00     0.210 HD
+ENDBRANCH  12  14
+BRANCH  12  16
+ATOM     16  C2  DP6 d          24.165  26.003  46.337  0.00  0.00     0.150 C 
+BRANCH  16  17
+ATOM     17  C1  DP6 d          24.567  27.418  45.899  0.00  0.00     0.175 C 
+ATOM     18  O1  DP6 d          25.058  27.621  44.791  0.00  0.00    -0.648 OA
+ATOM     19  O2  DP6 d          24.384  28.374  46.643  0.00  0.00    -0.648 OA
+ENDBRANCH  16  17
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 9

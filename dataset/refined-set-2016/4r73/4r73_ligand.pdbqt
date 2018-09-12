@@ -1,0 +1,46 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: O6_12  and  P_13 
+ROOT
+ATOM      1  C1  G6P d          10.964  25.047  49.150  0.00  0.00     0.288 C 
+ATOM      2  C2  G6P d          10.679  23.972  48.250  0.00  0.00     0.204 C 
+ATOM      3  C3  G6P d          11.744  22.905  48.360  0.00  0.00     0.183 C 
+ATOM      4  C4  G6P d          13.131  23.478  48.218  0.00  0.00     0.180 C 
+ATOM      5  C5  G6P d          13.268  24.567  49.256  0.00  0.00     0.180 C 
+ATOM      6  O5  G6P d          12.236  25.464  49.082  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C6  G6P d          14.540  25.350  49.119  0.00  0.00     0.217 C 
+BRANCH   7   8
+ATOM      8  O6  G6P d          14.550  26.362  50.068  0.00  0.00    -0.280 OA
+BRANCH   8   9
+ATOM      9  P   G6P d          15.636  27.591  50.082  0.00  0.00     0.422 P 
+ATOM     10  O1P G6P d          15.108  28.528  51.115  0.00  0.00    -0.617 OA
+ATOM     11  O2P G6P d          16.943  27.027  50.377  0.00  0.00    -0.617 OA
+ATOM     12  O3P G6P d          15.648  28.165  48.768  0.00  0.00    -0.617 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   4  13
+ATOM     13  O4  G6P d          14.044  22.448  48.391  0.00  0.00    -0.390 OA
+ATOM     14  H11 G6P d          13.914  21.794  47.715  0.00  0.00     0.210 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O3  G6P d          11.447  22.010  47.331  0.00  0.00    -0.390 OA
+ATOM     16  H10 G6P d          11.501  22.460  46.496  0.00  0.00     0.210 HD
+ENDBRANCH   3  15
+BRANCH   1  17
+ATOM     17  O1  G6P d          10.034  26.028  49.227  0.00  0.00    -0.369 OA
+ATOM     18  H8  G6P d          10.095  26.582  48.457  0.00  0.00     0.212 HD
+ENDBRANCH   1  17
+BRANCH   2  19
+ATOM     19  O2  G6P d           9.363  23.402  48.480  0.00  0.00    -0.388 OA
+ATOM     20  H9  G6P d           8.706  24.085  48.407  0.00  0.00     0.210 HD
+ENDBRANCH   2  19
+TORSDOF 7

@@ -1,0 +1,19 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  N   BET d          14.456  19.263  12.709  0.00  0.00    -0.069 N 
+ATOM      2  C1  BET d          13.097  18.800  12.406  0.00  0.00     0.272 C 
+ATOM      3  C2  BET d          14.907  18.780  14.019  0.00  0.00     0.272 C 
+ATOM      4  C3  BET d          14.435  20.740  12.736  0.00  0.00     0.272 C 
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  BET d          15.386  18.819  11.639  0.00  0.00     0.348 C 
+BRANCH   5   6
+ATOM      6  C   BET d          15.512  17.295  11.562  0.00  0.00     0.199 C 
+ATOM      7  O1  BET d          16.383  16.774  12.195  0.00  0.00    -0.647 OA
+ATOM      8  O2  BET d          14.710  16.532  10.841  0.00  0.00    -0.647 OA
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 2

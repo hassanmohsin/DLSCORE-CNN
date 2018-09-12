@@ -1,0 +1,15 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  P1_7 
+ROOT
+ATOM      1  O1  PPF d          35.474  36.803  15.471  0.00  0.00    -0.632 OA
+ATOM      2  O2  PPF d          37.436  38.066  16.293  0.00  0.00    -0.632 OA
+ATOM      3  O3  PPF d          35.431  37.815  17.776  0.00  0.00    -0.632 OA
+ATOM      4  P1  PPF d          36.252  37.215  16.688  0.00  0.00     0.364 P 
+ENDROOT
+BRANCH   4   5
+ATOM      5  C1  PPF d          36.797  35.631  17.334  0.00  0.00     0.307 C 
+ATOM      6  O4  PPF d          37.580  35.578  18.344  0.00  0.00    -0.637 OA
+ATOM      7  O5  PPF d          36.370  34.543  16.812  0.00  0.00    -0.637 OA
+ENDBRANCH   4   5
+TORSDOF 1

@@ -1,0 +1,120 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C6_6 
+REMARK    2  A    between atoms: C6_6  and  O7_7 
+REMARK    3  A    between atoms: O7_7  and  C10_8 
+REMARK       I    between atoms: C10_8  and  N11_9 
+REMARK    4  A    between atoms: N11_9  and  C12_10 
+REMARK    5  A    between atoms: C12_10  and  C26_19 
+REMARK    6  A    between atoms: C12_10  and  C13_11 
+REMARK    7  A    between atoms: C13_11  and  O41_26 
+REMARK    8  A    between atoms: C13_11  and  C14_12 
+REMARK    9  A    between atoms: C14_12  and  C15_13 
+REMARK   10  A    between atoms: C15_13  and  N58_34 
+REMARK   11  A    between atoms: C15_13  and  C44_27 
+REMARK       I    between atoms: N58_34  and  C18_14 
+REMARK   12  A    between atoms: C18_14  and  C19_15 
+REMARK   13  A    between atoms: C19_15  and  C62_36 
+REMARK   14  A    between atoms: C19_15  and  N20_16 
+REMARK       I    between atoms: N20_16  and  C21_17 
+REMARK       I    between atoms: C21_17  and  N74_39 
+REMARK   15  A    between atoms: C26_19  and  C28_20 
+REMARK   16  A    between atoms: C44_27  and  C45_28 
+REMARK   17  A    between atoms: N74_39  and  C75_40 
+REMARK   18  A    between atoms: C75_40  and  C77_42 
+REMARK   19  A    between atoms: C82_45  and  C85_47 
+ROOT
+ATOM      1  C15 RIT d          11.140  23.572   3.315  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C14 RIT d          12.672  23.806   3.171  0.00  0.00     0.059 C 
+BRANCH   2   3
+ATOM      3  C13 RIT d          13.503  24.140   4.392  0.00  0.00     0.143 C 
+BRANCH   3   4
+ATOM      4  C12 RIT d          13.873  22.912   5.228  0.00  0.00     0.119 C 
+BRANCH   4   5
+ATOM      5  N11 RIT d          14.650  21.872   4.525  0.00  0.00    -0.329 N 
+ATOM      6  C10 RIT d          14.216  20.602   4.339  0.00  0.00     0.361 C 
+ATOM      7  O24 RIT d          13.103  20.170   4.660  0.00  0.00    -0.238 OA
+ATOM      8  H5  RIT d          15.550  22.119   4.165  0.00  0.00     0.165 HD
+BRANCH   6   9
+ATOM      9  O7  RIT d          15.186  19.813   3.708  0.00  0.00    -0.299 OA
+BRANCH   9  10
+ATOM     10  C6  RIT d          15.073  18.417   3.489  0.00  0.00     0.228 C 
+BRANCH  10  11
+ATOM     11  C2  RIT d          16.229  17.935   2.784  0.00  0.00     0.025 A 
+ATOM     12  C1  RIT d          16.662  17.790   1.494  0.00  0.00     0.133 A 
+ATOM     13  N5  RIT d          17.867  17.366   1.377  0.00  0.00    -0.265 NA
+ATOM     14  C4  RIT d          18.316  17.113   2.555  0.00  0.00     0.166 A 
+ATOM     15  S3  RIT d          17.345  17.324   4.036  0.00  0.00    -0.084 SA
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   4   5
+BRANCH   4  16
+ATOM     16  C26 RIT d          14.261  23.243   6.671  0.00  0.00     0.066 C 
+BRANCH  16  17
+ATOM     17  C28 RIT d          14.816  22.225   7.534  0.00  0.00    -0.056 A 
+ATOM     18  C35 RIT d          16.115  21.668   7.549  0.00  0.00     0.007 A 
+ATOM     19  C34 RIT d          16.392  20.566   8.364  0.00  0.00     0.001 A 
+ATOM     20  C33 RIT d          15.374  20.013   9.171  0.00  0.00     0.000 A 
+ATOM     21  C32 RIT d          14.098  20.603   9.157  0.00  0.00     0.001 A 
+ATOM     22  C31 RIT d          13.799  21.708   8.344  0.00  0.00     0.007 A 
+ENDBRANCH  16  17
+ENDBRANCH   4  16
+ENDBRANCH   3   4
+BRANCH   3  23
+ATOM     23  O41 RIT d          14.754  24.664   3.978  0.00  0.00    -0.393 OA
+ATOM     24  H20 RIT d          14.611  25.439   3.447  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  25
+ATOM     25  N58 RIT d          10.469  24.554   4.137  0.00  0.00    -0.354 N 
+ATOM     26  C18 RIT d           9.960  24.298   5.348  0.00  0.00     0.241 C 
+ATOM     27  O61 RIT d           9.968  23.159   5.858  0.00  0.00    -0.271 OA
+ATOM     28  H28 RIT d          10.380  25.483   3.778  0.00  0.00     0.162 HD
+BRANCH  26  29
+ATOM     29  C19 RIT d           9.274  25.515   5.996  0.00  0.00     0.181 C 
+BRANCH  29  30
+ATOM     30  C62 RIT d           9.255  25.567   7.557  0.00  0.00     0.009 C 
+ATOM     31  C68 RIT d           8.565  26.841   8.095  0.00  0.00     0.012 C 
+ATOM     32  C64 RIT d          10.596  25.275   8.282  0.00  0.00     0.012 C 
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  N20 RIT d           7.906  25.680   5.503  0.00  0.00    -0.329 N 
+ATOM     34  C21 RIT d           7.665  26.518   4.481  0.00  0.00     0.319 C 
+ATOM     35  O76 RIT d           8.471  27.427   4.192  0.00  0.00    -0.247 OA
+ATOM     36  N74 RIT d           6.423  26.400   3.958  0.00  0.00    -0.333 N 
+ATOM     37  C95 RIT d           5.484  25.508   4.240  0.00  0.00     0.154 C 
+ATOM     38  H12 RIT d           7.155  25.172   5.925  0.00  0.00     0.165 HD
+BRANCH  36  39
+ATOM     39  C75 RIT d           5.969  27.345   2.938  0.00  0.00     0.186 C 
+BRANCH  39  40
+ATOM     40  C77 RIT d           5.910  26.849   1.559  0.00  0.00     0.060 C 
+ATOM     41  N83 RIT d           4.871  26.263   1.044  0.00  0.00    -0.248 NA
+ATOM     42  C82 RIT d           5.087  25.736  -0.124  0.00  0.00     0.078 C 
+ATOM     43  S81 RIT d           6.639  26.257  -0.785  0.00  0.00    -0.084 SA
+ATOM     44  C80 RIT d           7.024  27.012   0.784  0.00  0.00     0.080 C 
+BRANCH  42  45
+ATOM     45  C85 RIT d           4.497  24.886  -1.046  0.00  0.00     0.037 C 
+ATOM     46  C90 RIT d           3.245  24.373  -0.462  0.00  0.00     0.016 C 
+ATOM     47  C86 RIT d           4.139  25.131  -2.506  0.00  0.00     0.016 C 
+ENDBRANCH  42  45
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH  29  33
+ENDBRANCH  26  29
+ENDBRANCH   1  25
+BRANCH   1  48
+ATOM     48  C44 RIT d          10.569  23.586   1.929  0.00  0.00     0.063 C 
+BRANCH  48  49
+ATOM     49  C45 RIT d           9.254  22.978   2.001  0.00  0.00    -0.056 A 
+ATOM     50  C52 RIT d           9.059  21.593   1.992  0.00  0.00     0.007 A 
+ATOM     51  C51 RIT d           7.756  21.090   2.003  0.00  0.00     0.001 A 
+ATOM     52  C50 RIT d           6.660  21.949   2.026  0.00  0.00     0.000 A 
+ATOM     53  C49 RIT d           6.836  23.335   2.041  0.00  0.00     0.001 A 
+ATOM     54  C48 RIT d           8.149  23.845   2.018  0.00  0.00     0.007 A 
+ENDBRANCH  48  49
+ENDBRANCH   1  48
+TORSDOF 19

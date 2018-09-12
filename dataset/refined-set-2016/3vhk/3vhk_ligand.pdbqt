@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_15  and  C2_10 
+REMARK    2  A    between atoms: C17_11  and  C21_17 
+REMARK    3  A    between atoms: O14_22  and  C15_12 
+REMARK    4  A    between atoms: C13_18  and  C9_13 
+REMARK    5  A    between atoms: C21_17  and  O22_21 
+REMARK    6  A    between atoms: C13_18  and  O14_22 
+ROOT
+ATOM      1  C9  BPK d         -29.535  26.310  15.556  0.00  0.00     0.090 A 
+ATOM      2  C10 BPK d         -29.911  26.042  14.257  0.00  0.00     0.078 A 
+ATOM      3  C1  BPK d         -27.899  26.734  14.299  0.00  0.00     0.180 A 
+ATOM      4  C12 BPK d         -31.137  25.554  13.610  0.00  0.00     0.079 C 
+ATOM      5  N8  BPK d         -28.239  26.755  15.570  0.00  0.00    -0.224 NA
+ATOM      6  O11 BPK d         -28.864  26.311  13.438  0.00  0.00    -0.294 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  C13 BPK d         -30.310  26.183  16.801  0.00  0.00     0.237 C 
+BRANCH   7   8
+ATOM      8  O14 BPK d         -29.759  26.984  17.840  0.00  0.00    -0.345 OA
+BRANCH   8   9
+ATOM      9  C15 BPK d         -30.417  26.649  19.013  0.00  0.00     0.069 A 
+ATOM     10  C20 BPK d         -30.531  27.616  19.987  0.00  0.00     0.037 A 
+ATOM     11  C19 BPK d         -31.176  27.320  21.167  0.00  0.00     0.003 A 
+ATOM     12  C18 BPK d         -31.700  26.061  21.364  0.00  0.00     0.009 A 
+ATOM     13  C17 BPK d         -31.584  25.092  20.389  0.00  0.00    -0.032 A 
+ATOM     14  C16 BPK d         -30.938  25.387  19.208  0.00  0.00     0.046 A 
+BRANCH  13  15
+ATOM     15  C21 BPK d         -32.151  23.734  20.598  0.00  0.00     0.203 C 
+BRANCH  15  16
+ATOM     16  O22 BPK d         -31.597  23.195  21.787  0.00  0.00    -0.396 OA
+ATOM     17  H17 BPK d         -31.951  22.326  21.934  0.00  0.00     0.209 HD
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   3  18
+ATOM     18  C2  BPK d         -26.657  27.108  13.685  0.00  0.00     0.017 A 
+ATOM     19  C3  BPK d         -26.656  27.969  12.611  0.00  0.00     0.016 A 
+ATOM     20  C4  BPK d         -25.472  28.348  12.021  0.00  0.00     0.001 A 
+ATOM     21  C5  BPK d         -24.282  27.860  12.508  0.00  0.00     0.000 A 
+ATOM     22  C6  BPK d         -24.282  26.995  13.580  0.00  0.00     0.001 A 
+ATOM     23  C7  BPK d         -25.467  26.619  14.171  0.00  0.00     0.016 A 
+ENDBRANCH   3  18
+TORSDOF 6

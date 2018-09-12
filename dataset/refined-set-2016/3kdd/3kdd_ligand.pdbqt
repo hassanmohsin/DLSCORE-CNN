@@ -1,0 +1,93 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C12_13  and  N2_4 
+REMARK    1  A    between atoms: N2_4  and  C13_14 
+REMARK    2  A    between atoms: O2_5  and  C21_22 
+REMARK    3  A    between atoms: C45_43  and  O2_5 
+REMARK       I    between atoms: C16_17  and  N3_6 
+REMARK       I    between atoms: C20_21  and  N4_8 
+REMARK    4  A    between atoms: N4_8  and  C31_31 
+REMARK    5  A    between atoms: C14_15  and  O5_10 
+REMARK    6  A    between atoms: C35_35  and  O7_11 
+REMARK    7  A    between atoms: C21_22  and  C12_13 
+REMARK    8  A    between atoms: C13_14  and  C14_15 
+REMARK    9  A    between atoms: C13_14  and  C15_16 
+REMARK   10  A    between atoms: C14_15  and  C16_17 
+REMARK   11  A    between atoms: C15_16  and  C22_23 
+REMARK   12  A    between atoms: C17_18  and  C20_21 
+ROOT
+ATOM      1  C14 JZQ d          15.940  24.557  17.710  0.00  0.00     0.233 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O5  JZQ d          15.537  25.558  18.649  0.00  0.00    -0.384 OA
+ATOM      3  H3  JZQ d          15.529  25.186  19.523  0.00  0.00     0.210 HD
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  C13 JZQ d          17.344  24.040  18.045  0.00  0.00     0.126 C 
+BRANCH   4   5
+ATOM      5  N2  JZQ d          18.312  24.854  17.328  0.00  0.00    -0.351 N 
+ATOM      6  C12 JZQ d          18.888  24.427  16.201  0.00  0.00     0.242 C 
+ATOM      7  O8  JZQ d          18.539  23.419  15.615  0.00  0.00    -0.271 OA
+ATOM      8  H1  JZQ d          18.552  25.756  17.687  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C21 JZQ d          20.030  25.241  15.637  0.00  0.00     0.278 C 
+BRANCH   9  10
+ATOM     10  O2  JZQ d          20.143  26.512  16.275  0.00  0.00    -0.336 OA
+BRANCH  10  11
+ATOM     11  C45 JZQ d          21.351  27.165  16.192  0.00  0.00     0.146 A 
+ATOM     12  C42 JZQ d          21.737  27.792  15.011  0.00  0.00     0.152 A 
+ATOM     13  F1  JZQ d          20.936  27.784  13.931  0.00  0.00    -0.203 F 
+ATOM     14  C41 JZQ d          22.965  28.443  14.937  0.00  0.00     0.045 A 
+ATOM     15  C40 JZQ d          23.807  28.470  16.046  0.00  0.00     0.006 A 
+ATOM     16  C47 JZQ d          23.424  27.836  17.223  0.00  0.00     0.045 A 
+ATOM     17  C46 JZQ d          22.197  27.183  17.293  0.00  0.00     0.152 A 
+ATOM     18  F2  JZQ d          21.831  26.576  18.436  0.00  0.00    -0.203 F 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   4   5
+BRANCH   4  19
+ATOM     19  C15 JZQ d          17.656  24.046  19.543  0.00  0.00     0.066 C 
+BRANCH  19  20
+ATOM     20  C22 JZQ d          19.023  23.448  19.789  0.00  0.00    -0.056 A 
+ATOM     21  C23 JZQ d          19.196  22.062  19.797  0.00  0.00     0.007 A 
+ATOM     22  C24 JZQ d          20.458  21.522  20.027  0.00  0.00     0.001 A 
+ATOM     23  C25 JZQ d          21.548  22.365  20.237  0.00  0.00     0.000 A 
+ATOM     24  C26 JZQ d          21.380  23.750  20.227  0.00  0.00     0.001 A 
+ATOM     25  C27 JZQ d          20.113  24.289  20.007  0.00  0.00     0.007 A 
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  C16 JZQ d          14.880  23.482  17.668  0.00  0.00     0.252 C 
+ATOM     27  N3  JZQ d          14.565  22.952  16.480  0.00  0.00    -0.326 N 
+ATOM     28  C17 JZQ d          13.467  21.968  16.366  0.00  0.00     0.198 C 
+ATOM     29  C19 JZQ d          15.220  23.239  15.198  0.00  0.00     0.201 C 
+ATOM     30  C18 JZQ d          13.032  21.757  14.909  0.00  0.00     0.032 C 
+ATOM     31  S1  JZQ d          14.487  22.163  14.023  0.00  0.00    -0.137 SA
+ATOM     32  C29 JZQ d          11.934  22.757  14.591  0.00  0.00     0.029 C 
+ATOM     33  C30 JZQ d          12.554  20.349  14.555  0.00  0.00     0.029 C 
+ATOM     34  O3  JZQ d          14.321  23.151  18.703  0.00  0.00    -0.270 OA
+BRANCH  28  35
+ATOM     35  C20 JZQ d          13.781  20.663  17.047  0.00  0.00     0.242 C 
+ATOM     36  N4  JZQ d          12.775  20.151  17.761  0.00  0.00    -0.348 N 
+ATOM     37  H2  JZQ d          12.036  20.757  18.056  0.00  0.00     0.163 HD
+ATOM     38  O4  JZQ d          14.887  20.143  16.922  0.00  0.00    -0.271 OA
+BRANCH  36  39
+ATOM     39  C31 JZQ d          12.716  18.752  18.123  0.00  0.00     0.147 C 
+ATOM     40  C32 JZQ d          12.920  18.556  19.570  0.00  0.00    -0.027 A 
+ATOM     41  C33 JZQ d          13.846  19.203  20.372  0.00  0.00     0.010 A 
+ATOM     42  C36 JZQ d          12.061  17.613  20.075  0.00  0.00    -0.047 A 
+ATOM     43  C34 JZQ d          13.851  18.856  21.720  0.00  0.00     0.001 A 
+ATOM     44  C38 JZQ d          12.970  17.901  22.235  0.00  0.00     0.001 A 
+ATOM     45  C37 JZQ d          12.050  17.258  21.417  0.00  0.00     0.008 A 
+ATOM     46  C39 JZQ d          11.153  17.067  19.016  0.00  0.00     0.073 C 
+ATOM     47  C35 JZQ d          11.337  18.113  17.922  0.00  0.00     0.149 C 
+BRANCH  47  48
+ATOM     48  O7  JZQ d          10.305  19.090  18.086  0.00  0.00    -0.393 OA
+ATOM     49  H4  JZQ d           9.458  18.679  17.959  0.00  0.00     0.210 HD
+ENDBRANCH  47  48
+ENDBRANCH  36  39
+ENDBRANCH  28  35
+ENDBRANCH   1  26
+TORSDOF 12

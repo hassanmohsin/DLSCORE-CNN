@@ -1,0 +1,69 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C1_1  and  O1_2 
+REMARK    3  A    between atoms: O1_2  and  C15_19 
+REMARK       I    between atoms: N7_9  and  C8_10 
+REMARK    4  A    between atoms: C8_10  and  C9_12 
+REMARK    5  A    between atoms: C9_12  and  C10_14 
+REMARK    6  A    between atoms: C10_14  and  C11_15 
+REMARK    7  A    between atoms: C15_19  and  C24_28 
+REMARK    8  A    between atoms: C15_19  and  C16_20 
+REMARK    9  A    between atoms: C16_20  and  C17_21 
+REMARK   10  A    between atoms: C17_21  and  C18_22 
+ROOT
+ATOM      1  C1  SBX d         -24.934  27.202  42.806  0.00  0.00     0.282 C 
+ATOM      2  O2  SBX d         -23.745  27.125  42.522  0.00  0.00    -0.263 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C2  SBX d         -25.849  25.998  42.617  0.00  0.00     0.187 C 
+ATOM      4  N7  SBX d         -27.302  26.186  42.585  0.00  0.00    -0.332 N 
+ATOM      5  C6  SBX d         -27.786  26.993  41.460  0.00  0.00     0.127 C 
+ATOM      6  C8  SBX d         -28.055  25.794  43.631  0.00  0.00     0.291 C 
+ATOM      7  C5  SBX d         -27.435  26.196  40.214  0.00  0.00     0.020 C 
+ATOM      8  C4  SBX d         -25.924  26.031  40.082  0.00  0.00     0.004 C 
+ATOM      9  C3  SBX d         -25.491  25.272  41.325  0.00  0.00     0.035 C 
+ATOM     10  O3  SBX d         -27.485  25.304  44.607  0.00  0.00    -0.264 OA
+BRANCH   6  11
+ATOM     11  C9  SBX d         -29.575  25.816  43.695  0.00  0.00     0.224 C 
+ATOM     12  O4  SBX d         -30.139  24.821  43.236  0.00  0.00    -0.286 OA
+BRANCH  11  13
+ATOM     13  C10 SBX d         -30.388  26.908  44.381  0.00  0.00     0.022 C 
+ATOM     14  C14 SBX d         -31.379  27.552  43.457  0.00  0.00     0.023 C 
+ATOM     15  C13 SBX d         -31.280  26.297  45.414  0.00  0.00     0.023 C 
+BRANCH  13  16
+ATOM     16  C11 SBX d         -29.540  27.989  45.037  0.00  0.00     0.012 C 
+ATOM     17  C12 SBX d         -28.897  27.587  46.397  0.00  0.00     0.006 C 
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+ENDBRANCH   1   3
+BRANCH   1  18
+ATOM     18  O1  SBX d         -25.556  28.270  43.291  0.00  0.00    -0.314 OA
+BRANCH  18  19
+ATOM     19  C15 SBX d         -24.912  29.576  43.348  0.00  0.00     0.136 C 
+BRANCH  19  20
+ATOM     20  C24 SBX d         -25.919  30.634  42.967  0.00  0.00     0.015 C 
+ATOM     21  C29 SBX d         -27.215  30.518  43.758  0.00  0.00     0.007 C 
+ATOM     22  C28 SBX d         -28.019  31.807  43.612  0.00  0.00     0.000 C 
+ATOM     23  C27 SBX d         -28.230  32.054  42.133  0.00  0.00     0.000 C 
+ATOM     24  C26 SBX d         -26.924  32.103  41.352  0.00  0.00     0.000 C 
+ATOM     25  C25 SBX d         -26.171  30.815  41.487  0.00  0.00     0.007 C 
+ENDBRANCH  19  20
+BRANCH  19  26
+ATOM     26  C16 SBX d         -24.381  29.882  44.740  0.00  0.00     0.037 C 
+BRANCH  26  27
+ATOM     27  C17 SBX d         -23.010  30.546  44.748  0.00  0.00     0.041 C 
+BRANCH  27  28
+ATOM     28  C18 SBX d         -22.015  30.205  45.831  0.00  0.00    -0.058 A 
+ATOM     29  C23 SBX d         -20.917  29.541  45.537  0.00  0.00     0.007 A 
+ATOM     30  C22 SBX d         -20.132  29.103  46.502  0.00  0.00     0.001 A 
+ATOM     31  C21 SBX d         -20.439  29.331  47.765  0.00  0.00     0.000 A 
+ATOM     32  C20 SBX d         -21.529  30.009  48.071  0.00  0.00     0.001 A 
+ATOM     33  C19 SBX d         -22.310  30.447  47.101  0.00  0.00     0.007 A 
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  19  26
+ENDBRANCH  18  19
+ENDBRANCH   1  18
+TORSDOF 10

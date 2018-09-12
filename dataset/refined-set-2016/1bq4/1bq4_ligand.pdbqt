@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  CO1_2 
+REMARK    2  A    between atoms: C2_5  and  CO2_6 
+REMARK    3  A    between atoms: C3_9  and  CO3_10 
+REMARK    4  A    between atoms: C4_13  and  CO4_14 
+REMARK    5  A    between atoms: C5_17  and  CO5_18 
+REMARK    6  A    between atoms: C6_21  and  CO6_22 
+ROOT
+ATOM      1  C1  BHC d           7.498  -8.707  35.156  0.00  0.00     0.076 A 
+ATOM      2  C2  BHC d           6.115  -8.640  35.494  0.00  0.00     0.076 A 
+ATOM      3  C3  BHC d           5.304  -9.770  35.341  0.00  0.00     0.076 A 
+ATOM      4  C4  BHC d           5.855 -10.984  34.881  0.00  0.00     0.076 A 
+ATOM      5  C5  BHC d           7.223 -11.066  34.568  0.00  0.00     0.076 A 
+ATOM      6  C6  BHC d           8.044  -9.917  34.706  0.00  0.00     0.076 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CO1 BHC d           8.388  -7.452  35.163  0.00  0.00     0.211 C 
+ATOM      8  O12 BHC d           8.094  -6.567  34.324  0.00  0.00    -0.644 OA
+ATOM      9  O11 BHC d           9.401  -7.365  36.021  0.00  0.00    -0.644 OA
+ENDBRANCH   1   7
+BRANCH   6  10
+ATOM     10  CO6 BHC d           9.564  -9.980  34.405  0.00  0.00     0.211 C 
+ATOM     11  O62 BHC d           9.928  -9.451  33.339  0.00  0.00    -0.644 OA
+ATOM     12  O61 BHC d          10.344  -9.966  35.389  0.00  0.00    -0.644 OA
+ENDBRANCH   6  10
+BRANCH   2  13
+ATOM     13  CO2 BHC d           5.495  -7.319  36.041  0.00  0.00     0.211 C 
+ATOM     14  O22 BHC d           5.217  -6.434  35.202  0.00  0.00    -0.644 OA
+ATOM     15  O21 BHC d           5.280  -7.206  37.281  0.00  0.00    -0.644 OA
+ENDBRANCH   2  13
+BRANCH   5  16
+ATOM     16  CO5 BHC d           7.816 -12.422  34.127  0.00  0.00     0.211 C 
+ATOM     17  O52 BHC d           8.460 -12.484  33.051  0.00  0.00    -0.644 OA
+ATOM     18  O51 BHC d           7.628 -13.464  34.904  0.00  0.00    -0.644 OA
+ENDBRANCH   5  16
+BRANCH   3  19
+ATOM     19  CO3 BHC d           3.812  -9.698  35.698  0.00  0.00     0.211 C 
+ATOM     20  O32 BHC d           3.017  -9.447  34.751  0.00  0.00    -0.644 OA
+ATOM     21  O31 BHC d           3.446  -9.878  36.962  0.00  0.00    -0.644 OA
+ENDBRANCH   3  19
+BRANCH   4  22
+ATOM     22  CO4 BHC d           4.958 -12.193  34.605  0.00  0.00     0.211 C 
+ATOM     23  O42 BHC d           4.766 -12.471  33.394  0.00  0.00    -0.644 OA
+ATOM     24  O41 BHC d           4.471 -12.852  35.574  0.00  0.00    -0.644 OA
+ENDBRANCH   4  22
+TORSDOF 6

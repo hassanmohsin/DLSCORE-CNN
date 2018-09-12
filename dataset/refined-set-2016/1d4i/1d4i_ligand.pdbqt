@@ -1,0 +1,107 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_15  and  C01_1 
+REMARK    2  A    between atoms: C13_13  and  C07_7 
+REMARK    3  A    between atoms: O14_14  and  C13_13 
+REMARK    4  A    between atoms: C15_17  and  O14_14 
+REMARK    5  A    between atoms: O22_16  and  C23_15 
+REMARK    6  A    between atoms: C18_21  and  O22_16 
+REMARK    7  A    between atoms: C15_17  and  C16_18 
+REMARK    8  A    between atoms: C15_17  and  C25_25 
+REMARK    9  A    between atoms: C16_18  and  C17_19 
+REMARK   10  A    between atoms: C17_19  and  O24_20 
+REMARK   11  A    between atoms: C17_19  and  C18_21 
+REMARK   12  A    between atoms: C18_21  and  C19_22 
+REMARK       I    between atoms: C19_22  and  N21_24 
+REMARK   13  A    between atoms: N21_24  and  C38_38 
+REMARK       I    between atoms: C25_25  and  N27_27 
+REMARK   14  A    between atoms: N27_27  and  C28_28 
+REMARK   15  A    between atoms: C34_34  and  O35_35 
+REMARK   16  A    between atoms: C44_44  and  O45_45 
+ROOT
+ATOM      1  C17 BEG d          13.502  24.425   5.006  0.00  0.00     0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C16 BEG d          13.991  23.019   4.924  0.00  0.00     0.076 C 
+BRANCH   2   3
+ATOM      3  C15 BEG d          15.031  22.699   5.968  0.00  0.00     0.216 C 
+BRANCH   3   4
+ATOM      4  C25 BEG d          15.140  21.202   5.836  0.00  0.00     0.247 C 
+ATOM      5  O26 BEG d          14.193  20.464   6.087  0.00  0.00    -0.271 OA
+ATOM      6  N27 BEG d          16.358  20.692   5.436  0.00  0.00    -0.348 N 
+ATOM      7  H22 BEG d          17.102  21.335   5.257  0.00  0.00     0.163 HD
+BRANCH   6   8
+ATOM      8  C28 BEG d          16.620  19.277   5.261  0.00  0.00     0.147 C 
+ATOM      9  C29 BEG d          16.571  18.847   3.820  0.00  0.00    -0.027 A 
+ATOM     10  C30 BEG d          17.534  17.849   3.551  0.00  0.00    -0.047 A 
+ATOM     11  C31 BEG d          15.732  19.314   2.777  0.00  0.00     0.010 A 
+ATOM     12  C36 BEG d          17.679  17.289   2.256  0.00  0.00     0.008 A 
+ATOM     13  C37 BEG d          18.309  17.538   4.794  0.00  0.00     0.073 C 
+ATOM     14  C33 BEG d          16.833  17.755   1.212  0.00  0.00     0.001 A 
+ATOM     15  C32 BEG d          15.863  18.764   1.468  0.00  0.00     0.001 A 
+ATOM     16  C34 BEG d          18.018  18.781   5.673  0.00  0.00     0.149 C 
+BRANCH  16  17
+ATOM     17  O35 BEG d          18.937  19.823   5.379  0.00  0.00    -0.393 OA
+ATOM     18  H28 BEG d          19.813  19.549   5.622  0.00  0.00     0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   6   8
+ENDBRANCH   3   4
+BRANCH   3  19
+ATOM     19  O14 BEG d          14.526  23.015   7.272  0.00  0.00    -0.372 OA
+BRANCH  19  20
+ATOM     20  C13 BEG d          15.560  23.358   8.195  0.00  0.00     0.207 C 
+BRANCH  20  21
+ATOM     21  C07 BEG d          16.298  22.149   8.773  0.00  0.00    -0.035 A 
+ATOM     22  C08 BEG d          15.570  21.130   9.459  0.00  0.00     0.009 A 
+ATOM     23  C09 BEG d          16.175  19.934   9.922  0.00  0.00     0.001 A 
+ATOM     24  C10 BEG d          17.561  19.729   9.711  0.00  0.00     0.000 A 
+ATOM     25  C11 BEG d          18.315  20.725   9.045  0.00  0.00     0.001 A 
+ATOM     26  C12 BEG d          17.690  21.914   8.586  0.00  0.00     0.009 A 
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  27
+ATOM     27  O24 BEG d          14.483  25.178   4.305  0.00  0.00    -0.392 OA
+ATOM     28  H19 BEG d          14.241  26.096   4.312  0.00  0.00     0.210 HD
+ENDBRANCH   1  27
+BRANCH   1  29
+ATOM     29  C18 BEG d          12.117  24.538   4.353  0.00  0.00     0.242 C 
+BRANCH  29  30
+ATOM     30  O22 BEG d          11.920  23.554   3.313  0.00  0.00    -0.369 OA
+BRANCH  30  31
+ATOM     31  C23 BEG d          11.287  24.077   2.148  0.00  0.00     0.207 C 
+BRANCH  31  32
+ATOM     32  C01 BEG d           9.764  24.084   2.234  0.00  0.00    -0.035 A 
+ATOM     33  C02 BEG d           9.044  25.251   1.867  0.00  0.00     0.009 A 
+ATOM     34  C03 BEG d           7.641  25.363   2.003  0.00  0.00     0.001 A 
+ATOM     35  C04 BEG d           6.904  24.272   2.523  0.00  0.00     0.000 A 
+ATOM     36  C05 BEG d           7.585  23.088   2.893  0.00  0.00     0.001 A 
+ATOM     37  C06 BEG d           8.994  22.996   2.747  0.00  0.00     0.009 A 
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  38
+ATOM     38  C19 BEG d          10.944  24.485   5.324  0.00  0.00     0.249 C 
+ATOM     39  O20 BEG d          10.696  23.492   6.004  0.00  0.00    -0.271 OA
+ATOM     40  N21 BEG d          10.140  25.606   5.373  0.00  0.00    -0.348 N 
+ATOM     41  H21 BEG d          10.386  26.369   4.775  0.00  0.00     0.163 HD
+BRANCH  40  42
+ATOM     42  C38 BEG d           8.968  25.778   6.216  0.00  0.00     0.147 C 
+ATOM     43  C39 BEG d           9.256  26.507   7.503  0.00  0.00    -0.027 A 
+ATOM     44  C40 BEG d           8.181  27.361   7.860  0.00  0.00    -0.047 A 
+ATOM     45  C41 BEG d          10.408  26.446   8.332  0.00  0.00     0.010 A 
+ATOM     46  C46 BEG d           8.224  28.156   9.035  0.00  0.00     0.008 A 
+ATOM     47  C47 BEG d           7.093  27.273   6.832  0.00  0.00     0.073 C 
+ATOM     48  C43 BEG d           9.377  28.089   9.863  0.00  0.00     0.001 A 
+ATOM     49  C42 BEG d          10.467  27.240   9.518  0.00  0.00     0.001 A 
+ATOM     50  C44 BEG d           7.849  26.663   5.625  0.00  0.00     0.149 C 
+BRANCH  50  51
+ATOM     51  O45 BEG d           8.482  27.684   4.868  0.00  0.00    -0.393 OA
+ATOM     52  H37 BEG d           7.821  28.250   4.487  0.00  0.00     0.210 HD
+ENDBRANCH  50  51
+ENDBRANCH  40  42
+ENDBRANCH  29  38
+ENDBRANCH   1  29
+TORSDOF 16

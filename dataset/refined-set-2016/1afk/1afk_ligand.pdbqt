@@ -1,0 +1,69 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PB_1  and  O3A_8 
+REMARK    2  A    between atoms: O3A_8  and  PA_5 
+REMARK    3  A    between atoms: PA_5  and  O5'_9 
+REMARK    4  A    between atoms: O5'_9  and  C5'_10 
+REMARK    5  A    between atoms: C5'_10  and  C4'_11 
+REMARK    6  A    between atoms: C3'_13  and  O3'_14 
+REMARK    7  A    between atoms: O3'_14  and  P_15 
+REMARK    8  A    between atoms: C2'_19  and  O2'_20 
+REMARK    9  A    between atoms: C1'_21  and  N9_22 
+REMARK   10  A    between atoms: C6_26  and  N6_27 
+ROOT
+ATOM      1  C4' PAP d          37.455  -6.578  19.762  0.00  0.00     0.180 C 
+ATOM      2  O4' PAP d          36.807  -5.990  18.629  0.00  0.00    -0.353 OA
+ATOM      3  C3' PAP d          38.789  -7.185  19.248  0.00  0.00     0.199 C 
+ATOM      4  C2' PAP d          38.987  -6.400  17.957  0.00  0.00     0.199 C 
+ATOM      5  C1' PAP d          37.518  -6.460  17.494  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  PAP d          37.123  -5.536  16.407  0.00  0.00    -0.294 N 
+ATOM      7  C4  PAP d          37.497  -4.192  16.142  0.00  0.00     0.167 A 
+ATOM      8  C5  PAP d          36.819  -3.850  14.977  0.00  0.00     0.149 A 
+ATOM      9  N3  PAP d          38.330  -3.348  16.848  0.00  0.00    -0.222 NA
+ATOM     10  N7  PAP d          36.038  -4.963  14.529  0.00  0.00    -0.236 NA
+ATOM     11  C6  PAP d          36.992  -2.499  14.451  0.00  0.00     0.155 A 
+ATOM     12  C8  PAP d          36.262  -5.900  15.402  0.00  0.00     0.214 A 
+ATOM     13  N1  PAP d          37.797  -1.657  15.151  0.00  0.00    -0.222 NA
+ATOM     14  C2  PAP d          38.390  -2.130  16.257  0.00  0.00     0.237 A 
+BRANCH  11  15
+ATOM     15  N6  PAP d          36.447  -2.101  13.285  0.00  0.00    -0.382 N 
+ATOM     16  H9  PAP d          36.594  -1.138  12.950  0.00  0.00     0.157 HD
+ATOM     17  H10 PAP d          35.883  -2.760  12.729  0.00  0.00     0.157 HD
+ENDBRANCH  11  15
+ENDBRANCH   5   6
+BRANCH   4  18
+ATOM     18  O2' PAP d          39.881  -7.097  17.061  0.00  0.00    -0.388 OA
+ATOM     19  H6  PAP d          39.628  -8.011  17.011  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' PAP d          37.654  -5.460  20.743  0.00  0.00     0.216 C 
+BRANCH  20  21
+ATOM     21  O5' PAP d          38.135  -6.071  21.924  0.00  0.00    -0.287 OA
+BRANCH  21  22
+ATOM     22  PA  PAP d          38.898  -5.197  23.066  0.00  0.00     0.418 P 
+ATOM     23  O2A PAP d          40.090  -4.548  22.456  0.00  0.00    -0.624 OA
+ATOM     24  O1A PAP d          39.101  -6.102  24.236  0.00  0.00    -0.624 OA
+BRANCH  22  25
+ATOM     25  O3A PAP d          37.713  -4.079  23.616  0.00  0.00    -0.173 OA
+BRANCH  25  26
+ATOM     26  PB  PAP d          37.096  -2.627  23.146  0.00  0.00     0.431 P 
+ATOM     27  O3B PAP d          37.790  -2.310  21.876  0.00  0.00    -0.616 OA
+ATOM     28  O2B PAP d          37.470  -1.708  24.274  0.00  0.00    -0.616 OA
+ATOM     29  O1B PAP d          35.645  -2.854  22.991  0.00  0.00    -0.616 OA
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   3  30
+ATOM     30  O3' PAP d          38.603  -8.605  18.982  0.00  0.00    -0.272 OA
+BRANCH  30  31
+ATOM     31  P   PAP d          39.267  -9.784  20.024  0.00  0.00     0.422 P 
+ATOM     32  O3  PAP d          40.196  -9.056  20.941  0.00  0.00    -0.617 OA
+ATOM     33  O2  PAP d          39.976 -10.686  19.081  0.00  0.00    -0.617 OA
+ATOM     34  O1  PAP d          38.032 -10.345  20.626  0.00  0.00    -0.617 OA
+ENDBRANCH  30  31
+ENDBRANCH   3  30
+TORSDOF 10

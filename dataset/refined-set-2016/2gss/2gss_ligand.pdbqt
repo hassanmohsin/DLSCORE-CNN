@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O2_2 
+REMARK    2  A    between atoms: O2_2  and  C12_16 
+REMARK    3  A    between atoms: C4_7  and  C7_10 
+REMARK    4  A    between atoms: C7_10  and  C8_12 
+REMARK    5  A    between atoms: C8_12  and  C9_13 
+REMARK    6  A    between atoms: C12_16  and  C13_17 
+ROOT
+ATOM      1  C1  EAA d           7.940   3.682  25.928  0.00  0.00     0.092 A 
+ATOM      2  C2  EAA d           8.277   2.670  26.848  0.00  0.00     0.090 A 
+ATOM      3 CL1  EAA d           9.900   2.099  26.851  0.00  0.00    -0.080 Cl
+ATOM      4  C3  EAA d           7.358   2.190  27.722  0.00  0.00     0.072 A 
+ATOM      5 CL2  EAA d           7.808   0.923  28.828  0.00  0.00    -0.081 Cl
+ATOM      6  C4  EAA d           6.040   2.653  27.727  0.00  0.00     0.038 A 
+ATOM      7  C5  EAA d           5.711   3.648  26.801  0.00  0.00     0.020 A 
+ATOM      8  C6  EAA d           6.634   4.141  25.920  0.00  0.00     0.039 A 
+ENDROOT
+BRANCH   6   9
+ATOM      9  C7  EAA d           5.050   2.235  28.771  0.00  0.00     0.189 C 
+ATOM     10  O1  EAA d           4.533   1.147  28.719  0.00  0.00    -0.287 OA
+BRANCH   9  11
+ATOM     11  C8  EAA d           4.717   3.141  29.900  0.00  0.00    -0.017 C 
+ATOM     12  C11 EAA d           4.186   4.302  29.643  0.00  0.00     0.023 C 
+BRANCH  11  13
+ATOM     13  C9  EAA d           4.969   2.606  31.262  0.00  0.00     0.037 C 
+ATOM     14  C10 EAA d           5.655   3.451  32.228  0.00  0.00     0.010 C 
+ENDBRANCH  11  13
+ENDBRANCH   9  11
+ENDBRANCH   6   9
+BRANCH   1  15
+ATOM     15  O2  EAA d           8.929   4.101  25.097  0.00  0.00    -0.339 OA
+BRANCH  15  16
+ATOM     16  C12 EAA d           8.680   5.228  24.286  0.00  0.00     0.288 C 
+BRANCH  16  17
+ATOM     17  C13 EAA d           9.907   5.589  23.535  0.00  0.00     0.198 C 
+ATOM     18  O   EAA d           9.852   6.684  22.908  0.00  0.00    -0.646 OA
+ATOM     19  OXT EAA d          10.934   4.854  23.563  0.00  0.00    -0.646 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6

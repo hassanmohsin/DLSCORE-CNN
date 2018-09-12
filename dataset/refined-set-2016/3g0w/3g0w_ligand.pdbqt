@@ -1,0 +1,39 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  O18_18 
+REMARK    2  A    between atoms: C8_8  and  C21_21 
+REMARK    3  A    between atoms: N9_9  and  C10_10 
+ROOT
+ATOM      1  C10 LGB d          54.119   3.119   3.910  0.00  0.00     0.068 A 
+ATOM      2  C11 LGB d          52.765   3.481   4.075  0.00  0.00    -0.010 A 
+ATOM      3  C12 LGB d          52.454   4.837   4.038  0.00  0.00     0.062 A 
+ATOM      4  C13 LGB d          53.438   5.827   3.844  0.00  0.00     0.067 A 
+ATOM      5  C14 LGB d          54.761   5.480   3.684  0.00  0.00     0.027 A 
+ATOM      6  C15 LGB d          55.100   4.126   3.718  0.00  0.00     0.034 A 
+ATOM      7  C16 LGB d          51.703   2.428   4.283  0.00  0.00     0.052 C 
+ATOM      8 CL17 LGB d          50.837   5.307   4.232  0.00  0.00    -0.082 Cl
+ATOM      9  C19 LGB d          53.147   7.204   3.805  0.00  0.00     0.101 C 
+ATOM     10  N20 LGB d          52.785   8.287   3.792  0.00  0.00    -0.191 NA
+ENDROOT
+BRANCH   1  11
+ATOM     11  N9  LGB d          54.433   1.800   3.944  0.00  0.00    -0.213 NA
+ATOM     12  C6  LGB d          55.568   1.233   4.368  0.00  0.00     0.223 C 
+ATOM     13  N2  LGB d          55.745  -0.160   4.529  0.00  0.00    -0.237 NA
+ATOM     14  O7  LGB d          56.675   1.912   4.694  0.00  0.00    -0.309 OA
+ATOM     15  C1  LGB d          55.148  -1.151   3.598  0.00  0.00     0.102 C 
+ATOM     16  C3  LGB d          57.201  -0.297   4.498  0.00  0.00     0.133 C 
+ATOM     17  C5  LGB d          56.284  -1.961   2.972  0.00  0.00     0.048 C 
+ATOM     18  C4  LGB d          57.527  -1.026   3.177  0.00  0.00     0.140 C 
+ATOM     19  C8  LGB d          57.787   1.094   4.728  0.00  0.00     0.259 C 
+BRANCH  18  20
+ATOM     20  O18 LGB d          58.704  -1.781   3.271  0.00  0.00    -0.394 OA
+ATOM     21  H13 LGB d          59.444  -1.198   3.395  0.00  0.00     0.210 HD
+ENDBRANCH  18  20
+BRANCH  19  22
+ATOM     22  C21 LGB d          58.319   1.238   6.141  0.00  0.00     0.415 C 
+ATOM     23  F22 LGB d          59.364   0.431   6.272  0.00  0.00    -0.168 F 
+ATOM     24  F23 LGB d          57.407   0.941   7.077  0.00  0.00    -0.168 F 
+ATOM     25  F24 LGB d          58.684   2.484   6.322  0.00  0.00    -0.168 F 
+ENDBRANCH  19  22
+ENDBRANCH   1  11
+TORSDOF 3

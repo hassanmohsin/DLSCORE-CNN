@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  C19_8 
+REMARK    2  A    between atoms: C4_7  and  C8_11 
+REMARK       I    between atoms: C8_11  and  N1_12 
+REMARK    3  A    between atoms: C13_16  and  O2_17 
+ROOT
+ATOM      1  C1  BZC d          40.679  22.662  21.837  0.00  0.00     0.101 A 
+ATOM      2  N2  BZC d          39.928  22.869  20.729  0.00  0.00    -0.227 NA
+ATOM      3  C3  BZC d          38.653  22.426  20.947  0.00  0.00     0.139 A 
+ATOM      4  N4  BZC d          38.603  21.924  22.236  0.00  0.00    -0.338 N 
+ATOM      5  C5  BZC d          39.831  22.057  22.802  0.00  0.00     0.064 A 
+ATOM      6  C7  BZC d          40.360  21.732  24.048  0.00  0.00     0.032 A 
+ATOM      7  C4  BZC d          42.033  22.936  22.126  0.00  0.00     0.062 A 
+ATOM      8  C2  BZC d          42.549  22.598  23.390  0.00  0.00     0.020 A 
+ATOM      9  C6  BZC d          41.708  22.001  24.336  0.00  0.00     0.003 A 
+ATOM     10  H1  BZC d          37.773  21.517  22.691  0.00  0.00     0.167 HD
+ENDROOT
+BRANCH   3  11
+ATOM     11  C19 BZC d          37.571  22.507  19.891  0.00  0.00     0.013 A 
+ATOM     12  C12 BZC d          36.206  22.529  20.240  0.00  0.00     0.015 A 
+ATOM     13  C17 BZC d          35.206  22.651  19.260  0.00  0.00     0.004 A 
+ATOM     14  C15 BZC d          35.588  22.747  17.918  0.00  0.00     0.037 A 
+ATOM     15  C13 BZC d          36.946  22.719  17.548  0.00  0.00     0.069 A 
+ATOM     16  C11 BZC d          37.937  22.599  18.534  0.00  0.00     0.052 A 
+BRANCH  15  17
+ATOM     17  O2  BZC d          37.266  22.780  16.160  0.00  0.00    -0.356 OA
+ATOM     18  C18 BZC d          38.544  22.358  15.704  0.00  0.00     0.210 C 
+ENDBRANCH  15  17
+ENDBRANCH   3  11
+BRANCH   7  19
+ATOM     19  C8  BZC d          42.886  23.585  21.152  0.00  0.00     0.251 C 
+ATOM     20  O1  BZC d          44.064  23.807  21.410  0.00  0.00    -0.268 OA
+ATOM     21  N1  BZC d          42.408  23.960  19.953  0.00  0.00    -0.366 N 
+ATOM     22  H5  BZC d          43.011  24.407  19.292  0.00  0.00     0.159 HD
+ATOM     23  H6  BZC d          41.450  23.792  19.722  0.00  0.00     0.159 HD
+ENDBRANCH   7  19
+TORSDOF 3

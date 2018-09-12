@@ -1,0 +1,64 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  C1_3 
+REMARK    3  A    between atoms: CA1_2  and  CB1_6 
+REMARK    4  A    between atoms: CB1_6  and  CG1_7 
+REMARK    5  A    between atoms: CG1_7  and  CD1_8 
+REMARK    6  A    between atoms: N2_10  and  CA2_11 
+REMARK    7  A    between atoms: CA2_11  and  C2_12 
+REMARK    8  A    between atoms: CA2_11  and  CB2_14 
+REMARK    9  A    between atoms: CB2_14  and  SG2_15 
+REMARK   10  A    between atoms: N3_16  and  CA3_17 
+REMARK   11  A    between atoms: CA3_17  and  C3_18 
+ROOT
+ATOM      1  CD1 GSH d          40.357  67.808  10.335  0.00  0.00     0.152 C 
+ATOM      2  OE1 GSH d          40.653  66.526  10.679  0.00  0.00    -0.177 OA
+ATOM      3  N2  GSH d          39.894  68.125   9.116  0.00  0.00    -0.359 N 
+ATOM      4  H9  GSH d          39.599  69.054   8.893  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA2 GSH d          39.840  67.025   8.111  0.00  0.00     0.170 C 
+BRANCH   5   6
+ATOM      6  C2  GSH d          40.662  67.387   6.922  0.00  0.00     0.175 C 
+ATOM      7  O2  GSH d          40.655  68.666   6.505  0.00  0.00    -0.175 OA
+ATOM      8  N3  GSH d          41.415  66.456   6.327  0.00  0.00    -0.360 N 
+ATOM      9  H14 GSH d          41.386  65.508   6.643  0.00  0.00     0.162 HD
+BRANCH   8  10
+ATOM     10  CA3 GSH d          42.281  66.834   5.210  0.00  0.00     0.234 C 
+BRANCH  10  11
+ATOM     11  C3  GSH d          43.433  65.880   5.087  0.00  0.00     0.191 C 
+ATOM     12  O31 GSH d          43.601  65.000   5.963  0.00  0.00    -0.647 OA
+ATOM     13  O32 GSH d          44.240  66.095   4.122  0.00  0.00    -0.647 OA
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   5   6
+BRANCH   5  14
+ATOM     14  CB2 GSH d          38.409  66.931   7.641  0.00  0.00     0.104 C 
+BRANCH  14  15
+ATOM     15  SG2 GSH d          37.271  66.676   9.046  0.00  0.00    -0.180 SA
+ATOM     16  H13 GSH d          36.325  66.617   8.704  0.00  0.00     0.101 HD
+ENDBRANCH  14  15
+ENDBRANCH   5  14
+ENDBRANCH   3   5
+BRANCH   1  17
+ATOM     17  CG1 GSH d          40.541  68.928  11.370  0.00  0.00     0.089 C 
+BRANCH  17  18
+ATOM     18  CB1 GSH d          41.055  68.310  12.678  0.00  0.00     0.052 C 
+BRANCH  18  19
+ATOM     19  CA1 GSH d          41.234  69.432  13.719  0.00  0.00     0.283 C 
+BRANCH  19  20
+ATOM     20  N1  GSH d          41.984  69.065  14.906  0.00  0.00    -0.065 N 
+ATOM     21  H1  GSH d          42.637  68.332  14.678  0.00  0.00     0.275 HD
+ATOM     22  H2  GSH d          41.349  68.740  15.618  0.00  0.00     0.275 HD
+ATOM     23  H3  GSH d          42.487  69.869  15.247  0.00  0.00     0.275 HD
+ENDBRANCH  19  20
+BRANCH  19  24
+ATOM     24  C1  GSH d          40.235  70.488  13.867  0.00  0.00     0.204 C 
+ATOM     25  O11 GSH d          39.607  70.279  14.890  0.00  0.00    -0.646 OA
+ATOM     26  O12 GSH d          39.966  71.371  13.058  0.00  0.00    -0.646 OA
+ENDBRANCH  19  24
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+TORSDOF 11

@@ -1,0 +1,31 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_4  and  C11_5 
+REMARK    2  A    between atoms: C11_5  and  N10_6 
+REMARK    3  A    between atoms: N10_6  and  C6_7 
+ROOT
+ATOM      1  C6  ZIP d         103.411 100.192  80.082  0.00  0.00     0.158 A 
+ATOM      2  C5  ZIP d         104.720 100.237  80.681  0.00  0.00     0.149 A 
+ATOM      3  N9  ZIP d         105.329  99.463  81.692  0.00  0.00    -0.236 NA
+ATOM      4  C4  ZIP d         105.620 101.216  80.309  0.00  0.00     0.162 A 
+ATOM      5  N7  ZIP d         106.773 101.065  80.990  0.00  0.00    -0.333 N 
+ATOM      6  C8  ZIP d         106.509 100.038  81.839  0.00  0.00     0.209 A 
+ATOM      7  N3  ZIP d         105.229 102.155  79.294  0.00  0.00    -0.222 NA
+ATOM      8  C2  ZIP d         104.039 102.005  78.748  0.00  0.00     0.237 A 
+ATOM      9  N1  ZIP d         103.192 101.103  79.123  0.00  0.00    -0.222 NA
+ATOM     10  H11 ZIP d         107.647 101.601  80.890  0.00  0.00     0.168 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  N10 ZIP d         102.364  99.262  80.404  0.00  0.00    -0.369 N 
+ATOM     12  H10 ZIP d         102.402  98.798  81.323  0.00  0.00     0.161 HD
+BRANCH  11  13
+ATOM     13  C11 ZIP d         101.236  98.924  79.510  0.00  0.00     0.148 C 
+BRANCH  13  14
+ATOM     14  C12 ZIP d          99.784  99.010  79.960  0.00  0.00    -0.005 C 
+ATOM     15  C13 ZIP d          99.135  98.442  81.011  0.00  0.00    -0.090 C 
+ATOM     16  C14 ZIP d          98.546  97.033  80.888  0.00  0.00     0.042 C 
+ATOM     17  C15 ZIP d          98.440  99.280  82.065  0.00  0.00     0.042 C 
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+TORSDOF 3

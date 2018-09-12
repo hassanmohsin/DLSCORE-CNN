@@ -1,0 +1,137 @@
+REMARK  24 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CB_2 
+REMARK    2  A    between atoms: CA_1  and  C_5 
+REMARK       I    between atoms: C_5  and  N_7 
+REMARK    3  A    between atoms: N_7  and  CA_8 
+REMARK    4  A    between atoms: CA_8  and  C_9 
+REMARK    5  A    between atoms: CA_8  and  CB_11 
+REMARK       I    between atoms: C_9  and  N_14 
+REMARK    6  A    between atoms: N_14  and  CA_15 
+REMARK    7  A    between atoms: CA_15  and  C_16 
+REMARK    8  A    between atoms: CA_15  and  CB_18 
+REMARK       I    between atoms: C_16  and  N_21 
+REMARK    9  A    between atoms: N_21  and  CA_22 
+REMARK   10  A    between atoms: CA_22  and  CB_23 
+REMARK   11  A    between atoms: CA_22  and  CH_27 
+REMARK   12  A    between atoms: CB_23  and  CG_24 
+REMARK   13  A    between atoms: CH_27  and  OH_28 
+REMARK   14  A    between atoms: CH_27  and  CM_29 
+REMARK   15  A    between atoms: CM_29  and  C_30 
+REMARK       I    between atoms: C_30  and  N_32 
+REMARK   16  A    between atoms: N_32  and  CA_33 
+REMARK   17  A    between atoms: CA_33  and  C_34 
+REMARK       I    between atoms: C_34  and  N_37 
+REMARK   18  A    between atoms: N_37  and  CA_38 
+REMARK   19  A    between atoms: CA_38  and  CB_39 
+REMARK   20  A    between atoms: CA_38  and  CH_43 
+REMARK   21  A    between atoms: CB_39  and  CG_40 
+REMARK   22  A    between atoms: CH_43  and  OH_44 
+REMARK   23  A    between atoms: CH_43  and  CM_45 
+REMARK   24  A    between atoms: CM_45  and  C_46 
+ROOT
+ATOM      1  CA  IVA d          21.002  21.887  59.820  0.00  0.00     0.114 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   IVA d          20.983  23.146  59.066  0.00  0.00    -0.352 N 
+ATOM      3  C   IVA d          19.863  23.775  58.720  0.00  0.00     0.241 C 
+ATOM      4  O   IVA d          18.740  23.435  59.047  0.00  0.00    -0.271 OA
+ATOM      5  H28 IVA d          21.857  23.552  58.799  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CA  IVA d          20.003  24.952  57.804  0.00  0.00     0.180 C 
+BRANCH   6   7
+ATOM      7  N   IVA d          19.480  24.532  56.490  0.00  0.00    -0.346 N 
+ATOM      8  C   IVA d          20.104  24.853  55.358  0.00  0.00     0.241 C 
+ATOM      9  O   IVA d          21.057  25.620  55.289  0.00  0.00    -0.271 OA
+ATOM     10  H19 IVA d          18.638  23.994  56.448  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CA  IVA d          19.582  24.200  54.097  0.00  0.00     0.180 C 
+BRANCH  11  12
+ATOM     12  N   IVA d          20.021  24.972  52.942  0.00  0.00    -0.347 N 
+ATOM     13  C   IVA d          19.157  25.424  52.036  0.00  0.00     0.218 C 
+ATOM     14  O   IVA d          17.954  25.187  52.104  0.00  0.00    -0.274 OA
+ATOM     15  H10 IVA d          20.995  25.167  52.827  0.00  0.00     0.163 HD
+BRANCH  13  16
+ATOM     16  CA  IVA d          19.760  26.234  50.901  0.00  0.00     0.106 C 
+BRANCH  16  17
+ATOM     17  CB  IVA d          18.976  27.510  50.644  0.00  0.00    -0.014 C 
+ATOM     18  CG1 IVA d          19.028  28.453  51.840  0.00  0.00     0.010 C 
+ATOM     19  CG2 IVA d          19.512  28.222  49.410  0.00  0.00     0.010 C 
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  11  12
+BRANCH  11  20
+ATOM     20  CB  IVA d          20.069  22.738  54.029  0.00  0.00     0.009 C 
+ATOM     21  CG1 IVA d          19.384  21.960  52.888  0.00  0.00     0.012 C 
+ATOM     22  CG2 IVA d          21.595  22.581  53.889  0.00  0.00     0.012 C 
+ENDBRANCH  11  20
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+BRANCH   6  23
+ATOM     23  CB  IVA d          19.246  26.172  58.350  0.00  0.00     0.009 C 
+ATOM     24  CG1 IVA d          19.800  26.575  59.728  0.00  0.00     0.012 C 
+ATOM     25  CG2 IVA d          19.303  27.388  57.423  0.00  0.00     0.012 C 
+ENDBRANCH   6  23
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  CB  IVA d          21.504  20.723  58.920  0.00  0.00     0.031 C 
+BRANCH  26  27
+ATOM     27  CG  IVA d          20.740  20.628  57.582  0.00  0.00    -0.021 C 
+ATOM     28  CD1 IVA d          21.521  19.689  56.632  0.00  0.00     0.009 C 
+ATOM     29  CD2 IVA d          19.314  20.135  57.797  0.00  0.00     0.009 C 
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+BRANCH   1  30
+ATOM     30  CH  IVA d          21.938  21.984  61.032  0.00  0.00     0.149 C 
+BRANCH  30  31
+ATOM     31  OH  IVA d          23.248  22.349  60.595  0.00  0.00    -0.393 OA
+ATOM     32  H40 IVA d          23.826  22.409  61.346  0.00  0.00     0.210 HD
+ENDBRANCH  30  31
+BRANCH  30  33
+ATOM     33  CM  IVA d          21.499  23.036  62.060  0.00  0.00     0.136 C 
+BRANCH  33  34
+ATOM     34  C   IVA d          20.339  22.523  62.891  0.00  0.00     0.220 C 
+ATOM     35  O   IVA d          19.192  22.663  62.484  0.00  0.00    -0.274 OA
+ATOM     36  N   IVA d          20.650  21.956  64.075  0.00  0.00    -0.348 N 
+ATOM     37  H43 IVA d          21.602  21.711  64.261  0.00  0.00     0.163 HD
+BRANCH  36  38
+ATOM     38  CA  IVA d          19.644  21.691  65.086  0.00  0.00     0.172 C 
+ATOM     39  CB  IVA d          19.878  20.311  65.708  0.00  0.00     0.042 C 
+BRANCH  38  40
+ATOM     40  C   IVA d          19.711  22.797  66.098  0.00  0.00     0.240 C 
+ATOM     41  O   IVA d          20.714  22.934  66.803  0.00  0.00    -0.271 OA
+ATOM     42  N   IVA d          18.676  23.631  66.092  0.00  0.00    -0.352 N 
+ATOM     43  H48 IVA d          17.822  23.350  65.654  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  IVA d          18.763  24.950  66.713  0.00  0.00     0.114 C 
+BRANCH  44  45
+ATOM     45  CB  IVA d          18.372  26.045  65.725  0.00  0.00     0.031 C 
+BRANCH  45  46
+ATOM     46  CG  IVA d          19.137  26.066  64.391  0.00  0.00    -0.021 C 
+ATOM     47  CD1 IVA d          18.660  27.298  63.622  0.00  0.00     0.009 C 
+ATOM     48  CD2 IVA d          20.655  26.159  64.500  0.00  0.00     0.009 C 
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+BRANCH  44  49
+ATOM     49  CH  IVA d          17.848  24.952  67.950  0.00  0.00     0.150 C 
+BRANCH  49  50
+ATOM     50  OH  IVA d          18.264  23.922  68.873  0.00  0.00    -0.393 OA
+ATOM     51  H60 IVA d          17.694  23.930  69.633  0.00  0.00     0.210 HD
+ENDBRANCH  49  50
+BRANCH  49  52
+ATOM     52  CM  IVA d          17.806  26.275  68.712  0.00  0.00     0.146 C 
+BRANCH  52  53
+ATOM     53  C   IVA d          16.810  26.090  69.859  0.00  0.00     0.175 C 
+ATOM     54  O   IVA d          17.231  26.232  71.031  0.00  0.00    -0.648 OA
+ATOM     55  OXT IVA d          15.605  25.780  69.616  0.00  0.00    -0.648 OA
+ENDBRANCH  52  53
+ENDBRANCH  49  52
+ENDBRANCH  44  49
+ENDBRANCH  42  44
+ENDBRANCH  38  40
+ENDBRANCH  36  38
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH   1  30
+TORSDOF 24

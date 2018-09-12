@@ -1,0 +1,150 @@
+REMARK  24 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C73_2  and  N23_4 
+REMARK    1  A    between atoms: N23_4  and  C23_5 
+REMARK    2  A    between atoms: C33_6  and  O33_7 
+REMARK    3  A    between atoms: C43_8  and  O43_15 
+REMARK    4  A    between atoms: C53_9  and  C63_10 
+REMARK    5  A    between atoms: C63_10  and  O63_11 
+REMARK    6  A    between atoms: C13_13  and  O13_14 
+REMARK    7  A    between atoms: O43_15  and  C12_16 
+REMARK    8  A    between atoms: C52_18  and  C62_19 
+REMARK    9  A    between atoms: C62_19  and  O62_20 
+REMARK   10  A    between atoms: C42_21  and  O42_29 
+REMARK   11  A    between atoms: C32_22  and  O32_23 
+REMARK   12  A    between atoms: C22_24  and  N22_25 
+REMARK       I    between atoms: N22_25  and  C72_26 
+REMARK   13  A    between atoms: O42_29  and  C11_30 
+REMARK   14  A    between atoms: C51_32  and  C61_33 
+REMARK   15  A    between atoms: C61_33  and  O61_34 
+REMARK   16  A    between atoms: C41_35  and  O41_43 
+REMARK   17  A    between atoms: C31_36  and  O31_37 
+REMARK   18  A    between atoms: C21_38  and  N21_39 
+REMARK       I    between atoms: N21_39  and  C71_40 
+REMARK   19  A    between atoms: O41_43  and  C1_44 
+REMARK   20  A    between atoms: C2_45  and  N2_46 
+REMARK   21  A    between atoms: C3_50  and  O3_51 
+REMARK   22  A    between atoms: C4_52  and  O4_53 
+REMARK   23  A    between atoms: C5_54  and  C6_56 
+REMARK   24  A    between atoms: C6_56  and  O6_57 
+ROOT
+ATOM      1  C12 TCG d         -34.570  68.995  43.707  0.00  0.00     0.286 C 
+ATOM      2  O52 TCG d         -33.400  68.627  42.979  0.00  0.00    -0.349 OA
+ATOM      3  C52 TCG d         -32.963  67.278  43.117  0.00  0.00     0.180 C 
+ATOM      4  C42 TCG d         -34.090  66.292  42.817  0.00  0.00     0.186 C 
+ATOM      5  C32 TCG d         -35.356  66.599  43.599  0.00  0.00     0.177 C 
+ATOM      6  C22 TCG d         -35.754  68.056  43.483  0.00  0.00     0.170 C 
+ENDROOT
+BRANCH   4   7
+ATOM      7  O42 TCG d         -33.680  65.030  43.293  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C11 TCG d         -33.859  63.978  42.363  0.00  0.00     0.286 C 
+ATOM      9  O51 TCG d         -35.225  63.553  42.373  0.00  0.00    -0.349 OA
+ATOM     10  C51 TCG d         -35.486  62.468  41.482  0.00  0.00     0.180 C 
+ATOM     11  C41 TCG d         -34.631  61.256  41.862  0.00  0.00     0.186 C 
+ATOM     12  C31 TCG d         -33.157  61.645  41.972  0.00  0.00     0.177 C 
+ATOM     13  C21 TCG d         -32.968  62.858  42.874  0.00  0.00     0.170 C 
+BRANCH  10  14
+ATOM     14  C61 TCG d         -36.975  62.171  41.552  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O61 TCG d         -37.705  63.284  41.008  0.00  0.00    -0.398 OA
+ATOM     16  H32 TCG d         -37.511  64.065  41.512  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH  10  14
+BRANCH  11  17
+ATOM     17  O41 TCG d         -34.675  60.272  40.837  0.00  0.00    -0.348 OA
+BRANCH  17  18
+ATOM     18  C1  TCG d         -35.602  59.198  41.007  0.00  0.00     0.294 C 
+ATOM     19  C2  TCG d         -35.344  58.193  39.863  0.00  0.00     0.274 C 
+ATOM     20  C3  TCG d         -34.291  57.130  40.216  0.00  0.00     0.185 C 
+ATOM     21  C4  TCG d         -33.596  57.456  41.527  0.00  0.00     0.180 C 
+ATOM     22  C5  TCG d         -34.662  57.574  42.609  0.00  0.00     0.179 C 
+ATOM     23  O5  TCG d         -35.574  58.648  42.339  0.00  0.00    -0.349 OA
+BRANCH  19  24
+ATOM     24  N2  TCG d         -36.609  57.611  39.337  0.00  0.00    -0.067 N 
+ATOM     25  C9  TCG d         -36.319  56.691  38.219  0.00  0.00     0.272 C 
+ATOM     26  C8  TCG d         -37.406  56.885  40.345  0.00  0.00     0.272 C 
+ATOM     27  C7  TCG d         -37.456  58.687  38.792  0.00  0.00     0.272 C 
+ENDBRANCH  19  24
+BRANCH  20  28
+ATOM     28  O3  TCG d         -33.322  57.039  39.168  0.00  0.00    -0.391 OA
+ATOM     29  H53 TCG d         -32.675  56.381  39.393  0.00  0.00     0.210 HD
+ENDBRANCH  20  28
+BRANCH  21  30
+ATOM     30  O4  TCG d         -32.675  56.410  41.840  0.00  0.00    -0.390 OA
+ATOM     31  H55 TCG d         -32.031  56.338  41.145  0.00  0.00     0.210 HD
+ENDBRANCH  21  30
+BRANCH  22  32
+ATOM     32  C6  TCG d         -34.024  57.803  43.969  0.00  0.00     0.198 C 
+BRANCH  32  33
+ATOM     33  O6  TCG d         -35.058  57.997  44.951  0.00  0.00    -0.398 OA
+ATOM     34  H59 TCG d         -35.582  58.753  44.713  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH  22  32
+ENDBRANCH  17  18
+ENDBRANCH  11  17
+BRANCH  12  35
+ATOM     35  O31 TCG d         -32.376  60.551  42.477  0.00  0.00    -0.391 OA
+ATOM     36  H35 TCG d         -32.454  59.809  41.888  0.00  0.00     0.210 HD
+ENDBRANCH  12  35
+BRANCH  13  37
+ATOM     37  N21 TCG d         -31.595  63.327  42.687  0.00  0.00    -0.349 N 
+ATOM     38  C71 TCG d         -30.777  63.766  43.660  0.00  0.00     0.214 C 
+ATOM     39  C81 TCG d         -31.280  63.788  45.073  0.00  0.00     0.117 C 
+ATOM     40  O71 TCG d         -29.644  64.139  43.407  0.00  0.00    -0.274 OA
+ATOM     41  H37 TCG d         -31.233  63.321  41.755  0.00  0.00     0.163 HD
+ENDBRANCH  13  37
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  42
+ATOM     42  C62 TCG d         -31.784  67.072  42.169  0.00  0.00     0.198 C 
+BRANCH  42  43
+ATOM     43  O62 TCG d         -32.112  67.575  40.854  0.00  0.00    -0.398 OA
+ATOM     44  H19 TCG d         -32.309  68.503  40.911  0.00  0.00     0.209 HD
+ENDBRANCH  42  43
+ENDBRANCH   3  42
+BRANCH   5  45
+ATOM     45  O32 TCG d         -36.433  65.816  43.075  0.00  0.00    -0.391 OA
+ATOM     46  H22 TCG d         -36.222  64.894  43.158  0.00  0.00     0.210 HD
+ENDBRANCH   5  45
+BRANCH   6  47
+ATOM     47  N22 TCG d         -36.688  68.279  44.588  0.00  0.00    -0.349 N 
+ATOM     48  C72 TCG d         -37.913  68.774  44.383  0.00  0.00     0.214 C 
+ATOM     49  C82 TCG d         -38.781  68.951  45.601  0.00  0.00     0.117 C 
+ATOM     50  O72 TCG d         -38.321  69.079  43.266  0.00  0.00    -0.274 OA
+ATOM     51  H24 TCG d         -36.403  68.055  45.520  0.00  0.00     0.163 HD
+ENDBRANCH   6  47
+BRANCH   1  52
+ATOM     52  O43 TCG d         -34.955  70.223  43.129  0.00  0.00    -0.348 OA
+BRANCH  52  53
+ATOM     53  C43 TCG d         -35.340  71.141  44.134  0.00  0.00     0.186 C 
+ATOM     54  C33 TCG d         -34.191  71.355  45.114  0.00  0.00     0.177 C 
+ATOM     55  C23 TCG d         -33.025  72.144  44.524  0.00  0.00     0.170 C 
+ATOM     56  C13 TCG d         -33.511  73.072  43.399  0.00  0.00     0.282 C 
+ATOM     57  O53 TCG d         -34.868  73.465  43.678  0.00  0.00    -0.349 OA
+ATOM     58  C53 TCG d         -35.795  72.402  43.429  0.00  0.00     0.179 C 
+BRANCH  54  59
+ATOM     59  O33 TCG d         -34.700  72.060  46.252  0.00  0.00    -0.391 OA
+ATOM     60  H7  TCG d         -34.998  72.921  45.983  0.00  0.00     0.210 HD
+ENDBRANCH  54  59
+BRANCH  55  61
+ATOM     61  N23 TCG d         -32.068  71.189  43.959  0.00  0.00    -0.349 N 
+ATOM     62  C73 TCG d         -30.760  71.353  44.184  0.00  0.00     0.214 C 
+ATOM     63  O73 TCG d         -30.344  72.290  44.849  0.00  0.00    -0.274 OA
+ATOM     64  C83 TCG d         -29.815  70.343  43.587  0.00  0.00     0.117 C 
+ATOM     65  H4  TCG d         -32.391  70.419  43.408  0.00  0.00     0.163 HD
+ENDBRANCH  55  61
+BRANCH  56  66
+ATOM     66  O13 TCG d         -32.673  74.252  43.362  0.00  0.00    -0.369 OA
+ATOM     67  H14 TCG d         -32.983  74.838  42.681  0.00  0.00     0.212 HD
+ENDBRANCH  56  66
+BRANCH  58  68
+ATOM     68  C63 TCG d         -37.185  72.746  43.946  0.00  0.00     0.198 C 
+BRANCH  68  69
+ATOM     69  O63 TCG d         -37.628  74.018  43.377  0.00  0.00    -0.398 OA
+ATOM     70  H12 TCG d         -37.021  74.704  43.628  0.00  0.00     0.209 HD
+ENDBRANCH  68  69
+ENDBRANCH  58  68
+ENDBRANCH  52  53
+ENDBRANCH   1  52
+TORSDOF 24

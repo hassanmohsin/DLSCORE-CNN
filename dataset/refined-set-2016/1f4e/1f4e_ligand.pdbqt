@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  S8_8 
+REMARK    2  A    between atoms: S8_8  and  N_11 
+REMARK    3  A    between atoms: CA_15  and  C_16 
+ROOT
+ATOM      1  S8  TPR d          36.863  59.501  82.119  0.00  0.00     0.261 S 
+ATOM      2  O9  TPR d          37.495  60.615  83.049  0.00  0.00    -0.200 OA
+ATOM      3  O10 TPR d          37.203  58.069  82.710  0.00  0.00    -0.200 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  TPR d          37.476  59.634  80.479  0.00  0.00     0.079 A 
+ATOM      5  C4  TPR d          37.839  58.491  79.777  0.00  0.00     0.026 A 
+ATOM      6  C3  TPR d          38.303  58.636  78.464  0.00  0.00     0.008 A 
+ATOM      7  C2  TPR d          38.390  59.901  77.863  0.00  0.00    -0.062 A 
+ATOM      8  C1  TPR d          38.005  61.035  78.588  0.00  0.00     0.008 A 
+ATOM      9  C7  TPR d          38.908  60.006  76.433  0.00  0.00     0.048 C 
+ATOM     10  C6  TPR d          37.544  60.897  79.899  0.00  0.00     0.026 A 
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  N   TPR d          35.121  59.752  82.144  0.00  0.00    -0.292 N 
+ATOM     12  CA  TPR d          34.297  58.868  82.976  0.00  0.00     0.197 C 
+ATOM     13  CB  TPR d          33.044  58.610  82.110  0.00  0.00     0.039 C 
+ATOM     14  CG  TPR d          33.472  58.920  80.677  0.00  0.00     0.023 C 
+ATOM     15  CD  TPR d          34.512  60.017  80.828  0.00  0.00     0.136 C 
+BRANCH  12  16
+ATOM     16  C   TPR d          34.059  59.418  84.398  0.00  0.00     0.197 C 
+ATOM     17  OXT TPR d          34.116  60.772  84.576  0.00  0.00    -0.646 OA
+ATOM     18  O   TPR d          33.835  58.681  85.364  0.00  0.00    -0.646 OA
+ENDBRANCH  12  16
+ENDBRANCH   1  11
+TORSDOF 3

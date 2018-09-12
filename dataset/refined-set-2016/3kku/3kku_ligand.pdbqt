@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_11  and  CAL_12 
+REMARK    2  A    between atoms: NAO_15  and  CAK_11 
+REMARK    3  A    between atoms: CAL_12  and  CAT_20 
+REMARK    4  A    between atoms: OAQ_17  and  CAM_13 
+REMARK    5  A    between atoms: CAM_13  and  CAR_18 
+REMARK       I    between atoms: CAR_18  and  NAO_15 
+REMARK    6  A    between atoms: OAQ_17  and  CAU_21 
+ROOT
+ATOM      1  OAA B95 d          -5.542 -36.431  -0.090  0.00  0.00    -0.271 OA
+ATOM      2  NAO B95 d          -5.362 -35.664   2.016  0.00  0.00    -0.359 N 
+ATOM      3  CAR B95 d          -4.842 -36.101   0.856  0.00  0.00     0.241 C 
+ATOM      4  H16 B95 d          -4.750 -35.516   2.793  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  CAK B95 d          -6.789 -35.397   2.184  0.00  0.00     0.130 C 
+BRANCH   5   6
+ATOM      6  CAL B95 d          -7.611 -36.611   2.585  0.00  0.00     0.098 C 
+BRANCH   6   7
+ATOM      7  CAT B95 d          -7.067 -37.142   3.872  0.00  0.00     0.106 A 
+ATOM      8  NAN B95 d          -6.226 -38.187   4.010  0.00  0.00    -0.343 N 
+ATOM      9  CAV B95 d          -6.000 -38.350   5.336  0.00  0.00     0.062 A 
+ATOM     10  H15 B95 d          -5.829 -38.756   3.249  0.00  0.00     0.167 HD
+ATOM     11  CAI B95 d          -5.210 -39.253   6.034  0.00  0.00     0.032 A 
+ATOM     12  CAW B95 d          -6.720 -37.378   6.028  0.00  0.00     0.085 A 
+ATOM     13  CAE B95 d          -5.166 -39.169   7.419  0.00  0.00     0.002 A 
+ATOM     14  CAF B95 d          -5.896 -38.204   8.100  0.00  0.00     0.002 A 
+ATOM     15  CAJ B95 d          -6.694 -37.301   7.420  0.00  0.00     0.034 A 
+ATOM     16  NAP B95 d          -7.366 -36.642   5.099  0.00  0.00    -0.233 NA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+BRANCH   3  17
+ATOM     17  CAM B95 d          -3.361 -36.233   0.697  0.00  0.00     0.278 C 
+BRANCH  17  18
+ATOM     18  OAQ B95 d          -2.720 -36.036   1.927  0.00  0.00    -0.341 OA
+BRANCH  18  19
+ATOM     19  CAU B95 d          -2.052 -37.119   2.437  0.00  0.00     0.086 A 
+ATOM     20  CAH B95 d          -2.591 -37.814   3.498  0.00  0.00     0.038 A 
+ATOM     21  CAD B95 d          -1.879 -38.891   4.008  0.00  0.00     0.003 A 
+ATOM     22  CAC B95 d          -0.666 -39.306   3.462  0.00  0.00     0.002 A 
+ATOM     23  CAG B95 d          -0.123 -38.596   2.399  0.00  0.00     0.022 A 
+ATOM     24  CAS B95 d          -0.835 -37.509   1.883  0.00  0.00     0.044 A 
+ATOM     25 BRAB B95 d          -0.127 -36.607   0.381  0.00  0.00    -0.048 Br
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   3  17
+TORSDOF 6

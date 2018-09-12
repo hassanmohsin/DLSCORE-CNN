@@ -1,0 +1,152 @@
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C75_3  and  N76_4 
+REMARK    1  A    between atoms: C32_5  and  C75_3 
+REMARK    2  A    between atoms: C32_5  and  C78_6 
+REMARK    3  A    between atoms: N31_13  and  C32_5 
+REMARK    4  A    between atoms: C78_6  and  C79_7 
+REMARK    5  A    between atoms: C79_7  and  C85_8 
+REMARK    6  A    between atoms: C85_8  and  N77_9 
+REMARK       I    between atoms: N77_9  and  C86_10 
+REMARK       I    between atoms: C86_10  and  N94_11 
+REMARK       I    between atoms: C86_10  and  N93_12 
+REMARK       I    between atoms: C30_14  and  N31_13 
+REMARK    7  A    between atoms: C29_16  and  C30_14 
+REMARK    8  A    between atoms: C29_16  and  C37_17 
+REMARK    9  A    between atoms: N27_24  and  C29_16 
+REMARK   10  A    between atoms: C37_17  and  C38_18 
+REMARK   11  A    between atoms: C38_18  and  C39_19 
+REMARK   12  A    between atoms: C39_19  and  N40_20 
+REMARK       I    between atoms: N40_20  and  C41_21 
+REMARK       I    between atoms: C41_21  and  N42_22 
+REMARK       I    between atoms: C26_25  and  N27_24 
+REMARK   13  A    between atoms: C25_27  and  C26_25 
+REMARK   14  A    between atoms: C24_28  and  C25_27 
+REMARK   15  A    between atoms: C23_29  and  C24_28 
+REMARK   16  A    between atoms: C22_30  and  C23_29 
+REMARK   17  A    between atoms: C21_31  and  C22_30 
+REMARK   18  A    between atoms: N20_32  and  C21_31 
+REMARK       I    between atoms: C5'_33  and  N20_32 
+REMARK   19  A    between atoms: C4'_35  and  C5'_33 
+REMARK   20  A    between atoms: N9_42  and  C1'_37 
+REMARK   21  A    between atoms: C2'_38  and  O2'_39 
+REMARK   22  A    between atoms: C3'_40  and  O3'_41 
+REMARK   23  A    between atoms: C6_49  and  N6_50 
+ROOT
+ATOM      1  C29 ARX d          37.035  19.332   9.692  0.00  0.00     0.176 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C30 ARX d          37.390  20.716  10.189  0.00  0.00     0.241 C 
+ATOM      3  N31 ARX d          36.350  21.533  10.437  0.00  0.00    -0.346 N 
+ATOM      4  H15 ARX d          35.607  21.468   9.771  0.00  0.00     0.163 HD
+ATOM      5  O35 ARX d          38.571  21.028  10.321  0.00  0.00    -0.271 OA
+BRANCH   3   6
+ATOM      6  C32 ARX d          36.113  22.514  11.527  0.00  0.00     0.176 C 
+BRANCH   6   7
+ATOM      7  C75 ARX d          36.322  21.996  12.965  0.00  0.00     0.238 C 
+ATOM      8  O77 ARX d          35.406  21.360  13.500  0.00  0.00    -0.271 OA
+ATOM      9  N76 ARX d          37.473  22.224  13.637  0.00  0.00    -0.368 N 
+ATOM     10  H1  ARX d          38.212  22.738  13.202  0.00  0.00     0.159 HD
+ATOM     11  H2  ARX d          37.585  21.878  14.569  0.00  0.00     0.159 HD
+ENDBRANCH   6   7
+BRANCH   6  12
+ATOM     12  C78 ARX d          36.707  23.910  11.219  0.00  0.00     0.036 C 
+BRANCH  12  13
+ATOM     13  C79 ARX d          38.228  23.925  11.012  0.00  0.00     0.023 C 
+BRANCH  13  14
+ATOM     14  C85 ARX d          38.789  25.325  10.768  0.00  0.00     0.138 C 
+BRANCH  14  15
+ATOM     15  N77 ARX d          40.001  25.304   9.965  0.00  0.00    -0.227 N 
+ATOM     16  C86 ARX d          40.269  26.209   9.007  0.00  0.00     0.665 C 
+ATOM     17  N94 ARX d          40.551  25.820   7.754  0.00  0.00    -0.235 N 
+ATOM     18  N93 ARX d          40.277  27.444   9.282  0.00  0.00    -0.235 N 
+ATOM     19  H11 ARX d          40.754  26.524   7.030  0.00  0.00     0.174 HD
+ATOM     20  H12 ARX d          40.564  24.818   7.516  0.00  0.00     0.174 HD
+ATOM     21  H13 ARX d          40.063  27.760  10.239  0.00  0.00     0.174 HD
+ATOM     22  H14 ARX d          40.498  28.133   8.549  0.00  0.00     0.174 HD
+ATOM     23  H10 ARX d          40.690  24.558  10.139  0.00  0.00     0.177 HD
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   6  12
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C37 ARX d          36.803  18.372  10.875  0.00  0.00     0.036 C 
+BRANCH  24  25
+ATOM     25  C38 ARX d          38.034  18.083  11.741  0.00  0.00     0.023 C 
+BRANCH  25  26
+ATOM     26  C39 ARX d          38.024  18.842  13.085  0.00  0.00     0.138 C 
+BRANCH  26  27
+ATOM     27  N40 ARX d          37.400  18.134  14.202  0.00  0.00    -0.227 N 
+ATOM     28  C41 ARX d          36.153  18.392  14.626  0.00  0.00     0.665 C 
+ATOM     29  N42 ARX d          35.153  18.026  13.931  0.00  0.00    -0.235 N 
+ATOM     30  N43 ARX d          35.959  19.023  15.793  0.00  0.00    -0.235 N 
+ATOM     31  H24 ARX d          34.197  18.225  14.259  0.00  0.00     0.174 HD
+ATOM     32  H25 ARX d          35.299  17.530  13.040  0.00  0.00     0.174 HD
+ATOM     33  H26 ARX d          36.767  19.321  16.358  0.00  0.00     0.174 HD
+ATOM     34  H27 ARX d          35.002  19.210  16.124  0.00  0.00     0.174 HD
+ATOM     35  H23 ARX d          37.942  17.404  14.685  0.00  0.00     0.177 HD
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+BRANCH   1  36
+ATOM     36  N27 ARX d          35.827  19.374   8.872  0.00  0.00    -0.348 N 
+ATOM     37  C26 ARX d          35.764  19.764   7.601  0.00  0.00     0.218 C 
+ATOM     38  O28 ARX d          36.726  20.106   6.922  0.00  0.00    -0.274 OA
+ATOM     39  H28 ARX d          34.972  19.084   9.303  0.00  0.00     0.163 HD
+BRANCH  37  40
+ATOM     40  C25 ARX d          34.401  19.765   6.955  0.00  0.00     0.103 C 
+BRANCH  40  41
+ATOM     41  C24 ARX d          34.094  21.160   6.405  0.00  0.00     0.009 C 
+BRANCH  41  42
+ATOM     42  C23 ARX d          33.571  22.092   7.487  0.00  0.00     0.002 C 
+BRANCH  42  43
+ATOM     43  C22 ARX d          32.440  21.435   8.283  0.00  0.00     0.020 C 
+BRANCH  43  44
+ATOM     44  C21 ARX d          32.231  22.029   9.672  0.00  0.00     0.122 C 
+BRANCH  44  45
+ATOM     45  N20 ARX d          31.846  23.418   9.594  0.00  0.00    -0.359 N 
+ATOM     46  C5' ARX d          30.539  23.715   9.538  0.00  0.00     0.249 C 
+ATOM     47  O5' ARX d          29.663  22.845   9.492  0.00  0.00    -0.271 OA
+ATOM     48  H39 ARX d          32.537  24.141   9.582  0.00  0.00     0.162 HD
+BRANCH  46  49
+ATOM     49  C4' ARX d          30.197  25.185   9.559  0.00  0.00     0.247 C 
+ATOM     50  O4' ARX d          29.484  25.521   8.344  0.00  0.00    -0.346 OA
+ATOM     51  C1' ARX d          28.328  26.321   8.635  0.00  0.00     0.263 C 
+ATOM     52  C2' ARX d          28.391  26.648  10.103  0.00  0.00     0.199 C 
+ATOM     53  C3' ARX d          29.282  25.603  10.742  0.00  0.00     0.189 C 
+BRANCH  51  54
+ATOM     54  N9  ARX d          27.096  25.519   8.428  0.00  0.00    -0.294 N 
+ATOM     55  C4  ARX d          25.884  26.006   8.128  0.00  0.00     0.167 A 
+ATOM     56  C5  ARX d          25.013  24.841   8.020  0.00  0.00     0.149 A 
+ATOM     57  N3  ARX d          25.355  27.237   7.945  0.00  0.00    -0.222 NA
+ATOM     58  N7  ARX d          25.780  23.763   8.272  0.00  0.00    -0.236 NA
+ATOM     59  C6  ARX d          23.581  25.069   7.713  0.00  0.00     0.155 A 
+ATOM     60  C8  ARX d          27.027  24.186   8.513  0.00  0.00     0.214 A 
+ATOM     61  N1  ARX d          23.171  26.369   7.556  0.00  0.00    -0.222 NA
+ATOM     62  C2  ARX d          24.043  27.381   7.662  0.00  0.00     0.237 A 
+BRANCH  59  63
+ATOM     63  N6  ARX d          22.743  23.995   7.609  0.00  0.00    -0.382 N 
+ATOM     64  H48 ARX d          21.746  24.139   7.396  0.00  0.00     0.157 HD
+ATOM     65  H49 ARX d          23.109  23.041   7.744  0.00  0.00     0.157 HD
+ENDBRANCH  59  63
+ENDBRANCH  51  54
+BRANCH  52  66
+ATOM     66  O2' ARX d          29.007  27.910  10.137  0.00  0.00    -0.388 OA
+ATOM     67  H43 ARX d          29.088  28.197  11.039  0.00  0.00     0.210 HD
+ENDBRANCH  52  66
+BRANCH  53  68
+ATOM     68  O3' ARX d          29.964  26.152  11.903  0.00  0.00    -0.390 OA
+ATOM     69  H45 ARX d          30.498  26.890  11.635  0.00  0.00     0.210 HD
+ENDBRANCH  53  68
+ENDBRANCH  46  49
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  42  43
+ENDBRANCH  41  42
+ENDBRANCH  40  41
+ENDBRANCH  37  40
+ENDBRANCH   1  36
+TORSDOF 23

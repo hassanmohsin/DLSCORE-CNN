@@ -1,0 +1,85 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: N1_29  and  C2_2 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: C4_4  and  C5_5 
+REMARK       I    between atoms: N2_27  and  C6_6 
+REMARK       I    between atoms: C6_6  and  N1_29 
+REMARK       I    between atoms: N3_13  and  C20_11 
+REMARK    6  A    between atoms: N3_13  and  C13_14 
+REMARK    7  A    between atoms: C12_19  and  N3_13 
+REMARK    8  A    between atoms: C13_14  and  C14_15 
+REMARK    9  A    between atoms: C11_20  and  C12_19 
+REMARK   10  A    between atoms: C10_21  and  C11_20 
+REMARK   11  A    between atoms: C9_22  and  C10_21 
+REMARK   12  A    between atoms: C7_23  and  C9_22 
+REMARK   13  A    between atoms: C7_23  and  C8_24 
+REMARK   14  A    between atoms: C7_23  and  N2_27 
+ROOT
+ATOM      1  C7  JB7 d          19.974  19.910  35.388  0.00  0.00     0.187 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  JB7 d          20.765  19.262  36.522  0.00  0.00     0.036 C 
+BRANCH   2   3
+ATOM      3  C10 JB7 d          22.263  19.608  36.551  0.00  0.00     0.004 C 
+BRANCH   3   4
+ATOM      4  C11 JB7 d          22.909  18.826  37.702  0.00  0.00     0.020 C 
+BRANCH   4   5
+ATOM      5  C12 JB7 d          24.367  19.163  37.902  0.00  0.00     0.126 C 
+BRANCH   5   6
+ATOM      6  N3  JB7 d          25.013  18.509  39.056  0.00  0.00    -0.348 N 
+ATOM      7  C20 JB7 d          24.762  18.831  40.317  0.00  0.00     0.216 C 
+ATOM      8  O8  JB7 d          24.025  19.770  40.536  0.00  0.00    -0.274 OA
+ATOM      9  C21 JB7 d          25.397  18.104  41.471  0.00  0.00     0.117 C 
+BRANCH   6  10
+ATOM     10  C13 JB7 d          26.090  17.624  38.630  0.00  0.00     0.164 C 
+BRANCH  10  11
+ATOM     11  C14 JB7 d          25.709  16.209  38.402  0.00  0.00    -0.040 A 
+ATOM     12  C15 JB7 d          26.024  15.265  39.402  0.00  0.00     0.010 A 
+ATOM     13  C16 JB7 d          25.742  13.899  39.209  0.00  0.00     0.019 A 
+ATOM     14  C17 JB7 d          25.195  13.543  37.983  0.00  0.00     0.011 A 
+ATOM     15  C18 JB7 d          24.925  14.482  36.968  0.00  0.00     0.019 A 
+ATOM     16 BR   JB7 d          24.888  11.651  37.754  0.00  0.00    -0.051 Br
+ATOM     17  C19 JB7 d          25.176  15.836  37.188  0.00  0.00     0.010 A 
+ENDBRANCH  10  11
+ENDBRANCH   6  10
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  C8  JB7 d          20.243  19.311  34.042  0.00  0.00     0.196 C 
+ATOM     19  O7  JB7 d          19.674  18.193  33.673  0.00  0.00    -0.646 OA
+ATOM     20  O6  JB7 d          20.885  19.864  33.165  0.00  0.00    -0.646 OA
+ENDBRANCH   1  18
+BRANCH   1  21
+ATOM     21  N2  JB7 d          18.589  19.766  35.664  0.00  0.00    -0.329 N 
+ATOM     22  C6  JB7 d          17.902  20.595  36.475  0.00  0.00     0.317 C 
+ATOM     23  O5  JB7 d          18.355  21.603  37.023  0.00  0.00    -0.247 OA
+ATOM     24  N1  JB7 d          16.681  20.173  36.838  0.00  0.00    -0.329 N 
+ATOM     25  H   JB7 d          16.191  19.493  36.293  0.00  0.00     0.165 HD
+ATOM     26  H   JB7 d          18.097  19.009  35.234  0.00  0.00     0.165 HD
+BRANCH  24  27
+ATOM     27  C2  JB7 d          16.103  20.715  38.014  0.00  0.00     0.187 C 
+BRANCH  27  28
+ATOM     28  C1  JB7 d          17.033  20.507  39.153  0.00  0.00     0.196 C 
+ATOM     29  O2  JB7 d          17.868  19.589  39.161  0.00  0.00    -0.646 OA
+ATOM     30  O1  JB7 d          16.848  21.357  40.162  0.00  0.00    -0.646 OA
+ENDBRANCH  27  28
+BRANCH  27  31
+ATOM     31  C3  JB7 d          14.823  19.965  38.375  0.00  0.00     0.046 C 
+BRANCH  31  32
+ATOM     32  C4  JB7 d          15.042  18.452  38.526  0.00  0.00     0.116 C 
+BRANCH  32  33
+ATOM     33  C5  JB7 d          13.863  17.740  39.180  0.00  0.00     0.172 C 
+ATOM     34  O3  JB7 d          12.989  18.262  39.922  0.00  0.00    -0.648 OA
+ATOM     35  O4  JB7 d          13.765  16.430  38.950  0.00  0.00    -0.648 OA
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  27  31
+ENDBRANCH  24  27
+ENDBRANCH   1  21
+TORSDOF 14

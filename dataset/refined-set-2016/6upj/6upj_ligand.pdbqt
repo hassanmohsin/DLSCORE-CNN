@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CG1_15 
+REMARK    2  A    between atoms: CA6_7  and  OA6_8 
+REMARK    3  A    between atoms: CG1_15  and  CB1_9 
+REMARK    4  A    between atoms: CG1_15  and  CG2_16 
+ROOT
+ATOM      1  CA  NIU d          -0.391  18.226  20.761  0.00  0.00     0.060 A 
+ATOM      2  CA2 NIU d          -1.559  17.653  21.346  0.00  0.00     0.297 A 
+ATOM      3  OA2 NIU d          -1.771  16.494  21.254  0.00  0.00    -0.259 OA
+ATOM      4  OA3 NIU d          -2.502  18.381  21.993  0.00  0.00    -0.279 OA
+ATOM      5  CA4 NIU d          -2.260  19.761  22.062  0.00  0.00     0.066 A 
+ATOM      6  CA5 NIU d          -1.131  20.407  21.515  0.00  0.00     0.006 A 
+ATOM      7  CA6 NIU d          -0.186  19.592  20.855  0.00  0.00     0.087 A 
+ATOM      8  CD1 NIU d          -3.362  20.536  22.804  0.00  0.00     0.066 C 
+ATOM      9  CD2 NIU d          -3.996  21.745  22.116  0.00  0.00     0.006 C 
+ATOM     10  CD3 NIU d          -3.412  22.128  20.746  0.00  0.00     0.001 C 
+ATOM     11  CD4 NIU d          -1.975  22.696  20.770  0.00  0.00     0.005 C 
+ATOM     12  CD5 NIU d          -0.956  21.907  21.617  0.00  0.00     0.044 C 
+ENDROOT
+BRANCH   1  13
+ATOM     13  CG1 NIU d           0.625  17.383  19.955  0.00  0.00     0.060 C 
+BRANCH  13  14
+ATOM     14  CG2 NIU d           1.648  16.595  20.786  0.00  0.00     0.010 C 
+ATOM     15  CG3 NIU d           1.113  15.432  21.620  0.00  0.00     0.006 C 
+ENDBRANCH  13  14
+BRANCH  13  16
+ATOM     16  CB1 NIU d           0.022  16.632  18.753  0.00  0.00    -0.049 A 
+ATOM     17  CB6 NIU d          -0.186  15.222  18.800  0.00  0.00     0.008 A 
+ATOM     18  CB5 NIU d          -0.711  14.558  17.678  0.00  0.00     0.001 A 
+ATOM     19  CB4 NIU d          -1.047  15.264  16.518  0.00  0.00     0.000 A 
+ATOM     20  CB3 NIU d          -0.847  16.658  16.467  0.00  0.00     0.001 A 
+ATOM     21  CB2 NIU d          -0.325  17.352  17.577  0.00  0.00     0.008 A 
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+BRANCH   7  22
+ATOM     22  OA6 NIU d           0.974  20.097  20.301  0.00  0.00    -0.359 OA
+ATOM     23  H1  NIU d           1.470  19.389  19.907  0.00  0.00     0.217 HD
+ENDBRANCH   7  22
+TORSDOF 4

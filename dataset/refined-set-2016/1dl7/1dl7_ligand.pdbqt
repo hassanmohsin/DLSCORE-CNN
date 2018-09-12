@@ -1,0 +1,46 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P1_2  and  O2_5 
+REMARK    2  A    between atoms: P1_2  and  O3_4 
+REMARK    3  A    between atoms: O3_4  and  C4A_18 
+REMARK    4  A    between atoms: O2_5  and  C1_6 
+REMARK    5  A    between atoms: C1_6  and  C2_7 
+REMARK    6  A    between atoms: C2_7  and  N1_8 
+REMARK    7  A    between atoms: C1A_12  and  N1A_13 
+ROOT
+ATOM      1  O4  NCH d         106.049  23.874  17.730  0.00  0.00    -0.624 OA
+ATOM      2  P1  NCH d         106.549  23.780  19.109  0.00  0.00     0.413 P 
+ATOM      3  O1  NCH d         107.432  22.601  19.243  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   2   4
+ATOM      4  O2  NCH d         105.329  23.556  20.133  0.00  0.00    -0.288 OA
+BRANCH   4   5
+ATOM      5  C1  NCH d         104.402  22.582  19.670  0.00  0.00     0.209 C 
+BRANCH   5   6
+ATOM      6  C2  NCH d         103.845  21.786  20.817  0.00  0.00     0.262 C 
+BRANCH   6   7
+ATOM      7  N1  NCH d         102.508  21.270  20.374  0.00  0.00    -0.077 N 
+ATOM      8  C4  NCH d         101.812  20.433  21.437  0.00  0.00     0.271 C 
+ATOM      9  C5  NCH d         101.649  22.426  19.900  0.00  0.00     0.271 C 
+ATOM     10  C3  NCH d         102.678  20.214  19.301  0.00  0.00     0.271 C 
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2  11
+ATOM     11  O3  NCH d         107.335  25.089  19.476  0.00  0.00    -0.247 OA
+BRANCH  11  12
+ATOM     12  C4A NCH d         107.338  26.226  18.345  0.00  0.00     0.082 A 
+ATOM     13  C5A NCH d         106.180  26.665  17.751  0.00  0.00     0.040 A 
+ATOM     14  C6A NCH d         106.212  27.668  16.795  0.00  0.00     0.039 A 
+ATOM     15  C1A NCH d         107.388  28.242  16.432  0.00  0.00     0.103 A 
+ATOM     16  C2A NCH d         108.552  27.828  17.017  0.00  0.00     0.039 A 
+ATOM     17  C3A NCH d         108.522  26.830  17.965  0.00  0.00     0.040 A 
+BRANCH  15  18
+ATOM     18  N1A NCH d         107.388  29.284  15.439  0.00  0.00    -0.116 N 
+ATOM     19  O2N NCH d         106.133  29.627  14.918  0.00  0.00    -0.532 OA
+ATOM     20  O1N NCH d         108.602  29.880  15.070  0.00  0.00    -0.532 OA
+ENDBRANCH  15  18
+ENDBRANCH  11  12
+ENDBRANCH   2  11
+TORSDOF 7

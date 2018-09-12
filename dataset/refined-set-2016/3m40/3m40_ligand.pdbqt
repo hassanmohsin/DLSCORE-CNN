@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N7_7 
+REMARK    2  A    between atoms: C5_5  and  N18_18 
+REMARK    3  A    between atoms: N7_7  and  C8_8 
+REMARK    4  A    between atoms: C11_11  and  S14_14 
+REMARK    5  A    between atoms: S14_14  and  N17_17 
+ROOT
+ATOM      1  C8  J45 d          -4.349   4.386  14.590  0.00  0.00     0.033 A 
+ATOM      2  C9  J45 d          -3.501   3.409  15.089  0.00  0.00     0.031 A 
+ATOM      3  C10 J45 d          -4.042   2.357  15.799  0.00  0.00     0.027 A 
+ATOM      4  C11 J45 d          -5.408   2.254  16.009  0.00  0.00     0.079 A 
+ATOM      5  C12 J45 d          -6.256   3.222  15.490  0.00  0.00     0.027 A 
+ATOM      6  C13 J45 d          -5.731   4.292  14.719  0.00  0.00     0.031 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N7  J45 d          -3.762   5.436  13.872  0.00  0.00    -0.339 N 
+ATOM      8  H2  J45 d          -2.739   5.550  13.916  0.00  0.00     0.167 HD
+BRANCH   7   9
+ATOM      9  C4  J45 d          -4.523   6.365  13.074  0.00  0.00     0.166 C 
+ATOM     10  N3  J45 d          -5.837   6.160  12.774  0.00  0.00    -0.222 NA
+ATOM     11  C2  J45 d          -6.542   6.908  11.930  0.00  0.00     0.237 C 
+ATOM     12  N1  J45 d          -5.930   7.837  11.248  0.00  0.00    -0.227 NA
+ATOM     13  C6  J45 d          -4.661   8.093  11.395  0.00  0.00     0.164 C 
+ATOM     14  C5  J45 d          -3.836   7.333  12.288  0.00  0.00     0.189 C 
+ATOM     15 CL21 J45 d          -4.188   9.421  10.389  0.00  0.00    -0.059 Cl
+BRANCH  14  16
+ATOM     16  N18 J45 d          -2.370   7.457  12.516  0.00  0.00    -0.108 N 
+ATOM     17  O19 J45 d          -2.151   7.569  13.674  0.00  0.00    -0.532 OA
+ATOM     18  O20 J45 d          -1.891   7.325  11.439  0.00  0.00    -0.532 OA
+ENDBRANCH  14  16
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  19
+ATOM     19  S14 J45 d          -6.015   0.883  16.873  0.00  0.00     0.256 S 
+ATOM     20  O15 J45 d          -5.448   0.949  18.235  0.00  0.00    -0.201 OA
+ATOM     21  O16 J45 d          -7.498   0.885  16.742  0.00  0.00    -0.201 OA
+BRANCH  19  22
+ATOM     22  N17 J45 d          -5.333  -0.487  16.138  0.00  0.00    -0.324 N 
+ATOM     23  H7  J45 d          -5.551  -1.400  16.483  0.00  0.00     0.169 HD
+ATOM     24  H8  J45 d          -4.713  -0.381  15.361  0.00  0.00     0.169 HD
+ENDBRANCH  19  22
+ENDBRANCH   4  19
+TORSDOF 5

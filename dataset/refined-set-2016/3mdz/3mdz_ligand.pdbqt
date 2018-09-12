@@ -1,0 +1,35 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_9  and  N1_1 
+REMARK    2  A    between atoms: C5_5  and  O3_15 
+REMARK    3  A    between atoms: O3_15  and  C8_6 
+REMARK    4  A    between atoms: C1_10  and  S1_9 
+ROOT
+ATOM      1  C2  EZL d          15.248   7.893  81.744  0.00  0.00     0.076 A 
+ATOM      2  C3  EZL d          14.087   7.646  80.960  0.00  0.00     0.039 A 
+ATOM      3  C4  EZL d          13.412   6.461  81.085  0.00  0.00     0.058 A 
+ATOM      4  C5  EZL d          13.801   5.470  81.976  0.00  0.00     0.070 A 
+ATOM      5  C1  EZL d          15.185   9.845  80.520  0.00  0.00     0.214 A 
+ATOM      6  N2  EZL d          15.837   9.119  81.475  0.00  0.00    -0.227 NA
+ATOM      7  S2  EZL d          13.763   8.993  79.928  0.00  0.00    -0.054 SA
+ATOM      8  C6  EZL d          14.926   5.680  82.796  0.00  0.00     0.039 A 
+ATOM      9  C7  EZL d          15.629   6.879  82.662  0.00  0.00     0.036 A 
+ENDROOT
+BRANCH   5  10
+ATOM     10  S1  EZL d          15.586  11.404  79.861  0.00  0.00     0.281 S 
+ATOM     11  O1  EZL d          16.772  11.279  79.028  0.00  0.00    -0.199 OA
+ATOM     12  O2  EZL d          14.411  11.696  79.005  0.00  0.00    -0.199 OA
+BRANCH  10  13
+ATOM     13  N1  EZL d          15.873  12.573  80.978  0.00  0.00    -0.323 N 
+ATOM     14  H1  EZL d          16.642  12.482  81.611  0.00  0.00     0.169 HD
+ATOM     15  H2  EZL d          15.279  13.376  81.025  0.00  0.00     0.169 HD
+ENDBRANCH  10  13
+ENDBRANCH   5  10
+BRANCH   4  16
+ATOM     16  O3  EZL d          12.992   4.358  82.000  0.00  0.00    -0.351 OA
+BRANCH  16  17
+ATOM     17  C8  EZL d          13.689   3.106  82.251  0.00  0.00     0.171 C 
+ATOM     18  C9  EZL d          12.601   2.043  81.965  0.00  0.00     0.034 C 
+ENDBRANCH  16  17
+ENDBRANCH   4  16
+TORSDOF 4

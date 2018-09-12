@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_17  and  C12_3 
+REMARK    2  A    between atoms: C9_8  and  O9_24 
+REMARK    3  A    between atoms: N1_21  and  C6_11 
+REMARK    4  A    between atoms: C19_15  and  C20_14 
+REMARK    5  A    between atoms: C18_16  and  C19_15 
+REMARK    6  A    between atoms: C4_19  and  C18_16 
+ROOT
+ATOM      1  N2  OPB d           8.734  23.454  -6.632  0.00  0.00    -0.214 N 
+ATOM      2  C3  OPB d           8.414  23.439  -5.289  0.00  0.00     0.257 A 
+ATOM      3  C4  OPB d           6.890  23.240  -5.082  0.00  0.00     0.174 A 
+ATOM      4  C5  OPB d           6.444  23.160  -6.495  0.00  0.00     0.257 A 
+ATOM      5  N1  OPB d           7.496  23.274  -7.363  0.00  0.00    -0.214 N 
+ATOM      6  O3  OPB d           9.206  23.566  -4.311  0.00  0.00    -0.270 OA
+ATOM      7  O5  OPB d           5.242  23.007  -6.788  0.00  0.00    -0.270 OA
+ENDROOT
+BRANCH   5   8
+ATOM      8  C6  OPB d           7.362  23.174  -8.864  0.00  0.00     0.060 A 
+ATOM      9  C11 OPB d           7.481  24.287  -9.831  0.00  0.00     0.034 A 
+ATOM     10  C10 OPB d           7.328  24.003 -11.265  0.00  0.00     0.039 A 
+ATOM     11  C9  OPB d           7.067  22.647 -11.706  0.00  0.00     0.065 A 
+ATOM     12  C8  OPB d           6.958  21.609 -10.771  0.00  0.00     0.039 A 
+ATOM     13  C7  OPB d           7.104  21.869  -9.385  0.00  0.00     0.034 A 
+BRANCH  11  14
+ATOM     14  O9  OPB d           6.926  22.354 -13.026  0.00  0.00    -0.361 OA
+ATOM     15  H20 OPB d           6.761  21.424 -13.127  0.00  0.00     0.217 HD
+ENDBRANCH  11  14
+ENDBRANCH   5   8
+BRANCH   1  16
+ATOM     16  C12 OPB d          10.159  23.615  -7.215  0.00  0.00     0.060 A 
+ATOM     17  C17 OPB d          10.717  22.625  -8.140  0.00  0.00     0.031 A 
+ATOM     18  C16 OPB d          12.029  22.776  -8.701  0.00  0.00     0.002 A 
+ATOM     19  C15 OPB d          12.828  23.892  -8.377  0.00  0.00     0.000 A 
+ATOM     20  C14 OPB d          12.333  24.885  -7.469  0.00  0.00     0.002 A 
+ATOM     21  C13 OPB d          11.012  24.756  -6.890  0.00  0.00     0.031 A 
+ENDBRANCH   1  16
+BRANCH   3  22
+ATOM     22  C18 OPB d           6.777  21.911  -4.298  0.00  0.00     0.024 C 
+BRANCH  22  23
+ATOM     23  C19 OPB d           5.500  21.176  -3.836  0.00  0.00     0.001 C 
+BRANCH  23  24
+ATOM     24  C20 OPB d           5.921  19.711  -4.129  0.00  0.00    -0.005 C 
+ATOM     25  C21 OPB d           4.954  18.619  -3.833  0.00  0.00     0.005 C 
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   3  22
+TORSDOF 6

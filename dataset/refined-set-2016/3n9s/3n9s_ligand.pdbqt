@@ -1,0 +1,56 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O01_1  and  N02_2 
+REMARK    2  A    between atoms: N02_2  and  C03_3 
+REMARK       I    between atoms: N02_2  and  C12_12 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  C05_5 
+REMARK    5  A    between atoms: C05_5  and  C06_6 
+REMARK    6  A    between atoms: C06_6  and  O07_7 
+REMARK    7  A    between atoms: O07_7  and  P08_8 
+REMARK    8  A    between atoms: C12_12  and  C14_14 
+REMARK    9  A    between atoms: C14_14  and  O15_15 
+REMARK   10  A    between atoms: O15_15  and  P16_16 
+ROOT
+ATOM      1  N02 TD4 d          -7.137  24.677 -23.125  0.00  0.00    -0.227 N 
+ATOM      2  C12 TD4 d          -6.084  25.651 -22.961  0.00  0.00     0.267 C 
+ATOM      3  O13 TD4 d          -5.449  25.678 -21.948  0.00  0.00    -0.269 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O01 TD4 d          -7.671  24.027 -22.006  0.00  0.00    -0.285 OA
+ATOM      5  H1  TD4 d          -7.032  24.033 -21.303  0.00  0.00     0.245 HD
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  C03 TD4 d          -7.972  24.764 -24.295  0.00  0.00     0.159 C 
+BRANCH   6   7
+ATOM      7  C04 TD4 d          -9.051  25.826 -24.172  0.00  0.00     0.024 C 
+BRANCH   7   8
+ATOM      8  C05 TD4 d         -10.479  25.326 -24.179  0.00  0.00     0.028 C 
+BRANCH   8   9
+ATOM      9  C06 TD4 d         -11.543  26.381 -24.424  0.00  0.00     0.182 C 
+BRANCH   9  10
+ATOM     10  O07 TD4 d         -12.339  26.167 -25.543  0.00  0.00    -0.283 OA
+BRANCH  10  11
+ATOM     11  P08 TD4 d         -13.947  26.442 -25.420  0.00  0.00     0.422 P 
+ATOM     12  O09 TD4 d         -14.712  25.452 -26.471  0.00  0.00    -0.617 OA
+ATOM     13  O10 TD4 d         -14.428  26.119 -23.889  0.00  0.00    -0.617 OA
+ATOM     14  O11 TD4 d         -14.218  27.840 -25.722  0.00  0.00    -0.617 OA
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   2  15
+ATOM     15  C14 TD4 d          -5.639  26.436 -24.198  0.00  0.00     0.287 C 
+BRANCH  15  16
+ATOM     16  O15 TD4 d          -4.774  27.502 -23.952  0.00  0.00    -0.273 OA
+BRANCH  16  17
+ATOM     17  P16 TD4 d          -4.566  28.717 -25.051  0.00  0.00     0.422 P 
+ATOM     18  O17 TD4 d          -3.192  29.491 -24.615  0.00  0.00    -0.617 OA
+ATOM     19  O18 TD4 d          -5.848  29.734 -25.037  0.00  0.00    -0.617 OA
+ATOM     20  O19 TD4 d          -4.366  28.150 -26.376  0.00  0.00    -0.617 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   2  15
+TORSDOF 10

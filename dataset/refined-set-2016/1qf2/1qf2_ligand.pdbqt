@@ -1,0 +1,62 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SG_1  and  CA1_2 
+REMARK    2  A    between atoms: CA1_2  and  C1_10 
+REMARK    3  A    between atoms: CA1_2  and  CB1_3 
+REMARK    4  A    between atoms: CB1_3  and  CG1_4 
+REMARK       I    between atoms: C1_10  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  CA2_13 
+REMARK    6  A    between atoms: CA2_13  and  C2_14 
+REMARK       I    between atoms: C2_14  and  N3_16 
+REMARK    7  A    between atoms: CD3_17  and  CG4_21 
+REMARK    8  A    between atoms: CA3_18  and  C3_27 
+ROOT
+ATOM      1  C2  TI3 d          38.231  38.273  -4.780  0.00  0.00     0.238 C 
+ATOM      2  O2  TI3 d          37.301  38.388  -5.582  0.00  0.00    -0.271 OA
+ATOM      3  N3  TI3 d          39.261  37.455  -5.019  0.00  0.00    -0.327 N 
+ATOM      4  CD3 TI3 d          40.386  37.058  -4.141  0.00  0.00     0.121 C 
+ATOM      5  CA3 TI3 d          39.267  36.706  -6.284  0.00  0.00     0.189 C 
+ATOM      6  CB3 TI3 d          40.707  36.207  -6.369  0.00  0.00     0.039 C 
+ATOM      7  CG3 TI3 d          41.054  35.954  -4.946  0.00  0.00     0.033 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA2 TI3 d          38.204  39.063  -3.486  0.00  0.00     0.225 C 
+BRANCH   8   9
+ATOM      9  N2  TI3 d          37.358  40.193  -3.797  0.00  0.00    -0.351 N 
+ATOM     10  C1  TI3 d          37.866  41.397  -4.013  0.00  0.00     0.232 C 
+ATOM     11  O1  TI3 d          39.049  41.679  -3.834  0.00  0.00    -0.272 OA
+ATOM     12  H10 TI3 d          36.368  40.063  -3.850  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CA1 TI3 d          36.857  42.476  -4.381  0.00  0.00     0.140 C 
+BRANCH  13  14
+ATOM     14  SG  TI3 d          36.163  42.445  -6.113  0.00  0.00    -0.168 SA
+ATOM     15  H1  TI3 d          35.512  43.206  -6.226  0.00  0.00     0.102 HD
+ENDBRANCH  13  14
+BRANCH  13  16
+ATOM     16  CB1 TI3 d          35.791  42.491  -3.289  0.00  0.00     0.063 C 
+BRANCH  16  17
+ATOM     17  CG1 TI3 d          36.360  42.588  -1.898  0.00  0.00    -0.057 A 
+ATOM     18  CD2 TI3 d          36.198  41.545  -0.990  0.00  0.00     0.007 A 
+ATOM     19  CE2 TI3 d          36.755  41.613   0.281  0.00  0.00     0.001 A 
+ATOM     20  CZ1 TI3 d          37.482  42.732   0.658  0.00  0.00     0.000 A 
+ATOM     21  CE1 TI3 d          37.651  43.792  -0.242  0.00  0.00     0.001 A 
+ATOM     22  CD1 TI3 d          37.091  43.714  -1.510  0.00  0.00     0.007 A 
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   5  23
+ATOM     23  C3  TI3 d          38.232  35.568  -6.393  0.00  0.00     0.197 C 
+ATOM     24  OXT TI3 d          37.750  35.315  -7.525  0.00  0.00    -0.646 OA
+ATOM     25  O3  TI3 d          37.878  34.971  -5.349  0.00  0.00    -0.646 OA
+ENDBRANCH   5  23
+BRANCH   4  26
+ATOM     26  CG4 TI3 d          40.002  36.545  -2.766  0.00  0.00    -0.035 A 
+ATOM     27  CD4 TI3 d          40.907  36.604  -1.713  0.00  0.00     0.009 A 
+ATOM     28  CE4 TI3 d          40.588  36.071  -0.468  0.00  0.00     0.001 A 
+ATOM     29  CZ3 TI3 d          39.348  35.472  -0.265  0.00  0.00     0.000 A 
+ATOM     30  CE5 TI3 d          38.429  35.409  -1.307  0.00  0.00     0.001 A 
+ATOM     31  CD5 TI3 d          38.760  35.942  -2.546  0.00  0.00     0.009 A 
+ENDBRANCH   4  26
+TORSDOF 8

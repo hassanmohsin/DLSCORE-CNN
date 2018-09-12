@@ -1,0 +1,60 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBA_4  and  NBD_5 
+REMARK    2  A    between atoms: CBC_11  and  CAU_12 
+REMARK       I    between atoms: CAU_12  and  NBE_14 
+REMARK    3  A    between atoms: NBE_14  and  CAT_15 
+REMARK    4  A    between atoms: NBE_14  and  CAZ_22 
+REMARK    5  A    between atoms: CAT_15  and  CAY_16 
+REMARK    6  A    between atoms: CAV_26  and  OAG_27 
+REMARK    7  A    between atoms: CBB_28  and  CBF_29 
+ROOT
+ATOM      1  CAU XX9 d          10.862  13.917 -19.996  0.00  0.00     0.262 C 
+ATOM      2  OAF XX9 d           9.784  14.366 -19.537  0.00  0.00    -0.267 OA
+ATOM      3  NBE XX9 d          11.996  14.102 -19.302  0.00  0.00    -0.309 N 
+ENDROOT
+BRANCH   3   4
+ATOM      4  CAT XX9 d          11.917  14.850 -17.998  0.00  0.00     0.171 C 
+BRANCH   4   5
+ATOM      5  CAY XX9 d          12.439  16.230 -18.053  0.00  0.00    -0.040 A 
+ATOM      6  CAN XX9 d          11.649  17.245 -18.513  0.00  0.00     0.009 A 
+ATOM      7  CAK XX9 d          12.113  18.577 -18.482  0.00  0.00     0.001 A 
+ATOM      8  CAJ XX9 d          13.441  18.792 -18.068  0.00  0.00     0.000 A 
+ATOM      9  CAL XX9 d          14.288  17.773 -17.623  0.00  0.00     0.001 A 
+ATOM     10  CAO XX9 d          13.737  16.447 -17.640  0.00  0.00     0.009 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+BRANCH   3  11
+ATOM     11  CAZ XX9 d          13.196  13.608 -19.749  0.00  0.00     0.038 A 
+ATOM     12  CAS XX9 d          14.148  14.518 -20.226  0.00  0.00     0.040 A 
+ATOM     13  CBB XX9 d          15.400  14.075 -20.637  0.00  0.00    -0.015 A 
+ATOM     14  CAV XX9 d          15.665  12.662 -20.461  0.00  0.00     0.072 A 
+ATOM     15  CAM XX9 d          14.698  11.765 -20.021  0.00  0.00     0.039 A 
+ATOM     16  CAP XX9 d          13.426  12.226 -19.643  0.00  0.00     0.032 A 
+BRANCH  13  17
+ATOM     17  CBF XX9 d          16.452  14.971 -21.043  0.00  0.00    -0.021 C 
+ATOM     18  CAD XX9 d          16.980  14.627 -22.462  0.00  0.00     0.019 C 
+ATOM     19  CAE XX9 d          16.068  16.423 -20.960  0.00  0.00     0.019 C 
+ATOM     20  CAC XX9 d          17.617  14.880 -20.039  0.00  0.00     0.019 C 
+ENDBRANCH  13  17
+BRANCH  14  21
+ATOM     21  OAG XX9 d          16.893  12.176 -20.804  0.00  0.00    -0.360 OA
+ATOM     22  H19 XX9 d          17.449  12.893 -21.084  0.00  0.00     0.217 HD
+ENDBRANCH  14  21
+ENDBRANCH   3  11
+BRANCH   1  23
+ATOM     23  CBC XX9 d          10.890  13.270 -21.265  0.00  0.00     0.076 A 
+ATOM     24  CAW XX9 d          10.449  11.971 -21.421  0.00  0.00     0.053 A 
+ATOM     25 CLH  XX9 d          10.003  11.051 -20.003  0.00  0.00    -0.083 Cl
+ATOM     26  CAQ XX9 d          10.401  11.316 -22.651  0.00  0.00     0.054 A 
+ATOM     27  CBA XX9 d          10.708  11.942 -23.839  0.00  0.00     0.032 A 
+ATOM     28  CAR XX9 d          11.113  13.273 -23.715  0.00  0.00     0.054 A 
+ATOM     29  CAX XX9 d          11.220  13.905 -22.474  0.00  0.00     0.053 A 
+ATOM     30 CLI  XX9 d          11.787  15.639 -22.431  0.00  0.00    -0.083 Cl
+BRANCH  27  31
+ATOM     31  NBD XX9 d          10.680  11.311 -25.019  0.00  0.00    -0.389 N 
+ATOM     32  CAB XX9 d          10.868  12.100 -26.315  0.00  0.00     0.149 C 
+ATOM     33  CAA XX9 d          10.596   9.836 -25.075  0.00  0.00     0.149 C 
+ENDBRANCH  27  31
+ENDBRANCH   1  23
+TORSDOF 7

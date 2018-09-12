@@ -1,0 +1,128 @@
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_2  and  N1_1 
+REMARK    2  A    between atoms: CA1_2  and  C1_3 
+REMARK    3  A    between atoms: CB1_6  and  CA1_2 
+REMARK    4  A    between atoms: CG1_7  and  CB1_6 
+REMARK    5  A    between atoms: CD1_8  and  CG1_7 
+REMARK       I    between atoms: N2_10  and  CD1_8 
+REMARK    6  A    between atoms: CA2_11  and  N2_10 
+REMARK    7  A    between atoms: CA2_11  and  C2_12 
+REMARK    8  A    between atoms: CB2_14  and  CA2_11 
+REMARK       I    between atoms: C2_12  and  N3_16 
+REMARK    9  A    between atoms: SG2_15  and  CB2_14 
+REMARK   10  A    between atoms: SG5_31  and  SG2_15 
+REMARK   11  A    between atoms: N3_16  and  CA3_17 
+REMARK   12  A    between atoms: CA3_17  and  C3_18 
+REMARK   13  A    between atoms: N4_21  and  CA4_22 
+REMARK       I    between atoms: C5_26  and  N4_21 
+REMARK   14  A    between atoms: CA4_22  and  C4_23 
+REMARK   15  A    between atoms: CA5_28  and  C5_26 
+REMARK   16  A    between atoms: N5_29  and  CA5_28 
+REMARK   17  A    between atoms: CA5_28  and  CB5_30 
+REMARK       I    between atoms: CD6_39  and  N5_29 
+REMARK   18  A    between atoms: CB5_30  and  SG5_31 
+REMARK   19  A    between atoms: CA6_32  and  C6_33 
+REMARK   20  A    between atoms: CA6_32  and  N6_36 
+REMARK   21  A    between atoms: CB6_37  and  CA6_32 
+REMARK   22  A    between atoms: CG6_38  and  CB6_37 
+REMARK   23  A    between atoms: CG6_38  and  CD6_39 
+ROOT
+ATOM      1  SG2 GDS d          26.975  38.412  46.438  0.00  0.00    -0.095 SA
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB2 GDS d          28.302  37.747  47.507  0.00  0.00     0.120 C 
+BRANCH   2   3
+ATOM      3  CA2 GDS d          28.356  38.328  48.920  0.00  0.00     0.186 C 
+BRANCH   3   4
+ATOM      4  N2  GDS d          28.903  39.712  48.876  0.00  0.00    -0.347 N 
+ATOM      5  CD1 GDS d          28.187  40.813  49.173  0.00  0.00     0.218 C 
+ATOM      6  O1  GDS d          26.997  40.801  49.530  0.00  0.00    -0.274 OA
+ATOM      7  H9  GDS d          29.860  39.831  48.610  0.00  0.00     0.163 HD
+BRANCH   5   8
+ATOM      8  CG1 GDS d          28.975  42.158  49.049  0.00  0.00     0.105 C 
+BRANCH   8   9
+ATOM      9  CB1 GDS d          28.643  43.167  50.174  0.00  0.00     0.053 C 
+BRANCH   9  10
+ATOM     10  CA1 GDS d          29.117  42.639  51.564  0.00  0.00     0.283 C 
+BRANCH  10  11
+ATOM     11  N1  GDS d          28.505  43.369  52.674  0.00  0.00    -0.065 N 
+ATOM     12  H1  GDS d          27.501  43.328  52.590  0.00  0.00     0.275 HD
+ATOM     13  H2  GDS d          28.805  44.331  52.650  0.00  0.00     0.275 HD
+ATOM     14  H3  GDS d          28.787  42.951  53.547  0.00  0.00     0.275 HD
+ENDBRANCH  10  11
+BRANCH  10  15
+ATOM     15  C1  GDS d          30.639  42.715  51.713  0.00  0.00     0.204 C 
+ATOM     16  OE1 GDS d          31.130  43.822  52.071  0.00  0.00    -0.646 OA
+ATOM     17  OE2 GDS d          31.285  41.651  51.466  0.00  0.00    -0.646 OA
+ENDBRANCH  10  15
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+ENDBRANCH   3   4
+BRANCH   3  18
+ATOM     18  C2  GDS d          29.277  37.444  49.748  0.00  0.00     0.241 C 
+ATOM     19  O2  GDS d          30.479  37.726  49.834  0.00  0.00    -0.271 OA
+ATOM     20  N3  GDS d          28.706  36.374  50.328  0.00  0.00    -0.349 N 
+ATOM     21  H13 GDS d          27.725  36.222  50.211  0.00  0.00     0.163 HD
+BRANCH  20  22
+ATOM     22  CA3 GDS d          29.490  35.418  51.133  0.00  0.00     0.235 C 
+BRANCH  22  23
+ATOM     23  C3  GDS d          28.772  34.064  51.253  0.00  0.00     0.191 C 
+ATOM     24  OE3 GDS d          28.936  33.456  52.355  0.00  0.00    -0.647 OA
+ATOM     25  OE4 GDS d          28.060  33.665  50.284  0.00  0.00    -0.647 OA
+ENDBRANCH  22  23
+ENDBRANCH  20  22
+ENDBRANCH   3  18
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  26
+ATOM     26  SG5 GDS d          25.209  37.680  47.248  0.00  0.00    -0.095 SA
+BRANCH  26  27
+ATOM     27  CB5 GDS d          24.407  39.095  48.057  0.00  0.00     0.120 C 
+BRANCH  27  28
+ATOM     28  CA5 GDS d          24.464  39.011  49.597  0.00  0.00     0.186 C 
+BRANCH  28  29
+ATOM     29  C5  GDS d          23.587  40.134  50.153  0.00  0.00     0.241 C 
+ATOM     30  N4  GDS d          24.261  41.186  50.644  0.00  0.00    -0.349 N 
+ATOM     31  H16 GDS d          25.261  41.191  50.637  0.00  0.00     0.163 HD
+ATOM     32  O5  GDS d          22.344  40.047  50.109  0.00  0.00    -0.271 OA
+BRANCH  30  33
+ATOM     33  CA4 GDS d          23.507  42.350  51.201  0.00  0.00     0.235 C 
+BRANCH  33  34
+ATOM     34  C4  GDS d          24.416  43.138  52.165  0.00  0.00     0.191 C 
+ATOM     35  OE5 GDS d          25.573  42.670  52.340  0.00  0.00    -0.647 OA
+ATOM     36  OE6 GDS d          23.932  44.175  52.701  0.00  0.00    -0.647 OA
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  28  29
+BRANCH  28  37
+ATOM     37  N5  GDS d          23.953  37.740  50.166  0.00  0.00    -0.347 N 
+ATOM     38  CD6 GDS d          24.722  36.840  50.782  0.00  0.00     0.218 C 
+ATOM     39  O6  GDS d          25.949  36.912  50.897  0.00  0.00    -0.274 OA
+ATOM     40  H20 GDS d          22.975  37.546  50.083  0.00  0.00     0.163 HD
+BRANCH  38  41
+ATOM     41  CG6 GDS d          23.952  35.638  51.342  0.00  0.00     0.105 C 
+BRANCH  41  42
+ATOM     42  CB6 GDS d          24.891  34.750  52.125  0.00  0.00     0.053 C 
+BRANCH  42  43
+ATOM     43  CA6 GDS d          24.147  33.647  52.866  0.00  0.00     0.283 C 
+BRANCH  43  44
+ATOM     44  C6  GDS d          23.421  32.716  51.878  0.00  0.00     0.204 C 
+ATOM     45  OE7 GDS d          22.283  33.098  51.527  0.00  0.00    -0.646 OA
+ATOM     46  OE8 GDS d          23.986  31.650  51.500  0.00  0.00    -0.646 OA
+ENDBRANCH  43  44
+BRANCH  43  47
+ATOM     47  N6  GDS d          25.101  32.915  53.734  0.00  0.00    -0.065 N 
+ATOM     48  H24 GDS d          25.550  33.564  54.361  0.00  0.00     0.275 HD
+ATOM     49  H25 GDS d          25.798  32.464  53.162  0.00  0.00     0.275 HD
+ATOM     50  H26 GDS d          24.604  32.220  54.269  0.00  0.00     0.275 HD
+ENDBRANCH  43  47
+ENDBRANCH  42  43
+ENDBRANCH  41  42
+ENDBRANCH  38  41
+ENDBRANCH  28  37
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+TORSDOF 23

@@ -1,0 +1,48 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_11 
+REMARK    2  A    between atoms: O1_11  and  C11_12 
+REMARK    3  A    between atoms: C11_12  and  C12_13 
+REMARK    4  A    between atoms: C12_13  and  O2_14 
+REMARK    5  A    between atoms: C12_13  and  C13_15 
+REMARK    6  A    between atoms: C13_15  and  N1_16 
+REMARK    7  A    between atoms: N1_16  and  C14_17 
+ROOT
+ATOM      1  O1  SNP d          25.594  55.331  90.245  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  SNP d          24.316  54.891  90.554  0.00  0.00     0.080 A 
+ATOM      3  C2  SNP d          23.977  54.195  91.752  0.00  0.00     0.037 A 
+ATOM      4  C3  SNP d          22.648  53.756  92.032  0.00  0.00     0.004 A 
+ATOM      5  C4  SNP d          21.611  54.022  91.085  0.00  0.00     0.012 A 
+ATOM      6  C10 SNP d          21.912  54.707  89.893  0.00  0.00    -0.023 A 
+ATOM      7  C5  SNP d          20.878  54.961  88.969  0.00  0.00     0.012 A 
+ATOM      8  C9  SNP d          23.256  55.140  89.633  0.00  0.00     0.007 A 
+ATOM      9  C6  SNP d          21.150  55.657  87.750  0.00  0.00     0.001 A 
+ATOM     10  C7  SNP d          22.481  56.095  87.471  0.00  0.00     0.001 A 
+ATOM     11  C8  SNP d          23.519  55.828  88.421  0.00  0.00     0.015 A 
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C11 SNP d          26.452  55.830  91.261  0.00  0.00     0.209 C 
+BRANCH  12  13
+ATOM     13  C12 SNP d          27.698  56.418  90.597  0.00  0.00     0.168 C 
+BRANCH  13  14
+ATOM     14  O2  SNP d          28.417  55.376  89.966  0.00  0.00    -0.392 OA
+ATOM     15  H11 SNP d          27.866  54.965  89.310  0.00  0.00     0.210 HD
+ENDBRANCH  13  14
+BRANCH  13  16
+ATOM     16  C13 SNP d          27.352  57.483  89.543  0.00  0.00     0.266 C 
+BRANCH  16  17
+ATOM     17  N1  SNP d          28.389  58.499  89.532  0.00  0.00    -0.068 N 
+ATOM     18  H14 SNP d          29.284  58.035  89.531  0.00  0.00     0.277 HD
+ATOM     19  H15 SNP d          28.298  59.050  90.371  0.00  0.00     0.277 HD
+BRANCH  17  20
+ATOM     20  C14 SNP d          28.343  59.396  88.394  0.00  0.00     0.186 A 
+ATOM     21  C15 SNP d          29.247  58.819  87.286  0.00  0.00     0.035 A 
+ATOM     22  C16 SNP d          28.823  60.813  88.767  0.00  0.00     0.035 A 
+ENDBRANCH  17  20
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 7

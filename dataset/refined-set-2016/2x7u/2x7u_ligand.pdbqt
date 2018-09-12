@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_9  and  C1_1 
+REMARK    2  A    between atoms: C2_4  and  O4_12 
+REMARK    3  A    between atoms: S1_7  and  N1_8 
+REMARK    4  A    between atoms: S1_7  and  O3_9 
+REMARK    5  A    between atoms: C15_20  and  OAF_26 
+ROOT
+ATOM      1  C1  WZA d           2.078   4.858 -17.868  0.00  0.00     0.124 A 
+ATOM      2  C2  WZA d           1.237   3.788 -18.455  0.00  0.00     0.103 A 
+ATOM      3  C3  WZA d           1.779   2.594 -18.892  0.00  0.00     0.047 A 
+ATOM      4  C4  WZA d           3.137   2.361 -18.795  0.00  0.00    -0.044 A 
+ATOM      5  C5  WZA d           4.013   3.401 -18.194  0.00  0.00    -0.049 A 
+ATOM      6  C6  WZA d           3.451   4.611 -17.752  0.00  0.00     0.049 A 
+ATOM      7  C8  WZA d           3.652   1.056 -19.275  0.00  0.00     0.024 C 
+ATOM      8  C10 WZA d           5.820   1.640 -18.095  0.00  0.00     0.010 C 
+ATOM      9  C11 WZA d           5.506   3.140 -18.083  0.00  0.00     0.039 C 
+ATOM     10  C12 WZA d           3.063   0.646 -20.632  0.00  0.00     0.010 C 
+ATOM     11  C13 WZA d           3.420  -0.819 -20.937  0.00  0.00     0.013 C 
+ATOM     12  C14 WZA d           4.914  -1.098 -20.763  0.00  0.00    -0.014 C 
+ATOM     13  C15 WZA d           5.238  -2.566 -20.555  0.00  0.00     0.126 C 
+ATOM     14  C16 WZA d           5.641  -0.489 -21.972  0.00  0.00     0.018 C 
+ATOM     15  C17 WZA d           5.386  -0.551 -19.416  0.00  0.00     0.001 C 
+ATOM     16  C18 WZA d           6.748  -1.195 -19.161  0.00  0.00     0.008 C 
+ATOM     17  C19 WZA d           6.616  -2.572 -19.873  0.00  0.00     0.033 C 
+ATOM     18  CAW WZA d           5.176   0.962 -19.303  0.00  0.00    -0.001 C 
+ENDROOT
+BRANCH   1  19
+ATOM     19  O3  WZA d           1.531   6.033 -17.396  0.00  0.00    -0.214 OA
+BRANCH  19  20
+ATOM     20  S1  WZA d           0.919   7.354 -18.181  0.00  0.00     0.360 S 
+ATOM     21  O1  WZA d           1.610   7.688 -19.378  0.00  0.00    -0.176 OA
+ATOM     22  O2  WZA d          -0.485   7.171 -18.460  0.00  0.00    -0.176 OA
+BRANCH  20  23
+ATOM     23  N1  WZA d           1.108   8.545 -17.132  0.00  0.00    -0.305 N 
+ATOM     24  H2  WZA d           0.812   9.471 -17.368  0.00  0.00     0.171 HD
+ATOM     25  H3  WZA d           1.522   8.365 -16.240  0.00  0.00     0.171 HD
+ENDBRANCH  20  23
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH   2  26
+ATOM     26  O4  WZA d          -0.098   3.907 -18.574  0.00  0.00    -0.353 OA
+ATOM     27  C7  WZA d          -0.810   2.873 -17.896  0.00  0.00     0.210 C 
+ENDBRANCH   2  26
+BRANCH  13  28
+ATOM     28  OAF WZA d           5.227  -3.295 -21.786  0.00  0.00    -0.395 OA
+ATOM     29  H27 WZA d           4.357  -3.261 -22.165  0.00  0.00     0.210 HD
+ENDBRANCH  13  28
+TORSDOF 5

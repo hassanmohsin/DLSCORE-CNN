@@ -1,0 +1,90 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBD_7  and  NAX_8 
+REMARK       I    between atoms: NAX_8  and  CBB_9 
+REMARK    2  A    between atoms: CBB_9  and  CAT_11 
+REMARK    3  A    between atoms: CAT_11  and  CBE_12 
+REMARK    4  A    between atoms: CBG_16  and  NAY_17 
+REMARK    5  A    between atoms: NAY_17  and  C6_18 
+REMARK    6  A    between atoms: CBF_27  and  OBA_28 
+REMARK    7  A    between atoms: OBA_28  and  CAQ_29 
+REMARK    8  A    between atoms: CAQ_29  and  CAP_30 
+REMARK    9  A    between atoms: CAP_30  and  CAS_31 
+REMARK   10  A    between atoms: CAS_31  and  NBK_32 
+REMARK   11  A    between atoms: NBK_32  and  CAO_33 
+REMARK   12  A    between atoms: NBK_32  and  CAR_35 
+REMARK   13  A    between atoms: CAR_35  and  CAN_36 
+REMARK   14  A    between atoms: CAN_36  and  OAC_37 
+ROOT
+ATOM      1  C6  YJA d           9.571 -25.059   5.545  0.00  0.00     0.143 A 
+ATOM      2  N1  YJA d          10.171 -23.985   6.166  0.00  0.00    -0.223 NA
+ATOM      3  C2  YJA d          11.477 -24.010   6.321  0.00  0.00     0.236 A 
+ATOM      4  N3  YJA d          12.367 -24.905   5.885  0.00  0.00    -0.241 NA
+ATOM      5  C4  YJA d          11.844 -26.006   5.240  0.00  0.00     0.074 A 
+ATOM      6  CAM YJA d          12.748 -27.032   4.857  0.00  0.00     0.069 A 
+ATOM      7  C5  YJA d          10.429 -26.103   5.063  0.00  0.00     0.039 A 
+ATOM      8  CAJ YJA d          10.026 -27.281   4.397  0.00  0.00     0.020 A 
+ATOM      9  CAI YJA d          10.925 -28.289   3.974  0.00  0.00     0.038 A 
+ATOM     10  CBF YJA d          12.324 -28.153   4.165  0.00  0.00     0.071 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAY YJA d           8.190 -25.138   5.438  0.00  0.00    -0.323 N 
+ATOM     12  H   YJA d           7.799 -25.862   4.818  0.00  0.00     0.169 HD
+BRANCH  11  13
+ATOM     13  CBG YJA d           7.292 -24.306   6.111  0.00  0.00     0.151 A 
+ATOM     14  CAL YJA d           7.389 -23.130   6.777  0.00  0.00     0.079 A 
+ATOM     15  CBE YJA d           6.123 -22.855   7.247  0.00  0.00     0.040 A 
+ATOM     16  NAZ YJA d           5.308 -23.822   6.885  0.00  0.00    -0.280 N 
+ATOM     17  NAW YJA d           6.004 -24.692   6.228  0.00  0.00    -0.156 NA
+ATOM     18  H   YJA d           4.300 -23.876   7.088  0.00  0.00     0.189 HD
+BRANCH  15  19
+ATOM     19  CAT YJA d           5.652 -21.635   8.097  0.00  0.00     0.161 C 
+BRANCH  19  20
+ATOM     20  CBB YJA d           4.533 -20.859   7.296  0.00  0.00     0.227 C 
+ATOM     21  NAX YJA d           4.082 -19.805   8.010  0.00  0.00    -0.327 N 
+ATOM     22  H   YJA d           4.576 -19.570   8.847  0.00  0.00     0.169 HD
+ATOM     23  OAB YJA d           4.316 -21.136   6.104  0.00  0.00    -0.273 OA
+BRANCH  21  24
+ATOM     24  CBD YJA d           2.976 -19.016   7.670  0.00  0.00     0.037 A 
+ATOM     25  CAK YJA d           2.095 -19.281   6.624  0.00  0.00     0.071 A 
+ATOM     26  CBC YJA d           1.020 -18.460   6.409  0.00  0.00     0.118 A 
+ATOM     27  FAD YJA d           0.182 -18.752   5.216  0.00  0.00    -0.206 F 
+ATOM     28  CAG YJA d           0.741 -17.406   7.278  0.00  0.00     0.042 A 
+ATOM     29  CAE YJA d           1.545 -17.175   8.379  0.00  0.00     0.005 A 
+ATOM     30  CAH YJA d           2.651 -17.982   8.577  0.00  0.00     0.029 A 
+ENDBRANCH  21  24
+ENDBRANCH  19  20
+ENDBRANCH  15  19
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+BRANCH  10  31
+ATOM     31  OBA YJA d          13.202 -29.101   3.697  0.00  0.00    -0.351 OA
+BRANCH  31  32
+ATOM     32  CAQ YJA d          14.612 -28.841   3.868  0.00  0.00     0.177 C 
+BRANCH  32  33
+ATOM     33  CAP YJA d          15.391 -29.941   3.184  0.00  0.00     0.054 C 
+BRANCH  33  34
+ATOM     34  CAS YJA d          14.871 -31.285   3.650  0.00  0.00     0.237 C 
+BRANCH  34  35
+ATOM     35  NBK YJA d          15.533 -32.454   2.997  0.00  0.00    -0.069 N 
+ATOM     36  H   YJA d          15.058 -33.253   3.387  0.00  0.00     0.279 HD
+BRANCH  35  37
+ATOM     37  CAO YJA d          16.951 -32.568   3.403  0.00  0.00     0.230 C 
+ATOM     38  CAA YJA d          17.040 -33.636   4.513  0.00  0.00     0.034 C 
+ENDBRANCH  35  37
+BRANCH  35  39
+ATOM     39  CAR YJA d          15.451 -32.649   1.527  0.00  0.00     0.260 C 
+BRANCH  39  40
+ATOM     40  CAN YJA d          14.304 -31.843   0.858  0.00  0.00     0.192 C 
+BRANCH  40  41
+ATOM     41  OAC YJA d          14.464 -32.260  -0.508  0.00  0.00    -0.399 OA
+ATOM     42  H   YJA d          13.809 -31.832  -1.047  0.00  0.00     0.209 HD
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  35  39
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  10  31
+TORSDOF 14

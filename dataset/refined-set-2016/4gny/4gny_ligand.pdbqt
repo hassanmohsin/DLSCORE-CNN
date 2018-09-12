@@ -1,0 +1,58 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2S_3  and  S_1 
+REMARK    2  A    between atoms: C1_6  and  O2S_3 
+REMARK    3  A    between atoms: C12_17  and  C1_6 
+REMARK    4  A    between atoms: C4_9  and  C3_8 
+REMARK    5  A    between atoms: C5_10  and  C4_9 
+REMARK    6  A    between atoms: C6_11  and  C5_10 
+REMARK    7  A    between atoms: C7_12  and  C6_11 
+REMARK    8  A    between atoms: C8_13  and  C7_12 
+REMARK    9  A    between atoms: C9_14  and  C8_13 
+REMARK   10  A    between atoms: C10_15  and  C9_14 
+REMARK   11  A    between atoms: C11_16  and  C10_15 
+REMARK   12  A    between atoms: C11_16  and  C12_17 
+ROOT
+ATOM      1  C10 SDS d          22.830  37.463  18.238  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C9  SDS d          23.440  36.122  18.019  0.00  0.00     0.000 C 
+BRANCH   2   3
+ATOM      3  C8  SDS d          22.794  35.066  18.848  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  C7  SDS d          23.388  33.766  18.436  0.00  0.00     0.000 C 
+BRANCH   4   5
+ATOM      5  C6  SDS d          22.872  32.599  19.218  0.00  0.00     0.000 C 
+BRANCH   5   6
+ATOM      6  C5  SDS d          23.796  31.447  19.003  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  C4  SDS d          23.121  30.119  19.063  0.00  0.00    -0.000 C 
+BRANCH   7   8
+ATOM      8  C3  SDS d          22.503  29.884  20.394  0.00  0.00    -0.005 C 
+ATOM      9  C2  SDS d          22.252  28.428  20.622  0.00  0.00     0.005 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C11 SDS d          23.652  38.476  17.513  0.00  0.00     0.002 C 
+BRANCH  10  11
+ATOM     11  C12 SDS d          22.968  39.804  17.488  0.00  0.00     0.028 C 
+BRANCH  11  12
+ATOM     12  C1  SDS d          23.826  40.793  16.764  0.00  0.00     0.193 C 
+BRANCH  12  13
+ATOM     13  O2S SDS d          25.120  40.754  17.256  0.00  0.00    -0.257 OA
+BRANCH  13  14
+ATOM     14  S   SDS d          25.855  41.989  17.591  0.00  0.00     0.251 S 
+ATOM     15  O1S SDS d          26.036  42.836  16.437  0.00  0.00    -0.572 OA
+ATOM     16  O3S SDS d          27.148  41.669  18.219  0.00  0.00    -0.572 OA
+ATOM     17  O4  SDS d          25.061  42.846  18.438  0.00  0.00    -0.572 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 12

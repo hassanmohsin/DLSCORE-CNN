@@ -1,0 +1,68 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_25  and  C1_1 
+REMARK       I    between atoms: C13_26  and  N1_3 
+REMARK    2  A    between atoms: C2_6  and  O2_9 
+REMARK    3  A    between atoms: O2_9  and  C14_27 
+REMARK    4  A    between atoms: C11_24  and  N4_14 
+REMARK       I    between atoms: N5_16  and  C13_26 
+REMARK    5  A    between atoms: C19_32  and  N5_16 
+REMARK    6  A    between atoms: C15_28  and  N6_18 
+REMARK    7  A    between atoms: C14_27  and  C15_28 
+REMARK    8  A    between atoms: C19_32  and  C20_33 
+ROOT
+ATOM      1  N1  FU7 d          16.320  -4.778  51.502  0.00  0.00    -0.282 N 
+ATOM      2  O1  FU7 d          15.189  -6.459  52.608  0.00  0.00    -0.246 OA
+ATOM      3  N2  FU7 d          17.652  -1.748  49.919  0.00  0.00    -0.061 NA
+ATOM      4  N3  FU7 d          15.785  -0.246  50.439  0.00  0.00    -0.061 NA
+ATOM      5  N5  FU7 d          17.239  -6.946  51.666  0.00  0.00    -0.337 N 
+ATOM      6  C7  FU7 d          15.732  -2.556  51.149  0.00  0.00     0.041 A 
+ATOM      7  C8  FU7 d          15.256  -3.819  51.768  0.00  0.00     0.117 A 
+ATOM      8  C9  FU7 d          17.434  -4.162  50.739  0.00  0.00     0.134 A 
+ATOM      9  C10 FU7 d          16.973  -2.731  50.558  0.00  0.00     0.106 A 
+ATOM     10  C11 FU7 d          17.029  -0.512  49.880  0.00  0.00     0.721 A 
+ATOM     11  C12 FU7 d          15.146  -1.273  51.070  0.00  0.00     0.104 A 
+ATOM     12  C13 FU7 d          16.187  -6.088  51.966  0.00  0.00     0.326 C 
+ATOM     13  H5  FU7 d          18.022  -6.599  51.150  0.00  0.00     0.164 HD
+ENDROOT
+BRANCH  11  14
+ATOM     14  C1  FU7 d          13.798  -1.069  51.667  0.00  0.00     0.049 A 
+ATOM     15  C2  FU7 d          13.568  -1.172  53.099  0.00  0.00     0.084 A 
+ATOM     16  C3  FU7 d          12.235  -1.150  53.610  0.00  0.00     0.061 A 
+ATOM     17  C4  FU7 d          11.144  -1.016  52.726  0.00  0.00     0.038 A 
+ATOM     18 CL2  FU7 d           9.543  -1.016  53.353  0.00  0.00    -0.084 Cl
+ATOM     19  C5  FU7 d          11.345  -0.883  51.333  0.00  0.00     0.048 A 
+ATOM     20  C6  FU7 d          12.659  -0.899  50.804  0.00  0.00     0.051 A 
+ATOM     21 CL1  FU7 d          12.820  -0.764  49.078  0.00  0.00    -0.083 Cl
+BRANCH  15  22
+ATOM     22  O2  FU7 d          14.718  -1.276  53.867  0.00  0.00    -0.348 OA
+BRANCH  22  23
+ATOM     23  C14 FU7 d          14.638  -1.376  55.295  0.00  0.00     0.197 C 
+BRANCH  23  24
+ATOM     24  C15 FU7 d          16.059  -1.416  55.850  0.00  0.00     0.177 C 
+BRANCH  24  25
+ATOM     25  N6  FU7 d          16.933  -2.394  55.240  0.00  0.00    -0.279 N 
+ATOM     26  N7  FU7 d          16.785  -3.699  55.536  0.00  0.00    -0.185 NA
+ATOM     27  C18 FU7 d          17.743  -4.282  54.813  0.00  0.00     0.140 A 
+ATOM     28  C17 FU7 d          18.497  -3.358  54.064  0.00  0.00     0.040 A 
+ATOM     29  C16 FU7 d          17.949  -2.140  54.361  0.00  0.00     0.113 A 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  15  22
+ENDBRANCH  11  14
+BRANCH  10  30
+ATOM     30  N4  FU7 d          17.688   0.523  49.241  0.00  0.00    -0.231 N 
+ATOM     31  H2  FU7 d          18.612   0.360  48.816  0.00  0.00     0.174 HD
+ATOM     32  H3  FU7 d          17.255   1.456  49.191  0.00  0.00     0.174 HD
+ENDBRANCH  10  30
+BRANCH   5  33
+ATOM     33  C19 FU7 d          17.224  -8.348  52.091  0.00  0.00     0.202 C 
+BRANCH  33  34
+ATOM     34  C20 FU7 d          18.088  -8.566  53.315  0.00  0.00     0.255 C 
+ATOM     35  F1  FU7 d          17.649  -7.776  54.326  0.00  0.00    -0.205 F 
+ATOM     36  F2  FU7 d          19.361  -8.200  53.049  0.00  0.00    -0.205 F 
+ATOM     37  C21 FU7 d          18.077 -10.003  53.789  0.00  0.00     0.091 C 
+ENDBRANCH  33  34
+ENDBRANCH   5  33
+TORSDOF 8

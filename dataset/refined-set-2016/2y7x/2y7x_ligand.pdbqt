@@ -1,0 +1,52 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_11  and  N2_12 
+REMARK    2  A    between atoms: C14_17  and  N3_18 
+REMARK    3  A    between atoms: N3_18  and  S1_19 
+REMARK    4  A    between atoms: S1_19  and  C15_22 
+ROOT
+ATOM      1  N2  MZA d           6.012   4.382  21.249  0.00  0.00    -0.313 N 
+ATOM      2  C25 MZA d           6.593   5.533  21.694  0.00  0.00     0.247 C 
+ATOM      3  O3  MZA d           7.721   5.948  21.446  0.00  0.00    -0.271 OA
+ATOM      4  C12 MZA d           4.607   4.247  21.630  0.00  0.00     0.135 C 
+ATOM      5  C13 MZA d           4.226   5.631  22.177  0.00  0.00     0.056 C 
+ATOM      6  C14 MZA d           5.578   6.242  22.577  0.00  0.00     0.187 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N3  MZA d           5.641   7.678  22.347  0.00  0.00    -0.301 N 
+ATOM      8  H16 MZA d           5.439   8.028  21.432  0.00  0.00     0.173 HD
+BRANCH   7   9
+ATOM      9  S1  MZA d           6.025   8.730  23.516  0.00  0.00     0.259 S 
+ATOM     10  O1  MZA d           5.885  10.003  22.899  0.00  0.00    -0.201 OA
+ATOM     11  O2  MZA d           5.190   8.442  24.624  0.00  0.00    -0.201 OA
+BRANCH   9  12
+ATOM     12  C15 MZA d           7.736   8.442  23.947  0.00  0.00     0.080 A 
+ATOM     13  C24 MZA d           8.060   7.823  25.136  0.00  0.00     0.037 A 
+ATOM     14  C23 MZA d           9.422   7.576  25.454  0.00  0.00    -0.024 A 
+ATOM     15  C18 MZA d          10.430   7.990  24.530  0.00  0.00    -0.024 A 
+ATOM     16  C22 MZA d           9.784   6.951  26.667  0.00  0.00     0.014 A 
+ATOM     17  C17 MZA d          10.064   8.626  23.312  0.00  0.00     0.014 A 
+ATOM     18  C19 MZA d          11.779   7.744  24.857  0.00  0.00     0.036 A 
+ATOM     19  C16 MZA d           8.735   8.829  23.050  0.00  0.00     0.026 A 
+ATOM     20  C20 MZA d          12.085   7.144  26.048  0.00  0.00     0.034 A 
+ATOM     21 CL1  MZA d          13.746   6.867  26.448  0.00  0.00    -0.084 Cl
+ATOM     22  C21 MZA d          11.100   6.750  26.948  0.00  0.00     0.024 A 
+ENDBRANCH   9  12
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+BRANCH   1  23
+ATOM     23  C8  MZA d           6.691   3.375  20.520  0.00  0.00     0.076 A 
+ATOM     24  C7  MZA d           7.505   3.647  19.411  0.00  0.00     0.150 A 
+ATOM     25  F1  MZA d           7.649   4.920  19.005  0.00  0.00    -0.203 F 
+ATOM     26  C6  MZA d           8.161   2.614  18.718  0.00  0.00    -0.008 A 
+ATOM     27  C5  MZA d           9.039   2.924  17.513  0.00  0.00     0.070 C 
+ATOM     28  C11 MZA d           7.991   1.285  19.172  0.00  0.00    -0.023 A 
+ATOM     29  C1  MZA d           9.836   1.721  17.050  0.00  0.00     0.237 C 
+ATOM     30  N1  MZA d           9.022   0.487  17.069  0.00  0.00    -0.071 N 
+ATOM     31  C3  MZA d           8.677   0.132  18.465  0.00  0.00     0.271 C 
+ATOM     32  H5  MZA d           9.547  -0.266  16.653  0.00  0.00     0.277 HD
+ATOM     33  H6  MZA d           8.175   0.637  16.543  0.00  0.00     0.277 HD
+ATOM     34  C10 MZA d           7.188   0.992  20.280  0.00  0.00     0.012 A 
+ATOM     35  C9  MZA d           6.544   2.035  20.948  0.00  0.00     0.033 A 
+ENDBRANCH   1  23
+TORSDOF 4

@@ -1,0 +1,64 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3_15  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C4_13  and  O4_12 
+REMARK    8  A    between atoms: C3_14  and  O3_15 
+REMARK    9  A    between atoms: C5_19  and  C6_20 
+REMARK   10  A    between atoms: C6_20  and  O6_21 
+ROOT
+ATOM      1  C1  MAN d          21.697   3.036  -6.963  0.00  0.00     0.292 C 
+ATOM      2  C2  MAN d          21.589   2.042  -8.125  0.00  0.00     0.204 C 
+ATOM      3  C3  MAN d          22.376   2.534  -9.341  0.00  0.00     0.183 C 
+ATOM      4  C4  MAN d          22.026   3.987  -9.672  0.00  0.00     0.180 C 
+ATOM      5  C5  MAN d          22.203   4.858  -8.430  0.00  0.00     0.179 C 
+ATOM      6  O5  MAN d          21.368   4.347  -7.402  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  MAN d          22.990   2.850  -6.385  0.00  0.00    -0.349 OA
+BRANCH   7   8
+ATOM      8  C3  MAN d          23.100   3.369  -5.053  0.00  0.00     0.179 C 
+ATOM      9  C4  MAN d          24.301   2.717  -4.360  0.00  0.00     0.156 C 
+ATOM     10  C5  MAN d          24.526   3.336  -2.975  0.00  0.00     0.066 C 
+ATOM     11  C1  MAN d          24.621   4.869  -3.075  0.00  0.00     0.241 C 
+ATOM     12  N   MAN d          23.435   5.387  -3.747  0.00  0.00    -0.072 N 
+ATOM     13  C2  MAN d          23.218   4.901  -5.101  0.00  0.00     0.266 C 
+ATOM     14  H   MAN d          22.631   5.135  -3.194  0.00  0.00     0.277 HD
+ATOM     15  H   MAN d          23.515   6.391  -3.787  0.00  0.00     0.277 HD
+BRANCH   9  16
+ATOM     16  O4  MAN d          24.045   1.304  -4.244  0.00  0.00    -0.392 OA
+ATOM     17  H   MAN d          24.782   0.884  -3.816  0.00  0.00     0.210 HD
+ENDBRANCH   9  16
+BRANCH  10  18
+ATOM     18  C6  MAN d          25.764   2.794  -2.267  0.00  0.00     0.173 C 
+BRANCH  18  19
+ATOM     19  O6  MAN d          26.940   2.969  -3.079  0.00  0.00    -0.400 OA
+ATOM     20  H   MAN d          27.068   3.894  -3.253  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH  10  18
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  21
+ATOM     21  O2  MAN d          20.228   2.005  -8.462  0.00  0.00    -0.388 OA
+ATOM     22  H   MAN d          19.939   2.877  -8.705  0.00  0.00     0.210 HD
+ENDBRANCH   2  21
+BRANCH   3  23
+ATOM     23  O3  MAN d          22.119   1.686 -10.445  0.00  0.00    -0.390 OA
+ATOM     24  H   MAN d          21.198   1.734 -10.672  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+BRANCH   5  25
+ATOM     25  C6  MAN d          21.828   6.310  -8.738  0.00  0.00     0.198 C 
+BRANCH  25  26
+ATOM     26  O6  MAN d          22.118   7.129  -7.631  0.00  0.00    -0.398 OA
+ATOM     27  H   MAN d          23.047   7.080  -7.437  0.00  0.00     0.209 HD
+ENDBRANCH  25  26
+ENDBRANCH   5  25
+BRANCH   4  28
+ATOM     28  O4  MAN d          22.815   4.503 -10.733  0.00  0.00    -0.390 OA
+ATOM     29  H   MAN d          22.540   5.391 -10.928  0.00  0.00     0.210 HD
+ENDBRANCH   4  28
+TORSDOF 10

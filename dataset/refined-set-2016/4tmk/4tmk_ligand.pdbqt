@@ -1,0 +1,126 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: BN1_1  and  BC1'_13 
+REMARK    2  A    between atoms: BC4'_11  and  BC5'_10 
+REMARK    3  A    between atoms: BC5'_10  and  BO5'_20 
+REMARK    4  A    between atoms: BC3'_15  and  BO3'_16 
+REMARK    5  A    between atoms: BO5'_20  and  PA_17 
+REMARK    6  A    between atoms: PA_17  and  O3A_21 
+REMARK    7  A    between atoms: O3A_21  and  PB_22 
+REMARK    8  A    between atoms: PB_22  and  O3B_25 
+REMARK    9  A    between atoms: O3B_25  and  PC_26 
+REMARK   10  A    between atoms: PC_26  and  O3C_29 
+REMARK   11  A    between atoms: O3C_29  and  PD_30 
+REMARK   12  A    between atoms: PD_30  and  O3D_33 
+REMARK   13  A    between atoms: O3D_33  and  PE_34 
+REMARK   14  A    between atoms: PE_34  and  AO5'_37 
+REMARK   15  A    between atoms: AO5'_37  and  AC5'_38 
+REMARK   16  A    between atoms: AC5'_38  and  AC4'_39 
+REMARK   17  A    between atoms: AC1'_41  and  AN9_46 
+REMARK   18  A    between atoms: AC2'_42  and  AO2'_43 
+REMARK   19  A    between atoms: AC3'_44  and  AO3'_45 
+REMARK   20  A    between atoms: AC6_51  and  AN6_52 
+ROOT
+ATOM      1  O3C T5A d          20.217 109.082  16.804  0.00  0.00    -0.180 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  PC  T5A d          20.510 107.576  16.164  0.00  0.00     0.427 P 
+ATOM      3  O2C T5A d          20.210 107.684  14.749  0.00  0.00    -0.624 OA
+ATOM      4  O1C T5A d          21.817 107.037  16.572  0.00  0.00    -0.624 OA
+BRANCH   2   5
+ATOM      5  O3B T5A d          19.475 106.676  16.833  0.00  0.00    -0.180 OA
+BRANCH   5   6
+ATOM      6  PB  T5A d          18.364 105.640  16.366  0.00  0.00     0.427 P 
+ATOM      7  O2B T5A d          18.228 105.910  14.901  0.00  0.00    -0.624 OA
+ATOM      8  O1B T5A d          17.121 105.632  17.210  0.00  0.00    -0.624 OA
+BRANCH   6   9
+ATOM      9  O3A T5A d          19.154 104.208  16.507  0.00  0.00    -0.180 OA
+BRANCH   9  10
+ATOM     10  PA  T5A d          20.085 103.505  15.698  0.00  0.00     0.417 P 
+ATOM     11  O2A T5A d          20.900 104.695  15.287  0.00  0.00    -0.624 OA
+ATOM     12  O1A T5A d          19.355 102.840  14.647  0.00  0.00    -0.624 OA
+BRANCH  10  13
+ATOM     13  BO5 T5A d          21.074 102.515  16.563  0.00  0.00    -0.287 OA
+BRANCH  13  14
+ATOM     14  BC5 T5A d          20.568 101.814  17.616  0.00  0.00     0.216 C 
+BRANCH  14  15
+ATOM     15  BC4 T5A d          21.750 101.456  18.527  0.00  0.00     0.177 C 
+ATOM     16  BO4 T5A d          22.648 100.528  17.853  0.00  0.00    -0.356 OA
+ATOM     17  BC1 T5A d          23.975 100.854  18.413  0.00  0.00     0.235 C 
+ATOM     18  BC2 T5A d          23.864 102.398  18.360  0.00  0.00     0.088 C 
+ATOM     19  BC3 T5A d          22.533 102.693  18.994  0.00  0.00     0.153 C 
+BRANCH  17  20
+ATOM     20  BN1 T5A d          24.959 100.339  17.519  0.00  0.00    -0.282 N 
+ATOM     21  BC2 T5A d          25.872  99.479  18.018  0.00  0.00     0.331 C 
+ATOM     22  BN3 T5A d          26.766  99.018  17.082  0.00  0.00    -0.275 N 
+ATOM     23  BO2 T5A d          25.898  99.024  19.184  0.00  0.00    -0.246 OA
+ATOM     24  BC4 T5A d          26.712  99.217  15.722  0.00  0.00     0.256 C 
+ATOM     25  H2  T5A d          27.537  98.481  17.425  0.00  0.00     0.173 HD
+ATOM     26  BC5 T5A d          25.645 100.064  15.289  0.00  0.00     0.022 C 
+ATOM     27  BO4 T5A d          27.564  98.768  14.942  0.00  0.00    -0.267 OA
+ATOM     28  BC6 T5A d          24.820 100.592  16.212  0.00  0.00     0.110 C 
+ATOM     29  BC7 T5A d          25.568 100.348  13.786  0.00  0.00     0.056 C 
+ENDBRANCH  17  20
+BRANCH  19  30
+ATOM     30  BO3 T5A d          22.595 102.749  20.414  0.00  0.00    -0.393 OA
+ATOM     31  H13 T5A d          23.083 103.520  20.678  0.00  0.00     0.210 HD
+ENDBRANCH  19  30
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  32
+ATOM     32  PD  T5A d          20.498 110.719  16.425  0.00  0.00     0.427 P 
+ATOM     33  O2D T5A d          20.612 111.378  17.714  0.00  0.00    -0.624 OA
+ATOM     34  O1D T5A d          21.479 110.856  15.307  0.00  0.00    -0.624 OA
+BRANCH  32  35
+ATOM     35  O3D T5A d          19.145 111.133  15.650  0.00  0.00    -0.180 OA
+BRANCH  35  36
+ATOM     36  PE  T5A d          18.308 112.512  15.346  0.00  0.00     0.417 P 
+ATOM     37  O2E T5A d          17.123 112.034  14.631  0.00  0.00    -0.624 OA
+ATOM     38  O1E T5A d          19.207 113.496  14.676  0.00  0.00    -0.624 OA
+BRANCH  36  39
+ATOM     39  AO5 T5A d          17.971 112.911  16.811  0.00  0.00    -0.287 OA
+BRANCH  39  40
+ATOM     40  AC5 T5A d          17.461 111.996  17.809  0.00  0.00     0.216 C 
+BRANCH  40  41
+ATOM     41  AC4 T5A d          16.507 112.676  18.737  0.00  0.00     0.180 C 
+ATOM     42  AC3 T5A d          15.316 113.480  18.050  0.00  0.00     0.182 C 
+ATOM     43  AC2 T5A d          15.912 114.923  18.033  0.00  0.00     0.198 C 
+ATOM     44  AC1 T5A d          16.734 114.977  19.318  0.00  0.00     0.262 C 
+ATOM     45  AO4 T5A d          17.226 113.618  19.496  0.00  0.00    -0.353 OA
+BRANCH  42  46
+ATOM     46  AO3 T5A d          14.215 113.342  19.000  0.00  0.00    -0.390 OA
+ATOM     47  H21 T5A d          13.519 113.944  18.766  0.00  0.00     0.210 HD
+ENDBRANCH  42  46
+BRANCH  43  48
+ATOM     48  AO2 T5A d          14.948 115.962  18.154  0.00  0.00    -0.388 OA
+ATOM     49  H19 T5A d          14.481 115.865  18.976  0.00  0.00     0.210 HD
+ENDBRANCH  43  48
+BRANCH  44  50
+ATOM     50  AN9 T5A d          17.835 115.946  19.147  0.00  0.00    -0.294 N 
+ATOM     51  AC8 T5A d          18.852 115.936  18.239  0.00  0.00     0.214 A 
+ATOM     52  AN7 T5A d          19.670 116.956  18.362  0.00  0.00    -0.236 NA
+ATOM     53  AC5 T5A d          19.152 117.731  19.375  0.00  0.00     0.149 A 
+ATOM     54  AC4 T5A d          17.981 117.149  19.827  0.00  0.00     0.167 A 
+ATOM     55  AC6 T5A d          19.477 119.027  19.903  0.00  0.00     0.155 C 
+ATOM     56  AN3 T5A d          17.184 117.615  20.840  0.00  0.00    -0.222 NA
+ATOM     57  AC2 T5A d          17.571 118.828  21.265  0.00  0.00     0.237 C 
+ATOM     58  AN1 T5A d          18.634 119.549  20.819  0.00  0.00    -0.222 NA
+BRANCH  55  59
+ATOM     59  AN6 T5A d          20.496 119.801  19.551  0.00  0.00    -0.382 N 
+ATOM     60  H23 T5A d          21.180 119.468  18.857  0.00  0.00     0.157 HD
+ATOM     61  H24 T5A d          20.603 120.735  19.972  0.00  0.00     0.157 HD
+ENDBRANCH  55  59
+ENDBRANCH  44  50
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  36  39
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH   1  32
+TORSDOF 20

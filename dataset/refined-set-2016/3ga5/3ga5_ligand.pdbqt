@@ -1,0 +1,61 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3'_1  and  C3'_2 
+REMARK    2  A    between atoms: C3'_2  and  C2'_3 
+REMARK    3  A    between atoms: C2'_3  and  O2'_4 
+REMARK    4  A    between atoms: C2'_3  and  C1'_5 
+REMARK    5  A    between atoms: C1'_5  and  O1_6 
+REMARK    6  A    between atoms: O1_6  and  C1_7 
+REMARK    7  A    between atoms: C2_8  and  O2_9 
+REMARK    8  A    between atoms: C3_10  and  O3_11 
+REMARK    9  A    between atoms: C4_12  and  O4_13 
+REMARK   10  A    between atoms: C5_14  and  C6_16 
+REMARK   11  A    between atoms: C6_16  and  O6_17 
+ROOT
+ATOM      1  C1  RGG d          -0.417  -4.305   2.267  0.00  0.00     0.291 C 
+ATOM      2  C2  RGG d           0.382  -4.836   3.455  0.00  0.00     0.204 C 
+ATOM      3  C3  RGG d          -0.186  -4.390   4.793  0.00  0.00     0.183 C 
+ATOM      4  C4  RGG d          -0.447  -2.886   4.792  0.00  0.00     0.180 C 
+ATOM      5  C5  RGG d          -1.333  -2.508   3.609  0.00  0.00     0.179 C 
+ATOM      6  O5  RGG d          -0.689  -2.898   2.387  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O1  RGG d           0.339  -4.546   1.079  0.00  0.00    -0.356 OA
+BRANCH   7   8
+ATOM      8  C1' RGG d          -0.348  -4.305  -0.134  0.00  0.00     0.205 C 
+BRANCH   8   9
+ATOM      9  C2' RGG d           0.603  -4.491  -1.314  0.00  0.00     0.165 C 
+BRANCH   9  10
+ATOM     10  C3' RGG d          -0.182  -4.104  -2.558  0.00  0.00     0.198 C 
+BRANCH  10  11
+ATOM     11  O3' RGG d          -1.007  -5.218  -2.931  0.00  0.00    -0.398 OA
+ATOM     12  H1  RGG d          -1.506  -4.995  -3.708  0.00  0.00     0.209 HD
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+BRANCH   9  13
+ATOM     13  O2' RGG d           1.730  -3.607  -1.203  0.00  0.00    -0.391 OA
+ATOM     14  H5  RGG d           2.234  -3.833  -0.430  0.00  0.00     0.210 HD
+ENDBRANCH   9  13
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  15
+ATOM     15  O2  RGG d           0.344  -6.273   3.408  0.00  0.00    -0.388 OA
+ATOM     16  H10 RGG d           0.836  -6.626   4.140  0.00  0.00     0.210 HD
+ENDBRANCH   2  15
+BRANCH   3  17
+ATOM     17  O3  RGG d           0.731  -4.737   5.849  0.00  0.00    -0.390 OA
+ATOM     18  H12 RGG d           1.563  -4.304   5.699  0.00  0.00     0.210 HD
+ENDBRANCH   3  17
+BRANCH   5  19
+ATOM     19  C6  RGG d          -1.566  -0.996   3.591  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6  RGG d          -2.077  -0.572   2.316  0.00  0.00    -0.398 OA
+ATOM     21  H18 RGG d          -1.452  -0.794   1.636  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   5  19
+BRANCH   4  22
+ATOM     22  O4  RGG d           0.797  -2.178   4.710  0.00  0.00    -0.390 OA
+ATOM     23  H14 RGG d           1.338  -2.403   5.458  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+TORSDOF 11

@@ -1,0 +1,39 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C1_1  and  N2_3 
+REMARK       I    between atoms: C1_1  and  N9_11 
+REMARK    1  A    between atoms: N2_3  and  C3_4 
+REMARK    2  A    between atoms: N9_11  and  C10_12 
+REMARK    3  A    between atoms: C13_14  and  C16_21 
+ROOT
+ATOM      1  C1  BMU d          -0.803  -2.952 -14.539  0.00  0.00     0.326 C 
+ATOM      2  O1  BMU d           0.031  -2.373 -15.231  0.00  0.00    -0.247 OA
+ATOM      3  N2  BMU d          -2.104  -3.049 -14.869  0.00  0.00    -0.309 N 
+ATOM      4  N9  BMU d          -0.456  -3.563 -13.391  0.00  0.00    -0.293 N 
+ATOM      5  H1  BMU d          -2.663  -3.667 -14.316  0.00  0.00     0.170 HD
+ATOM      6  H6  BMU d          -1.111  -4.205 -12.992  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   4   7
+ATOM      7  C10 BMU d           0.704  -3.375 -12.741  0.00  0.00     0.129 A 
+ATOM      8  C14 BMU d           1.439  -2.249 -12.397  0.00  0.00     0.080 A 
+ATOM      9  C13 BMU d           2.527  -2.786 -11.715  0.00  0.00     0.066 A 
+ATOM     10  N12 BMU d           2.491  -4.129 -11.589  0.00  0.00    -0.175 NA
+ATOM     11  N11 BMU d           1.308  -4.480 -12.260  0.00  0.00    -0.258 N 
+ATOM     12  C15 BMU d           1.036  -5.937 -12.297  0.00  0.00     0.182 C 
+BRANCH   9  13
+ATOM     13  C16 BMU d           3.627  -1.928 -11.136  0.00  0.00    -0.005 C 
+ATOM     14  C17 BMU d           3.035  -1.078 -10.005  0.00  0.00     0.021 C 
+ATOM     15  C18 BMU d           4.243  -1.076 -12.252  0.00  0.00     0.021 C 
+ATOM     16  C19 BMU d           4.730  -2.790 -10.533  0.00  0.00     0.021 C 
+ENDBRANCH   9  13
+ENDBRANCH   4   7
+BRANCH   3  17
+ATOM     17  C3  BMU d          -2.736  -2.389 -15.882  0.00  0.00     0.036 A 
+ATOM     18  C4  BMU d          -4.096  -2.084 -15.716  0.00  0.00     0.031 A 
+ATOM     19  C5  BMU d          -4.816  -1.423 -16.719  0.00  0.00     0.026 A 
+ATOM     20  C6  BMU d          -4.163  -1.068 -17.912  0.00  0.00     0.034 A 
+ATOM     21 CL6  BMU d          -5.082  -0.227 -19.207  0.00  0.00    -0.084 Cl
+ATOM     22  C7  BMU d          -2.809  -1.388 -18.099  0.00  0.00     0.026 A 
+ATOM     23  C8  BMU d          -2.095  -2.043 -17.080  0.00  0.00     0.031 A 
+ENDBRANCH   3  17
+TORSDOF 3

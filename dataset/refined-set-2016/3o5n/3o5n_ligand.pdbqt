@@ -1,0 +1,37 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: CAO_16  and  CAM_15 
+REMARK    3  A    between atoms: CAP_17  and  NAT_19 
+ROOT
+ATOM      1  N   BR0 d          54.124 -21.179  89.659  0.00  0.00    -0.374 N 
+ATOM      2  CA  BR0 d          53.084 -20.290  89.106  0.00  0.00     0.188 C 
+ATOM      3  CB  BR0 d          53.503 -18.788  89.168  0.00  0.00     0.027 C 
+ATOM      4  CG  BR0 d          54.874 -18.499  89.828  0.00  0.00     0.030 C 
+ATOM      5  CAG BR0 d          57.700 -21.726  89.099  0.00  0.00     0.023 A 
+ATOM      6  CAH BR0 d          58.164 -20.412  89.165  0.00  0.00     0.038 A 
+ATOM      7  CAI BR0 d          53.048 -18.195  91.457  0.00  0.00     0.001 C 
+ATOM      8  CAK BR0 d          52.566 -17.943  90.028  0.00  0.00     0.008 C 
+ATOM      9  CAO BR0 d          56.347 -21.973  89.262  0.00  0.00     0.067 A 
+ATOM     10  CAP BR0 d          57.311 -19.333  89.399  0.00  0.00     0.111 A 
+ATOM     11  CAQ BR0 d          55.481 -20.912  89.496  0.00  0.00     0.055 A 
+ATOM     12  CD1 BR0 d          54.558 -18.405  91.327  0.00  0.00     0.010 C 
+ATOM     13  CD2 BR0 d          55.935 -19.595  89.566  0.00  0.00     0.007 A 
+ATOM     14  H1  BR0 d          53.838 -22.020  90.180  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   2  15
+ATOM     15  C   BR0 d          51.795 -20.569  89.893  0.00  0.00     0.197 C 
+ATOM     16  O   BR0 d          51.917 -21.322  90.881  0.00  0.00    -0.646 OA
+ATOM     17  OXT BR0 d          50.722 -20.061  89.494  0.00  0.00    -0.646 OA
+ENDBRANCH   2  15
+BRANCH   9  18
+ATOM     18  CAM BR0 d          55.788 -23.392  89.211  0.00  0.00     0.211 C 
+ATOM     19  OAA BR0 d          55.127 -23.756  90.208  0.00  0.00    -0.644 OA
+ATOM     20  OAD BR0 d          56.018 -24.110  88.212  0.00  0.00    -0.644 OA
+ENDBRANCH   9  18
+BRANCH  10  21
+ATOM     21  NAT BR0 d          57.896 -18.117  89.449  0.00  0.00    -0.115 N 
+ATOM     22  OAC BR0 d          59.295 -18.033  89.719  0.00  0.00    -0.532 OA
+ATOM     23  OAF BR0 d          57.213 -16.896  89.246  0.00  0.00    -0.532 OA
+ENDBRANCH  10  21
+TORSDOF 3

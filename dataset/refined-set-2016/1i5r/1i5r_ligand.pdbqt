@@ -1,0 +1,114 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_4 
+REMARK    2  A    between atoms: C21_21  and  C16_17 
+REMARK    3  A    between atoms: C17_18  and  O17_19 
+REMARK    4  A    between atoms: C22_22  and  C21_21 
+REMARK    5  A    between atoms: C23_23  and  C22_22 
+REMARK    6  A    between atoms: C24_24  and  C23_23 
+REMARK    7  A    between atoms: C25_25  and  C24_24 
+REMARK    8  A    between atoms: C26_26  and  C25_25 
+REMARK    9  A    between atoms: C27_27  and  C26_26 
+REMARK   10  A    between atoms: C28_28  and  C27_27 
+REMARK   11  A    between atoms: C36_38  and  C28_28 
+REMARK   12  A    between atoms: C31_29  and  N49_49 
+REMARK   13  A    between atoms: C32_30  and  O32_31 
+REMARK   14  A    between atoms: C33_32  and  O33_33 
+REMARK   15  A    between atoms: C34_34  and  C35_36 
+REMARK   16  A    between atoms: C35_36  and  O35_37 
+REMARK   17  A    between atoms: O35_37  and  C36_38 
+REMARK   18  A    between atoms: C46_45  and  N46_46 
+ROOT
+ATOM      1  C26 HYC d          14.001  -1.391  -7.548  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C25 HYC d          12.916  -0.805  -8.363  0.00  0.00     0.000 C 
+BRANCH   2   3
+ATOM      3  C24 HYC d          12.994   0.654  -8.411  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  C23 HYC d          11.882   1.196  -9.241  0.00  0.00     0.000 C 
+BRANCH   4   5
+ATOM      5  C22 HYC d          12.289   2.641  -9.626  0.00  0.00     0.000 C 
+BRANCH   5   6
+ATOM      6  C21 HYC d          11.999   3.613  -8.585  0.00  0.00     0.007 C 
+BRANCH   6   7
+ATOM      7  C16 HYC d          12.453   4.926  -9.121  0.00  0.00     0.015 C 
+ATOM      8  C15 HYC d          11.450   5.254 -10.425  0.00  0.00     0.013 C 
+ATOM      9  C14 HYC d          11.495   6.871 -10.175  0.00  0.00     0.001 C 
+ATOM     10  C8  HYC d          10.640   7.727 -11.174  0.00  0.00    -0.001 C 
+ATOM     11  C13 HYC d          11.095   7.054  -8.668  0.00  0.00    -0.014 C 
+ATOM     12  C7  HYC d          11.100   7.501 -12.655  0.00  0.00     0.010 C 
+ATOM     13  C9  HYC d          10.792   9.236 -10.787  0.00  0.00     0.023 C 
+ATOM     14  C6  HYC d           9.990   8.206 -13.549  0.00  0.00     0.039 C 
+ATOM     15  C5  HYC d           9.604   9.640 -13.051  0.00  0.00    -0.049 A 
+ATOM     16  C4  HYC d           8.856  10.483 -13.918  0.00  0.00     0.044 A 
+ATOM     17  C10 HYC d           9.975  10.141 -11.750  0.00  0.00    -0.047 A 
+ATOM     18  C3  HYC d           8.484  11.792 -13.507  0.00  0.00     0.066 A 
+ATOM     19  C2  HYC d           8.849  12.267 -12.243  0.00  0.00     0.037 A 
+ATOM     20  C1  HYC d           9.591  11.469 -11.348  0.00  0.00     0.011 A 
+ATOM     21  C11 HYC d          10.315   9.450  -9.289  0.00  0.00     0.010 C 
+ATOM     22  C12 HYC d          11.097   8.555  -8.276  0.00  0.00     0.013 C 
+ATOM     23  C17 HYC d          12.183   6.068  -8.034  0.00  0.00     0.130 C 
+ATOM     24  C18 HYC d           9.636   6.409  -8.467  0.00  0.00     0.018 C 
+BRANCH  18  25
+ATOM     25  O3  HYC d           7.808  12.536 -14.307  0.00  0.00    -0.361 OA
+ATOM     26  H3  HYC d           7.646  12.064 -15.116  0.00  0.00     0.217 HD
+ENDBRANCH  18  25
+BRANCH  23  27
+ATOM     27  O17 HYC d          11.613   5.628  -6.843  0.00  0.00    -0.394 OA
+ATOM     28  H20 HYC d          11.489   6.368  -6.260  0.00  0.00     0.210 HD
+ENDBRANCH  23  27
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  29
+ATOM     29  C27 HYC d          13.247  -2.197  -6.617  0.00  0.00     0.010 C 
+BRANCH  29  30
+ATOM     30  C28 HYC d          14.299  -2.843  -5.724  0.00  0.00     0.111 C 
+BRANCH  30  31
+ATOM     31  C36 HYC d          14.695  -2.215  -4.475  0.00  0.00     0.258 C 
+ATOM     32  O36 HYC d          14.247  -1.200  -4.083  0.00  0.00    -0.265 OA
+BRANCH  31  33
+ATOM     33  O35 HYC d          15.712  -3.252  -4.041  0.00  0.00    -0.319 OA
+BRANCH  33  34
+ATOM     34  C35 HYC d          16.248  -2.784  -2.752  0.00  0.00     0.213 C 
+BRANCH  34  35
+ATOM     35  C34 HYC d          16.882  -4.111  -2.212  0.00  0.00     0.180 C 
+ATOM     36  C33 HYC d          17.656  -5.018  -3.139  0.00  0.00     0.182 C 
+ATOM     37  C32 HYC d          16.881  -6.236  -3.282  0.00  0.00     0.198 C 
+ATOM     38  C31 HYC d          16.225  -6.266  -1.941  0.00  0.00     0.262 C 
+ATOM     39  O34 HYC d          15.690  -4.935  -1.909  0.00  0.00    -0.353 OA
+BRANCH  36  40
+ATOM     40  O33 HYC d          18.801  -5.266  -2.684  0.00  0.00    -0.390 OA
+ATOM     41  H44 HYC d          19.257  -5.851  -3.278  0.00  0.00     0.210 HD
+ENDBRANCH  36  40
+BRANCH  37  42
+ATOM     42  O32 HYC d          17.503  -7.361  -3.624  0.00  0.00    -0.388 OA
+ATOM     43  H42 HYC d          18.184  -7.550  -2.990  0.00  0.00     0.210 HD
+ENDBRANCH  37  42
+BRANCH  38  44
+ATOM     44  N49 HYC d          15.190  -7.152  -1.915  0.00  0.00    -0.294 N 
+ATOM     45  C44 HYC d          14.960  -7.860  -0.757  0.00  0.00     0.167 A 
+ATOM     46  N43 HYC d          15.593  -7.887   0.515  0.00  0.00    -0.222 NA
+ATOM     47  C45 HYC d          13.793  -8.726  -1.034  0.00  0.00     0.149 A 
+ATOM     48  C42 HYC d          15.083  -8.720   1.421  0.00  0.00     0.237 A 
+ATOM     49  N41 HYC d          14.033  -9.536   1.255  0.00  0.00    -0.222 NA
+ATOM     50  C46 HYC d          13.403  -9.561   0.105  0.00  0.00     0.155 A 
+ATOM     51  N47 HYC d          13.305  -8.566  -2.329  0.00  0.00    -0.236 NA
+ATOM     52  C48 HYC d          14.203  -7.611  -2.768  0.00  0.00     0.214 A 
+BRANCH  50  53
+ATOM     53  N46 HYC d          12.289 -10.384  -0.171  0.00  0.00    -0.382 N 
+ATOM     54  H49 HYC d          11.842 -10.352  -1.099  0.00  0.00     0.157 HD
+ATOM     55  H50 HYC d          11.923 -11.016   0.555  0.00  0.00     0.157 HD
+ENDBRANCH  50  53
+ENDBRANCH  38  44
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  31  33
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 18

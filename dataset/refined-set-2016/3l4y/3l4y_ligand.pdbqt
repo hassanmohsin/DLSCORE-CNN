@@ -1,0 +1,93 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_12  and  OAA_1 
+REMARK    2  A    between atoms: CAM_13  and  OAB_2 
+REMARK    3  A    between atoms: CAQ_17  and  OAC_3 
+REMARK    4  A    between atoms: CAR_18  and  OAD_4 
+REMARK    5  A    between atoms: CAS_19  and  OAE_5 
+REMARK    6  A    between atoms: CAT_20  and  OAF_6 
+REMARK    7  A    between atoms: CAU_21  and  OAG_7 
+REMARK    8  A    between atoms: CAV_22  and  OAH_8 
+REMARK    9  A    between atoms: CAQ_17  and  CAL_12 
+REMARK   10  A    between atoms: CAW_23  and  CAM_13 
+REMARK   11  A    between atoms: CAS_19  and  CAO_15 
+REMARK   12  A    between atoms: CAO_15  and  SAY_25 
+REMARK   13  A    between atoms: CAX_24  and  OAP_16 
+REMARK   14  A    between atoms: OAP_16  and  SAZ_26 
+REMARK   15  A    between atoms: CAT_20  and  CAQ_17 
+REMARK   16  A    between atoms: CAX_24  and  CAS_19 
+REMARK   17  A    between atoms: CAV_22  and  CAT_20 
+REMARK   18  A    between atoms: CAV_22  and  CAX_24 
+ROOT
+ATOM      1  CAX NR4 d          -2.353 -20.351 -21.249  0.00  0.00     0.205 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  OAP NR4 d          -3.088 -20.832 -20.097  0.00  0.00    -0.246 OA
+BRANCH   2   3
+ATOM      3  SAZ NR4 d          -2.273 -21.345 -18.967  0.00  0.00     0.252 S 
+ATOM      4  OAI NR4 d          -1.347 -22.420 -19.400  0.00  0.00    -0.572 OA
+ATOM      5  OAJ NR4 d          -1.485 -20.288 -18.325  0.00  0.00    -0.572 OA
+ATOM      6  OAK NR4 d          -3.186 -21.913 -17.984  0.00  0.00    -0.572 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  CAS NR4 d          -2.733 -18.915 -21.523  0.00  0.00     0.159 C 
+BRANCH   7   8
+ATOM      8  OAE NR4 d          -2.224 -18.574 -22.800  0.00  0.00    -0.392 OA
+ATOM      9  H5  NR4 d          -2.640 -19.116 -23.460  0.00  0.00     0.210 HD
+ENDBRANCH   7   8
+BRANCH   7  10
+ATOM     10  CAO NR4 d          -2.083 -18.063 -20.460  0.00  0.00     0.098 C 
+BRANCH  10  11
+ATOM     11  SAY NR4 d          -2.515 -16.341 -20.672  0.00  0.00    -0.206 SA
+ATOM     12  CAN NR4 d          -1.154 -15.475 -21.628  0.00  0.00     0.098 C 
+ATOM     13  CAR NR4 d          -0.131 -15.267 -20.501  0.00  0.00     0.156 C 
+ATOM     14  CAU NR4 d          -0.945 -14.617 -19.367  0.00  0.00     0.162 C 
+ATOM     15  CAW NR4 d          -2.027 -15.680 -19.043  0.00  0.00     0.092 C 
+BRANCH  13  16
+ATOM     16  OAD NR4 d           1.014 -14.421 -20.855  0.00  0.00    -0.392 OA
+ATOM     17  H4  NR4 d           1.594 -14.345 -20.106  0.00  0.00     0.210 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  OAG NR4 d          -0.104 -14.450 -18.214  0.00  0.00    -0.392 OA
+ATOM     19  H7  NR4 d           0.632 -13.892 -18.438  0.00  0.00     0.210 HD
+ENDBRANCH  14  18
+BRANCH  15  20
+ATOM     20  CAM NR4 d          -3.148 -15.091 -18.141  0.00  0.00     0.181 C 
+BRANCH  20  21
+ATOM     21  OAB NR4 d          -3.716 -13.923 -18.719  0.00  0.00    -0.400 OA
+ATOM     22  H2  NR4 d          -4.396 -13.587 -18.147  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  15  20
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   1  23
+ATOM     23  CAV NR4 d          -2.691 -21.072 -22.524  0.00  0.00     0.182 C 
+BRANCH  23  24
+ATOM     24  OAH NR4 d          -4.097 -21.007 -22.734  0.00  0.00    -0.390 OA
+ATOM     25  H8  NR4 d          -4.542 -21.472 -22.036  0.00  0.00     0.210 HD
+ENDBRANCH  23  24
+BRANCH  23  26
+ATOM     26  CAT NR4 d          -2.104 -22.455 -22.494  0.00  0.00     0.180 C 
+BRANCH  26  27
+ATOM     27  OAF NR4 d          -2.891 -23.299 -21.674  0.00  0.00    -0.390 OA
+ATOM     28  H6  NR4 d          -2.906 -22.954 -20.789  0.00  0.00     0.210 HD
+ENDBRANCH  26  27
+BRANCH  26  29
+ATOM     29  CAQ NR4 d          -2.083 -23.005 -23.894  0.00  0.00     0.173 C 
+BRANCH  29  30
+ATOM     30  OAC NR4 d          -3.385 -23.569 -24.101  0.00  0.00    -0.391 OA
+ATOM     31  H3  NR4 d          -3.533 -24.262 -23.468  0.00  0.00     0.210 HD
+ENDBRANCH  29  30
+BRANCH  29  32
+ATOM     32  CAL NR4 d          -0.941 -24.009 -24.047  0.00  0.00     0.198 C 
+BRANCH  32  33
+ATOM     33  OAA NR4 d          -0.544 -24.478 -22.725  0.00  0.00    -0.398 OA
+ATOM     34  H1  NR4 d          -1.285 -24.896 -22.303  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 18

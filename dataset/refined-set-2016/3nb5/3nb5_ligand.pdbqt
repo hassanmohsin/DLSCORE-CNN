@@ -1,0 +1,58 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAC_4  and  OAB_3 
+REMARK    2  A    between atoms: CAI_10  and  SAJ_11 
+REMARK    3  A    between atoms: SAJ_11  and  NAK_12 
+REMARK    4  A    between atoms: CAO_16  and  CAN_15 
+REMARK    5  A    between atoms: CAP_17  and  CAO_16 
+REMARK       I    between atoms: NAQ_18  and  CAP_17 
+REMARK    6  A    between atoms: CAR_19  and  NAQ_18 
+REMARK    7  A    between atoms: CAS_20  and  CAR_19 
+REMARK    8  A    between atoms: CAS_20  and  CAT_21 
+ROOT
+ATOM      1  OAF R21 d          19.943  10.669  14.499  0.00  0.00    -0.273 OA
+ATOM      2  CAP R21 d          19.670  10.329  13.348  0.00  0.00     0.221 C 
+ATOM      3  NAQ R21 d          18.954   9.252  13.037  0.00  0.00    -0.361 N 
+ATOM      4  H11 R21 d          18.781   9.055  12.072  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CAR R21 d          18.406   8.338  14.051  0.00  0.00     0.127 C 
+BRANCH   5   6
+ATOM      6  CAS R21 d          17.478   7.340  13.355  0.00  0.00     0.058 C 
+BRANCH   6   7
+ATOM      7  CAT R21 d          16.979   6.248  14.304  0.00  0.00    -0.057 A 
+ATOM      8  CAG R21 d          15.648   6.228  14.704  0.00  0.00     0.009 A 
+ATOM      9  CAH R21 d          15.172   5.182  15.486  0.00  0.00     0.026 A 
+ATOM     10  CAI R21 d          16.028   4.156  15.871  0.00  0.00     0.079 A 
+ATOM     11  CAV R21 d          17.362   4.183  15.481  0.00  0.00     0.026 A 
+ATOM     12  CAU R21 d          17.838   5.228  14.698  0.00  0.00     0.009 A 
+BRANCH  10  13
+ATOM     13  SAJ R21 d          15.418   2.809  16.807  0.00  0.00     0.256 S 
+ATOM     14  OAA R21 d          13.920   2.794  16.734  0.00  0.00    -0.201 OA
+ATOM     15  OAW R21 d          15.855   2.955  18.235  0.00  0.00    -0.201 OA
+BRANCH  13  16
+ATOM     16  NAK R21 d          16.017   1.418  16.205  0.00  0.00    -0.324 N 
+ATOM     17  H6  R21 d          17.005   1.268  16.181  0.00  0.00     0.169 HD
+ATOM     18  H7  R21 d          15.396   0.714  15.860  0.00  0.00     0.169 HD
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+BRANCH   2  19
+ATOM     19  CAO R21 d          20.155  11.140  12.145  0.00  0.00     0.141 C 
+BRANCH  19  20
+ATOM     20  CAN R21 d          19.447  12.496  12.088  0.00  0.00    -0.048 A 
+ATOM     21  CAE R21 d          20.059  13.617  12.637  0.00  0.00     0.010 A 
+ATOM     22  CAD R21 d          19.446  14.861  12.540  0.00  0.00     0.039 A 
+ATOM     23  CAC R21 d          18.221  14.984  11.895  0.00  0.00     0.087 A 
+ATOM     24  CAL R21 d          17.605  13.862  11.350  0.00  0.00     0.067 A 
+ATOM     25 CL   R21 d          16.075  14.020  10.557  0.00  0.00    -0.081 Cl
+ATOM     26  CAM R21 d          18.219  12.618  11.447  0.00  0.00     0.034 A 
+BRANCH  23  27
+ATOM     27  OAB R21 d          17.632  16.205  11.785  0.00  0.00    -0.359 OA
+ATOM     28  H1  R21 d          16.808  16.117  11.322  0.00  0.00     0.217 HD
+ENDBRANCH  23  27
+ENDBRANCH  19  20
+ENDBRANCH   2  19
+TORSDOF 8

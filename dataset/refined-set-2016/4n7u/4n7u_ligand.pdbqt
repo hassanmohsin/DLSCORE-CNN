@@ -1,0 +1,45 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAN_2  and  OAL_5 
+REMARK    2  A    between atoms: OAL_5  and  PAO_6 
+REMARK    3  A    between atoms: PAO_6  and  CAK_9 
+REMARK    4  A    between atoms: CAK_9  and  CAI_10 
+REMARK    5  A    between atoms: CAI_10  and  CAH_11 
+REMARK    6  A    between atoms: CAH_11  and  CAM_12 
+REMARK    7  A    between atoms: CAM_12  and  CAJ_14 
+REMARK    8  A    between atoms: CAJ_14  and  OAD_15 
+ROOT
+ATOM      1  PAO MOL d          21.476  -0.974 147.372  0.00  0.00     0.260 P 
+ATOM      2  OAG MOL d          22.011  -2.483 147.607  0.00  0.00    -0.646 OA
+ATOM      3  OAC MOL d          20.052  -0.836 147.775  0.00  0.00    -0.646 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  OAL MOL d          21.775  -0.601 145.819  0.00  0.00    -0.197 OA
+BRANCH   4   5
+ATOM      5  PAN MOL d          21.025   0.572 145.012  0.00  0.00     0.430 P 
+ATOM      6  OAE MOL d          21.893   1.923 145.213  0.00  0.00    -0.616 OA
+ATOM      7  OAF MOL d          21.217   0.188 143.453  0.00  0.00    -0.616 OA
+ATOM      8  OAB MOL d          19.599   0.782 145.362  0.00  0.00    -0.616 OA
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1   9
+ATOM      9  CAK MOL d          22.483   0.012 148.316  0.00  0.00     0.136 C 
+BRANCH   9  10
+ATOM     10  CAI MOL d          23.894  -0.549 148.285  0.00  0.00     0.013 C 
+BRANCH  10  11
+ATOM     11  CAH MOL d          24.631   0.337 149.260  0.00  0.00     0.007 C 
+BRANCH  11  12
+ATOM     12  CAM MOL d          24.748  -0.391 150.593  0.00  0.00     0.005 C 
+ATOM     13  CAA MOL d          24.245  -1.827 150.710  0.00  0.00     0.012 C 
+BRANCH  12  14
+ATOM     14  CAJ MOL d          25.438   0.250 151.772  0.00  0.00     0.168 C 
+BRANCH  14  15
+ATOM     15  OAD MOL d          24.726   1.453 152.045  0.00  0.00    -0.400 OA
+ATOM     16  H   MOL d          25.126   1.895 152.785  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 8

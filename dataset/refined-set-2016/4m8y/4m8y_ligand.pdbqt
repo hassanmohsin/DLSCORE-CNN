@@ -1,0 +1,120 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C6_4 
+REMARK       I    between atoms: C4_40  and  N_1 
+REMARK    2  A    between atoms: C14_9  and  O_3 
+REMARK    3  A    between atoms: O_3  and  C15_10 
+REMARK    4  A    between atoms: C6_4  and  C8_5 
+REMARK    5  A    between atoms: C6_4  and  C7_21 
+REMARK    6  A    between atoms: C8_5  and  C9_6 
+REMARK    7  A    between atoms: C15_10  and  P_11 
+REMARK    8  A    between atoms: P_11  and  O3_12 
+REMARK    9  A    between atoms: P_11  and  O1_16 
+REMARK   10  A    between atoms: O3_12  and  C18_13 
+REMARK   11  A    between atoms: O1_16  and  C16_17 
+REMARK   12  A    between atoms: C7_21  and  O8_22 
+REMARK   13  A    between atoms: C7_21  and  C20_23 
+REMARK   14  A    between atoms: C20_23  and  N1_24 
+REMARK   15  A    between atoms: N1_24  and  C21_25 
+REMARK   16  A    between atoms: N1_24  and  S_29 
+REMARK   17  A    between atoms: C21_25  and  C22_26 
+REMARK   18  A    between atoms: S_29  and  C23_32 
+REMARK   19  A    between atoms: C26_35  and  O5_36 
+REMARK   20  A    between atoms: O6_42  and  C4_40 
+REMARK   21  A    between atoms: O6_42  and  C5_43 
+ROOT
+ATOM      1  C6  KGQ d         -11.898  52.667   3.596  0.00  0.00     0.120 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   KGQ d         -11.713  52.548   2.153  0.00  0.00    -0.329 N 
+ATOM      3  C4  KGQ d         -12.653  52.853   1.267  0.00  0.00     0.361 C 
+ATOM      4  O7  KGQ d         -13.769  53.271   1.573  0.00  0.00    -0.238 OA
+ATOM      5  H   KGQ d         -10.832  52.219   1.814  0.00  0.00     0.165 HD
+BRANCH   3   6
+ATOM      6  O6  KGQ d         -12.296  52.711  -0.036  0.00  0.00    -0.296 OA
+BRANCH   6   7
+ATOM      7  C5  KGQ d         -13.347  52.740  -1.002  0.00  0.00     0.166 C 
+ATOM      8  C   KGQ d         -13.642  51.328  -1.499  0.00  0.00     0.075 C 
+ATOM      9  C32 KGQ d         -12.592  51.077  -2.600  0.00  0.00     0.266 C 
+ATOM     10  C1  KGQ d         -13.335  50.278  -0.429  0.00  0.00     0.038 C 
+ATOM     11  O4  KGQ d         -11.902  52.346  -2.811  0.00  0.00    -0.358 OA
+ATOM     12  O11 KGQ d         -11.660  50.107  -2.038  0.00  0.00    -0.361 OA
+ATOM     13  C3  KGQ d         -12.723  53.377  -2.213  0.00  0.00     0.204 C 
+ATOM     14  C2  KGQ d         -12.454  49.276  -1.161  0.00  0.00     0.171 C 
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C8  KGQ d         -11.578  51.302   4.225  0.00  0.00     0.066 C 
+BRANCH  15  16
+ATOM     16  C9  KGQ d         -12.392  50.171   3.578  0.00  0.00    -0.056 A 
+ATOM     17  C11 KGQ d         -13.775  50.159   3.667  0.00  0.00     0.010 A 
+ATOM     18  C13 KGQ d         -14.498  49.122   3.076  0.00  0.00     0.037 A 
+ATOM     19  C14 KGQ d         -13.853  48.092   2.401  0.00  0.00     0.069 A 
+ATOM     20  C12 KGQ d         -12.466  48.104   2.323  0.00  0.00     0.037 A 
+ATOM     21  C10 KGQ d         -11.745  49.137   2.908  0.00  0.00     0.010 A 
+BRANCH  19  22
+ATOM     22  O   KGQ d         -14.573  47.095   1.815  0.00  0.00    -0.340 OA
+BRANCH  22  23
+ATOM     23  C15 KGQ d         -15.490  47.675   0.855  0.00  0.00     0.307 C 
+BRANCH  23  24
+ATOM     24  P   KGQ d         -16.372  46.448  -0.211  0.00  0.00     0.352 P 
+ATOM     25  O2  KGQ d         -15.851  46.633  -1.754  0.00  0.00    -0.256 OA
+BRANCH  24  26
+ATOM     26  O3  KGQ d         -17.958  46.805  -0.249  0.00  0.00    -0.313 OA
+BRANCH  26  27
+ATOM     27  C18 KGQ d         -18.874  46.272   0.679  0.00  0.00     0.174 C 
+ATOM     28  C19 KGQ d         -20.122  47.154   0.689  0.00  0.00     0.034 C 
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+BRANCH  24  29
+ATOM     29  O1  KGQ d         -16.011  44.961   0.242  0.00  0.00    -0.313 OA
+BRANCH  29  30
+ATOM     30  C16 KGQ d         -14.742  44.431  -0.165  0.00  0.00     0.174 C 
+ATOM     31  C17 KGQ d         -14.630  42.950   0.198  0.00  0.00     0.034 C 
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+BRANCH   1  32
+ATOM     32  C7  KGQ d         -10.973  53.783   4.093  0.00  0.00     0.155 C 
+BRANCH  32  33
+ATOM     33  O8  KGQ d          -9.622  53.368   3.899  0.00  0.00    -0.392 OA
+ATOM     34  H   KGQ d          -9.463  52.571   4.390  0.00  0.00     0.210 HD
+ENDBRANCH  32  33
+BRANCH  32  35
+ATOM     35  C20 KGQ d         -11.164  54.104   5.571  0.00  0.00     0.141 C 
+BRANCH  35  36
+ATOM     36  N1  KGQ d         -12.333  54.966   5.825  0.00  0.00    -0.204 NA
+BRANCH  36  37
+ATOM     37  C21 KGQ d         -12.979  55.403   4.581  0.00  0.00     0.111 C 
+BRANCH  37  38
+ATOM     38  C22 KGQ d         -12.638  56.856   4.302  0.00  0.00    -0.009 C 
+ATOM     39  C30 KGQ d         -13.268  57.788   5.323  0.00  0.00     0.011 C 
+ATOM     40  C29 KGQ d         -11.131  57.023   4.320  0.00  0.00     0.011 C 
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+BRANCH  36  41
+ATOM     41  S   KGQ d         -13.403  54.119   6.710  0.00  0.00     0.243 S 
+ATOM     42  O10 KGQ d         -13.239  52.651   6.436  0.00  0.00    -0.206 OA
+ATOM     43  O9  KGQ d         -14.802  54.548   6.350  0.00  0.00    -0.206 OA
+BRANCH  41  44
+ATOM     44  C23 KGQ d         -13.110  54.466   8.418  0.00  0.00     0.074 A 
+ATOM     45  C28 KGQ d         -13.692  55.588   9.009  0.00  0.00     0.027 A 
+ATOM     46  C27 KGQ d         -13.457  55.888  10.346  0.00  0.00     0.038 A 
+ATOM     47  C26 KGQ d         -12.631  55.058  11.098  0.00  0.00     0.068 A 
+ATOM     48  C25 KGQ d         -12.045  53.940  10.514  0.00  0.00     0.038 A 
+ATOM     49  C24 KGQ d         -12.285  53.643   9.178  0.00  0.00     0.027 A 
+BRANCH  47  50
+ATOM     50  O5  KGQ d         -12.392  55.332  12.405  0.00  0.00    -0.356 OA
+ATOM     51  C31 KGQ d         -13.480  56.031  13.012  0.00  0.00     0.210 C 
+ENDBRANCH  47  50
+ENDBRANCH  41  44
+ENDBRANCH  36  41
+ENDBRANCH  35  36
+ENDBRANCH  32  35
+ENDBRANCH   1  32
+TORSDOF 21

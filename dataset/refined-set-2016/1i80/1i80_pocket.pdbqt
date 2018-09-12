@@ -1,0 +1,3443 @@
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  SER A   1      34.491  28.701   4.556  0.00  0.00    +0.163 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   SER A   1      33.882  27.421   4.873  0.00  0.00    -0.237 NA
+ATOM      3  H   SER A   1      32.846  27.335   4.874  0.00  0.00    +0.142 HD
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  CB  SER A   1      35.401  29.095   5.716  0.00  0.00    +0.227 C 
+ATOM      5  OG  SER A   1      35.002  29.028   6.881  0.00  0.00    -0.287 OA
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  C   SER A   1      33.403  29.755   4.350  0.00  0.00    +0.162 C 
+BRANCH   6   7
+ATOM      7  O   SER A   1      33.972  31.006   4.012  0.00  0.00    -0.380 OA
+ATOM      8  H   SER A   1      33.250  31.672   3.884  0.00  0.00    +0.211 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  TYR A   1      25.200  31.074  -0.918  0.00  0.00    -0.020 A 
+ATOM      2  CD2 TYR A   1      25.579  30.821   0.399  0.00  0.00    -0.001 A 
+ATOM      3  CE2 TYR A   1      26.920  30.775   0.771  0.00  0.00    +0.036 A 
+ATOM      4  CZ  TYR A   1      27.902  30.981  -0.182  0.00  0.00    +0.134 A 
+ATOM      5  CE1 TYR A   1      27.556  31.229  -1.506  0.00  0.00    +0.036 A 
+ATOM      6  CD1 TYR A   1      26.207  31.273  -1.866  0.00  0.00    -0.001 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  OH  TYR A   1      29.230  30.941   0.193  0.00  0.00    -0.506 OA
+ATOM      8  HH  TYR A   1      29.400  31.638   0.875  0.00  0.00    +0.292 HD
+ENDBRANCH   4   7
+BRANCH   1   9
+ATOM      9  CB  TYR A   1      23.735  31.209  -1.282  0.00  0.00    +0.051 C 
+BRANCH   9  10
+ATOM     10  CA  TYR A   1      23.160  30.198  -2.297  0.00  0.00    +0.137 C 
+BRANCH  10  11
+ATOM     11  N   TYR A   1      23.272  28.828  -1.797  0.00  0.00    -0.239 NA
+ATOM     12  H   TYR A   1      23.810  28.637  -0.928  0.00  0.00    +0.142 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  C   TYR A   1      23.787  30.397  -3.678  0.00  0.00    +0.224 C 
+ATOM     14  O   TYR A   1      23.571  31.421  -4.324  0.00  0.00    -0.287 OA
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ALA A   3      29.596  31.078  11.891  0.00  0.00    +0.149 C 
+ATOM      2  CB  ALA A   3      28.981  29.920  12.668  0.00  0.00    +0.031 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   ALA A   3      29.704  32.307  12.784  0.00  0.00    +0.241 C 
+ATOM      4  O   ALA A   3      30.758  32.586  13.363  0.00  0.00    -0.273 OA
+ATOM      5  N   GLY A   4      28.607  33.055  12.869  0.00  0.00    -0.295 N 
+ATOM      6  H   GLY A   4      27.765  32.807  12.312  0.00  0.00    +0.150 HD
+BRANCH   5   7
+ATOM      7  CA  GLY A   4      28.584  34.214  13.736  0.00  0.00    +0.176 C 
+BRANCH   7   8
+ATOM      8  C   GLY A   4      28.117  33.696  15.084  0.00  0.00    +0.243 C 
+ATOM      9  N   GLY A   5      28.673  34.210  16.175  0.00  0.00    -0.295 N 
+ATOM     10  H   GLY A   5      29.404  34.945  16.092  0.00  0.00    +0.150 HD
+ATOM     11  O   GLY A   4      27.258  32.820  15.137  0.00  0.00    -0.273 OA
+BRANCH   9  12
+ATOM     12  CA  GLY A   5      28.255  33.740  17.486  0.00  0.00    +0.176 C 
+BRANCH  12  13
+ATOM     13  C   GLY A   5      27.143  34.590  18.084  0.00  0.00    +0.243 C 
+ATOM     14  N   LEU A   6      26.140  33.937  18.668  0.00  0.00    -0.298 N 
+ATOM     15  H   LEU A   6      26.152  32.897  18.687  0.00  0.00    +0.150 HD
+ATOM     16  O   GLY A   5      27.189  35.821  18.011  0.00  0.00    -0.273 OA
+BRANCH  14  17
+ATOM     17  CA  LEU A   6      25.023  34.650  19.282  0.00  0.00    +0.137 C 
+BRANCH  17  18
+ATOM     18  C   LEU A   6      25.006  34.545  20.806  0.00  0.00    +0.227 C 
+ATOM     19  O   LEU A   6      24.519  35.452  21.484  0.00  0.00    -0.286 OA
+ENDBRANCH  17  18
+BRANCH  17  20
+ATOM     20  CB  LEU A   6      23.681  34.146  18.731  0.00  0.00    +0.028 C 
+BRANCH  20  21
+ATOM     21  CG  LEU A   6      23.366  34.400  17.253  0.00  0.00    +0.002 C 
+ATOM     22  CD2 LEU A   6      21.862  34.587  17.086  0.00  0.00    +0.000 C 
+ATOM     23  CD1 LEU A   6      23.841  33.228  16.410  0.00  0.00    +0.000 C 
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH  14  17
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+ENDBRANCH   1   3
+BRANCH   1  25
+ATOM     24  C   ALA A   2      30.914  29.973  10.218  0.00  0.00    +0.241 C 
+ATOM     25  N   ALA A   3      30.874  30.663  11.349  0.00  0.00    -0.297 N 
+ATOM     26  H   ALA A   3      31.755  30.905  11.845  0.00  0.00    +0.150 HD
+ATOM     27  O   ALA A   2      29.894  29.660   9.593  0.00  0.00    -0.273 OA
+BRANCH  24  28
+ATOM     28  CA  ALA A   2      32.288  29.550   9.713  0.00  0.00    +0.149 C 
+ATOM     29  CB  ALA A   2      32.791  30.531   8.664  0.00  0.00    +0.031 C 
+BRANCH  28  32
+ATOM     30  C   ASN A   1      32.183  27.118   9.754  0.00  0.00    +0.239 C 
+ATOM     31  O   ASN A   1      32.624  27.046  10.901  0.00  0.00    -0.274 OA
+ATOM     32  N   ALA A   2      32.018  28.261   9.105  0.00  0.00    -0.297 N 
+ATOM     33  H   ALA A   2      31.682  28.233   8.121  0.00  0.00    +0.150 HD
+BRANCH  30  34
+ATOM     34  CA  ASN A   1      31.791  25.868   8.973  0.00  0.00    +0.154 C 
+BRANCH  34  35
+ATOM     35  N   ASN A   1      32.283  24.645   9.599  0.00  0.00    -0.238 NA
+ATOM     36  H   ASN A   1      32.632  24.679  10.578  0.00  0.00    +0.142 HD
+ENDBRANCH  34  35
+BRANCH  34  37
+ATOM     37  CB  ASN A   1      30.257  25.825   8.836  0.00  0.00    +0.111 C 
+BRANCH  37  38
+ATOM     38  CG  ASN A   1      29.546  25.707  10.182  0.00  0.00    +0.221 C 
+ATOM     39  ND2 ASN A   1      29.969  26.505  11.151  0.00  0.00    -0.329 N 
+ATOM     40 HD21 ASN A   1      29.515  26.473  12.086  0.00  0.00    +0.145 HD
+ATOM     41 HD22 ASN A   1      30.755  27.163  10.977  0.00  0.00    +0.145 HD
+ATOM     42  OD1 ASN A   1      28.616  24.908  10.339  0.00  0.00    -0.275 OA
+ENDBRANCH  37  38
+ENDBRANCH  34  37
+ENDBRANCH  30  34
+ENDBRANCH  28  32
+ENDBRANCH  24  28
+ENDBRANCH   1  25
+TORSDOF 16
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ALA A   2      21.046  28.009  12.686  0.00  0.00    +0.149 C 
+ATOM      2  CB  ALA A   2      20.495  29.358  13.142  0.00  0.00    +0.031 C 
+ENDROOT
+BRANCH   1   5
+ATOM      3  C   TYR A   1      22.313  26.353  13.944  0.00  0.00    +0.239 C 
+ATOM      4  O   TYR A   1      21.506  25.461  13.685  0.00  0.00    -0.274 OA
+ATOM      5  N   ALA A   2      22.174  27.608  13.522  0.00  0.00    -0.297 N 
+ATOM      6  H   ALA A   2      22.884  28.318  13.794  0.00  0.00    +0.150 HD
+BRANCH   3   7
+ATOM      7  CA  TYR A   1      23.542  26.057  14.788  0.00  0.00    +0.149 C 
+BRANCH   7   8
+ATOM      8  N   TYR A   1      23.201  25.352  16.023  0.00  0.00    -0.238 NA
+ATOM      9  H   TYR A   1      23.085  24.319  15.989  0.00  0.00    +0.142 HD
+ENDBRANCH   7   8
+BRANCH   7  10
+ATOM     10  CB  TYR A   1      24.524  25.202  13.979  0.00  0.00    +0.053 C 
+BRANCH  10  11
+ATOM     11  CG  TYR A   1      24.875  25.728  12.605  0.00  0.00    -0.020 A 
+ATOM     12  CD2 TYR A   1      25.908  26.651  12.425  0.00  0.00    -0.001 A 
+ATOM     13  CE2 TYR A   1      26.269  27.087  11.152  0.00  0.00    +0.036 A 
+ATOM     14  CZ  TYR A   1      25.585  26.600  10.044  0.00  0.00    +0.134 A 
+ATOM     15  CE1 TYR A   1      24.552  25.688  10.201  0.00  0.00    +0.036 A 
+ATOM     16  CD1 TYR A   1      24.206  25.262  11.475  0.00  0.00    -0.001 A 
+BRANCH  14  17
+ATOM     17  OH  TYR A   1      25.931  27.012   8.773  0.00  0.00    -0.506 OA
+ATOM     18  HH  TYR A   1      26.679  27.658   8.829  0.00  0.00    +0.292 HD
+ENDBRANCH  14  17
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   3   7
+ENDBRANCH   1   5
+BRANCH   1  19
+ATOM     19  C   ALA A   2      21.523  28.105  11.240  0.00  0.00    +0.241 C 
+ATOM     20  O   ALA A   2      22.370  28.939  10.908  0.00  0.00    -0.273 OA
+ATOM     21  N   GLY A   3      20.979  27.250  10.383  0.00  0.00    -0.295 N 
+ATOM     22  H   GLY A   3      20.268  26.567  10.713  0.00  0.00    +0.150 HD
+BRANCH  21  23
+ATOM     23  CA  GLY A   3      21.374  27.265   8.985  0.00  0.00    +0.176 C 
+BRANCH  23  24
+ATOM     24  C   GLY A   3      20.423  28.093   8.141  0.00  0.00    +0.243 C 
+ATOM     25  O   GLY A   3      19.238  27.765   8.033  0.00  0.00    -0.273 OA
+ATOM     26  N   LEU A   4      20.936  29.174   7.557  0.00  0.00    -0.298 N 
+ATOM     27  H   LEU A   4      21.939  29.404   7.709  0.00  0.00    +0.150 HD
+BRANCH  26  28
+ATOM     28  CA  LEU A   4      20.126  30.046   6.708  0.00  0.00    +0.137 C 
+BRANCH  28  29
+ATOM     29  C   LEU A   4      20.572  29.940   5.254  0.00  0.00    +0.227 C 
+ATOM     30  O   LEU A   4      21.657  29.440   4.964  0.00  0.00    -0.286 OA
+ENDBRANCH  28  29
+BRANCH  28  31
+ATOM     31  CB  LEU A   4      20.240  31.507   7.169  0.00  0.00    +0.028 C 
+BRANCH  31  32
+ATOM     32  CG  LEU A   4      19.338  31.950   8.327  0.00  0.00    +0.002 C 
+ATOM     33  CD2 LEU A   4      19.648  31.134   9.579  0.00  0.00    +0.000 C 
+ATOM     34  CD1 LEU A   4      19.565  33.435   8.578  0.00  0.00    +0.000 C 
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  26  28
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH   1  19
+TORSDOF 13
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   HIS A   3      23.771  37.575   4.028  0.00  0.00    +0.241 C 
+ATOM      2  N   TYR A   4      24.408  38.440   4.811  0.00  0.00    -0.297 N 
+ATOM      3  H   TYR A   4      24.853  39.280   4.388  0.00  0.00    +0.150 HD
+ATOM      4  O   HIS A   3      23.277  36.526   4.450  0.00  0.00    -0.273 OA
+ENDROOT
+BRANCH   2   5
+ATOM      5  CA  TYR A   4      24.495  38.234   6.250  0.00  0.00    +0.153 C 
+BRANCH   5   6
+ATOM      6  C   TYR A   4      23.193  38.748   6.863  0.00  0.00    +0.241 C 
+ATOM      7  N   GLU A   5      22.954  38.462   8.138  0.00  0.00    -0.298 N 
+ATOM      8  H   GLU A   5      23.669  37.946   8.689  0.00  0.00    +0.150 HD
+ATOM      9  O   TYR A   4      22.415  39.407   6.181  0.00  0.00    -0.273 OA
+BRANCH   7  10
+ATOM     10  CA  GLU A   5      21.700  38.862   8.780  0.00  0.00    +0.137 C 
+BRANCH  10  11
+ATOM     11  C   GLU A   5      21.608  40.299   9.285  0.00  0.00    +0.227 C 
+ATOM     12  O   GLU A   5      22.623  40.976   9.474  0.00  0.00    -0.286 OA
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  CB  GLU A   5      21.394  37.930   9.953  0.00  0.00    +0.039 C 
+BRANCH  13  14
+ATOM     14  CG  GLU A   5      21.439  36.431   9.638  0.00  0.00    +0.116 C 
+BRANCH  14  15
+ATOM     15  CD  GLU A   5      22.838  35.924   9.300  0.00  0.00    +0.365 C 
+ATOM     16  OE2 GLU A   5      23.803  36.281  10.002  0.00  0.00    -0.246 OA
+ATOM     17  OE1 GLU A   5      22.970  35.149   8.334  0.00  0.00    -0.246 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+BRANCH   5  18
+ATOM     18  CB  TYR A   4      25.720  38.965   6.820  0.00  0.00    +0.055 C 
+BRANCH  18  19
+ATOM     19  CG  TYR A   4      27.019  38.263   6.469  0.00  0.00    -0.020 A 
+ATOM     20  CD2 TYR A   4      27.750  37.586   7.443  0.00  0.00    -0.001 A 
+ATOM     21  CE2 TYR A   4      28.917  36.884   7.120  0.00  0.00    +0.036 A 
+ATOM     22  CZ  TYR A   4      29.361  36.855   5.804  0.00  0.00    +0.134 A 
+ATOM     23  CE1 TYR A   4      28.654  37.521   4.813  0.00  0.00    +0.036 A 
+ATOM     24  CD1 TYR A   4      27.484  38.226   5.152  0.00  0.00    -0.001 A 
+BRANCH  22  25
+ATOM     25  OH  TYR A   4      30.515  36.155   5.490  0.00  0.00    -0.506 OA
+ATOM     26  HH  TYR A   4      30.693  36.233   4.519  0.00  0.00    +0.292 HD
+ENDBRANCH  22  25
+ENDBRANCH  18  19
+ENDBRANCH   5  18
+ENDBRANCH   2   5
+BRANCH   1  27
+ATOM     27  CA  HIS A   3      23.701  37.917   2.545  0.00  0.00    +0.155 C 
+BRANCH  27  30
+ATOM     28  C   PRO A   2      24.668  35.872   1.701  0.00  0.00    +0.241 C 
+ATOM     29  O   PRO A   2      25.757  36.150   2.195  0.00  0.00    -0.273 OA
+ATOM     30  N   HIS A   3      23.608  36.668   1.807  0.00  0.00    -0.297 N 
+ATOM     31  H   HIS A   3      22.709  36.396   1.360  0.00  0.00    +0.150 HD
+BRANCH  28  35
+ATOM     32  C   GLY A   1      22.123  33.779   1.149  0.00  0.00    +0.243 C 
+ATOM     33  O   GLY A   1      21.003  33.616   0.663  0.00  0.00    -0.273 OA
+ATOM     34  N   PRO A   2      23.110  34.363   0.453  0.00  0.00    -0.272 N 
+ATOM     35  CA  PRO A   2      24.482  34.572   0.919  0.00  0.00    +0.152 C 
+ATOM     36  CB  PRO A   2      25.279  34.558  -0.381  0.00  0.00    +0.031 C 
+ATOM     37  CG  PRO A   2      24.353  35.272  -1.310  0.00  0.00    +0.024 C 
+ATOM     38  CD  PRO A   2      22.990  34.684  -0.981  0.00  0.00    +0.094 C 
+BRANCH  32  39
+ATOM     39  CA  GLY A   1      22.411  33.281   2.553  0.00  0.00    +0.170 C 
+BRANCH  39  40
+ATOM     40  N   GLY A   1      21.297  32.432   2.923  0.00  0.00    -0.236 NA
+ATOM     41  H   GLY A   1      20.546  32.800   3.541  0.00  0.00    +0.142 HD
+ENDBRANCH  39  40
+ENDBRANCH  32  39
+ENDBRANCH  28  35
+ENDBRANCH  27  30
+BRANCH  27  42
+ATOM     42  CB  HIS A   3      22.474  38.801   2.274  0.00  0.00    +0.076 C 
+BRANCH  42  43
+ATOM     43  CG  HIS A   3      21.168  38.139   2.594  0.00  0.00    +0.082 A 
+ATOM     44  CD2 HIS A   3      20.447  38.103   3.740  0.00  0.00    +0.115 A 
+ATOM     45  NE2 HIS A   3      19.355  37.297   3.508  0.00  0.00    -0.221 NA
+ATOM     46  CE1 HIS A   3      19.404  36.857   2.264  0.00  0.00    +0.199 A 
+ATOM     47  ND1 HIS A   3      20.489  37.350   1.690  0.00  0.00    -0.227 NA
+ENDBRANCH  42  43
+ENDBRANCH  27  42
+ENDBRANCH   1  27
+TORSDOF 17
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ILE A   1      19.741  37.936  14.852  0.00  0.00    +0.133 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ILE A   1      18.911  38.580  13.847  0.00  0.00    -0.239 NA
+ATOM      3  H   ILE A   1      19.181  39.515  13.482  0.00  0.00    +0.142 HD
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  C   ILE A   1      18.994  37.837  16.180  0.00  0.00    +0.224 C 
+ATOM      5  O   ILE A   1      19.110  36.836  16.885  0.00  0.00    -0.287 OA
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  CB  ILE A   1      21.051  38.713  15.066  0.00  0.00    +0.023 C 
+ATOM      7  CG2 ILE A   1      21.761  38.199  16.296  0.00  0.00    +0.002 C 
+BRANCH   6   8
+ATOM      8  CG1 ILE A   1      21.940  38.579  13.825  0.00  0.00    +0.002 C 
+ATOM      9  CD1 ILE A   1      22.280  37.110  13.475  0.00  0.00    +0.000 C 
+ENDBRANCH   6   8
+ENDBRANCH   1   6
+TORSDOF 4
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      17.341  33.704  16.055  0.00  0.00    +0.133 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      16.655  34.996  15.904  0.00  0.00    -0.239 NA
+ATOM      3  H   LEU A   1      17.114  35.755  15.362  0.00  0.00    +0.142 HD
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  C   LEU A   1      17.637  33.372  17.511  0.00  0.00    +0.224 C 
+ATOM      5  O   LEU A   1      17.609  32.207  17.905  0.00  0.00    -0.287 OA
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  CB  LEU A   1      18.647  33.684  15.253  0.00  0.00    +0.025 C 
+BRANCH   6   7
+ATOM      7  CG  LEU A   1      18.522  33.810  13.726  0.00  0.00    +0.002 C 
+ATOM      8  CD2 LEU A   1      17.650  32.687  13.176  0.00  0.00    +0.000 C 
+ATOM      9  CD1 LEU A   1      19.913  33.766  13.092  0.00  0.00    +0.000 C 
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   3      25.615  30.141   9.308  0.00  0.00    +0.176 C 
+ENDROOT
+BRANCH   1   4
+ATOM      2  C   VAL A   2      25.273  31.193  11.462  0.00  0.00    +0.241 C 
+ATOM      3  O   VAL A   2      26.382  31.733  11.415  0.00  0.00    -0.273 OA
+ATOM      4  N   GLY A   3      24.813  30.402  10.495  0.00  0.00    -0.295 N 
+ATOM      5  H   GLY A   3      23.873  29.967  10.588  0.00  0.00    +0.150 HD
+BRANCH   2   6
+ATOM      6  CA  VAL A   2      24.361  31.391  12.673  0.00  0.00    +0.148 C 
+BRANCH   6   9
+ATOM      7  C   LEU A   1      24.664  30.336  14.838  0.00  0.00    +0.238 C 
+ATOM      8  O   LEU A   1      23.569  29.775  14.755  0.00  0.00    -0.274 OA
+ATOM      9  N   VAL A   2      25.130  31.145  13.892  0.00  0.00    -0.297 N 
+ATOM     10  H   VAL A   2      26.052  31.608  14.020  0.00  0.00    +0.150 HD
+BRANCH   7  11
+ATOM     11  CA  LEU A   1      25.552  30.117  16.063  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  N   LEU A   1      24.677  29.873  17.208  0.00  0.00    -0.238 NA
+ATOM     13  H   LEU A   1      23.907  29.184  17.094  0.00  0.00    +0.142 HD
+ENDBRANCH  11  12
+BRANCH  11  14
+ATOM     14  CB  LEU A   1      26.444  28.886  15.809  0.00  0.00    +0.026 C 
+BRANCH  14  15
+ATOM     15  CG  LEU A   1      27.300  28.355  16.963  0.00  0.00    +0.002 C 
+ATOM     16  CD2 LEU A   1      28.564  29.195  17.104  0.00  0.00    +0.000 C 
+ATOM     17  CD1 LEU A   1      27.649  26.884  16.727  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   7  11
+ENDBRANCH   6   9
+BRANCH   6  18
+ATOM     18  CB  VAL A   2      23.751  32.832  12.662  0.00  0.00    +0.027 C 
+ATOM     19  CG2 VAL A   2      24.855  33.883  12.759  0.00  0.00    +0.002 C 
+ATOM     20  CG1 VAL A   2      22.922  33.035  11.408  0.00  0.00    +0.002 C 
+ENDBRANCH   6  18
+ENDBRANCH   2   6
+ENDBRANCH   1   4
+BRANCH   1  21
+ATOM     21  C   GLY A   3      24.832  30.025   8.012  0.00  0.00    +0.243 C 
+ATOM     22  O   GLY A   3      23.611  30.204   7.995  0.00  0.00    -0.273 OA
+ATOM     23  N   MET A   4      25.540  29.719   6.926  0.00  0.00    -0.297 N 
+ATOM     24  H   MET A   4      26.563  29.561   7.022  0.00  0.00    +0.150 HD
+BRANCH  23  25
+ATOM     25  CA  MET A   4      24.927  29.597   5.601  0.00  0.00    +0.149 C 
+BRANCH  25  26
+ATOM     26  C   MET A   4      25.137  28.231   4.951  0.00  0.00    +0.241 C 
+ATOM     27  N   SER A   5      25.304  27.184   5.756  0.00  0.00    -0.296 N 
+ATOM     28  H   SER A   5      25.272  27.316   6.787  0.00  0.00    +0.150 HD
+ATOM     29  O   MET A   4      25.143  28.132   3.722  0.00  0.00    -0.273 OA
+BRANCH  27  30
+ATOM     30  CA  SER A   5      25.532  25.848   5.203  0.00  0.00    +0.166 C 
+BRANCH  30  31
+ATOM     31  CB  SER A   5      25.200  24.733   6.191  0.00  0.00    +0.229 C 
+ATOM     32  OG  SER A   5      24.337  24.877   7.053  0.00  0.00    -0.286 OA
+ENDBRANCH  30  31
+BRANCH  30  33
+ATOM     33  C   SER A   5      27.003  25.724   4.786  0.00  0.00    +0.165 C 
+BRANCH  33  34
+ATOM     34  O   SER A   5      27.869  25.919   5.898  0.00  0.00    -0.380 OA
+ATOM     35  H   SER A   5      27.676  25.236   6.588  0.00  0.00    +0.211 HD
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  27  30
+ENDBRANCH  25  26
+BRANCH  25  36
+ATOM     36  CB  MET A   4      25.499  30.663   4.656  0.00  0.00    +0.041 C 
+BRANCH  36  37
+ATOM     37  CG  MET A   4      25.361  32.102   5.134  0.00  0.00    +0.060 C 
+BRANCH  37  38
+ATOM     38  SD  MET A   4      26.177  33.256   4.000  0.00  0.00    -0.139 S 
+ATOM     39  CE  MET A   4      26.019  34.778   4.888  0.00  0.00    +0.069 C 
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  25  36
+ENDBRANCH  23  25
+ENDBRANCH   1  21
+TORSDOF 18
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   4      32.621  37.105  14.240  0.00  0.00    +0.158 C 
+ENDROOT
+BRANCH   1   3
+ATOM      2  C   THR A   3      34.241  35.594  13.215  0.00  0.00    +0.243 C 
+ATOM      3  N   ASN A   4      33.108  35.777  13.885  0.00  0.00    -0.297 N 
+ATOM      4  H   ASN A   4      32.550  34.945  14.166  0.00  0.00    +0.150 HD
+ATOM      5  O   THR A   3      34.967  36.514  12.861  0.00  0.00    -0.273 OA
+BRANCH   2   6
+ATOM      6  CA  THR A   3      34.615  34.155  12.902  0.00  0.00    +0.176 C 
+BRANCH   6   9
+ATOM      7  C   VAL A   2      34.129  32.633  14.744  0.00  0.00    +0.241 C 
+ATOM      8  O   VAL A   2      35.200  32.875  15.290  0.00  0.00    -0.273 OA
+ATOM      9  N   THR A   3      33.761  33.198  13.596  0.00  0.00    -0.295 N 
+ATOM     10  H   THR A   3      32.839  32.950  13.183  0.00  0.00    +0.150 HD
+BRANCH   7  11
+ATOM     11  CA  VAL A   2      33.159  31.634  15.365  0.00  0.00    +0.148 C 
+BRANCH  11  13
+ATOM     12  C   LEU A   1      33.841  29.720  14.047  0.00  0.00    +0.238 C 
+ATOM     13  N   VAL A   2      33.758  30.318  15.228  0.00  0.00    -0.297 N 
+ATOM     14  H   VAL A   2      34.129  29.836  16.072  0.00  0.00    +0.150 HD
+ATOM     15  O   LEU A   1      33.375  30.205  13.014  0.00  0.00    -0.274 OA
+BRANCH  12  16
+ATOM     16  CA  LEU A   1      34.507  28.355  14.019  0.00  0.00    +0.145 C 
+BRANCH  16  17
+ATOM     17  N   LEU A   1      33.430  27.470  13.604  0.00  0.00    -0.238 NA
+ATOM     18  H   LEU A   1      33.046  27.547  12.640  0.00  0.00    +0.142 HD
+ENDBRANCH  16  17
+BRANCH  16  19
+ATOM     19  CB  LEU A   1      35.649  28.378  13.004  0.00  0.00    +0.026 C 
+BRANCH  19  20
+ATOM     20  CG  LEU A   1      36.656  29.511  13.245  0.00  0.00    +0.002 C 
+ATOM     21  CD2 LEU A   1      37.344  29.324  14.591  0.00  0.00    +0.000 C 
+ATOM     22  CD1 LEU A   1      37.673  29.538  12.127  0.00  0.00    +0.000 C 
+ENDBRANCH  19  20
+ENDBRANCH  16  19
+ENDBRANCH  12  16
+ENDBRANCH  11  13
+BRANCH  11  23
+ATOM     23  CB  VAL A   2      32.935  31.972  16.854  0.00  0.00    +0.027 C 
+ATOM     24  CG2 VAL A   2      32.092  30.877  17.510  0.00  0.00    +0.002 C 
+ATOM     25  CG1 VAL A   2      32.253  33.322  16.991  0.00  0.00    +0.002 C 
+ENDBRANCH  11  23
+ENDBRANCH   7  11
+ENDBRANCH   6   9
+BRANCH   6  26
+ATOM     26  CB  THR A   3      34.539  33.972  11.367  0.00  0.00    +0.137 C 
+ATOM     27  CG2 THR A   3      35.145  32.642  10.955  0.00  0.00    +0.034 C 
+BRANCH  26  28
+ATOM     28  OG1 THR A   3      33.168  34.032  10.946  0.00  0.00    -0.382 OA
+ATOM     29  HG1 THR A   3      32.786  34.911  11.194  0.00  0.00    +0.210 HD
+ENDBRANCH  26  28
+ENDBRANCH   6  26
+ENDBRANCH   2   6
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  C   ASN A   4      31.415  36.968  15.156  0.00  0.00    +0.241 C 
+ATOM     31  N   LEU A   5      31.101  38.015  15.915  0.00  0.00    -0.297 N 
+ATOM     32  H   LEU A   5      31.700  38.865  15.904  0.00  0.00    +0.150 HD
+ATOM     33  O   ASN A   4      30.777  35.920  15.178  0.00  0.00    -0.273 OA
+BRANCH  31  34
+ATOM     34  CA  LEU A   5      29.913  37.966  16.763  0.00  0.00    +0.149 C 
+BRANCH  34  35
+ATOM     35  C   LEU A   5      28.803  38.341  15.785  0.00  0.00    +0.241 C 
+ATOM     36  N   ALA A   6      27.630  37.729  15.919  0.00  0.00    -0.297 N 
+ATOM     37  H   ALA A   6      27.498  37.045  16.691  0.00  0.00    +0.150 HD
+ATOM     38  O   LEU A   5      29.021  39.176  14.905  0.00  0.00    -0.273 OA
+BRANCH  36  39
+ATOM     39  CA  ALA A   6      26.520  37.998  15.001  0.00  0.00    +0.149 C 
+ATOM     40  CB  ALA A   6      25.291  37.177  15.412  0.00  0.00    +0.031 C 
+BRANCH  39  41
+ATOM     41  C   ALA A   6      26.153  39.480  14.860  0.00  0.00    +0.241 C 
+ATOM     42  O   ALA A   6      26.421  40.286  15.748  0.00  0.00    -0.273 OA
+ATOM     43  N   ALA A   7      25.526  39.824  13.737  0.00  0.00    -0.298 N 
+ATOM     44  H   ALA A   7      25.304  39.082  13.042  0.00  0.00    +0.150 HD
+BRANCH  43  45
+ATOM     45  CA  ALA A   7      25.136  41.203  13.440  0.00  0.00    +0.137 C 
+ATOM     46  CB  ALA A   7      24.364  41.249  12.129  0.00  0.00    +0.030 C 
+BRANCH  45  47
+ATOM     47  C   ALA A   7      24.326  41.881  14.533  0.00  0.00    +0.227 C 
+ATOM     48  O   ALA A   7      23.418  41.286  15.103  0.00  0.00    -0.286 OA
+ENDBRANCH  45  47
+ENDBRANCH  43  45
+ENDBRANCH  39  41
+ENDBRANCH  36  39
+ENDBRANCH  34  35
+BRANCH  34  49
+ATOM     49  CB  LEU A   5      29.992  38.988  17.906  0.00  0.00    +0.029 C 
+BRANCH  49  50
+ATOM     50  CG  LEU A   5      31.225  38.917  18.821  0.00  0.00    +0.002 C 
+ATOM     51  CD2 LEU A   5      31.106  39.950  19.934  0.00  0.00    +0.000 C 
+ATOM     52  CD1 LEU A   5      31.358  37.511  19.414  0.00  0.00    +0.000 C 
+ENDBRANCH  49  50
+ENDBRANCH  34  49
+ENDBRANCH  31  34
+ENDBRANCH   1  30
+BRANCH   1  53
+ATOM     53  CB  ASN A   4      32.172  37.843  12.980  0.00  0.00    +0.114 C 
+BRANCH  53  54
+ATOM     54  CG  ASN A   4      31.147  37.051  12.190  0.00  0.00    +0.222 C 
+ATOM     55  ND2 ASN A   4      29.874  37.447  12.292  0.00  0.00    -0.329 N 
+ATOM     56 HD21 ASN A   4      29.632  38.274  12.874  0.00  0.00    +0.145 HD
+ATOM     57 HD22 ASN A   4      29.126  36.928  11.790  0.00  0.00    +0.145 HD
+ATOM     58  OD1 ASN A   4      31.490  36.077  11.514  0.00  0.00    -0.275 OA
+ENDBRANCH  53  54
+ENDBRANCH   1  53
+TORSDOF 23
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LEU A   1      31.378  43.446   9.330  0.00  0.00    +0.238 C 
+ATOM      2  N   SER A   2      32.541  42.844   9.575  0.00  0.00    -0.296 N 
+ATOM      3  H   SER A   2      32.607  42.169  10.364  0.00  0.00    +0.150 HD
+ATOM      4  O   LEU A   1      31.213  44.248   8.408  0.00  0.00    -0.274 OA
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  LEU A   1      30.224  43.096  10.255  0.00  0.00    +0.145 C 
+BRANCH   5   6
+ATOM      6  N   LEU A   1      29.389  44.287  10.398  0.00  0.00    -0.238 NA
+ATOM      7  H   LEU A   1      28.424  44.287  10.009  0.00  0.00    +0.142 HD
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  CB  LEU A   1      29.427  41.923   9.662  0.00  0.00    +0.026 C 
+BRANCH   8   9
+ATOM      9  CG  LEU A   1      28.284  41.349  10.509  0.00  0.00    +0.002 C 
+ATOM     10  CD2 LEU A   1      28.796  41.019  11.902  0.00  0.00    +0.000 C 
+ATOM     11  CD1 LEU A   1      27.725  40.099   9.852  0.00  0.00    +0.000 C 
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+ENDBRANCH   1   5
+BRANCH   2  12
+ATOM     12  CA  SER A   2      33.723  43.109   8.763  0.00  0.00    +0.166 C 
+BRANCH  12  13
+ATOM     13  C   SER A   2      34.231  41.899   7.988  0.00  0.00    +0.229 C 
+ATOM     14  O   SER A   2      34.661  40.908   8.580  0.00  0.00    -0.286 OA
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  CB  SER A   2      34.856  43.644   9.640  0.00  0.00    +0.165 C 
+BRANCH  15  16
+ATOM     16  OG  SER A   2      36.066  43.708   8.906  0.00  0.00    -0.380 OA
+ATOM     17  H   SER A   2      36.306  42.802   8.588  0.00  0.00    +0.211 HD
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   2  12
+TORSDOF 8
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  VAL A   1      35.922  37.452   9.251  0.00  0.00    +0.133 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  VAL A   1      34.638  37.382   8.397  0.00  0.00    +0.023 C 
+ATOM      3  CG2 VAL A   1      33.492  38.059   9.130  0.00  0.00    +0.002 C 
+ATOM      4  CG1 VAL A   1      34.287  35.938   8.103  0.00  0.00    +0.002 C 
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  N   VAL A   1      36.420  38.824   9.365  0.00  0.00    -0.239 NA
+ATOM      6  H   VAL A   1      35.930  39.593   8.866  0.00  0.00    +0.142 HD
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  C   VAL A   1      36.995  36.583   8.595  0.00  0.00    +0.224 C 
+ATOM      8  O   VAL A   1      37.285  35.471   9.051  0.00  0.00    -0.287 OA
+ENDBRANCH   1   7
+TORSDOF 3
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CB  PHE A   1      31.548  40.317   2.113  0.00  0.00    +0.051 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  PHE A   1      31.318  40.546   3.578  0.00  0.00    -0.020 A 
+ATOM      3  CD2 PHE A   1      31.447  39.496   4.485  0.00  0.00    -0.004 A 
+ATOM      4  CE2 PHE A   1      31.249  39.705   5.855  0.00  0.00    -0.000 A 
+ATOM      5  CZ  PHE A   1      30.920  40.979   6.325  0.00  0.00    -0.000 A 
+ATOM      6  CE1 PHE A   1      30.786  42.038   5.422  0.00  0.00    -0.000 A 
+ATOM      7  CD1 PHE A   1      30.986  41.815   4.056  0.00  0.00    -0.004 A 
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  CA  PHE A   1      30.293  39.890   1.349  0.00  0.00    +0.137 C 
+BRANCH   8   9
+ATOM      9  N   PHE A   1      30.629  39.572  -0.043  0.00  0.00    -0.239 NA
+ATOM     10  H   PHE A   1      31.517  39.931  -0.448  0.00  0.00    +0.142 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   PHE A   1      29.277  41.025   1.435  0.00  0.00    +0.224 C 
+ATOM     12  O   PHE A   1      29.563  42.155   1.021  0.00  0.00    -0.287 OA
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 4
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1      26.460  43.119   5.626  0.00  0.00    +0.144 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1      26.907  42.882   4.255  0.00  0.00    -0.239 NA
+ATOM      3  H   ASP A   1      27.584  43.549   3.832  0.00  0.00    +0.142 HD
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  C   ASP A   1      25.152  43.920   5.658  0.00  0.00    +0.225 C 
+ATOM      5  O   ASP A   1      25.006  44.917   4.945  0.00  0.00    -0.287 OA
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  CB  ASP A   1      27.538  43.888   6.385  0.00  0.00    +0.139 C 
+BRANCH   6   7
+ATOM      7  CG  ASP A   1      27.055  44.384   7.725  0.00  0.00    +0.367 C 
+ATOM      8  OD2 ASP A   1      26.896  43.561   8.650  0.00  0.00    -0.246 OA
+ATOM      9  OD1 ASP A   1      26.823  45.605   7.846  0.00  0.00    -0.246 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      19.671  33.994   4.565  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      28.186  28.221   8.230  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      21.335  35.548   6.088  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      37.115  33.154   7.779  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      18.827  36.768   6.619  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      25.233  37.788  11.523  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      29.429  33.693   1.330  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      24.855  41.720   8.280  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = ../refined-set-2016/1i80/1i80_pocket.pdb
+REMARK  123 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _1  and  _3
+REMARK    2  A    between atoms: _3  and  _4
+REMARK    3  A    between atoms: _3  and  _6
+REMARK    4  A    between atoms: _6  and  _7
+REMARK    5  A    between atoms: _9  and  _11
+REMARK    6  A    between atoms: _11  and  _12
+REMARK    7  A    between atoms: _11  and  _14
+REMARK    8  A    between atoms: _14  and  _15
+REMARK    9  A    between atoms: _20  and  _21
+REMARK   10  A    between atoms: _23  and  _25
+REMARK   11  A    between atoms: _25  and  _26
+REMARK   12  A    between atoms: _25  and  _28
+REMARK   13  A    between atoms: _28  and  _29
+REMARK   14  A    between atoms: _34  and  _36
+REMARK   15  A    between atoms: _36  and  _37
+REMARK   16  A    between atoms: _40  and  _42
+REMARK   17  A    between atoms: _42  and  _43
+REMARK   18  A    between atoms: _46  and  _48
+REMARK   19  A    between atoms: _48  and  _49
+REMARK   20  A    between atoms: _51  and  _53
+REMARK   21  A    between atoms: _53  and  _54
+REMARK   22  A    between atoms: _56  and  _58
+REMARK   23  A    between atoms: _58  and  _59
+REMARK   24  A    between atoms: _58  and  _61
+REMARK   25  A    between atoms: _61  and  _62
+REMARK   26  A    between atoms: _65  and  _67
+REMARK   27  A    between atoms: _67  and  _68
+REMARK   28  A    between atoms: _67  and  _70
+REMARK   29  A    between atoms: _70  and  _71
+REMARK   30  A    between atoms: _76  and  _77
+REMARK   31  A    between atoms: _79  and  _81
+REMARK   32  A    between atoms: _81  and  _82
+REMARK   33  A    between atoms: _85  and  _87
+REMARK   34  A    between atoms: _87  and  _88
+REMARK   35  A    between atoms: _90  and  _92
+REMARK   36  A    between atoms: _92  and  _93
+REMARK   37  A    between atoms: _92  and  _95
+REMARK   38  A    between atoms: _95  and  _96
+REMARK   39  A    between atoms: _99  and  _101
+REMARK   40  A    between atoms: _101  and  _102
+REMARK   41  A    between atoms: _105  and  _106
+REMARK   42  A    between atoms: _111  and  _113
+REMARK   43  A    between atoms: _113  and  _114
+REMARK   44  A    between atoms: _113  and  _116
+REMARK   45  A    between atoms: _116  and  _117
+REMARK   46  A    between atoms: _122  and  _124
+REMARK   47  A    between atoms: _124  and  _125
+REMARK   48  A    between atoms: _124  and  _127
+REMARK   49  A    between atoms: _127  and  _128
+REMARK   50  A    between atoms: _133  and  _134
+REMARK   51  A    between atoms: _136  and  _138
+REMARK   52  A    between atoms: _138  and  _139
+REMARK   53  A    between atoms: _138  and  _141
+REMARK   54  A    between atoms: _141  and  _142
+REMARK   55  A    between atoms: _142  and  _143
+REMARK   56  A    between atoms: _146  and  _148
+REMARK   57  A    between atoms: _148  and  _149
+REMARK   58  A    between atoms: _148  and  _151
+REMARK   59  A    between atoms: _151  and  _152
+REMARK   60  A    between atoms: _155  and  _157
+REMARK   61  A    between atoms: _157  and  _158
+REMARK   62  A    between atoms: _157  and  _160
+REMARK   63  A    between atoms: _160  and  _161
+REMARK   64  A    between atoms: _164  and  _166
+REMARK   65  A    between atoms: _166  and  _167
+REMARK   66  A    between atoms: _166  and  _169
+REMARK   67  A    between atoms: _169  and  _170
+REMARK   68  A    between atoms: _173  and  _175
+REMARK   69  A    between atoms: _175  and  _176
+REMARK   70  A    between atoms: _175  and  _178
+REMARK   71  A    between atoms: _181  and  _183
+REMARK   72  A    between atoms: _183  and  _184
+REMARK   73  A    between atoms: _186  and  _188
+REMARK   74  A    between atoms: _188  and  _189
+REMARK   75  A    between atoms: _188  and  _191
+REMARK   76  A    between atoms: _191  and  _192
+REMARK   77  A    between atoms: _192  and  _193
+REMARK   78  A    between atoms: _195  and  _197
+REMARK   79  A    between atoms: _197  and  _198
+REMARK   80  A    between atoms: _197  and  _200
+REMARK   81  A    between atoms: _200  and  _201
+REMARK   82  A    between atoms: _203  and  _205
+REMARK   83  A    between atoms: _205  and  _206
+REMARK   84  A    between atoms: _205  and  _208
+REMARK   85  A    between atoms: _208  and  _209
+REMARK   86  A    between atoms: _212  and  _214
+REMARK   87  A    between atoms: _214  and  _215
+REMARK   88  A    between atoms: _214  and  _217
+REMARK   89  A    between atoms: _220  and  _222
+REMARK   90  A    between atoms: _222  and  _223
+REMARK   91  A    between atoms: _222  and  _225
+REMARK   92  A    between atoms: _225  and  _226
+REMARK   93  A    between atoms: _229  and  _231
+REMARK   94  A    between atoms: _231  and  _232
+REMARK   95  A    between atoms: _231  and  _234
+REMARK   96  A    between atoms: _234  and  _235
+REMARK   97  A    between atoms: _240  and  _242
+REMARK   98  A    between atoms: _242  and  _243
+REMARK   99  A    between atoms: _242  and  _245
+REMARK  100  A    between atoms: _245  and  _246
+REMARK  101  A    between atoms: _249  and  _251
+REMARK  102  A    between atoms: _251  and  _252
+REMARK  103  A    between atoms: _255  and  _257
+REMARK  104  A    between atoms: _257  and  _258
+REMARK  105  A    between atoms: _261  and  _263
+REMARK  106  A    between atoms: _263  and  _264
+REMARK  107  A    between atoms: _263  and  _266
+REMARK  108  A    between atoms: _266  and  _267
+REMARK  109  A    between atoms: _270  and  _272
+REMARK  110  A    between atoms: _272  and  _273
+REMARK  111  A    between atoms: _272  and  _275
+REMARK  112  A    between atoms: _275  and  _276
+REMARK  113  A    between atoms: _278  and  _280
+REMARK  114  A    between atoms: _280  and  _281
+REMARK  115  A    between atoms: _280  and  _283
+REMARK  116  A    between atoms: _286  and  _288
+REMARK  117  A    between atoms: _288  and  _289
+REMARK  118  A    between atoms: _288  and  _291
+REMARK  119  A    between atoms: _291  and  _292
+REMARK  120  A    between atoms: _298  and  _300
+REMARK  121  A    between atoms: _300  and  _301
+REMARK  122  A    between atoms: _300  and  _303
+REMARK  123  A    between atoms: _303  and  _304
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1      29.704  36.172   1.499  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0

@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N18_1  and  C17_2 
+REMARK    2  A    between atoms: C10_14  and  C9_15 
+REMARK    3  A    between atoms: C9_15  and  C8_16 
+REMARK    4  A    between atoms: C5_19  and  O6_20 
+REMARK    5  A    between atoms: C2_22  and  O1_23 
+ROOT
+ATOM      1  C17 T62 d           5.860   9.944  23.568  0.00  0.00     0.717 A 
+ATOM      2  N16 T62 d           4.547   9.920  23.895  0.00  0.00     0.027 NA
+ATOM      3  N19 T62 d           6.579  11.049  23.916  0.00  0.00    -0.171 N 
+ATOM      4  C20 T62 d           5.654  11.824  24.521  0.00  0.00     0.159 A 
+ATOM      5  C21 T62 d           5.777  13.087  25.097  0.00  0.00     0.039 A 
+ATOM      6  C22 T62 d           6.979  13.799  25.133  0.00  0.00     0.018 A 
+ATOM      7  C23 T62 d           7.006  15.067  25.731  0.00  0.00     0.001 A 
+ATOM      8  C14 T62 d           5.848  15.619  26.293  0.00  0.00     0.002 A 
+ATOM      9  C13 T62 d           4.652  14.904  26.243  0.00  0.00     0.032 A 
+ATOM     10  C12 T62 d           4.613  13.640  25.647  0.00  0.00     0.072 A 
+ATOM     11  N11 T62 d           3.445  12.936  25.609  0.00  0.00    -0.232 NA
+ATOM     12  N15 T62 d           4.489  11.176  24.497  0.00  0.00    -0.186 N 
+ATOM     13  C10 T62 d           3.380  11.712  25.025  0.00  0.00     0.135 A 
+ATOM     14  H1  T62 d           7.578  11.244  23.757  0.00  0.00     0.186 HD
+ENDROOT
+BRANCH  13  15
+ATOM     15  C9  T62 d           2.112  10.884  25.027  0.00  0.00     0.119 C 
+BRANCH  15  16
+ATOM     16  C8  T62 d           0.788  11.428  24.542  0.00  0.00    -0.046 A 
+ATOM     17  C3  T62 d           0.714  12.136  23.343  0.00  0.00     0.044 A 
+ATOM     18  C2  T62 d          -0.538  12.573  22.906  0.00  0.00     0.068 A 
+ATOM     19  C4  T62 d          -1.703  12.290  23.645  0.00  0.00     0.073 A 
+ATOM     20  C5  T62 d          -1.612  11.573  24.833  0.00  0.00     0.068 A 
+ATOM     21  C7  T62 d          -0.365  11.130  25.286  0.00  0.00     0.044 A 
+BRANCH  18  22
+ATOM     22  O1  T62 d          -0.624  13.255  21.731  0.00  0.00    -0.361 OA
+ATOM     23  H   T62 d          -1.169  12.769  21.123  0.00  0.00     0.217 HD
+ENDBRANCH  18  22
+BRANCH  20  24
+ATOM     24  O6  T62 d          -2.740  11.326  25.548  0.00  0.00    -0.361 OA
+ATOM     25  H   T62 d          -3.488  11.696  25.095  0.00  0.00     0.217 HD
+ENDBRANCH  20  24
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+BRANCH   1  26
+ATOM     26  N18 T62 d           6.416   8.886  22.916  0.00  0.00    -0.231 N 
+ATOM     27  H   T62 d           5.837   8.070  22.671  0.00  0.00     0.174 HD
+ATOM     28  H   T62 d           7.415   8.902  22.668  0.00  0.00     0.174 HD
+ENDBRANCH   1  26
+TORSDOF 5

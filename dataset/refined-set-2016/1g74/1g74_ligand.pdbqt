@@ -1,0 +1,70 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C6_8  and  C7_9 
+REMARK    7  A    between atoms: C7_9  and  C8_10 
+REMARK    8  A    between atoms: C8_10  and  C9_11 
+REMARK    9  A    between atoms: C10_12  and  C11_13 
+REMARK   10  A    between atoms: C11_13  and  C12_14 
+REMARK   11  A    between atoms: C12_14  and  C13_15 
+REMARK   12  A    between atoms: C13_15  and  C14_16 
+REMARK   13  A    between atoms: C14_16  and  C15_17 
+REMARK   14  A    between atoms: C15_17  and  C16_18 
+REMARK   15  A    between atoms: C16_18  and  C17_19 
+ROOT
+ATOM      1  C8  OLA d         -44.558  66.253  -6.403  0.00  0.00     0.027 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C7  OLA d         -45.906  66.099  -7.075  0.00  0.00     0.004 C 
+BRANCH   2   3
+ATOM      3  C6  OLA d         -45.835  65.741  -8.546  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  C5  OLA d         -45.423  66.966  -9.368  0.00  0.00     0.000 C 
+BRANCH   4   5
+ATOM      5  C4  OLA d         -46.599  67.915  -9.601  0.00  0.00     0.001 C 
+BRANCH   5   6
+ATOM      6  C3  OLA d         -47.254  67.536 -10.903  0.00  0.00     0.010 C 
+BRANCH   6   7
+ATOM      7  C2  OLA d         -48.686  67.087 -10.712  0.00  0.00     0.113 C 
+BRANCH   7   8
+ATOM      8  C1  OLA d         -49.310  66.706 -12.024  0.00  0.00     0.172 C 
+ATOM      9  O1  OLA d         -49.863  67.550 -12.724  0.00  0.00    -0.648 OA
+ATOM     10  O2  OLA d         -49.259  65.540 -12.378  0.00  0.00    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C9  OLA d         -44.862  66.650  -5.053  0.00  0.00    -0.031 C 
+ATOM     12  C10 OLA d         -44.920  67.978  -4.575  0.00  0.00    -0.031 C 
+BRANCH  12  13
+ATOM     13  C11 OLA d         -44.679  69.208  -5.324  0.00  0.00     0.027 C 
+BRANCH  13  14
+ATOM     14  C12 OLA d         -45.914  69.649  -6.068  0.00  0.00     0.004 C 
+BRANCH  14  15
+ATOM     15  C13 OLA d         -45.641  70.915  -6.834  0.00  0.00     0.000 C 
+BRANCH  15  16
+ATOM     16  C14 OLA d         -46.879  71.337  -7.605  0.00  0.00     0.000 C 
+BRANCH  16  17
+ATOM     17  C15 OLA d         -47.761  72.315  -6.827  0.00  0.00     0.000 C 
+BRANCH  17  18
+ATOM     18  C16 OLA d         -48.999  72.667  -7.646  0.00  0.00    -0.000 C 
+BRANCH  18  19
+ATOM     19  C17 OLA d         -50.006  71.517  -7.785  0.00  0.00    -0.005 C 
+ATOM     20  C18 OLA d         -51.188  71.981  -8.631  0.00  0.00     0.005 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  11
+TORSDOF 15

@@ -1,0 +1,92 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBD_3  and  OAI_4 
+REMARK    2  A    between atoms: CBF_7  and  CAV_8 
+REMARK    3  A    between atoms: CAV_8  and  CBI_9 
+REMARK    4  A    between atoms: CBI_9  and  PBK_10 
+REMARK    5  A    between atoms: CBI_9  and  NAY_14 
+REMARK       I    between atoms: NAY_14  and  C_15 
+REMARK    6  A    between atoms: C_15  and  CA_17 
+REMARK    7  A    between atoms: CA_17  and  N_18 
+REMARK    8  A    between atoms: CA_17  and  CB_30 
+REMARK       I    between atoms: N_18  and  CBB_19 
+REMARK    9  A    between atoms: CBB_19  and  CBJ_21 
+REMARK   10  A    between atoms: CBJ_21  and  CBG_22 
+REMARK   11  A    between atoms: CBJ_21  and  NAX_26 
+REMARK   12  A    between atoms: CBG_22  and  CAT_24 
+REMARK       I    between atoms: NAX_26  and  CAZ_27 
+REMARK   13  A    between atoms: CB_30  and  CG_31 
+REMARK   14  A    between atoms: CZ_34  and  OH_35 
+ROOT
+ATOM      1  CA  K26 d          27.488  12.006  11.987  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   K26 d          28.148  13.245  11.376  0.00  0.00     0.241 C 
+ATOM      3  NAY K26 d          28.278  13.255  10.041  0.00  0.00    -0.342 N 
+ATOM      4  H   K26 d          27.940  12.477   9.511  0.00  0.00     0.163 HD
+ATOM      5  O   K26 d          28.555  14.146  12.109  0.00  0.00    -0.271 OA
+BRANCH   3   6
+ATOM      6  CBI K26 d          28.907  14.385   9.340  0.00  0.00     0.219 C 
+BRANCH   6   7
+ATOM      7  CAV K26 d          30.040  13.849   8.444  0.00  0.00     0.078 C 
+BRANCH   7   8
+ATOM      8  CBF K26 d          30.950  13.081   9.195  0.00  0.00    -0.055 A 
+ATOM      9  CAR K26 d          32.099  13.660   9.745  0.00  0.00     0.010 A 
+ATOM     10  CAN K26 d          32.994  12.881  10.484  0.00  0.00     0.037 A 
+ATOM     11  CBD K26 d          32.749  11.523  10.682  0.00  0.00     0.065 A 
+ATOM     12  CAO K26 d          31.605  10.946  10.138  0.00  0.00     0.037 A 
+ATOM     13  CAS K26 d          30.717  11.722   9.396  0.00  0.00     0.010 A 
+BRANCH  11  14
+ATOM     14  OAI K26 d          33.616  10.757  11.406  0.00  0.00    -0.361 OA
+ATOM     15  H   K26 d          33.295   9.863  11.439  0.00  0.00     0.217 HD
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  16
+ATOM     16  PBK K26 d          27.614  15.273   8.360  0.00  0.00     0.283 P 
+ATOM     17  OAJ K26 d          28.374  16.058   7.393  0.00  0.00    -0.638 OA
+ATOM     18  OAK K26 d          26.775  14.214   7.802  0.00  0.00    -0.638 OA
+ATOM     19  OAG K26 d          26.947  16.089   9.387  0.00  0.00    -0.638 OA
+ENDBRANCH   6  16
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  20
+ATOM     20  N   K26 d          28.242  11.782  13.228  0.00  0.00    -0.346 N 
+ATOM     21  CBB K26 d          28.905  10.643  13.486  0.00  0.00     0.241 C 
+ATOM     22  OAF K26 d          28.914   9.659  12.749  0.00  0.00    -0.271 OA
+ATOM     23  H   K26 d          28.262  12.511  13.912  0.00  0.00     0.163 HD
+BRANCH  21  24
+ATOM     24  CBJ K26 d          29.703  10.658  14.796  0.00  0.00     0.180 C 
+BRANCH  24  25
+ATOM     25  CBG K26 d          31.204  10.638  14.466  0.00  0.00     0.013 C 
+ATOM     26  CAC K26 d          31.648  12.070  14.140  0.00  0.00     0.012 C 
+BRANCH  25  27
+ATOM     27  CAT K26 d          31.996  10.103  15.657  0.00  0.00     0.002 C 
+ATOM     28  CAA K26 d          33.472  10.152  15.233  0.00  0.00     0.005 C 
+ENDBRANCH  25  27
+ENDBRANCH  24  25
+BRANCH  24  29
+ATOM     29  NAX K26 d          29.340   9.506  15.628  0.00  0.00    -0.348 N 
+ATOM     30  CAZ K26 d          28.870   9.666  16.872  0.00  0.00     0.214 C 
+ATOM     31  CAB K26 d          28.563   8.368  17.612  0.00  0.00     0.117 C 
+ATOM     32  OAD K26 d          28.686  10.756  17.412  0.00  0.00    -0.274 OA
+ATOM     33  H   K26 d          29.445   8.582  15.259  0.00  0.00     0.163 HD
+ENDBRANCH  24  29
+ENDBRANCH  21  24
+ENDBRANCH   1  20
+BRANCH   1  34
+ATOM     34  CB  K26 d          26.023  12.293  12.253  0.00  0.00     0.073 C 
+BRANCH  34  35
+ATOM     35  CG  K26 d          25.382  11.054  12.462  0.00  0.00    -0.056 A 
+ATOM     36  CD1 K26 d          24.521  10.516  11.501  0.00  0.00     0.010 A 
+ATOM     37  CE1 K26 d          23.882   9.295  11.718  0.00  0.00     0.037 A 
+ATOM     38  CZ  K26 d          24.090   8.598  12.905  0.00  0.00     0.065 A 
+ATOM     39  CE2 K26 d          24.935   9.128  13.870  0.00  0.00     0.037 A 
+ATOM     40  CD2 K26 d          25.571  10.346  13.650  0.00  0.00     0.010 A 
+BRANCH  38  41
+ATOM     41  OH  K26 d          23.476   7.405  13.129  0.00  0.00    -0.361 OA
+ATOM     42  H   K26 d          23.730   7.074  13.982  0.00  0.00     0.217 HD
+ENDBRANCH  38  41
+ENDBRANCH  34  35
+ENDBRANCH   1  34
+TORSDOF 14

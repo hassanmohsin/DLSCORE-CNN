@@ -1,0 +1,39 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_3 
+REMARK    2  A    between atoms: C4_11  and  N1_2 
+REMARK    3  A    between atoms: C5_12  and  C4_11 
+ROOT
+ATOM      1  S1  LYG d         -41.338  -2.926  -2.607  0.00  0.00    -0.082 SA
+ATOM      2 CL1  LYG d         -45.676  -1.086   1.096  0.00  0.00    -0.084 Cl
+ATOM      3  N2  LYG d         -40.157  -2.354   1.021  0.00  0.00    -0.231 NA
+ATOM      4  O2  LYG d         -38.256  -3.608  -2.387  0.00  0.00    -0.267 OA
+ATOM      5  N3  LYG d         -38.225  -3.117  -0.174  0.00  0.00    -0.309 N 
+ATOM      6  C5  LYG d         -38.901  -2.668   0.924  0.00  0.00     0.133 A 
+ATOM      7  C6  LYG d         -40.856  -2.483  -0.179  0.00  0.00     0.093 A 
+ATOM      8  C7  LYG d         -42.242  -2.191  -0.370  0.00  0.00     0.013 A 
+ATOM      9  C8  LYG d         -43.168  -1.747   0.527  0.00  0.00     0.039 A 
+ATOM     10  C9  LYG d         -44.439  -1.593   0.004  0.00  0.00     0.035 A 
+ATOM     11  C10 LYG d         -44.833  -1.833  -1.286  0.00  0.00     0.025 A 
+ATOM     12  C11 LYG d         -43.908  -2.252  -2.209  0.00  0.00     0.021 A 
+ATOM     13  C12 LYG d         -42.666  -2.416  -1.679  0.00  0.00     0.018 A 
+ATOM     14  C13 LYG d         -40.213  -2.895  -1.307  0.00  0.00     0.103 A 
+ATOM     15  C14 LYG d         -38.843  -3.253  -1.382  0.00  0.00     0.266 A 
+ATOM     16  H8  LYG d         -37.256  -3.351  -0.091  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   6  17
+ATOM     17  C4  LYG d         -38.007  -2.505   2.084  0.00  0.00     0.313 C 
+BRANCH  17  18
+ATOM     18  N1  LYG d         -37.647  -3.583   2.995  0.00  0.00    -0.062 N 
+ATOM     19  C3  LYG d         -36.268  -3.587   3.620  0.00  0.00     0.238 C 
+ATOM     20  C2  LYG d         -36.833  -4.293   4.873  0.00  0.00     0.061 C 
+ATOM     21  C1  LYG d         -37.613  -5.447   4.208  0.00  0.00     0.145 C 
+ATOM     22  C15 LYG d         -38.190  -4.965   2.872  0.00  0.00     0.267 C 
+ATOM     23  H2  LYG d         -38.190  -3.272   3.785  0.00  0.00     0.280 HD
+BRANCH  21  24
+ATOM     24  O1  LYG d         -36.563  -6.288   3.783  0.00  0.00    -0.394 OA
+ATOM     25  H3  LYG d         -36.926  -7.051   3.349  0.00  0.00     0.210 HD
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH   6  17
+TORSDOF 3

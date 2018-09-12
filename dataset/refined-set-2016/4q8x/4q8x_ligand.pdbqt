@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  C6_6 
+ROOT
+ATOM      1  S1  MOL d          14.609   1.095  17.200  0.00  0.00    -0.058 SA
+ATOM      2  C1  MOL d          15.259   2.295  16.186  0.00  0.00     0.131 A 
+ATOM      3  C2  MOL d          14.430   3.288  15.660  0.00  0.00     0.045 A 
+ATOM      4  C3  MOL d          14.945   4.235  14.809  0.00  0.00     0.021 A 
+ATOM      5  C4  MOL d          16.261   4.195  14.463  0.00  0.00     0.066 A 
+ATOM      6  C5  MOL d          17.091   3.206  14.992  0.00  0.00     0.143 A 
+ATOM      7  N1  MOL d          16.579   2.270  15.861  0.00  0.00    -0.188 N 
+ATOM      8  O1  MOL d          17.350   1.308  16.319  0.00  0.00    -0.080 OA
+ENDROOT
+BRANCH   5   9
+ATOM      9  C6  MOL d          16.802   5.189  13.576  0.00  0.00     0.418 C 
+ATOM     10  F1  MOL d          17.188   6.248  14.279  0.00  0.00    -0.166 F 
+ATOM     11  F2  MOL d          17.846   4.683  12.927  0.00  0.00    -0.166 F 
+ATOM     12  F3  MOL d          15.871   5.554  12.700  0.00  0.00    -0.166 F 
+ENDBRANCH   5   9
+TORSDOF 1

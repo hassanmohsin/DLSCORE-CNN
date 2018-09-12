@@ -1,0 +1,35 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  N10_4 
+REMARK    2  A    between atoms: S_2  and  C4_9 
+REMARK    3  A    between atoms: N10_4  and  C11_5 
+REMARK    4  A    between atoms: C11_5  and  C12_6 
+REMARK    5  A    between atoms: C12_6  and  C13_7 
+ROOT
+ATOM      1  O1S NBB d          22.697  -2.992  -4.479  0.00  0.00    -0.201 OA
+ATOM      2  S   NBB d          21.303  -2.804  -4.785  0.00  0.00     0.258 S 
+ATOM      3  O2S NBB d          21.015  -1.460  -5.210  0.00  0.00    -0.201 OA
+ENDROOT
+BRANCH   2   4
+ATOM      4  N10 NBB d          20.406  -3.111  -3.498  0.00  0.00    -0.315 N 
+ATOM      5  H1  NBB d          20.749  -3.729  -2.791  0.00  0.00     0.172 HD
+BRANCH   4   6
+ATOM      6  C11 NBB d          19.104  -2.503  -3.347  0.00  0.00     0.132 C 
+BRANCH   6   7
+ATOM      7  C12 NBB d          17.990  -3.528  -3.406  0.00  0.00     0.020 C 
+BRANCH   7   8
+ATOM      8  C13 NBB d          16.674  -2.921  -2.934  0.00  0.00    -0.003 C 
+ATOM      9  C14 NBB d          16.186  -3.621  -1.684  0.00  0.00     0.005 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   2   4
+BRANCH   2  10
+ATOM     10  C4  NBB d          20.972  -3.859  -5.938  0.00  0.00     0.079 A 
+ATOM     11  C5  NBB d          20.986  -3.472  -7.280  0.00  0.00     0.025 A 
+ATOM     12  C6  NBB d          20.721  -4.387  -8.295  0.00  0.00     0.002 A 
+ATOM     13  C1  NBB d          20.438  -5.709  -7.965  0.00  0.00     0.000 A 
+ATOM     14  C2  NBB d          20.434  -6.099  -6.630  0.00  0.00     0.002 A 
+ATOM     15  C3  NBB d          20.706  -5.183  -5.618  0.00  0.00     0.025 A 
+ENDBRANCH   2  10
+TORSDOF 5

@@ -1,0 +1,53 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK       I    between atoms: NAQ_18  and  CAT_20 
+REMARK    3  A    between atoms: SBB_27  and  NAQ_18 
+REMARK    4  A    between atoms: CAV_22  and  OAR_19 
+REMARK    5  A    between atoms: CAT_20  and  CAX_24 
+REMARK    6  A    between atoms: CAW_23  and  SBB_27 
+ROOT
+ATOM      1  N   FG3 d          16.093  10.350  -1.467  0.00  0.00    -0.332 N 
+ATOM      2  CAJ FG3 d          14.580  10.023  -4.814  0.00  0.00     0.039 A 
+ATOM      3  CAK FG3 d          15.591  10.065  -3.855  0.00  0.00     0.033 A 
+ATOM      4  CAM FG3 d          12.995  10.472  -3.066  0.00  0.00     0.050 A 
+ATOM      5  CAN FG3 d          14.045  10.677  -0.817  0.00  0.00     0.049 A 
+ATOM      6  CAV FG3 d          13.257  10.210  -4.436  0.00  0.00     0.069 A 
+ATOM      7  CAX FG3 d          15.317  10.575  -0.396  0.00  0.00     0.105 A 
+ATOM      8  CAY FG3 d          14.012  10.479  -2.158  0.00  0.00    -0.004 A 
+ATOM      9  CAZ FG3 d          15.289  10.273  -2.548  0.00  0.00     0.046 A 
+ENDROOT
+BRANCH   7  10
+ATOM     10  CAT FG3 d          15.747  10.711   0.889  0.00  0.00     0.281 C 
+ATOM     11  OAD FG3 d          16.950  10.794   1.198  0.00  0.00    -0.265 OA
+ATOM     12  NAQ FG3 d          14.775  10.706   1.803  0.00  0.00    -0.243 N 
+ATOM     13  H16 FG3 d          13.823  10.593   1.518  0.00  0.00     0.182 HD
+BRANCH  12  14
+ATOM     14  SBB FG3 d          15.142  10.886   3.406  0.00  0.00     0.283 S 
+ATOM     15  OAE FG3 d          13.987  10.283   4.213  0.00  0.00    -0.199 OA
+ATOM     16  OAF FG3 d          15.361  12.371   3.700  0.00  0.00    -0.199 OA
+BRANCH  14  17
+ATOM     17  CAW FG3 d          16.593   9.956   3.843  0.00  0.00     0.171 A 
+ATOM     18  CAI FG3 d          17.706  10.618   4.376  0.00  0.00     0.046 A 
+ATOM     19  CAH FG3 d          18.846   9.875   4.698  0.00  0.00     0.011 A 
+ATOM     20  CAU FG3 d          18.848   8.481   4.516  0.00  0.00    -0.044 A 
+ATOM     21  CAB FG3 d          19.985   7.709   4.847  0.00  0.00     0.049 C 
+ATOM     22  CAL FG3 d          17.716   7.843   3.989  0.00  0.00     0.124 A 
+ATOM     23  NAP FG3 d          16.595   8.613   3.653  0.00  0.00    -0.247 NA
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+ENDBRANCH   7  10
+BRANCH   1  24
+ATOM     24  CA  FG3 d          17.569  10.071  -1.613  0.00  0.00     0.242 C 
+BRANCH  24  25
+ATOM     25  C   FG3 d          18.620  11.052  -1.157  0.00  0.00     0.191 C 
+ATOM     26  O   FG3 d          18.298  12.238  -0.952  0.00  0.00    -0.647 OA
+ATOM     27  OXT FG3 d          19.774  10.563  -1.080  0.00  0.00    -0.647 OA
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+BRANCH   6  28
+ATOM     28  OAR FG3 d          12.318  10.184  -5.446  0.00  0.00    -0.356 OA
+ATOM     29  CAA FG3 d          11.054   9.608  -5.128  0.00  0.00     0.210 C 
+ENDBRANCH   6  28
+TORSDOF 6

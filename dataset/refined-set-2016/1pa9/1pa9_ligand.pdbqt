@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_2  and  S1_1 
+REMARK    2  A    between atoms: C1_12  and  O4_2 
+REMARK    3  A    between atoms: C2_14  and  O7_6 
+REMARK    4  A    between atoms: C5_15  and  N1_10 
+ROOT
+ATOM      1  C6  CSN d           3.698 -11.068  72.586  0.00  0.00     0.077 A 
+ATOM      2  C3  CSN d           1.622 -10.691  74.655  0.00  0.00     0.042 A 
+ATOM      3  C1  CSN d           3.510  -9.734  73.249  0.00  0.00     0.127 A 
+ATOM      4  C4  CSN d           1.789 -11.993  74.024  0.00  0.00     0.039 A 
+ATOM      5  C2  CSN d           2.461  -9.569  74.284  0.00  0.00     0.100 A 
+ATOM      6  C5  CSN d           2.827 -12.210  72.978  0.00  0.00     0.105 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O4  CSN d           4.371  -8.845  72.766  0.00  0.00    -0.211 OA
+BRANCH   7   8
+ATOM      8  S1  CSN d           5.819  -8.576  73.604  0.00  0.00     0.257 S 
+ATOM      9  O3  CSN d           5.489  -8.131  74.911  0.00  0.00    -0.572 OA
+ATOM     10  O2  CSN d           6.519  -7.568  72.833  0.00  0.00    -0.572 OA
+ATOM     11  O1  CSN d           6.566  -9.805  73.682  0.00  0.00    -0.572 OA
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   5  12
+ATOM     12  O7  CSN d           2.445  -8.333  74.744  0.00  0.00    -0.358 OA
+ATOM     13  H1  CSN d           3.117  -7.824  74.306  0.00  0.00     0.217 HD
+ENDBRANCH   5  12
+BRANCH   6  14
+ATOM     14  N1  CSN d           2.963 -13.521  72.365  0.00  0.00    -0.116 N 
+ATOM     15  O6  CSN d           2.226 -14.492  72.686  0.00  0.00    -0.532 OA
+ATOM     16  O5  CSN d           3.823 -13.690  71.505  0.00  0.00    -0.532 OA
+ENDBRANCH   6  14
+TORSDOF 4

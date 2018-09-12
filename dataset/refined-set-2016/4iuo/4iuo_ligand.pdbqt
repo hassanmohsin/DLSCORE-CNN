@@ -1,0 +1,37 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C1_1  and  C7_13 
+REMARK    3  A    between atoms: C3_5  and  O2_4 
+REMARK    4  A    between atoms: C4_7  and  O3_6 
+REMARK    5  A    between atoms: C5_9  and  O4_8 
+ROOT
+ATOM      1  C1  QIC d           2.161  -0.438   0.385  0.00  0.00     0.150 C 
+ATOM      2  C2  QIC d           3.497   0.045   0.922  0.00  0.00     0.083 C 
+ATOM      3  C3  QIC d           3.456   0.236   2.432  0.00  0.00     0.152 C 
+ATOM      4  C4  QIC d           3.072  -1.051   3.144  0.00  0.00     0.175 C 
+ATOM      5  C5  QIC d           1.737  -1.568   2.624  0.00  0.00     0.152 C 
+ATOM      6  C6  QIC d           1.779  -1.741   1.094  0.00  0.00     0.083 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O1  QIC d           1.158   0.574   0.596  0.00  0.00    -0.379 OA
+ATOM      8  H1  QIC d           1.079   0.751   1.526  0.00  0.00     0.211 HD
+ENDBRANCH   1   7
+BRANCH   1   9
+ATOM      9  C7  QIC d           2.297  -0.654  -1.110  0.00  0.00     0.209 C 
+ATOM     10  O5  QIC d           1.851   0.238  -1.866  0.00  0.00    -0.646 OA
+ATOM     11  O6  QIC d           2.851  -1.705  -1.547  0.00  0.00    -0.646 OA
+ENDBRANCH   1   9
+BRANCH   3  12
+ATOM     12  O2  QIC d           2.519   1.268   2.763  0.00  0.00    -0.393 OA
+ATOM     13  H4  QIC d           1.655   1.022   2.453  0.00  0.00     0.210 HD
+ENDBRANCH   3  12
+BRANCH   5  14
+ATOM     14  O4  QIC d           1.421  -2.799   3.289  0.00  0.00    -0.393 OA
+ATOM     15  H8  QIC d           1.363  -2.646   4.225  0.00  0.00     0.210 HD
+ENDBRANCH   5  14
+BRANCH   4  16
+ATOM     16  O3  QIC d           3.015  -0.798   4.550  0.00  0.00    -0.390 OA
+ATOM     17  H6  QIC d           2.366  -0.127   4.724  0.00  0.00     0.210 HD
+ENDBRANCH   4  16
+TORSDOF 5

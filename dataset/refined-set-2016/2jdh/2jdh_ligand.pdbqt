@@ -1,0 +1,80 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_21  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: NT_29  and  C1_11 
+REMARK    6  A    between atoms: C2_12  and  N2_19 
+REMARK    7  A    between atoms: C3_13  and  O3_20 
+REMARK    8  A    between atoms: C4_14  and  O4_21 
+REMARK    9  A    between atoms: C5_15  and  C6_16 
+REMARK   10  A    between atoms: C6_16  and  O6_23 
+REMARK       I    between atoms: N2_19  and  C7_17 
+REMARK   11  A    between atoms: CA_26  and  CB_27 
+REMARK   12  A    between atoms: CB_27  and  OG_28 
+ROOT
+ATOM      1  C1  FUC d          40.867   7.418  -7.353  0.00  0.00     0.267 C 
+ATOM      2  C2  FUC d          41.291   5.973  -7.243  0.00  0.00     0.166 C 
+ATOM      3  C3  FUC d          40.152   5.136  -6.646  0.00  0.00     0.176 C 
+ATOM      4  C4  FUC d          39.752   5.773  -5.313  0.00  0.00     0.186 C 
+ATOM      5  C5  FUC d          39.344   7.225  -5.527  0.00  0.00     0.179 C 
+ATOM      6  O5  FUC d          40.479   7.952  -6.089  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  O4  FUC d          38.568   5.113  -4.833  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C1  FUC d          38.745   4.486  -3.556  0.00  0.00     0.292 C 
+ATOM      9  C2  FUC d          37.410   4.279  -2.899  0.00  0.00     0.204 C 
+ATOM     10  C3  FUC d          36.628   3.276  -3.690  0.00  0.00     0.183 C 
+ATOM     11  C4  FUC d          37.366   1.966  -3.895  0.00  0.00     0.178 C 
+ATOM     12  C5  FUC d          38.736   2.288  -4.498  0.00  0.00     0.152 C 
+ATOM     13  C6  FUC d          39.611   1.042  -4.651  0.00  0.00     0.042 C 
+ATOM     14  O5  FUC d          39.471   3.230  -3.694  0.00  0.00    -0.351 OA
+BRANCH   9  15
+ATOM     15  O2  FUC d          36.629   5.488  -2.786  0.00  0.00    -0.388 OA
+ATOM     16  H9  FUC d          35.810   5.295  -2.344  0.00  0.00     0.210 HD
+ENDBRANCH   9  15
+BRANCH  10  17
+ATOM     17  O3  FUC d          35.391   2.992  -2.961  0.00  0.00    -0.390 OA
+ATOM     18  H10 FUC d          35.602   2.600  -2.122  0.00  0.00     0.210 HD
+ENDBRANCH  10  17
+BRANCH  11  19
+ATOM     19  O4  FUC d          37.495   1.361  -2.584  0.00  0.00    -0.390 OA
+ATOM     20  H11 FUC d          36.631   1.173  -2.237  0.00  0.00     0.210 HD
+ENDBRANCH  11  19
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  21
+ATOM     21  O3  FUC d          40.716   3.830  -6.418  0.00  0.00    -0.391 OA
+ATOM     22  H23 FUC d          40.072   3.279  -5.988  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   5  23
+ATOM     23  C6  FUC d          38.925   7.946  -4.286  0.00  0.00     0.198 C 
+BRANCH  23  24
+ATOM     24  O6  FUC d          39.834   7.769  -3.316  0.00  0.00    -0.398 OA
+ATOM     25  H24 FUC d          40.673   8.108  -3.604  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH   5  23
+BRANCH   2  26
+ATOM     26  N2  FUC d          41.619   5.462  -8.570  0.00  0.00    -0.350 N 
+ATOM     27  C7  FUC d          42.885   5.184  -8.921  0.00  0.00     0.214 C 
+ATOM     28  C8  FUC d          43.089   4.777 -10.364  0.00  0.00     0.117 C 
+ATOM     29  O7  FUC d          43.853   5.220  -8.128  0.00  0.00    -0.274 OA
+ATOM     30  H22 FUC d          40.885   5.316  -9.233  0.00  0.00     0.163 HD
+ENDBRANCH   2  26
+BRANCH   1  31
+ATOM     31  NT  FUC d          41.847   8.205  -7.805  0.00  0.00    -0.252 N 
+ATOM     32  C   FUC d          42.989   8.476  -7.128  0.00  0.00     0.141 A 
+ATOM     33  CA  FUC d          43.744   9.409  -7.849  0.00  0.00     0.092 A 
+ATOM     34  N   FUC d          43.038   9.696  -8.959  0.00  0.00    -0.161 NA
+ATOM     35  N2  FUC d          41.827   8.962  -8.983  0.00  0.00     0.007 NA
+BRANCH  33  36
+ATOM     36  CB  FUC d          45.089   9.960  -7.399  0.00  0.00     0.226 C 
+BRANCH  36  37
+ATOM     37  OG  FUC d          45.811  10.306  -8.582  0.00  0.00    -0.395 OA
+ATOM     38  H27 FUC d          46.661  10.656  -8.342  0.00  0.00     0.209 HD
+ENDBRANCH  36  37
+ENDBRANCH  33  36
+ENDBRANCH   1  31
+TORSDOF 12

@@ -1,0 +1,40 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C11_13 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C7_7  and  C8_8 
+ROOT
+ATOM      1  C11 TTB d          43.837  21.464 100.048  0.00  0.00    -0.030 A 
+ATOM      2  C12 TTB d          44.881  22.415 100.150  0.00  0.00     0.012 A 
+ATOM      3  C13 TTB d          46.059  22.266  99.406  0.00  0.00     0.009 A 
+ATOM      4  C14 TTB d          46.272  21.157  98.523  0.00  0.00    -0.043 A 
+ATOM      5  C15 TTB d          45.218  20.171  98.402  0.00  0.00    -0.042 A 
+ATOM      6  C16 TTB d          44.031  20.357  99.175  0.00  0.00     0.020 A 
+ATOM      7  C17 TTB d          45.351  18.928  97.477  0.00  0.00    -0.020 C 
+ATOM      8  C18 TTB d          44.791  17.685  98.207  0.00  0.00     0.020 C 
+ATOM      9  C19 TTB d          44.555  19.097  96.159  0.00  0.00     0.020 C 
+ATOM     10  C20 TTB d          46.835  18.634  97.103  0.00  0.00     0.015 C 
+ATOM     11  C21 TTB d          47.634  19.893  96.689  0.00  0.00     0.015 C 
+ATOM     12  C22 TTB d          47.610  21.059  97.734  0.00  0.00    -0.020 C 
+ATOM     13  C23 TTB d          47.883  22.381  96.976  0.00  0.00     0.020 C 
+ATOM     14  C24 TTB d          48.772  20.813  98.717  0.00  0.00     0.020 C 
+ENDROOT
+BRANCH   1  15
+ATOM     15  C2  TTB d          42.558  21.617 100.835  0.00  0.00    -0.051 C 
+ATOM     16  C   TTB d          41.900  20.310 101.310  0.00  0.00     0.049 C 
+ATOM     17  C3  TTB d          42.098  22.905 101.041  0.00  0.00     0.019 C 
+BRANCH  17  18
+ATOM     18  C4  TTB d          40.898  23.466 101.740  0.00  0.00    -0.036 A 
+ATOM     19  C5  TTB d          40.481  24.789 101.378  0.00  0.00     0.012 A 
+ATOM     20  C6  TTB d          39.357  25.400 101.978  0.00  0.00     0.019 A 
+ATOM     21  C7  TTB d          38.592  24.708 102.964  0.00  0.00     0.040 A 
+ATOM     22  C9  TTB d          39.006  23.398 103.335  0.00  0.00     0.019 A 
+ATOM     23  C10 TTB d          40.136  22.791 102.730  0.00  0.00     0.012 A 
+BRANCH  21  24
+ATOM     24  C8  TTB d          37.389  25.338 103.595  0.00  0.00     0.209 C 
+ATOM     25  O   TTB d          37.046  26.475 103.251  0.00  0.00    -0.644 OA
+ATOM     26  O1  TTB d          36.750  24.707 104.446  0.00  0.00    -0.644 OA
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH   1  15
+TORSDOF 3

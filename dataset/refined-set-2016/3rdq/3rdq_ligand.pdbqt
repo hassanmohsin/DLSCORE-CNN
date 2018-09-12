@@ -1,0 +1,40 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CR_4  and  CE_8 
+REMARK    2  A    between atoms: CE_8  and  CD_9 
+REMARK    3  A    between atoms: CD_9  and  CG_10 
+REMARK    4  A    between atoms: CG_10  and  CB_11 
+REMARK    5  A    between atoms: CB_11  and  CA_12 
+REMARK    6  A    between atoms: CA_12  and  C_13 
+ROOT
+ATOM      1  CN  DTB d          15.489  28.878  -8.545  0.00  0.00     0.248 C 
+ATOM      2  O   DTB d          14.231  29.107  -8.263  0.00  0.00    -0.152 OA
+ATOM      3  N2  DTB d          15.920  28.342  -9.628  0.00  0.00    -0.348 N 
+ATOM      4  CR  DTB d          17.393  28.473  -9.730  0.00  0.00     0.107 C 
+ATOM      5  CS  DTB d          17.761  28.946  -8.301  0.00  0.00     0.103 C 
+ATOM      6  N1  DTB d          16.459  29.248  -7.717  0.00  0.00    -0.348 N 
+ATOM      7  CT  DTB d          18.475  27.890  -7.480  0.00  0.00     0.034 C 
+ATOM      8  H1  DTB d          15.341  27.896 -10.311  0.00  0.00     0.163 HD
+ATOM      9  H4  DTB d          16.317  29.672  -6.823  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   4  10
+ATOM     10  CE  DTB d          17.933  27.107 -10.158  0.00  0.00     0.027 C 
+BRANCH  10  11
+ATOM     11  CD  DTB d          17.557  26.789 -11.612  0.00  0.00     0.002 C 
+BRANCH  11  12
+ATOM     12  CG  DTB d          18.329  25.581 -12.159  0.00  0.00     0.001 C 
+BRANCH  12  13
+ATOM     13  CB  DTB d          17.602  25.007 -13.387  0.00  0.00     0.010 C 
+BRANCH  13  14
+ATOM     14  CA  DTB d          18.439  23.893 -14.062  0.00  0.00     0.113 C 
+BRANCH  14  15
+ATOM     15  C   DTB d          19.753  24.410 -14.620  0.00  0.00     0.172 C 
+ATOM     16  OI1 DTB d          20.820  23.792 -14.399  0.00  0.00    -0.648 OA
+ATOM     17  OI2 DTB d          19.737  25.441 -15.361  0.00  0.00    -0.648 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+TORSDOF 6

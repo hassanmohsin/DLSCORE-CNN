@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_7 
+REMARK    4  A    between atoms: CB_5  and  OG_6 
+REMARK    5  A    between atoms: CA_8  and  C_9 
+ROOT
+ATOM      1  C   SER d          47.899  17.417  13.023  0.00  0.00     0.253 C 
+ATOM      2  O   SER d          48.228  18.389  12.338  0.00  0.00    -0.271 OA
+ATOM      3  N   SER d          48.597  17.021  14.108  0.00  0.00    -0.336 N 
+ATOM      4  CA  SER d          48.344  15.899  15.010  0.00  0.00     0.188 C 
+ATOM      5  CB  SER d          49.703  15.679  15.662  0.00  0.00     0.038 C 
+ATOM      6  CG  SER d          50.315  17.062  15.730  0.00  0.00     0.022 C 
+ATOM      7  CD  SER d          49.797  17.783  14.506  0.00  0.00     0.127 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA  SER d          46.678  16.590  12.617  0.00  0.00     0.298 C 
+BRANCH   8   9
+ATOM      9  N   SER d          45.637  17.502  12.058  0.00  0.00    -0.064 N 
+ATOM     10  H1  SER d          44.829  16.964  11.788  0.00  0.00     0.275 HD
+ATOM     11  H2  SER d          46.007  17.980  11.251  0.00  0.00     0.275 HD
+ATOM     12  H3  SER d          45.372  18.178  12.757  0.00  0.00     0.275 HD
+ENDBRANCH   8   9
+BRANCH   8  13
+ATOM     13  CB  SER d          47.120  15.567  11.566  0.00  0.00     0.206 C 
+BRANCH  13  14
+ATOM     14  OG  SER d          46.062  14.682  11.247  0.00  0.00    -0.398 OA
+ATOM     15  H7  SER d          46.358  14.058  10.595  0.00  0.00     0.209 HD
+ENDBRANCH  13  14
+ENDBRANCH   8  13
+ENDBRANCH   1   8
+BRANCH   4  16
+ATOM     16  C   SER d          47.307  16.238  16.079  0.00  0.00     0.196 C 
+ATOM     17  O   SER d          46.780  17.354  16.156  0.00  0.00    -0.646 OA
+ATOM     18  OXT SER d          46.990  15.380  16.918  0.00  0.00    -0.646 OA
+ENDBRANCH   4  16
+TORSDOF 5

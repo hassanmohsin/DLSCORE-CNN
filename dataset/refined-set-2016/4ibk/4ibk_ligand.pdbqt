@@ -1,0 +1,58 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBB_10  and  CBG_11 
+REMARK    2  A    between atoms: CAX_12  and  CAU_13 
+REMARK    3  A    between atoms: CAU_13  and  CBE_15 
+REMARK    4  A    between atoms: CAV_21  and  OAE_22 
+REMARK    5  A    between atoms: NBH_25  and  CBC_26 
+REMARK    6  A    between atoms: CBA_31  and  CAT_32 
+ROOT
+ATOM      1  CBG 1DE d           2.238  21.308   0.699  0.00  0.00     0.166 A 
+ATOM      2  CAX 1DE d           3.276  20.568   1.245  0.00  0.00     0.059 A 
+ATOM      3  CAV 1DE d           3.002  19.217   0.994  0.00  0.00     0.133 A 
+ATOM      4  CAW 1DE d           1.827  19.184   0.263  0.00  0.00     0.216 A 
+ATOM      5  OAC 1DE d           1.182  18.067  -0.218  0.00  0.00    -0.169 OA
+ATOM      6  NBH 1DE d           1.425  20.444   0.076  0.00  0.00    -0.309 N 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CBB 1DE d           1.666  22.310   1.640  0.00  0.00    -0.026 A 
+ATOM      8  CAO 1DE d           1.008  21.802   2.748  0.00  0.00     0.049 A 
+ATOM      9  CBD 1DE d           0.438  22.664   3.702  0.00  0.00     0.107 A 
+ATOM     10  OAQ 1DE d          -0.256  22.435   4.879  0.00  0.00    -0.323 OA
+ATOM     11  CBF 1DE d           0.560  24.013   3.536  0.00  0.00     0.126 A 
+ATOM     12  CAP 1DE d          -0.595  23.673   5.421  0.00  0.00     0.352 A 
+ATOM     13  OAR 1DE d          -0.059  24.666   4.592  0.00  0.00    -0.321 OA
+ATOM     14  CAZ 1DE d           1.232  24.520   2.426  0.00  0.00     0.070 A 
+ATOM     15 CL2  1DE d           1.309  26.243   2.328  0.00  0.00    -0.081 Cl
+ATOM     16  CAM 1DE d           1.797  23.686   1.467  0.00  0.00     0.036 A 
+ENDBRANCH   1   7
+BRANCH   2  17
+ATOM     17  CAU 1DE d           4.519  21.205   1.758  0.00  0.00     0.200 C 
+ATOM     18  OAB 1DE d           4.848  22.301   1.326  0.00  0.00    -0.286 OA
+BRANCH  17  19
+ATOM     19  CBE 1DE d           5.411  20.563   2.754  0.00  0.00     0.057 A 
+ATOM     20  CAL 1DE d           5.169  19.467   3.601  0.00  0.00     0.025 A 
+ATOM     21  CAK 1DE d           6.288  19.126   4.429  0.00  0.00     0.033 A 
+ATOM     22  CAY 1DE d           7.391  19.970   4.225  0.00  0.00     0.075 A 
+ATOM     23 CL1  1DE d           8.922  19.929   4.996  0.00  0.00    -0.076 Cl
+ATOM     24  SAS 1DE d           6.969  21.100   3.059  0.00  0.00    -0.074 SA
+ENDBRANCH  17  19
+ENDBRANCH   2  17
+BRANCH   6  25
+ATOM     25  CBC 1DE d           0.333  20.807  -0.760  0.00  0.00     0.038 A 
+ATOM     26  CAN 1DE d          -0.906  20.257  -0.483  0.00  0.00     0.048 A 
+ATOM     27  CBA 1DE d          -1.997  20.573  -1.264  0.00  0.00     0.043 A 
+ATOM     28  CAI 1DE d          -1.836  21.451  -2.324  0.00  0.00     0.018 A 
+ATOM     29  CAH 1DE d          -0.590  22.006  -2.603  0.00  0.00     0.003 A 
+ATOM     30  CAJ 1DE d           0.504  21.689  -1.821  0.00  0.00     0.030 A 
+BRANCH  27  31
+ATOM     31  CAT 1DE d          -3.326  19.969  -0.949  0.00  0.00     0.209 C 
+ATOM     32  OAD 1DE d          -4.329  20.248  -1.653  0.00  0.00    -0.644 OA
+ATOM     33  OAA 1DE d          -3.451  19.175   0.019  0.00  0.00    -0.644 OA
+ENDBRANCH  27  31
+ENDBRANCH   6  25
+BRANCH   3  34
+ATOM     34  OAE 1DE d           3.743  18.129   1.379  0.00  0.00    -0.356 OA
+ATOM     35  H8  1DE d           3.321  17.335   1.072  0.00  0.00     0.218 HD
+ENDBRANCH   3  34
+TORSDOF 6

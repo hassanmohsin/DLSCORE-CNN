@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_5  and  S11_6 
+REMARK    2  A    between atoms: S11_6  and  C12_7 
+REMARK    3  A    between atoms: C12_7  and  C13_8 
+REMARK    4  A    between atoms: C5_14  and  S1_15 
+REMARK    5  A    between atoms: S1_15  and  N2_18 
+ROOT
+ATOM      1  F18 MOL d          14.905   7.426  15.238  0.00  0.00    -0.201 F 
+ATOM      2  C7  MOL d          15.429   6.197  15.037  0.00  0.00     0.176 A 
+ATOM      3  C6  MOL d          15.101   5.184  15.873  0.00  0.00     0.182 A 
+ATOM      4  F17 MOL d          14.280   5.502  16.935  0.00  0.00    -0.201 F 
+ATOM      5  C8  MOL d          16.209   5.985  13.961  0.00  0.00     0.084 A 
+ATOM      6  C9  MOL d          16.708   4.693  13.816  0.00  0.00     0.176 A 
+ATOM      7  F15 MOL d          17.483   4.388  12.796  0.00  0.00    -0.201 F 
+ATOM      8  C10 MOL d          16.371   3.664  14.709  0.00  0.00     0.182 A 
+ATOM      9  F16 MOL d          16.891   2.477  14.441  0.00  0.00    -0.201 F 
+ATOM     10  C5  MOL d          15.561   3.927  15.769  0.00  0.00     0.162 A 
+ENDROOT
+BRANCH  10  11
+ATOM     11  S1  MOL d          15.095   2.660  16.892  0.00  0.00     0.263 S 
+ATOM     12  O3  MOL d          13.666   2.727  16.820  0.00  0.00    -0.201 OA
+ATOM     13  O4  MOL d          15.744   2.968  18.133  0.00  0.00    -0.201 OA
+BRANCH  11  14
+ATOM     14  N2  MOL d          15.583   1.303  16.323  0.00  0.00    -0.324 N 
+ATOM     15  H8  MOL d          15.408   0.458  16.828  0.00  0.00     0.169 HD
+ATOM     16  H9  MOL d          16.072   1.273  15.451  0.00  0.00     0.169 HD
+ENDBRANCH  11  14
+ENDBRANCH  10  11
+BRANCH   5  17
+ATOM     17  S11 MOL d          16.540   7.280  12.820  0.00  0.00    -0.124 SA
+BRANCH  17  18
+ATOM     18  C12 MOL d          18.310   7.273  12.663  0.00  0.00     0.079 C 
+BRANCH  18  19
+ATOM     19  C13 MOL d          18.959   7.528  13.937  0.00  0.00     0.006 C 
+ATOM     20  C14 MOL d          18.834   8.893  14.485  0.00  0.00     0.006 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   5  17
+TORSDOF 5

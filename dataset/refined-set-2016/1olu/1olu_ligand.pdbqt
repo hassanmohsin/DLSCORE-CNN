@@ -1,0 +1,60 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_5  and  N4_6 
+REMARK    2  A    between atoms: C5_7  and  C35_9 
+REMARK    3  A    between atoms: C35_9  and  N3_10 
+REMARK    4  A    between atoms: C5_13  and  C5A_16 
+REMARK    5  A    between atoms: C5A_16  and  C5B_17 
+REMARK    6  A    between atoms: C5B_17  and  O5G_18 
+REMARK    7  A    between atoms: O5G_18  and  P1_19 
+REMARK    8  A    between atoms: P1_19  and  O11_20 
+REMARK    9  A    between atoms: O11_20  and  P2_23 
+ROOT
+ATOM      1  N3  TDP d          75.767   1.770   7.113  0.00  0.00    -0.349 N 
+ATOM      2  C2  TDP d          75.730   3.024   6.520  0.00  0.00     0.141 A 
+ATOM      3  S1  TDP d          74.075   3.424   6.028  0.00  0.00    -0.087 SA
+ATOM      4  C5  TDP d          73.492   1.883   6.638  0.00  0.00     0.008 A 
+ATOM      5  C4  TDP d          74.446   1.063   7.188  0.00  0.00     0.021 A 
+ATOM      6  C4A TDP d          74.267  -0.348   7.796  0.00  0.00     0.069 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C35 TDP d          77.006   1.198   7.633  0.00  0.00     0.172 C 
+BRANCH   7   8
+ATOM      8  C5  TDP d          77.131   1.389   9.157  0.00  0.00     0.023 A 
+ATOM      9  C4  TDP d          77.435   2.670   9.775  0.00  0.00     0.132 A 
+ATOM     10  N3  TDP d          77.560   2.844  11.151  0.00  0.00    -0.216 NA
+ATOM     11  C2  TDP d          77.380   1.771  11.927  0.00  0.00     0.124 A 
+ATOM     12  N1  TDP d          77.079   0.531  11.428  0.00  0.00    -0.245 NA
+ATOM     13  C2A TDP d          77.503   1.896  13.460  0.00  0.00     0.093 C 
+ATOM     14  C6  TDP d          76.959   0.333  10.086  0.00  0.00     0.131 A 
+BRANCH   9  15
+ATOM     15  N4  TDP d          77.624   3.833   9.013  0.00  0.00    -0.383 N 
+ATOM     16  H4  TDP d          77.549   3.794   7.987  0.00  0.00     0.157 HD
+ATOM     17  H5  TDP d          77.837   4.726   9.480  0.00  0.00     0.157 HD
+ENDBRANCH   9  15
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   4  18
+ATOM     18  C5A TDP d          72.000   1.718   6.475  0.00  0.00     0.075 C 
+BRANCH  18  19
+ATOM     19  C5B TDP d          71.253   2.775   7.340  0.00  0.00     0.186 C 
+BRANCH  19  20
+ATOM     20  O5G TDP d          69.850   2.493   7.295  0.00  0.00    -0.289 OA
+BRANCH  20  21
+ATOM     21  P1  TDP d          68.830   3.582   7.737  0.00  0.00     0.418 P 
+ATOM     22  O12 TDP d          69.191   4.070   9.115  0.00  0.00    -0.624 OA
+ATOM     23  O13 TDP d          67.492   2.938   7.729  0.00  0.00    -0.624 OA
+BRANCH  21  24
+ATOM     24  O11 TDP d          68.840   4.780   6.713  0.00  0.00    -0.173 OA
+BRANCH  24  25
+ATOM     25  P2  TDP d          68.551   4.938   5.132  0.00  0.00     0.431 P 
+ATOM     26  O21 TDP d          67.973   6.353   4.975  0.00  0.00    -0.616 OA
+ATOM     27  O22 TDP d          69.915   4.807   4.500  0.00  0.00    -0.616 OA
+ATOM     28  O23 TDP d          67.590   3.937   4.630  0.00  0.00    -0.616 OA
+ENDBRANCH  24  25
+ENDBRANCH  21  24
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+TORSDOF 9

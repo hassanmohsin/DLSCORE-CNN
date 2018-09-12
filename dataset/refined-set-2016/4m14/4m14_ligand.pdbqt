@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C13_13 
+REMARK    2  A    between atoms: C3_3  and  C10_10 
+REMARK    3  A    between atoms: C4_4  and  N6_6 
+REMARK       I    between atoms: N6_6  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N8_8 
+REMARK       I    between atoms: C10_10  and  N11_11 
+REMARK    4  A    between atoms: C21_21  and  O23_23 
+REMARK    5  A    between atoms: O23_23  and  C24_24 
+ROOT
+ATOM      1  N1  QWS d           7.407   4.351  24.100  0.00  0.00    -0.241 N 
+ATOM      2  N2  QWS d           7.876   4.765  22.906  0.00  0.00    -0.160 NA
+ATOM      3  C3  QWS d           6.790   5.122  22.207  0.00  0.00     0.172 A 
+ATOM      4  C4  QWS d           5.605   4.924  22.958  0.00  0.00     0.090 A 
+ATOM      5  C5  QWS d           6.039   4.413  24.163  0.00  0.00     0.151 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C13 QWS d           8.246   3.877  25.132  0.00  0.00     0.069 A 
+ATOM      7  C14 QWS d           7.797   2.776  25.836  0.00  0.00     0.032 A 
+ATOM      8  C15 QWS d           8.544   2.259  26.874  0.00  0.00     0.003 A 
+ATOM      9  C16 QWS d           9.733   2.864  27.228  0.00  0.00     0.012 A 
+ATOM     10  C18 QWS d          10.181   3.969  26.534  0.00  0.00    -0.024 A 
+ATOM     11  C17 QWS d           9.450   4.486  25.467  0.00  0.00     0.005 A 
+ATOM     12  C19 QWS d          11.383   4.533  26.905  0.00  0.00     0.015 A 
+ATOM     13  C22 QWS d           9.955   5.582  24.788  0.00  0.00     0.051 A 
+ATOM     14  C21 QWS d          11.156   6.162  25.174  0.00  0.00     0.070 A 
+ATOM     15  C20 QWS d          11.865   5.638  26.235  0.00  0.00     0.037 A 
+BRANCH  14  16
+ATOM     16  O23 QWS d          11.718   7.300  24.600  0.00  0.00    -0.347 OA
+BRANCH  16  17
+ATOM     17  C24 QWS d          11.182   7.666  23.328  0.00  0.00     0.120 C 
+ATOM     18  C25 QWS d          10.148   8.754  23.526  0.00  0.00     0.040 C 
+ATOM     19  C26 QWS d          12.333   8.261  22.550  0.00  0.00     0.040 C 
+ENDBRANCH  16  17
+ENDBRANCH  14  16
+ENDBRANCH   1   6
+BRANCH   3  20
+ATOM     20  C10 QWS d           6.896   5.629  20.862  0.00  0.00     0.272 C 
+ATOM     21  N11 QWS d           8.166   5.548  20.340  0.00  0.00    -0.365 N 
+ATOM     22  H   QWS d           8.347   5.873  19.412  0.00  0.00     0.159 HD
+ATOM     23  H   QWS d           8.909   5.164  20.889  0.00  0.00     0.159 HD
+ATOM     24  O12 QWS d           5.923   6.054  20.255  0.00  0.00    -0.266 OA
+ENDBRANCH   3  20
+BRANCH   4  25
+ATOM     25  N6  QWS d           4.292   5.169  22.561  0.00  0.00    -0.305 N 
+ATOM     26  C7  QWS d           3.225   4.471  23.110  0.00  0.00     0.318 C 
+ATOM     27  N8  QWS d           2.101   4.589  22.332  0.00  0.00    -0.352 N 
+ATOM     28  O9  QWS d           3.283   3.807  24.149  0.00  0.00    -0.247 OA
+ATOM     29  H   QWS d           1.253   4.136  22.607  0.00  0.00     0.160 HD
+ATOM     30  H   QWS d           2.130   5.128  21.490  0.00  0.00     0.160 HD
+ATOM     31  H   QWS d           4.114   5.864  21.864  0.00  0.00     0.171 HD
+ENDBRANCH   4  25
+TORSDOF 5

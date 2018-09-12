@@ -1,0 +1,72 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C65_1  and  C34_10 
+REMARK    2  A    between atoms: C61_6  and  C25_7 
+REMARK    3  A    between atoms: C25_7  and  N43_8 
+REMARK    4  A    between atoms: C34_10  and  C31_11 
+REMARK    5  A    between atoms: C31_11  and  N29_20 
+REMARK    6  A    between atoms: C31_11  and  C35_12 
+REMARK       I    between atoms: C35_12  and  N81_14 
+REMARK       I    between atoms: N40_19  and  C48_34 
+REMARK    7  A    between atoms: N29_20  and  S12_21 
+REMARK    8  A    between atoms: S12_21  and  C2_24 
+ROOT
+ATOM      1  C31 FD4 d          -3.940   4.216  22.259  0.00  0.00     0.189 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C34 FD4 d          -3.997   4.442  20.713  0.00  0.00     0.074 C 
+BRANCH   2   3
+ATOM      3  C65 FD4 d          -3.173   5.654  20.249  0.00  0.00    -0.055 A 
+ATOM      4  C64 FD4 d          -1.843   5.482  19.839  0.00  0.00     0.007 A 
+ATOM      5  C63 FD4 d          -1.084   6.581  19.416  0.00  0.00     0.002 A 
+ATOM      6  C62 FD4 d          -1.656   7.865  19.379  0.00  0.00     0.015 A 
+ATOM      7  C61 FD4 d          -2.997   8.049  19.777  0.00  0.00     0.007 A 
+ATOM      8  C66 FD4 d          -3.745   6.936  20.207  0.00  0.00     0.022 A 
+BRANCH   7   9
+ATOM      9  C25 FD4 d          -3.634   9.426  19.742  0.00  0.00     0.102 C 
+ATOM     10  N54 FD4 d          -4.863   9.576  20.184  0.00  0.00    -0.385 N 
+ATOM     11  H7  FD4 d          -5.380   8.765  20.554  0.00  0.00     0.157 HD
+ATOM     12  H8  FD4 d          -5.309  10.504  20.160  0.00  0.00     0.157 HD
+BRANCH   9  13
+ATOM     13  N43 FD4 d          -2.955  10.440  19.266  0.00  0.00    -0.385 N 
+ATOM     14  H5  FD4 d          -3.381  11.378  19.239  0.00  0.00     0.157 HD
+ATOM     15  H6  FD4 d          -1.996  10.300  18.919  0.00  0.00     0.157 HD
+ENDBRANCH   9  13
+ENDBRANCH   7   9
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  N29 FD4 d          -5.015   4.948  22.932  0.00  0.00    -0.301 N 
+ATOM     17  H20 FD4 d          -5.249   5.869  22.621  0.00  0.00     0.173 HD
+BRANCH  16  18
+ATOM     18  S12 FD4 d          -5.889   4.253  24.253  0.00  0.00     0.259 S 
+ATOM     19  O33 FD4 d          -6.218   2.879  23.927  0.00  0.00    -0.201 OA
+ATOM     20  O32 FD4 d          -6.929   5.166  24.637  0.00  0.00    -0.201 OA
+BRANCH  18  21
+ATOM     21  C2  FD4 d          -4.656   4.290  25.495  0.00  0.00     0.080 A 
+ATOM     22  C1  FD4 d          -4.029   3.111  25.933  0.00  0.00     0.037 A 
+ATOM     23  C9  FD4 d          -3.035   3.174  26.951  0.00  0.00    -0.025 A 
+ATOM     24  C10 FD4 d          -2.693   4.419  27.522  0.00  0.00    -0.026 A 
+ATOM     25  C8  FD4 d          -2.400   2.006  27.384  0.00  0.00     0.012 A 
+ATOM     26  C4  FD4 d          -3.327   5.579  27.085  0.00  0.00     0.014 A 
+ATOM     27  C5  FD4 d          -1.728   4.486  28.521  0.00  0.00     0.012 A 
+ATOM     28  C3  FD4 d          -4.300   5.515  26.086  0.00  0.00     0.026 A 
+ATOM     29  C6  FD4 d          -1.064   3.326  28.927  0.00  0.00     0.001 A 
+ATOM     30  C7  FD4 d          -1.418   2.083  28.378  0.00  0.00     0.001 A 
+ENDBRANCH  18  21
+ENDBRANCH  16  18
+ENDBRANCH   1  16
+BRANCH   1  31
+ATOM     31  C35 FD4 d          -2.610   4.618  22.862  0.00  0.00     0.243 C 
+ATOM     32  N81 FD4 d          -1.575   3.758  23.068  0.00  0.00    -0.347 N 
+ATOM     33  C75 FD4 d          -0.294   4.302  23.497  0.00  0.00     0.145 C 
+ATOM     34  C71 FD4 d          -1.545   2.438  22.440  0.00  0.00     0.145 C 
+ATOM     35  C74 FD4 d           0.160   3.396  24.659  0.00  0.00     0.145 C 
+ATOM     36  N40 FD4 d          -0.002   1.973  24.364  0.00  0.00    -0.349 N 
+ATOM     37  C72 FD4 d          -1.129   1.475  23.569  0.00  0.00     0.145 C 
+ATOM     38  C48 FD4 d           0.932   1.067  24.796  0.00  0.00     0.215 C 
+ATOM     39  C55 FD4 d           0.891  -0.395  24.408  0.00  0.00     0.117 C 
+ATOM     40  O49 FD4 d           1.847   1.394  25.538  0.00  0.00    -0.274 OA
+ATOM     41  O36 FD4 d          -2.517   5.804  23.154  0.00  0.00    -0.271 OA
+ENDBRANCH   1  31
+TORSDOF 8

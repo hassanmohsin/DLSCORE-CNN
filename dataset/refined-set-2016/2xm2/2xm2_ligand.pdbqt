@@ -1,0 +1,45 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  N2_8 
+REMARK    2  A    between atoms: C3_2  and  O3_10 
+REMARK    3  A    between atoms: C4_3  and  O4_11 
+REMARK    4  A    between atoms: C5_4  and  C6_5 
+REMARK    5  A    between atoms: C6_5  and  O6_13 
+REMARK       I    between atoms: N2_8  and  C7_6 
+REMARK    6  A    between atoms: N1_16  and  O1_9 
+ROOT
+ATOM      1  C2  LOG d           7.972 -11.439   3.729  0.00  0.00     0.194 C 
+ATOM      2  C3  LOG d           7.631 -10.413   2.644  0.00  0.00     0.180 C 
+ATOM      3  C4  LOG d           6.743 -11.069   1.584  0.00  0.00     0.180 C 
+ATOM      4  C5  LOG d           5.415 -11.470   2.222  0.00  0.00     0.185 C 
+ATOM      5  O5  LOG d           5.666 -12.556   3.125  0.00  0.00    -0.324 OA
+ATOM      6  C1  LOG d           6.887 -12.463   3.888  0.00  0.00     0.193 C 
+ATOM      7  N1  LOG d           7.125 -13.328   4.771  0.00  0.00    -0.113 NA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N2  LOG d           8.289 -10.874   5.078  0.00  0.00    -0.347 N 
+ATOM      9  C7  LOG d           7.244 -10.355   5.841  0.00  0.00     0.214 C 
+ATOM     10  C8  LOG d           7.583  -9.710   7.175  0.00  0.00     0.117 C 
+ATOM     11  O7  LOG d           6.067 -10.403   5.449  0.00  0.00    -0.274 OA
+ATOM     12  H10 LOG d           9.227 -10.869   5.424  0.00  0.00     0.163 HD
+ENDBRANCH   1   8
+BRANCH   2  13
+ATOM     13  O3  LOG d           8.885  -9.982   2.066  0.00  0.00    -0.390 OA
+ATOM     14  H12 LOG d           8.714  -9.352   1.375  0.00  0.00     0.210 HD
+ENDBRANCH   2  13
+BRANCH   3  15
+ATOM     15  O4  LOG d           6.484 -10.106   0.557  0.00  0.00    -0.390 OA
+ATOM     16  H13 LOG d           7.304  -9.848   0.152  0.00  0.00     0.210 HD
+ENDBRANCH   3  15
+BRANCH   7  17
+ATOM     17  O1  LOG d           6.176 -14.290   4.966  0.00  0.00    -0.264 OA
+ATOM     18  H11 LOG d           6.048 -14.775   4.159  0.00  0.00     0.247 HD
+ENDBRANCH   7  17
+BRANCH   4  19
+ATOM     19  C6  LOG d           4.377 -11.951   1.194  0.00  0.00     0.199 C 
+BRANCH  19  20
+ATOM     20  O6  LOG d           4.930 -13.138   0.551  0.00  0.00    -0.398 OA
+ATOM     21  H14 LOG d           5.088 -13.807   1.206  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+TORSDOF 6

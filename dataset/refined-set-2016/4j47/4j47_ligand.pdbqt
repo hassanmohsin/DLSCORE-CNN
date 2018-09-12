@@ -1,0 +1,79 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_7 
+REMARK    4  A    between atoms: CB_5  and  OG_6 
+REMARK    5  A    between atoms: N_7  and  CA_8 
+REMARK    6  A    between atoms: CA_8  and  C_9 
+REMARK    7  A    between atoms: CA_8  and  CB_11 
+REMARK       I    between atoms: C_9  and  N_14 
+REMARK    8  A    between atoms: CA_15  and  C_16 
+REMARK       I    between atoms: C_16  and  N_21 
+REMARK    9  A    between atoms: N_21  and  CA_22 
+REMARK   10  A    between atoms: CA_22  and  C_23 
+REMARK   11  A    between atoms: CA_22  and  CB_25 
+REMARK   12  A    between atoms: CB_25  and  CG1_26 
+ROOT
+ATOM      1  C   SER d          28.095  34.641  11.167  0.00  0.00     0.243 C 
+ATOM      2  O   SER d          27.719  35.254  12.165  0.00  0.00    -0.271 OA
+ATOM      3  N   SER d          28.356  33.314  11.189  0.00  0.00    -0.337 N 
+ATOM      4  CA  SER d          28.182  32.584  12.453  0.00  0.00     0.179 C 
+ATOM      5  CB  SER d          28.179  31.104  12.023  0.00  0.00     0.037 C 
+ATOM      6  CG  SER d          28.970  31.079  10.751  0.00  0.00     0.022 C 
+ATOM      7  CD  SER d          28.697  32.417  10.065  0.00  0.00     0.127 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA  SER d          28.368  35.368   9.858  0.00  0.00     0.180 C 
+BRANCH   8   9
+ATOM      9  N   SER d          27.407  36.475   9.692  0.00  0.00    -0.346 N 
+ATOM     10  C   SER d          26.748  36.644   8.559  0.00  0.00     0.251 C 
+ATOM     11  O   SER d          26.821  35.919   7.557  0.00  0.00    -0.271 OA
+ATOM     12  H8  SER d          27.252  37.108  10.450  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CA  SER d          25.693  37.765   8.580  0.00  0.00     0.297 C 
+BRANCH  13  14
+ATOM     14  N   SER d          25.211  37.989   7.190  0.00  0.00    -0.064 N 
+ATOM     15  H1  SER d          24.519  38.722   7.189  0.00  0.00     0.275 HD
+ATOM     16  H2  SER d          24.802  37.139   6.835  0.00  0.00     0.275 HD
+ATOM     17  H3  SER d          25.986  38.258   6.605  0.00  0.00     0.275 HD
+ENDBRANCH  13  14
+BRANCH  13  18
+ATOM     18  CB  SER d          24.518  37.374   9.519  0.00  0.00     0.206 C 
+BRANCH  18  19
+ATOM     19  OG  SER d          24.089  36.042   9.247  0.00  0.00    -0.398 OA
+ATOM     20  H7  SER d          23.372  35.817   9.828  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH  13  18
+ENDBRANCH  10  13
+ENDBRANCH   8   9
+BRANCH   8  21
+ATOM     21  CB  SER d          29.847  35.832   9.820  0.00  0.00     0.009 C 
+ATOM     22  CG1 SER d          30.171  36.462   8.477  0.00  0.00     0.012 C 
+ATOM     23  CG2 SER d          30.188  36.738  10.968  0.00  0.00     0.012 C 
+ENDBRANCH   8  21
+ENDBRANCH   1   8
+BRANCH   4  24
+ATOM     24  C   SER d          29.302  32.870  13.392  0.00  0.00     0.241 C 
+ATOM     25  O   SER d          30.397  33.219  12.955  0.00  0.00    -0.271 OA
+ATOM     26  N   SER d          29.043  32.756  14.684  0.00  0.00    -0.344 N 
+ATOM     27  H24 SER d          28.096  32.627  14.977  0.00  0.00     0.163 HD
+BRANCH  26  28
+ATOM     28  CA  SER d          30.103  32.812  15.706  0.00  0.00     0.189 C 
+BRANCH  28  29
+ATOM     29  C   SER d          30.540  31.386  15.962  0.00  0.00     0.197 C 
+ATOM     30  O   SER d          29.700  30.554  16.364  0.00  0.00    -0.646 OA
+ATOM     31  OXT SER d          31.730  31.038  15.748  0.00  0.00    -0.646 OA
+ENDBRANCH  28  29
+BRANCH  28  32
+ATOM     32  CB  SER d          29.582  33.451  16.975  0.00  0.00     0.014 C 
+ATOM     33  CG2 SER d          30.643  33.477  18.078  0.00  0.00     0.012 C 
+BRANCH  32  34
+ATOM     34  CG1 SER d          29.116  34.866  16.638  0.00  0.00     0.002 C 
+ATOM     35  CD1 SER d          28.528  35.559  17.806  0.00  0.00     0.005 C 
+ENDBRANCH  32  34
+ENDBRANCH  28  32
+ENDBRANCH  26  28
+ENDBRANCH   4  24
+TORSDOF 12

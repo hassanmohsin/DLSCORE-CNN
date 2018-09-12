@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C03_3  and  S11_11 
+REMARK    2  A    between atoms: C06_6  and  C07_7 
+REMARK       I    between atoms: C07_7  and  N09_9 
+REMARK    3  A    between atoms: N09_9  and  C10_10 
+REMARK    4  A    between atoms: C10_10  and  C15_15 
+REMARK    5  A    between atoms: S11_11  and  NP2_12 
+ROOT
+ATOM      1  C01 FSB d          -3.777   3.475  14.652  0.00  0.00     0.018 A 
+ATOM      2  C02 FSB d          -4.164   2.337  15.393  0.00  0.00     0.026 A 
+ATOM      3  C03 FSB d          -5.510   2.303  15.900  0.00  0.00     0.079 A 
+ATOM      4  C04 FSB d          -6.358   3.396  15.626  0.00  0.00     0.026 A 
+ATOM      5  C05 FSB d          -5.929   4.499  14.887  0.00  0.00     0.018 A 
+ATOM      6  C06 FSB d          -4.651   4.548  14.400  0.00  0.00     0.032 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C07 FSB d          -4.174   5.749  13.607  0.00  0.00     0.251 C 
+ATOM      8  N09 FSB d          -2.875   5.803  13.124  0.00  0.00    -0.353 N 
+ATOM      9  H5  FSB d          -2.303   5.006  13.318  0.00  0.00     0.163 HD
+ATOM     10  O08 FSB d          -4.943   6.665  13.408  0.00  0.00    -0.268 OA
+BRANCH   8  11
+ATOM     11  C10 FSB d          -2.240   6.875  12.369  0.00  0.00     0.164 C 
+BRANCH  11  12
+ATOM     12  C15 FSB d          -1.636   7.915  13.160  0.00  0.00    -0.002 A 
+ATOM     13  C20 FSB d          -0.749   8.888  12.603  0.00  0.00     0.124 A 
+ATOM     14  C19 FSB d          -0.192   9.903  13.486  0.00  0.00     0.043 A 
+ATOM     15  F21 FSB d          -0.436   8.868  11.300  0.00  0.00    -0.205 F 
+ATOM     16  C18 FSB d          -0.542   9.909  14.888  0.00  0.00     0.003 A 
+ATOM     17  C17 FSB d          -1.415   8.946  15.429  0.00  0.00     0.001 A 
+ATOM     18  C16 FSB d          -1.950   7.962  14.561  0.00  0.00     0.012 A 
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+BRANCH   3  19
+ATOM     19  S11 FSB d          -6.001   0.830  16.853  0.00  0.00     0.256 S 
+ATOM     20  O14 FSB d          -5.467   1.130  18.186  0.00  0.00    -0.201 OA
+ATOM     21  O13 FSB d          -7.481   1.089  16.892  0.00  0.00    -0.201 OA
+BRANCH  19  22
+ATOM     22  NP2 FSB d          -5.518  -0.504  16.179  0.00  0.00    -0.324 N 
+ATOM     23  H8  FSB d          -5.726  -1.384  16.606  0.00  0.00     0.169 HD
+ATOM     24  H9  FSB d          -5.003  -0.473  15.322  0.00  0.00     0.169 HD
+ENDBRANCH  19  22
+ENDBRANCH   3  19
+TORSDOF 5

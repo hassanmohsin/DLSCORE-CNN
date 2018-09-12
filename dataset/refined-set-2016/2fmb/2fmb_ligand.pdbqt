@@ -1,0 +1,140 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C2_2  and  N4_4 
+REMARK    1  A    between atoms: N4_4  and  C5_5 
+REMARK    2  A    between atoms: C5_5  and  C6_6 
+REMARK    3  A    between atoms: C5_5  and  C17_17 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK       I    between atoms: C17_17  and  N19_19 
+REMARK    5  A    between atoms: N19_19  and  C20_20 
+REMARK    6  A    between atoms: C20_20  and  C21_21 
+REMARK    7  A    between atoms: C20_20  and  C23_23 
+REMARK       I    between atoms: C21_21  and  N26_26 
+REMARK    8  A    between atoms: N26_26  and  C27_27 
+REMARK    9  A    between atoms: C27_27  and  C28_28 
+REMARK   10  A    between atoms: C27_27  and  C32_32 
+REMARK   11  A    between atoms: C28_28  and  C29_29 
+REMARK   12  A    between atoms: C32_32  and  C33_33 
+REMARK   13  A    between atoms: C32_32  and  O34_34 
+REMARK   14  A    between atoms: C33_33  and  C35_35 
+REMARK       I    between atoms: C35_35  and  N37_37 
+REMARK   15  A    between atoms: N37_37  and  C38_38 
+REMARK   16  A    between atoms: C38_38  and  C39_39 
+REMARK   17  A    between atoms: C38_38  and  C41_41 
+REMARK       I    between atoms: C41_41  and  N43_43 
+REMARK   18  A    between atoms: N43_43  and  C44_44 
+REMARK   19  A    between atoms: C44_44  and  C45_45 
+REMARK   20  A    between atoms: C44_44  and  C56_56 
+REMARK   21  A    between atoms: C45_45  and  C46_46 
+REMARK       I    between atoms: C56_56  and  N58_58 
+ROOT
+ATOM      1  C27 LP2 d           1.328  18.393  -0.166  0.00  0.00     0.114 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N26 LP2 d           1.706  18.437   1.214  0.00  0.00    -0.352 N 
+ATOM      3  C21 LP2 d           1.700  19.467   2.031  0.00  0.00     0.241 C 
+ATOM      4  O22 LP2 d           1.310  20.571   1.655  0.00  0.00    -0.271 OA
+ATOM      5  H24 LP2 d           2.015  17.571   1.608  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  C20 LP2 d           2.169  19.155   3.458  0.00  0.00     0.180 C 
+BRANCH   6   7
+ATOM      7  N19 LP2 d           3.473  19.714   3.587  0.00  0.00    -0.346 N 
+ATOM      8  C17 LP2 d           4.545  19.167   4.062  0.00  0.00     0.241 C 
+ATOM      9  O18 LP2 d           4.651  18.027   4.470  0.00  0.00    -0.271 OA
+ATOM     10  H15 LP2 d           3.573  20.656   3.267  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  C5  LP2 d           5.818  20.025   3.942  0.00  0.00     0.180 C 
+BRANCH  11  12
+ATOM     12  N4  LP2 d           6.614  19.895   5.170  0.00  0.00    -0.348 N 
+ATOM     13  C2  LP2 d           6.863  20.986   5.895  0.00  0.00     0.214 C 
+ATOM     14  C1  LP2 d           7.674  20.710   7.154  0.00  0.00     0.117 C 
+ATOM     15  O3  LP2 d           6.456  22.118   5.597  0.00  0.00    -0.274 OA
+ATOM     16  H4  LP2 d           6.963  19.003   5.457  0.00  0.00     0.163 HD
+ENDBRANCH  11  12
+BRANCH  11  17
+ATOM     17  C6  LP2 d           6.475  19.405   2.694  0.00  0.00     0.074 C 
+BRANCH  17  18
+ATOM     18  C7  LP2 d           7.498  20.288   2.053  0.00  0.00    -0.045 A 
+ATOM     19  C8  LP2 d           7.541  21.630   2.368  0.00  0.00     0.008 A 
+ATOM     20  C9  LP2 d           8.512  22.458   1.812  0.00  0.00     0.001 A 
+ATOM     21  C10 LP2 d           9.459  21.950   0.934  0.00  0.00     0.012 A 
+ATOM     22  C12 LP2 d           9.434  20.579   0.610  0.00  0.00    -0.025 A 
+ATOM     23  C11 LP2 d           8.441  19.746   1.182  0.00  0.00    -0.020 A 
+ATOM     24  C14 LP2 d          10.401  20.033  -0.246  0.00  0.00     0.012 A 
+ATOM     25  C13 LP2 d           8.441  18.382   0.877  0.00  0.00     0.013 A 
+ATOM     26  C15 LP2 d           9.372  17.878   0.007  0.00  0.00     0.001 A 
+ATOM     27  C16 LP2 d          10.328  18.696  -0.539  0.00  0.00     0.001 A 
+ENDBRANCH  17  18
+ENDBRANCH  11  17
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+BRANCH   6  28
+ATOM     28  C23 LP2 d           1.130  19.604   4.519  0.00  0.00     0.009 C 
+ATOM     29  C24 LP2 d          -0.224  19.002   4.195  0.00  0.00     0.012 C 
+ATOM     30  C25 LP2 d           1.467  18.983   5.869  0.00  0.00     0.012 C 
+ENDBRANCH   6  28
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  C28 LP2 d           2.603  18.032  -0.985  0.00  0.00     0.031 C 
+BRANCH  31  32
+ATOM     32  C29 LP2 d           3.811  18.959  -0.577  0.00  0.00    -0.021 C 
+ATOM     33  C30 LP2 d           5.107  18.356  -0.957  0.00  0.00     0.009 C 
+ATOM     34  C31 LP2 d           3.567  20.330  -1.135  0.00  0.00     0.009 C 
+ENDBRANCH  31  32
+ENDBRANCH   1  31
+BRANCH   1  35
+ATOM     35  C32 LP2 d           0.055  17.528  -0.486  0.00  0.00     0.149 C 
+BRANCH  35  36
+ATOM     36  C33 LP2 d          -1.261  18.292  -0.281  0.00  0.00     0.136 C 
+BRANCH  36  37
+ATOM     37  C35 LP2 d          -1.545  19.398  -1.302  0.00  0.00     0.220 C 
+ATOM     38  O36 LP2 d          -1.076  20.551  -1.310  0.00  0.00    -0.274 OA
+ATOM     39  N37 LP2 d          -2.362  18.946  -2.247  0.00  0.00    -0.348 N 
+ATOM     40  H39 LP2 d          -2.725  18.020  -2.143  0.00  0.00     0.163 HD
+BRANCH  39  41
+ATOM     41  C38 LP2 d          -2.765  19.698  -3.418  0.00  0.00     0.176 C 
+BRANCH  41  42
+ATOM     42  C39 LP2 d          -1.769  19.353  -4.545  0.00  0.00     0.030 C 
+ATOM     43  C40 LP2 d          -1.870  20.113  -5.840  0.00  0.00     0.007 C 
+ENDBRANCH  41  42
+BRANCH  41  44
+ATOM     44  C41 LP2 d          -4.171  19.316  -3.845  0.00  0.00     0.241 C 
+ATOM     45  O42 LP2 d          -4.465  18.105  -3.890  0.00  0.00    -0.271 OA
+ATOM     46  N43 LP2 d          -5.046  20.303  -4.092  0.00  0.00    -0.346 N 
+ATOM     47  H46 LP2 d          -4.746  21.253  -4.005  0.00  0.00     0.163 HD
+BRANCH  46  48
+ATOM     48  C44 LP2 d          -6.414  20.028  -4.482  0.00  0.00     0.180 C 
+BRANCH  48  49
+ATOM     49  C45 LP2 d          -7.486  20.200  -3.381  0.00  0.00     0.074 C 
+BRANCH  49  50
+ATOM     50  C46 LP2 d          -7.071  21.225  -2.329  0.00  0.00    -0.045 A 
+ATOM     51  C47 LP2 d          -7.475  22.549  -2.453  0.00  0.00     0.008 A 
+ATOM     52  C48 LP2 d          -7.085  23.513  -1.512  0.00  0.00     0.001 A 
+ATOM     53  C49 LP2 d          -6.267  23.169  -0.457  0.00  0.00     0.012 A 
+ATOM     54  C51 LP2 d          -5.826  21.851  -0.303  0.00  0.00    -0.025 A 
+ATOM     55  C50 LP2 d          -6.235  20.874  -1.264  0.00  0.00    -0.020 A 
+ATOM     56  C53 LP2 d          -4.980  21.485   0.751  0.00  0.00     0.012 A 
+ATOM     57  C52 LP2 d          -5.788  19.550  -1.129  0.00  0.00     0.013 A 
+ATOM     58  C54 LP2 d          -4.946  19.211  -0.081  0.00  0.00     0.001 A 
+ATOM     59  C55 LP2 d          -4.554  20.166   0.834  0.00  0.00     0.001 A 
+ENDBRANCH  49  50
+ENDBRANCH  48  49
+BRANCH  48  60
+ATOM     60  C56 LP2 d          -6.808  20.691  -5.793  0.00  0.00     0.238 C 
+ATOM     61  O57 LP2 d          -6.314  21.779  -6.136  0.00  0.00    -0.271 OA
+ATOM     62  N58 LP2 d          -7.708  20.111  -6.559  0.00  0.00    -0.368 N 
+ATOM     63  H57 LP2 d          -7.977  20.535  -7.424  0.00  0.00     0.159 HD
+ATOM     64  H58 LP2 d          -8.123  19.246  -6.276  0.00  0.00     0.159 HD
+ENDBRANCH  48  60
+ENDBRANCH  46  48
+ENDBRANCH  41  44
+ENDBRANCH  39  41
+ENDBRANCH  36  37
+ENDBRANCH  35  36
+BRANCH  35  65
+ATOM     65  O34 LP2 d           0.001  16.361   0.343  0.00  0.00    -0.393 OA
+ATOM     66  H38 LP2 d           0.803  15.863   0.240  0.00  0.00     0.210 HD
+ENDBRANCH  35  65
+ENDBRANCH   1  35
+TORSDOF 21

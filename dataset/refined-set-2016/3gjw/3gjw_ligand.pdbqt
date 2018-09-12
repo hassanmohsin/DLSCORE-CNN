@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C21_18  and  C12_5 
+REMARK    2  A    between atoms: N22_6  and  C21_18 
+ROOT
+ATOM      1  C2  GJW d          50.996  55.416   9.039  0.00  0.00     0.098 A 
+ATOM      2  C4  GJW d          49.531  55.858  10.685  0.00  0.00     0.107 A 
+ATOM      3  C6  GJW d          48.890  54.147   9.136  0.00  0.00     0.066 A 
+ATOM      4  C11 GJW d          48.226  52.489   7.597  0.00  0.00     0.011 A 
+ATOM      5  C12 GJW d          47.048  52.332   8.295  0.00  0.00    -0.030 A 
+ATOM      6  C1  GJW d          51.548  56.405   9.823  0.00  0.00     0.020 A 
+ATOM      7  N3  GJW d          49.788  55.094   9.589  0.00  0.00    -0.315 N 
+ATOM      8  C5  GJW d          50.622  56.683  10.860  0.00  0.00     0.037 A 
+ATOM      9  C7  GJW d          47.730  53.991   9.853  0.00  0.00     0.063 A 
+ATOM     10  N8  GJW d          47.473  54.759  10.995  0.00  0.00    -0.320 N 
+ATOM     11  C9  GJW d          48.331  55.743  11.445  0.00  0.00     0.273 A 
+ATOM     12  C10 GJW d          49.164  53.403   8.014  0.00  0.00     0.033 A 
+ATOM     13  C13 GJW d          46.796  53.078   9.424  0.00  0.00     0.040 A 
+ATOM     14  O20 GJW d          48.091  56.439  12.419  0.00  0.00    -0.266 OA
+ATOM     15  H10 GJW d          46.631  54.587  11.507  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   5  16
+ATOM     16  C21 GJW d          46.030  51.367   7.807  0.00  0.00     0.273 C 
+BRANCH  16  17
+ATOM     17  N22 GJW d          45.897  50.152   8.626  0.00  0.00    -0.067 N 
+ATOM     18  C23 GJW d          44.616  49.472   8.343  0.00  0.00     0.235 C 
+ATOM     19  C24 GJW d          44.889  48.022   8.642  0.00  0.00     0.029 C 
+ATOM     20  C25 GJW d          46.392  47.855   8.673  0.00  0.00     0.029 C 
+ATOM     21  C26 GJW d          47.024  49.210   8.453  0.00  0.00     0.235 C 
+ATOM     22  H3  GJW d          45.889  50.440   9.592  0.00  0.00     0.280 HD
+ENDBRANCH  16  17
+ENDBRANCH   5  16
+TORSDOF 2

@@ -1,0 +1,90 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_2  and  CB_4 
+REMARK    2  A    between atoms: CB_4  and  CA_5 
+REMARK    3  A    between atoms: CA_5  and  N_6 
+REMARK    4  A    between atoms: CA_5  and  C_10 
+REMARK       I    between atoms: N_6  and  CAA_7 
+REMARK       I    between atoms: C_10  and  NAH_12 
+REMARK    5  A    between atoms: NAH_12  and  CAI_13 
+REMARK    6  A    between atoms: CAI_13  and  CAJ_14 
+REMARK    7  A    between atoms: CAI_13  and  CAQ_18 
+REMARK       I    between atoms: CAQ_18  and  NAS_20 
+REMARK    8  A    between atoms: CAV_22  and  OAZ_23 
+REMARK    9  A    between atoms: CAT_25  and  CAX_26 
+REMARK       I    between atoms: CAX_26  and  NBA_28 
+REMARK   10  A    between atoms: NBA_28  and  CBB_29 
+REMARK   11  A    between atoms: CBB_29  and  CBC_30 
+REMARK   12  A    between atoms: CBF_35  and  CBI_36 
+ROOT
+ATOM      1  CAQ MOL d          11.786  53.976  91.119  0.00  0.00     0.244 C 
+ATOM      2  OAR MOL d          10.604  53.820  90.876  0.00  0.00    -0.271 OA
+ATOM      3  NAS MOL d          12.685  54.347  90.180  0.00  0.00    -0.334 N 
+ATOM      4  CAW MOL d          14.124  54.663  90.335  0.00  0.00     0.158 C 
+ATOM      5  CAV MOL d          14.440  55.614  89.183  0.00  0.00     0.138 C 
+ATOM      6  CAU MOL d          13.558  55.229  88.068  0.00  0.00     0.068 C 
+ATOM      7  CAT MOL d          12.309  54.605  88.743  0.00  0.00     0.181 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAI MOL d          12.283  53.731  92.549  0.00  0.00     0.184 C 
+BRANCH   8   9
+ATOM      9  NAH MOL d          11.285  54.220  93.489  0.00  0.00    -0.345 N 
+ATOM     10  C   MOL d          11.401  55.379  94.128  0.00  0.00     0.241 C 
+ATOM     11  O   MOL d          12.328  56.165  93.956  0.00  0.00    -0.271 OA
+ATOM     12  H   MOL d          10.476  53.658  93.662  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CA  MOL d          10.288  55.652  95.167  0.00  0.00     0.177 C 
+BRANCH  13  14
+ATOM     14  CB  MOL d           9.406  56.826  94.726  0.00  0.00     0.038 C 
+BRANCH  14  15
+ATOM     15  CG  MOL d           8.346  57.042  95.807  0.00  0.00    -0.020 C 
+ATOM     16  CD1 MOL d           7.616  55.739  96.189  0.00  0.00     0.009 C 
+ATOM     17  CD2 MOL d           7.310  58.032  95.278  0.00  0.00     0.009 C 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+BRANCH  13  18
+ATOM     18  N   MOL d          10.918  55.966  96.461  0.00  0.00    -0.348 N 
+ATOM     19  CAA MOL d          11.351  55.047  97.358  0.00  0.00     0.214 C 
+ATOM     20  OAC MOL d          11.880  55.367  98.428  0.00  0.00    -0.274 OA
+ATOM     21  CAD MOL d          11.137  53.568  97.027  0.00  0.00     0.117 C 
+ATOM     22  H   MOL d          11.035  56.931  96.695  0.00  0.00     0.163 HD
+ENDBRANCH  13  18
+ENDBRANCH  10  13
+ENDBRANCH   8   9
+BRANCH   8  23
+ATOM     23  CAJ MOL d          12.531  52.231  92.877  0.00  0.00    -0.022 C 
+ATOM     24  CAL MOL d          13.167  52.145  94.276  0.00  0.00     0.017 C 
+ATOM     25  CAM MOL d          13.490  51.577  91.856  0.00  0.00     0.017 C 
+ATOM     26  CAK MOL d          11.212  51.403  92.910  0.00  0.00     0.017 C 
+ENDBRANCH   8  23
+ENDBRANCH   1   8
+BRANCH   7  27
+ATOM     27  CAX MOL d          11.896  53.436  88.057  0.00  0.00     0.241 C 
+ATOM     28  OAY MOL d          12.368  52.352  88.363  0.00  0.00    -0.271 OA
+ATOM     29  NBA MOL d          10.946  53.568  87.083  0.00  0.00    -0.355 N 
+ATOM     30  H   MOL d          10.560  54.470  86.890  0.00  0.00     0.162 HD
+BRANCH  29  31
+ATOM     31  CBB MOL d          10.485  52.409  86.318  0.00  0.00     0.161 C 
+BRANCH  31  32
+ATOM     32  CBC MOL d          11.312  52.237  85.161  0.00  0.00    -0.040 A 
+ATOM     33  CBH MOL d          12.228  53.207  84.685  0.00  0.00     0.010 A 
+ATOM     34  CBG MOL d          13.033  52.964  83.550  0.00  0.00     0.013 A 
+ATOM     35  CBF MOL d          12.942  51.759  82.847  0.00  0.00    -0.017 A 
+ATOM     36  CBE MOL d          12.029  50.795  83.321  0.00  0.00     0.013 A 
+ATOM     37  CBD MOL d          11.229  51.034  84.460  0.00  0.00     0.010 A 
+BRANCH  35  38
+ATOM     38  CBI MOL d          13.702  51.569  81.750  0.00  0.00     0.040 A 
+ATOM     39  SBM MOL d          15.331  52.125  81.514  0.00  0.00    -0.080 SA
+ATOM     40  CBL MOL d          15.453  51.525  79.977  0.00  0.00     0.167 A 
+ATOM     41  NBK MOL d          14.309  50.940  79.639  0.00  0.00    -0.258 NA
+ATOM     42  CBJ MOL d          13.348  50.961  80.594  0.00  0.00     0.049 A 
+ATOM     43  CBN MOL d          11.988  50.302  80.297  0.00  0.00     0.072 C 
+ENDBRANCH  35  38
+ENDBRANCH  31  32
+ENDBRANCH  29  31
+ENDBRANCH   7  27
+BRANCH   5  44
+ATOM     44  OAZ MOL d          14.140  56.995  89.545  0.00  0.00    -0.394 OA
+ATOM     45  H   MOL d          14.663  57.245  90.298  0.00  0.00     0.210 HD
+ENDBRANCH   5  44
+TORSDOF 12

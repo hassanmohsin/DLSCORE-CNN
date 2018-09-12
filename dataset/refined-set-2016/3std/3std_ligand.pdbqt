@@ -1,0 +1,52 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_9  and  N11_11 
+REMARK    2  A    between atoms: N11_11  and  C12_12 
+REMARK    3  A    between atoms: C12_12  and  C13_13 
+REMARK    4  A    between atoms: C13_13  and  C15_15 
+REMARK    5  A    between atoms: C15_15  and  C16_14 
+REMARK    6  A    between atoms: C15_15  and  C23_23 
+ROOT
+ATOM      1  C1  MQ0 d          26.837  12.037  30.347  0.00  0.00     0.016 A 
+ATOM      2  C2  MQ0 d          26.162  11.809  29.134  0.00  0.00     0.001 A 
+ATOM      3  C3  MQ0 d          24.768  12.025  29.042  0.00  0.00     0.002 A 
+ATOM      4  C4  MQ0 d          24.052  12.443  30.171  0.00  0.00     0.034 A 
+ATOM      5  C5  MQ0 d          24.728  12.672  31.384  0.00  0.00     0.091 A 
+ATOM      6  N6  MQ0 d          24.015  13.111  32.449  0.00  0.00    -0.148 NA
+ATOM      7  N7  MQ0 d          24.585  13.324  33.633  0.00  0.00    -0.136 NA
+ATOM      8  C8  MQ0 d          25.921  13.171  33.833  0.00  0.00     0.186 A 
+ATOM      9  C9  MQ0 d          26.759  12.732  32.729  0.00  0.00     0.082 A 
+ATOM     10  C10 MQ0 d          26.127  12.463  31.496  0.00  0.00     0.024 A 
+ATOM     11  C20 MQ0 d          26.391  13.475  35.166  0.00  0.00     0.124 C 
+ATOM     12  N19 MQ0 d          26.757  13.727  36.235  0.00  0.00    -0.190 NA
+ENDROOT
+BRANCH   9  13
+ATOM     13  N11 MQ0 d          28.183  12.557  32.817  0.00  0.00    -0.387 N 
+ATOM     14  H5  MQ0 d          28.664  12.182  31.987  0.00  0.00     0.159 HD
+BRANCH  13  15
+ATOM     15  C12 MQ0 d          29.008  12.868  33.989  0.00  0.00     0.121 C 
+BRANCH  15  16
+ATOM     16  C13 MQ0 d          29.305  11.719  34.992  0.00  0.00     0.033 C 
+BRANCH  16  17
+ATOM     17  C15 MQ0 d          29.498  10.329  34.343  0.00  0.00     0.053 C 
+BRANCH  17  18
+ATOM     18  C16 MQ0 d          30.126   9.292  35.269  0.00  0.00    -0.050 A 
+ATOM     19  C17 MQ0 d          30.921   8.274  34.694  0.00  0.00     0.008 A 
+ATOM     20  C18 MQ0 d          31.535   7.296  35.500  0.00  0.00     0.001 A 
+ATOM     21  C19 MQ0 d          31.336   7.317  36.887  0.00  0.00     0.000 A 
+ATOM     22  C21 MQ0 d          30.550   8.326  37.463  0.00  0.00     0.001 A 
+ATOM     23  C22 MQ0 d          29.952   9.312  36.663  0.00  0.00     0.008 A 
+ENDBRANCH  17  18
+BRANCH  17  24
+ATOM     24  C23 MQ0 d          28.201   9.691  33.802  0.00  0.00    -0.050 A 
+ATOM     25  C28 MQ0 d          27.081   9.476  34.648  0.00  0.00     0.008 A 
+ATOM     26  C27 MQ0 d          25.903   8.888  34.144  0.00  0.00     0.001 A 
+ATOM     27  C26 MQ0 d          25.829   8.506  32.781  0.00  0.00     0.000 A 
+ATOM     28  C25 MQ0 d          26.938   8.725  31.931  0.00  0.00     0.001 A 
+ATOM     29  C24 MQ0 d          28.112   9.316  32.441  0.00  0.00     0.008 A 
+ENDBRANCH  17  24
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   9  13
+TORSDOF 6

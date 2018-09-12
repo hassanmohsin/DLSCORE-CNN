@@ -1,0 +1,71 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_6  and  C_1 
+REMARK       I    between atoms: C_1  and  NAS_20 
+REMARK    2  A    between atoms: N_2  and  CA_6 
+REMARK       I    between atoms: CAG_11  and  N_2 
+REMARK    3  A    between atoms: CA_6  and  CB_7 
+REMARK       I    between atoms: NAI_13  and  CAG_11 
+REMARK    4  A    between atoms: CAJ_14  and  NAI_13 
+REMARK    5  A    between atoms: NAS_20  and  CAT_21 
+REMARK    6  A    between atoms: NAS_20  and  CAY_26 
+REMARK    7  A    between atoms: CAT_21  and  CAU_22 
+REMARK       I    between atoms: CAU_22  and  NAW_24 
+REMARK    8  A    between atoms: NAW_24  and  OAX_25 
+REMARK    9  A    between atoms: CAY_26  and  CAZ_27 
+ROOT
+ATOM      1  CA  UDB d         -17.237 145.638  46.246  0.00  0.00     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UDB d         -16.874 144.923  44.958  0.00  0.00     0.243 C 
+ATOM      3  O   UDB d         -16.171 145.509  44.142  0.00  0.00    -0.271 OA
+ATOM      4  NAS UDB d         -17.294 143.674  44.709  0.00  0.00    -0.341 N 
+BRANCH   4   5
+ATOM      5  CAT UDB d         -16.902 143.053  43.447  0.00  0.00     0.230 C 
+BRANCH   5   6
+ATOM      6  CAU UDB d         -18.065 142.662  42.558  0.00  0.00     0.258 C 
+ATOM      7  OAV UDB d         -19.085 143.349  42.465  0.00  0.00    -0.270 OA
+ATOM      8  NAW UDB d         -17.861 141.530  41.877  0.00  0.00    -0.236 N 
+ATOM      9  H18 UDB d         -17.004 141.032  42.006  0.00  0.00     0.197 HD
+BRANCH   8  10
+ATOM     10  OAX UDB d         -18.811 141.026  40.992  0.00  0.00    -0.287 OA
+ATOM     11  H19 UDB d         -18.487 140.220  40.607  0.00  0.00     0.244 HD
+ENDBRANCH   8  10
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+BRANCH   4  12
+ATOM     12  CAY UDB d         -18.125 142.840  45.589  0.00  0.00     0.131 C 
+BRANCH  12  13
+ATOM     13  CAZ UDB d         -17.241 142.117  46.613  0.00  0.00     0.004 C 
+ATOM     14  CBA UDB d         -16.518 140.907  46.034  0.00  0.00     0.006 C 
+ATOM     15  CBB UDB d         -16.388 139.896  47.175  0.00  0.00     0.000 C 
+ATOM     16  CBC UDB d         -17.370 140.316  48.265  0.00  0.00     0.000 C 
+ATOM     17  CBD UDB d         -18.080 141.575  47.775  0.00  0.00     0.006 C 
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  N   UDB d         -16.037 146.317  46.682  0.00  0.00    -0.329 N 
+ATOM     19  CAG UDB d         -15.473 146.187  47.871  0.00  0.00     0.321 C 
+ATOM     20  OAH UDB d         -15.951 145.476  48.745  0.00  0.00    -0.247 OA
+ATOM     21  NAI UDB d         -14.387 146.944  47.952  0.00  0.00    -0.309 N 
+ATOM     22  H12 UDB d         -14.207 147.459  47.114  0.00  0.00     0.170 HD
+ATOM     23  H1  UDB d         -15.598 146.936  46.031  0.00  0.00     0.165 HD
+BRANCH  21  24
+ATOM     24  CAJ UDB d         -13.438 147.180  48.952  0.00  0.00     0.042 A 
+ATOM     25  CAK UDB d         -12.253 147.772  48.504  0.00  0.00     0.072 A 
+ATOM     26  CAL UDB d         -11.231 148.070  49.392  0.00  0.00     0.121 A 
+ATOM     27  F1  UDB d         -10.094 148.632  48.938  0.00  0.00    -0.206 F 
+ATOM     28  CAM UDB d         -11.395 147.791  50.749  0.00  0.00     0.084 A 
+ATOM     29  CAN UDB d         -12.579 147.202  51.200  0.00  0.00     0.121 A 
+ATOM     30  F2  UDB d         -12.709 146.932  52.512  0.00  0.00    -0.206 F 
+ATOM     31  CAP UDB d         -13.618 146.895  50.306  0.00  0.00     0.072 A 
+ENDBRANCH  21  24
+ENDBRANCH   1  18
+BRANCH   1  32
+ATOM     32  CB  UDB d         -18.363 146.674  46.083  0.00  0.00    -0.022 C 
+ATOM     33  CAA UDB d         -18.021 147.683  44.991  0.00  0.00     0.017 C 
+ATOM     34  CAC UDB d         -18.592 147.465  47.379  0.00  0.00     0.017 C 
+ATOM     35  CAD UDB d         -19.663 145.992  45.688  0.00  0.00     0.017 C 
+ENDBRANCH   1  32
+TORSDOF 9

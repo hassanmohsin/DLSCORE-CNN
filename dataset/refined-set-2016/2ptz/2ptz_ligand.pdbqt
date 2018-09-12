@@ -1,0 +1,26 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C1_1  and  P_9 
+REMARK       I    between atoms: C2_2  and  N3_3 
+REMARK    3  A    between atoms: N3_3  and  O3_4 
+ROOT
+ATOM      1  C2  PAH d          13.126  28.420  36.386  0.00  0.00     0.253 C 
+ATOM      2  N3  PAH d          13.554  29.295  35.511  0.00  0.00    -0.237 N 
+ATOM      3  O2  PAH d          13.888  27.838  37.163  0.00  0.00    -0.271 OA
+ATOM      4  H3  PAH d          12.884  29.689  34.882  0.00  0.00     0.197 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C1  PAH d          11.658  28.113  36.318  0.00  0.00     0.250 C 
+BRANCH   5   6
+ATOM      6  P   PAH d          10.846  29.027  37.686  0.00  0.00     0.268 P 
+ATOM      7  O1P PAH d          10.496  30.359  37.180  0.00  0.00    -0.639 OA
+ATOM      8  O2P PAH d          11.829  29.088  38.776  0.00  0.00    -0.639 OA
+ATOM      9  O3P PAH d           9.601  28.191  37.908  0.00  0.00    -0.639 OA
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   2  10
+ATOM     10  O3  PAH d          14.841  29.705  35.398  0.00  0.00    -0.287 OA
+ATOM     11  H4  PAH d          14.909  30.341  34.696  0.00  0.00     0.244 HD
+ENDBRANCH   2  10
+TORSDOF 3

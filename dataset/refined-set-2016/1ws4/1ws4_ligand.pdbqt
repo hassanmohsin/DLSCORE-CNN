@@ -1,0 +1,40 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_8 
+REMARK    2  A    between atoms: C2_2  and  O2_9 
+REMARK    3  A    between atoms: C3_3  and  O3_10 
+REMARK    4  A    between atoms: C4_4  and  O4_11 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_13 
+ROOT
+ATOM      1  C1  GYP d          51.084  54.128  66.381  0.00  0.00     0.290 C 
+ATOM      2  C2  GYP d          51.664  55.415  65.784  0.00  0.00     0.204 C 
+ATOM      3  C3  GYP d          51.671  56.572  66.782  0.00  0.00     0.183 C 
+ATOM      4  C4  GYP d          50.233  56.808  67.247  0.00  0.00     0.180 C 
+ATOM      5  C5  GYP d          49.701  55.516  67.913  0.00  0.00     0.179 C 
+ATOM      6  O5  GYP d          49.748  54.414  66.940  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C6  GYP d          48.261  55.666  68.427  0.00  0.00     0.198 C 
+BRANCH   7   8
+ATOM      8  O6  GYP d          47.357  55.940  67.360  0.00  0.00    -0.398 OA
+ATOM      9  H14 GYP d          47.382  55.226  66.734  0.00  0.00     0.209 HD
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   4  10
+ATOM     10  O4  GYP d          50.210  57.888  68.181  0.00  0.00    -0.390 OA
+ATOM     11  H13 GYP d          50.538  58.675  67.762  0.00  0.00     0.210 HD
+ENDBRANCH   4  10
+BRANCH   3  12
+ATOM     12  O3  GYP d          52.207  57.750  66.145  0.00  0.00    -0.390 OA
+ATOM     13  H12 GYP d          53.099  57.580  65.865  0.00  0.00     0.210 HD
+ENDBRANCH   3  12
+BRANCH   1  14
+ATOM     14  O1  GYP d          51.954  53.534  67.370  0.00  0.00    -0.363 OA
+ATOM     15  C7  GYP d          51.427  52.301  67.918  0.00  0.00     0.204 C 
+ENDBRANCH   1  14
+BRANCH   2  16
+ATOM     16  O2  GYP d          52.993  55.149  65.303  0.00  0.00    -0.388 OA
+ATOM     17  H11 GYP d          53.334  55.924  64.872  0.00  0.00     0.210 HD
+ENDBRANCH   2  16
+TORSDOF 6

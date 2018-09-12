@@ -1,0 +1,53 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_10  and  N2_13 
+REMARK       I    between atoms: C12_12  and  N1_11 
+REMARK    2  A    between atoms: N1_11  and  C11_15 
+REMARK       I    between atoms: N2_13  and  C12_12 
+REMARK    3  A    between atoms: C11_15  and  C14_17 
+REMARK    4  A    between atoms: C17_20  and  N3_22 
+REMARK       I    between atoms: N3_22  and  C19_24 
+REMARK       I    between atoms: C19_24  and  N4_23 
+ROOT
+ATOM      1  N1  AGB d          27.203   8.020  29.094  0.00  0.00    -0.339 N 
+ATOM      2  C12 AGB d          26.083   8.532  28.549  0.00  0.00     0.317 C 
+ATOM      3  N2  AGB d          25.856   9.863  28.707  0.00  0.00    -0.334 N 
+ATOM      4  O1  AGB d          25.316   7.784  27.936  0.00  0.00    -0.247 OA
+ATOM      5  H16 AGB d          27.777   8.592  29.680  0.00  0.00     0.164 HD
+ATOM      6  H17 AGB d          26.644  10.445  28.909  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  C11 AGB d          27.582   6.642  28.835  0.00  0.00     0.162 C 
+BRANCH   7   8
+ATOM      8  C14 AGB d          29.090   6.488  28.660  0.00  0.00    -0.040 C 
+ATOM      9  C13 AGB d          29.779   5.499  29.381  0.00  0.00     0.011 C 
+ATOM     10  C18 AGB d          31.105   5.208  29.077  0.00  0.00     0.030 C 
+ATOM     11  C17 AGB d          31.792   5.996  28.148  0.00  0.00     0.049 C 
+ATOM     12  C16 AGB d          31.162   7.074  27.510  0.00  0.00     0.030 C 
+ATOM     13  C15 AGB d          29.799   7.326  27.768  0.00  0.00     0.011 C 
+BRANCH  11  14
+ATOM     14  N3  AGB d          33.196   5.899  27.639  0.00  0.00    -0.193 N 
+ATOM     15  C19 AGB d          33.580   4.670  27.513  0.00  0.00     0.669 C 
+ATOM     16  N4  AGB d          33.234   3.427  27.526  0.00  0.00    -0.235 N 
+ATOM     17  N5  AGB d          34.851   4.876  27.281  0.00  0.00    -0.235 N 
+ATOM     18  H25 AGB d          33.939   2.695  27.360  0.00  0.00     0.174 HD
+ATOM     19  H26 AGB d          32.253   3.167  27.703  0.00  0.00     0.174 HD
+ATOM     20  H27 AGB d          35.220   5.837  27.252  0.00  0.00     0.174 HD
+ATOM     21  H28 AGB d          35.483   4.077  27.128  0.00  0.00     0.174 HD
+ATOM     22  H24 AGB d          33.786   6.713  27.416  0.00  0.00     0.184 HD
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   3  23
+ATOM     23  C10 AGB d          24.538  10.513  28.604  0.00  0.00     0.035 C 
+ATOM     24  C8  AGB d          24.707  12.000  29.069  0.00  0.00     0.035 C 
+ATOM     25  C6  AGB d          23.345  12.757  29.031  0.00  0.00    -0.012 C 
+ATOM     26  C2  AGB d          22.796  12.765  27.579  0.00  0.00     0.009 C 
+ATOM     27  C5  AGB d          22.330  12.040  29.973  0.00  0.00     0.009 C 
+ATOM     28  C1  AGB d          22.616  11.298  27.097  0.00  0.00    -0.012 C 
+ATOM     29  C4  AGB d          21.600  10.570  28.028  0.00  0.00     0.009 C 
+ATOM     30  C3  AGB d          23.992  10.549  27.135  0.00  0.00     0.035 C 
+ATOM     31  C7  AGB d          22.140  10.570  29.491  0.00  0.00    -0.012 C 
+ATOM     32  C9  AGB d          23.505   9.813  29.546  0.00  0.00     0.035 C 
+ENDBRANCH   3  23
+TORSDOF 4

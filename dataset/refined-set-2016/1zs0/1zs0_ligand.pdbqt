@@ -1,0 +1,53 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_1  and  C4_9 
+REMARK    2  A    between atoms: C17_4  and  O1_7 
+REMARK    3  A    between atoms: C7_12  and  S1_15 
+REMARK    4  A    between atoms: S1_15  and  N1_18 
+REMARK    5  A    between atoms: N1_18  and  C10_19 
+REMARK    6  A    between atoms: C10_19  and  C11_20 
+REMARK    7  A    between atoms: C10_19  and  P1_23 
+ROOT
+ATOM      1  C4  EIN d          10.073  21.384  12.849  0.00  0.00    -0.026 A 
+ATOM      2  C5  EIN d          11.534  21.373  13.019  0.00  0.00     0.014 A 
+ATOM      3  C6  EIN d          12.216  22.497  13.586  0.00  0.00     0.026 A 
+ATOM      4  C7  EIN d          11.483  23.671  13.995  0.00  0.00     0.079 A 
+ATOM      5  C8  EIN d          10.024  23.724  13.842  0.00  0.00     0.026 A 
+ATOM      6  C9  EIN d           9.322  22.591  13.270  0.00  0.00     0.014 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  S1  EIN d          12.361  25.031  14.679  0.00  0.00     0.259 S 
+ATOM      8  O2  EIN d          11.734  26.339  14.218  0.00  0.00    -0.201 OA
+ATOM      9  O3  EIN d          13.848  24.963  14.227  0.00  0.00    -0.201 OA
+BRANCH   7  10
+ATOM     10  N1  EIN d          12.263  24.907  16.399  0.00  0.00    -0.297 N 
+ATOM     11  H12 EIN d          12.984  24.389  16.859  0.00  0.00     0.173 HD
+BRANCH  10  12
+ATOM     12  C10 EIN d          11.224  25.489  17.243  0.00  0.00     0.226 C 
+BRANCH  12  13
+ATOM     13  C11 EIN d          11.860  26.251  18.486  0.00  0.00     0.014 C 
+ATOM     14  C12 EIN d          10.897  27.237  19.202  0.00  0.00     0.012 C 
+ATOM     15  C13 EIN d          12.909  27.237  18.008  0.00  0.00     0.012 C 
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  P1  EIN d          10.171  24.175  17.876  0.00  0.00     0.283 P 
+ATOM     17  O4  EIN d           8.515  24.516  17.760  0.00  0.00    -0.638 OA
+ATOM     18  O5  EIN d          10.331  23.722  19.526  0.00  0.00    -0.638 OA
+ATOM     19  O6  EIN d          10.249  22.786  17.003  0.00  0.00    -0.638 OA
+ENDBRANCH  12  16
+ENDBRANCH  10  12
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+BRANCH   1  20
+ATOM     20  C14 EIN d           9.381  20.204  12.252  0.00  0.00    -0.026 A 
+ATOM     21  C15 EIN d           9.832  18.831  12.571  0.00  0.00     0.015 A 
+ATOM     22  C16 EIN d           9.175  17.694  11.993  0.00  0.00     0.037 A 
+ATOM     23  C17 EIN d           8.019  17.893  11.056  0.00  0.00     0.068 A 
+ATOM     24  C1  EIN d           7.575  19.246  10.749  0.00  0.00     0.037 A 
+ATOM     25  C2  EIN d           8.247  20.386  11.338  0.00  0.00     0.015 A 
+BRANCH  23  26
+ATOM     26  O1  EIN d           7.309  16.759  10.431  0.00  0.00    -0.356 OA
+ATOM     27  C3  EIN d           7.901  15.478  10.712  0.00  0.00     0.210 C 
+ENDBRANCH  23  26
+ENDBRANCH   1  20
+TORSDOF 7

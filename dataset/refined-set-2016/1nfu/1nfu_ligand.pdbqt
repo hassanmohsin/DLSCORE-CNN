@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N29_1  and  C28_2 
+REMARK    2  A    between atoms: C28_2  and  C27_4 
+REMARK    3  A    between atoms: C24_6  and  C21_10 
+REMARK    4  A    between atoms: C21_10  and  N2_11 
+REMARK    5  A    between atoms: N1_15  and  S4_18 
+REMARK    6  A    between atoms: S4_18  and  C1_21 
+ROOT
+ATOM      1  N2  RRP d           5.240   5.303  21.203  0.00  0.00    -0.346 N 
+ATOM      2  C8  RRP d           4.905   5.424  22.545  0.00  0.00     0.234 C 
+ATOM      3  O1  RRP d           4.095   4.698  23.119  0.00  0.00    -0.272 OA
+ATOM      4  C4  RRP d           5.616   6.542  23.320  0.00  0.00     0.210 C 
+ATOM      5  N1  RRP d           5.986   7.724  22.497  0.00  0.00    -0.196 NA
+ATOM      6  C7  RRP d           6.882   7.266  21.399  0.00  0.00     0.128 C 
+ATOM      7  C2  RRP d           6.223   6.193  20.516  0.00  0.00     0.141 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  C21 RRP d           4.613   4.255  20.366  0.00  0.00     0.164 C 
+BRANCH   8   9
+ATOM      9  C24 RRP d           5.538   3.089  20.077  0.00  0.00    -0.039 A 
+ATOM     10  C26 RRP d           5.679   2.602  18.749  0.00  0.00     0.024 A 
+ATOM     11  C27 RRP d           6.545   1.510  18.455  0.00  0.00     0.007 A 
+ATOM     12  C25 RRP d           7.272   0.911  19.518  0.00  0.00     0.015 A 
+ATOM     13  C23 RRP d           7.130   1.395  20.835  0.00  0.00     0.002 A 
+ATOM     14  C22 RRP d           6.273   2.472  21.115  0.00  0.00     0.009 A 
+BRANCH  11  15
+ATOM     15  C28 RRP d           6.681   1.007  17.069  0.00  0.00     0.102 C 
+ATOM     16  N30 RRP d           5.650   1.152  16.209  0.00  0.00    -0.385 N 
+ATOM     17  H3  RRP d           4.783   1.614  16.518  0.00  0.00     0.157 HD
+ATOM     18  H4  RRP d           5.731   0.801  15.244  0.00  0.00     0.157 HD
+BRANCH  15  19
+ATOM     19  N29 RRP d           7.799   0.405  16.650  0.00  0.00    -0.385 N 
+ATOM     20  H1  RRP d           8.593   0.287  17.295  0.00  0.00     0.157 HD
+ATOM     21  H2  RRP d           7.866   0.059  15.682  0.00  0.00     0.157 HD
+ENDBRANCH  15  19
+ENDBRANCH  11  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   5  22
+ATOM     22  S4  RRP d           6.522   9.010  23.370  0.00  0.00     0.250 S 
+ATOM     23  O8  RRP d           6.724  10.046  22.406  0.00  0.00    -0.205 OA
+ATOM     24  O9  RRP d           5.537   9.296  24.399  0.00  0.00    -0.205 OA
+BRANCH  22  25
+ATOM     25  C1  RRP d           8.018   8.590  24.092  0.00  0.00     0.116 A 
+ATOM     26  C3  RRP d           8.047   7.973  25.379  0.00  0.00     0.045 A 
+ATOM     27  C6  RRP d           9.429   7.715  25.738  0.00  0.00    -0.017 A 
+ATOM     28  C5  RRP d          10.310   8.150  24.719  0.00  0.00     0.018 A 
+ATOM     29  C11 RRP d           9.867   7.114  26.923  0.00  0.00     0.014 A 
+ATOM     30  S2  RRP d           9.561   8.839  23.384  0.00  0.00    -0.076 SA
+ATOM     31  C10 RRP d          11.731   7.948  24.943  0.00  0.00     0.043 A 
+ATOM     32  C14 RRP d          12.176   7.338  26.130  0.00  0.00     0.035 A 
+ATOM     33 CL   RRP d          13.871   7.112  26.329  0.00  0.00    -0.084 Cl
+ATOM     34  C15 RRP d          11.261   6.915  27.138  0.00  0.00     0.024 A 
+ENDBRANCH  22  25
+ENDBRANCH   5  22
+TORSDOF 6

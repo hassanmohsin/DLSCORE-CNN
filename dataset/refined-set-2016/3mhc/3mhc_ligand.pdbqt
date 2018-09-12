@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAV_22  and  NAA_1 
+REMARK       I    between atoms: NAM_13  and  CAO_15 
+REMARK    2  A    between atoms: CAP_16  and  NAM_13 
+REMARK    3  A    between atoms: CAO_15  and  CAU_21 
+REMARK    4  A    between atoms: CAQ_17  and  SAV_22 
+ROOT
+ATOM      1  OAB ARZ d          -6.472   5.778  13.458  0.00  0.00    -0.272 OA
+ATOM      2  NAM ARZ d          -4.109   5.246  13.615  0.00  0.00    -0.304 N 
+ATOM      3  CAO ARZ d          -5.330   5.936  13.198  0.00  0.00     0.232 C 
+ATOM      4  H15 ARZ d          -3.153   5.463  13.419  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  CAP ARZ d          -4.641   4.222  14.348  0.00  0.00     0.197 A 
+ATOM      6  NAK ARZ d          -3.531   3.530  14.810  0.00  0.00    -0.122 NA
+ATOM      7  NAL ARZ d          -3.732   2.367  15.668  0.00  0.00    -0.126 NA
+ATOM      8  CAQ ARZ d          -5.080   2.261  15.799  0.00  0.00     0.237 A 
+ATOM      9  SAN ARZ d          -5.859   3.443  14.965  0.00  0.00    -0.015 SA
+BRANCH   8  10
+ATOM     10  SAV ARZ d          -5.848   0.885  16.614  0.00  0.00     0.282 S 
+ATOM     11  OAC ARZ d          -5.259   1.153  17.992  0.00  0.00    -0.199 OA
+ATOM     12  OAD ARZ d          -7.199   1.126  16.513  0.00  0.00    -0.199 OA
+BRANCH  10  13
+ATOM     13  NAA ARZ d          -5.324  -0.342  16.132  0.00  0.00    -0.323 N 
+ATOM     14  H1  ARZ d          -4.344  -0.528  16.200  0.00  0.00     0.169 HD
+ATOM     15  H2  ARZ d          -5.935  -1.021  15.724  0.00  0.00     0.169 HD
+ENDBRANCH  10  13
+ENDBRANCH   8  10
+ENDBRANCH   2   5
+BRANCH   3  16
+ATOM     16  CAU ARZ d          -5.220   6.870  11.852  0.00  0.00     0.042 C 
+ATOM     17  CAH ARZ d          -4.828   6.428  10.547  0.00  0.00     0.024 C 
+ATOM     18  CAR ARZ d          -4.973   7.191   9.307  0.00  0.00    -0.013 C 
+ATOM     19  CAE ARZ d          -3.929   8.160   9.766  0.00  0.00     0.009 C 
+ATOM     20  CAF ARZ d          -6.290   7.974   9.234  0.00  0.00     0.009 C 
+ATOM     21  CAS ARZ d          -4.164   8.823  11.096  0.00  0.00    -0.013 C 
+ATOM     22  CAG ARZ d          -5.464   9.384  10.829  0.00  0.00     0.009 C 
+ATOM     23  CAI ARZ d          -3.997   7.691  12.038  0.00  0.00     0.024 C 
+ATOM     24  CAT ARZ d          -6.623   8.612  10.614  0.00  0.00    -0.013 C 
+ATOM     25  CAJ ARZ d          -6.503   7.617  11.728  0.00  0.00     0.024 C 
+ENDBRANCH   3  16
+TORSDOF 4

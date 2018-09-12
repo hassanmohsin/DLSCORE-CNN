@@ -1,0 +1,43 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_11 
+REMARK    2  A    between atoms: O1_11  and  C11_12 
+REMARK    3  A    between atoms: C11_12  and  C12_13 
+REMARK    4  A    between atoms: C12_13  and  O2_14 
+REMARK    5  A    between atoms: C12_13  and  C13_15 
+REMARK    6  A    between atoms: N1_16  and  C14_17 
+ROOT
+ATOM      1  C1  RNP d           3.931   9.075  25.832  0.00  0.00     0.080 A 
+ATOM      2  C2  RNP d           4.012   9.770  24.636  0.00  0.00     0.037 A 
+ATOM      3  C3  RNP d           3.494  11.071  24.541  0.00  0.00     0.004 A 
+ATOM      4  C4  RNP d           2.894  11.718  25.630  0.00  0.00     0.012 A 
+ATOM      5  C5  RNP d           2.216  11.672  27.992  0.00  0.00     0.012 A 
+ATOM      6  C6  RNP d           2.161  10.956  29.189  0.00  0.00     0.001 A 
+ATOM      7  C7  RNP d           2.658   9.660  29.312  0.00  0.00     0.001 A 
+ATOM      8  C8  RNP d           3.246   9.032  28.219  0.00  0.00     0.015 A 
+ATOM      9  C9  RNP d           3.322   9.717  27.017  0.00  0.00     0.007 A 
+ATOM     10  C10 RNP d           2.787  11.087  26.867  0.00  0.00    -0.023 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  O1  RNP d           4.414   7.806  25.998  0.00  0.00    -0.347 OA
+BRANCH  11  12
+ATOM     12  C11 RNP d           5.105   7.165  24.898  0.00  0.00     0.213 C 
+BRANCH  12  13
+ATOM     13  C12 RNP d           5.780   5.875  25.309  0.00  0.00     0.182 C 
+BRANCH  13  14
+ATOM     14  O2  RNP d           6.377   6.029  26.600  0.00  0.00    -0.388 OA
+ATOM     15  H11 RNP d           5.705   6.248  27.235  0.00  0.00     0.210 HD
+ENDBRANCH  13  14
+BRANCH  13  16
+ATOM     16  C13 RNP d           6.866   5.538  24.322  0.00  0.00     0.117 C 
+ATOM     17  N1  RNP d           7.246   4.258  24.260  0.00  0.00    -0.299 NA
+BRANCH  17  18
+ATOM     18  C14 RNP d           7.192   3.347  25.401  0.00  0.00     0.099 C 
+ATOM     19  C15 RNP d           6.838   1.949  24.898  0.00  0.00     0.034 C 
+ATOM     20  C16 RNP d           8.550   3.294  26.096  0.00  0.00     0.034 C 
+ENDBRANCH  17  18
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 6

@@ -1,0 +1,79 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O8_1  and  C8_2 
+REMARK    2  A    between atoms: C9_3  and  O9_4 
+REMARK    3  A    between atoms: C10_5  and  O10_6 
+REMARK    4  A    between atoms: C11_7  and  C12_8 
+REMARK    5  A    between atoms: C12_8  and  O12_9 
+REMARK    6  A    between atoms: C7_11  and  O4_12 
+REMARK    7  A    between atoms: O4_12  and  C4_13 
+REMARK    8  A    between atoms: C3_14  and  O3_15 
+REMARK    9  A    between atoms: C2_16  and  O2_17 
+REMARK   10  A    between atoms: C1_18  and  SAI_19 
+REMARK   11  A    between atoms: SAI_19  and  NAJ_22 
+REMARK   12  A    between atoms: C5_24  and  C6_25 
+REMARK   13  A    between atoms: C6_25  and  O6_26 
+ROOT
+ATOM      1  C4  MOL d          17.130   5.617  12.894  0.00  0.00     0.187 C 
+ATOM      2  C3  MOL d          16.941   4.137  12.507  0.00  0.00     0.182 C 
+ATOM      3  C2  MOL d          16.346   3.237  13.616  0.00  0.00     0.195 C 
+ATOM      4  C1  MOL d          16.639   3.716  15.091  0.00  0.00     0.295 C 
+ATOM      5  O5  MOL d          16.532   5.128  15.373  0.00  0.00    -0.356 OA
+ATOM      6  C5  MOL d          16.772   6.094  14.339  0.00  0.00     0.178 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O4  MOL d          16.559   6.671  12.026  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C7  MOL d          16.385   6.654  10.581  0.00  0.00     0.292 C 
+ATOM      9  C8  MOL d          17.586   7.255   9.873  0.00  0.00     0.204 C 
+ATOM     10  C9  MOL d          18.034   8.595  10.541  0.00  0.00     0.183 C 
+ATOM     11  C10 MOL d          16.830   9.486  11.043  0.00  0.00     0.180 C 
+ATOM     12  C11 MOL d          15.508   8.657  11.341  0.00  0.00     0.179 C 
+ATOM     13  O11 MOL d          15.284   7.561  10.375  0.00  0.00    -0.348 OA
+BRANCH   9  14
+ATOM     14  O8  MOL d          18.616   6.268   9.904  0.00  0.00    -0.388 OA
+ATOM     15  H1  MOL d          18.303   5.473   9.489  0.00  0.00     0.210 HD
+ENDBRANCH   9  14
+BRANCH  10  16
+ATOM     16  O9  MOL d          18.969   9.323   9.702  0.00  0.00    -0.390 OA
+ATOM     17  H4  MOL d          19.220  10.130  10.136  0.00  0.00     0.210 HD
+ENDBRANCH  10  16
+BRANCH  11  18
+ATOM     18  O10 MOL d          16.573  10.629  10.220  0.00  0.00    -0.390 OA
+ATOM     19  H6  MOL d          15.841  11.117  10.578  0.00  0.00     0.210 HD
+ENDBRANCH  11  18
+BRANCH  12  20
+ATOM     20  C12 MOL d          14.238   9.437  11.592  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O12 MOL d          14.085  10.402  10.542  0.00  0.00    -0.398 OA
+ATOM     22  H10 MOL d          14.832  10.988  10.541  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  12  20
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  23
+ATOM     23  O3  MOL d          16.295   3.957  11.223  0.00  0.00    -0.390 OA
+ATOM     24  H14 MOL d          16.207   3.029  11.041  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   6  25
+ATOM     25  C6  MOL d          15.464   6.850  14.258  0.00  0.00     0.198 C 
+BRANCH  25  26
+ATOM     26  O6  MOL d          15.395   7.735  15.323  0.00  0.00    -0.398 OA
+ATOM     27  H23 MOL d          15.438   7.251  16.139  0.00  0.00     0.209 HD
+ENDBRANCH  25  26
+ENDBRANCH   6  25
+BRANCH   3  28
+ATOM     28  O2  MOL d          16.975   1.939  13.423  0.00  0.00    -0.389 OA
+ATOM     29  H16 MOL d          16.651   1.331  14.078  0.00  0.00     0.210 HD
+ENDBRANCH   3  28
+BRANCH   4  30
+ATOM     30  SAI MOL d          15.647   2.852  16.356  0.00  0.00     0.254 S 
+ATOM     31  OAM MOL d          16.197   3.211  17.718  0.00  0.00    -0.203 OA
+ATOM     32  OAE MOL d          14.185   3.221  16.235  0.00  0.00    -0.203 OA
+BRANCH  30  33
+ATOM     33  NAJ MOL d          15.832   1.222  16.078  0.00  0.00    -0.326 N 
+ATOM     34  H18 MOL d          15.367   0.559  16.665  0.00  0.00     0.168 HD
+ATOM     35  H19 MOL d          16.408   0.905  15.324  0.00  0.00     0.168 HD
+ENDBRANCH  30  33
+ENDBRANCH   4  30
+TORSDOF 13

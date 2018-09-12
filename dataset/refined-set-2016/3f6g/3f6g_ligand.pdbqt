@@ -1,0 +1,29 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG1_6 
+ROOT
+ATOM      1  CA  ILE d          14.326 -37.010  -4.031  0.00  0.00     0.287 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ILE d          14.601 -38.212  -4.827  0.00  0.00    -0.065 N 
+ATOM      3  H1  ILE d          15.159 -37.964  -5.629  0.00  0.00     0.275 HD
+ATOM      4  H2  ILE d          13.731 -38.617  -5.136  0.00  0.00     0.275 HD
+ATOM      5  H3  ILE d          15.102 -38.881  -4.263  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   ILE d          15.644 -36.386  -3.569  0.00  0.00     0.204 C 
+ATOM      7  O   ILE d          16.572 -37.170  -3.270  0.00  0.00    -0.646 OA
+ATOM      8  OXT ILE d          15.698 -35.139  -3.525  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  ILE d          13.478 -37.391  -2.814  0.00  0.00     0.022 C 
+ATOM     10  CG2 ILE d          13.217 -36.164  -1.939  0.00  0.00     0.012 C 
+BRANCH   9  11
+ATOM     11  CG1 ILE d          12.162 -38.027  -3.266  0.00  0.00     0.002 C 
+ATOM     12  CD1 ILE d          11.288 -38.398  -2.066  0.00  0.00     0.005 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 4

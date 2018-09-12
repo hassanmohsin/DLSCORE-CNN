@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  C_5 
+REMARK    3  A    between atoms: CA_4  and  CB_8 
+REMARK    4  A    between atoms: CB_8  and  CG_9 
+ROOT
+ATOM      1  CA  AVI d           9.097  14.595  14.935  0.00  0.00     0.292 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   AVI d           9.015  15.901  15.591  0.00  0.00    -0.064 N 
+ATOM      3  CAL AVI d          10.005  15.985  16.663  0.00  0.00     0.270 C 
+ATOM      4  CAM AVI d           9.405  16.901  14.593  0.00  0.00     0.270 C 
+ATOM      5  H   AVI d           8.086  16.069  15.943  0.00  0.00     0.280 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   AVI d           8.084  14.505  13.793  0.00  0.00     0.205 C 
+ATOM      7  OXT AVI d           6.907  14.672  14.120  0.00  0.00    -0.646 OA
+ATOM      8  O   AVI d           8.464  14.256  12.650  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  AVI d           8.839  13.446  15.915  0.00  0.00     0.105 C 
+BRANCH   9  10
+ATOM     10  CG  AVI d           8.904  12.091  15.283  0.00  0.00     0.053 A 
+ATOM     11  ND1 AVI d           8.092  11.103  15.623  0.00  0.00    -0.247 NA
+ATOM     12  CE1 AVI d           8.358  10.021  14.917  0.00  0.00     0.207 A 
+ATOM     13  NE2 AVI d           9.354  10.299  14.102  0.00  0.00    -0.359 N 
+ATOM     14  CD2 AVI d           9.721  11.605  14.312  0.00  0.00     0.116 A 
+ATOM     15  H   AVI d           9.782   9.651  13.426  0.00  0.00     0.166 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4

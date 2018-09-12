@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_10  and  N2_11 
+REMARK    2  A    between atoms: C10_15  and  C11_17 
+ROOT
+ATOM      1 CL1  BBP d          28.082   2.172  55.217  0.00  0.00    -0.084 Cl
+ATOM      2  C4  BBP d          29.691   2.531  55.860  0.00  0.00     0.035 A 
+ATOM      3  C3  BBP d          29.799   3.719  56.562  0.00  0.00     0.026 A 
+ATOM      4  C2  BBP d          31.001   4.073  57.141  0.00  0.00     0.035 A 
+ATOM      5  C5  BBP d          30.779   1.664  55.757  0.00  0.00     0.045 A 
+ATOM      6  C6  BBP d          31.997   2.027  56.349  0.00  0.00     0.039 A 
+ATOM      7  S1  BBP d          33.418   1.081  56.274  0.00  0.00    -0.048 SA
+ATOM      8  C7  BBP d          32.097   3.233  57.041  0.00  0.00     0.077 A 
+ATOM      9  N1  BBP d          33.354   3.388  57.539  0.00  0.00    -0.222 NA
+ATOM     10  C1  BBP d          34.133   2.343  57.233  0.00  0.00     0.197 A 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N2  BBP d          35.421   2.329  57.660  0.00  0.00    -0.187 N 
+ATOM     12  C8  BBP d          36.333   1.373  57.434  0.00  0.00     0.186 A 
+ATOM     13  O1  BBP d          36.016   0.153  56.681  0.00  0.00    -0.175 OA
+ATOM     14  C9  BBP d          37.693   1.560  58.004  0.00  0.00     0.146 A 
+ATOM     15  C10 BBP d          37.282   2.889  58.574  0.00  0.00     0.048 A 
+ATOM     16  N3  BBP d          36.010   3.365  58.433  0.00  0.00    -0.171 NA
+BRANCH  15  17
+ATOM     17  C11 BBP d          38.298   3.660  59.377  0.00  0.00    -0.008 C 
+ATOM     18  C12 BBP d          37.857   5.100  59.581  0.00  0.00     0.021 C 
+ATOM     19  C13 BBP d          38.355   2.979  60.740  0.00  0.00     0.021 C 
+ATOM     20  C14 BBP d          39.686   3.598  58.758  0.00  0.00     0.021 C 
+ENDBRANCH  15  17
+ENDBRANCH  10  11
+TORSDOF 2

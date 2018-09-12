@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_10  and  N15_14 
+REMARK    2  A    between atoms: N15_14  and  C25_16 
+REMARK    3  A    between atoms: C25_16  and  C11_17 
+ROOT
+ATOM      1  N1  SAQ d         -17.359  17.988 -23.888  0.00  0.00    -0.317 N 
+ATOM      2  N3  SAQ d         -15.821  17.584 -22.136  0.00  0.00    -0.243 NA
+ATOM      3  C4  SAQ d         -16.835  17.871 -21.224  0.00  0.00     0.076 A 
+ATOM      4  C5  SAQ d         -18.134  18.215 -21.638  0.00  0.00     0.063 A 
+ATOM      5  C6  SAQ d         -18.421  18.290 -23.075  0.00  0.00     0.259 A 
+ATOM      6  C7  SAQ d         -19.108  18.505 -20.688  0.00  0.00     0.054 A 
+ATOM      7  C8  SAQ d         -18.790  18.491 -19.344  0.00  0.00     0.104 A 
+ATOM      8  C10 SAQ d         -16.522  17.843 -19.858  0.00  0.00     0.065 A 
+ATOM      9  N12 SAQ d         -19.492  18.814 -18.199  0.00  0.00    -0.063 NA
+ATOM     10  C13 SAQ d         -18.624  18.705 -17.168  0.00  0.00     0.701 A 
+ATOM     11  C2  SAQ d         -16.116  17.648 -23.432  0.00  0.00     0.210 A 
+ATOM     12  C9  SAQ d         -17.501  18.172 -18.916  0.00  0.00     0.081 A 
+ATOM     13  N14 SAQ d         -17.417  18.314 -17.529  0.00  0.00    -0.188 N 
+ATOM     14  O16 SAQ d         -19.506  18.627 -23.541  0.00  0.00    -0.267 OA
+ATOM     15  H   SAQ d         -17.503  18.018 -24.877  0.00  0.00     0.169 HD
+ATOM     16  H   SAQ d         -16.599  18.151 -16.925  0.00  0.00     0.184 HD
+ENDROOT
+BRANCH  10  17
+ATOM     17  N15 SAQ d         -19.019  18.991 -15.923  0.00  0.00    -0.220 N 
+ATOM     18  H   SAQ d         -19.999  19.262 -15.758  0.00  0.00     0.178 HD
+BRANCH  17  19
+ATOM     19  C25 SAQ d         -18.108  18.930 -14.803  0.00  0.00     0.184 C 
+BRANCH  19  20
+ATOM     20  C11 SAQ d         -17.383  20.229 -14.699  0.00  0.00     0.001 A 
+ATOM     21  S1  SAQ d         -18.228  21.710 -14.599  0.00  0.00    -0.105 SA
+ATOM     22  C12 SAQ d         -16.781  22.606 -14.551  0.00  0.00     0.050 A 
+ATOM     23  C13 SAQ d         -15.690  21.819 -14.607  0.00  0.00     0.008 A 
+ATOM     24  C14 SAQ d         -16.023  20.436 -14.693  0.00  0.00     0.017 A 
+ENDBRANCH  19  20
+ENDBRANCH  17  19
+ENDBRANCH  10  17
+TORSDOF 3

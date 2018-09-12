@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N1_4 
+REMARK    2  A    between atoms: S1_2  and  C13_10 
+REMARK    3  A    between atoms: N1_4  and  C12_5 
+REMARK    4  A    between atoms: C12_5  and  C14_6 
+REMARK       I    between atoms: C14_6  and  N2_8 
+REMARK    5  A    between atoms: C2_15  and  C1_16 
+ROOT
+ATOM      1  C13 HS4 d           1.864  -6.031   5.380  0.00  0.00     0.079 A 
+ATOM      2  C10 HS4 d           2.956  -6.810   4.984  0.00  0.00     0.026 A 
+ATOM      3  C5  HS4 d           4.038  -7.028   5.832  0.00  0.00     0.014 A 
+ATOM      4  C11 HS4 d           1.887  -5.446   6.650  0.00  0.00     0.026 A 
+ATOM      5  C8  HS4 d           2.974  -5.663   7.501  0.00  0.00     0.014 A 
+ATOM      6  C2  HS4 d           4.066  -6.436   7.093  0.00  0.00    -0.026 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S1  HS4 d           0.707  -5.911   4.281  0.00  0.00     0.259 S 
+ATOM      8  O4  HS4 d          -0.293  -5.368   5.173  0.00  0.00    -0.201 OA
+ATOM      9  O3  HS4 d           0.419  -7.099   3.607  0.00  0.00    -0.201 OA
+BRANCH   7  10
+ATOM     10  N1  HS4 d           0.760  -4.721   3.214  0.00  0.00    -0.306 N 
+ATOM     11  H1  HS4 d           0.992  -4.973   2.274  0.00  0.00     0.172 HD
+BRANCH  10  12
+ATOM     12  C12 HS4 d           0.510  -3.329   3.463  0.00  0.00     0.239 C 
+BRANCH  12  13
+ATOM     13  C14 HS4 d           1.664  -2.694   4.189  0.00  0.00     0.287 C 
+ATOM     14  O1  HS4 d           2.814  -2.685   3.756  0.00  0.00    -0.267 OA
+ATOM     15  N2  HS4 d           1.341  -2.124   5.327  0.00  0.00    -0.057 NA
+ATOM     16  O2  HS4 d           2.326  -1.482   6.038  0.00  0.00    -0.058 OA
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   6  17
+ATOM     17  C1  HS4 d           5.204  -6.724   8.010  0.00  0.00    -0.026 A 
+ATOM     18  C4  HS4 d           6.532  -6.775   7.600  0.00  0.00     0.012 A 
+ATOM     19  C7  HS4 d           7.539  -7.095   8.513  0.00  0.00     0.001 A 
+ATOM     20  C9  HS4 d           7.222  -7.396   9.831  0.00  0.00     0.000 A 
+ATOM     21  C6  HS4 d           5.894  -7.377  10.238  0.00  0.00     0.001 A 
+ATOM     22  C3  HS4 d           4.894  -7.058   9.331  0.00  0.00     0.012 A 
+ENDBRANCH   6  17
+TORSDOF 5

@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_7  and  C1_1 
+REMARK    2  A    between atoms: C4_4  and  N3_10 
+REMARK    3  A    between atoms: C7_7  and  N1_8 
+REMARK       I    between atoms: N3_10  and  C8_11 
+REMARK    4  A    between atoms: C8_11  and  C9_13 
+REMARK    5  A    between atoms: C14_19  and  O14_20 
+ROOT
+ATOM      1  C1  MOL d           8.424   0.477  25.438  0.00  0.00     0.029 A 
+ATOM      2  C2  MOL d           8.675   0.788  24.077  0.00  0.00     0.050 A 
+ATOM      3  C3  MOL d           9.210   2.025  23.696  0.00  0.00     0.054 A 
+ATOM      4  C4  MOL d           9.478   2.940  24.691  0.00  0.00     0.036 A 
+ATOM      5  C5  MOL d           9.240   2.686  26.031  0.00  0.00     0.030 A 
+ATOM      6  C6  MOL d           8.719   1.463  26.390  0.00  0.00     0.019 A 
+ATOM      7 CL2  MOL d           8.271  -0.391  22.795  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   4   8
+ATOM      8  N3  MOL d          10.021   4.099  24.414  0.00  0.00    -0.323 N 
+ATOM      9  C8  MOL d           9.573   5.252  24.863  0.00  0.00     0.259 C 
+ATOM     10  O8  MOL d           8.573   5.330  25.572  0.00  0.00    -0.267 OA
+ATOM     11  H8  MOL d          10.828   4.109  23.823  0.00  0.00     0.169 HD
+BRANCH   9  12
+ATOM     12  C9  MOL d          10.347   6.385  24.439  0.00  0.00     0.067 A 
+ATOM     13  C14 MOL d          11.491   6.334  23.563  0.00  0.00     0.098 A 
+ATOM     14  C13 MOL d          12.188   7.510  23.217  0.00  0.00     0.041 A 
+ATOM     15  C12 MOL d          11.791   8.731  23.728  0.00  0.00     0.027 A 
+ATOM     16  I13 MOL d          13.764   7.530  21.914  0.00  0.00    -0.042 I 
+ATOM     17  C11 MOL d          10.710   8.831  24.570  0.00  0.00    -0.060 A 
+ATOM     18  C10 MOL d          10.001   7.675  24.916  0.00  0.00     0.026 A 
+ATOM     19  C21 MOL d          10.361  10.226  25.094  0.00  0.00     0.048 C 
+BRANCH  13  20
+ATOM     20  O14 MOL d          11.989   5.150  23.043  0.00  0.00    -0.358 OA
+ATOM     21  H14 MOL d          11.449   4.425  23.336  0.00  0.00     0.217 HD
+ENDBRANCH  13  20
+ENDBRANCH   9  12
+ENDBRANCH   4   8
+BRANCH   1  22
+ATOM     22  C7  MOL d           7.966  -0.763  25.871  0.00  0.00     0.104 C 
+ATOM     23  N2  MOL d           8.334  -1.837  25.232  0.00  0.00    -0.385 N 
+ATOM     24  H6  MOL d           8.944  -1.761  24.405  0.00  0.00     0.157 HD
+ATOM     25  H7  MOL d           8.015  -2.762  25.553  0.00  0.00     0.157 HD
+BRANCH  22  26
+ATOM     26  N1  MOL d           7.192  -0.839  26.923  0.00  0.00    -0.385 N 
+ATOM     27  H4  MOL d           6.851  -1.756  27.246  0.00  0.00     0.157 HD
+ATOM     28  H5  MOL d           6.924   0.018  27.428  0.00  0.00     0.157 HD
+ENDBRANCH  22  26
+ENDBRANCH   1  22
+TORSDOF 5

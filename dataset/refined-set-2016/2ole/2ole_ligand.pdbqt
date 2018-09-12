@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAX_6  and  CAW_7 
+REMARK       I    between atoms: CAW_7  and  NAR_9 
+REMARK    2  A    between atoms: CAO_16  and  CAN_18 
+REMARK    3  A    between atoms: CAN_18  and  CAL_19 
+REMARK    4  A    between atoms: CAL_19  and  NAM_20 
+REMARK    5  A    between atoms: CAL_19  and  CAK_21 
+REMARK    6  A    between atoms: CAK_21  and  CAG_22 
+ROOT
+ATOM      1  CAW KR2 d          -4.008   2.821  -7.395  0.00  0.00     0.250 C 
+ATOM      2  OAA KR2 d          -2.580   2.891  -7.484  0.00  0.00    -0.199 OA
+ATOM      3  NAR KR2 d          -4.598   4.132  -7.076  0.00  0.00    -0.181 NA
+ATOM      4  CAV KR2 d          -5.341   4.629  -8.246  0.00  0.00     0.118 C 
+ATOM      5  CDD KR2 d          -5.078   6.096  -8.593  0.00  0.00     0.016 C 
+ATOM      6  CNN KR2 d          -3.696   6.332  -9.207  0.00  0.00     0.003 C 
+ATOM      7  CAT KR2 d          -2.594   6.515  -8.158  0.00  0.00     0.021 C 
+ATOM      8  CAS KR2 d          -2.373   5.273  -7.287  0.00  0.00     0.145 C 
+ATOM      9  NAQ KR2 d          -3.616   4.930  -6.575  0.00  0.00    -0.288 N 
+ATOM     10  CAO KR2 d          -3.980   5.609  -5.493  0.00  0.00     0.170 C 
+ATOM     11  OAP KR2 d          -5.263   5.688  -5.056  0.00  0.00    -0.176 OA
+ENDROOT
+BRANCH  10  12
+ATOM     12  CAN KR2 d          -2.932   6.422  -4.738  0.00  0.00     0.121 C 
+BRANCH  12  13
+ATOM     13  CAL KR2 d          -3.309   6.533  -3.261  0.00  0.00     0.195 C 
+BRANCH  13  14
+ATOM     14  NAM KR2 d          -2.542   7.666  -2.726  0.00  0.00    -0.074 N 
+ATOM     15  H19 KR2 d          -2.755   7.784  -1.748  0.00  0.00     0.274 HD
+ATOM     16  H20 KR2 d          -2.788   8.505  -3.227  0.00  0.00     0.274 HD
+ATOM     17  H21 KR2 d          -1.556   7.486  -2.836  0.00  0.00     0.274 HD
+ENDBRANCH  13  14
+BRANCH  13  18
+ATOM     18  CAK KR2 d          -2.866   5.393  -2.345  0.00  0.00     0.075 C 
+BRANCH  18  19
+ATOM     19  CAG KR2 d          -3.491   5.170  -1.122  0.00  0.00    -0.015 A 
+ATOM     20  CAH KR2 d          -4.528   5.989  -0.703  0.00  0.00     0.055 A 
+ATOM     21  CAC KR2 d          -5.021   5.943   0.599  0.00  0.00     0.155 A 
+ATOM     22  FAB KR2 d          -6.131   6.644   0.893  0.00  0.00    -0.203 F 
+ATOM     23  CAD KR2 d          -4.437   5.068   1.510  0.00  0.00     0.157 A 
+ATOM     24  FAI KR2 d          -4.600   5.221   2.839  0.00  0.00    -0.203 F 
+ATOM     25  CAE KR2 d          -3.459   4.187   1.070  0.00  0.00     0.088 A 
+ATOM     26  CAF KR2 d          -2.990   4.217  -0.239  0.00  0.00     0.125 A 
+ATOM     27  FAJ KR2 d          -1.995   3.378  -0.572  0.00  0.00    -0.205 F 
+ENDBRANCH  18  19
+ENDBRANCH  13  18
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+BRANCH   1  28
+ATOM     28  CAX KR2 d          -4.379   1.963  -6.180  0.00  0.00     0.001 A 
+ATOM     29  CAY KR2 d          -5.475   1.106  -6.245  0.00  0.00     0.012 A 
+ATOM     30  CBC KR2 d          -5.974   0.521  -5.084  0.00  0.00     0.001 A 
+ATOM     31  CBB KR2 d          -5.375   0.791  -3.855  0.00  0.00     0.000 A 
+ATOM     32  CBA KR2 d          -4.271   1.638  -3.792  0.00  0.00     0.001 A 
+ATOM     33  CAZ KR2 d          -3.770   2.219  -4.954  0.00  0.00     0.012 A 
+ENDBRANCH   1  28
+TORSDOF 6

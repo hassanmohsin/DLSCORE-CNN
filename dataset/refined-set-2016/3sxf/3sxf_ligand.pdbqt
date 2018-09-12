@@ -1,0 +1,48 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  NAD_10 
+REMARK    2  A    between atoms: OAP_19  and  CAL_17 
+REMARK    3  A    between atoms: CAQ_20  and  OAP_19 
+REMARK    4  A    between atoms: CAT_22  and  CAR_21 
+REMARK    5  A    between atoms: CAY_25  and  NAZ_26 
+ROOT
+ATOM      1  N1  BK5 d          21.372  12.289  63.415  0.00  0.00    -0.224 NA
+ATOM      2  C2  BK5 d          22.537  12.891  63.174  0.00  0.00     0.237 A 
+ATOM      3  N3  BK5 d          22.630  14.214  63.134  0.00  0.00    -0.222 NA
+ATOM      4  C4  BK5 d          21.540  14.982  63.322  0.00  0.00     0.164 A 
+ATOM      5  C5  BK5 d          20.308  14.400  63.581  0.00  0.00     0.088 A 
+ATOM      6  C6  BK5 d          20.248  12.996  63.629  0.00  0.00     0.139 A 
+ATOM      7  NAO BK5 d          20.178  16.611  63.567  0.00  0.00    -0.169 NA
+ATOM      8  CAT BK5 d          19.446  15.499  63.738  0.00  0.00     0.105 A 
+ATOM      9  NAZ BK5 d          21.355  16.299  63.330  0.00  0.00    -0.247 N 
+ENDROOT
+BRANCH   8  10
+ATOM     10  CAR BK5 d          18.077  15.460  64.014  0.00  0.00    -0.004 A 
+ATOM     11  CAF BK5 d          17.207  16.224  63.232  0.00  0.00     0.015 A 
+ATOM     12  CAH BK5 d          15.835  16.229  63.480  0.00  0.00     0.013 A 
+ATOM     13  CAU BK5 d          15.313  15.484  64.530  0.00  0.00    -0.023 A 
+ATOM     14  CAJ BK5 d          13.938  15.491  64.776  0.00  0.00     0.049 A 
+ATOM     15  CAV BK5 d          16.172  14.739  65.340  0.00  0.00    -0.025 A 
+ATOM     16  CAQ BK5 d          13.413  14.740  65.823  0.00  0.00     0.069 A 
+ATOM     17  CAE BK5 d          14.270  13.995  66.636  0.00  0.00     0.037 A 
+ATOM     18  CAG BK5 d          15.644  13.998  66.390  0.00  0.00     0.015 A 
+ATOM     19  CAK BK5 d          17.549  14.728  65.080  0.00  0.00     0.026 A 
+BRANCH  16  20
+ATOM     20  OAP BK5 d          12.079  14.730  66.094  0.00  0.00    -0.351 OA
+BRANCH  20  21
+ATOM     21  CAL BK5 d          11.211  14.939  64.950  0.00  0.00     0.171 C 
+ATOM     22  CAA BK5 d           9.740  14.735  65.346  0.00  0.00     0.034 C 
+ENDBRANCH  20  21
+ENDBRANCH  16  20
+ENDBRANCH   8  10
+BRANCH   6  23
+ATOM     23  NAD BK5 d          19.120  12.323  63.863  0.00  0.00    -0.383 N 
+ATOM     24  H11 BK5 d          18.241  12.833  64.031  0.00  0.00     0.157 HD
+ATOM     25  H12 BK5 d          19.128  11.293  63.876  0.00  0.00     0.157 HD
+ENDBRANCH   6  23
+BRANCH   9  26
+ATOM     26  CAY BK5 d          22.454  17.254  63.088  0.00  0.00     0.104 C 
+ATOM     27  CAB BK5 d          22.213  18.568  63.835  0.00  0.00     0.034 C 
+ATOM     28  CAC BK5 d          22.573  17.496  61.579  0.00  0.00     0.034 C 
+ENDBRANCH   9  26
+TORSDOF 5

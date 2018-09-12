@@ -1,0 +1,108 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5A_1  and  N5A_8 
+REMARK    2  A    between atoms: C4A_2  and  O4A_7 
+REMARK    3  A    between atoms: C2A_3  and  C1A_15 
+REMARK    4  A    between atoms: O1A_18  and  C2A_3 
+REMARK    5  A    between atoms: C6A_5  and  C7A_9 
+REMARK       I    between atoms: N5A_8  and  C10_30 
+REMARK    6  A    between atoms: C7A_9  and  C8A_10 
+REMARK    7  A    between atoms: C7A_9  and  O7A_14 
+REMARK    8  A    between atoms: C8A_10  and  C9A_11 
+REMARK    9  A    between atoms: C8A_10  and  O8A_13 
+REMARK   10  A    between atoms: C9A_11  and  O9A_12 
+REMARK   11  A    between atoms: PA_26  and  O1A_18 
+REMARK   12  A    between atoms: C1'_36  and  N1_20 
+REMARK   13  A    between atoms: O5'_39  and  PA_26 
+REMARK   14  A    between atoms: C3'_34  and  O3'_41 
+REMARK   15  A    between atoms: C2'_35  and  O2'_42 
+REMARK   16  A    between atoms: C5'_40  and  C4'_38 
+REMARK   17  A    between atoms: O5'_39  and  C5'_40 
+ROOT
+ATOM      1  C5A CSF d          10.740   4.217   1.348  0.00  0.00     0.147 C 
+ATOM      2  C4A CSF d          11.554   3.561   2.476  0.00  0.00     0.183 C 
+ATOM      3  C2A CSF d          10.196   1.507   2.338  0.00  0.00     0.299 C 
+ATOM      4  O6A CSF d           9.505   2.115   1.234  0.00  0.00    -0.334 OA
+ATOM      5  C6A CSF d          10.232   3.077   0.446  0.00  0.00     0.182 C 
+ATOM      6  C3A CSF d          10.638   2.626   3.280  0.00  0.00     0.275 C 
+ATOM      7  F3A CSF d           9.533   3.284   3.790  0.00  0.00    -0.240 F 
+ENDROOT
+BRANCH   3   8
+ATOM      8  C1A CSF d           9.232   0.571   3.050  0.00  0.00     0.242 C 
+ATOM      9  OBA CSF d           9.593  -0.038   4.072  0.00  0.00    -0.644 OA
+ATOM     10  OAA CSF d           8.073   0.427   2.605  0.00  0.00    -0.644 OA
+ENDBRANCH   3   8
+BRANCH   3  11
+ATOM     11  O1A CSF d          11.419   0.833   1.946  0.00  0.00    -0.238 OA
+BRANCH  11  12
+ATOM     12  PA  CSF d          11.679  -0.143   0.663  0.00  0.00     0.411 P 
+ATOM     13  O2A CSF d          12.822   0.460  -0.122  0.00  0.00    -0.624 OA
+ATOM     14  O3A CSF d          10.351  -0.421   0.039  0.00  0.00    -0.624 OA
+BRANCH  12  15
+ATOM     15  O5' CSF d          12.266  -1.449   1.410  0.00  0.00    -0.287 OA
+BRANCH  15  16
+ATOM     16  C5' CSF d          12.360  -1.468   2.840  0.00  0.00     0.216 C 
+BRANCH  16  17
+ATOM     17  C4' CSF d          12.546  -2.887   3.379  0.00  0.00     0.180 C 
+ATOM     18  C3' CSF d          13.793  -3.575   2.844  0.00  0.00     0.182 C 
+ATOM     19  C2' CSF d          13.432  -5.035   3.023  0.00  0.00     0.198 C 
+ATOM     20  C1' CSF d          11.950  -5.059   2.682  0.00  0.00     0.264 C 
+ATOM     21  O4' CSF d          11.463  -3.741   2.993  0.00  0.00    -0.353 OA
+BRANCH  18  22
+ATOM     22  O3' CSF d          14.981  -3.205   3.551  0.00  0.00    -0.390 OA
+ATOM     23  H27 CSF d          14.890  -3.442   4.467  0.00  0.00     0.210 HD
+ENDBRANCH  18  22
+BRANCH  19  24
+ATOM     24  O2' CSF d          13.580  -5.413   4.397  0.00  0.00    -0.388 OA
+ATOM     25  H28 CSF d          14.501  -5.404   4.629  0.00  0.00     0.210 HD
+ENDBRANCH  19  24
+BRANCH  20  26
+ATOM     26  N1  CSF d          11.712  -5.431   1.265  0.00  0.00    -0.278 N 
+ATOM     27  C2  CSF d          11.739  -6.797   0.893  0.00  0.00     0.352 A 
+ATOM     28  N3  CSF d          11.509  -7.150  -0.400  0.00  0.00    -0.177 NA
+ATOM     29  O2  CSF d          11.976  -7.667   1.770  0.00  0.00    -0.244 OA
+ATOM     30  C4  CSF d          11.243  -6.215  -1.352  0.00  0.00     0.128 A 
+ATOM     31  C5  CSF d          11.217  -4.864  -1.001  0.00  0.00     0.067 A 
+ATOM     32  N4  CSF d          11.022  -6.581  -2.641  0.00  0.00    -0.384 N 
+ATOM     33  C6  CSF d          11.447  -4.502   0.323  0.00  0.00     0.102 A 
+ATOM     34  H16 CSF d          10.822  -5.864  -3.353  0.00  0.00     0.157 HD
+ATOM     35  H17 CSF d          11.055  -7.576  -2.907  0.00  0.00     0.157 HD
+ENDBRANCH  20  26
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   3  11
+BRANCH   5  36
+ATOM     36  C7A CSF d           9.344   3.493  -0.735  0.00  0.00     0.180 C 
+BRANCH  36  37
+ATOM     37  C8A CSF d           8.851   2.269  -1.530  0.00  0.00     0.173 C 
+BRANCH  37  38
+ATOM     38  C9A CSF d           7.893   2.611  -2.675  0.00  0.00     0.198 C 
+BRANCH  38  39
+ATOM     39  O9A CSF d           8.592   3.323  -3.705  0.00  0.00    -0.398 OA
+ATOM     40  H11 CSF d           9.298   2.782  -4.039  0.00  0.00     0.209 HD
+ENDBRANCH  38  39
+ENDBRANCH  37  38
+BRANCH  37  41
+ATOM     41  O8A CSF d           9.965   1.541  -2.068  0.00  0.00    -0.391 OA
+ATOM     42  H12 CSF d          10.568   1.323  -1.367  0.00  0.00     0.210 HD
+ENDBRANCH  37  41
+ENDBRANCH  36  37
+BRANCH  36  43
+ATOM     43  O7A CSF d           8.228   4.238  -0.239  0.00  0.00    -0.390 OA
+ATOM     44  H13 CSF d           8.542   4.990   0.249  0.00  0.00     0.210 HD
+ENDBRANCH  36  43
+ENDBRANCH   5  36
+BRANCH   2  45
+ATOM     45  O4A CSF d          12.240   4.478   3.342  0.00  0.00    -0.390 OA
+ATOM     46  H5  CSF d          12.799   5.044   2.823  0.00  0.00     0.210 HD
+ENDBRANCH   2  45
+BRANCH   1  47
+ATOM     47  N5A CSF d          11.658   5.014   0.538  0.00  0.00    -0.352 N 
+ATOM     48  C10 CSF d          11.378   6.228   0.041  0.00  0.00     0.214 C 
+ATOM     49  O10 CSF d          10.313   6.805   0.219  0.00  0.00    -0.274 OA
+ATOM     50  C11 CSF d          12.474   6.852  -0.775  0.00  0.00     0.117 C 
+ATOM     51  H6  CSF d          12.559   4.627   0.340  0.00  0.00     0.163 HD
+ENDBRANCH   1  47
+TORSDOF 17

@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O8_1  and  C8_2 
+REMARK    2  A    between atoms: N3_11  and  C1S_12 
+REMARK    3  A    between atoms: C2S_13  and  O2S_14 
+REMARK    4  A    between atoms: C4S_16  and  C5S_19 
+REMARK    5  A    between atoms: C3S_17  and  O3S_18 
+REMARK    6  A    between atoms: C5S_19  and  S5S_20 
+ROOT
+ATOM      1  C8  MCF d          -7.238  25.203 -12.504  0.00  0.00     0.191 C 
+ATOM      2  C7  MCF d          -7.026  23.989 -13.416  0.00  0.00     0.158 C 
+ATOM      3  N6  MCF d          -7.560  22.784 -12.782  0.00  0.00    -0.382 N 
+ATOM      4  C5  MCF d          -7.002  22.163 -11.712  0.00  0.00     0.205 C 
+ATOM      5  N4  MCF d          -6.195  22.639 -10.831  0.00  0.00    -0.224 NA
+ATOM      6  C10 MCF d          -5.716  23.921 -10.705  0.00  0.00     0.161 A 
+ATOM      7  C9  MCF d          -6.237  25.097 -11.445  0.00  0.00     0.112 A 
+ATOM      8  N1  MCF d          -5.513  26.105 -10.969  0.00  0.00    -0.241 NA
+ATOM      9  C2  MCF d          -4.664  25.636 -10.014  0.00  0.00     0.214 A 
+ATOM     10  N3  MCF d          -4.780  24.316  -9.832  0.00  0.00    -0.294 N 
+ATOM     11  H5  MCF d          -8.421  22.378 -13.176  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH  10  12
+ATOM     12  C1S MCF d          -3.949  23.620  -8.819  0.00  0.00     0.262 C 
+ATOM     13  C2S MCF d          -4.426  22.245  -8.402  0.00  0.00     0.198 C 
+ATOM     14  C3S MCF d          -3.132  21.582  -7.970  0.00  0.00     0.180 C 
+ATOM     15  C4S MCF d          -2.130  22.190  -8.942  0.00  0.00     0.165 C 
+ATOM     16  O4S MCF d          -2.576  23.509  -9.224  0.00  0.00    -0.355 OA
+BRANCH  13  17
+ATOM     17  O2S MCF d          -5.288  22.413  -7.272  0.00  0.00    -0.388 OA
+ATOM     18  H10 MCF d          -4.805  22.826  -6.566  0.00  0.00     0.210 HD
+ENDBRANCH  13  17
+BRANCH  14  19
+ATOM     19  O3S MCF d          -2.908  21.995  -6.606  0.00  0.00    -0.390 OA
+ATOM     20  H13 MCF d          -3.557  21.590  -6.043  0.00  0.00     0.210 HD
+ENDBRANCH  14  19
+BRANCH  15  21
+ATOM     21  C5S MCF d          -1.743  21.356 -10.155  0.00  0.00     0.108 C 
+BRANCH  21  22
+ATOM     22  S5S MCF d          -0.436  20.286  -9.622  0.00  0.00    -0.171 SA
+ATOM     23  C6S MCF d          -1.044  18.665  -9.352  0.00  0.00     0.089 C 
+ENDBRANCH  21  22
+ENDBRANCH  15  21
+ENDBRANCH  10  12
+BRANCH   1  24
+ATOM     24  O8  MCF d          -8.572  25.347 -11.968  0.00  0.00    -0.388 OA
+ATOM     25  H1  MCF d          -8.609  26.121 -11.418  0.00  0.00     0.210 HD
+ENDBRANCH   1  24
+TORSDOF 6

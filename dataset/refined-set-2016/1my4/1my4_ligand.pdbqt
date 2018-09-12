@@ -1,0 +1,36 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C7_10 
+REMARK    2  A    between atoms: C7_10  and  C8_11 
+REMARK    3  A    between atoms: C8_11  and  N8_12 
+REMARK    4  A    between atoms: C8_11  and  C9_13 
+ROOT
+ATOM      1  N1  IWD d          77.780  26.897  42.486  0.00  0.00    -0.306 N 
+ATOM      2  C2  IWD d          77.893  25.633  41.902  0.00  0.00     0.329 A 
+ATOM      3  O2  IWD d          77.975  24.618  42.533  0.00  0.00    -0.246 OA
+ATOM      4  N3  IWD d          77.864  25.652  40.492  0.00  0.00    -0.274 N 
+ATOM      5  C4  IWD d          77.761  26.758  39.676  0.00  0.00     0.267 A 
+ATOM      6  O4  IWD d          77.762  26.672  38.471  0.00  0.00    -0.267 OA
+ATOM      7  C5  IWD d          77.626  28.079  40.441  0.00  0.00     0.090 A 
+ATOM      8  I5  IWD d          77.339  29.964  39.464  0.00  0.00    -0.037 I 
+ATOM      9  C6  IWD d          77.627  28.022  41.773  0.00  0.00     0.119 A 
+ATOM     10  H1  IWD d          77.925  24.765  40.034  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  C7  IWD d          77.715  27.008  43.923  0.00  0.00     0.177 C 
+BRANCH  11  12
+ATOM     12  C8  IWD d          76.417  26.468  44.443  0.00  0.00     0.301 C 
+BRANCH  12  13
+ATOM     13  N8  IWD d          75.311  27.461  44.164  0.00  0.00    -0.064 N 
+ATOM     14  H6  IWD d          74.438  27.098  44.514  0.00  0.00     0.275 HD
+ATOM     15  H7  IWD d          75.238  27.612  43.170  0.00  0.00     0.275 HD
+ATOM     16  H8  IWD d          75.520  28.334  44.623  0.00  0.00     0.275 HD
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C9  IWD d          76.430  26.131  45.915  0.00  0.00     0.206 C 
+ATOM     18  O91 IWD d          75.596  26.648  46.609  0.00  0.00    -0.646 OA
+ATOM     19  O92 IWD d          77.386  25.347  46.281  0.00  0.00    -0.646 OA
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 4

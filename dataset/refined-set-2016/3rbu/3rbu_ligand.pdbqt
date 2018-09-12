@@ -1,0 +1,37 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_2  and  C5_4 
+REMARK    2  A    between atoms: C5_4  and  C4_5 
+REMARK    3  A    between atoms: C4_5  and  C2_6 
+REMARK    4  A    between atoms: C2_6  and  C3_7 
+REMARK    5  A    between atoms: C2_6  and  C1_10 
+REMARK    6  A    between atoms: C1_10  and  P1_11 
+ROOT
+ATOM      1  C2  G88 d         -34.707  20.638  37.805  0.00  0.00     0.100 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4  G88 d         -35.970  19.987  38.411  0.00  0.00     0.026 C 
+BRANCH   2   3
+ATOM      3  C5  G88 d         -35.839  18.432  38.380  0.00  0.00     0.114 C 
+BRANCH   3   4
+ATOM      4  C6  G88 d         -36.685  17.686  39.096  0.00  0.00     0.172 C 
+ATOM      5  O6  G88 d         -37.472  18.307  39.858  0.00  0.00    -0.648 OA
+ATOM      6  O7  G88 d         -36.689  16.416  39.009  0.00  0.00    -0.648 OA
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C3  G88 d         -33.633  20.509  38.841  0.00  0.00     0.177 C 
+ATOM      8  O5  G88 d         -33.684  21.268  39.852  0.00  0.00    -0.648 OA
+ATOM      9  O4  G88 d         -32.715  19.655  38.664  0.00  0.00    -0.648 OA
+ENDBRANCH   1   7
+BRANCH   1  10
+ATOM     10  C1  G88 d         -34.174  20.183  36.376  0.00  0.00     0.161 C 
+BRANCH  10  11
+ATOM     11  P1  G88 d         -33.012  21.563  35.748  0.00  0.00     0.260 P 
+ATOM     12  O2  G88 d         -32.545  22.333  36.973  0.00  0.00    -0.640 OA
+ATOM     13  O3  G88 d         -31.663  21.083  35.256  0.00  0.00    -0.640 OA
+ATOM     14  O1  G88 d         -33.777  22.661  34.953  0.00  0.00    -0.640 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 6

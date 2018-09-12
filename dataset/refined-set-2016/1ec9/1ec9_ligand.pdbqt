@@ -1,0 +1,47 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  OH2_5 
+REMARK    3  A    between atoms: C2_4  and  C3_6 
+REMARK    4  A    between atoms: C3_6  and  OH3_7 
+REMARK    5  A    between atoms: C3_6  and  C4_8 
+REMARK    6  A    between atoms: C4_8  and  OH4_9 
+REMARK    7  A    between atoms: C4_8  and  C5_10 
+REMARK    8  A    between atoms: N6_12  and  OH6_13 
+ROOT
+ATOM      1  C3  XYH d         -21.291 -20.033  -6.542  0.00  0.00     0.194 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  XYH d         -21.873 -20.809  -5.351  0.00  0.00     0.250 C 
+BRANCH   2   3
+ATOM      3  C1  XYH d         -23.009 -21.750  -5.751  0.00  0.00     0.205 C 
+ATOM      4  O1B XYH d         -22.835 -22.703  -6.599  0.00  0.00    -0.646 OA
+ATOM      5  O1A XYH d         -24.120 -21.570  -5.257  0.00  0.00    -0.646 OA
+ENDBRANCH   2   3
+BRANCH   2   6
+ATOM      6  OH2 XYH d         -22.226 -19.934  -4.248  0.00  0.00    -0.382 OA
+ATOM      7  H2  XYH d         -22.972 -19.400  -4.495  0.00  0.00     0.210 HD
+ENDBRANCH   2   6
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  OH3 XYH d         -22.209 -19.197  -7.237  0.00  0.00    -0.389 OA
+ATOM      9  H4  XYH d         -21.760 -18.761  -7.952  0.00  0.00     0.210 HD
+ENDBRANCH   1   8
+BRANCH   1  10
+ATOM     10  C4  XYH d         -19.815 -19.565  -6.569  0.00  0.00     0.229 C 
+BRANCH  10  11
+ATOM     11  OH4 XYH d         -19.177 -20.755  -6.032  0.00  0.00    -0.385 OA
+ATOM     12  H6  XYH d         -18.238 -20.616  -5.987  0.00  0.00     0.210 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  C5  XYH d         -19.150 -19.011  -5.317  0.00  0.00     0.206 C 
+ATOM     14  OH5 XYH d         -18.095 -19.626  -4.653  0.00  0.00    -0.172 OA
+ATOM     15  N6  XYH d         -19.554 -17.833  -4.946  0.00  0.00    -0.246 N 
+ATOM     16  H7  XYH d         -20.256 -17.364  -5.483  0.00  0.00     0.196 HD
+BRANCH  15  17
+ATOM     17  OH6 XYH d         -19.028 -17.207  -3.812  0.00  0.00    -0.288 OA
+ATOM     18  H8  XYH d         -19.441 -16.359  -3.700  0.00  0.00     0.244 HD
+ENDBRANCH  15  17
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+TORSDOF 8

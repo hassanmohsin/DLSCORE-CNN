@@ -1,0 +1,28 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  OG_7 
+ROOT
+ATOM      1  CA  DSN d          57.281  23.176  23.322  0.00  0.00     0.306 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   DSN d          56.852  23.901  24.585  0.00  0.00    -0.063 N 
+ATOM      3  H1  DSN d          56.352  23.264  25.185  0.00  0.00     0.275 HD
+ATOM      4  H2  DSN d          56.253  24.674  24.342  0.00  0.00     0.275 HD
+ATOM      5  H3  DSN d          57.667  24.247  25.067  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   DSN d          58.039  24.078  22.376  0.00  0.00     0.206 C 
+ATOM      7  O   DSN d          58.879  23.523  21.590  0.00  0.00    -0.646 OA
+ATOM      8  OXT DSN d          57.778  25.277  22.423  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  DSN d          58.030  21.901  23.644  0.00  0.00     0.208 C 
+BRANCH   9  10
+ATOM     10  OG  DSN d          59.289  22.113  24.347  0.00  0.00    -0.398 OA
+ATOM     11  H7  DSN d          59.863  22.648  23.812  0.00  0.00     0.209 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4

@@ -1,0 +1,77 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  N1_8 
+REMARK    3  A    between atoms: C8_12  and  C1'_13 
+REMARK    4  A    between atoms: C3'_15  and  C31'_16 
+REMARK    5  A    between atoms: C31'_16  and  C32'_17 
+REMARK    6  A    between atoms: C31'_16  and  C42'_20 
+REMARK    7  A    between atoms: C42'_20  and  C43'_21 
+REMARK    8  A    between atoms: C5'_25  and  C1''_28 
+REMARK    9  A    between atoms: C6'_26  and  O6'_27 
+REMARK   10  A    between atoms: C2''_29  and  N2''_34 
+ROOT
+ATOM      1  C1' MOL d          43.422  -1.902  31.869  0.00  0.00     0.044 A 
+ATOM      2  C2' MOL d          43.104  -3.006  32.671  0.00  0.00     0.026 A 
+ATOM      3  C3' MOL d          42.843  -2.880  34.028  0.00  0.00    -0.041 A 
+ATOM      4  C4' MOL d          42.911  -1.636  34.589  0.00  0.00     0.023 A 
+ATOM      5  C5' MOL d          43.222  -0.496  33.867  0.00  0.00     0.011 A 
+ATOM      6  C6' MOL d          43.475  -0.655  32.508  0.00  0.00     0.090 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C8  MOL d          43.684  -2.019  30.488  0.00  0.00     0.142 A 
+ATOM      8  N3  MOL d          44.109  -1.035  29.759  0.00  0.00    -0.338 N 
+ATOM      9  C4  MOL d          44.235  -1.502  28.566  0.00  0.00     0.062 A 
+ATOM     10  H8  MOL d          44.306  -0.073  30.071  0.00  0.00     0.167 HD
+ATOM     11  C3  MOL d          44.652  -0.896  27.416  0.00  0.00     0.033 A 
+ATOM     12  C5  MOL d          43.874  -2.776  28.626  0.00  0.00     0.086 A 
+ATOM     13  C2  MOL d          44.684  -1.696  26.261  0.00  0.00     0.017 A 
+ATOM     14  C1  MOL d          44.304  -3.064  26.271  0.00  0.00     0.009 A 
+ATOM     15  C6  MOL d          43.885  -3.605  27.514  0.00  0.00     0.049 A 
+ATOM     16  N4  MOL d          43.512  -3.148  29.846  0.00  0.00    -0.228 NA
+BRANCH  14  17
+ATOM     17  C7  MOL d          44.350  -3.836  25.079  0.00  0.00     0.102 C 
+ATOM     18  N2  MOL d          44.568  -3.223  23.940  0.00  0.00    -0.385 N 
+ATOM     19  H6  MOL d          44.703  -2.202  23.922  0.00  0.00     0.157 HD
+ATOM     20  H7  MOL d          44.604  -3.763  23.063  0.00  0.00     0.157 HD
+BRANCH  17  21
+ATOM     21  N1  MOL d          44.178  -5.140  25.096  0.00  0.00    -0.385 N 
+ATOM     22  H4  MOL d          44.216  -5.676  24.217  0.00  0.00     0.157 HD
+ATOM     23  H5  MOL d          44.005  -5.625  25.988  0.00  0.00     0.157 HD
+ENDBRANCH  17  21
+ENDBRANCH  14  17
+ENDBRANCH   1   7
+BRANCH   6  24
+ATOM     24  O6' MOL d          43.780   0.447  31.746  0.00  0.00    -0.359 OA
+ATOM     25  H14 MOL d          44.566   0.858  32.086  0.00  0.00     0.217 HD
+ENDBRANCH   6  24
+BRANCH   3  26
+ATOM     26  C31 MOL d          42.467  -4.125  34.870  0.00  0.00     0.129 C 
+BRANCH  26  27
+ATOM     27  C32 MOL d          40.958  -4.298  34.642  0.00  0.00     0.182 C 
+ATOM     28  O33 MOL d          40.599  -5.104  33.806  0.00  0.00    -0.647 OA
+ATOM     29  O34 MOL d          40.203  -3.612  35.300  0.00  0.00    -0.647 OA
+ENDBRANCH  26  27
+BRANCH  26  30
+ATOM     30  C42 MOL d          42.783  -3.981  36.433  0.00  0.00     0.133 C 
+BRANCH  30  31
+ATOM     31  C43 MOL d          43.421  -5.251  37.109  0.00  0.00     0.173 C 
+ATOM     32  O44 MOL d          43.200  -6.353  36.628  0.00  0.00    -0.648 OA
+ATOM     33  O45 MOL d          44.120  -5.080  38.109  0.00  0.00    -0.648 OA
+ENDBRANCH  30  31
+ENDBRANCH  26  30
+ENDBRANCH   3  26
+BRANCH   5  34
+ATOM     34  C1' MOL d          43.279   0.733  34.544  0.00  0.00     0.010 A 
+ATOM     35  C2' MOL d          44.474   1.440  34.703  0.00  0.00     0.114 A 
+ATOM     36  C3' MOL d          44.557   2.635  35.404  0.00  0.00     0.037 A 
+ATOM     37  C4' MOL d          43.429   3.178  35.974  0.00  0.00     0.002 A 
+ATOM     38  C5' MOL d          42.216   2.523  35.841  0.00  0.00     0.001 A 
+ATOM     39  C6' MOL d          42.143   1.317  35.135  0.00  0.00     0.015 A 
+BRANCH  35  40
+ATOM     40  N2' MOL d          45.628   1.083  34.203  0.00  0.00    -0.115 N 
+ATOM     41  HN2 MOL d          46.325   1.783  34.215  0.00  0.00    -0.532 OA
+ATOM     42  HN2 MOL d          45.562   0.561  33.377  0.00  0.00    -0.532 OA
+ENDBRANCH  35  40
+ENDBRANCH   5  34
+TORSDOF 10

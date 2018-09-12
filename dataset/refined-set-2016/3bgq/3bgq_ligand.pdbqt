@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_10  and  C1_1 
+REMARK    2  A    between atoms: C12_8  and  N3_20 
+REMARK    3  A    between atoms: N3_20  and  C13_9 
+REMARK    4  A    between atoms: C6_18  and  C8_19 
+ROOT
+ATOM      1  N2  VX2 d         -16.231  34.635   0.910  0.00  0.00    -0.128 NA
+ATOM      2  C9  VX2 d         -16.313  34.745  -0.416  0.00  0.00     0.175 A 
+ATOM      3  C10 VX2 d         -15.665  34.193  -1.559  0.00  0.00     0.058 A 
+ATOM      4  C12 VX2 d         -17.134  35.622  -3.073  0.00  0.00     0.144 A 
+ATOM      5  C11 VX2 d         -16.086  34.641  -2.871  0.00  0.00     0.056 A 
+ATOM      6  N1  VX2 d         -17.052  35.402   1.606  0.00  0.00    -0.127 NA
+ATOM      7  C8  VX2 d         -17.762  36.110   0.688  0.00  0.00     0.185 A 
+ATOM      8  N4  VX2 d         -17.705  36.110  -1.904  0.00  0.00    -0.146 NA
+ATOM      9  N5  VX2 d         -17.331  35.715  -0.595  0.00  0.00    -0.191 N 
+ENDROOT
+BRANCH   7  10
+ATOM     10  C6  VX2 d         -18.763  37.161   1.059  0.00  0.00     0.014 A 
+ATOM     11  C5  VX2 d         -18.838  37.740   2.412  0.00  0.00     0.015 A 
+ATOM     12  C4  VX2 d         -19.784  38.808   2.717  0.00  0.00     0.002 A 
+ATOM     13  C3  VX2 d         -20.671  39.318   1.679  0.00  0.00     0.016 A 
+ATOM     14  C2  VX2 d         -20.635  38.761   0.300  0.00  0.00     0.048 A 
+ATOM     15  C7  VX2 d         -19.669  37.689   0.045  0.00  0.00     0.031 A 
+BRANCH  14  16
+ATOM     16  C1  VX2 d         -21.564  39.275  -0.823  0.00  0.00     0.417 C 
+ATOM     17  F1  VX2 d         -22.846  39.124  -0.402  0.00  0.00    -0.166 F 
+ATOM     18  F2  VX2 d         -21.452  38.553  -1.970  0.00  0.00    -0.166 F 
+ATOM     19  F3  VX2 d         -21.225  40.565  -1.091  0.00  0.00    -0.166 F 
+ENDBRANCH  14  16
+ENDBRANCH   7  10
+BRANCH   4  20
+ATOM     20  N3  VX2 d         -17.535  36.003  -4.341  0.00  0.00    -0.369 N 
+ATOM     21  H10 VX2 d         -16.977  35.718  -5.158  0.00  0.00     0.161 HD
+BRANCH  20  22
+ATOM     22  C13 VX2 d         -18.726  36.796  -4.532  0.00  0.00     0.083 C 
+ATOM     23  C14 VX2 d         -18.341  38.266  -4.401  0.00  0.00     0.025 C 
+ATOM     24  C15 VX2 d         -19.495  39.195  -4.749  0.00  0.00     0.002 C 
+ATOM     25  C16 VX2 d         -20.100  38.866  -6.107  0.00  0.00     0.000 C 
+ATOM     26  C17 VX2 d         -20.532  37.409  -6.207  0.00  0.00     0.002 C 
+ATOM     27  C18 VX2 d         -19.390  36.456  -5.884  0.00  0.00     0.025 C 
+ENDBRANCH  20  22
+ENDBRANCH   4  20
+TORSDOF 4

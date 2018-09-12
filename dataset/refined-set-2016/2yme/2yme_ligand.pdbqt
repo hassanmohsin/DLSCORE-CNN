@@ -1,0 +1,37 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_2  and  C14_3 
+REMARK       I    between atoms: C12_2  and  N11_13 
+REMARK    2  A    between atoms: N11_13  and  C09_14 
+ROOT
+ATOM      1  O13 CWB d         -10.195  70.859   2.268  0.00  0.00    -0.266 OA
+ATOM      2  C12 CWB d         -11.430  70.844   2.444  0.00  0.00     0.273 C 
+ATOM      3  N11 CWB d         -12.011  70.574   3.764  0.00  0.00    -0.351 N 
+ATOM      4  H8  CWB d         -12.970  70.294   3.806  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C09 CWB d         -11.272  70.689   5.028  0.00  0.00     0.088 C 
+ATOM      6  C10 CWB d         -10.307  69.632   5.136  0.00  0.00     0.058 C 
+ATOM      7  C03 CWB d          -8.852  70.006   5.210  0.00  0.00     0.190 C 
+ATOM      8  N02 CWB d          -8.525  71.328   4.639  0.00  0.00    -0.066 N 
+ATOM      9  C04 CWB d          -8.381  70.055   6.612  0.00  0.00     0.033 C 
+ATOM     10  C07 CWB d          -9.328  72.359   5.226  0.00  0.00     0.190 C 
+ATOM     11  C01 CWB d          -7.173  71.718   4.470  0.00  0.00     0.270 C 
+ATOM     12  H16 CWB d          -8.857  71.256   3.690  0.00  0.00     0.280 HD
+ATOM     13  C08 CWB d         -10.798  72.105   5.203  0.00  0.00     0.058 C 
+ATOM     14  C06 CWB d          -8.836  72.556   6.668  0.00  0.00     0.033 C 
+ATOM     15  C05 CWB d          -8.879  71.226   7.430  0.00  0.00     0.004 C 
+ENDBRANCH   3   5
+BRANCH   2  16
+ATOM     16  C14 CWB d         -12.371  70.923   1.213  0.00  0.00     0.157 A 
+ATOM     17  C23 CWB d         -11.956  71.049  -0.217  0.00  0.00     0.028 A 
+ATOM     18  C22 CWB d         -10.724  71.121  -0.890  0.00  0.00     0.016 A 
+ATOM     19  C18 CWB d         -13.179  71.099  -0.955  0.00  0.00     0.065 A 
+ATOM     20  C21 CWB d         -10.701  71.242  -2.300  0.00  0.00     0.001 A 
+ATOM     21  C20 CWB d         -11.912  71.290  -3.029  0.00  0.00     0.002 A 
+ATOM     22  C19 CWB d         -13.149  71.219  -2.353  0.00  0.00     0.032 A 
+ATOM     23  N16 CWB d         -14.218  71.008  -0.040  0.00  0.00    -0.273 N 
+ATOM     24  C17 CWB d         -15.643  71.024  -0.381  0.00  0.00     0.180 C 
+ATOM     25  N15 CWB d         -13.721  70.908   1.219  0.00  0.00    -0.166 NA
+ENDBRANCH   2  16
+TORSDOF 2

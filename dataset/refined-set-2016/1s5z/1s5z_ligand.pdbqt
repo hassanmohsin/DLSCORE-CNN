@@ -1,0 +1,62 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PB_1  and  CB_5 
+REMARK    2  A    between atoms: CB_5  and  CA_6 
+REMARK    3  A    between atoms: CA_6  and  O5'_8 
+REMARK    4  A    between atoms: O5'_8  and  C5'_9 
+REMARK    5  A    between atoms: C5'_9  and  C4'_10 
+REMARK    6  A    between atoms: C1'_12  and  N9_13 
+REMARK    7  A    between atoms: C6_18  and  N6_19 
+REMARK    8  A    between atoms: C2'_23  and  O2'_24 
+REMARK    9  A    between atoms: C3'_25  and  O3'_26 
+ROOT
+ATOM      1  C4' SON d          -0.510 -19.263   5.389  0.00  0.00     0.180 C 
+ATOM      2  O4' SON d          -1.657 -19.793   6.102  0.00  0.00    -0.353 OA
+ATOM      3  C1' SON d          -1.694 -19.255   7.415  0.00  0.00     0.262 C 
+ATOM      4  C2' SON d          -0.466 -18.356   7.582  0.00  0.00     0.198 C 
+ATOM      5  C3' SON d           0.463 -18.896   6.497  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N9  SON d          -1.724 -20.364   8.369  0.00  0.00    -0.294 N 
+ATOM      7  C4  SON d          -2.559 -20.480   9.453  0.00  0.00     0.167 A 
+ATOM      8  N3  SON d          -3.510 -19.616   9.845  0.00  0.00    -0.222 NA
+ATOM      9  C5  SON d          -2.221 -21.677  10.062  0.00  0.00     0.149 A 
+ATOM     10  C2  SON d          -4.123 -20.062  10.942  0.00  0.00     0.237 A 
+ATOM     11  N1  SON d          -3.907 -21.190  11.637  0.00  0.00    -0.222 NA
+ATOM     12  C6  SON d          -2.942 -22.035  11.212  0.00  0.00     0.155 A 
+ATOM     13  N7  SON d          -1.193 -22.304   9.374  0.00  0.00    -0.236 NA
+ATOM     14  C8  SON d          -0.936 -21.488   8.381  0.00  0.00     0.214 A 
+BRANCH  12  15
+ATOM     15  N6  SON d          -2.723 -23.157  11.902  0.00  0.00    -0.382 N 
+ATOM     16  H8  SON d          -1.992 -23.815  11.596  0.00  0.00     0.157 HD
+ATOM     17  H9  SON d          -3.285 -23.364  12.740  0.00  0.00     0.157 HD
+ENDBRANCH  12  15
+ENDBRANCH   3   6
+BRANCH   4  18
+ATOM     18  O2' SON d          -0.836 -17.005   7.398  0.00  0.00    -0.388 OA
+ATOM     19  H12 SON d          -0.071 -16.451   7.503  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' SON d           0.009 -20.285   4.404  0.00  0.00     0.213 C 
+BRANCH  20  21
+ATOM     21  O5' SON d           0.579 -21.395   5.100  0.00  0.00    -0.318 OA
+BRANCH  21  22
+ATOM     22  CA  SON d           1.528 -22.062   4.261  0.00  0.00     0.271 C 
+ATOM     23  OA  SON d           1.676 -23.284   4.264  0.00  0.00    -0.265 OA
+BRANCH  22  24
+ATOM     24  CB  SON d           2.653 -21.183   3.760  0.00  0.00     0.256 C 
+BRANCH  24  25
+ATOM     25  PB  SON d           3.760 -20.399   4.834  0.00  0.00     0.269 P 
+ATOM     26  O1B SON d           4.976 -21.228   5.022  0.00  0.00    -0.639 OA
+ATOM     27  O2B SON d           3.116 -20.106   6.138  0.00  0.00    -0.639 OA
+ATOM     28  O3B SON d           4.267 -18.996   4.273  0.00  0.00    -0.639 OA
+ENDBRANCH  24  25
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   5  29
+ATOM     29  O3' SON d           1.401 -17.924   6.045  0.00  0.00    -0.390 OA
+ATOM     30  H14 SON d           1.953 -18.307   5.374  0.00  0.00     0.210 HD
+ENDBRANCH   5  29
+TORSDOF 9

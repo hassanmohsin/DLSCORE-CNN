@@ -1,0 +1,85 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CV5_10  and  NV2_1 
+REMARK    1  A    between atoms: NV2_1  and  CV6_3 
+REMARK    2  A    between atoms: CV5_10  and  CV1_2 
+REMARK    3  A    between atoms: CV1_2  and  CV2_4 
+REMARK    4  A    between atoms: CV6_3  and  CR_11 
+REMARK    5  A    between atoms: CV6_3  and  CV7_5 
+REMARK       I    between atoms: CR_11  and  N1_14 
+REMARK    6  A    between atoms: N1_14  and  C1_15 
+REMARK    7  A    between atoms: CAL_24  and  CBL_25 
+REMARK    8  A    between atoms: CBL_25  and  CGL_26 
+REMARK    9  A    between atoms: C5_33  and  CT_42 
+REMARK   10  A    between atoms: CT_42  and  OT1_43 
+ROOT
+ATOM      1  C1  PP7 d          20.115   8.328  21.685  0.00  0.00     0.185 C 
+ATOM      2  C2  PP7 d          19.371   8.026  22.974  0.00  0.00     0.137 C 
+ATOM      3  C4  PP7 d          19.190   9.129  23.984  0.00  0.00     0.220 C 
+ATOM      4  O2  PP7 d          19.064   8.836  25.200  0.00  0.00    -0.274 OA
+ATOM      5  N2  PP7 d          19.077  10.360  23.581  0.00  0.00    -0.357 N 
+ATOM      6  CB  PP7 d          18.664  11.477  24.442  0.00  0.00     0.161 C 
+ATOM      7  C3  PP7 d          21.555   8.734  21.925  0.00  0.00     0.241 C 
+ATOM      8  O1  PP7 d          22.180   8.360  22.942  0.00  0.00    -0.271 OA
+ATOM      9  NL  PP7 d          22.139   9.488  20.972  0.00  0.00    -0.343 N 
+ATOM     10  CAL PP7 d          23.553   9.847  20.935  0.00  0.00     0.205 C 
+ATOM     11  P   PP7 d          23.722  11.649  21.101  0.00  0.00     0.273 P 
+ATOM     12  O3  PP7 d          22.754  12.289  20.134  0.00  0.00    -0.645 OA
+ATOM     13  O4  PP7 d          25.171  12.047  20.965  0.00  0.00    -0.645 OA
+ATOM     14  O5  PP7 d          23.354  11.926  22.622  0.00  0.00    -0.295 OA
+ATOM     15  C5  PP7 d          23.966  12.973  23.404  0.00  0.00     0.236 C 
+ATOM     16  C6  PP7 d          22.907  14.068  23.713  0.00  0.00     0.081 C 
+ATOM     17  CE2 PP7 d          21.817  13.632  24.615  0.00  0.00    -0.055 A 
+ATOM     18  CZ  PP7 d          21.720  14.088  25.948  0.00  0.00     0.007 A 
+ATOM     19  CD2 PP7 d          20.807  12.768  24.178  0.00  0.00     0.016 A 
+ATOM     20  CE1 PP7 d          20.688  13.668  26.773  0.00  0.00     0.001 A 
+ATOM     21  CD1 PP7 d          19.738  12.758  26.326  0.00  0.00     0.009 A 
+ATOM     22  CG  PP7 d          19.782  12.332  24.983  0.00  0.00    -0.040 A 
+ATOM     23  H23 PP7 d          19.285  10.560  22.623  0.00  0.00     0.162 HD
+ATOM     24  H26 PP7 d          21.558   9.828  20.233  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1  25
+ATOM     25  N1  PP7 d          20.109   7.141  20.805  0.00  0.00    -0.346 N 
+ATOM     26  CR  PP7 d          19.197   6.964  19.849  0.00  0.00     0.241 C 
+ATOM     27  OV2 PP7 d          18.367   7.817  19.517  0.00  0.00    -0.271 OA
+ATOM     28  H19 PP7 d          20.815   6.444  20.931  0.00  0.00     0.163 HD
+BRANCH  26  29
+ATOM     29  CV6 PP7 d          19.306   5.599  19.125  0.00  0.00     0.180 C 
+BRANCH  29  30
+ATOM     30  NV2 PP7 d          18.051   5.317  18.432  0.00  0.00    -0.347 N 
+ATOM     31  CV5 PP7 d          17.328   4.224  18.580  0.00  0.00     0.218 C 
+ATOM     32  OV1 PP7 d          17.706   3.288  19.350  0.00  0.00    -0.274 OA
+ATOM     33  H1  PP7 d          17.713   6.009  17.794  0.00  0.00     0.163 HD
+BRANCH  31  34
+ATOM     34  CV1 PP7 d          16.092   4.057  17.730  0.00  0.00     0.106 C 
+BRANCH  34  35
+ATOM     35  CV2 PP7 d          14.841   3.890  18.546  0.00  0.00    -0.014 C 
+ATOM     36  CV3 PP7 d          14.689   4.922  19.553  0.00  0.00     0.010 C 
+ATOM     37  CV4 PP7 d          13.618   3.775  17.578  0.00  0.00     0.010 C 
+ENDBRANCH  34  35
+ENDBRANCH  31  34
+ENDBRANCH  29  30
+BRANCH  29  38
+ATOM     38  CV7 PP7 d          20.523   5.492  18.214  0.00  0.00     0.009 C 
+ATOM     39  CV9 PP7 d          20.527   6.581  17.157  0.00  0.00     0.012 C 
+ATOM     40  CV8 PP7 d          20.678   4.116  17.637  0.00  0.00     0.012 C 
+ENDBRANCH  29  38
+ENDBRANCH  26  29
+ENDBRANCH   1  25
+BRANCH  10  41
+ATOM     41  CBL PP7 d          24.234   9.323  19.655  0.00  0.00     0.042 C 
+BRANCH  41  42
+ATOM     42  CGL PP7 d          23.971   7.860  19.291  0.00  0.00    -0.020 C 
+ATOM     43  CL2 PP7 d          24.428   6.913  20.416  0.00  0.00     0.009 C 
+ATOM     44  CL1 PP7 d          24.599   7.488  17.969  0.00  0.00     0.009 C 
+ENDBRANCH  41  42
+ENDBRANCH  10  41
+BRANCH  15  45
+ATOM     45  CT  PP7 d          24.524  12.380  24.690  0.00  0.00     0.288 C 
+ATOM     46  OT2 PP7 d          24.527  11.217  24.955  0.00  0.00    -0.262 OA
+BRANCH  45  47
+ATOM     47  OT1 PP7 d          24.976  13.328  25.465  0.00  0.00    -0.324 OA
+ATOM     48  C7  PP7 d          25.513  12.998  26.779  0.00  0.00     0.213 C 
+ENDBRANCH  45  47
+ENDBRANCH  15  45
+TORSDOF 10

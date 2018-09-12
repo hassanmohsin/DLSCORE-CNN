@@ -1,0 +1,54 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_16  and  O6_1 
+REMARK    2  A    between atoms: C5_2  and  C8_7 
+REMARK    3  A    between atoms: C4_10  and  C5_2 
+REMARK    4  A    between atoms: C3_3  and  C7_6 
+REMARK    5  A    between atoms: C2_9  and  C3_3 
+REMARK    6  A    between atoms: C3_3  and  C4_10 
+REMARK       I    between atoms: C8_7  and  N2_16 
+REMARK    7  A    between atoms: C1_8  and  C2_9 
+REMARK    8  A    between atoms: C1_8  and  N1_11 
+REMARK    9  A    between atoms: C1_8  and  C6_12 
+ROOT
+ATOM      1  C3  3ZA d          21.795  14.657  22.963  0.00  0.00     0.089 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C7  3ZA d          23.098  15.305  22.447  0.00  0.00     0.177 C 
+ATOM      3  O3  3ZA d          23.415  15.041  21.253  0.00  0.00    -0.648 OA
+ATOM      4  O4  3ZA d          23.775  16.029  23.214  0.00  0.00    -0.648 OA
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C2  3ZA d          21.758  14.442  24.496  0.00  0.00     0.059 C 
+BRANCH   5   6
+ATOM      6  C1  3ZA d          22.843  13.470  24.973  0.00  0.00     0.284 C 
+BRANCH   6   7
+ATOM      7  N1  3ZA d          22.456  12.046  24.735  0.00  0.00    -0.065 N 
+ATOM      8  H10 3ZA d          23.192  11.439  25.061  0.00  0.00     0.275 HD
+ATOM      9  H11 3ZA d          22.310  11.898  23.749  0.00  0.00     0.275 HD
+ATOM     10  H12 3ZA d          21.605  11.841  25.235  0.00  0.00     0.275 HD
+ENDBRANCH   6   7
+BRANCH   6  11
+ATOM     11  C6  3ZA d          23.169  13.665  26.465  0.00  0.00     0.204 C 
+ATOM     12  O2  3ZA d          23.079  12.644  27.209  0.00  0.00    -0.646 OA
+ATOM     13  O1  3ZA d          23.509  14.797  26.843  0.00  0.00    -0.646 OA
+ENDBRANCH   6  11
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  14
+ATOM     14  C4  3ZA d          20.606  15.502  22.441  0.00  0.00     0.025 C 
+BRANCH  14  15
+ATOM     15  C5  3ZA d          19.251  14.798  22.376  0.00  0.00     0.106 C 
+BRANCH  15  16
+ATOM     16  C8  3ZA d          19.231  13.557  21.480  0.00  0.00     0.242 C 
+ATOM     17  O5  3ZA d          19.391  13.551  20.248  0.00  0.00    -0.271 OA
+ATOM     18  N2  3ZA d          19.009  12.350  22.094  0.00  0.00    -0.233 N 
+ATOM     19  C9  3ZA d          19.166  11.118  21.333  0.00  0.00     0.188 C 
+BRANCH  18  20
+ATOM     20  O6  3ZA d          19.451  12.141  23.422  0.00  0.00    -0.285 OA
+ATOM     21  H1  3ZA d          19.221  11.261  23.696  0.00  0.00     0.245 HD
+ENDBRANCH  18  20
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+TORSDOF 9

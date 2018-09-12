@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAS_19  and  NAD_4 
+REMARK    2  A    between atoms: CAN_14  and  OAK_11 
+REMARK    3  A    between atoms: CAO_15  and  OAL_12 
+REMARK    4  A    between atoms: NAR_18  and  SAS_19 
+ROOT
+ATOM      1  CAC DT9 d          -5.602   4.200  16.121  0.00  0.00     0.038 C 
+ATOM      2  CAG DT9 d          -4.589   3.302  11.601  0.00  0.00     0.047 A 
+ATOM      3  CAH DT9 d          -6.363   4.799  13.135  0.00  0.00     0.049 A 
+ATOM      4  CAI DT9 d          -4.167   1.636  13.414  0.00  0.00     0.060 C 
+ATOM      5  CAJ DT9 d          -4.192   1.642  14.947  0.00  0.00     0.142 C 
+ATOM      6  CAM DT9 d          -4.885   2.885  12.895  0.00  0.00    -0.045 A 
+ATOM      7  CAN DT9 d          -5.170   4.452  11.066  0.00  0.00     0.102 A 
+ATOM      8  CAO DT9 d          -6.053   5.218  11.825  0.00  0.00     0.102 A 
+ATOM      9  CAP DT9 d          -5.772   3.650  13.667  0.00  0.00    -0.026 A 
+ATOM     10  CAQ DT9 d          -6.125   3.208  15.095  0.00  0.00     0.127 C 
+ATOM     11  NAR DT9 d          -5.623   1.820  15.295  0.00  0.00    -0.285 N 
+ENDROOT
+BRANCH  11  12
+ATOM     12  SAS DT9 d          -5.913   0.981  16.614  0.00  0.00     0.315 S 
+ATOM     13  OAE DT9 d          -5.181   1.428  17.796  0.00  0.00    -0.183 OA
+ATOM     14  OAF DT9 d          -7.363   1.211  16.833  0.00  0.00    -0.183 OA
+BRANCH  12  15
+ATOM     15  NAD DT9 d          -5.357  -0.601  16.218  0.00  0.00    -0.311 N 
+ATOM     16  H10 DT9 d          -4.382  -0.765  16.069  0.00  0.00     0.170 HD
+ATOM     17  H11 DT9 d          -6.009  -1.355  16.137  0.00  0.00     0.170 HD
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+BRANCH   8  18
+ATOM     18  OAL DT9 d          -6.597   6.324  11.208  0.00  0.00    -0.353 OA
+ATOM     19  CAB DT9 d          -7.315   7.213  12.057  0.00  0.00     0.210 C 
+ENDBRANCH   8  18
+BRANCH   7  20
+ATOM     20  OAK DT9 d          -4.878   4.863   9.783  0.00  0.00    -0.353 OA
+ATOM     21  CAA DT9 d          -3.463   4.738   9.531  0.00  0.00     0.210 C 
+ENDBRANCH   7  20
+TORSDOF 4

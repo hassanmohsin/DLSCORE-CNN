@@ -1,0 +1,27 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_4 
+REMARK    3  A    between atoms: CB_4  and  CG_5 
+ROOT
+ATOM      1  CB  B40 d          -3.315  -3.664  17.027  0.00  0.00     0.071 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CA  B40 d          -2.815  -3.403  15.524  0.00  0.00     0.185 C 
+ATOM      3  C   B40 d          -1.630  -4.328  15.353  0.00  0.00     0.040 C 
+BRANCH   2   4
+ATOM      4  N   B40 d          -2.224  -2.041  15.297  0.00  0.00    -0.075 N 
+ATOM      5  CM  B40 d          -3.388  -1.088  15.261  0.00  0.00     0.267 C 
+ATOM      6  H1  B40 d          -1.724  -2.017  14.422  0.00  0.00     0.277 HD
+ATOM      7  H2  B40 d          -1.597  -1.801  16.049  0.00  0.00     0.277 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  CG  B40 d          -4.030  -4.926  17.213  0.00  0.00    -0.056 A 
+ATOM      9  CD1 B40 d          -3.368  -6.019  17.723  0.00  0.00     0.007 A 
+ATOM     10  CE1 B40 d          -4.071  -7.196  17.967  0.00  0.00     0.001 A 
+ATOM     11  CZ  B40 d          -5.465  -7.351  17.672  0.00  0.00     0.000 A 
+ATOM     12  CE2 B40 d          -6.135  -6.243  17.171  0.00  0.00     0.001 A 
+ATOM     13  CD2 B40 d          -5.404  -5.052  16.988  0.00  0.00     0.007 A 
+ENDBRANCH   1   8
+TORSDOF 3

@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N10_10  and  C11_11 
+REMARK    2  A    between atoms: C16_15  and  O19_17 
+ROOT
+ATOM      1  C1  MOL d          10.294  56.755  -0.513  0.00  0.00     0.091 C 
+ATOM      2  C2  MOL d           9.133  57.701  -0.274  0.00  0.00     0.103 A 
+ATOM      3  N3  MOL d           9.127  58.960  -0.640  0.00  0.00    -0.232 NA
+ATOM      4  C4  MOL d           7.963  59.552  -0.273  0.00  0.00     0.104 A 
+ATOM      5  C5  MOL d           7.454  60.858  -0.397  0.00  0.00     0.153 A 
+ATOM      6  N6  MOL d           6.254  61.174   0.055  0.00  0.00    -0.240 NA
+ATOM      7  C7  MOL d           5.481  60.262   0.650  0.00  0.00     0.139 A 
+ATOM      8  C8  MOL d           5.914  58.927   0.826  0.00  0.00     0.041 A 
+ATOM      9  C9  MOL d           7.187  58.552   0.366  0.00  0.00     0.081 A 
+ATOM     10  N10 MOL d           7.950  57.384   0.340  0.00  0.00    -0.328 N 
+ATOM     11  C20 MOL d           4.824  58.219   1.511  0.00  0.00     0.034 A 
+ATOM     12  C21 MOL d           3.854  59.106   1.701  0.00  0.00     0.091 A 
+ATOM     13  N22 MOL d           4.233  60.331   1.194  0.00  0.00    -0.350 N 
+ATOM     14  H18 MOL d           3.653  61.181   1.222  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH  10  15
+ATOM     15  C11 MOL d           7.594  56.060   0.872  0.00  0.00     0.094 C 
+ATOM     16  C13 MOL d           6.409  55.471   0.082  0.00  0.00     0.026 C 
+ATOM     17  C14 MOL d           6.149  54.024   0.528  0.00  0.00     0.004 C 
+ATOM     18  C15 MOL d           5.933  53.953   2.054  0.00  0.00     0.032 C 
+ATOM     19  C16 MOL d           7.004  54.690   2.904  0.00  0.00     0.120 C 
+ATOM     20  C18 MOL d           7.294  56.110   2.390  0.00  0.00     0.057 C 
+BRANCH  19  21
+ATOM     21  O19 MOL d           8.223  53.939   2.936  0.00  0.00    -0.396 OA
+ATOM     22  H15 MOL d           8.045  53.062   3.253  0.00  0.00     0.210 HD
+ENDBRANCH  19  21
+ENDBRANCH  10  15
+TORSDOF 2

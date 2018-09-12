@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C4_4 
+REMARK    2  A    between atoms: C6_6  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N9_9 
+REMARK    3  A    between atoms: C18_18  and  O19_19 
+REMARK    4  A    between atoms: C21_21  and  O22_22 
+ROOT
+ATOM      1  C4  VHD d          -0.102  32.939   0.890  0.00  0.00    -0.020 A 
+ATOM      2  C5  VHD d          -0.333  33.524  -0.360  0.00  0.00     0.030 A 
+ATOM      3  C6  VHD d          -1.615  33.909  -0.752  0.00  0.00     0.066 A 
+ATOM      4  C18 VHD d          -2.706  33.674   0.116  0.00  0.00     0.084 A 
+ATOM      5  C20 VHD d          -2.501  33.062   1.346  0.00  0.00     0.074 A 
+ATOM      6  C21 VHD d          -1.214  32.697   1.740  0.00  0.00     0.075 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C7  VHD d          -1.793  34.585  -2.073  0.00  0.00     0.264 C 
+ATOM      8  O8  VHD d          -2.391  34.019  -2.976  0.00  0.00    -0.267 OA
+ATOM      9  N9  VHD d          -1.315  35.865  -2.211  0.00  0.00    -0.298 N 
+ATOM     10  C10 VHD d          -1.472  36.660  -3.440  0.00  0.00     0.112 C 
+ATOM     11  C17 VHD d          -0.783  36.655  -1.093  0.00  0.00     0.112 C 
+ATOM     12  C11 VHD d          -1.256  38.064  -2.947  0.00  0.00    -0.009 A 
+ATOM     13  C12 VHD d          -1.373  39.270  -3.630  0.00  0.00     0.014 A 
+ATOM     14  C16 VHD d          -0.874  38.060  -1.615  0.00  0.00    -0.009 A 
+ATOM     15  C13 VHD d          -1.118  40.461  -2.979  0.00  0.00     0.001 A 
+ATOM     16  C14 VHD d          -0.746  40.458  -1.650  0.00  0.00     0.001 A 
+ATOM     17  C15 VHD d          -0.622  39.265  -0.965  0.00  0.00     0.014 A 
+ENDBRANCH   3   7
+BRANCH   4  18
+ATOM     18  O19 VHD d          -3.969  34.023  -0.264  0.00  0.00    -0.360 OA
+ATOM     19  H15 VHD d          -4.580  33.799   0.428  0.00  0.00     0.217 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C2  VHD d           1.298  32.477   1.266  0.00  0.00     0.013 C 
+ATOM     21  C1  VHD d           1.570  31.078   0.717  0.00  0.00     0.015 C 
+ATOM     22  C3  VHD d           2.380  33.451   0.800  0.00  0.00     0.015 C 
+ENDBRANCH   1  20
+BRANCH   6  23
+ATOM     23  O22 VHD d          -1.026  32.134   2.965  0.00  0.00    -0.360 OA
+ATOM     24  H17 VHD d          -0.103  31.943   3.086  0.00  0.00     0.217 HD
+ENDBRANCH   6  23
+TORSDOF 4

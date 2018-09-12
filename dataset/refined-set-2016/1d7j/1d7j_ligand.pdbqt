@@ -1,0 +1,21 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  C4_5 
+REMARK    3  A    between atoms: C4_5  and  O5_6 
+ROOT
+ATOM      1  C3  BUQ d          60.561  -4.093  -0.143  0.00  0.00     0.103 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  BUQ d          60.614  -5.579  -0.464  0.00  0.00     0.125 C 
+ATOM      3  C1  BUQ d          60.801  -6.061  -1.886  0.00  0.00     0.091 C 
+ATOM      4  O2  BUQ d          60.498  -6.421   0.429  0.00  0.00    -0.298 OA
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C4  BUQ d          60.224  -3.229  -1.358  0.00  0.00     0.171 C 
+BRANCH   5   6
+ATOM      6  O5  BUQ d          59.076  -3.571  -2.124  0.00  0.00    -0.400 OA
+ATOM      7  H8  BUQ d          58.983  -2.958  -2.844  0.00  0.00     0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3

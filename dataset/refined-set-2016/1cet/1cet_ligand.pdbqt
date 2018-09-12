@@ -1,0 +1,53 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  N2_11 
+REMARK    2  A    between atoms: N2_11  and  C10_12 
+REMARK    3  A    between atoms: C10_12  and  C11_13 
+REMARK    4  A    between atoms: C11_13  and  C12_14 
+REMARK    5  A    between atoms: C12_14  and  C13_15 
+REMARK    6  A    between atoms: C13_15  and  N3_16 
+REMARK    7  A    between atoms: N3_16  and  C16_19 
+REMARK    8  A    between atoms: N3_16  and  C14_17 
+ROOT
+ATOM      1  N2  CLQ d          34.672  11.370  20.198  0.00  0.00    -0.385 N 
+ATOM      2  H6  CLQ d          34.736  12.237  20.750  0.00  0.00     0.160 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C3  CLQ d          35.015  11.469  18.876  0.00  0.00     0.042 A 
+ATOM      4  C2  CLQ d          34.822  10.374  17.926  0.00  0.00     0.049 A 
+ATOM      5  C1  CLQ d          35.183  10.503  16.591  0.00  0.00     0.119 A 
+ATOM      6  N1  CLQ d          35.701  11.650  16.106  0.00  0.00    -0.260 NA
+ATOM      7  C9  CLQ d          35.916  12.783  16.930  0.00  0.00     0.070 A 
+ATOM      8  C4  CLQ d          35.592  12.727  18.358  0.00  0.00     0.019 A 
+ATOM      9  C8  CLQ d          36.455  13.968  16.359  0.00  0.00     0.056 A 
+ATOM     10  C5  CLQ d          35.842  13.931  19.150  0.00  0.00     0.018 A 
+ATOM     11  C6  CLQ d          36.377  15.090  18.572  0.00  0.00     0.025 A 
+ATOM     12  C7  CLQ d          36.675  15.093  17.170  0.00  0.00     0.036 A 
+ATOM     13 CL   CLQ d          37.297  16.530  16.467  0.00  0.00    -0.084 Cl
+ENDBRANCH   1   3
+BRANCH   1  14
+ATOM     14  C10 CLQ d          34.214  10.146  20.938  0.00  0.00     0.077 C 
+ATOM     15  C18 CLQ d          33.802  10.510  22.357  0.00  0.00     0.032 C 
+BRANCH  14  16
+ATOM     16  C11 CLQ d          35.312   9.073  20.884  0.00  0.00     0.026 C 
+BRANCH  16  17
+ATOM     17  C12 CLQ d          36.619   9.399  21.583  0.00  0.00     0.030 C 
+BRANCH  17  18
+ATOM     18  C13 CLQ d          37.706   8.452  21.099  0.00  0.00     0.235 C 
+BRANCH  18  19
+ATOM     19  N3  CLQ d          37.415   7.004  21.379  0.00  0.00    -0.072 N 
+ATOM     20  H14 CLQ d          36.476   6.864  21.040  0.00  0.00     0.279 HD
+BRANCH  19  21
+ATOM     21  C16 CLQ d          37.314   6.691  22.846  0.00  0.00     0.230 C 
+ATOM     22  C17 CLQ d          38.620   6.542  23.554  0.00  0.00     0.034 C 
+ENDBRANCH  19  21
+BRANCH  19  23
+ATOM     23  C14 CLQ d          38.266   6.049  20.513  0.00  0.00     0.230 C 
+ATOM     24  C15 CLQ d          38.079   4.548  20.707  0.00  0.00     0.034 C 
+ENDBRANCH  19  23
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  16
+ENDBRANCH   1  14
+TORSDOF 8

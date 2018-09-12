@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  S2_2 
+REMARK    2  A    between atoms: C4_4  and  C3_3 
+REMARK    3  A    between atoms: C6_6  and  O7_7 
+REMARK    4  A    between atoms: C8_8  and  O9_9 
+REMARK    5  A    between atoms: C10_10  and  C9_11 
+ROOT
+ATOM      1  C4  MTI d           8.210   2.073  92.167  0.00  0.00     0.227 C 
+ATOM      2  N5  MTI d           7.245   3.096  91.751  0.00  0.00    -0.057 N 
+ATOM      3  C6  MTI d           9.356   3.778  90.852  0.00  0.00     0.184 C 
+ATOM      4  C8  MTI d           9.487   2.259  91.332  0.00  0.00     0.180 C 
+ATOM      5  C10 MTI d           7.887   4.253  91.140  0.00  0.00     0.254 C 
+ATOM      6  H7  MTI d           6.729   3.403  92.561  0.00  0.00     0.278 HD
+ATOM      7  H8  MTI d           6.610   2.688  91.083  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   5   8
+ATOM      8  C9  MTI d           7.712   5.468  92.115  0.00  0.00     0.022 A 
+ATOM      9  C8  MTI d           6.484   5.982  92.523  0.00  0.00     0.100 A 
+ATOM     10  N7  MTI d           6.541   7.001  93.341  0.00  0.00    -0.359 N 
+ATOM     11  C5  MTI d           7.892   7.227  93.532  0.00  0.00     0.130 A 
+ATOM     12  H15 MTI d           5.753   7.521  93.752  0.00  0.00     0.165 HD
+ATOM     13  C6  MTI d           8.566   8.233  94.335  0.00  0.00     0.275 A 
+ATOM     14  C4  MTI d           8.657   6.304  92.794  0.00  0.00     0.100 A 
+ATOM     15  O6  MTI d           8.027   9.102  95.027  0.00  0.00    -0.266 OA
+ATOM     16  N1  MTI d           9.996   8.159  94.286  0.00  0.00    -0.316 N 
+ATOM     17  C2  MTI d          10.716   7.209  93.533  0.00  0.00     0.210 A 
+ATOM     18  H16 MTI d          10.517   8.824  94.820  0.00  0.00     0.170 HD
+ATOM     19  N3  MTI d          10.074   6.251  92.765  0.00  0.00    -0.241 NA
+ENDBRANCH   5   8
+BRANCH   3  20
+ATOM     20  O7  MTI d           9.704   3.935  89.430  0.00  0.00    -0.390 OA
+ATOM     21  H10 MTI d           9.120   3.404  88.902  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   1  22
+ATOM     22  C3  MTI d           8.442   2.227  93.669  0.00  0.00     0.109 C 
+BRANCH  22  23
+ATOM     23  S2  MTI d           9.169   0.752  94.440  0.00  0.00    -0.171 SA
+ATOM     24  CS  MTI d          10.060   1.493  95.806  0.00  0.00     0.089 C 
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   4  25
+ATOM     25  O9  MTI d           9.477   1.323  90.174  0.00  0.00    -0.391 OA
+ATOM     26  H12 MTI d          10.207   1.523  89.600  0.00  0.00     0.210 HD
+ENDBRANCH   4  25
+TORSDOF 5

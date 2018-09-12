@@ -1,0 +1,106 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_8  and  O4_49 
+REMARK    2  A    between atoms: C10_9  and  O6_51 
+REMARK    3  A    between atoms: C13_12  and  O7_52 
+REMARK    4  A    between atoms: C15_14  and  O8_53 
+REMARK    5  A    between atoms: C21_20  and  C38_37 
+REMARK    6  A    between atoms: C22_21  and  O9_54 
+REMARK    7  A    between atoms: C24_23  and  O10_55 
+REMARK    8  A    between atoms: C26_25  and  C27_26 
+REMARK    9  A    between atoms: C27_26  and  C28_27 
+REMARK   10  A    between atoms: C28_27  and  C29_28 
+REMARK   11  A    between atoms: C31_30  and  O11_56 
+REMARK   12  A    between atoms: C32_31  and  O12_57 
+REMARK   13  A    between atoms: C38_37  and  C39_38 
+ROOT
+ATOM      1  C1  FK5 d          19.643  32.871   8.829  0.00  0.00     0.280 C 
+ATOM      2  C2  FK5 d          18.257  32.557   9.325  0.00  0.00     0.157 C 
+ATOM      3  C3  FK5 d          17.336  32.412   8.118  0.00  0.00     0.031 C 
+ATOM      4  C4  FK5 d          16.989  33.731   7.487  0.00  0.00     0.004 C 
+ATOM      5  C5  FK5 d          16.397  34.702   8.495  0.00  0.00     0.020 C 
+ATOM      6  C6  FK5 d          17.272  34.856   9.726  0.00  0.00     0.125 C 
+ATOM      7  C8  FK5 d          17.535  33.224  11.545  0.00  0.00     0.188 C 
+ATOM      8  C9  FK5 d          16.974  34.117  12.413  0.00  0.00     0.258 C 
+ATOM      9  C10 FK5 d          17.789  35.112  13.210  0.00  0.00     0.199 C 
+ATOM     10  C11 FK5 d          19.097  34.501  13.696  0.00  0.00     0.050 C 
+ATOM     11  C12 FK5 d          19.988  35.629  14.253  0.00  0.00     0.044 C 
+ATOM     12  C13 FK5 d          20.130  36.724  13.208  0.00  0.00     0.153 C 
+ATOM     13  C14 FK5 d          18.745  37.279  12.921  0.00  0.00     0.183 C 
+ATOM     14  C15 FK5 d          18.689  38.493  11.982  0.00  0.00     0.152 C 
+ATOM     15  C16 FK5 d          19.515  38.370  10.683  0.00  0.00     0.039 C 
+ATOM     16  C17 FK5 d          19.305  39.564   9.737  0.00  0.00    -0.016 C 
+ATOM     17  C18 FK5 d          20.263  40.734  10.042  0.00  0.00     0.008 C 
+ATOM     18  C19 FK5 d          21.646  40.433   9.495  0.00  0.00    -0.018 C 
+ATOM     19  C20 FK5 d          22.670  39.876  10.379  0.00  0.00     0.011 C 
+ATOM     20  C21 FK5 d          23.995  39.362   9.919  0.00  0.00     0.015 C 
+ATOM     21  C22 FK5 d          23.824  37.946   9.494  0.00  0.00     0.124 C 
+ATOM     22  C23 FK5 d          23.568  37.558   8.072  0.00  0.00     0.064 C 
+ATOM     23  C24 FK5 d          23.219  36.075   8.025  0.00  0.00     0.127 C 
+ATOM     24  C25 FK5 d          21.838  35.667   8.624  0.00  0.00     0.044 C 
+ATOM     25  C26 FK5 d          21.557  34.149   8.593  0.00  0.00     0.160 C 
+ATOM     26  C35 FK5 d          18.903  33.416  14.740  0.00  0.00     0.015 C 
+ATOM     27  C36 FK5 d          17.846  40.041   9.809  0.00  0.00     0.010 C 
+ATOM     28  C37 FK5 d          21.933  40.719   8.055  0.00  0.00     0.010 C 
+ATOM     29  C41 FK5 d          20.635  36.369   7.987  0.00  0.00     0.015 C 
+ATOM     30  N7  FK5 d          17.695  33.548  10.251  0.00  0.00    -0.350 N 
+ATOM     31  O1  FK5 d          20.295  33.888   9.188  0.00  0.00    -0.337 OA
+ATOM     32  O2  FK5 d          20.178  31.958   7.940  0.00  0.00    -0.189 OA
+ATOM     33  O3  FK5 d          17.877  31.967  12.046  0.00  0.00    -0.174 OA
+ATOM     34  O5  FK5 d          18.019  36.215  12.340  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH  25  35
+ATOM     35  C27 FK5 d          22.614  33.474   9.398  0.00  0.00    -0.058 C 
+ATOM     36  C42 FK5 d          22.706  33.773  10.856  0.00  0.00     0.046 C 
+BRANCH  35  37
+ATOM     37  C28 FK5 d          23.528  32.551   8.755  0.00  0.00    -0.017 C 
+BRANCH  37  38
+ATOM     38  C29 FK5 d          24.669  31.927   9.517  0.00  0.00     0.011 C 
+ATOM     39  C30 FK5 d          24.613  30.401   9.348  0.00  0.00     0.043 C 
+ATOM     40  C31 FK5 d          25.829  29.765  10.001  0.00  0.00     0.150 C 
+ATOM     41  C32 FK5 d          27.059  30.273   9.240  0.00  0.00     0.147 C 
+ATOM     42  C33 FK5 d          27.193  31.784   9.453  0.00  0.00     0.035 C 
+ATOM     43  C34 FK5 d          25.955  32.536   8.978  0.00  0.00     0.011 C 
+BRANCH  40  44
+ATOM     44  O11 FK5 d          25.690  28.355  10.058  0.00  0.00    -0.388 OA
+ATOM     45  C45 FK5 d          25.465  27.791   8.780  0.00  0.00     0.202 C 
+ENDBRANCH  40  44
+BRANCH  41  46
+ATOM     46  O12 FK5 d          28.263  29.674   9.664  0.00  0.00    -0.393 OA
+ATOM     47  H77 FK5 d          28.207  28.733   9.543  0.00  0.00     0.210 HD
+ENDBRANCH  41  46
+ENDBRANCH  37  38
+ENDBRANCH  35  37
+ENDBRANCH  25  35
+BRANCH  23  48
+ATOM     48  O10 FK5 d          23.269  35.846   6.642  0.00  0.00    -0.395 OA
+ATOM     49  H76 FK5 d          22.593  36.357   6.213  0.00  0.00     0.210 HD
+ENDBRANCH  23  48
+BRANCH  21  50
+ATOM     50  O9  FK5 d          23.903  36.940  10.462  0.00  0.00    -0.395 OA
+ATOM     51  H75 FK5 d          24.068  37.332  11.312  0.00  0.00     0.210 HD
+ENDBRANCH  21  50
+BRANCH  20  52
+ATOM     52  C38 FK5 d          24.981  39.278  11.093  0.00  0.00     0.007 C 
+BRANCH  52  53
+ATOM     53  C39 FK5 d          25.462  40.648  11.491  0.00  0.00    -0.004 C 
+ATOM     54  C40 FK5 d          26.836  41.045  11.186  0.00  0.00     0.005 C 
+ENDBRANCH  52  53
+ENDBRANCH  20  52
+BRANCH   8  55
+ATOM     55  O4  FK5 d          15.600  34.125  12.506  0.00  0.00    -0.382 OA
+ATOM     56  H73 FK5 d          15.344  33.965  13.407  0.00  0.00     0.210 HD
+ENDBRANCH   8  55
+BRANCH   9  57
+ATOM     57  O6  FK5 d          17.033  35.566  14.355  0.00  0.00    -0.363 OA
+ATOM     58  H74 FK5 d          16.203  35.923  14.063  0.00  0.00     0.213 HD
+ENDBRANCH   9  57
+BRANCH  12  59
+ATOM     59  O7  FK5 d          21.041  37.700  13.650  0.00  0.00    -0.388 OA
+ATOM     60  C43 FK5 d          22.332  37.131  13.748  0.00  0.00     0.202 C 
+ENDBRANCH  12  59
+BRANCH  14  61
+ATOM     61  O8  FK5 d          19.092  39.643  12.700  0.00  0.00    -0.388 OA
+ATOM     62  C44 FK5 d          18.034  40.259  13.387  0.00  0.00     0.202 C 
+ENDBRANCH  14  61
+TORSDOF 13

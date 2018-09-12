@@ -1,0 +1,56 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_1  and  N4_14 
+REMARK    2  A    between atoms: C6_17  and  S_1 
+REMARK    3  A    between atoms: C1_2  and  N1_4 
+REMARK    4  A    between atoms: C2_6  and  N3_11 
+REMARK    5  A    between atoms: N3_11  and  C3_10 
+REMARK       I    between atoms: C9_21  and  N6_18 
+REMARK    6  A    between atoms: C10_22  and  C9_21 
+ROOT
+ATOM      1  C1  SKE d         -32.156   9.883   3.754  0.00  0.00     0.740 A 
+ATOM      2  C2  SKE d         -31.935   9.710   5.865  0.00  0.00     0.760 A 
+ATOM      3  N2  SKE d         -32.847   9.761   4.884  0.00  0.00     0.131 NA
+ATOM      4  O3  SKE d         -29.941  10.009   1.988  0.00  0.00    -0.264 OA
+ATOM      5  N5  SKE d         -30.718   9.766   5.314  0.00  0.00     0.045 NA
+ATOM      6  N6  SKE d         -30.852   9.900   4.069  0.00  0.00    -0.006 N 
+ATOM      7  C9  SKE d         -29.805   9.972   3.219  0.00  0.00     0.301 C 
+ENDROOT
+BRANCH   2   8
+ATOM      8  N3  SKE d         -32.244   9.578   7.180  0.00  0.00    -0.186 N 
+ATOM      9  H3  SKE d         -33.228   9.370   7.400  0.00  0.00     0.184 HD
+BRANCH   8  10
+ATOM     10  C3  SKE d         -31.404   9.689   8.232  0.00  0.00     0.049 A 
+ATOM     11  C4  SKE d         -30.006   9.734   8.100  0.00  0.00     0.031 A 
+ATOM     12  C5  SKE d         -29.185   9.856   9.230  0.00  0.00     0.027 A 
+ATOM     13  C6  SKE d         -29.749   9.928  10.500  0.00  0.00     0.079 A 
+ATOM     14  C7  SKE d         -31.138   9.894  10.641  0.00  0.00     0.027 A 
+ATOM     15  C8  SKE d         -31.964   9.769   9.519  0.00  0.00     0.031 A 
+BRANCH  13  16
+ATOM     16  S   SKE d         -28.683  10.097  11.922  0.00  0.00     0.256 S 
+ATOM     17  O1  SKE d         -29.520  10.072  13.144  0.00  0.00    -0.201 OA
+ATOM     18  O2  SKE d         -27.941  11.400  11.795  0.00  0.00    -0.201 OA
+BRANCH  16  19
+ATOM     19  N4  SKE d         -27.601   8.889  11.962  0.00  0.00    -0.324 N 
+ATOM     20  H5  SKE d         -27.912   7.942  12.044  0.00  0.00     0.169 HD
+ATOM     21  H6  SKE d         -26.623   9.091  11.904  0.00  0.00     0.169 HD
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH   8  10
+ENDBRANCH   2   8
+BRANCH   1  22
+ATOM     22  N1  SKE d         -32.705   9.984   2.527  0.00  0.00    -0.230 N 
+ATOM     23  H1  SKE d         -33.729   9.957   2.417  0.00  0.00     0.174 HD
+ATOM     24  H2  SKE d         -32.101  10.088   1.699  0.00  0.00     0.174 HD
+ENDBRANCH   1  22
+BRANCH   7  25
+ATOM     25  C10 SKE d         -28.426   9.791   3.883  0.00  0.00     0.111 A 
+ATOM     26  C11 SKE d         -27.994  10.700   4.854  0.00  0.00     0.135 A 
+ATOM     27  F1  SKE d         -28.760  11.768   5.163  0.00  0.00    -0.205 F 
+ATOM     28  C12 SKE d         -26.761  10.513   5.489  0.00  0.00     0.043 A 
+ATOM     29  C13 SKE d         -25.977   9.402   5.164  0.00  0.00     0.006 A 
+ATOM     30  C14 SKE d         -26.419   8.488   4.201  0.00  0.00     0.043 A 
+ATOM     31  C15 SKE d         -27.645   8.681   3.563  0.00  0.00     0.135 A 
+ATOM     32  F2  SKE d         -28.077   7.787   2.643  0.00  0.00    -0.205 F 
+ENDBRANCH   7  25
+TORSDOF 6

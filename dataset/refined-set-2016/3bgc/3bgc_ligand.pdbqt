@@ -1,0 +1,100 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C5_2 
+REMARK    2  A    between atoms: C2_9  and  N1_1 
+REMARK    3  A    between atoms: C5_2  and  C6_3 
+REMARK    4  A    between atoms: C6_3  and  N7_17 
+REMARK    5  A    between atoms: C8_4  and  N4_11 
+REMARK    6  A    between atoms: C9_21  and  C8_4 
+REMARK    7  A    between atoms: C3_10  and  C2_9 
+REMARK    8  A    between atoms: N4_11  and  C3_10 
+REMARK    9  A    between atoms: N4_11  and  S15_23 
+REMARK   10  A    between atoms: N7_17  and  C25_16 
+REMARK   11  A    between atoms: C25_16  and  C26_41 
+REMARK   12  A    between atoms: N7_17  and  S32_31 
+REMARK   13  A    between atoms: S15_23  and  C16_19 
+REMARK   14  A    between atoms: C19_28  and  N22_29 
+REMARK   15  A    between atoms: S32_31  and  C33_34 
+REMARK   16  A    between atoms: C36_37  and  N39_38 
+ROOT
+ATOM      1  N1  LJH d         -13.382  18.901 -17.850  0.00  0.00    -0.072 N 
+ATOM      2  H1  LJH d         -13.900  18.039 -17.782  0.00  0.00     0.277 HD
+ATOM      3  H2  LJH d         -13.103  19.199 -16.928  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  LJH d         -14.252  19.947 -18.459  0.00  0.00     0.253 C 
+BRANCH   4   5
+ATOM      5  C6  LJH d         -14.845  20.959 -17.468  0.00  0.00     0.163 C 
+BRANCH   5   6
+ATOM      6  N7  LJH d         -13.959  21.991 -16.963  0.00  0.00    -0.301 N 
+BRANCH   6   7
+ATOM      7  C25 LJH d         -13.874  22.458 -15.585  0.00  0.00     0.174 C 
+BRANCH   7   8
+ATOM      8  C26 LJH d         -14.389  21.618 -14.427  0.00  0.00    -0.040 C 
+ATOM      9  C27 LJH d         -15.727  21.215 -14.307  0.00  0.00     0.009 C 
+ATOM     10  C28 LJH d         -16.135  20.406 -13.247  0.00  0.00     0.001 C 
+ATOM     11  C29 LJH d         -15.250  20.108 -12.204  0.00  0.00     0.000 C 
+ATOM     12  C30 LJH d         -13.901  20.454 -12.335  0.00  0.00     0.001 C 
+ATOM     13  C31 LJH d         -13.487  21.208 -13.432  0.00  0.00     0.009 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  14
+ATOM     14  S32 LJH d         -12.950  22.754 -18.035  0.00  0.00     0.261 S 
+ATOM     15  O41 LJH d         -12.145  21.767 -18.719  0.00  0.00    -0.200 OA
+ATOM     16  O40 LJH d         -12.301  23.786 -17.252  0.00  0.00    -0.200 OA
+BRANCH  14  17
+ATOM     17  C33 LJH d         -14.064  23.505 -19.197  0.00  0.00     0.079 A 
+ATOM     18  C38 LJH d         -14.873  24.573 -18.790  0.00  0.00     0.027 A 
+ATOM     19  C37 LJH d         -15.750  25.162 -19.701  0.00  0.00     0.030 A 
+ATOM     20  C36 LJH d         -15.824  24.696 -21.015  0.00  0.00     0.025 A 
+ATOM     21  C35 LJH d         -15.005  23.643 -21.425  0.00  0.00     0.030 A 
+ATOM     22  C34 LJH d         -14.121  23.048 -20.514  0.00  0.00     0.027 A 
+BRANCH  20  23
+ATOM     23  N39 LJH d         -16.748  25.298 -21.897  0.00  0.00    -0.399 N 
+ATOM     24  H33 LJH d         -16.819  24.970 -22.871  0.00  0.00     0.156 HD
+ATOM     25  H34 LJH d         -17.351  26.065 -21.567  0.00  0.00     0.156 HD
+ENDBRANCH  20  23
+ENDBRANCH  14  17
+ENDBRANCH   6  14
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  26
+ATOM     26  C2  LJH d         -12.164  18.673 -18.678  0.00  0.00     0.253 C 
+BRANCH  26  27
+ATOM     27  C3  LJH d         -11.085  17.859 -17.909  0.00  0.00     0.163 C 
+BRANCH  27  28
+ATOM     28  N4  LJH d          -9.989  18.615 -17.304  0.00  0.00    -0.301 N 
+BRANCH  28  29
+ATOM     29  C8  LJH d          -8.743  18.939 -17.989  0.00  0.00     0.174 C 
+BRANCH  29  30
+ATOM     30  C9  LJH d          -8.950  19.384 -19.438  0.00  0.00    -0.040 A 
+ATOM     31  C10 LJH d          -8.493  18.597 -20.497  0.00  0.00     0.009 A 
+ATOM     32  C11 LJH d          -8.690  19.004 -21.813  0.00  0.00     0.001 A 
+ATOM     33  C12 LJH d          -9.317  20.221 -22.085  0.00  0.00     0.000 A 
+ATOM     34  C13 LJH d          -9.820  20.990 -21.035  0.00  0.00     0.001 A 
+ATOM     35  C14 LJH d          -9.587  20.595 -19.715  0.00  0.00     0.009 A 
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+BRANCH  28  36
+ATOM     36  S15 LJH d         -10.104  19.101 -15.712  0.00  0.00     0.261 S 
+ATOM     37  O24 LJH d          -9.137  20.134 -15.455  0.00  0.00    -0.200 OA
+ATOM     38  O23 LJH d         -11.496  19.225 -15.401  0.00  0.00    -0.200 OA
+BRANCH  36  39
+ATOM     39  C16 LJH d          -9.510  17.576 -14.980  0.00  0.00     0.079 A 
+ATOM     40  C17 LJH d          -8.150  17.264 -15.042  0.00  0.00     0.027 A 
+ATOM     41  C18 LJH d          -7.720  16.060 -14.459  0.00  0.00     0.030 A 
+ATOM     42  C19 LJH d          -8.673  15.217 -13.863  0.00  0.00     0.025 A 
+ATOM     43  C20 LJH d         -10.018  15.574 -13.770  0.00  0.00     0.030 A 
+ATOM     44  C21 LJH d         -10.461  16.756 -14.365  0.00  0.00     0.027 A 
+BRANCH  42  45
+ATOM     45  N22 LJH d          -8.286  13.991 -13.291  0.00  0.00    -0.399 N 
+ATOM     46  H28 LJH d          -7.302  13.689 -13.337  0.00  0.00     0.156 HD
+ATOM     47  H29 LJH d          -8.986  13.396 -12.826  0.00  0.00     0.156 HD
+ENDBRANCH  42  45
+ENDBRANCH  36  39
+ENDBRANCH  28  36
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH   1  26
+TORSDOF 16

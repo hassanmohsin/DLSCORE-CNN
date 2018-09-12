@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAU_2  and  CAM_5 
+REMARK    2  A    between atoms: CAM_5  and  CAQ_6 
+REMARK       I    between atoms: CAQ_6  and  NAO_8 
+REMARK    3  A    between atoms: NAO_8  and  CAS_9 
+REMARK    4  A    between atoms: CAT_14  and  NAP_15 
+REMARK       I    between atoms: NAP_15  and  CAR_16 
+REMARK    5  A    between atoms: CAR_16  and  CAN_18 
+REMARK    6  A    between atoms: CAN_18  and  PAV_19 
+ROOT
+ATOM      1  CAS EOB d          39.305  30.095  19.274  0.00  0.00     0.036 A 
+ATOM      2  CAL EOB d          39.579  28.973  18.499  0.00  0.00     0.059 A 
+ATOM      3  CAJ EOB d          40.154  31.201  19.180  0.00  0.00     0.029 A 
+ATOM      4  CAI EOB d          41.243  31.181  18.320  0.00  0.00     0.004 A 
+ATOM      5  CAK EOB d          41.499  30.058  17.541  0.00  0.00     0.029 A 
+ATOM      6  CAT EOB d          40.664  28.943  17.630  0.00  0.00     0.036 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  NAO EOB d          38.248  30.196  20.082  0.00  0.00    -0.327 N 
+ATOM      8  CAQ EOB d          37.305  29.289  20.334  0.00  0.00     0.235 C 
+ATOM      9  OAA EOB d          36.364  29.517  21.098  0.00  0.00    -0.273 OA
+ATOM     10  H3  EOB d          38.151  31.068  20.562  0.00  0.00     0.169 HD
+BRANCH   8  11
+ATOM     11  CAM EOB d          37.403  27.919  19.650  0.00  0.00     0.248 C 
+BRANCH  11  12
+ATOM     12  PAU EOB d          38.062  26.655  20.767  0.00  0.00     0.268 P 
+ATOM     13  OAF EOB d          39.663  26.705  20.587  0.00  0.00    -0.639 OA
+ATOM     14  OAE EOB d          37.595  25.227  20.184  0.00  0.00    -0.639 OA
+ATOM     15  OAC EOB d          37.626  26.858  22.175  0.00  0.00    -0.639 OA
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   6  16
+ATOM     16  NAP EOB d          40.883  27.827  16.934  0.00  0.00    -0.327 N 
+ATOM     17  CAR EOB d          41.835  27.608  16.029  0.00  0.00     0.235 C 
+ATOM     18  OAB EOB d          41.973  26.533  15.444  0.00  0.00    -0.273 OA
+ATOM     19  H8  EOB d          40.260  27.066  17.112  0.00  0.00     0.169 HD
+BRANCH  17  20
+ATOM     20  CAN EOB d          42.792  28.764  15.721  0.00  0.00     0.248 C 
+BRANCH  20  21
+ATOM     21  PAV EOB d          44.371  28.549  16.572  0.00  0.00     0.268 P 
+ATOM     22  OAH EOB d          44.792  30.022  17.063  0.00  0.00    -0.639 OA
+ATOM     23  OAG EOB d          45.421  28.119  15.430  0.00  0.00    -0.639 OA
+ATOM     24  OAD EOB d          44.292  27.588  17.701  0.00  0.00    -0.639 OA
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH   6  16
+TORSDOF 6

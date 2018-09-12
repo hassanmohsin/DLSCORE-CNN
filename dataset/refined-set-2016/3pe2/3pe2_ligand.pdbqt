@@ -1,0 +1,41 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAQ_19  and  CAT_22 
+REMARK    2  A    between atoms: CAV_24  and  NAQ_19 
+REMARK    3  A    between atoms: CAR_20  and  CAU_23 
+ROOT
+ATOM      1  CAA E1B d          23.775 -30.387  20.422  0.00  0.00     0.018 C 
+ATOM      2  CAD E1B d          23.393 -29.468  19.747  0.00  0.00    -0.078 C 
+ATOM      3  CAE E1B d          21.958 -26.161  18.636  0.00  0.00     0.004 A 
+ATOM      4  CAG E1B d          22.381 -27.186  19.465  0.00  0.00     0.021 A 
+ATOM      5  CAH E1B d          22.054 -26.279  17.257  0.00  0.00     0.029 A 
+ATOM      6  CAL E1B d          23.015 -28.462  17.548  0.00  0.00     0.050 A 
+ATOM      7  CAS E1B d          22.920 -28.337  18.913  0.00  0.00     0.019 A 
+ATOM      8  CAT E1B d          22.585 -27.439  16.727  0.00  0.00     0.035 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  NAQ E1B d          22.731 -27.688  15.348  0.00  0.00    -0.339 N 
+ATOM     10  H11 E1B d          22.788 -26.770  14.885  0.00  0.00     0.167 HD
+BRANCH   9  11
+ATOM     11  CAV E1B d          22.832 -28.663  14.332  0.00  0.00     0.158 A 
+ATOM     12  C4  E1B d          23.047 -28.383  12.944  0.00  0.00     0.116 A 
+ATOM     13  N3  E1B d          23.205 -27.094  12.463  0.00  0.00    -0.237 NA
+ATOM     14  C5  E1B d          23.088 -29.449  12.065  0.00  0.00     0.027 A 
+ATOM     15  C2  E1B d          23.400 -26.869  11.151  0.00  0.00     0.233 A 
+ATOM     16  N1  E1B d          23.442 -27.890  10.261  0.00  0.00    -0.253 NA
+ATOM     17  C6  E1B d          23.297 -29.172  10.678  0.00  0.00     0.132 A 
+ATOM     18  CAY E1B d          22.910 -30.809  12.613  0.00  0.00     0.007 A 
+ATOM     19  CAJ E1B d          22.955 -31.942  11.751  0.00  0.00     0.016 A 
+ATOM     20  CAW E1B d          22.726 -31.004  13.965  0.00  0.00     0.071 A 
+ATOM     21  CAI E1B d          22.788 -33.218  12.302  0.00  0.00     0.019 A 
+ATOM     22  CAU E1B d          22.600 -33.411  13.686  0.00  0.00     0.043 A 
+ATOM     23  CAM E1B d          22.558 -32.303  14.530  0.00  0.00     0.051 A 
+ATOM     24  NAP E1B d          22.691 -29.908  14.793  0.00  0.00    -0.228 NA
+BRANCH  22  25
+ATOM     25  CAR E1B d          22.410 -34.787  14.244  0.00  0.00     0.209 C 
+ATOM     26  OAB E1B d          22.501 -34.780  15.499  0.00  0.00    -0.644 OA
+ATOM     27  OAC E1B d          22.112 -35.584  13.321  0.00  0.00    -0.644 OA
+ENDBRANCH  22  25
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+TORSDOF 3

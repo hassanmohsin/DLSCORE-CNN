@@ -1,0 +1,43 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_1  and  C10_4 
+REMARK    2  A    between atoms: C10_4  and  C9_5 
+REMARK    3  A    between atoms: C9_5  and  C8_6 
+REMARK    4  A    between atoms: C8_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  C2_8 
+REMARK    6  A    between atoms: C3_13  and  N3_14 
+ROOT
+ATOM      1  C2  IMI d          32.828  11.921  -6.278  0.00  0.00     0.072 C 
+ATOM      2  S1  IMI d          32.085  12.015  -4.636  0.00  0.00    -0.160 SA
+ATOM      3  C6  IMI d          32.885  10.448  -4.198  0.00  0.00     0.102 C 
+ATOM      4  C5  IMI d          34.207  10.249  -4.977  0.00  0.00     0.133 A 
+ATOM      5  N1  IMI d          35.321  10.787  -4.146  0.00  0.00    -0.219 N 
+ATOM      6  C3  IMI d          35.807  11.883  -4.639  0.00  0.00     0.668 A 
+ATOM      7  N2  IMI d          35.234  12.236  -5.760  0.00  0.00    -0.219 N 
+ATOM      8  C4  IMI d          34.224  11.250  -6.201  0.00  0.00     0.137 A 
+ATOM      9  H13 IMI d          35.664  10.341  -3.283  0.00  0.00     0.178 HD
+ATOM     10  H16 IMI d          35.459  13.099  -6.275  0.00  0.00     0.178 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  C7  IMI d          32.856  13.218  -7.134  0.00  0.00     0.017 C 
+BRANCH  11  12
+ATOM     12  C8  IMI d          31.476  13.426  -7.771  0.00  0.00     0.002 C 
+BRANCH  12  13
+ATOM     13  C9  IMI d          31.433  14.805  -8.462  0.00  0.00     0.010 C 
+BRANCH  13  14
+ATOM     14  C10 IMI d          29.975  15.214  -8.811  0.00  0.00     0.113 C 
+BRANCH  14  15
+ATOM     15  C11 IMI d          29.298  14.327  -9.889  0.00  0.00     0.172 C 
+ATOM     16  O12 IMI d          30.010  13.902 -10.789  0.00  0.00    -0.648 OA
+ATOM     17  O11 IMI d          28.090  14.107  -9.812  0.00  0.00    -0.648 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   6  18
+ATOM     18  N3  IMI d          36.761  12.543  -4.060  0.00  0.00    -0.235 N 
+ATOM     19  H14 IMI d          37.119  13.410  -4.485  0.00  0.00     0.174 HD
+ATOM     20  H15 IMI d          37.161  12.200  -3.175  0.00  0.00     0.174 HD
+ENDBRANCH   6  18
+TORSDOF 6

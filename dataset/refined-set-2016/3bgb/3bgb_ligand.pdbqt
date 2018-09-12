@@ -1,0 +1,94 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_2  and  N1_1 
+REMARK    2  A    between atoms: N1_1  and  C2_12 
+REMARK    3  A    between atoms: C6_3  and  C5_2 
+REMARK    4  A    between atoms: N7_26  and  C6_3 
+REMARK    5  A    between atoms: N7_26  and  C8_4 
+REMARK    6  A    between atoms: C8_4  and  C9_34 
+REMARK    7  A    between atoms: S12_27  and  C13_6 
+REMARK    8  A    between atoms: N4_14  and  C22_9 
+REMARK    9  A    between atoms: C22_9  and  C23_24 
+REMARK   10  A    between atoms: C2_12  and  C3_13 
+REMARK   11  A    between atoms: C3_13  and  N4_14 
+REMARK   12  A    between atoms: N4_14  and  S26_15 
+REMARK   13  A    between atoms: S26_15  and  C27_18 
+REMARK   14  A    between atoms: C30_21  and  N33_22 
+REMARK   15  A    between atoms: N7_26  and  S12_27 
+REMARK   16  A    between atoms: C16_31  and  N19_32 
+ROOT
+ATOM      1  N1  LJG d          13.487 -18.617 -17.937  0.00  0.00    -0.072 N 
+ATOM      2  H1  LJG d          13.087 -19.035 -17.112  0.00  0.00     0.277 HD
+ATOM      3  H2  LJG d          14.031 -17.810 -17.675  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C5  LJG d          12.389 -18.191 -18.850  0.00  0.00     0.253 C 
+BRANCH   4   5
+ATOM      5  C6  LJG d          11.141 -17.648 -18.131  0.00  0.00     0.163 C 
+BRANCH   5   6
+ATOM      6  N7  LJG d          10.089 -18.620 -17.859  0.00  0.00    -0.305 N 
+BRANCH   6   7
+ATOM      7  C8  LJG d           9.106 -19.103 -18.825  0.00  0.00     0.139 C 
+BRANCH   7   8
+ATOM      8  C9  LJG d           9.488 -19.004 -20.333  0.00  0.00    -0.004 C 
+ATOM      9  C10 LJG d           8.996 -17.644 -20.912  0.00  0.00     0.011 C 
+ATOM     10  C11 LJG d           8.855 -20.169 -21.136  0.00  0.00     0.011 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  11
+ATOM     11  S12 LJG d           9.969 -19.214 -16.306  0.00  0.00     0.260 S 
+ATOM     12  O21 LJG d           8.884 -20.161 -16.315  0.00  0.00    -0.200 OA
+ATOM     13  O20 LJG d          11.284 -19.521 -15.861  0.00  0.00    -0.200 OA
+BRANCH  11  14
+ATOM     14  C13 LJG d           9.426 -17.777 -15.394  0.00  0.00     0.079 A 
+ATOM     15  C18 LJG d          10.335 -17.083 -14.591  0.00  0.00     0.027 A 
+ATOM     16  C17 LJG d           9.905 -15.936 -13.917  0.00  0.00     0.030 A 
+ATOM     17  C16 LJG d           8.566 -15.545 -14.010  0.00  0.00     0.025 A 
+ATOM     18  C15 LJG d           7.647 -16.286 -14.759  0.00  0.00     0.030 A 
+ATOM     19  C14 LJG d           8.086 -17.403 -15.480  0.00  0.00     0.027 A 
+BRANCH  17  20
+ATOM     20  N19 LJG d           8.130 -14.398 -13.309  0.00  0.00    -0.399 N 
+ATOM     21  H34 LJG d           7.146 -14.100 -13.370  0.00  0.00     0.156 HD
+ATOM     22  H35 LJG d           8.796 -13.860 -12.737  0.00  0.00     0.156 HD
+ENDBRANCH  17  20
+ENDBRANCH  11  14
+ENDBRANCH   6  11
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  23
+ATOM     23  C2  LJG d          14.376 -19.608 -18.603  0.00  0.00     0.253 C 
+BRANCH  23  24
+ATOM     24  C3  LJG d          14.967 -20.681 -17.680  0.00  0.00     0.163 C 
+BRANCH  24  25
+ATOM     25  N4  LJG d          14.193 -21.788 -17.151  0.00  0.00    -0.305 N 
+BRANCH  25  26
+ATOM     26  C22 LJG d          14.397 -22.232 -15.747  0.00  0.00     0.139 C 
+BRANCH  26  27
+ATOM     27  C23 LJG d          14.152 -21.236 -14.567  0.00  0.00    -0.004 C 
+ATOM     28  C24 LJG d          13.787 -22.020 -13.277  0.00  0.00     0.011 C 
+ATOM     29  C25 LJG d          15.430 -20.381 -14.315  0.00  0.00     0.011 C 
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+BRANCH  25  30
+ATOM     30  S26 LJG d          13.113 -22.542 -18.144  0.00  0.00     0.260 S 
+ATOM     31  O35 LJG d          12.421 -23.482 -17.274  0.00  0.00    -0.200 OA
+ATOM     32  O34 LJG d          12.309 -21.670 -18.957  0.00  0.00    -0.200 OA
+BRANCH  30  33
+ATOM     33  C27 LJG d          14.218 -23.447 -19.205  0.00  0.00     0.079 A 
+ATOM     34  C28 LJG d          14.975 -24.530 -18.743  0.00  0.00     0.027 A 
+ATOM     35  C29 LJG d          15.809 -25.219 -19.627  0.00  0.00     0.030 A 
+ATOM     36  C30 LJG d          15.932 -24.790 -20.953  0.00  0.00     0.025 A 
+ATOM     37  C31 LJG d          15.154 -23.726 -21.415  0.00  0.00     0.030 A 
+ATOM     38  C32 LJG d          14.292 -23.055 -20.545  0.00  0.00     0.027 A 
+BRANCH  36  39
+ATOM     39  N33 LJG d          16.815 -25.441 -21.843  0.00  0.00    -0.399 N 
+ATOM     40  H26 LJG d          17.393 -26.227 -21.512  0.00  0.00     0.156 HD
+ATOM     41  H27 LJG d          16.881 -25.130 -22.823  0.00  0.00     0.156 HD
+ENDBRANCH  36  39
+ENDBRANCH  30  33
+ENDBRANCH  25  30
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 16

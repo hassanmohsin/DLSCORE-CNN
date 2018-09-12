@@ -1,0 +1,76 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_2  and  C5_3 
+REMARK    2  A    between atoms: C5_3  and  C6_4 
+REMARK    3  A    between atoms: C6_4  and  C7_5 
+REMARK    4  A    between atoms: C6_4  and  N10_8 
+REMARK       I    between atoms: N10_8  and  C11_9 
+REMARK       I    between atoms: C11_9  and  N12_10 
+REMARK    5  A    between atoms: N12_10  and  C13_11 
+REMARK    6  A    between atoms: C13_11  and  C14_12 
+REMARK    7  A    between atoms: C13_11  and  C28_26 
+REMARK    8  A    between atoms: C14_12  and  C15_13 
+REMARK    9  A    between atoms: C15_13  and  C16_14 
+REMARK   10  A    between atoms: C16_14  and  C17_15 
+REMARK   11  A    between atoms: C17_15  and  N18_16 
+REMARK       I    between atoms: N18_16  and  C19_17 
+REMARK   12  A    between atoms: C19_17  and  C20_18 
+ROOT
+ATOM      1  C13 YZE d          19.921  45.047  44.043  0.00  0.00     0.187 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N12 YZE d          18.602  45.336  43.489  0.00  0.00    -0.329 N 
+ATOM      3  C11 YZE d          18.060  44.584  42.549  0.00  0.00     0.317 C 
+ATOM      4  N10 YZE d          16.910  45.031  42.095  0.00  0.00    -0.328 N 
+ATOM      5  O31 YZE d          18.584  43.533  42.134  0.00  0.00    -0.247 OA
+ATOM      6  H7  YZE d          16.490  45.850  42.486  0.00  0.00     0.165 HD
+ATOM      7  H8  YZE d          18.094  46.127  43.831  0.00  0.00     0.165 HD
+BRANCH   4   8
+ATOM      8  C6  YZE d          16.268  44.315  41.021  0.00  0.00     0.190 C 
+BRANCH   8   9
+ATOM      9  C5  YZE d          14.883  44.884  40.684  0.00  0.00     0.062 C 
+BRANCH   9  10
+ATOM     10  C4  YZE d          14.922  46.354  40.304  0.00  0.00    -0.034 C 
+ATOM     11  C2  YZE d          13.788  47.121  40.471  0.00  0.00     0.007 C 
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+BRANCH   8  12
+ATOM     12  C7  YZE d          17.272  44.479  39.844  0.00  0.00     0.197 C 
+ATOM     13  O8  YZE d          17.186  43.679  38.863  0.00  0.00    -0.646 OA
+ATOM     14  O9  YZE d          18.187  45.329  39.988  0.00  0.00    -0.646 OA
+ENDBRANCH   8  12
+ENDBRANCH   4   8
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C14 YZE d          20.922  45.712  43.054  0.00  0.00     0.036 C 
+BRANCH  15  16
+ATOM     16  C15 YZE d          22.367  45.174  43.119  0.00  0.00     0.004 C 
+BRANCH  16  17
+ATOM     17  C16 YZE d          23.421  45.915  42.206  0.00  0.00     0.020 C 
+BRANCH  17  18
+ATOM     18  C17 YZE d          23.505  47.454  42.391  0.00  0.00     0.123 C 
+BRANCH  18  19
+ATOM     19  N18 YZE d          23.664  47.845  43.819  0.00  0.00    -0.357 N 
+ATOM     20  C19 YZE d          23.174  49.004  44.292  0.00  0.00     0.251 C 
+ATOM     21  O27 YZE d          22.520  49.751  43.568  0.00  0.00    -0.268 OA
+ATOM     22  H18 YZE d          24.148  47.230  44.442  0.00  0.00     0.162 HD
+BRANCH  20  23
+ATOM     23  C20 YZE d          23.287  49.319  45.824  0.00  0.00     0.032 A 
+ATOM     24  C21 YZE d          22.725  50.498  46.400  0.00  0.00     0.018 A 
+ATOM     25  C22 YZE d          22.822  50.770  47.808  0.00  0.00     0.019 A 
+ATOM     26  C23 YZE d          23.485  49.906  48.713  0.00  0.00     0.006 A 
+ATOM     27  I24 YZE d          23.684  50.191  50.918  0.00  0.00    -0.045 I 
+ATOM     28  C25 YZE d          24.027  48.755  48.081  0.00  0.00     0.019 A 
+ATOM     29  C26 YZE d          23.942  48.447  46.699  0.00  0.00     0.018 A 
+ENDBRANCH  20  23
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+BRANCH   1  30
+ATOM     30  C28 YZE d          20.005  45.677  45.458  0.00  0.00     0.196 C 
+ATOM     31  O29 YZE d          19.544  46.844  45.647  0.00  0.00    -0.646 OA
+ATOM     32  O30 YZE d          20.435  44.930  46.348  0.00  0.00    -0.646 OA
+ENDBRANCH   1  30
+TORSDOF 12

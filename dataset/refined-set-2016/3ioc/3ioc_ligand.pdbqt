@@ -1,0 +1,63 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  N6_7 
+REMARK    2  A    between atoms: CAZ_27  and  N9_10 
+REMARK    3  A    between atoms: CAW_24  and  OAB_11 
+REMARK    4  A    between atoms: CAX_25  and  OAC_12 
+REMARK    5  A    between atoms: SAQ_21  and  CAK_18 
+REMARK    6  A    between atoms: CAK_18  and  CAS_23 
+REMARK    7  A    between atoms: CAL_19  and  SAR_22 
+REMARK    8  A    between atoms: CAY_26  and  CAL_19 
+REMARK    9  A    between atoms: SAR_22  and  SAQ_21 
+ROOT
+ATOM      1  OAP A5D d          13.919  10.955   0.570  0.00  0.00    -0.355 OA
+ATOM      2  CAW A5D d          13.831   8.845   1.683  0.00  0.00     0.180 C 
+ATOM      3  CAX A5D d          14.544   8.802   0.302  0.00  0.00     0.198 C 
+ATOM      4  CAY A5D d          13.343  10.310   1.746  0.00  0.00     0.165 C 
+ATOM      5  CAZ A5D d          13.803   9.929  -0.446  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  A5D d          14.552  10.307  -1.645  0.00  0.00    -0.294 N 
+ATOM      7  C4  A5D d          14.216  10.043  -2.907  0.00  0.00     0.167 A 
+ATOM      8  N3  A5D d          13.164   9.425  -3.489  0.00  0.00    -0.222 NA
+ATOM      9  C5  A5D d          15.217  10.555  -3.720  0.00  0.00     0.149 A 
+ATOM     10  C2  A5D d          13.056   9.300  -4.803  0.00  0.00     0.237 A 
+ATOM     11  N1  A5D d          13.999   9.785  -5.605  0.00  0.00    -0.222 NA
+ATOM     12  C6  A5D d          15.094  10.414  -5.114  0.00  0.00     0.155 A 
+ATOM     13  N7  A5D d          16.119  11.091  -2.909  0.00  0.00    -0.236 NA
+ATOM     14  C8  A5D d          15.720  10.950  -1.647  0.00  0.00     0.214 A 
+BRANCH  12  15
+ATOM     15  N6  A5D d          16.021  10.872  -5.961  0.00  0.00    -0.382 N 
+ATOM     16  H2  A5D d          16.857  11.352  -5.599  0.00  0.00     0.157 HD
+ATOM     17  H3  A5D d          15.899  10.745  -6.976  0.00  0.00     0.157 HD
+ENDBRANCH  12  15
+ENDBRANCH   5   6
+BRANCH   3  18
+ATOM     18  OAC A5D d          14.484   7.560  -0.394  0.00  0.00    -0.388 OA
+ATOM     19  H6  A5D d          13.576   7.334  -0.558  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  CAL A5D d          13.557  11.043   3.087  0.00  0.00     0.120 C 
+BRANCH  20  21
+ATOM     21  SAR A5D d          15.258  11.275   3.729  0.00  0.00    -0.095 SA
+BRANCH  21  22
+ATOM     22  SAQ A5D d          15.713   9.564   4.787  0.00  0.00    -0.093 SA
+BRANCH  22  23
+ATOM     23  CAK A5D d          14.106   8.832   5.303  0.00  0.00     0.124 C 
+BRANCH  23  24
+ATOM     24  CAS A5D d          14.036   9.109   6.792  0.00  0.00    -0.048 A 
+ATOM     25  CAG A5D d          13.653  10.369   7.235  0.00  0.00     0.008 A 
+ATOM     26  CAE A5D d          13.584  10.639   8.594  0.00  0.00     0.001 A 
+ATOM     27  CAD A5D d          13.924   9.652   9.487  0.00  0.00     0.000 A 
+ATOM     28  CAF A5D d          14.317   8.396   9.017  0.00  0.00     0.001 A 
+ATOM     29  CAH A5D d          14.389   8.117   7.667  0.00  0.00     0.008 A 
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+BRANCH   2  30
+ATOM     30  OAB A5D d          12.665   8.015   1.747  0.00  0.00    -0.390 OA
+ATOM     31  H5  A5D d          12.911   7.113   1.580  0.00  0.00     0.210 HD
+ENDBRANCH   2  30
+TORSDOF 9

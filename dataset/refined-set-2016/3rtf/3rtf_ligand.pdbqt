@@ -1,0 +1,36 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C7_10 
+REMARK    2  A    between atoms: C7_10  and  C8_11 
+REMARK    3  A    between atoms: C8_11  and  N8_12 
+REMARK    4  A    between atoms: C8_11  and  C9_13 
+ROOT
+ATOM      1  N1  CWD d          18.528 -21.004 -26.569  0.00  0.00    -0.305 N 
+ATOM      2  C2  CWD d          17.997 -21.101 -25.340  0.00  0.00     0.328 A 
+ATOM      3  O2  CWD d          18.674 -21.209 -24.345  0.00  0.00    -0.246 OA
+ATOM      4  N3  CWD d          16.640 -21.138 -25.189  0.00  0.00    -0.285 N 
+ATOM      5  C4  CWD d          15.893 -21.089 -26.308  0.00  0.00     0.206 A 
+ATOM      6  O4  CWD d          14.529 -21.074 -26.119  0.00  0.00    -0.170 OA
+ATOM      7  C5  CWD d          16.453 -20.990 -27.553  0.00  0.00     0.103 A 
+ATOM      8 CL5  CWD d          15.459 -20.963 -29.017  0.00  0.00    -0.078 Cl
+ATOM      9  C6  CWD d          17.778 -20.954 -27.736  0.00  0.00     0.124 A 
+ATOM     10  H1  CWD d          16.218 -21.199 -24.284  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  C7  CWD d          19.987 -20.874 -26.686  0.00  0.00     0.177 C 
+BRANCH  11  12
+ATOM     12  C8  CWD d          20.457 -19.487 -26.269  0.00  0.00     0.301 C 
+BRANCH  12  13
+ATOM     13  N8  CWD d          20.203 -18.458 -27.275  0.00  0.00    -0.064 N 
+ATOM     14  H6  CWD d          20.537 -17.569 -26.938  0.00  0.00     0.275 HD
+ATOM     15  H7  CWD d          19.213 -18.400 -27.453  0.00  0.00     0.275 HD
+ATOM     16  H8  CWD d          20.685 -18.696 -28.128  0.00  0.00     0.275 HD
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C9  CWD d          21.949 -19.510 -25.966  0.00  0.00     0.206 C 
+ATOM     18  O91 CWD d          22.737 -18.827 -26.570  0.00  0.00    -0.646 OA
+ATOM     19  O92 CWD d          22.328 -20.447 -25.052  0.00  0.00    -0.646 OA
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 4

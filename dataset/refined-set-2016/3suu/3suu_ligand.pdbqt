@@ -1,0 +1,66 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAY_25  and  CAA_1 
+REMARK    2  A    between atoms: CAB_2  and  NAI_9 
+REMARK    3  A    between atoms: CAC_3  and  OAJ_10 
+REMARK    4  A    between atoms: CAD_4  and  OAK_11 
+REMARK    5  A    between atoms: CAE_5  and  CAF_6 
+REMARK    6  A    between atoms: CAF_6  and  OAM_13 
+REMARK       I    between atoms: NAI_9  and  CAG_7 
+REMARK       I    between atoms: CAP_16  and  NAO_15 
+REMARK    7  A    between atoms: NAO_15  and  CAS_19 
+REMARK    8  A    between atoms: OAQ_17  and  CAP_16 
+REMARK    9  A    between atoms: OAQ_17  and  NAY_25 
+ROOT
+ATOM      1  CAA OGN d          36.191  18.589 -16.095  0.00  0.00     0.381 C 
+ATOM      2  CAB OGN d          35.229  17.983 -17.150  0.00  0.00     0.175 C 
+ATOM      3  CAC OGN d          34.403  16.824 -16.556  0.00  0.00     0.176 C 
+ATOM      4  CAD OGN d          34.971  16.329 -15.218  0.00  0.00     0.180 C 
+ATOM      5  CAE OGN d          34.953  17.498 -14.221  0.00  0.00     0.179 C 
+ATOM      6  OAL OGN d          35.763  18.619 -14.696  0.00  0.00    -0.345 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  NAY OGN d          36.911  19.802 -16.433  0.00  0.00     0.077 N 
+ATOM      8  H21 OGN d          36.294  20.598 -16.476  0.00  0.00     0.319 HD
+ATOM      9  H22 OGN d          37.401  19.709 -17.309  0.00  0.00     0.319 HD
+BRANCH   7  10
+ATOM     10  OAQ OGN d          37.834  19.901 -15.313  0.00  0.00    -0.101 OA
+BRANCH  10  11
+ATOM     11  CAP OGN d          38.870  20.741 -15.503  0.00  0.00     0.392 C 
+ATOM     12  NAO OGN d          39.831  20.574 -14.592  0.00  0.00    -0.301 N 
+ATOM     13  H15 OGN d          39.669  19.844 -13.928  0.00  0.00     0.171 HD
+ATOM     14  OAR OGN d          38.886  21.565 -16.417  0.00  0.00    -0.236 OA
+BRANCH  12  15
+ATOM     15  CAS OGN d          40.979  21.243 -14.441  0.00  0.00     0.036 A 
+ATOM     16  CAT OGN d          41.995  20.635 -13.702  0.00  0.00     0.029 A 
+ATOM     17  CAU OGN d          43.199  21.302 -13.484  0.00  0.00     0.002 A 
+ATOM     18  CAV OGN d          43.371  22.582 -14.009  0.00  0.00     0.000 A 
+ATOM     19  CAW OGN d          42.359  23.202 -14.738  0.00  0.00     0.002 A 
+ATOM     20  CAX OGN d          41.153  22.532 -14.948  0.00  0.00     0.029 A 
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   2  21
+ATOM     21  NAI OGN d          34.291  18.907 -17.823  0.00  0.00    -0.350 N 
+ATOM     22  CAG OGN d          33.433  19.692 -17.176  0.00  0.00     0.214 C 
+ATOM     23  CAH OGN d          32.505  20.500 -18.073  0.00  0.00     0.117 C 
+ATOM     24  OAN OGN d          33.370  19.772 -15.956  0.00  0.00    -0.274 OA
+ATOM     25  H11 OGN d          34.302  18.944 -18.822  0.00  0.00     0.163 HD
+ENDBRANCH   2  21
+BRANCH   3  26
+ATOM     26  OAJ OGN d          34.387  15.761 -17.501  0.00  0.00    -0.391 OA
+ATOM     27  H12 OGN d          35.273  15.444 -17.635  0.00  0.00     0.210 HD
+ENDBRANCH   3  26
+BRANCH   5  28
+ATOM     28  CAF OGN d          35.456  17.066 -12.849  0.00  0.00     0.198 C 
+BRANCH  28  29
+ATOM     29  OAM OGN d          35.264  18.142 -11.930  0.00  0.00    -0.398 OA
+ATOM     30  H14 OGN d          35.750  18.902 -12.228  0.00  0.00     0.209 HD
+ENDBRANCH  28  29
+ENDBRANCH   5  28
+BRANCH   4  31
+ATOM     31  OAK OGN d          36.312  15.852 -15.418  0.00  0.00    -0.390 OA
+ATOM     32  H13 OGN d          36.301  15.131 -16.036  0.00  0.00     0.210 HD
+ENDBRANCH   4  31
+TORSDOF 9

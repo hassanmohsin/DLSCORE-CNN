@@ -1,0 +1,55 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C2_2 
+REMARK       I    between atoms: N1_1  and  C5_5 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C2_2  and  C20_20 
+REMARK    4  A    between atoms: C3_3  and  O4_4 
+REMARK    5  A    between atoms: O4_4  and  P7_7 
+REMARK    6  A    between atoms: C5_5  and  C11_11 
+REMARK    7  A    between atoms: C20_20  and  C22_22 
+ROOT
+ATOM      1  C2  J8Z d          14.655   2.829   1.991  0.00  0.00     0.113 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N1  J8Z d          13.403   2.904   1.250  0.00  0.00    -0.349 N 
+ATOM      3  C5  J8Z d          12.271   3.314   1.862  0.00  0.00     0.259 C 
+ATOM      4  O6  J8Z d          12.251   3.651   3.029  0.00  0.00    -0.267 OA
+ATOM      5  H1  J8Z d          13.382   2.651   0.283  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  C11 J8Z d          11.111   3.541   0.999  0.00  0.00     0.074 A 
+ATOM      7  C12 J8Z d          10.753   2.972  -0.171  0.00  0.00     0.037 A 
+ATOM      8  C13 J8Z d           9.558   3.377  -0.790  0.00  0.00    -0.018 A 
+ATOM      9  C14 J8Z d           8.824   4.385  -0.111  0.00  0.00     0.016 A 
+ATOM     10  C16 J8Z d           9.009   2.903  -1.996  0.00  0.00     0.013 A 
+ATOM     11  S15 J8Z d           9.802   4.712   1.324  0.00  0.00    -0.084 SA
+ATOM     12  C19 J8Z d           7.660   4.925  -0.613  0.00  0.00     0.019 A 
+ATOM     13  C18 J8Z d           7.162   4.440  -1.799  0.00  0.00     0.001 A 
+ATOM     14  C17 J8Z d           7.861   3.446  -2.487  0.00  0.00     0.001 A 
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C3  J8Z d          15.362   1.497   1.670  0.00  0.00     0.208 C 
+BRANCH  15  16
+ATOM     16  O4  J8Z d          16.755   1.647   1.964  0.00  0.00    -0.281 OA
+BRANCH  16  17
+ATOM     17  P7  J8Z d          17.104   0.551   3.120  0.00  0.00     0.422 P 
+ATOM     18  O8  J8Z d          17.257  -0.763   2.466  0.00  0.00    -0.617 OA
+ATOM     19  O9  J8Z d          18.494   0.964   3.820  0.00  0.00    -0.617 OA
+ATOM     20  O10 J8Z d          15.933   0.561   4.206  0.00  0.00    -0.617 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+BRANCH   1  21
+ATOM     21  C20 J8Z d          15.544   3.952   1.393  0.00  0.00     0.065 C 
+BRANCH  21  22
+ATOM     22  C22 J8Z d          15.054   5.363   1.727  0.00  0.00    -0.056 A 
+ATOM     23  C21 J8Z d          14.010   5.976   1.000  0.00  0.00     0.007 A 
+ATOM     24  C26 J8Z d          13.565   7.267   1.329  0.00  0.00     0.001 A 
+ATOM     25  C25 J8Z d          14.172   7.974   2.371  0.00  0.00     0.007 A 
+ATOM     26  C24 J8Z d          15.201   7.360   3.105  0.00  0.00    -0.061 A 
+ATOM     27  C23 J8Z d          15.637   6.069   2.783  0.00  0.00     0.013 A 
+ATOM     28  C27 J8Z d          15.891   8.144   4.225  0.00  0.00     0.048 C 
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+TORSDOF 7

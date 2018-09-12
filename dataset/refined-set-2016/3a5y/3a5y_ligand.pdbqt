@@ -1,0 +1,94 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NZ_1  and  CE_2 
+REMARK    2  A    between atoms: CE_2  and  CD_3 
+REMARK    3  A    between atoms: CD_3  and  CG_4 
+REMARK    4  A    between atoms: CG_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CA_6 
+REMARK    6  A    between atoms: CA_6  and  N_7 
+REMARK    7  A    between atoms: CA_6  and  C_8 
+REMARK       I    between atoms: C_8  and  N8_10 
+REMARK    8  A    between atoms: N8_10  and  S1_11 
+REMARK    9  A    between atoms: S1_11  and  O5'_14 
+REMARK   10  A    between atoms: O5'_14  and  C5'_15 
+REMARK   11  A    between atoms: C5'_15  and  C4'_16 
+REMARK   12  A    between atoms: C3'_18  and  O3'_19 
+REMARK   13  A    between atoms: C2'_20  and  O2'_21 
+REMARK   14  A    between atoms: C1'_22  and  N9_23 
+REMARK   15  A    between atoms: C6_31  and  N6_32 
+ROOT
+ATOM      1  C5' KAA d           1.008  -0.096  -3.169  0.00  0.00     0.226 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O5' KAA d           0.027  -0.433  -4.155  0.00  0.00    -0.257 OA
+BRANCH   2   3
+ATOM      3  S1  KAA d          -1.309   0.080  -4.070  0.00  0.00     0.364 S 
+ATOM      4  O1S KAA d          -2.027  -0.245  -5.345  0.00  0.00    -0.175 OA
+ATOM      5  O2S KAA d          -1.265   1.570  -3.901  0.00  0.00    -0.175 OA
+BRANCH   3   6
+ATOM      6  N8  KAA d          -2.092  -0.569  -2.796  0.00  0.00    -0.230 N 
+ATOM      7  C   KAA d          -2.245  -1.886  -2.897  0.00  0.00     0.263 C 
+ATOM      8  O   KAA d          -1.777  -2.552  -3.819  0.00  0.00    -0.270 OA
+ATOM      9  H16 KAA d          -2.423  -0.033  -2.019  0.00  0.00     0.183 HD
+BRANCH   7  10
+ATOM     10  CA  KAA d          -3.041  -2.578  -1.789  0.00  0.00     0.275 C 
+BRANCH  10  11
+ATOM     11  CB  KAA d          -2.250  -2.479  -0.483  0.00  0.00     0.043 C 
+BRANCH  11  12
+ATOM     12  CG  KAA d          -3.098  -2.876   0.726  0.00  0.00     0.004 C 
+BRANCH  12  13
+ATOM     13  CD  KAA d          -2.290  -2.697   2.013  0.00  0.00     0.027 C 
+BRANCH  13  14
+ATOM     14  CE  KAA d          -3.159  -2.883   3.259  0.00  0.00     0.229 C 
+BRANCH  14  15
+ATOM     15  NZ  KAA d          -3.724  -4.239   3.276  0.00  0.00    -0.079 N 
+ATOM     16  H1  KAA d          -4.295  -4.355   4.099  0.00  0.00     0.274 HD
+ATOM     17  H2  KAA d          -2.976  -4.915   3.288  0.00  0.00     0.274 HD
+ATOM     18  H3  KAA d          -4.289  -4.378   2.453  0.00  0.00     0.274 HD
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+BRANCH  10  19
+ATOM     19  N   KAA d          -3.267  -3.991  -2.128  0.00  0.00    -0.066 N 
+ATOM     20  H13 KAA d          -3.788  -4.051  -2.989  0.00  0.00     0.275 HD
+ATOM     21  H14 KAA d          -3.788  -4.435  -1.388  0.00  0.00     0.275 HD
+ATOM     22  H15 KAA d          -2.380  -4.456  -2.240  0.00  0.00     0.275 HD
+ENDBRANCH  10  19
+ENDBRANCH   7  10
+ENDBRANCH   3   6
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  23
+ATOM     23  C4' KAA d           2.278   0.470  -3.810  0.00  0.00     0.180 C 
+ATOM     24  O4' KAA d           2.742  -0.370  -4.875  0.00  0.00    -0.353 OA
+ATOM     25  C1' KAA d           3.591   0.443  -5.704  0.00  0.00     0.262 C 
+ATOM     26  C2' KAA d           3.320   1.904  -5.330  0.00  0.00     0.198 C 
+ATOM     27  C3' KAA d           2.029   1.803  -4.516  0.00  0.00     0.182 C 
+BRANCH  25  28
+ATOM     28  N9  KAA d           3.208   0.163  -7.104  0.00  0.00    -0.294 N 
+ATOM     29  C8  KAA d           1.973  -0.065  -7.545  0.00  0.00     0.214 A 
+ATOM     30  N7  KAA d           2.011  -0.308  -8.853  0.00  0.00    -0.236 NA
+ATOM     31  C5  KAA d           3.279  -0.236  -9.248  0.00  0.00     0.149 A 
+ATOM     32  C4  KAA d           4.044   0.070  -8.133  0.00  0.00     0.167 A 
+ATOM     33  C6  KAA d           3.925  -0.395 -10.468  0.00  0.00     0.155 A 
+ATOM     34  N3  KAA d           5.371   0.211  -8.261  0.00  0.00    -0.222 NA
+ATOM     35  C2  KAA d           5.950   0.060  -9.439  0.00  0.00     0.237 A 
+ATOM     36  N1  KAA d           5.255  -0.237 -10.522  0.00  0.00    -0.222 NA
+BRANCH  33  37
+ATOM     37  N6  KAA d           3.239  -0.712 -11.563  0.00  0.00    -0.382 N 
+ATOM     38  H27 KAA d           3.728  -0.827 -12.462  0.00  0.00     0.157 HD
+ATOM     39  H28 KAA d           2.219  -0.842 -11.512  0.00  0.00     0.157 HD
+ENDBRANCH  33  37
+ENDBRANCH  25  28
+BRANCH  26  40
+ATOM     40  O2' KAA d           4.402   2.394  -4.531  0.00  0.00    -0.388 OA
+ATOM     41  H23 KAA d           4.184   3.258  -4.200  0.00  0.00     0.210 HD
+ENDBRANCH  26  40
+BRANCH  27  42
+ATOM     42  O3' KAA d           1.994   2.843  -3.535  0.00  0.00    -0.390 OA
+ATOM     43  H21 KAA d           2.825   2.871  -3.075  0.00  0.00     0.210 HD
+ENDBRANCH  27  42
+ENDBRANCH   1  23
+TORSDOF 15

@@ -1,0 +1,61 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C3_2 
+REMARK    2  A    between atoms: C3_2  and  C4_4 
+REMARK    3  A    between atoms: C7_7  and  C10_8 
+REMARK    4  A    between atoms: C17_16  and  C18_30 
+REMARK    5  A    between atoms: N19_17  and  C23_18 
+REMARK    6  A    between atoms: C23_18  and  C24_19 
+ROOT
+ATOM      1  C10 UIB d          15.699 -11.380  19.956  0.00  0.00     0.235 C 
+ATOM      2  C22 UIB d          17.183 -11.528  20.358  0.00  0.00     0.122 C 
+ATOM      3  C16 UIB d          17.884 -12.038  19.083  0.00  0.00     0.059 C 
+ATOM      4  C15 UIB d          16.730 -12.632  18.239  0.00  0.00     0.127 C 
+ATOM      5  C13 UIB d          16.938 -14.114  17.835  0.00  0.00     0.046 C 
+ATOM      6  C14 UIB d          16.721 -11.793  16.943  0.00  0.00     0.046 C 
+ATOM      7  N11 UIB d          15.493 -12.494  19.023  0.00  0.00    -0.057 N 
+ATOM      8  C12 UIB d          14.270 -12.366  18.202  0.00  0.00     0.271 C 
+ATOM      9  C17 UIB d          18.936 -13.057  19.592  0.00  0.00     0.094 C 
+ATOM     10  N19 UIB d          18.519 -13.372  20.951  0.00  0.00    -0.342 N 
+ATOM     11  C20 UIB d          17.435 -12.654  21.373  0.00  0.00     0.227 C 
+ATOM     12  O21 UIB d          16.870 -12.762  22.493  0.00  0.00    -0.273 OA
+ATOM     13  H16 UIB d          15.382 -13.334  19.569  0.00  0.00     0.281 HD
+ENDROOT
+BRANCH   1  14
+ATOM     14  C7  UIB d          14.619 -11.234  20.992  0.00  0.00    -0.027 A 
+ATOM     15  C6  UIB d          14.289  -9.968  21.529  0.00  0.00     0.010 A 
+ATOM     16  C5  UIB d          13.272  -9.817  22.453  0.00  0.00     0.016 A 
+ATOM     17  C4  UIB d          12.510 -10.909  22.915  0.00  0.00     0.007 A 
+ATOM     18  C9  UIB d          12.840 -12.164  22.388  0.00  0.00     0.016 A 
+ATOM     19  C8  UIB d          13.889 -12.329  21.471  0.00  0.00     0.010 A 
+BRANCH  17  20
+ATOM     20  C3  UIB d          11.462 -10.770  23.882  0.00  0.00     0.102 C 
+ATOM     21  N2  UIB d          11.072  -9.597  24.462  0.00  0.00    -0.385 N 
+ATOM     22  H3  UIB d          11.549  -8.718  24.216  0.00  0.00     0.157 HD
+ATOM     23  H4  UIB d          10.301  -9.592  25.145  0.00  0.00     0.157 HD
+BRANCH  20  24
+ATOM     24  N1  UIB d          10.729 -11.801  24.324  0.00  0.00    -0.385 N 
+ATOM     25  H1  UIB d          10.912 -12.751  23.972  0.00  0.00     0.157 HD
+ATOM     26  H2  UIB d           9.983 -11.643  25.016  0.00  0.00     0.157 HD
+ENDBRANCH  20  24
+ENDBRANCH  17  20
+ENDBRANCH   1  14
+BRANCH   9  27
+ATOM     27  C18 UIB d          20.333 -12.411  19.663  0.00  0.00     0.021 C 
+ATOM     28  C41 UIB d          20.875 -12.252  18.229  0.00  0.00     0.007 C 
+ENDBRANCH   9  27
+BRANCH  10  29
+ATOM     29  C23 UIB d          19.041 -14.506  21.787  0.00  0.00     0.165 C 
+BRANCH  29  30
+ATOM     30  C24 UIB d          20.043 -14.077  22.853  0.00  0.00    -0.037 A 
+ATOM     31  C32 UIB d          19.599 -13.636  24.138  0.00  0.00     0.012 A 
+ATOM     32  C31 UIB d          20.493 -13.327  25.187  0.00  0.00     0.040 A 
+ATOM     33  C30 UIB d          21.855 -13.477  24.871  0.00  0.00     0.105 A 
+ATOM     34  C26 UIB d          22.308 -13.903  23.610  0.00  0.00     0.105 A 
+ATOM     35  O29 UIB d          22.930 -13.235  25.695  0.00  0.00    -0.323 OA
+ATOM     36  C25 UIB d          21.412 -14.216  22.568  0.00  0.00     0.048 A 
+ATOM     37  O27 UIB d          23.700 -13.973  23.535  0.00  0.00    -0.323 OA
+ATOM     38  C28 UIB d          24.103 -13.550  24.869  0.00  0.00     0.352 A 
+ENDBRANCH  29  30
+ENDBRANCH  10  29
+TORSDOF 6

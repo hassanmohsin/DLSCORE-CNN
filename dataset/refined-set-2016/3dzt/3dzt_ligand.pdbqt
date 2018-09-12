@@ -1,0 +1,77 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  O3_8 
+REMARK    6  A    between atoms: C5_7  and  C6_9 
+REMARK    7  A    between atoms: C6_9  and  C7_10 
+REMARK    8  A    between atoms: C7_10  and  C8_11 
+REMARK    9  A    between atoms: C8_11  and  C9_12 
+REMARK   10  A    between atoms: C10_13  and  C11_14 
+REMARK   11  A    between atoms: C12_15  and  C13_16 
+REMARK   12  A    between atoms: C13_16  and  C14_17 
+REMARK   13  A    between atoms: C15_18  and  C16_19 
+REMARK   14  A    between atoms: C16_19  and  C17_20 
+REMARK   15  A    between atoms: C17_20  and  C18_21 
+REMARK   16  A    between atoms: C18_21  and  C19_22 
+ROOT
+ATOM      1  C8  EAH d         -15.888   0.851   4.126  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C7  EAH d         -16.626  -0.269   4.752  0.00  0.00     0.002 C 
+BRANCH   2   3
+ATOM      3  C6  EAH d         -15.748  -1.150   5.601  0.00  0.00     0.032 C 
+BRANCH   3   4
+ATOM      4  C5  EAH d         -15.792  -2.621   5.236  0.00  0.00     0.118 C 
+BRANCH   4   5
+ATOM      5  C4  EAH d         -14.727  -3.410   5.987  0.00  0.00     0.032 C 
+BRANCH   5   6
+ATOM      6  C3  EAH d         -15.117  -4.873   6.052  0.00  0.00     0.013 C 
+BRANCH   6   7
+ATOM      7  C2  EAH d         -13.944  -5.800   6.113  0.00  0.00     0.113 C 
+BRANCH   7   8
+ATOM      8  C1  EAH d         -14.019  -6.450   7.460  0.00  0.00     0.172 C 
+ATOM      9  O1  EAH d         -13.079  -6.990   7.960  0.00  0.00    -0.648 OA
+ATOM     10  O2  EAH d         -15.083  -6.460   8.028  0.00  0.00    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+BRANCH   4  11
+ATOM     11  O3  EAH d         -15.808  -2.866   3.939  0.00  0.00    -0.396 OA
+ATOM     12  H8  EAH d         -16.490  -2.347   3.528  0.00  0.00     0.210 HD
+ENDBRANCH   4  11
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  13
+ATOM     13  C9  EAH d         -16.625   1.475   3.065  0.00  0.00     0.004 C 
+ATOM     14  C10 EAH d         -15.894   2.206   2.251  0.00  0.00     0.027 C 
+BRANCH  14  15
+ATOM     15  C11 EAH d         -16.783   2.727   1.252  0.00  0.00    -0.030 C 
+ATOM     16  C12 EAH d         -16.395   3.346   0.175  0.00  0.00    -0.027 C 
+BRANCH  16  17
+ATOM     17  C13 EAH d         -14.966   3.651  -0.044  0.00  0.00     0.053 C 
+BRANCH  17  18
+ATOM     18  C14 EAH d         -14.772   5.130  -0.132  0.00  0.00    -0.027 C 
+ATOM     19  C15 EAH d         -14.229   5.841  -1.084  0.00  0.00    -0.030 C 
+BRANCH  19  20
+ATOM     20  C16 EAH d         -13.656   5.303  -2.345  0.00  0.00     0.027 C 
+BRANCH  20  21
+ATOM     21  C17 EAH d         -12.215   4.922  -2.189  0.00  0.00     0.004 C 
+BRANCH  21  22
+ATOM     22  C18 EAH d         -12.213   3.454  -1.933  0.00  0.00    -0.000 C 
+BRANCH  22  23
+ATOM     23  C19 EAH d         -11.020   2.665  -2.385  0.00  0.00    -0.005 C 
+ATOM     24  C20 EAH d          -9.816   2.845  -1.539  0.00  0.00     0.005 C 
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  15
+ENDBRANCH   1  13
+TORSDOF 16

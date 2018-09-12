@@ -1,0 +1,48 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C2_2  and  N2_12 
+REMARK    4  A    between atoms: C3_3  and  C4_4 
+REMARK    5  A    between atoms: C4_4  and  C5_5 
+REMARK    6  A    between atoms: C5_5  and  C6_6 
+REMARK    7  A    between atoms: C6_6  and  C7_7 
+REMARK    8  A    between atoms: C6_6  and  N6_13 
+ROOT
+ATOM      1  C4  API d          20.420   1.602  28.002  0.00  0.00     0.005 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  API d          20.792   2.583  29.085  0.00  0.00     0.044 C 
+BRANCH   2   3
+ATOM      3  C2  API d          21.415   1.920  30.368  0.00  0.00     0.283 C 
+BRANCH   3   4
+ATOM      4  C1  API d          22.549   1.009  30.002  0.00  0.00     0.204 C 
+ATOM      5  O1  API d          23.570   1.579  29.507  0.00  0.00    -0.646 OA
+ATOM      6  O2  API d          22.415  -0.228  30.164  0.00  0.00    -0.646 OA
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  N2  API d          22.020   2.984  31.158  0.00  0.00    -0.065 N 
+ATOM      8  H9  API d          22.430   2.592  31.991  0.00  0.00     0.275 HD
+ATOM      9  H10 API d          21.313   3.655  31.415  0.00  0.00     0.275 HD
+ATOM     10  H11 API d          22.735   3.441  30.614  0.00  0.00     0.275 HD
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C5  API d          19.093   2.076  27.303  0.00  0.00     0.044 C 
+BRANCH  11  12
+ATOM     12  C6  API d          19.427   3.042  26.178  0.00  0.00     0.283 C 
+BRANCH  12  13
+ATOM     13  C7  API d          18.167   3.835  25.783  0.00  0.00     0.204 C 
+ATOM     14  O3  API d          17.927   3.871  24.567  0.00  0.00    -0.646 OA
+ATOM     15  O4  API d          17.407   4.411  26.581  0.00  0.00    -0.646 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  N6  API d          20.025   2.262  25.078  0.00  0.00    -0.065 N 
+ATOM     17  H12 API d          20.257   2.880  24.316  0.00  0.00     0.275 HD
+ATOM     18  H13 API d          19.366   1.569  24.760  0.00  0.00     0.275 HD
+ATOM     19  H14 API d          20.861   1.804  25.406  0.00  0.00     0.275 HD
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8

@@ -1,0 +1,52 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  S1_11 
+REMARK    2  A    between atoms: C10_3  and  N15_20 
+REMARK    3  A    between atoms: N8_19  and  C11_4 
+REMARK    4  A    between atoms: C11_4  and  C12_5 
+REMARK    5  A    between atoms: C12_5  and  O13_21 
+REMARK    6  A    between atoms: N15_20  and  C16_7 
+REMARK    7  A    between atoms: S1_11  and  N21_10 
+ROOT
+ATOM      1  C3  AL4 d          -5.411   2.130  15.994  0.00  0.00     0.121 A 
+ATOM      2  C9  AL4 d          -3.475   5.210  12.807  0.00  0.00     0.173 C 
+ATOM      3  C10 AL4 d          -3.090   3.910  13.561  0.00  0.00     0.239 C 
+ATOM      4  C4  AL4 d          -4.277   2.209  15.236  0.00  0.00     0.044 A 
+ATOM      5  C5  AL4 d          -4.138   3.391  14.562  0.00  0.00     0.006 A 
+ATOM      6  C6  AL4 d          -5.203   4.236  14.856  0.00  0.00     0.130 A 
+ATOM      7  S2  AL4 d          -6.367   3.554  15.902  0.00  0.00    -0.062 SA
+ATOM      8  S7  AL4 d          -5.346   5.867  14.338  0.00  0.00     0.268 S 
+ATOM      9  O3B AL4 d          -6.344   5.933  13.332  0.00  0.00    -0.200 OA
+ATOM     10  O4B AL4 d          -5.757   6.725  15.385  0.00  0.00    -0.200 OA
+ATOM     11  N8  AL4 d          -3.959   6.120  13.837  0.00  0.00    -0.302 N 
+ENDROOT
+BRANCH   1  12
+ATOM     12  S1  AL4 d          -5.940   0.817  16.946  0.00  0.00     0.263 S 
+ATOM     13  O1A AL4 d          -5.369   0.906  18.247  0.00  0.00    -0.200 OA
+ATOM     14  O2A AL4 d          -7.341   1.002  17.014  0.00  0.00    -0.200 OA
+BRANCH  12  15
+ATOM     15  N21 AL4 d          -5.515  -0.474  16.348  0.00  0.00    -0.324 N 
+ATOM     16  H13 AL4 d          -5.754  -1.335  16.797  0.00  0.00     0.169 HD
+ATOM     17  H14 AL4 d          -4.990  -0.482  15.497  0.00  0.00     0.169 HD
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+BRANCH   3  18
+ATOM     18  N15 AL4 d          -2.809   2.905  12.539  0.00  0.00    -0.066 N 
+ATOM     19  H16 AL4 d          -3.513   2.994  11.823  0.00  0.00     0.278 HD
+ATOM     20  H17 AL4 d          -2.884   1.999  12.974  0.00  0.00     0.278 HD
+BRANCH  18  21
+ATOM     21  C16 AL4 d          -1.499   2.973  11.882  0.00  0.00     0.228 C 
+ATOM     22  C17 AL4 d          -1.266   1.844  10.868  0.00  0.00     0.034 C 
+ENDBRANCH  18  21
+ENDBRANCH   3  18
+BRANCH  11  23
+ATOM     23  C11 AL4 d          -3.357   7.428  13.813  0.00  0.00     0.161 C 
+BRANCH  23  24
+ATOM     24  C12 AL4 d          -2.114   7.294  14.671  0.00  0.00     0.187 C 
+BRANCH  24  25
+ATOM     25  O13 AL4 d          -1.315   8.456  14.544  0.00  0.00    -0.394 OA
+ATOM     26  C14 AL4 d          -1.898   9.614  15.144  0.00  0.00     0.201 C 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  11  23
+TORSDOF 7

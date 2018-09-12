@@ -1,0 +1,102 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3_1  and  C19_2 
+REMARK    2  A    between atoms: C7_8  and  C8_9 
+REMARK    3  A    between atoms: C1_18  and  N1_19 
+REMARK    4  A    between atoms: N2_22  and  C20_23 
+REMARK    5  A    between atoms: C20_23  and  C21_24 
+REMARK    6  A    between atoms: C21_24  and  C22_25 
+REMARK    7  A    between atoms: C22_25  and  C23_26 
+REMARK    8  A    between atoms: C23_26  and  C24_27 
+REMARK    9  A    between atoms: C24_27  and  C25_28 
+REMARK   10  A    between atoms: C25_28  and  C26_29 
+REMARK   11  A    between atoms: N6_32  and  C28_34 
+REMARK   12  A    between atoms: C28_34  and  C29_35 
+REMARK   13  A    between atoms: C29_35  and  N7_36 
+REMARK   14  A    between atoms: N7_36  and  C30_37 
+ROOT
+ATOM      1  C21 TZ4 d          35.767  22.651   7.058  0.00  0.00     0.020 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C20 TZ4 d          36.196  23.967   6.397  0.00  0.00     0.129 C 
+BRANCH   2   3
+ATOM      3  N2  TZ4 d          37.600  24.475   6.488  0.00  0.00    -0.345 N 
+ATOM      4  C7  TZ4 d          37.886  25.302   7.530  0.00  0.00     0.056 A 
+ATOM      5  C14 TZ4 d          39.197  25.828   7.658  0.00  0.00     0.005 A 
+ATOM      6  C16 TZ4 d          40.185  25.507   6.657  0.00  0.00    -0.011 A 
+ATOM      7  C15 TZ4 d          39.522  26.770   8.712  0.00  0.00     0.043 A 
+ATOM      8  C17 TZ4 d          41.436  26.196   6.824  0.00  0.00     0.015 A 
+ATOM      9  C4  TZ4 d          39.835  24.626   5.549  0.00  0.00     0.002 A 
+ATOM     10  C18 TZ4 d          41.709  27.088   7.854  0.00  0.00     0.030 A 
+ATOM     11  C19 TZ4 d          40.745  27.415   8.853  0.00  0.00     0.026 A 
+ATOM     12  C3  TZ4 d          40.777  24.055   4.606  0.00  0.00     0.017 A 
+ATOM     13  C6  TZ4 d          38.493  24.094   5.467  0.00  0.00     0.048 A 
+ATOM     14  C2  TZ4 d          40.456  23.074   3.675  0.00  0.00     0.030 A 
+ATOM     15  C1  TZ4 d          39.132  22.534   3.594  0.00  0.00     0.027 A 
+ATOM     16  C5  TZ4 d          38.216  23.062   4.509  0.00  0.00     0.059 A 
+BRANCH   4  17
+ATOM     17  C8  TZ4 d          36.863  25.583   8.590  0.00  0.00    -0.008 A 
+ATOM     18  C9  TZ4 d          36.678  24.548   9.519  0.00  0.00     0.014 A 
+ATOM     19  C10 TZ4 d          35.753  24.677  10.552  0.00  0.00     0.001 A 
+ATOM     20  C11 TZ4 d          34.989  25.847  10.699  0.00  0.00     0.000 A 
+ATOM     21  C12 TZ4 d          35.159  26.894   9.790  0.00  0.00     0.001 A 
+ATOM     22  C13 TZ4 d          36.091  26.756   8.751  0.00  0.00     0.014 A 
+ENDBRANCH   4  17
+BRANCH  11  23
+ATOM     23  N3  TZ4 d          41.010  28.300   9.879  0.00  0.00    -0.399 N 
+ATOM     24  H1  TZ4 d          41.932  28.754   9.942  0.00  0.00     0.156 HD
+ATOM     25  H2  TZ4 d          40.285  28.506  10.581  0.00  0.00     0.156 HD
+ENDBRANCH  11  23
+BRANCH  15  26
+ATOM     26  N1  TZ4 d          38.767  21.550   2.694  0.00  0.00    -0.399 N 
+ATOM     27  H13 TZ4 d          37.799  21.198   2.680  0.00  0.00     0.156 HD
+ATOM     28  H14 TZ4 d          39.463  21.169   2.038  0.00  0.00     0.156 HD
+ENDBRANCH  15  26
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  29
+ATOM     29  C22 TZ4 d          34.372  22.333   6.488  0.00  0.00     0.002 C 
+BRANCH  29  30
+ATOM     30  C23 TZ4 d          33.774  21.061   7.067  0.00  0.00     0.000 C 
+BRANCH  30  31
+ATOM     31  C24 TZ4 d          33.345  21.352   8.496  0.00  0.00     0.006 C 
+BRANCH  31  32
+ATOM     32  C25 TZ4 d          31.935  21.942   8.524  0.00  0.00     0.062 C 
+BRANCH  32  33
+ATOM     33  C26 TZ4 d          31.602  21.911   9.950  0.00  0.00     0.069 A 
+ATOM     34  N4  TZ4 d          31.313  20.786  10.582  0.00  0.00    -0.163 NA
+ATOM     35  N5  TZ4 d          31.112  21.129  11.852  0.00  0.00     0.004 NA
+ATOM     36  N6  TZ4 d          31.274  22.431  12.006  0.00  0.00    -0.282 N 
+ATOM     37  C27 TZ4 d          31.601  22.933  10.822  0.00  0.00     0.136 A 
+BRANCH  36  38
+ATOM     38  C28 TZ4 d          31.169  23.293  13.172  0.00  0.00     0.165 C 
+BRANCH  38  39
+ATOM     39  C29 TZ4 d          30.572  22.452  14.294  0.00  0.00     0.141 C 
+BRANCH  39  40
+ATOM     40  N7  TZ4 d          29.173  22.800  14.378  0.00  0.00    -0.387 N 
+ATOM     41  H33 TZ4 d          28.963  23.762  14.681  0.00  0.00     0.159 HD
+BRANCH  40  42
+ATOM     42  C30 TZ4 d          28.100  22.012  14.105  0.00  0.00     0.049 A 
+ATOM     43  C31 TZ4 d          27.103  22.715  13.346  0.00  0.00     0.020 A 
+ATOM     44  C32 TZ4 d          27.245  24.046  12.798  0.00  0.00     0.016 A 
+ATOM     45  C33 TZ4 d          25.888  22.044  13.061  0.00  0.00     0.069 A 
+ATOM     46  C36 TZ4 d          26.254  24.672  12.120  0.00  0.00     0.001 A 
+ATOM     47  C35 TZ4 d          25.040  24.011  11.877  0.00  0.00     0.002 A 
+ATOM     48  C34 TZ4 d          24.870  22.757  12.357  0.00  0.00     0.032 A 
+ATOM     49  N8  TZ4 d          25.684  20.752  13.411  0.00  0.00    -0.252 NA
+ATOM     50  C37 TZ4 d          26.611  20.082  14.112  0.00  0.00     0.043 A 
+ATOM     51  C38 TZ4 d          26.290  18.746  14.580  0.00  0.00     0.060 C 
+ATOM     52  C39 TZ4 d          27.851  20.696  14.523  0.00  0.00    -0.006 A 
+ATOM     53  C42 TZ4 d          27.288  17.933  15.068  0.00  0.00     0.006 C 
+ATOM     54  C41 TZ4 d          28.218  18.667  15.857  0.00  0.00     0.005 C 
+ATOM     55  C40 TZ4 d          28.625  19.909  15.446  0.00  0.00     0.043 C 
+ENDBRANCH  40  42
+ENDBRANCH  39  40
+ENDBRANCH  38  39
+ENDBRANCH  36  38
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 14

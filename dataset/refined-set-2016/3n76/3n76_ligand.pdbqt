@@ -1,0 +1,57 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_2  and  C1_4 
+REMARK    2  A    between atoms: C1_4  and  O3_5 
+REMARK    3  A    between atoms: C3_7  and  C8_13 
+REMARK    4  A    between atoms: C4_8  and  O4_9 
+REMARK    5  A    between atoms: C5_10  and  O5_11 
+REMARK    6  A    between atoms: C8_13  and  C9_14 
+REMARK    7  A    between atoms: C9_14  and  C10_15 
+REMARK    8  A    between atoms: C10_15  and  O11_16 
+REMARK    9  A    between atoms: O11_16  and  C12_17 
+ROOT
+ATOM      1  C1  CA2 d         -38.952 -60.816 -51.635  0.00  0.00     0.166 C 
+ATOM      2  C2  CA2 d         -38.756 -60.522 -50.268  0.00  0.00     0.031 C 
+ATOM      3  C3  CA2 d         -39.833 -60.274 -49.393  0.00  0.00    -0.028 C 
+ATOM      4  C4  CA2 d         -41.331 -60.496 -49.765  0.00  0.00     0.179 C 
+ATOM      5  C5  CA2 d         -41.461 -60.647 -51.294  0.00  0.00     0.155 C 
+ATOM      6  C6  CA2 d         -40.304 -61.527 -51.791  0.00  0.00     0.088 C 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C8  CA2 d         -39.361 -60.137 -48.101  0.00  0.00     0.007 C 
+BRANCH   7   8
+ATOM      8  C9  CA2 d         -40.046 -59.934 -46.929  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  C10 CA2 d         -39.105 -59.731 -45.932  0.00  0.00     0.203 C 
+BRANCH   9  10
+ATOM     10  O11 CA2 d         -39.171 -60.577 -44.865  0.00  0.00    -0.347 OA
+BRANCH  10  11
+ATOM     11  C12 CA2 d         -38.043 -61.009 -44.249  0.00  0.00     0.069 A 
+ATOM     12  C17 CA2 d         -36.825 -61.131 -44.898  0.00  0.00     0.037 A 
+ATOM     13  C16 CA2 d         -35.689 -61.626 -44.226  0.00  0.00     0.003 A 
+ATOM     14  C15 CA2 d         -35.821 -62.026 -42.901  0.00  0.00     0.000 A 
+ATOM     15  C14 CA2 d         -37.069 -61.910 -42.242  0.00  0.00     0.003 A 
+ATOM     16  C13 CA2 d         -38.180 -61.406 -42.915  0.00  0.00     0.037 A 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   3   7
+BRANCH   4  17
+ATOM     17  O4  CA2 d         -42.278 -59.493 -49.222  0.00  0.00    -0.388 OA
+ATOM     18  H4  CA2 d         -43.160 -59.709 -49.499  0.00  0.00     0.210 HD
+ENDBRANCH   4  17
+BRANCH   1  19
+ATOM     19  C7  CA2 d         -37.728 -61.687 -52.001  0.00  0.00     0.213 C 
+ATOM     20  O2  CA2 d         -37.919 -62.907 -52.359  0.00  0.00    -0.645 OA
+ATOM     21  O1  CA2 d         -36.597 -61.107 -51.923  0.00  0.00    -0.645 OA
+ENDBRANCH   1  19
+BRANCH   1  22
+ATOM     22  O3  CA2 d         -39.028 -59.636 -52.502  0.00  0.00    -0.375 OA
+ATOM     23  H1  CA2 d         -39.785 -59.115 -52.261  0.00  0.00     0.211 HD
+ENDBRANCH   1  22
+BRANCH   5  24
+ATOM     24  O5  CA2 d         -42.686 -61.292 -51.642  0.00  0.00    -0.393 OA
+ATOM     25  H6  CA2 d         -42.743 -61.373 -52.587  0.00  0.00     0.210 HD
+ENDBRANCH   5  24
+TORSDOF 9

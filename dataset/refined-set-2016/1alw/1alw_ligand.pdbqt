@@ -1,0 +1,30 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_6  and  C4_7 
+REMARK    2  A    between atoms: C4_7  and  C3_8 
+REMARK    3  A    between atoms: C3_8  and  C2_10 
+REMARK    4  A    between atoms: C3_8  and  S3_9 
+ROOT
+ATOM      1  C4  ISA d          11.366 -51.298  34.664  0.00  0.00     0.064 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  ISA d          10.493 -50.746  35.664  0.00  0.00    -0.057 A 
+ATOM      3  CD1 ISA d           9.871 -49.536  35.439  0.00  0.00     0.007 A 
+ATOM      4  CE1 ISA d           8.971 -49.063  36.296  0.00  0.00     0.001 A 
+ATOM      5  CZ  ISA d           8.651 -49.783  37.424  0.00  0.00     0.000 A 
+ATOM      6  CE2 ISA d           9.247 -50.961  37.717  0.00  0.00     0.001 A 
+ATOM      7  CD2 ISA d          10.179 -51.461  36.829  0.00  0.00     0.007 A 
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C3  ISA d          10.652 -52.267  33.674  0.00  0.00     0.149 C 
+BRANCH   8   9
+ATOM      9  C2  ISA d           9.611 -51.554  32.853  0.00  0.00     0.187 C 
+ATOM     10  O2  ISA d           8.456 -52.114  32.706  0.00  0.00    -0.647 OA
+ATOM     11  O3  ISA d           9.935 -50.438  32.312  0.00  0.00    -0.647 OA
+ENDBRANCH   8   9
+BRANCH   8  12
+ATOM     12  S3  ISA d          11.880 -53.031  32.703  0.00  0.00    -0.166 SA
+ATOM     13  H9  ISA d          12.546 -53.490  33.305  0.00  0.00     0.102 HD
+ENDBRANCH   8  12
+ENDBRANCH   1   8
+TORSDOF 4

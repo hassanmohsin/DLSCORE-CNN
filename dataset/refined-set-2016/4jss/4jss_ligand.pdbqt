@@ -1,0 +1,17 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_4  and  O8_5 
+ROOT
+ATOM      1  C4  BEW d          16.087   3.063  12.978  0.00  0.00    -0.008 C 
+ATOM      2  C5  BEW d          15.533   3.701  14.108  0.00  0.00    -0.022 C 
+ATOM      3  C6  BEW d          14.773   2.954  15.022  0.00  0.00     0.098 C 
+ATOM      4  N2  BEW d          15.490   0.902  13.934  0.00  0.00    -0.251 N 
+ATOM      5  C3  BEW d          16.099   1.667  12.905  0.00  0.00     0.183 C 
+ATOM      6  C1  BEW d          14.762   1.534  14.930  0.00  0.00     0.104 C 
+ATOM      7  S7  BEW d          13.804   0.603  15.988  0.00  0.00    -0.063 SA
+ENDROOT
+BRANCH   4   8
+ATOM      8  O8  BEW d          15.595  -0.481  13.941  0.00  0.00    -0.286 OA
+ATOM      9  H5  BEW d          15.132  -0.829  14.694  0.00  0.00     0.244 HD
+ENDBRANCH   4   8
+TORSDOF 1

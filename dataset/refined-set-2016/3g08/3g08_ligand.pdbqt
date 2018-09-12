@@ -1,0 +1,180 @@
+REMARK WARNING: 32 MAX_TORS EXCEEDED!!!
+REMARK  39 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAA_33  and  N2_1 
+REMARK    1  A    between atoms: N2_1  and  C2_35 
+REMARK    2  A    between atoms: C3_2  and  C4_3 
+REMARK    3  A    between atoms: C2_35  and  C3_2 
+REMARK    4  A    between atoms: C3_2  and  O3_36 
+REMARK    5  A    between atoms: C4_3  and  C5_4 
+REMARK    6  A    between atoms: C4_3  and  O4_37 
+REMARK    7  A    between atoms: C5_4  and  C6_5 
+REMARK    8  A    between atoms: C6_5  and  C7_6 
+REMARK    9  A    between atoms: C7_6  and  C8_7 
+REMARK   10  A    between atoms: C2_35  and  C1_9 
+REMARK   11  A    between atoms: C1_9  and  O1A_38 
+REMARK   12  A    between atoms: CAV_12  and  CAW_11 
+REMARK   13  A    between atoms: CAU_13  and  CAV_12 
+REMARK   14  A    between atoms: CAT_14  and  CAU_13 
+REMARK   15  A    between atoms: CAS_15  and  CAT_14 
+REMARK   16  A    between atoms: CAR_16  and  CAS_15 
+REMARK   17  A    between atoms: CAQ_17  and  CAR_16 
+REMARK   18  A    between atoms: CAP_18  and  CAQ_17 
+REMARK   19  A    between atoms: CAO_19  and  CAP_18 
+REMARK   20  A    between atoms: CAN_20  and  CAO_19 
+REMARK   21  A    between atoms: CAM_21  and  CAN_20 
+REMARK   22  A    between atoms: CAL_22  and  CAM_21 
+REMARK   23  A    between atoms: CAK_23  and  CAL_22 
+REMARK   24  A    between atoms: CAJ_24  and  CAK_23 
+REMARK   25  A    between atoms: CAI_25  and  CAJ_24 
+REMARK   26  A    between atoms: CAH_26  and  CAI_25 
+REMARK   27  A    between atoms: CAG_27  and  CAH_26 
+REMARK   28  A    between atoms: CAF_28  and  CAG_27 
+REMARK   29  A    between atoms: CAE_29  and  CAF_28 
+REMARK   30  A    between atoms: CAD_30  and  CAE_29 
+REMARK   31  A    between atoms: CAC_31  and  CAD_30 
+REMARK   32  A    between atoms: CAB_32  and  CAC_31 
+REMARK   33  A    between atoms: CAB_32  and  CAA_33 
+REMARK   34  A    between atoms: O1A_38  and  C1A_39 
+REMARK   35  A    between atoms: C5M_41  and  C6A_42 
+REMARK   36  A    between atoms: C6A_42  and  O5A_43 
+REMARK   37  A    between atoms: C4A_44  and  O4A_45 
+REMARK   38  A    between atoms: C3A_46  and  O3A_47 
+REMARK   39  A    between atoms: C2A_48  and  O2A_49 
+ROOT
+ATOM      1  C2  FEE d         -11.895  -4.849 -39.294  0.00  0.00     0.139 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N2  FEE d         -11.770  -5.554 -38.005  0.00  0.00    -0.352 N 
+ATOM      3  CAA FEE d         -10.576  -5.794 -37.486  0.00  0.00     0.218 C 
+ATOM      4  OAA FEE d          -9.524  -5.365 -37.974  0.00  0.00    -0.274 OA
+ATOM      5  H1  FEE d         -12.592  -5.853 -37.520  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CAB FEE d         -10.585  -6.621 -36.204  0.00  0.00     0.103 C 
+BRANCH   6   7
+ATOM      7  CAC FEE d          -9.674  -6.025 -35.120  0.00  0.00     0.009 C 
+BRANCH   7   8
+ATOM      8  CAD FEE d         -10.247  -4.739 -34.525  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  CAE FEE d          -9.295  -4.239 -33.425  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  CAF FEE d          -9.770  -2.919 -32.815  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  CAG FEE d          -9.042  -2.536 -31.519  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  CAH FEE d          -7.595  -2.169 -31.797  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  CAI FEE d          -7.055  -1.009 -30.931  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  CAJ FEE d          -5.992  -0.246 -31.733  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  CAK FEE d          -5.115   0.687 -30.869  0.00  0.00     0.000 C 
+BRANCH  15  16
+ATOM     16  CAL FEE d          -3.791   0.961 -31.599  0.00  0.00     0.000 C 
+BRANCH  16  17
+ATOM     17  CAM FEE d          -2.782  -0.131 -31.257  0.00  0.00     0.000 C 
+BRANCH  17  18
+ATOM     18  CAN FEE d          -1.749  -0.299 -32.359  0.00  0.00     0.000 C 
+BRANCH  18  19
+ATOM     19  CAO FEE d          -0.392   0.124 -31.807  0.00  0.00     0.000 C 
+BRANCH  19  20
+ATOM     20  CAP FEE d           0.545  -1.061 -31.583  0.00  0.00     0.000 C 
+BRANCH  20  21
+ATOM     21  CAQ FEE d           0.112  -2.006 -30.450  0.00  0.00     0.000 C 
+BRANCH  21  22
+ATOM     22  CAR FEE d           1.235  -2.982 -30.122  0.00  0.00     0.000 C 
+BRANCH  22  23
+ATOM     23  CAS FEE d           1.038  -3.624 -28.752  0.00  0.00     0.000 C 
+BRANCH  23  24
+ATOM     24  CAT FEE d          -0.133  -4.623 -28.767  0.00  0.00     0.000 C 
+BRANCH  24  25
+ATOM     25  CAU FEE d          -0.533  -5.089 -27.365  0.00  0.00     0.000 C 
+BRANCH  25  26
+ATOM     26  CAV FEE d          -1.870  -5.866 -27.287  0.00  0.00    -0.000 C 
+BRANCH  26  27
+ATOM     27  CAW FEE d          -3.006  -4.875 -26.965  0.00  0.00    -0.005 C 
+ATOM     28  CAX FEE d          -4.193  -5.524 -26.266  0.00  0.00     0.005 C 
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  29
+ATOM     29  C3  FEE d         -13.269  -4.187 -39.436  0.00  0.00     0.171 C 
+BRANCH  29  30
+ATOM     30  C4  FEE d         -13.553  -3.130 -38.403  0.00  0.00     0.149 C 
+BRANCH  30  31
+ATOM     31  C5  FEE d         -12.513  -1.993 -38.423  0.00  0.00     0.034 C 
+BRANCH  31  32
+ATOM     32  C6  FEE d         -12.614  -1.062 -37.197  0.00  0.00     0.002 C 
+BRANCH  32  33
+ATOM     33  C7  FEE d         -13.418  -1.645 -36.029  0.00  0.00    -0.000 C 
+BRANCH  33  34
+ATOM     34  C8  FEE d         -12.743  -1.438 -34.688  0.00  0.00    -0.005 C 
+ATOM     35  C9  FEE d         -12.876   0.011 -34.204  0.00  0.00     0.005 C 
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+BRANCH  30  36
+ATOM     36  O4  FEE d         -14.854  -2.629 -38.738  0.00  0.00    -0.393 OA
+ATOM     37  H66 FEE d         -14.831  -2.247 -39.608  0.00  0.00     0.210 HD
+ENDBRANCH  30  36
+ENDBRANCH  29  30
+BRANCH  29  38
+ATOM     38  O3  FEE d         -13.393  -3.614 -40.755  0.00  0.00    -0.391 OA
+ATOM     39  H65 FEE d         -14.245  -3.204 -40.842  0.00  0.00     0.210 HD
+ENDBRANCH  29  38
+ENDBRANCH   1  29
+BRANCH   1  40
+ATOM     40  C1  FEE d         -11.710  -5.886 -40.412  0.00  0.00     0.199 C 
+BRANCH  40  41
+ATOM     41  O1A FEE d         -12.839  -6.821 -40.337  0.00  0.00    -0.356 OA
+BRANCH  41  42
+ATOM     42  C1A FEE d         -12.863  -7.824 -41.337  0.00  0.00     0.291 C 
+ATOM     43  O6A FEE d         -11.705  -8.650 -41.270  0.00  0.00    -0.348 OA
+ATOM     44  C5M FEE d         -11.445  -9.474 -40.087  0.00  0.00     0.179 C 
+ATOM     45  C4A FEE d         -12.649 -10.348 -39.689  0.00  0.00     0.180 C 
+ATOM     46  C3A FEE d         -13.949  -9.531 -39.772  0.00  0.00     0.183 C 
+ATOM     47  C2A FEE d         -14.058  -8.757 -41.115  0.00  0.00     0.204 C 
+BRANCH  44  48
+ATOM     48  C6A FEE d         -10.319 -10.452 -40.467  0.00  0.00     0.198 C 
+BRANCH  48  49
+ATOM     49  O5A FEE d          -9.280  -9.746 -41.161  0.00  0.00    -0.398 OA
+ATOM     50  H71 FEE d          -9.637  -9.354 -41.949  0.00  0.00     0.209 HD
+ENDBRANCH  48  49
+ENDBRANCH  44  48
+BRANCH  45  51
+ATOM     51  O4A FEE d         -12.738 -11.485 -40.556  0.00  0.00    -0.390 OA
+ATOM     52  H73 FEE d         -13.483 -12.017 -40.303  0.00  0.00     0.210 HD
+ENDBRANCH  45  51
+BRANCH  46  53
+ATOM     53  O3A FEE d         -15.064 -10.419 -39.621  0.00  0.00    -0.390 OA
+ATOM     54  H75 FEE d         -15.047 -11.068 -40.314  0.00  0.00     0.210 HD
+ENDBRANCH  46  53
+BRANCH  47  55
+ATOM     55  O2A FEE d         -15.249  -7.984 -41.195  0.00  0.00    -0.388 OA
+ATOM     56  H77 FEE d         -15.262  -7.351 -40.487  0.00  0.00     0.210 HD
+ENDBRANCH  47  55
+ENDBRANCH  41  42
+ENDBRANCH  40  41
+ENDBRANCH   1  40
+TORSDOF 39

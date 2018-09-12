@@ -1,0 +1,61 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBA_6  and  CAY_7 
+REMARK       I    between atoms: CAY_7  and  NBC_9 
+REMARK    2  A    between atoms: CBB_14  and  CAQ_15 
+REMARK    3  A    between atoms: CAQ_15  and  CAO_16 
+REMARK    4  A    between atoms: CAO_16  and  CAN_17 
+REMARK    5  A    between atoms: CAN_17  and  CAP_18 
+REMARK    6  A    between atoms: CAP_18  and  NAW_19 
+REMARK       I    between atoms: NAW_19  and  CAX_20 
+REMARK    7  A    between atoms: CAX_20  and  CAC_22 
+REMARK    8  A    between atoms: CAD_23  and  CAZ_24 
+ROOT
+ATOM      1  CAQ DGB d          10.362  -3.947  46.656  0.00  0.00     0.005 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CBB DGB d           9.815  -3.036  47.772  0.00  0.00    -0.012 C 
+ATOM      3  CAS DGB d           8.301  -2.872  47.619  0.00  0.00     0.024 C 
+ATOM      4  CAU DGB d           7.776  -1.915  48.684  0.00  0.00     0.126 C 
+ATOM      5  NBC DGB d           8.070  -2.510  49.991  0.00  0.00    -0.348 N 
+ATOM      6  CAY DGB d           7.092  -2.854  50.848  0.00  0.00     0.253 C 
+ATOM      7  CAT DGB d           9.505  -2.670  50.301  0.00  0.00     0.126 C 
+ATOM      8  OAB DGB d           7.338  -3.336  51.943  0.00  0.00    -0.267 OA
+ATOM      9  CAR DGB d          10.127  -3.543  49.193  0.00  0.00     0.024 C 
+BRANCH   6  10
+ATOM     10  CBA DGB d           5.643  -2.673  50.467  0.00  0.00     0.032 A 
+ATOM     11  CAK DGB d           4.884  -1.646  51.030  0.00  0.00     0.017 A 
+ATOM     12  CAF DGB d           3.544  -1.497  50.670  0.00  0.00     0.001 A 
+ATOM     13  CAE DGB d           2.963  -2.365  49.745  0.00  0.00     0.000 A 
+ATOM     14  CAG DGB d           3.720  -3.394  49.182  0.00  0.00     0.001 A 
+ATOM     15  CAL DGB d           5.056  -3.548  49.548  0.00  0.00     0.017 A 
+ENDBRANCH   6  10
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  CAO DGB d           9.673  -5.310  46.534  0.00  0.00     0.002 C 
+BRANCH  16  17
+ATOM     17  CAN DGB d           9.979  -5.943  45.180  0.00  0.00     0.020 C 
+BRANCH  17  18
+ATOM     18  CAP DGB d          10.255  -7.449  45.207  0.00  0.00     0.123 C 
+BRANCH  18  19
+ATOM     19  NAW DGB d          10.565  -7.743  43.811  0.00  0.00    -0.358 N 
+ATOM     20  CAX DGB d           9.884  -8.441  42.904  0.00  0.00     0.241 C 
+ATOM     21  OAA DGB d           8.813  -8.998  43.137  0.00  0.00    -0.269 OA
+ATOM     22  H23 DGB d          11.428  -7.358  43.483  0.00  0.00     0.162 HD
+BRANCH  20  23
+ATOM     23  CAC DGB d          10.459  -8.504  41.687  0.00  0.00     0.075 C 
+ATOM     24  CAD DGB d           9.887  -9.168  40.674  0.00  0.00     0.018 C 
+BRANCH  24  25
+ATOM     25  CAZ DGB d          10.479  -9.250  39.315  0.00  0.00    -0.018 A 
+ATOM     26  CAJ DGB d          11.692  -8.630  39.003  0.00  0.00     0.014 A 
+ATOM     27  CAH DGB d          12.202  -8.746  37.712  0.00  0.00     0.020 A 
+ATOM     28  CAI DGB d          11.473  -9.465  36.763  0.00  0.00     0.116 A 
+ATOM     29  NAV DGB d          10.311 -10.062  37.078  0.00  0.00    -0.272 NA
+ATOM     30  CAM DGB d           9.808  -9.966  38.322  0.00  0.00     0.127 A 
+ENDBRANCH  24  25
+ENDBRANCH  20  23
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 8

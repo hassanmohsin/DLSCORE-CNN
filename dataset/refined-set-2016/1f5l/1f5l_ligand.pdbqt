@@ -1,0 +1,41 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C3_3 
+REMARK       I    between atoms: C3_3  and  N5_4 
+REMARK       I    between atoms: N5_4  and  C6_5 
+REMARK       I    between atoms: C6_5  and  N7_6 
+REMARK    2  A    between atoms: C2_9  and  N4_10 
+REMARK    3  A    between atoms: C4_12  and  N2_13 
+ROOT
+ATOM      1  N1  AMR d          31.112   7.669  27.683  0.00  0.00    -0.223 NA
+ATOM      2  C1  AMR d          30.502   6.741  28.432  0.00  0.00     0.172 A 
+ATOM      3  C2  AMR d          29.261   7.026  29.019  0.00  0.00     0.158 A 
+ATOM      4  N3  AMR d          28.693   8.238  28.825  0.00  0.00    -0.209 NA
+ATOM      5  C4  AMR d          29.314   9.179  28.065  0.00  0.00     0.164 A 
+ATOM      6  C5  AMR d          30.561   8.880  27.478  0.00  0.00     0.172 A 
+ATOM      7 CL1  AMR d          31.432  10.016  26.487  0.00  0.00    -0.058 Cl
+ENDROOT
+BRANCH   2   8
+ATOM      8  C3  AMR d          31.240   5.355  28.601  0.00  0.00     0.292 C 
+ATOM      9  O1  AMR d          30.652   4.396  29.115  0.00  0.00    -0.265 OA
+ATOM     10  N5  AMR d          32.555   5.279  28.131  0.00  0.00    -0.155 N 
+ATOM     11  C6  AMR d          33.251   4.177  28.080  0.00  0.00     0.672 C 
+ATOM     12  H1  AMR d          32.989   6.122  27.814  0.00  0.00     0.187 HD
+ATOM     13  N6  AMR d          34.470   4.240  27.630  0.00  0.00    -0.235 N 
+ATOM     14  N7  AMR d          32.767   3.018  28.462  0.00  0.00    -0.235 N 
+ATOM     15  H4  AMR d          34.861   5.144  27.327  0.00  0.00     0.174 HD
+ATOM     16  H5  AMR d          35.044   3.386  27.576  0.00  0.00     0.174 HD
+ATOM     17  H2  AMR d          33.351   2.172  28.405  0.00  0.00     0.174 HD
+ATOM     18  H3  AMR d          31.803   2.955  28.819  0.00  0.00     0.174 HD
+ENDBRANCH   2   8
+BRANCH   3  19
+ATOM     19  N4  AMR d          28.573   6.086  29.814  0.00  0.00    -0.382 N 
+ATOM     20  H6  AMR d          27.663   6.331  30.229  0.00  0.00     0.157 HD
+ATOM     21  H7  AMR d          28.981   5.155  29.979  0.00  0.00     0.157 HD
+ENDBRANCH   3  19
+BRANCH   5  22
+ATOM     22  N2  AMR d          28.666  10.436  27.895  0.00  0.00    -0.381 N 
+ATOM     23  H8  AMR d          29.109  11.171  27.325  0.00  0.00     0.157 HD
+ATOM     24  H9  AMR d          27.754  10.610  28.342  0.00  0.00     0.157 HD
+ENDBRANCH   5  22
+TORSDOF 3

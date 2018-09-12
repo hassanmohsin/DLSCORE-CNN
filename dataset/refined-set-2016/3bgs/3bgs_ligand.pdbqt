@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C3'_5  and  O3'_6 
+REMARK    4  A    between atoms: N1'_8  and  C10_9 
+REMARK    5  A    between atoms: C10_9  and  C9_10 
+ROOT
+ATOM      1  C9  DIH d          14.251  12.150  56.680  0.00  0.00     0.014 A 
+ATOM      2  C8  DIH d          15.314  12.568  55.872  0.00  0.00     0.099 A 
+ATOM      3  N7  DIH d          15.606  11.606  54.958  0.00  0.00    -0.359 N 
+ATOM      4  C5  DIH d          14.767  10.526  55.112  0.00  0.00     0.130 A 
+ATOM      5  C6  DIH d          14.594   9.285  54.494  0.00  0.00     0.275 A 
+ATOM      6  O6  DIH d          15.331   8.911  53.541  0.00  0.00    -0.266 OA
+ATOM      7  N1  DIH d          13.619   8.436  54.960  0.00  0.00    -0.316 N 
+ATOM      8  C2  DIH d          12.820   8.781  55.987  0.00  0.00     0.210 A 
+ATOM      9  N3  DIH d          12.958   9.932  56.618  0.00  0.00    -0.241 NA
+ATOM     10  C4  DIH d          13.920  10.804  56.178  0.00  0.00     0.099 A 
+ATOM     11  H15 DIH d          16.351  11.675  54.250  0.00  0.00     0.165 HD
+ATOM     12  H16 DIH d          13.501   7.543  54.527  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  C10 DIH d          13.640  12.917  57.849  0.00  0.00     0.277 C 
+BRANCH  13  14
+ATOM     14  N1' DIH d          14.625  12.659  58.929  0.00  0.00    -0.064 N 
+ATOM     15  C6' DIH d          14.405  11.314  59.527  0.00  0.00     0.244 C 
+ATOM     16  C4' DIH d          15.350  11.337  60.703  0.00  0.00     0.065 C 
+ATOM     17  C3' DIH d          15.210  12.753  61.260  0.00  0.00     0.151 C 
+ATOM     18  C2' DIH d          14.743  13.614  60.063  0.00  0.00     0.267 C 
+ATOM     19  H11 DIH d          15.524  12.653  58.474  0.00  0.00     0.280 HD
+BRANCH  16  20
+ATOM     20  C5' DIH d          16.732  10.960  60.165  0.00  0.00     0.173 C 
+BRANCH  20  21
+ATOM     21  O5' DIH d          17.494  12.134  59.898  0.00  0.00    -0.400 OA
+ATOM     22  H1  DIH d          18.349  11.887  59.565  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  16  20
+BRANCH  17  23
+ATOM     23  O3' DIH d          14.198  12.687  62.313  0.00  0.00    -0.393 OA
+ATOM     24  H8  DIH d          14.078  13.551  62.690  0.00  0.00     0.210 HD
+ENDBRANCH  17  23
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 5

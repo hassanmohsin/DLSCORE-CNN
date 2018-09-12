@@ -1,0 +1,143 @@
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C4_3 
+REMARK    2  A    between atoms: C11_30  and  N1_1 
+REMARK    3  A    between atoms: N1_1  and  C2_34 
+REMARK    4  A    between atoms: N3_2  and  C8_7 
+REMARK    5  A    between atoms: N3_2  and  C10_8 
+REMARK    6  A    between atoms: C14_23  and  N3_2 
+REMARK    7  A    between atoms: C4_3  and  C3_31 
+REMARK    8  A    between atoms: C6_5  and  C5_4 
+REMARK    9  A    between atoms: N2_26  and  C6_5 
+REMARK   10  A    between atoms: C8_7  and  C7_6 
+REMARK   11  A    between atoms: C10_8  and  C9_20 
+REMARK   12  A    between atoms: N2_26  and  C13_9 
+REMARK   13  A    between atoms: C22_14  and  N4_41 
+REMARK   14  A    between atoms: N4_41  and  C26_16 
+REMARK   15  A    between atoms: C26_16  and  S1_42 
+REMARK   16  A    between atoms: N5_43  and  C28_17 
+REMARK   17  A    between atoms: C28_17  and  C29_44 
+REMARK   18  A    between atoms: C28_17  and  C30_46 
+REMARK   19  A    between atoms: C28_17  and  C27_48 
+REMARK   20  A    between atoms: C12_29  and  N2_26 
+REMARK   21  A    between atoms: C11_30  and  C12_29 
+REMARK   22  A    between atoms: C25_38  and  C11_30 
+REMARK   23  A    between atoms: C2_34  and  C1_35 
+REMARK   24  A    between atoms: C25_38  and  C19_39 
+REMARK   25  A    between atoms: C29_44  and  O11_45 
+REMARK   26  A    between atoms: C30_46  and  O12_47 
+REMARK   27  A    between atoms: C27_48  and  O13_49 
+ROOT
+ATOM      1  C11 LIZ d          -0.572  56.735  67.515  0.00  0.00     0.219 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N1  LIZ d          -1.194  57.383  68.682  0.00  0.00    -0.046 N 
+ATOM      3  H1  LIZ d          -1.192  58.378  68.522  0.00  0.00     0.281 HD
+BRANCH   2   4
+ATOM      4  C4  LIZ d          -0.454  57.123  69.924  0.00  0.00     0.348 C 
+BRANCH   4   5
+ATOM      5  C3  LIZ d           0.548  58.251  70.194  0.00  0.00     0.199 C 
+ATOM      6  O4  LIZ d           1.444  58.032  71.036  0.00  0.00    -0.647 OA
+ATOM      7  O3  LIZ d           0.396  59.310  69.549  0.00  0.00    -0.647 OA
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2   8
+ATOM      8  C2  LIZ d          -2.590  56.938  68.826  0.00  0.00     0.348 C 
+BRANCH   8   9
+ATOM      9  C1  LIZ d          -3.391  58.008  69.569  0.00  0.00     0.199 C 
+ATOM     10  O2  LIZ d          -4.502  57.665  70.030  0.00  0.00    -0.647 OA
+ATOM     11  O1  LIZ d          -2.880  59.145  69.664  0.00  0.00    -0.647 OA
+ENDBRANCH   8   9
+ENDBRANCH   2   8
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C12 LIZ d           0.720  57.457  67.134  0.00  0.00     0.269 C 
+BRANCH  12  13
+ATOM     13  N2  LIZ d           0.469  58.831  66.663  0.00  0.00    -0.053 N 
+ATOM     14  H24 LIZ d          -0.191  59.283  67.276  0.00  0.00     0.281 HD
+BRANCH  13  15
+ATOM     15  C6  LIZ d          -0.088  58.793  65.301  0.00  0.00     0.348 C 
+BRANCH  15  16
+ATOM     16  C5  LIZ d          -1.589  58.514  65.281  0.00  0.00     0.199 C 
+ATOM     17  O6  LIZ d          -2.071  58.030  64.234  0.00  0.00    -0.647 OA
+ATOM     18  O5  LIZ d          -2.252  58.801  66.303  0.00  0.00    -0.647 OA
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+BRANCH  13  19
+ATOM     19  C13 LIZ d           1.746  59.567  66.693  0.00  0.00     0.219 C 
+ATOM     20  C15 LIZ d           2.686  59.046  65.604  0.00  0.00     0.035 C 
+ATOM     21  C16 LIZ d           4.041  59.753  65.668  0.00  0.00     0.002 C 
+ATOM     22  C17 LIZ d           3.884  61.272  65.571  0.00  0.00     0.002 C 
+ATOM     23  C18 LIZ d           2.911  61.782  66.633  0.00  0.00     0.035 C 
+ATOM     24  C14 LIZ d           1.561  61.071  66.506  0.00  0.00     0.220 C 
+BRANCH  24  25
+ATOM     25  N3  LIZ d           0.596  61.640  67.458  0.00  0.00    -0.046 N 
+ATOM     26  H2  LIZ d          -0.114  60.950  67.647  0.00  0.00     0.281 HD
+BRANCH  25  27
+ATOM     27  C8  LIZ d           1.226  62.024  68.731  0.00  0.00     0.348 C 
+BRANCH  27  28
+ATOM     28  C7  LIZ d           0.146  62.221  69.797  0.00  0.00     0.199 C 
+ATOM     29  O7  LIZ d          -1.014  61.864  69.503  0.00  0.00    -0.647 OA
+ATOM     30  O8  LIZ d           0.501  62.709  70.891  0.00  0.00    -0.647 OA
+ENDBRANCH  27  28
+ENDBRANCH  25  27
+BRANCH  25  31
+ATOM     31  C10 LIZ d          -0.029  62.822  66.851  0.00  0.00     0.348 C 
+BRANCH  31  32
+ATOM     32  C9  LIZ d          -1.025  62.386  65.773  0.00  0.00     0.199 C 
+ATOM     33  O10 LIZ d          -1.207  63.167  64.816  0.00  0.00    -0.647 OA
+ATOM     34  O9  LIZ d          -1.587  61.282  65.937  0.00  0.00    -0.647 OA
+ENDBRANCH  31  32
+ENDBRANCH  25  31
+ENDBRANCH  24  25
+ENDBRANCH  13  19
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   1  35
+ATOM     35  C25 LIZ d          -0.323  55.249  67.809  0.00  0.00     0.073 C 
+BRANCH  35  36
+ATOM     36  C19 LIZ d           0.158  54.436  66.608  0.00  0.00    -0.056 A 
+ATOM     37  C20 LIZ d          -0.575  54.343  65.422  0.00  0.00     0.009 A 
+ATOM     38  C21 LIZ d          -0.084  53.638  64.333  0.00  0.00     0.030 A 
+ATOM     39  C22 LIZ d           1.160  52.998  64.410  0.00  0.00     0.034 A 
+ATOM     40  C23 LIZ d           1.865  53.064  65.601  0.00  0.00     0.030 A 
+ATOM     41  C24 LIZ d           1.376  53.784  66.690  0.00  0.00     0.009 A 
+BRANCH  39  42
+ATOM     42  N4  LIZ d           1.740  52.322  63.425  0.00  0.00    -0.336 N 
+ATOM     43  H33 LIZ d           2.631  51.871  63.678  0.00  0.00     0.168 HD
+BRANCH  42  44
+ATOM     44  C26 LIZ d           1.355  52.131  62.157  0.00  0.00     0.160 C 
+ATOM     45  N5  LIZ d           2.141  51.363  61.405  0.00  0.00    -0.249 NA
+BRANCH  44  46
+ATOM     46  S1  LIZ d           0.047  53.050  61.444  0.00  0.00    -0.105 SA
+ATOM     47  H34 LIZ d          -0.086  52.758  60.488  0.00  0.00     0.110 HD
+ENDBRANCH  44  46
+BRANCH  45  48
+ATOM     48  C28 LIZ d           1.931  51.071  59.980  0.00  0.00     0.119 C 
+BRANCH  48  49
+ATOM     49  C29 LIZ d           2.235  52.311  59.136  0.00  0.00     0.201 C 
+BRANCH  49  50
+ATOM     50  O11 LIZ d           3.625  52.633  59.217  0.00  0.00    -0.398 OA
+ATOM     51  H37 LIZ d           4.138  51.902  58.893  0.00  0.00     0.209 HD
+ENDBRANCH  49  50
+ENDBRANCH  48  49
+BRANCH  48  52
+ATOM     52  C30 LIZ d           0.499  50.618  59.696  0.00  0.00     0.201 C 
+BRANCH  52  53
+ATOM     53  O12 LIZ d           0.475  49.214  59.430  0.00  0.00    -0.398 OA
+ATOM     54  H40 LIZ d          -0.418  48.941  59.255  0.00  0.00     0.209 HD
+ENDBRANCH  52  53
+ENDBRANCH  48  52
+BRANCH  48  55
+ATOM     55  C27 LIZ d           2.892  49.951  59.582  0.00  0.00     0.201 C 
+BRANCH  55  56
+ATOM     56  O13 LIZ d           4.236  50.313  59.914  0.00  0.00    -0.398 OA
+ATOM     57  H43 LIZ d           4.473  51.107  59.449  0.00  0.00     0.209 HD
+ENDBRANCH  55  56
+ENDBRANCH  48  55
+ENDBRANCH  45  48
+ENDBRANCH  42  44
+ENDBRANCH  39  42
+ENDBRANCH  35  36
+ENDBRANCH   1  35
+TORSDOF 27

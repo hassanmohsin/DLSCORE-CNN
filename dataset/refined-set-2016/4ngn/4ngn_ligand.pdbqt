@@ -1,0 +1,73 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_2  and  N2_3 
+REMARK    2  A    between atoms: N2_3  and  C11_4 
+REMARK    3  A    between atoms: C11_4  and  C10_5 
+REMARK    4  A    between atoms: C10_5  and  C9_6 
+REMARK    5  A    between atoms: C9_6  and  C8_7 
+REMARK    6  A    between atoms: C8_7  and  C1_8 
+REMARK    7  A    between atoms: C1_8  and  N_9 
+REMARK    8  A    between atoms: C1_8  and  C_22 
+REMARK       I    between atoms: N_9  and  C2_10 
+REMARK       I    between atoms: C2_10  and  N1_12 
+REMARK    9  A    between atoms: N1_12  and  C3_13 
+REMARK   10  A    between atoms: C3_13  and  C7_14 
+REMARK   11  A    between atoms: C3_13  and  C4_17 
+REMARK   12  A    between atoms: C4_17  and  C5_18 
+REMARK   13  A    between atoms: C5_18  and  C6_19 
+ROOT
+ATOM      1  N   J96 d         -18.582 -19.775 -43.725  0.00  0.00    -0.329 N 
+ATOM      2  C2  J96 d         -17.863 -20.521 -42.872  0.00  0.00     0.317 C 
+ATOM      3  O6  J96 d         -18.310 -21.588 -42.397  0.00  0.00    -0.247 OA
+ATOM      4  N1  J96 d         -16.590 -20.154 -42.621  0.00  0.00    -0.329 N 
+ATOM      5  H   J96 d         -18.182 -18.918 -44.050  0.00  0.00     0.165 HD
+ATOM      6  H   J96 d         -16.072 -19.573 -43.249  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  C1  J96 d         -19.896 -20.132 -44.202  0.00  0.00     0.187 C 
+BRANCH   7   8
+ATOM      8  C8  J96 d         -20.882 -19.532 -43.180  0.00  0.00     0.036 C 
+BRANCH   8   9
+ATOM      9  C9  J96 d         -22.350 -19.863 -43.305  0.00  0.00     0.004 C 
+BRANCH   9  10
+ATOM     10  C10 J96 d         -23.146 -18.935 -42.348  0.00  0.00     0.020 C 
+BRANCH  10  11
+ATOM     11  C11 J96 d         -23.233 -17.460 -42.783  0.00  0.00     0.122 C 
+BRANCH  11  12
+ATOM     12  N2  J96 d         -24.575 -16.932 -43.101  0.00  0.00    -0.368 N 
+ATOM     13  H   J96 d         -24.889 -16.919 -44.050  0.00  0.00     0.161 HD
+BRANCH  12  14
+ATOM     14  C12 J96 d         -25.372 -16.473 -42.137  0.00  0.00     0.348 C 
+ATOM     15  O23 J96 d         -25.340 -16.882 -40.983  0.00  0.00    -0.284 OA
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+BRANCH   7  16
+ATOM     16  C   J96 d         -20.091 -19.465 -45.548  0.00  0.00     0.196 C 
+ATOM     17  O1  J96 d         -19.564 -18.370 -45.783  0.00  0.00    -0.646 OA
+ATOM     18  O   J96 d         -20.727 -20.095 -46.467  0.00  0.00    -0.646 OA
+ENDBRANCH   7  16
+ENDBRANCH   1   7
+BRANCH   4  19
+ATOM     19  C3  J96 d         -16.010 -20.659 -41.371  0.00  0.00     0.187 C 
+BRANCH  19  20
+ATOM     20  C7  J96 d         -16.997 -20.452 -40.240  0.00  0.00     0.196 C 
+ATOM     21  O5  J96 d         -17.905 -19.581 -40.195  0.00  0.00    -0.646 OA
+ATOM     22  O4  J96 d         -16.888 -21.310 -39.222  0.00  0.00    -0.646 OA
+ENDBRANCH  19  20
+BRANCH  19  23
+ATOM     23  C4  J96 d         -14.680 -19.968 -40.972  0.00  0.00     0.046 C 
+BRANCH  23  24
+ATOM     24  C5  J96 d         -14.946 -18.437 -40.914  0.00  0.00     0.116 C 
+BRANCH  24  25
+ATOM     25  C6  J96 d         -13.853 -17.653 -40.266  0.00  0.00     0.172 C 
+ATOM     26  O3  J96 d         -13.713 -16.424 -40.457  0.00  0.00    -0.648 OA
+ATOM     27  O2  J96 d         -13.015 -18.209 -39.446  0.00  0.00    -0.648 OA
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  19  23
+ENDBRANCH   4  19
+TORSDOF 13

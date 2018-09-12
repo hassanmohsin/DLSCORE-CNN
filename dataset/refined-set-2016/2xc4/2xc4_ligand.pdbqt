@@ -1,0 +1,68 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C6_6 
+REMARK    2  A    between atoms: C7_7  and  C2_2 
+REMARK    3  A    between atoms: N4_4  and  C33_32 
+REMARK       I    between atoms: C6_6  and  N11_11 
+REMARK       I    between atoms: N8_8  and  C7_7 
+REMARK    4  A    between atoms: C19_18  and  N8_8 
+REMARK    5  A    between atoms: N11_11  and  C12_12 
+REMARK    6  A    between atoms: N25_24  and  C21_20 
+REMARK    7  A    between atoms: C33_32  and  C34_33 
+ROOT
+ATOM      1  C1  IVK d          -3.909  11.895  24.831  0.00  0.00     0.118 C 
+ATOM      2  C2  IVK d          -3.803  12.020  23.306  0.00  0.00     0.118 C 
+ATOM      3  C3  IVK d          -4.721  13.244  23.017  0.00  0.00     0.250 C 
+ATOM      4  N4  IVK d          -4.302  14.174  24.102  0.00  0.00    -0.061 N 
+ATOM      5  C5  IVK d          -3.861  13.348  25.283  0.00  0.00     0.250 C 
+ATOM      6  H5  IVK d          -3.522  14.717  23.767  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   2   7
+ATOM      7  C7  IVK d          -4.126  10.738  22.545  0.00  0.00     0.229 C 
+ATOM      8  N8  IVK d          -5.158  10.709  21.684  0.00  0.00    -0.324 N 
+ATOM      9  H8  IVK d          -5.721  11.531  21.599  0.00  0.00     0.169 HD
+ATOM     10  O9  IVK d          -3.427   9.712  22.666  0.00  0.00    -0.273 OA
+BRANCH   8  11
+ATOM     11  C19 IVK d          -5.496   9.586  20.890  0.00  0.00     0.073 A 
+ATOM     12  C20 IVK d          -6.734   8.957  20.953  0.00  0.00     0.035 A 
+ATOM     13  C23 IVK d          -7.008   7.886  20.110  0.00  0.00     0.032 A 
+ATOM     14  C21 IVK d          -6.080   7.437  19.172  0.00  0.00     0.045 A 
+ATOM     15  C22 IVK d          -4.852   8.084  19.095  0.00  0.00     0.074 A 
+ATOM     16  C24 IVK d          -4.569   9.137  19.950  0.00  0.00     0.145 A 
+ATOM     17  F32 IVK d          -3.382   9.788  19.876  0.00  0.00    -0.204 F 
+BRANCH  14  18
+ATOM     18  N25 IVK d          -6.372   6.364  18.293  0.00  0.00    -0.290 N 
+ATOM     19  C26 IVK d          -6.261   5.065  18.657  0.00  0.00     0.100 A 
+ATOM     20  C29 IVK d          -6.494   4.055  17.784  0.00  0.00     0.018 A 
+ATOM     21  C27 IVK d          -6.900   4.342  16.465  0.00  0.00     0.007 A 
+ATOM     22  C28 IVK d          -7.040   5.651  16.105  0.00  0.00     0.075 A 
+ATOM     23  C30 IVK d          -6.757   6.665  17.025  0.00  0.00     0.252 A 
+ATOM     24  O31 IVK d          -6.842   7.829  16.664  0.00  0.00    -0.268 OA
+ENDBRANCH  14  18
+ENDBRANCH   8  11
+ENDBRANCH   2   7
+BRANCH   1  25
+ATOM     25  C6  IVK d          -2.740  11.036  25.264  0.00  0.00     0.228 C 
+ATOM     26  O10 IVK d          -1.609  11.246  24.861  0.00  0.00    -0.273 OA
+ATOM     27  N11 IVK d          -3.044  10.084  26.143  0.00  0.00    -0.327 N 
+ATOM     28  H9  IVK d          -3.976  10.132  26.503  0.00  0.00     0.169 HD
+BRANCH  27  29
+ATOM     29  C12 IVK d          -2.285   9.037  26.644  0.00  0.00     0.034 A 
+ATOM     30  C17 IVK d          -2.699   8.353  27.794  0.00  0.00     0.031 A 
+ATOM     31  C15 IVK d          -1.999   7.235  28.214  0.00  0.00     0.026 A 
+ATOM     32  C14 IVK d          -0.960   6.777  27.437  0.00  0.00     0.034 A 
+ATOM     33  C16 IVK d          -0.575   7.453  26.272  0.00  0.00     0.026 A 
+ATOM     34 CL1  IVK d          -0.075   5.372  27.920  0.00  0.00    -0.084 Cl
+ATOM     35  C35 IVK d          -1.262   8.566  25.852  0.00  0.00     0.031 A 
+ENDBRANCH  27  29
+ENDBRANCH   1  25
+BRANCH   4  36
+ATOM     36  C33 IVK d          -5.349  15.101  24.529  0.00  0.00     0.351 C 
+BRANCH  36  37
+ATOM     37  C34 IVK d          -4.626  16.293  25.156  0.00  0.00     0.411 C 
+ATOM     38  F35 IVK d          -5.537  17.335  25.369  0.00  0.00    -0.169 F 
+ATOM     39  F36 IVK d          -3.604  16.706  24.303  0.00  0.00    -0.169 F 
+ATOM     40  F30 IVK d          -4.048  15.925  26.380  0.00  0.00    -0.169 F 
+ENDBRANCH  36  37
+ENDBRANCH   4  36
+TORSDOF 7

@@ -1,0 +1,83 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  N6_7 
+REMARK    2  A    between atoms: N6_7  and  CAB_21 
+REMARK    3  A    between atoms: N6_7  and  CAD_22 
+REMARK    4  A    between atoms: C1'_11  and  N9_10 
+REMARK    5  A    between atoms: C2'_12  and  O2'_13 
+REMARK    6  A    between atoms: C3'_14  and  O3'_15 
+REMARK    7  A    between atoms: C5'_18  and  C4'_16 
+REMARK    8  A    between atoms: O5'_19  and  C5'_18 
+REMARK    9  A    between atoms: PAO_33  and  O5'_19 
+REMARK   10  A    between atoms: CAL_30  and  PAK_29 
+REMARK   11  A    between atoms: PAM_31  and  CAL_30 
+REMARK   12  A    between atoms: OAN_32  and  PAM_31 
+REMARK   13  A    between atoms: OAN_32  and  PAO_33 
+ROOT
+ATOM      1  C1' ARU d          31.601  28.956  31.293  0.00  0.00     0.262 C 
+ATOM      2  C2' ARU d          30.981  30.322  31.403  0.00  0.00     0.198 C 
+ATOM      3  C3' ARU d          29.633  30.111  30.742  0.00  0.00     0.182 C 
+ATOM      4  C4' ARU d          29.852  28.827  29.977  0.00  0.00     0.180 C 
+ATOM      5  O4' ARU d          31.257  28.656  29.966  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   4   6
+ATOM      6  C5' ARU d          29.285  29.179  28.668  0.00  0.00     0.216 C 
+BRANCH   6   7
+ATOM      7  O5' ARU d          30.236  29.845  28.006  0.00  0.00    -0.287 OA
+BRANCH   7   8
+ATOM      8  PAO ARU d          29.870  30.862  26.925  0.00  0.00     0.416 P 
+ATOM      9  OAI ARU d          31.064  31.527  26.536  0.00  0.00    -0.624 OA
+ATOM     10  OAY ARU d          29.211  29.986  25.830  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  OAN ARU d          28.594  31.646  27.523  0.00  0.00    -0.201 OA
+BRANCH  11  12
+ATOM     12  PAM ARU d          27.712  32.658  26.777  0.00  0.00     0.304 P 
+ATOM     13  OAH ARU d          28.077  32.898  25.437  0.00  0.00    -0.644 OA
+ATOM     14  OAX ARU d          26.362  32.352  26.914  0.00  0.00    -0.644 OA
+BRANCH  12  15
+ATOM     15  CAL ARU d          28.178  34.213  27.711  0.00  0.00     0.291 C 
+ATOM     16 BRAG ARU d          27.770  33.775  29.501  0.00  0.00    -0.043 Br
+ATOM     17 BRAW ARU d          30.077  34.619  27.515  0.00  0.00    -0.043 Br
+BRANCH  15  18
+ATOM     18  PAK ARU d          27.255  35.755  27.139  0.00  0.00     0.304 P 
+ATOM     19  OAF ARU d          27.453  35.825  25.775  0.00  0.00    -0.638 OA
+ATOM     20  OAJ ARU d          27.773  36.831  27.807  0.00  0.00    -0.638 OA
+ATOM     21  OAV ARU d          25.919  35.496  27.474  0.00  0.00    -0.638 OA
+ENDBRANCH  15  18
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+BRANCH   3  22
+ATOM     22  O3' ARU d          28.601  29.892  31.686  0.00  0.00    -0.390 OA
+ATOM     23  H7  ARU d          28.533  30.646  32.260  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+BRANCH   2  24
+ATOM     24  O2' ARU d          30.857  30.703  32.731  0.00  0.00    -0.388 OA
+ATOM     25  H5  ARU d          30.306  30.079  33.188  0.00  0.00     0.210 HD
+ENDBRANCH   2  24
+BRANCH   1  26
+ATOM     26  N9  ARU d          33.032  28.849  31.413  0.00  0.00    -0.294 N 
+ATOM     27  C4  ARU d          33.644  27.783  31.836  0.00  0.00     0.167 A 
+ATOM     28  N3  ARU d          33.184  26.622  32.268  0.00  0.00    -0.222 NA
+ATOM     29  C5  ARU d          34.990  28.030  31.801  0.00  0.00     0.149 A 
+ATOM     30  C2  ARU d          34.022  25.717  32.647  0.00  0.00     0.237 A 
+ATOM     31  N1  ARU d          35.314  25.889  32.623  0.00  0.00    -0.222 NA
+ATOM     32  C6  ARU d          35.843  27.034  32.219  0.00  0.00     0.160 A 
+ATOM     33  N7  ARU d          35.149  29.247  31.338  0.00  0.00    -0.236 NA
+ATOM     34  C8  ARU d          33.948  29.743  31.109  0.00  0.00     0.214 A 
+BRANCH  32  35
+ATOM     35  N6  ARU d          37.150  27.181  32.202  0.00  0.00    -0.364 N 
+BRANCH  35  36
+ATOM     36  CAB ARU d          37.741  28.493  31.960  0.00  0.00     0.120 C 
+ATOM     37  CAA ARU d          37.768  28.751  30.474  0.00  0.00     0.026 C 
+ENDBRANCH  35  36
+BRANCH  35  38
+ATOM     38  CAD ARU d          38.014  26.022  32.378  0.00  0.00     0.120 C 
+ATOM     39  CAE ARU d          39.324  26.422  33.040  0.00  0.00     0.026 C 
+ENDBRANCH  35  38
+ENDBRANCH  32  35
+ENDBRANCH   1  26
+TORSDOF 13

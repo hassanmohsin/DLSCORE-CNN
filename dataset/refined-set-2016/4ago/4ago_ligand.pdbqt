@@ -1,0 +1,74 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_1  and  C04_2 
+REMARK    2  A    between atoms: C05_3  and  C06_4 
+REMARK    3  A    between atoms: C06_4  and  N_5 
+REMARK       I    between atoms: N_5  and  C07_25 
+REMARK    4  A    between atoms: C2_10  and  C1_6 
+REMARK    5  A    between atoms: N1_7  and  C2_10 
+REMARK    6  A    between atoms: C7_15  and  O1_8 
+REMARK    7  A    between atoms: C10_17  and  N2_11 
+REMARK    8  A    between atoms: N2_11  and  C11_18 
+REMARK    9  A    between atoms: N2_11  and  C13_20 
+REMARK   10  A    between atoms: C07_25  and  O01_26 
+REMARK   11  A    between atoms: O01_26  and  C08_27 
+ROOT
+ATOM      1  C01 P74 d          91.392  93.353 -45.340  0.00  0.00     0.019 A 
+ATOM      2  C1  P74 d          90.729  95.654 -44.980  0.00  0.00     0.003 A 
+ATOM      3  C02 P74 d          91.776  93.222 -44.002  0.00  0.00     0.041 A 
+ATOM      4  C3  P74 d          90.882  94.567 -45.835  0.00  0.00     0.032 A 
+ATOM      5  C4  P74 d          91.611  94.326 -43.165  0.00  0.00     0.041 A 
+ATOM      6  C7  P74 d          91.098  95.553 -43.616  0.00  0.00     0.090 A 
+ATOM      7  I2  P74 d          92.158  94.171 -41.110  0.00  0.00    -0.042 I 
+ENDROOT
+BRANCH   2   8
+ATOM      8  C2  P74 d          90.157  96.932 -45.528  0.00  0.00     0.276 C 
+BRANCH   8   9
+ATOM      9  N1  P74 d          90.622  98.137 -44.797  0.00  0.00    -0.067 N 
+ATOM     10  C03 P74 d          89.602  99.234 -44.894  0.00  0.00     0.237 C 
+ATOM     11  C8  P74 d          90.073 100.393 -44.035  0.00  0.00     0.061 C 
+ATOM     12  C10 P74 d          91.391 100.889 -44.611  0.00  0.00     0.191 C 
+ATOM     13  C15 P74 d          92.448  99.775 -44.493  0.00  0.00     0.061 C 
+ATOM     14  C16 P74 d          91.964  98.578 -45.290  0.00  0.00     0.237 C 
+ATOM     15  H4  P74 d          90.719  97.892 -43.824  0.00  0.00     0.280 HD
+BRANCH  12  16
+ATOM     16  N2  P74 d          91.838 102.146 -43.841  0.00  0.00    -0.067 N 
+ATOM     17  H9  P74 d          91.255 102.110 -43.020  0.00  0.00     0.280 HD
+BRANCH  16  18
+ATOM     18  C11 P74 d          93.261 102.078 -43.271  0.00  0.00     0.231 C 
+ATOM     19  C12 P74 d          93.964 103.396 -43.539  0.00  0.00     0.034 C 
+ENDBRANCH  16  18
+BRANCH  16  20
+ATOM     20  C13 P74 d          91.515 103.518 -44.420  0.00  0.00     0.231 C 
+ATOM     21  C14 P74 d          90.058 103.712 -44.822  0.00  0.00     0.034 C 
+ENDBRANCH  16  20
+ENDBRANCH  12  16
+ENDBRANCH   8   9
+ENDBRANCH   2   8
+BRANCH   6  22
+ATOM     22  O1  P74 d          90.948  96.636 -42.808  0.00  0.00    -0.359 OA
+ATOM     23  H5  P74 d          91.236  96.416 -41.929  0.00  0.00     0.217 HD
+ENDBRANCH   6  22
+BRANCH   1  24
+ATOM     24  C04 P74 d          91.504  92.307 -46.302  0.00  0.00    -0.065 C 
+ATOM     25  C05 P74 d          91.652  91.446 -47.117  0.00  0.00    -0.081 C 
+BRANCH  25  26
+ATOM     26  C06 P74 d          91.841  90.384 -48.110  0.00  0.00     0.219 C 
+BRANCH  26  27
+ATOM     27  N   P74 d          91.604  90.958 -49.416  0.00  0.00    -0.327 N 
+ATOM     28  C07 P74 d          90.337  91.137 -49.894  0.00  0.00     0.362 C 
+ATOM     29  O   P74 d          89.338  90.662 -49.376  0.00  0.00    -0.238 OA
+ATOM     30  H3  P74 d          92.383  91.229 -49.981  0.00  0.00     0.165 HD
+BRANCH  28  31
+ATOM     31  O01 P74 d          90.397  91.960 -50.968  0.00  0.00    -0.294 OA
+BRANCH  31  32
+ATOM     32  C08 P74 d          89.196  92.536 -51.548  0.00  0.00     0.061 C 
+ATOM     33  C09 P74 d          89.722  93.433 -52.675  0.00  0.00     0.046 C 
+ATOM     34  C17 P74 d          88.440  93.427 -50.553  0.00  0.00     0.046 C 
+ATOM     35  C   P74 d          88.293  91.446 -52.138  0.00  0.00     0.046 C 
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH   1  24
+TORSDOF 11

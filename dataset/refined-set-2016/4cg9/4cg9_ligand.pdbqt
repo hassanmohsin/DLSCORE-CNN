@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NBE_2  and  CBA_4 
+REMARK    2  A    between atoms: NBG_9  and  CAS_10 
+REMARK    3  A    between atoms: CAS_10  and  CAX_11 
+REMARK    4  A    between atoms: CAZ_16  and  CAY_17 
+ROOT
+ATOM      1  CAX GQG d         -16.318   8.775   8.649  0.00  0.00    -0.040 A 
+ATOM      2  CAG GQG d         -15.836   9.357   7.474  0.00  0.00     0.010 A 
+ATOM      3  CAK GQG d         -15.891   8.635   6.272  0.00  0.00     0.013 A 
+ATOM      4  CAF GQG d         -16.885   7.499   8.605  0.00  0.00     0.010 A 
+ATOM      5  CAJ GQG d         -16.946   6.775   7.413  0.00  0.00     0.013 A 
+ATOM      6  CAZ GQG d         -16.451   7.344   6.238  0.00  0.00    -0.026 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAS GQG d         -16.303   9.493   9.858  0.00  0.00     0.166 C 
+BRANCH   7   8
+ATOM      8  NBG GQG d         -17.459  10.427   9.749  0.00  0.00    -0.362 N 
+ATOM      9  CAP GQG d         -18.755   9.896   9.550  0.00  0.00     0.093 A 
+ATOM     10  CAM GQG d         -19.865  10.721   9.421  0.00  0.00     0.046 A 
+ATOM     11  CBA GQG d         -19.703  12.106   9.462  0.00  0.00     0.032 A 
+ATOM     12  CAL GQG d         -18.415  12.637   9.632  0.00  0.00     0.046 A 
+ATOM     13  CAO GQG d         -17.288  11.818   9.777  0.00  0.00     0.093 A 
+BRANCH  11  14
+ATOM     14  NBE GQG d         -20.781  12.896   9.304  0.00  0.00    -0.389 N 
+ATOM     15  CAA GQG d         -20.639  14.365   9.345  0.00  0.00     0.149 C 
+ATOM     16  CAB GQG d         -22.075  12.269   8.968  0.00  0.00     0.149 C 
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  17
+ATOM     17  CAY GQG d         -16.514   6.633   5.030  0.00  0.00    -0.026 A 
+ATOM     18  CAI GQG d         -17.667   5.903   4.714  0.00  0.00     0.012 A 
+ATOM     19  CAE GQG d         -17.757   5.196   3.517  0.00  0.00     0.001 A 
+ATOM     20  CAW GQG d         -16.688   5.229   2.614  0.00  0.00     0.000 A 
+ATOM     21  CAD GQG d         -15.537   5.960   2.920  0.00  0.00     0.001 A 
+ATOM     22  CAH GQG d         -15.444   6.662   4.126  0.00  0.00     0.012 A 
+ENDBRANCH   6  17
+TORSDOF 4

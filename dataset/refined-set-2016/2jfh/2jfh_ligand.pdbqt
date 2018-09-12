@@ -1,0 +1,67 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S11_2  and  N_4 
+REMARK    2  A    between atoms: S11_2  and  C12_14 
+REMARK    3  A    between atoms: N_4  and  CA_5 
+REMARK    4  A    between atoms: CA_5  and  C_6 
+REMARK    5  A    between atoms: CA_5  and  CB_9 
+REMARK    6  A    between atoms: CB_9  and  CG_10 
+REMARK    7  A    between atoms: CG_10  and  CD_11 
+REMARK    8  A    between atoms: C20_19  and  O22_24 
+REMARK    9  A    between atoms: O22_24  and  C23_25 
+REMARK   10  A    between atoms: C23_25  and  C24_26 
+REMARK   11  A    between atoms: C24_26  and  C25_27 
+ROOT
+ATOM      1  C12 LK1 d          20.823  -3.190  20.182  0.00  0.00     0.080 A 
+ATOM      2  C17 LK1 d          20.544  -3.064  21.523  0.00  0.00     0.026 A 
+ATOM      3  C16 LK1 d          19.663  -2.123  22.002  0.00  0.00     0.014 A 
+ATOM      4  C15 LK1 d          19.048  -1.271  21.109  0.00  0.00    -0.023 A 
+ATOM      5  C21 LK1 d          18.158  -0.356  21.607  0.00  0.00     0.049 A 
+ATOM      6  C20 LK1 d          17.543   0.535  20.771  0.00  0.00     0.069 A 
+ATOM      7  C19 LK1 d          17.778   0.482  19.400  0.00  0.00     0.037 A 
+ATOM      8  C18 LK1 d          18.665  -0.460  18.895  0.00  0.00     0.015 A 
+ATOM      9  C14 LK1 d          19.319  -1.350  19.751  0.00  0.00    -0.024 A 
+ATOM     10  C13 LK1 d          20.219  -2.319  19.272  0.00  0.00     0.037 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  S11 LK1 d          21.896  -4.289  19.814  0.00  0.00     0.259 S 
+ATOM     12  O28 LK1 d          21.910  -4.590  18.429  0.00  0.00    -0.201 OA
+ATOM     13  O27 LK1 d          21.684  -5.449  20.586  0.00  0.00    -0.201 OA
+BRANCH  11  14
+ATOM     14  N   LK1 d          23.268  -3.638  20.308  0.00  0.00    -0.300 N 
+ATOM     15  H1  LK1 d          23.174  -2.986  21.060  0.00  0.00     0.173 HD
+BRANCH  14  16
+ATOM     16  CA  LK1 d          24.629  -3.838  19.844  0.00  0.00     0.194 C 
+BRANCH  16  17
+ATOM     17  C   LK1 d          25.305  -5.145  20.227  0.00  0.00     0.197 C 
+ATOM     18  OXT LK1 d          25.627  -5.359  21.389  0.00  0.00    -0.646 OA
+ATOM     19  O   LK1 d          25.398  -5.936  19.293  0.00  0.00    -0.646 OA
+ENDBRANCH  16  17
+BRANCH  16  20
+ATOM     20  CB  LK1 d          25.411  -2.658  20.415  0.00  0.00     0.047 C 
+BRANCH  20  21
+ATOM     21  CG  LK1 d          26.777  -2.571  19.786  0.00  0.00     0.116 C 
+BRANCH  21  22
+ATOM     22  CD  LK1 d          27.454  -1.315  20.236  0.00  0.00     0.172 C 
+ATOM     23  OE2 LK1 d          27.950  -1.315  21.363  0.00  0.00    -0.648 OA
+ATOM     24  OE1 LK1 d          27.487  -0.360  19.449  0.00  0.00    -0.648 OA
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  16  20
+ENDBRANCH  14  16
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+BRANCH   6  25
+ATOM     25  O22 LK1 d          16.661   1.425  21.300  0.00  0.00    -0.351 OA
+BRANCH  25  26
+ATOM     26  C23 LK1 d          15.431   1.578  20.607  0.00  0.00     0.175 C 
+BRANCH  26  27
+ATOM     27  C24 LK1 d          14.309   0.808  21.263  0.00  0.00     0.026 C 
+BRANCH  27  28
+ATOM     28  C25 LK1 d          13.004   1.170  20.578  0.00  0.00    -0.002 C 
+ATOM     29  C26 LK1 d          11.853   1.294  21.541  0.00  0.00     0.005 C 
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH   6  25
+TORSDOF 11

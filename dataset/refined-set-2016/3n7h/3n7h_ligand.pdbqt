@@ -1,0 +1,29 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_8  and  CAA_1 
+REMARK       I    between atoms: NAM_13  and  CAH_8 
+REMARK    2  A    between atoms: NAM_13  and  CAJ_10 
+REMARK    3  A    between atoms: CAK_11  and  NAM_13 
+ROOT
+ATOM      1  CAA DE3 d          13.705   4.130  14.661  0.00  0.00     0.032 A 
+ATOM      2  CAB DE3 d          12.846   3.048  14.436  0.00  0.00     0.023 A 
+ATOM      3  CAC DE3 d          15.055   3.892  14.934  0.00  0.00     0.017 A 
+ATOM      4  CAD DE3 d          13.341   1.747  14.447  0.00  0.00    -0.061 A 
+ATOM      5  CAE DE3 d          14.690   1.514  14.697  0.00  0.00     0.007 A 
+ATOM      6  CAF DE3 d          15.551   2.587  14.937  0.00  0.00     0.002 A 
+ATOM      7  CAG DE3 d          12.414   0.562  14.172  0.00  0.00     0.048 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAH DE3 d          13.137   5.555  14.658  0.00  0.00     0.253 C 
+ATOM      9  NAM DE3 d          13.758   6.521  13.926  0.00  0.00    -0.349 N 
+ATOM     10  OAN DE3 d          12.113   5.782  15.299  0.00  0.00    -0.267 OA
+BRANCH   9  11
+ATOM     11  CAJ DE3 d          15.026   6.300  13.212  0.00  0.00     0.121 C 
+ATOM     12  CAL DE3 d          16.132   7.152  13.766  0.00  0.00     0.026 C 
+ENDBRANCH   9  11
+BRANCH   9  13
+ATOM     13  CAK DE3 d          13.247   7.907  13.964  0.00  0.00     0.121 C 
+ATOM     14  CAI DE3 d          12.174   8.063  12.888  0.00  0.00     0.026 C 
+ENDBRANCH   9  13
+ENDBRANCH   1   8
+TORSDOF 3

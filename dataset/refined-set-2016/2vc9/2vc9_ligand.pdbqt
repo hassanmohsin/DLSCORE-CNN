@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C7_2  and  N2_4 
+REMARK    1  A    between atoms: N2_4  and  C2_5 
+REMARK    2  A    between atoms: C5_8  and  C6_9 
+REMARK    3  A    between atoms: C6_9  and  O6_10 
+REMARK    4  A    between atoms: C4_11  and  O4_12 
+REMARK    5  A    between atoms: C3_13  and  O3_14 
+ROOT
+ATOM      1  C2  NOK d          17.882  -4.387   8.306  0.00  0.00     0.141 C 
+ATOM      2  C1  NOK d          17.688  -2.871   8.432  0.00  0.00     0.260 C 
+ATOM      3  N5  NOK d          18.851  -2.177   7.830  0.00  0.00    -0.064 N 
+ATOM      4  C5  NOK d          20.176  -2.542   8.404  0.00  0.00     0.240 C 
+ATOM      5  C4  NOK d          20.385  -4.067   8.487  0.00  0.00     0.181 C 
+ATOM      6  C3  NOK d          19.149  -4.801   9.061  0.00  0.00     0.173 C 
+ATOM      7  H8  NOK d          18.720  -1.185   7.954  0.00  0.00     0.277 HD
+ATOM      8  H9  NOK d          18.868  -2.393   6.846  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  N2  NOK d          16.682  -5.053   8.833  0.00  0.00    -0.353 N 
+ATOM     10  C7  NOK d          15.956  -5.914   8.116  0.00  0.00     0.214 C 
+ATOM     11  C8  NOK d          14.734  -6.484   8.817  0.00  0.00     0.117 C 
+ATOM     12  O7  NOK d          16.213  -6.266   6.970  0.00  0.00    -0.274 OA
+ATOM     13  H4  NOK d          16.397  -4.852   9.770  0.00  0.00     0.163 HD
+ENDBRANCH   1   9
+BRANCH   6  14
+ATOM     14  O3  NOK d          19.315  -6.221   9.016  0.00  0.00    -0.391 OA
+ATOM     15  H17 NOK d          18.542  -6.641   9.374  0.00  0.00     0.210 HD
+ENDBRANCH   6  14
+BRANCH   5  16
+ATOM     16  O4  NOK d          21.566  -4.306   9.274  0.00  0.00    -0.391 OA
+ATOM     17  H15 NOK d          21.717  -5.242   9.340  0.00  0.00     0.210 HD
+ENDBRANCH   5  16
+BRANCH   4  18
+ATOM     18  C6  NOK d          21.292  -1.907   7.563  0.00  0.00     0.199 C 
+BRANCH  18  19
+ATOM     19  O6  NOK d          21.324  -2.480   6.257  0.00  0.00    -0.399 OA
+ATOM     20  H13 NOK d          22.020  -2.075   5.752  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+TORSDOF 5

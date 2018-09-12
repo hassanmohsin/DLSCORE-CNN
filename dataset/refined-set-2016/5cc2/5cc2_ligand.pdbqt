@@ -1,0 +1,23 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_6  and  C10_7 
+ROOT
+ATOM      1  C4  CKA d          13.481   4.017  23.714  0.00  0.00     0.019 A 
+ATOM      2  C5  CKA d          14.829   3.858  23.427  0.00  0.00     0.025 A 
+ATOM      3  C6  CKA d          15.590   5.001  23.106  0.00  0.00     0.036 A 
+ATOM      4  C7  CKA d          15.043   6.273  23.066  0.00  0.00     0.056 A 
+ATOM      5  C8  CKA d          13.669   6.423  23.360  0.00  0.00     0.072 A 
+ATOM      6  C9  CKA d          11.761   7.859  23.606  0.00  0.00     0.118 A 
+ATOM      7  N1  CKA d          13.075   7.659  23.335  0.00  0.00    -0.245 NA
+ATOM      8  C3  CKA d          12.875   5.291  23.688  0.00  0.00     0.039 A 
+ATOM      9  C1  CKA d          10.938   6.808  23.931  0.00  0.00     0.150 A 
+ATOM     10  C2  CKA d          11.429   5.445  23.996  0.00  0.00     0.167 A 
+ATOM     11  O1  CKA d          10.716   4.467  24.283  0.00  0.00    -0.292 OA
+ATOM     12 CL1  CKA d          17.293   4.803  22.744  0.00  0.00    -0.084 Cl
+ENDROOT
+BRANCH   6  13
+ATOM     13  C10 CKA d          11.313   9.338  23.520  0.00  0.00     0.225 C 
+ATOM     14  O2  CKA d          12.230  10.137  23.209  0.00  0.00    -0.643 OA
+ATOM     15  O3  CKA d          10.114   9.575  23.772  0.00  0.00    -0.643 OA
+ENDBRANCH   6  13
+TORSDOF 1

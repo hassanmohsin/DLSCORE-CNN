@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C1'_5  and  N1_6 
+REMARK    4  A    between atoms: C2'_14  and  O2'_15 
+REMARK    5  A    between atoms: C3'_16  and  O3'_17 
+ROOT
+ATOM      1  C4' CTN d          -0.003  13.764  27.011  0.00  0.00     0.179 C 
+ATOM      2  O4' CTN d           1.177  14.557  27.229  0.00  0.00    -0.353 OA
+ATOM      3  C1' CTN d           1.381  14.562  28.654  0.00  0.00     0.263 C 
+ATOM      4  C2' CTN d          -0.010  14.305  29.234  0.00  0.00     0.198 C 
+ATOM      5  C3' CTN d          -0.951  14.291  28.044  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N1  CTN d           1.947  15.783  29.266  0.00  0.00    -0.280 N 
+ATOM      7  C6  CTN d           2.474  15.638  30.495  0.00  0.00     0.102 A 
+ATOM      8  C5  CTN d           3.027  16.706  31.191  0.00  0.00     0.065 A 
+ATOM      9  C4  CTN d           3.035  17.963  30.603  0.00  0.00     0.103 A 
+ATOM     10  N3  CTN d           2.499  18.130  29.367  0.00  0.00    -0.295 N 
+ATOM     11  N4  CTN d           3.579  19.009  31.280  0.00  0.00    -0.385 N 
+ATOM     12  C2  CTN d           1.955  17.086  28.676  0.00  0.00     0.330 A 
+ATOM     13  H8  CTN d           2.503  19.040  28.953  0.00  0.00     0.172 HD
+ATOM     14  O2  CTN d           1.484  17.310  27.537  0.00  0.00    -0.246 OA
+ATOM     15  H9  CTN d           3.981  18.863  32.217  0.00  0.00     0.157 HD
+ATOM     16  H10 CTN d           3.589  19.948  30.856  0.00  0.00     0.157 HD
+ENDBRANCH   3   6
+BRANCH   4  17
+ATOM     17  O2' CTN d           0.012  13.030  29.893  0.00  0.00    -0.388 OA
+ATOM     18  H12 CTN d          -0.845  12.850  30.261  0.00  0.00     0.210 HD
+ENDBRANCH   4  17
+BRANCH   1  19
+ATOM     19  C5' CTN d          -0.553  13.698  25.589  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O5' CTN d          -1.075  12.373  25.326  0.00  0.00    -0.398 OA
+ATOM     21  H1  CTN d          -1.772  12.180  25.942  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH   5  22
+ATOM     22  O3' CTN d          -2.044  13.387  28.198  0.00  0.00    -0.390 OA
+ATOM     23  H14 CTN d          -1.710  12.505  28.309  0.00  0.00     0.210 HD
+ENDBRANCH   5  22
+TORSDOF 5

@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N14_14 
+REMARK    2  A    between atoms: C3_3  and  N13_13 
+REMARK    3  A    between atoms: C4_4  and  C7_7 
+REMARK    4  A    between atoms: C5_5  and  C15_15 
+ROOT
+ATOM      1  N1  CP6 d           2.424  -1.797   0.335  0.00  0.00    -0.045 NA
+ATOM      2  C2  CP6 d           3.038  -2.215  -0.802  0.00  0.00     0.722 C 
+ATOM      3  C3  CP6 d           1.843  -2.772   1.095  0.00  0.00     0.153 C 
+ATOM      4  C4  CP6 d           1.867  -4.160   0.788  0.00  0.00     0.045 C 
+ATOM      5  C5  CP6 d           2.479  -4.496  -0.390  0.00  0.00     0.068 C 
+ATOM      6  N6  CP6 d           2.979  -3.527  -1.207  0.00  0.00    -0.067 NA
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  CP6 d           1.309  -5.138   1.720  0.00  0.00    -0.020 A 
+ATOM      8  C8  CP6 d          -0.050  -5.138   2.105  0.00  0.00     0.014 A 
+ATOM      9  C9  CP6 d          -0.534  -6.067   3.067  0.00  0.00     0.024 A 
+ATOM     10  C10 CP6 d           0.426  -6.964   3.634  0.00  0.00     0.034 A 
+ATOM     11  C11 CP6 d           1.811  -6.968   3.334  0.00  0.00     0.024 A 
+ATOM     12 CL1  CP6 d          -0.181  -8.116   4.794  0.00  0.00    -0.084 Cl
+ATOM     13  C12 CP6 d           2.188  -6.062   2.330  0.00  0.00     0.014 A 
+ENDBRANCH   4   7
+BRANCH   3  14
+ATOM     14  N13 CP6 d           1.221  -2.337   2.235  0.00  0.00    -0.383 N 
+ATOM     15  H5  CP6 d           0.760  -3.013   2.860  0.00  0.00     0.157 HD
+ATOM     16  H6  CP6 d           1.214  -1.334   2.467  0.00  0.00     0.157 HD
+ENDBRANCH   3  14
+BRANCH   5  17
+ATOM     17  C15 CP6 d           2.571  -5.908  -0.978  0.00  0.00     0.056 C 
+ATOM     18  C16 CP6 d           4.050  -6.366  -1.000  0.00  0.00     0.011 C 
+ENDBRANCH   5  17
+BRANCH   2  19
+ATOM     19  N14 CP6 d           3.638  -1.380  -1.572  0.00  0.00    -0.231 N 
+ATOM     20  H7  CP6 d           3.704  -0.388  -1.304  0.00  0.00     0.174 HD
+ATOM     21  H8  CP6 d           4.053  -1.703  -2.458  0.00  0.00     0.174 HD
+ENDBRANCH   2  19
+TORSDOF 4

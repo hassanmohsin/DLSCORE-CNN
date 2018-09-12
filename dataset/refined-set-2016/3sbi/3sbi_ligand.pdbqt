@@ -1,0 +1,45 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  S7_7 
+REMARK    2  A    between atoms: S7_7  and  C8_8 
+REMARK    3  A    between atoms: C8_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  C11_11 
+REMARK    5  A    between atoms: C14_14  and  S17_17 
+REMARK    6  A    between atoms: S17_17  and  N20_20 
+ROOT
+ATOM      1  C11 E90 d          -4.205   4.253  14.393  0.00  0.00     0.011 A 
+ATOM      2  C12 E90 d          -3.405   3.172  14.804  0.00  0.00     0.017 A 
+ATOM      3  C13 E90 d          -3.948   2.164  15.563  0.00  0.00     0.026 A 
+ATOM      4  C14 E90 d          -5.302   2.208  15.873  0.00  0.00     0.079 A 
+ATOM      5  C15 E90 d          -6.125   3.232  15.479  0.00  0.00     0.026 A 
+ATOM      6  C16 E90 d          -5.545   4.285  14.768  0.00  0.00     0.017 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C9  E90 d          -3.607   5.329  13.537  0.00  0.00     0.169 C 
+ATOM      8  O10 E90 d          -4.323   6.282  13.176  0.00  0.00    -0.291 OA
+BRANCH   7   9
+ATOM      9  C8  E90 d          -2.129   5.191  13.130  0.00  0.00     0.166 C 
+BRANCH   9  10
+ATOM     10  S7  E90 d          -1.594   6.500  11.964  0.00  0.00    -0.082 SA
+BRANCH  10  11
+ATOM     11  C2  E90 d          -1.418   7.833  13.018  0.00  0.00     0.188 A 
+ATOM     12  N1  E90 d          -1.479   7.683  14.379  0.00  0.00    -0.235 NA
+ATOM     13  C6  E90 d          -1.300   8.759  15.146  0.00  0.00     0.121 A 
+ATOM     14  C5  E90 d          -0.981  10.009  14.559  0.00  0.00     0.038 A 
+ATOM     15  C4  E90 d          -0.988  10.110  13.151  0.00  0.00     0.121 A 
+ATOM     16  N3  E90 d          -1.160   8.992  12.371  0.00  0.00    -0.235 NA
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  17
+ATOM     17  S17 E90 d          -5.947   0.867  16.839  0.00  0.00     0.256 S 
+ATOM     18  O18 E90 d          -5.392   1.064  18.165  0.00  0.00    -0.201 OA
+ATOM     19  O19 E90 d          -7.402   0.958  16.700  0.00  0.00    -0.201 OA
+BRANCH  17  20
+ATOM     20  N20 E90 d          -5.327  -0.512  16.225  0.00  0.00    -0.324 N 
+ATOM     21  H10 E90 d          -5.569  -1.393  16.631  0.00  0.00     0.169 HD
+ATOM     22  H11 E90 d          -4.706  -0.476  15.442  0.00  0.00     0.169 HD
+ENDBRANCH  17  20
+ENDBRANCH   4  17
+TORSDOF 6

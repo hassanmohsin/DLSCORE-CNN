@@ -1,0 +1,159 @@
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_1 
+REMARK    2  A    between atoms: C1_1  and  C7_7 
+REMARK       I    between atoms: N16_16  and  C2_2 
+REMARK    3  A    between atoms: C4_4  and  C12_12 
+REMARK    4  A    between atoms: C17_17  and  N16_16 
+REMARK    5  A    between atoms: C17_17  and  C18_18 
+REMARK    6  A    between atoms: C20_20  and  C17_17 
+REMARK       I    between atoms: C18_18  and  N29_28 
+REMARK    7  A    between atoms: C69_66  and  C20_20 
+REMARK    8  A    between atoms: C68_65  and  C22_21 
+REMARK    9  A    between atoms: N29_28  and  C30_29 
+REMARK   10  A    between atoms: C30_29  and  C31_30 
+REMARK   11  A    between atoms: C30_29  and  C38_37 
+REMARK   12  A    between atoms: C31_30  and  C32_31 
+REMARK   13  A    between atoms: C32_31  and  C33_32 
+REMARK   14  A    between atoms: C33_32  and  N34_33 
+REMARK       I    between atoms: N34_33  and  C35_34 
+REMARK       I    between atoms: C35_34  and  N36_35 
+REMARK       I    between atoms: C35_34  and  N37_36 
+REMARK       I    between atoms: C38_37  and  N40_39 
+REMARK   15  A    between atoms: N40_39  and  C41_40 
+REMARK   16  A    between atoms: C41_40  and  C42_41 
+REMARK   17  A    between atoms: C41_40  and  C44_43 
+REMARK       I    between atoms: C42_41  and  N60_58 
+REMARK   18  A    between atoms: C44_43  and  C45_44 
+REMARK   19  A    between atoms: C59_57  and  C58_56 
+REMARK   20  A    between atoms: N60_58  and  C59_57 
+REMARK       I    between atoms: N72_69  and  C68_65 
+REMARK   21  A    between atoms: C71_68  and  C70_67 
+REMARK   22  A    between atoms: C71_68  and  N72_69 
+ROOT
+ATOM      1  C18 NSY d           0.408  -7.309   8.467  0.00  0.00     0.175 C 
+ATOM      2  O19 NSY d           1.087  -8.142   7.726  0.00  0.00    -0.175 OA
+ATOM      3  N29 NSY d          -0.256  -7.653   9.756  0.00  0.00    -0.357 N 
+ATOM      4  H32 NSY d          -0.775  -6.944  10.234  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C17 NSY d           0.269  -5.873   8.114  0.00  0.00     0.165 C 
+BRANCH   5   6
+ATOM      6  N16 NSY d           1.452  -5.741   7.324  0.00  0.00    -0.349 N 
+ATOM      7  C2  NSY d           2.085  -4.547   6.718  0.00  0.00     0.218 C 
+ATOM      8  O3  NSY d           1.651  -3.426   6.817  0.00  0.00    -0.274 OA
+ATOM      9  H22 NSY d           1.934  -6.600   7.151  0.00  0.00     0.163 HD
+BRANCH   7  10
+ATOM     10  C1  NSY d           3.219  -4.843   6.095  0.00  0.00     0.111 C 
+BRANCH  10  11
+ATOM     11  C7  NSY d           3.237  -5.444   4.693  0.00  0.00     0.016 A 
+ATOM     12  C6  NSY d           4.667  -5.816   4.279  0.00  0.00    -0.025 A 
+ATOM     13  C5  NSY d           4.960  -6.401   3.002  0.00  0.00    -0.025 A 
+ATOM     14  C4  NSY d           3.822  -6.669   1.945  0.00  0.00     0.012 A 
+ATOM     15  C9  NSY d           2.364  -6.313   2.334  0.00  0.00     0.009 A 
+ATOM     16  C8  NSY d           1.998  -5.704   3.684  0.00  0.00     0.009 A 
+BRANCH  14  17
+ATOM     17  C12 NSY d           4.205  -7.265   0.605  0.00  0.00    -0.007 A 
+ATOM     18  C11 NSY d           3.214  -7.540  -0.565  0.00  0.00     0.005 A 
+ATOM     19  C13 NSY d           3.883  -8.163  -1.853  0.00  0.00     0.000 A 
+ATOM     20  C10 NSY d           5.381  -8.500  -2.026  0.00  0.00     0.000 A 
+ATOM     21  C15 NSY d           6.365  -8.221  -0.865  0.00  0.00     0.000 A 
+ATOM     22  C14 NSY d           5.829  -7.619   0.411  0.00  0.00     0.005 A 
+ENDBRANCH  14  17
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+BRANCH   5  23
+ATOM     23  C20 NSY d          -0.940  -5.635   7.367  0.00  0.00     0.060 C 
+BRANCH  23  24
+ATOM     24  C69 NSY d          -1.817  -4.465   7.623  0.00  0.00    -0.027 C 
+ATOM     25  C70 NSY d          -2.533  -3.769   6.848  0.00  0.00    -0.011 C 
+BRANCH  25  26
+ATOM     26  C71 NSY d          -2.696  -3.972   5.350  0.00  0.00     0.149 C 
+BRANCH  26  27
+ATOM     27  N72 NSY d          -3.875  -3.296   4.604  0.00  0.00    -0.357 N 
+ATOM     28  C68 NSY d          -4.283  -3.946   3.591  0.00  0.00     0.222 C 
+ATOM     29  O73 NSY d          -3.872  -4.957   3.203  0.00  0.00    -0.273 OA
+ATOM     30  H83 NSY d          -4.278  -2.428   4.894  0.00  0.00     0.162 HD
+BRANCH  28  31
+ATOM     31  C22 NSY d          -5.324  -3.467   2.776  0.00  0.00     0.141 C 
+ATOM     32  C23 NSY d          -5.157  -2.989   1.586  0.00  0.00    -0.049 A 
+ATOM     33  C24 NSY d          -4.362  -1.743   1.291  0.00  0.00     0.008 A 
+ATOM     34  C25 NSY d          -5.784  -3.699   0.452  0.00  0.00     0.008 A 
+ATOM     35  C26 NSY d          -4.159  -1.238  -0.066  0.00  0.00     0.013 A 
+ATOM     36  C28 NSY d          -4.768  -1.930  -1.249  0.00  0.00    -0.026 A 
+ATOM     37  C27 NSY d          -5.591  -3.189  -0.958  0.00  0.00     0.013 A 
+ATOM     38  C62 NSY d          -4.505  -1.422  -2.538  0.00  0.00    -0.026 A 
+ATOM     39  C63 NSY d          -3.611  -0.166  -2.730  0.00  0.00     0.012 A 
+ATOM     40  C64 NSY d          -5.085  -2.048  -3.813  0.00  0.00     0.012 A 
+ATOM     41  C65 NSY d          -3.329   0.375  -4.114  0.00  0.00     0.001 A 
+ATOM     42  C67 NSY d          -3.928  -0.287  -5.267  0.00  0.00     0.000 A 
+ATOM     43  C66 NSY d          -4.797  -1.491  -5.129  0.00  0.00     0.001 A 
+ENDBRANCH  28  31
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  23  24
+ENDBRANCH   5  23
+ENDBRANCH   1   5
+BRANCH   3  44
+ATOM     44  C30 NSY d          -0.180  -8.940  10.327  0.00  0.00     0.175 C 
+BRANCH  44  45
+ATOM     45  C31 NSY d          -0.560 -10.278   9.393  0.00  0.00     0.036 C 
+BRANCH  45  46
+ATOM     46  C32 NSY d          -1.846 -10.458   8.463  0.00  0.00     0.023 C 
+BRANCH  46  47
+ATOM     47  C33 NSY d          -3.190 -10.468   9.221  0.00  0.00     0.138 C 
+BRANCH  47  48
+ATOM     48  N34 NSY d          -4.490 -10.628   8.532  0.00  0.00    -0.227 N 
+ATOM     49  C35 NSY d          -5.775 -10.407   9.231  0.00  0.00     0.665 C 
+ATOM     50  N36 NSY d          -6.110 -11.018  10.423  0.00  0.00    -0.235 N 
+ATOM     51  N37 NSY d          -6.757  -9.564   8.756  0.00  0.00    -0.235 N 
+ATOM     52  H41 NSY d          -7.021 -10.824  10.863  0.00  0.00     0.174 HD
+ATOM     53  H42 NSY d          -5.449 -11.667  10.873  0.00  0.00     0.174 HD
+ATOM     54  H43 NSY d          -6.615  -9.054   7.872  0.00  0.00     0.174 HD
+ATOM     55  H44 NSY d          -7.633  -9.444   9.285  0.00  0.00     0.174 HD
+ATOM     56  H40 NSY d          -4.500 -10.901   7.539  0.00  0.00     0.177 HD
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+BRANCH  44  57
+ATOM     57  C38 NSY d          -0.918  -9.104  11.578  0.00  0.00     0.241 C 
+ATOM     58  O39 NSY d          -0.570 -10.030  12.316  0.00  0.00    -0.271 OA
+ATOM     59  N40 NSY d          -1.902  -8.238  11.858  0.00  0.00    -0.346 N 
+ATOM     60  H45 NSY d          -2.114  -7.518  11.197  0.00  0.00     0.163 HD
+BRANCH  59  61
+ATOM     61  C41 NSY d          -2.674  -8.311  13.095  0.00  0.00     0.177 C 
+BRANCH  61  62
+ATOM     62  C42 NSY d          -3.691  -9.491  12.832  0.00  0.00     0.240 C 
+ATOM     63  O43 NSY d          -4.424  -9.471  11.886  0.00  0.00    -0.271 OA
+ATOM     64  N60 NSY d          -3.663 -10.548  13.856  0.00  0.00    -0.359 N 
+ATOM     65  H73 NSY d          -3.030 -10.521  14.630  0.00  0.00     0.162 HD
+BRANCH  64  66
+ATOM     66  C59 NSY d          -4.670 -11.699  13.661  0.00  0.00     0.123 C 
+BRANCH  66  67
+ATOM     67  C58 NSY d          -4.010 -12.741  12.892  0.00  0.00     0.024 C 
+ATOM     68  C52 NSY d          -2.955 -13.516  13.407  0.00  0.00    -0.013 A 
+ATOM     69  C53 NSY d          -2.904 -13.999  14.958  0.00  0.00     0.005 A 
+ATOM     70  C57 NSY d          -1.861 -13.876  12.434  0.00  0.00     0.005 A 
+ATOM     71  C54 NSY d          -1.678 -14.839  15.372  0.00  0.00     0.000 A 
+ATOM     72  C55 NSY d          -0.613 -15.171  14.362  0.00  0.00     0.000 A 
+ATOM     73  C56 NSY d          -0.703 -14.705  12.931  0.00  0.00     0.000 A 
+ENDBRANCH  66  67
+ENDBRANCH  64  66
+ENDBRANCH  61  62
+BRANCH  61  74
+ATOM     74  C44 NSY d          -3.548  -7.046  13.425  0.00  0.00     0.043 C 
+BRANCH  74  75
+ATOM     75  C45 NSY d          -4.300  -7.299  14.793  0.00  0.00     0.010 A 
+ATOM     76  C46 NSY d          -3.558  -7.093  16.112  0.00  0.00     0.009 A 
+ATOM     77  C48 NSY d          -4.274  -7.335  17.424  0.00  0.00     0.004 A 
+ATOM     78  C50 NSY d          -5.762  -7.790  17.409  0.00  0.00     0.027 A 
+ATOM     79  C49 NSY d          -6.501  -7.993  16.120  0.00  0.00    -0.030 A 
+ATOM     80  C47 NSY d          -5.839  -7.769  14.812  0.00  0.00    -0.026 A 
+ENDBRANCH  74  75
+ENDBRANCH  61  74
+ENDBRANCH  59  61
+ENDBRANCH  44  57
+ENDBRANCH   3  44
+TORSDOF 22

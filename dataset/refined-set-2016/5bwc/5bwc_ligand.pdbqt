@@ -1,0 +1,71 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_10  and  C1_1 
+REMARK    2  A    between atoms: C1_1  and  C2_11 
+REMARK    3  A    between atoms: C2_11  and  C5_2 
+REMARK    4  A    between atoms: C5_2  and  C8_13 
+REMARK    5  A    between atoms: N9_4  and  O10_3 
+REMARK    6  A    between atoms: C7_6  and  C8A_5 
+REMARK    7  A    between atoms: C8_13  and  C11_14 
+REMARK    8  A    between atoms: C11_14  and  C14_15 
+REMARK    9  A    between atoms: C14_15  and  C17_16 
+REMARK   10  A    between atoms: C17_16  and  N20_17 
+REMARK   11  A    between atoms: C25_22  and  C26_23 
+REMARK   12  A    between atoms: C26_23  and  N27_24 
+REMARK   13  A    between atoms: N27_24  and  O28_25 
+ROOT
+ATOM      1  C8  HBP d          56.928 -36.307  -0.921  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C5  HBP d          58.193 -35.465  -0.802  0.00  0.00     0.002 C 
+BRANCH   2   3
+ATOM      3  C2  HBP d          57.877 -34.081  -1.361  0.00  0.00     0.020 C 
+BRANCH   3   4
+ATOM      4  C1  HBP d          59.052 -33.126  -1.261  0.00  0.00     0.128 C 
+BRANCH   4   5
+ATOM      5  N2  HBP d          58.817 -31.964  -2.141  0.00  0.00    -0.356 N 
+ATOM      6  C7  HBP d          59.479 -31.775  -3.386  0.00  0.00     0.050 A 
+ATOM      7  C6  HBP d          59.213 -30.639  -4.151  0.00  0.00     0.008 A 
+ATOM      8  C5A HBP d          58.298 -29.709  -3.701  0.00  0.00     0.058 A 
+ATOM      9  C4  HBP d          57.663 -29.911  -2.485  0.00  0.00    -0.006 A 
+ATOM     10  C3  HBP d          57.935 -31.045  -1.725  0.00  0.00     0.087 A 
+BRANCH   6  11
+ATOM     11  C8A HBP d          60.470 -32.765  -3.874  0.00  0.00     0.175 C 
+ATOM     12  N9  HBP d          61.103 -32.605  -4.951  0.00  0.00    -0.146 NA
+BRANCH  12  13
+ATOM     13  O10 HBP d          62.034 -33.566  -5.332  0.00  0.00    -0.266 OA
+ATOM     14  H5  HBP d          61.599 -34.405  -5.431  0.00  0.00     0.247 HD
+ENDBRANCH  12  13
+ENDBRANCH   6  11
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C11 HBP d          56.555 -37.150   0.289  0.00  0.00     0.002 C 
+BRANCH  15  16
+ATOM     16  C14 HBP d          56.511 -36.370   1.591  0.00  0.00     0.020 C 
+BRANCH  16  17
+ATOM     17  C17 HBP d          55.177 -36.387   2.357  0.00  0.00     0.123 C 
+BRANCH  17  18
+ATOM     18  N20 HBP d          55.285 -37.028   3.689  0.00  0.00    -0.377 N 
+ATOM     19  C21 HBP d          54.329 -37.924   4.011  0.00  0.00     0.086 A 
+ATOM     20  C22 HBP d          54.341 -38.586   5.235  0.00  0.00     0.017 A 
+ATOM     21  C23 HBP d          55.338 -38.323   6.158  0.00  0.00    -0.000 A 
+ATOM     22  C24 HBP d          56.313 -37.394   5.828  0.00  0.00     0.004 A 
+ATOM     23  C25 HBP d          56.271 -36.731   4.594  0.00  0.00     0.149 A 
+BRANCH  23  24
+ATOM     24  C26 HBP d          57.391 -35.796   4.287  0.00  0.00     0.148 C 
+BRANCH  24  25
+ATOM     25  N27 HBP d          58.443 -35.789   4.983  0.00  0.00    -0.151 NA
+BRANCH  25  26
+ATOM     26  O28 HBP d          59.476 -34.940   4.597  0.00  0.00    -0.267 OA
+ATOM     27  H28 HBP d          59.167 -34.042   4.607  0.00  0.00     0.247 HD
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 13

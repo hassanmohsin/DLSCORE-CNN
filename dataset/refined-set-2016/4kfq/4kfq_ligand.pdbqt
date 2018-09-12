@@ -1,0 +1,25 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_6  and  SAB_7 
+ROOT
+ATOM      1  OAA KFQ d          26.283  35.710  49.917  0.00  0.00    -0.264 OA
+ATOM      2  CAJ KFQ d          26.527  35.374  48.730  0.00  0.00     0.294 A 
+ATOM      3  CAN KFQ d          26.627  33.968  48.366  0.00  0.00     0.227 A 
+ATOM      4  NAG KFQ d          26.486  32.938  49.194  0.00  0.00    -0.123 NA
+ATOM      5  NAH KFQ d          26.668  31.812  48.464  0.00  0.00    -0.122 NA
+ATOM      6  CAK KFQ d          26.903  32.176  47.215  0.00  0.00     0.194 A 
+ATOM      7  NAO KFQ d          26.884  33.547  47.093  0.00  0.00    -0.265 N 
+ATOM      8  CAM KFQ d          27.089  34.460  46.021  0.00  0.00     0.070 A 
+ATOM      9  CAF KFQ d          27.353  34.076  44.695  0.00  0.00     0.032 A 
+ATOM     10  CAD KFQ d          27.525  35.049  43.726  0.00  0.00     0.002 A 
+ATOM     11  CAC KFQ d          27.425  36.409  44.077  0.00  0.00     0.002 A 
+ATOM     12  CAE KFQ d          27.152  36.799  45.380  0.00  0.00     0.032 A 
+ATOM     13  CAL KFQ d          26.978  35.823  46.366  0.00  0.00     0.062 A 
+ATOM     14  NAI KFQ d          26.707  36.216  47.688  0.00  0.00    -0.318 N 
+ATOM     15  H6  KFQ d          26.642  37.197  47.872  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   6  16
+ATOM     16  SAB KFQ d          27.161  31.004  45.938  0.00  0.00    -0.103 SA
+ATOM     17  H1  KFQ d          27.322  31.487  45.068  0.00  0.00     0.110 HD
+ENDBRANCH   6  16
+TORSDOF 1

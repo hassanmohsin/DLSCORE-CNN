@@ -1,0 +1,49 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_9  and  C1_2 
+REMARK    2  A    between atoms: C4_9  and  O3_3 
+REMARK    3  A    between atoms: C3_4  and  O4_5 
+REMARK    4  A    between atoms: C3_4  and  C2_6 
+REMARK    5  A    between atoms: C3_4  and  C4_9 
+REMARK    6  A    between atoms: C2_6  and  O5_7 
+REMARK    7  A    between atoms: C2_6  and  C5_8 
+REMARK    8  A    between atoms: C5_8  and  O6_10 
+REMARK    9  A    between atoms: O6_10  and  P1_11 
+ROOT
+ATOM      1  C2  R52 d          26.840  -9.670  14.804  0.00  0.00     0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  R52 d          26.766  -8.790  13.557  0.00  0.00     0.184 C 
+BRANCH   2   3
+ATOM      3  O4  R52 d          27.039  -9.565  12.376  0.00  0.00    -0.390 OA
+ATOM      4  H4  R52 d          26.989  -9.003  11.611  0.00  0.00     0.210 HD
+ENDBRANCH   2   3
+BRANCH   2   5
+ATOM      5  C4  R52 d          25.409  -8.073  13.418  0.00  0.00     0.210 C 
+BRANCH   5   6
+ATOM      6  C1  R52 d          25.392  -6.776  14.215  0.00  0.00     0.265 C 
+ATOM      7  O2  R52 d          24.355  -6.124  14.255  0.00  0.00    -0.304 OA
+ENDBRANCH   5   6
+BRANCH   5   8
+ATOM      8  O3  R52 d          24.297  -8.894  13.776  0.00  0.00    -0.386 OA
+ATOM      9  H2  R52 d          23.489  -8.429  13.592  0.00  0.00     0.210 HD
+ENDBRANCH   5   8
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  O5  R52 d          26.662  -8.830  15.951  0.00  0.00    -0.391 OA
+ATOM     11  H6  R52 d          26.705  -9.359  16.739  0.00  0.00     0.210 HD
+ENDBRANCH   1  10
+BRANCH   1  12
+ATOM     12  C5  R52 d          28.178 -10.404  14.895  0.00  0.00     0.217 C 
+BRANCH  12  13
+ATOM     13  O6  R52 d          28.296 -11.131  16.138  0.00  0.00    -0.280 OA
+BRANCH  13  14
+ATOM     14  P1  R52 d          29.495 -12.197  16.353  0.00  0.00     0.422 P 
+ATOM     15  O9  R52 d          29.587 -12.991  15.072  0.00  0.00    -0.617 OA
+ATOM     16  O7  R52 d          29.028 -13.027  17.546  0.00  0.00    -0.617 OA
+ATOM     17  O8  R52 d          30.750 -11.390  16.592  0.00  0.00    -0.617 OA
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9

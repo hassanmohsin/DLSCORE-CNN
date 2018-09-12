@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_1 
+REMARK    2  A    between atoms: C2_3  and  O2_5 
+REMARK    3  A    between atoms: C4_8  and  O4_9 
+REMARK    4  A    between atoms: C5_10  and  C6_12 
+REMARK    5  A    between atoms: C6_12  and  O6_13 
+ROOT
+ATOM      1  C1  DK4 d          33.343  22.903  27.789  0.00  0.00     0.264 C 
+ATOM      2  C2  DK4 d          33.782  23.105  26.324  0.00  0.00     0.204 C 
+ATOM      3  C3  DK4 d          32.816  22.378  25.364  0.00  0.00     0.234 C 
+ATOM      4  F3  DK4 d          33.324  22.363  24.078  0.00  0.00    -0.244 F 
+ATOM      5  C4  DK4 d          32.489  20.950  25.858  0.00  0.00     0.185 C 
+ATOM      6  C5  DK4 d          32.312  20.865  27.399  0.00  0.00     0.179 C 
+ATOM      7  O5  DK4 d          33.404  21.503  28.084  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  N1  DK4 d          34.178  23.597  28.793  0.00  0.00    -0.277 N 
+ATOM      9  C7  DK4 d          35.582  23.570  28.699  0.00  0.00     0.146 A 
+ATOM     10  C8  DK4 d          36.357  24.223  29.655  0.00  0.00     0.199 A 
+ATOM     11  F8  DK4 d          37.693  24.189  29.540  0.00  0.00    -0.199 F 
+ATOM     12  C9  DK4 d          35.744  24.909  30.711  0.00  0.00     0.289 A 
+ATOM     13  N2  DK4 d          34.350  24.930  30.810  0.00  0.00    -0.273 N 
+ATOM     14  O9  DK4 d          36.407  25.497  31.567  0.00  0.00    -0.265 OA
+ATOM     15  C10 DK4 d          33.558  24.273  29.858  0.00  0.00     0.331 A 
+ATOM     16  H3  DK4 d          33.914  25.418  31.566  0.00  0.00     0.173 HD
+ATOM     17  O10 DK4 d          32.333  24.306  29.958  0.00  0.00    -0.246 OA
+ENDBRANCH   1   8
+BRANCH   2  18
+ATOM     18  O2  DK4 d          33.849  24.503  26.012  0.00  0.00    -0.388 OA
+ATOM     19  H4  DK4 d          34.120  24.612  25.108  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+BRANCH   6  20
+ATOM     20  C6  DK4 d          32.265  19.423  27.875  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O6  DK4 d          33.355  18.721  27.268  0.00  0.00    -0.398 OA
+ATOM     22  H11 DK4 d          34.174  19.126  27.527  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH   6  20
+BRANCH   5  23
+ATOM     23  O4  DK4 d          31.291  20.492  25.239  0.00  0.00    -0.390 OA
+ATOM     24  H7  DK4 d          31.093  19.615  25.545  0.00  0.00     0.210 HD
+ENDBRANCH   5  23
+TORSDOF 5

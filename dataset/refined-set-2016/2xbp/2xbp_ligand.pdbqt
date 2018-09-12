@@ -1,0 +1,73 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3B_8  and  PG_1 
+REMARK    2  A    between atoms: PB_5  and  O3B_8 
+REMARK    3  A    between atoms: O3A_12  and  PB_5 
+REMARK    4  A    between atoms: PA_9  and  O3A_12 
+REMARK    5  A    between atoms: PA_9  and  O5'_13 
+REMARK    6  A    between atoms: O5'_13  and  C5'_14 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C3'_17  and  O3'_18 
+REMARK    9  A    between atoms: C2'_19  and  O2'_20 
+REMARK   10  A    between atoms: C1'_21  and  N9_22 
+REMARK   11  A    between atoms: C6_26  and  N6_27 
+ROOT
+ATOM      1  C4' ATP d          42.857 -13.927  54.959  0.00  0.00     0.180 C 
+ATOM      2  O4' ATP d          41.555 -14.386  55.362  0.00  0.00    -0.353 OA
+ATOM      3  C3' ATP d          43.072 -12.649  55.726  0.00  0.00     0.182 C 
+ATOM      4  C2' ATP d          41.703 -12.059  55.758  0.00  0.00     0.198 C 
+ATOM      5  C1' ATP d          40.847 -13.298  55.961  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ATP d          43.856 -15.049  55.121  0.00  0.00     0.216 C 
+BRANCH   6   7
+ATOM      7  O5' ATP d          43.982 -15.327  56.545  0.00  0.00    -0.287 OA
+BRANCH   7   8
+ATOM      8  PA  ATP d          45.188 -16.262  57.020  0.00  0.00     0.417 P 
+ATOM      9  O1A ATP d          46.294 -15.374  57.512  0.00  0.00    -0.624 OA
+ATOM     10  O2A ATP d          45.511 -17.277  56.028  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  O3A ATP d          44.457 -16.892  58.316  0.00  0.00    -0.180 OA
+BRANCH  11  12
+ATOM     12  PB  ATP d          45.114 -17.442  59.657  0.00  0.00     0.428 P 
+ATOM     13  O1B ATP d          46.061 -16.410  60.181  0.00  0.00    -0.624 OA
+ATOM     14  O2B ATP d          44.029 -17.889  60.557  0.00  0.00    -0.624 OA
+BRANCH  12  15
+ATOM     15  O3B ATP d          45.894 -18.750  59.177  0.00  0.00    -0.173 OA
+BRANCH  15  16
+ATOM     16  PG  ATP d          47.515 -18.931  58.885  0.00  0.00     0.431 P 
+ATOM     17  O1G ATP d          47.581 -19.971  57.810  0.00  0.00    -0.616 OA
+ATOM     18  O2G ATP d          48.095 -19.375  60.184  0.00  0.00    -0.616 OA
+ATOM     19  O3G ATP d          47.980 -17.568  58.434  0.00  0.00    -0.616 OA
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  20
+ATOM     20  O3' ATP d          44.047 -11.804  55.174  0.00  0.00    -0.390 OA
+ATOM     21  H5  ATP d          43.791 -11.561  54.292  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   5  22
+ATOM     22  N9  ATP d          40.548 -13.632  57.360  0.00  0.00    -0.294 N 
+ATOM     23  C8  ATP d          41.283 -14.465  58.173  0.00  0.00     0.214 A 
+ATOM     24  N7  ATP d          40.701 -14.624  59.354  0.00  0.00    -0.236 NA
+ATOM     25  C5  ATP d          39.539 -13.868  59.272  0.00  0.00     0.149 A 
+ATOM     26  C6  ATP d          38.424 -13.680  60.142  0.00  0.00     0.155 A 
+ATOM     27  C4  ATP d          39.460 -13.255  58.034  0.00  0.00     0.167 A 
+ATOM     28  N1  ATP d          37.418 -12.873  59.741  0.00  0.00    -0.222 NA
+ATOM     29  C2  ATP d          37.464 -12.338  58.512  0.00  0.00     0.237 A 
+ATOM     30  N3  ATP d          38.452 -12.456  57.601  0.00  0.00    -0.222 NA
+BRANCH  26  31
+ATOM     31  N6  ATP d          38.350 -14.264  61.354  0.00  0.00    -0.382 N 
+ATOM     32  H10 ATP d          37.528 -14.104  61.954  0.00  0.00     0.157 HD
+ATOM     33  H11 ATP d          39.115 -14.871  61.681  0.00  0.00     0.157 HD
+ENDBRANCH  26  31
+ENDBRANCH   5  22
+BRANCH   4  34
+ATOM     34  O2' ATP d          41.404 -11.473  54.493  0.00  0.00    -0.388 OA
+ATOM     35  H7  ATP d          42.038 -10.791  54.303  0.00  0.00     0.210 HD
+ENDBRANCH   4  34
+TORSDOF 11

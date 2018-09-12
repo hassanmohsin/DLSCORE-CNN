@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_2  and  C3_3 
+REMARK    2  A    between atoms: C8_8  and  C9_9 
+REMARK    3  A    between atoms: C14_14  and  N15_15 
+ROOT
+ATOM      1  C9  WOE d           7.211  -2.240   9.309  0.00  0.00     0.092 A 
+ATOM      2  C10 WOE d           8.114  -2.986   8.592  0.00  0.00     0.078 A 
+ATOM      3  C11 WOE d           8.554  -4.175   9.147  0.00  0.00     0.147 A 
+ATOM      4 CL1  WOE d           9.671  -5.173   8.268  0.00  0.00    -0.062 Cl
+ATOM      5  N13 WOE d           8.169  -4.623  10.349  0.00  0.00    -0.051 NA
+ATOM      6  C14 WOE d           7.272  -3.821  11.000  0.00  0.00     0.722 A 
+ATOM      7  N16 WOE d           6.798  -2.635  10.526  0.00  0.00    -0.062 NA
+ENDROOT
+BRANCH   1   8
+ATOM      8  C8  WOE d           6.651  -0.965   8.802  0.00  0.00     0.027 A 
+ATOM      9  C3  WOE d           6.611   0.198   9.591  0.00  0.00     0.080 A 
+ATOM     10  C4  WOE d           6.084   1.372   9.078  0.00  0.00     0.037 A 
+ATOM     11  C5  WOE d           5.559   1.395   7.806  0.00  0.00     0.003 A 
+ATOM     12  C6  WOE d           5.589   0.253   7.022  0.00  0.00     0.001 A 
+ATOM     13  C7  WOE d           6.120  -0.924   7.520  0.00  0.00     0.016 A 
+BRANCH   9  14
+ATOM     14  O2  WOE d           7.152   0.069  10.844  0.00  0.00    -0.355 OA
+ATOM     15  C1  WOE d           7.843   1.196  11.388  0.00  0.00     0.210 C 
+ENDBRANCH   9  14
+ENDBRANCH   1   8
+BRANCH   6  16
+ATOM     16  N15 WOE d           6.841  -4.223  12.252  0.00  0.00    -0.231 N 
+ATOM     17  H9  WOE d           7.174  -5.113  12.650  0.00  0.00     0.174 HD
+ATOM     18  H10 WOE d           6.188  -3.632  12.786  0.00  0.00     0.174 HD
+ENDBRANCH   6  16
+TORSDOF 3

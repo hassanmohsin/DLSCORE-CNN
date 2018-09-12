@@ -1,0 +1,69 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C20_6  and  C17_7 
+REMARK    2  A    between atoms: C4_11  and  C1_12 
+REMARK    3  A    between atoms: N12_24  and  C19_25 
+REMARK    4  A    between atoms: C19_25  and  C21_26 
+REMARK    5  A    between atoms: C21_26  and  C23_27 
+REMARK    6  A    between atoms: C23_27  and  N29_28 
+REMARK    7  A    between atoms: N29_28  and  C34_29 
+REMARK    8  A    between atoms: C34_29  and  C35_30 
+REMARK    9  A    between atoms: C35_30  and  O36_31 
+ROOT
+ATOM      1  C1  XWG d          -3.159  13.118  23.647  0.00  0.00     0.256 C 
+ATOM      2  N3  XWG d          -4.504  13.452  24.166  0.00  0.00    -0.055 N 
+ATOM      3  C7  XWG d          -5.135  14.222  23.074  0.00  0.00     0.203 C 
+ATOM      4  C14 XWG d          -4.735  15.677  23.314  0.00  0.00     0.036 C 
+ATOM      5  C15 XWG d          -4.418  15.766  24.803  0.00  0.00     0.030 C 
+ATOM      6  C8  XWG d          -4.442  14.334  25.341  0.00  0.00     0.236 C 
+ATOM      7  C5  XWG d          -4.622  13.623  21.771  0.00  0.00     0.124 C 
+ATOM      8  C2  XWG d          -3.434  12.759  22.177  0.00  0.00     0.130 C 
+ATOM      9  C6  XWG d          -3.927  11.350  21.965  0.00  0.00     0.234 C 
+ATOM     10  O13 XWG d          -3.281  10.301  22.125  0.00  0.00    -0.272 OA
+ATOM     11  C11 XWG d          -5.597  12.627  21.226  0.00  0.00     0.233 C 
+ATOM     12  O18 XWG d          -6.593  12.887  20.553  0.00  0.00    -0.272 OA
+ATOM     13  N12 XWG d          -5.269  11.358  21.652  0.00  0.00    -0.288 N 
+ATOM     14  H5  XWG d          -5.022  12.616  24.384  0.00  0.00     0.281 HD
+ENDROOT
+BRANCH  13  15
+ATOM     15  C19 XWG d          -5.938  10.152  21.106  0.00  0.00     0.137 C 
+BRANCH  15  16
+ATOM     16  C21 XWG d          -5.523   9.677  19.729  0.00  0.00     0.048 C 
+BRANCH  16  17
+ATOM     17  C23 XWG d          -6.425   8.494  19.397  0.00  0.00     0.239 C 
+BRANCH  17  18
+ATOM     18  N29 XWG d          -6.242   7.900  18.057  0.00  0.00    -0.065 N 
+ATOM     19  C31 XWG d          -7.234   6.811  17.890  0.00  0.00     0.237 C 
+ATOM     20  C33 XWG d          -6.582   5.536  18.402  0.00  0.00     0.029 C 
+ATOM     21  C32 XWG d          -5.114   5.735  18.101  0.00  0.00     0.029 C 
+ATOM     22  C30 XWG d          -4.922   7.235  18.009  0.00  0.00     0.237 C 
+BRANCH  18  23
+ATOM     23  C34 XWG d          -6.346   8.881  16.937  0.00  0.00     0.263 C 
+BRANCH  23  24
+ATOM     24  C35 XWG d          -7.591   9.770  16.981  0.00  0.00     0.192 C 
+BRANCH  24  25
+ATOM     25  O36 XWG d          -8.744   8.966  16.762  0.00  0.00    -0.399 OA
+ATOM     26  H25 XWG d          -9.520   9.513  16.788  0.00  0.00     0.209 HD
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  18  23
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+BRANCH   1  27
+ATOM     27  C4  XWG d          -2.347  12.075  24.373  0.00  0.00     0.096 A 
+ATOM     28  C16 XWG d          -2.906  11.140  25.311  0.00  0.00     0.072 A 
+ATOM     29  C17 XWG d          -1.818  10.432  25.731  0.00  0.00     0.120 A 
+ATOM     30  O10 XWG d          -0.709  10.819  25.088  0.00  0.00    -0.212 OA
+ATOM     31  N9  XWG d          -1.044  11.891  24.256  0.00  0.00    -0.130 NA
+BRANCH  29  32
+ATOM     32  C20 XWG d          -1.792   9.334  26.582  0.00  0.00     0.042 A 
+ATOM     33  C22 XWG d          -2.699   9.032  27.580  0.00  0.00     0.024 A 
+ATOM     34  C24 XWG d          -2.377   7.822  28.191  0.00  0.00     0.033 A 
+ATOM     35  C25 XWG d          -1.277   7.273  27.584  0.00  0.00     0.075 A 
+ATOM     36 CL1  XWG d          -0.504   5.701  27.995  0.00  0.00    -0.076 Cl
+ATOM     37  S1  XWG d          -0.544   8.175  26.336  0.00  0.00    -0.075 SA
+ENDBRANCH  29  32
+ENDBRANCH   1  27
+TORSDOF 9

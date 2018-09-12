@@ -1,0 +1,34 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_9  and  C4_4 
+REMARK    2  A    between atoms: C15_15  and  O6_5 
+REMARK    3  A    between atoms: C9_8  and  C8_7 
+REMARK    4  A    between atoms: C12_12  and  C13_13 
+ROOT
+ATOM      1  S   TLG d         -20.021  35.109 -31.986  0.00  0.00    -0.066 SA
+ATOM      2  C3  TLG d         -19.207  35.945 -29.481  0.00  0.00     0.039 C 
+ATOM      3  C4  TLG d         -18.632  35.254 -30.729  0.00  0.00     0.080 A 
+ATOM      4  C11 TLG d         -20.083  33.297 -31.915  0.00  0.00     0.226 A 
+ATOM      5  O11 TLG d         -20.903  32.656 -32.535  0.00  0.00    -0.280 OA
+ATOM      6  C12 TLG d         -19.053  32.837 -30.979  0.00  0.00     0.097 A 
+ATOM      7  C15 TLG d         -18.344  33.814 -30.319  0.00  0.00     0.084 A 
+ENDROOT
+BRANCH   3   8
+ATOM      8  C10 TLG d         -17.449  35.921 -31.420  0.00  0.00     0.007 C 
+ATOM      9  C9  TLG d         -17.417  37.156 -32.005  0.00  0.00    -0.065 C 
+ATOM     10  C1  TLG d         -16.163  37.618 -32.696  0.00  0.00     0.048 C 
+BRANCH   9  11
+ATOM     11  C8  TLG d         -18.502  38.156 -31.894  0.00  0.00    -0.004 C 
+ATOM     12  C7  TLG d         -18.499  39.425 -32.229  0.00  0.00     0.012 C 
+ENDBRANCH   9  11
+ENDBRANCH   3   8
+BRANCH   7  13
+ATOM     13  O6  TLG d         -17.485  33.600 -29.300  0.00  0.00    -0.362 OA
+ATOM     14  H7  TLG d         -17.398  32.666 -29.151  0.00  0.00     0.217 HD
+ENDBRANCH   7  13
+BRANCH   6  15
+ATOM     15  C13 TLG d         -18.770  31.431 -30.693  0.00  0.00     0.162 C 
+ATOM     16  C14 TLG d         -17.716  31.053 -29.698  0.00  0.00     0.097 C 
+ATOM     17  ONA TLG d         -19.307  30.546 -31.364  0.00  0.00    -0.293 OA
+ENDBRANCH   6  15
+TORSDOF 4

@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_1  and  O9_9 
+REMARK    2  A    between atoms: C7_4  and  C13_7 
+REMARK    3  A    between atoms: C13_7  and  C15_8 
+REMARK    4  A    between atoms: C15_8  and  N16_11 
+REMARK    5  A    between atoms: C1_13  and  C2_14 
+ROOT
+ATOM      1  C4  AED d         -22.232  40.013  93.233  0.00  0.00     0.072 A 
+ATOM      2  C7  AED d         -19.563  39.377  92.755  0.00  0.00    -0.056 A 
+ATOM      3  C8  AED d         -21.601  39.062  94.043  0.00  0.00     0.037 A 
+ATOM      4  C12 AED d         -20.264  38.746  93.793  0.00  0.00     0.010 A 
+ATOM      5  C3  AED d         -20.212  40.329  91.957  0.00  0.00     0.017 A 
+ATOM      6  C1  AED d         -21.554  40.658  92.184  0.00  0.00    -0.020 A 
+ENDROOT
+BRANCH   2   7
+ATOM      7  C13 AED d         -18.116  39.040  92.478  0.00  0.00     0.066 C 
+BRANCH   7   8
+ATOM      8  C15 AED d         -17.261  38.980  93.753  0.00  0.00     0.234 C 
+BRANCH   8   9
+ATOM      9  N16 AED d         -15.836  38.710  93.443  0.00  0.00    -0.079 N 
+ATOM     10  H14 AED d         -15.306  38.678  94.300  0.00  0.00     0.274 HD
+ATOM     11  H15 AED d         -15.476  39.443  92.853  0.00  0.00     0.274 HD
+ATOM     12  H16 AED d         -15.758  37.826  92.966  0.00  0.00     0.274 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   2   7
+BRANCH   6  13
+ATOM     13  C2  AED d         -22.255  41.683  91.319  0.00  0.00     0.021 C 
+ATOM     14  C5  AED d         -21.898  43.102  91.804  0.00  0.00     0.009 C 
+ATOM     15  C10 AED d         -22.410  44.176  90.840  0.00  0.00     0.001 C 
+ATOM     16  C14 AED d         -21.717  43.968  89.491  0.00  0.00     0.000 C 
+ATOM     17  C11 AED d         -22.155  42.629  88.882  0.00  0.00     0.001 C 
+ATOM     18  C6  AED d         -21.950  41.429  89.823  0.00  0.00     0.009 C 
+ENDBRANCH   6  13
+BRANCH   1  19
+ATOM     19  O9  AED d         -23.546  40.309  93.493  0.00  0.00    -0.360 OA
+ATOM     20  H12 AED d         -23.850  40.964  92.876  0.00  0.00     0.217 HD
+ENDBRANCH   1  19
+TORSDOF 5

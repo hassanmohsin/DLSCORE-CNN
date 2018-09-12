@@ -1,0 +1,53 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  NAB_8 
+REMARK    2  A    between atoms: CAN_19  and  CBB_28 
+REMARK    3  A    between atoms: NBC_29  and  CAN_19 
+REMARK    4  A    between atoms: CAT_23  and  OAS_22 
+REMARK    5  A    between atoms: CAU_24  and  CAW_25 
+ROOT
+ATOM      1  N1  BK6 d          21.561  12.482  63.809  0.00  0.00    -0.224 NA
+ATOM      2  C2  BK6 d          22.725  13.114  63.614  0.00  0.00     0.237 A 
+ATOM      3  N3  BK6 d          22.786  14.442  63.580  0.00  0.00    -0.222 NA
+ATOM      4  C4  BK6 d          21.665  15.173  63.727  0.00  0.00     0.163 A 
+ATOM      5  C5  BK6 d          20.433  14.558  63.943  0.00  0.00     0.088 A 
+ATOM      6  C6  BK6 d          20.404  13.154  63.987  0.00  0.00     0.139 A 
+ATOM      7  NAQ BK6 d          20.248  16.759  63.946  0.00  0.00    -0.169 NA
+ATOM      8  CAW BK6 d          19.536  15.632  64.073  0.00  0.00     0.105 A 
+ATOM      9  NBC BK6 d          21.441  16.482  63.734  0.00  0.00    -0.250 N 
+ENDROOT
+BRANCH   8  10
+ATOM     10  CAU BK6 d          18.167  15.572  64.327  0.00  0.00    -0.004 A 
+ATOM     11  CAD BK6 d          17.270  16.319  63.559  0.00  0.00     0.015 A 
+ATOM     12  CAF BK6 d          15.897  16.279  63.846  0.00  0.00     0.013 A 
+ATOM     13  CAX BK6 d          15.405  15.525  64.921  0.00  0.00    -0.023 A 
+ATOM     14  CAH BK6 d          14.036  15.485  65.211  0.00  0.00     0.049 A 
+ATOM     15  CAY BK6 d          16.298  14.811  65.707  0.00  0.00    -0.025 A 
+ATOM     16  CAT BK6 d          13.560  14.726  66.279  0.00  0.00     0.069 A 
+ATOM     17  CAC BK6 d          14.459  14.008  67.067  0.00  0.00     0.037 A 
+ATOM     18  CAE BK6 d          15.816  14.071  66.771  0.00  0.00     0.015 A 
+ATOM     19  CAI BK6 d          17.667  14.843  65.416  0.00  0.00     0.026 A 
+BRANCH  16  20
+ATOM     20  OAS BK6 d          12.227  14.654  66.574  0.00  0.00    -0.356 OA
+ATOM     21  CAA BK6 d          11.318  15.312  65.642  0.00  0.00     0.210 C 
+ENDBRANCH  16  20
+ENDBRANCH   8  10
+BRANCH   6  22
+ATOM     22  NAB BK6 d          19.278  12.450  64.182  0.00  0.00    -0.383 N 
+ATOM     23  H5  BK6 d          18.382  12.939  64.320  0.00  0.00     0.157 HD
+ATOM     24  H6  BK6 d          19.310  11.421  64.193  0.00  0.00     0.157 HD
+ENDBRANCH   6  22
+BRANCH   9  25
+ATOM     25  CAN BK6 d          22.499  17.499  63.542  0.00  0.00     0.157 C 
+BRANCH  25  26
+ATOM     26  CBB BK6 d          22.987  17.632  62.054  0.00  0.00     0.009 C 
+ATOM     27  CAL BK6 d          24.046  18.743  61.983  0.00  0.00     0.034 C 
+ATOM     28  CAJ BK6 d          24.433  19.018  60.521  0.00  0.00     0.232 C 
+ATOM     29  NAR BK6 d          23.244  19.549  59.830  0.00  0.00    -0.075 N 
+ATOM     30  CAK BK6 d          22.218  18.493  59.724  0.00  0.00     0.232 C 
+ATOM     31  H23 BK6 d          23.503  19.858  58.906  0.00  0.00     0.277 HD
+ATOM     32  H24 BK6 d          22.872  20.326  60.353  0.00  0.00     0.277 HD
+ATOM     33  CAM BK6 d          21.805  17.981  61.128  0.00  0.00     0.034 C 
+ENDBRANCH  25  26
+ENDBRANCH   9  25
+TORSDOF 5

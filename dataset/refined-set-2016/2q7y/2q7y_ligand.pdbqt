@@ -1,0 +1,146 @@
+REMARK  31 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  C5_5 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+REMARK    5  A    between atoms: C6_6  and  C7_7 
+REMARK    6  A    between atoms: C7_7  and  C8_8 
+REMARK    7  A    between atoms: C8_8  and  C9_9 
+REMARK    8  A    between atoms: C9_9  and  C10_10 
+REMARK    9  A    between atoms: C10_10  and  C11_11 
+REMARK   10  A    between atoms: C11_11  and  C12_12 
+REMARK   11  A    between atoms: C12_12  and  C13_13 
+REMARK   12  A    between atoms: C13_13  and  C14_14 
+REMARK   13  A    between atoms: C14_14  and  C15_15 
+REMARK   14  A    between atoms: C15_15  and  C16_16 
+REMARK   15  A    between atoms: C16_16  and  O1_17 
+REMARK   16  A    between atoms: C16_16  and  C17_18 
+REMARK   17  A    between atoms: C17_18  and  C18_19 
+REMARK   18  A    between atoms: C17_18  and  N1_32 
+REMARK   19  A    between atoms: C18_19  and  O2_20 
+REMARK   20  A    between atoms: O2_20  and  C19_21 
+REMARK   21  A    between atoms: C20_23  and  C21_24 
+REMARK   22  A    between atoms: C21_24  and  O4_25 
+REMARK   23  A    between atoms: C22_26  and  O5_27 
+REMARK   24  A    between atoms: C35_28  and  O16_29 
+REMARK   25  A    between atoms: C36_30  and  O17_31 
+REMARK       I    between atoms: N1_32  and  C37_33 
+REMARK   26  A    between atoms: C37_33  and  C38_35 
+REMARK   27  A    between atoms: C38_35  and  C39_36 
+REMARK   28  A    between atoms: C39_36  and  C40_37 
+REMARK   29  A    between atoms: C40_37  and  C41_38 
+REMARK   30  A    between atoms: C41_38  and  C42_39 
+REMARK   31  A    between atoms: C42_39  and  C43_40 
+ROOT
+ATOM      1  C17 IGC d         -17.466   3.400   6.213  0.00  0.00     0.137 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C16 IGC d         -16.753   3.309   4.866  0.00  0.00     0.143 C 
+BRANCH   2   3
+ATOM      3  C15 IGC d         -15.402   4.016   4.885  0.00  0.00     0.034 C 
+BRANCH   3   4
+ATOM      4  C14 IGC d         -15.239   4.935   3.854  0.00  0.00     0.002 C 
+BRANCH   4   5
+ATOM      5  C13 IGC d         -14.081   5.675   3.702  0.00  0.00     0.000 C 
+BRANCH   5   6
+ATOM      6  C12 IGC d         -13.655   5.707   2.250  0.00  0.00     0.000 C 
+BRANCH   6   7
+ATOM      7  C11 IGC d         -12.321   6.429   2.139  0.00  0.00     0.000 C 
+BRANCH   7   8
+ATOM      8  C10 IGC d         -12.187   7.091   0.782  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  C9  IGC d         -10.793   6.865   0.192  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  C8  IGC d         -10.769   7.173  -1.300  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  C7  IGC d         -10.256   5.969  -2.082  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  C6  IGC d         -10.182   6.287  -3.566  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  C5  IGC d          -8.756   6.081  -4.120  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  C4  IGC d          -8.711   4.852  -5.031  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  C3  IGC d          -8.184   3.599  -4.318  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  C2  IGC d          -8.709   2.307  -4.965  0.00  0.00    -0.005 C 
+ATOM     17  C1  IGC d          -7.569   1.474  -5.557  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  18
+ATOM     18  O1  IGC d         -16.623   1.928   4.445  0.00  0.00    -0.393 OA
+ATOM     19  H33 IGC d         -17.479   1.517   4.444  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+ENDBRANCH   1   2
+BRANCH   1  20
+ATOM     20  C18 IGC d         -18.817   2.691   6.051  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O2  IGC d         -19.537   2.339   7.225  0.00  0.00    -0.356 OA
+BRANCH  21  22
+ATOM     22  C19 IGC d         -20.751   1.542   6.964  0.00  0.00     0.291 C 
+ATOM     23  O3  IGC d         -20.380   0.130   6.815  0.00  0.00    -0.348 OA
+ATOM     24  C20 IGC d         -21.544  -0.736   7.126  0.00  0.00     0.179 C 
+ATOM     25  C22 IGC d         -22.609  -0.547   6.021  0.00  0.00     0.180 C 
+ATOM     26  C35 IGC d         -22.988   0.947   5.893  0.00  0.00     0.183 C 
+ATOM     27  C36 IGC d         -21.743   1.877   5.803  0.00  0.00     0.204 C 
+BRANCH  24  28
+ATOM     28  C21 IGC d         -21.091  -2.196   7.370  0.00  0.00     0.198 C 
+BRANCH  28  29
+ATOM     29  O4  IGC d         -19.921  -2.207   8.208  0.00  0.00    -0.398 OA
+ATOM     30  H41 IGC d         -19.222  -1.727   7.780  0.00  0.00     0.209 HD
+ENDBRANCH  28  29
+ENDBRANCH  24  28
+BRANCH  25  31
+ATOM     31  O5  IGC d         -23.796  -1.312   6.284  0.00  0.00    -0.390 OA
+ATOM     32  H43 IGC d         -24.424  -1.170   5.585  0.00  0.00     0.210 HD
+ENDBRANCH  25  31
+BRANCH  26  33
+ATOM     33  O16 IGC d         -23.852   1.122   4.758  0.00  0.00    -0.390 OA
+ATOM     34  H45 IGC d         -24.639   0.603   4.877  0.00  0.00     0.210 HD
+ENDBRANCH  26  33
+BRANCH  27  35
+ATOM     35  O17 IGC d         -22.144   3.256   5.841  0.00  0.00    -0.388 OA
+ATOM     36  H47 IGC d         -21.374   3.810   5.785  0.00  0.00     0.210 HD
+ENDBRANCH  27  35
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   1  37
+ATOM     37  N1  IGC d         -17.672   4.822   6.540  0.00  0.00    -0.352 N 
+ATOM     38  C37 IGC d         -17.174   5.428   7.618  0.00  0.00     0.218 C 
+ATOM     39  O18 IGC d         -16.481   4.863   8.472  0.00  0.00    -0.274 OA
+ATOM     40  H48 IGC d         -18.223   5.370   5.910  0.00  0.00     0.163 HD
+BRANCH  38  41
+ATOM     41  C38 IGC d         -17.545   6.927   7.725  0.00  0.00     0.103 C 
+BRANCH  41  42
+ATOM     42  C39 IGC d         -16.408   7.822   8.241  0.00  0.00     0.009 C 
+BRANCH  42  43
+ATOM     43  C40 IGC d         -15.534   8.296   7.083  0.00  0.00     0.000 C 
+BRANCH  43  44
+ATOM     44  C41 IGC d         -14.393   9.208   7.560  0.00  0.00     0.000 C 
+BRANCH  44  45
+ATOM     45  C42 IGC d         -13.431   9.574   6.397  0.00  0.00    -0.000 C 
+BRANCH  45  46
+ATOM     46  C43 IGC d         -12.452  10.667   6.824  0.00  0.00    -0.005 C 
+ATOM     47  C44 IGC d         -11.081  10.562   6.124  0.00  0.00     0.005 C 
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  42  43
+ENDBRANCH  41  42
+ENDBRANCH  38  41
+ENDBRANCH   1  37
+TORSDOF 31

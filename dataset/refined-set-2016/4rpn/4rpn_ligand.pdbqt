@@ -1,0 +1,21 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C1_2 
+ROOT
+ATOM      1  C1  PCI d          49.348  80.231  77.313  0.00  0.00     0.112 A 
+ATOM      2  C2  PCI d          50.257  81.271  77.288  0.00  0.00     0.092 A 
+ATOM      3 CL1  PCI d          50.485  82.253  75.861  0.00  0.00    -0.079 Cl
+ATOM      4  C3  PCI d          51.001  81.522  78.422  0.00  0.00     0.082 A 
+ATOM      5 CL2  PCI d          52.143  82.825  78.438  0.00  0.00    -0.081 Cl
+ATOM      6  C4  PCI d          50.854  80.762  79.571  0.00  0.00     0.081 A 
+ATOM      7 CL3  PCI d          51.864  81.150  80.947  0.00  0.00    -0.081 Cl
+ATOM      8  C5  PCI d          49.941  79.724  79.586  0.00  0.00     0.082 A 
+ATOM      9 CL4  PCI d          49.690  78.748  81.015  0.00  0.00    -0.081 Cl
+ATOM     10  C6  PCI d          49.180  79.462  78.457  0.00  0.00     0.092 A 
+ATOM     11 CL5  PCI d          48.032  78.141  78.483  0.00  0.00    -0.079 Cl
+ENDROOT
+BRANCH   1  12
+ATOM     12  O1  PCI d          48.572  79.962  76.192  0.00  0.00    -0.357 OA
+ATOM     13  H   PCI d          48.045  80.724  75.983  0.00  0.00     0.217 HD
+ENDBRANCH   1  12
+TORSDOF 1

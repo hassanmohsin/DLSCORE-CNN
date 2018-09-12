@@ -1,0 +1,81 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_3  and  N10_4 
+REMARK       I    between atoms: N10_4  and  C12_5 
+REMARK       I    between atoms: C12_5  and  N13_7 
+REMARK    2  A    between atoms: N13_7  and  C14_8 
+REMARK    3  A    between atoms: C14_8  and  C26_9 
+REMARK    4  A    between atoms: C14_8  and  C15_20 
+REMARK       I    between atoms: C26_9  and  N27_11 
+REMARK    5  A    between atoms: N27_11  and  C28_12 
+REMARK    6  A    between atoms: C28_12  and  C29_13 
+REMARK    7  A    between atoms: C29_13  and  C30_14 
+REMARK    8  A    between atoms: C15_20  and  C16_21 
+REMARK    9  A    between atoms: C19_25  and  C23_26 
+REMARK   10  A    between atoms: C23_26  and  N25_27 
+ROOT
+ATOM      1  C14 RUP d          21.813  28.538  22.124  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N13 RUP d          21.009  29.697  21.641  0.00  0.00    -0.330 N 
+ATOM      3  C12 RUP d          20.935  30.016  20.311  0.00  0.00     0.317 C 
+ATOM      4  N10 RUP d          20.294  31.175  19.962  0.00  0.00    -0.338 N 
+ATOM      5  O17 RUP d          21.482  29.310  19.467  0.00  0.00    -0.247 OA
+ATOM      6  H5  RUP d          19.880  31.729  20.684  0.00  0.00     0.164 HD
+ATOM      7  H6  RUP d          20.511  30.255  22.305  0.00  0.00     0.165 HD
+BRANCH   4   8
+ATOM      8  C9  RUP d          20.187  31.644  18.559  0.00  0.00     0.094 C 
+ATOM      9  C6  RUP d          19.392  33.020  18.499  0.00  0.00     0.009 C 
+ATOM     10  C1  RUP d          19.256  33.507  16.998  0.00  0.00     0.011 C 
+ATOM     11  C5  RUP d          20.164  34.138  19.316  0.00  0.00     0.011 C 
+ATOM     12  C2  RUP d          20.683  33.726  16.374  0.00  0.00    -0.013 C 
+ATOM     13  C3  RUP d          21.463  34.818  17.201  0.00  0.00     0.009 C 
+ATOM     14  C7  RUP d          21.485  32.375  16.409  0.00  0.00     0.011 C 
+ATOM     15  C4  RUP d          21.604  34.341  18.696  0.00  0.00    -0.013 C 
+ATOM     16  C11 RUP d          22.405  32.979  18.739  0.00  0.00     0.011 C 
+ATOM     17  C8  RUP d          21.629  31.886  17.907  0.00  0.00     0.009 C 
+ENDBRANCH   4   8
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  C26 RUP d          23.269  28.957  21.803  0.00  0.00     0.240 C 
+ATOM     19  O31 RUP d          23.524  30.127  22.076  0.00  0.00    -0.271 OA
+ATOM     20  N27 RUP d          24.293  28.238  21.265  0.00  0.00    -0.359 N 
+ATOM     21  H8  RUP d          25.139  28.757  21.143  0.00  0.00     0.162 HD
+BRANCH  20  22
+ATOM     22  C28 RUP d          24.376  26.847  20.835  0.00  0.00     0.127 C 
+BRANCH  22  23
+ATOM     23  C29 RUP d          25.387  25.973  21.641  0.00  0.00     0.058 C 
+BRANCH  23  24
+ATOM     24  C30 RUP d          25.645  26.460  23.088  0.00  0.00    -0.057 A 
+ATOM     25  C36 RUP d          26.431  27.604  23.443  0.00  0.00     0.007 A 
+ATOM     26  C35 RUP d          26.592  27.992  24.805  0.00  0.00     0.001 A 
+ATOM     27  C34 RUP d          25.967  27.240  25.836  0.00  0.00     0.000 A 
+ATOM     28  C33 RUP d          25.185  26.102  25.500  0.00  0.00     0.001 A 
+ATOM     29  C32 RUP d          25.029  25.723  24.138  0.00  0.00     0.007 A 
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  20  22
+ENDBRANCH   1  18
+BRANCH   1  30
+ATOM     30  C15 RUP d          21.679  28.386  23.676  0.00  0.00     0.073 C 
+BRANCH  30  31
+ATOM     31  C16 RUP d          20.277  28.000  24.234  0.00  0.00    -0.055 A 
+ATOM     32  C22 RUP d          19.440  26.976  23.674  0.00  0.00     0.007 A 
+ATOM     33  C21 RUP d          18.165  26.696  24.256  0.00  0.00     0.002 A 
+ATOM     34  C20 RUP d          17.714  27.426  25.395  0.00  0.00     0.015 A 
+ATOM     35  C19 RUP d          18.542  28.444  25.960  0.00  0.00     0.007 A 
+ATOM     36  C18 RUP d          19.808  28.714  25.370  0.00  0.00     0.022 A 
+BRANCH  35  37
+ATOM     37  C23 RUP d          18.103  29.243  27.177  0.00  0.00     0.102 C 
+ATOM     38  N24 RUP d          16.873  29.162  27.616  0.00  0.00    -0.385 N 
+ATOM     39  H25 RUP d          16.191  28.562  27.130  0.00  0.00     0.157 HD
+ATOM     40  H26 RUP d          16.587  29.698  28.448  0.00  0.00     0.157 HD
+BRANCH  37  41
+ATOM     41  N25 RUP d          18.983  30.000  27.782  0.00  0.00    -0.385 N 
+ATOM     42  H23 RUP d          18.708  30.550  28.608  0.00  0.00     0.157 HD
+ATOM     43  H24 RUP d          19.951  30.046  27.432  0.00  0.00     0.157 HD
+ENDBRANCH  37  41
+ENDBRANCH  35  37
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+TORSDOF 10

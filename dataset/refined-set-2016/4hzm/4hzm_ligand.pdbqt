@@ -1,0 +1,49 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N2_3 
+REMARK       I    between atoms: N2_3  and  C7_4 
+REMARK    2  A    between atoms: C7_4  and  C8_5 
+REMARK    3  A    between atoms: C8_5  and  C9_15 
+REMARK    4  A    between atoms: C3_7  and  O3_8 
+REMARK    5  A    between atoms: C4_9  and  O4_10 
+REMARK    6  A    between atoms: C5_11  and  C6_12 
+REMARK    7  A    between atoms: C6_12  and  O6_13 
+ROOT
+ATOM      1  C1  1BW d          21.166  48.070  52.544  0.00  0.00     0.260 C 
+ATOM      2  C2  1BW d          19.989  47.858  51.644  0.00  0.00     0.141 C 
+ATOM      3  C3  1BW d          20.124  46.623  50.834  0.00  0.00     0.173 C 
+ATOM      4  C4  1BW d          21.394  46.621  50.063  0.00  0.00     0.181 C 
+ATOM      5  C5  1BW d          22.593  46.826  50.967  0.00  0.00     0.240 C 
+ATOM      6  N5  1BW d          22.444  48.034  51.805  0.00  0.00    -0.064 N 
+ATOM      7  H15 1BW d          23.201  48.058  52.471  0.00  0.00     0.277 HD
+ATOM      8  H16 1BW d          22.494  48.846  51.210  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   2   9
+ATOM      9  N2  1BW d          18.815  47.809  52.536  0.00  0.00    -0.352 N 
+ATOM     10  C7  1BW d          17.609  48.401  52.172  0.00  0.00     0.217 C 
+ATOM     11  O7  1BW d          17.456  48.995  51.140  0.00  0.00    -0.274 OA
+ATOM     12  H4  1BW d          18.887  47.342  53.417  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  C8  1BW d          16.490  48.239  53.180  0.00  0.00     0.102 C 
+BRANCH  13  14
+ATOM     14  C9  1BW d          15.725  49.493  53.587  0.00  0.00     0.005 C 
+ATOM     15  C10 1BW d          16.546  50.660  54.110  0.00  0.00     0.005 C 
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   2   9
+BRANCH   3  16
+ATOM     16  O3  1BW d          18.979  46.422  49.968  0.00  0.00    -0.391 OA
+ATOM     17  H8  1BW d          19.099  45.625  49.466  0.00  0.00     0.210 HD
+ENDBRANCH   3  16
+BRANCH   4  18
+ATOM     18  O4  1BW d          21.507  45.417  49.328  0.00  0.00    -0.391 OA
+ATOM     19  H10 1BW d          20.774  45.344  48.728  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   5  20
+ATOM     20  C6  1BW d          23.884  46.905  50.203  0.00  0.00     0.199 C 
+BRANCH  20  21
+ATOM     21  O6  1BW d          24.035  48.097  49.475  0.00  0.00    -0.399 OA
+ATOM     22  H14 1BW d          24.867  48.084  49.017  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH   5  20
+TORSDOF 7

@@ -1,0 +1,25 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_11  and  NAC_3 
+REMARK    2  A    between atoms: CAL_12  and  CAH_8 
+ROOT
+ATOM      1  CAA MOL d           7.958  -3.254  29.524  0.00  0.00     0.048 C 
+ATOM      2  CAB MOL d           9.188  -4.431  24.785  0.00  0.00     0.050 C 
+ATOM      3  CAF MOL d           8.525  -3.930  27.156  0.00  0.00     0.015 A 
+ATOM      4  CAG MOL d           7.131  -5.404  28.476  0.00  0.00     0.027 A 
+ATOM      5  CAI MOL d           7.860  -4.223  28.349  0.00  0.00    -0.060 A 
+ATOM      6  CAJ MOL d           8.451  -4.795  26.076  0.00  0.00    -0.034 A 
+ATOM      7  CAK MOL d           7.708  -5.975  26.184  0.00  0.00     0.049 A 
+ATOM      8  CAL MOL d           7.052  -6.282  27.385  0.00  0.00     0.068 A 
+ENDROOT
+BRANCH   7   9
+ATOM      9  NAC MOL d           7.641  -6.799  25.135  0.00  0.00    -0.398 N 
+ATOM     10  H7  MOL d           8.128  -6.559  24.260  0.00  0.00     0.156 HD
+ATOM     11  H8  MOL d           7.102  -7.674  25.201  0.00  0.00     0.156 HD
+ENDBRANCH   7   9
+BRANCH   8  12
+ATOM     12  CAH MOL d           6.202  -7.561  27.568  0.00  0.00     0.211 C 
+ATOM     13  OAD MOL d           5.667  -7.709  28.707  0.00  0.00    -0.644 OA
+ATOM     14  OAE MOL d           6.048  -8.346  26.593  0.00  0.00    -0.644 OA
+ENDBRANCH   8  12
+TORSDOF 2

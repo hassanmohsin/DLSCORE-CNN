@@ -1,0 +1,21 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N02_2  and  N03_3 
+REMARK    2  A    between atoms: N03_3  and  C05_5 
+ROOT
+ATOM      1  C05 CFI d         -21.585 -22.462  17.160  0.00  0.00     0.088 A 
+ATOM      2  C06 CFI d         -22.638 -21.689  16.678  0.00  0.00     0.034 A 
+ATOM      3  C07 CFI d         -23.925 -22.233  16.546  0.00  0.00     0.002 A 
+ATOM      4  C08 CFI d         -24.199 -23.550  16.894  0.00  0.00     0.000 A 
+ATOM      5  C09 CFI d         -23.156 -24.324  17.373  0.00  0.00     0.002 A 
+ATOM      6  C10 CFI d         -21.877 -23.783  17.499  0.00  0.00     0.034 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N03 CFI d         -20.236 -21.925  17.334  0.00  0.00    -0.080 N 
+ATOM      8  O04 CFI d         -19.972 -20.658  17.268  0.00  0.00    -0.059 OA
+BRANCH   7   9
+ATOM      9  N02 CFI d         -19.187 -22.741  17.593  0.00  0.00     0.018 NA
+ATOM     10  O01 CFI d         -18.086 -22.267  17.820  0.00  0.00    -0.039 OA
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+TORSDOF 2

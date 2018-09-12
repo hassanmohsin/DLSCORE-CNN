@@ -1,0 +1,49 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_3  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C6_8  and  C7_9 
+REMARK    7  A    between atoms: C7_9  and  C8_10 
+REMARK    8  A    between atoms: C8_10  and  C9_11 
+REMARK    9  A    between atoms: C9_11  and  C10_12 
+REMARK   10  A    between atoms: C10_12  and  C11_13 
+ROOT
+ATOM      1  C5  DAO d          -7.943  19.698  11.850  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4  DAO d          -6.652  19.167  12.431  0.00  0.00     0.001 C 
+BRANCH   2   3
+ATOM      3  C3  DAO d          -6.823  17.999  13.380  0.00  0.00     0.010 C 
+BRANCH   3   4
+ATOM      4  C2  DAO d          -5.622  17.580  14.129  0.00  0.00     0.113 C 
+BRANCH   4   5
+ATOM      5  C1  DAO d          -5.793  16.501  15.173  0.00  0.00     0.172 C 
+ATOM      6  O1  DAO d          -6.875  15.890  15.237  0.00  0.00    -0.648 OA
+ATOM      7  O2  DAO d          -4.800  16.237  15.902  0.00  0.00    -0.648 OA
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C6  DAO d          -7.774  20.734  10.754  0.00  0.00     0.000 C 
+BRANCH   8   9
+ATOM      9  C7  DAO d          -6.974  21.930  11.119  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  C8  DAO d          -7.538  22.737  12.240  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  C9  DAO d          -6.680  23.913  12.648  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  C10 DAO d          -7.253  24.766  13.787  0.00  0.00    -0.000 C 
+BRANCH  12  13
+ATOM     13  C11 DAO d          -7.420  24.081  15.121  0.00  0.00    -0.005 C 
+ATOM     14  C12 DAO d          -7.937  25.082  16.104  0.00  0.00     0.005 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 10

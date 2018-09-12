@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_4  and  C3_14 
+REMARK    2  A    between atoms: C19_24  and  C21_9 
+REMARK    3  A    between atoms: C26_11  and  S1_29 
+REMARK    4  A    between atoms: C9_15  and  N22_25 
+REMARK    5  A    between atoms: C14_20  and  N11_17 
+ROOT
+ATOM      1  C7  DLI d          31.620   6.061  63.146  0.00  0.00     0.072 C 
+ATOM      2  C8  DLI d          32.845   6.800  62.724  0.00  0.00     0.136 C 
+ATOM      3  C9  DLI d          31.821   5.504  64.573  0.00  0.00     0.211 C 
+ATOM      4  N11 DLI d          33.841   5.999  63.438  0.00  0.00    -0.363 N 
+ATOM      5  C12 DLI d          33.307   5.199  64.572  0.00  0.00     0.158 C 
+ENDROOT
+BRANCH   4   6
+ATOM      6  C14 DLI d          35.167   5.985  63.051  0.00  0.00     0.129 A 
+ATOM      7  C20 DLI d          36.098   5.216  63.783  0.00  0.00     0.082 A 
+ATOM      8  C19 DLI d          37.437   5.186  63.382  0.00  0.00     0.072 A 
+ATOM      9  N18 DLI d          37.789   5.964  62.264  0.00  0.00    -0.241 NA
+ATOM     10  C17 DLI d          36.849   6.685  61.613  0.00  0.00     0.235 A 
+ATOM     11  N16 DLI d          35.543   6.741  61.976  0.00  0.00    -0.225 NA
+BRANCH   8  12
+ATOM     12  C21 DLI d          38.486   4.383  64.124  0.00  0.00    -0.006 A 
+ATOM     13  C23 DLI d          38.170   3.597  65.279  0.00  0.00     0.014 A 
+ATOM     14  C24 DLI d          39.146   2.841  65.965  0.00  0.00     0.002 A 
+ATOM     15  C25 DLI d          40.472   2.842  65.506  0.00  0.00     0.023 A 
+ATOM     16  C26 DLI d          40.810   3.608  64.363  0.00  0.00     0.059 A 
+ATOM     17  C27 DLI d          39.828   4.367  63.686  0.00  0.00     0.037 A 
+BRANCH  16  18
+ATOM     18  S1  DLI d          42.503   3.557  63.824  0.00  0.00     0.171 S 
+ATOM     19  C10 DLI d          42.735   4.672  62.439  0.00  0.00     0.167 C 
+ATOM     20  O2  DLI d          42.741   2.219  63.363  0.00  0.00    -0.223 OA
+ATOM     21  O1  DLI d          43.298   4.042  64.911  0.00  0.00    -0.223 OA
+ENDBRANCH  16  18
+ENDBRANCH   8  12
+ENDBRANCH   4   6
+BRANCH   1  22
+ATOM     22  C3  DLI d          30.238   6.651  63.042  0.00  0.00    -0.009 A 
+ATOM     23  C4  DLI d          29.190   5.831  62.543  0.00  0.00     0.126 A 
+ATOM     24  C5  DLI d          27.863   6.334  62.428  0.00  0.00     0.088 A 
+ATOM     25  F10 DLI d          29.531   4.560  62.192  0.00  0.00    -0.205 F 
+ATOM     26  C6  DLI d          27.612   7.690  62.817  0.00  0.00     0.157 A 
+ATOM     27  C1  DLI d          28.671   8.510  63.315  0.00  0.00     0.155 A 
+ATOM     28  F13 DLI d          26.354   8.150  62.703  0.00  0.00    -0.203 F 
+ATOM     29  C2  DLI d          29.980   8.000  63.420  0.00  0.00     0.056 A 
+ATOM     30  F15 DLI d          28.571   9.794  63.717  0.00  0.00    -0.203 F 
+ENDBRANCH   1  22
+BRANCH   3  31
+ATOM     31  N22 DLI d          30.909   4.372  64.782  0.00  0.00    -0.073 N 
+ATOM     32  H15 DLI d          29.956   4.700  64.762  0.00  0.00     0.274 HD
+ATOM     33  H16 DLI d          31.099   3.948  65.676  0.00  0.00     0.274 HD
+ATOM     34  H17 DLI d          31.046   3.691  64.051  0.00  0.00     0.274 HD
+ENDBRANCH   3  31
+TORSDOF 5

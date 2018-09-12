@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C8_4 
+REMARK    2  A    between atoms: C8_4  and  N1_5 
+REMARK       I    between atoms: N1_5  and  C7_6 
+REMARK    3  A    between atoms: C7_6  and  C3_8 
+REMARK    4  A    between atoms: C10_16  and  N3_17 
+ROOT
+ATOM      1  C3  11E d         -27.574 -16.639  12.105  0.00  0.00     0.033 A 
+ATOM      2  C2  11E d         -27.981 -17.368  13.243  0.00  0.00     0.019 A 
+ATOM      3  C4  11E d         -28.180 -16.816  10.860  0.00  0.00     0.038 A 
+ATOM      4  C5  11E d         -29.205 -17.747  10.801  0.00  0.00     0.038 A 
+ATOM      5  S1  11E d         -30.038 -18.053   9.397  0.00  0.00    -0.050 SA
+ATOM      6  C6  11E d         -29.654 -18.484  11.925  0.00  0.00     0.076 A 
+ATOM      7  C1  11E d         -29.037 -18.272  13.161  0.00  0.00     0.034 A 
+ATOM      8  N2  11E d         -30.693 -19.323  11.574  0.00  0.00    -0.224 NA
+ATOM      9  C10 11E d         -31.014 -19.196  10.263  0.00  0.00     0.165 A 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C7  11E d         -26.434 -15.709  12.230  0.00  0.00     0.252 C 
+ATOM     11  N1  11E d         -25.619 -15.732  11.191  0.00  0.00    -0.347 N 
+ATOM     12  H3  11E d         -25.846 -16.357  10.445  0.00  0.00     0.163 HD
+ATOM     13  O1  11E d         -26.244 -15.058  13.240  0.00  0.00    -0.268 OA
+BRANCH  11  14
+ATOM     14  C8  11E d         -24.446 -14.943  11.044  0.00  0.00     0.236 C 
+BRANCH  14  15
+ATOM     15  C9  11E d         -24.324 -15.178   9.620  0.00  0.00     0.191 C 
+ATOM     16  O3  11E d         -23.565 -15.968   9.148  0.00  0.00    -0.647 OA
+ATOM     17  O2  11E d         -25.070 -14.601   8.960  0.00  0.00    -0.647 OA
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   1  10
+BRANCH   9  18
+ATOM     18  N3  11E d         -32.008 -19.916   9.712  0.00  0.00    -0.378 N 
+ATOM     19  H7  11E d         -32.546 -20.577  10.290  0.00  0.00     0.158 HD
+ATOM     20  H8  11E d         -32.231 -19.806   8.712  0.00  0.00     0.158 HD
+ENDBRANCH   9  18
+TORSDOF 4

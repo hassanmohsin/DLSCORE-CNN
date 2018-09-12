@@ -1,0 +1,94 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CG_12 
+REMARK       I    between atoms: CG_12  and  ND2_14 
+REMARK    4  A    between atoms: CA_20  and  CB_23 
+REMARK    5  A    between atoms: CB_23  and  CG_24 
+REMARK    6  A    between atoms: CG_24  and  CD_25 
+REMARK    7  A    between atoms: CD_25  and  NE_26 
+REMARK       I    between atoms: NE_26  and  CZ_27 
+REMARK       I    between atoms: CZ_27  and  NH1_28 
+REMARK    8  A    between atoms: CA_31  and  C_32 
+REMARK       I    between atoms: C_32  and  N_36 
+REMARK    9  A    between atoms: N_36  and  CA_37 
+REMARK   10  A    between atoms: CA_37  and  C_38 
+ROOT
+ATOM      1  CA  CYS d          30.197  15.525  59.447  0.00  0.00     0.284 C 
+ATOM      2  C   CYS d          28.894  16.199  59.886  0.00  0.00     0.249 C 
+ATOM      3  O   CYS d          28.376  15.924  60.927  0.00  0.00    -0.271 OA
+ATOM      4  CB  CYS d          29.951  14.277  58.612  0.00  0.00     0.128 C 
+ATOM      5  SG  CYS d          28.870  14.354  57.200  0.00  0.00    -0.095 SA
+ATOM      6  N   CYS d          28.351  17.073  59.052  0.00  0.00    -0.346 N 
+ATOM      7  CA  CYS d          27.031  17.680  59.288  0.00  0.00     0.185 C 
+ATOM      8  C   CYS d          26.218  17.722  58.005  0.00  0.00     0.241 C 
+ATOM      9  O   CYS d          26.735  18.043  56.981  0.00  0.00    -0.271 OA
+ATOM     10  N   CYS d          24.945  17.384  58.080  0.00  0.00    -0.351 N 
+ATOM     11  CA  CYS d          24.105  17.308  56.906  0.00  0.00     0.225 C 
+ATOM     12  C   CYS d          23.702  15.872  56.692  0.00  0.00     0.236 C 
+ATOM     13  O   CYS d          23.066  15.302  57.540  0.00  0.00    -0.272 OA
+ATOM     14  N   CYS d          24.149  15.294  55.584  0.00  0.00    -0.346 N 
+ATOM     15  CA  CYS d          23.939  13.903  55.211  0.00  0.00     0.176 C 
+ATOM     16  C   CYS d          25.145  12.995  55.473  0.00  0.00     0.241 C 
+ATOM     17  O   CYS d          25.999  12.791  54.632  0.00  0.00    -0.271 OA
+ATOM     18  N   CYS d          25.216  12.418  56.647  0.00  0.00    -0.345 N 
+ATOM     19  CA  CYS d          26.445  11.805  57.088  0.00  0.00     0.186 C 
+ATOM     20  CB  CYS d          26.904  12.543  58.338  0.00  0.00     0.120 C 
+ATOM     21  SG  CYS d          27.088  14.298  58.002  0.00  0.00    -0.095 SA
+ATOM     22  H   CYS d          28.858  17.331  58.229  0.00  0.00     0.163 HD
+ATOM     23  H   CYS d          24.550  17.174  58.974  0.00  0.00     0.163 HD
+ATOM     24  H   CYS d          24.675  15.863  54.952  0.00  0.00     0.163 HD
+ATOM     25  H   CYS d          24.412  12.402  57.242  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH  15  26
+ATOM     26  CB  CYS d          23.727  13.913  53.738  0.00  0.00     0.036 C 
+BRANCH  26  27
+ATOM     27  CG  CYS d          22.759  12.932  53.243  0.00  0.00     0.023 C 
+BRANCH  27  28
+ATOM     28  CD  CYS d          21.945  13.814  52.380  0.00  0.00     0.138 C 
+BRANCH  28  29
+ATOM     29  NE  CYS d          22.680  14.232  51.208  0.00  0.00    -0.227 N 
+ATOM     30  CZ  CYS d          22.318  15.291  50.516  0.00  0.00     0.665 C 
+ATOM     31  NH1 CYS d          21.340  16.062  50.958  0.00  0.00    -0.235 N 
+ATOM     32  NH2 CYS d          22.922  15.590  49.396  0.00  0.00    -0.235 N 
+ATOM     33  H   CYS d          21.054  16.892  50.419  0.00  0.00     0.174 HD
+ATOM     34  H   CYS d          20.863  15.833  51.842  0.00  0.00     0.174 HD
+ATOM     35  H   CYS d          23.685  14.992  49.047  0.00  0.00     0.174 HD
+ATOM     36  H   CYS d          22.635  16.423  48.863  0.00  0.00     0.174 HD
+ATOM     37  H   CYS d          23.503  13.690  50.908  0.00  0.00     0.177 HD
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  15  26
+BRANCH  19  38
+ATOM     38  C   CYS d          26.357  10.284  57.252  0.00  0.00     0.241 C 
+ATOM     39  O   CYS d          25.289   9.734  57.363  0.00  0.00    -0.271 OA
+ATOM     40  N   CYS d          27.503   9.629  57.163  0.00  0.00    -0.349 N 
+ATOM     41  H   CYS d          28.331  10.160  56.983  0.00  0.00     0.163 HD
+BRANCH  40  42
+ATOM     42  CA  CYS d          27.638   8.199  57.309  0.00  0.00     0.235 C 
+BRANCH  42  43
+ATOM     43  C   CYS d          29.091   7.936  57.603  0.00  0.00     0.191 C 
+ATOM     44  O   CYS d          29.468   6.802  58.012  0.00  0.00    -0.647 OA
+ATOM     45  OXT CYS d          29.811   8.945  57.389  0.00  0.00    -0.647 OA
+ENDBRANCH  42  43
+ENDBRANCH  40  42
+ENDBRANCH  19  38
+BRANCH   7  46
+ATOM     46  CB  CYS d          27.178  19.085  59.881  0.00  0.00     0.137 C 
+BRANCH  46  47
+ATOM     47  CG  CYS d          25.904  19.622  60.542  0.00  0.00     0.217 C 
+ATOM     48  OD1 CYS d          25.063  18.897  61.033  0.00  0.00    -0.274 OA
+ATOM     49  ND2 CYS d          25.793  20.919  60.553  0.00  0.00    -0.370 N 
+ATOM     50  H   CYS d          24.990  21.349  60.966  0.00  0.00     0.159 HD
+ATOM     51  H   CYS d          26.511  21.486  60.148  0.00  0.00     0.159 HD
+ENDBRANCH  46  47
+ENDBRANCH   7  46
+BRANCH   1  52
+ATOM     52  N   CYS d          30.999  15.140  60.568  0.00  0.00    -0.066 N 
+ATOM     53  H   CYS d          31.845  14.701  60.241  0.00  0.00     0.275 HD
+ATOM     54  H   CYS d          30.484  14.491  61.142  0.00  0.00     0.275 HD
+ATOM     55  H   CYS d          31.232  15.957  61.111  0.00  0.00     0.275 HD
+ENDBRANCH   1  52
+TORSDOF 10

@@ -1,0 +1,53 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_5  and  P_1 
+REMARK    2  A    between atoms: C1_5  and  C2_7 
+REMARK    3  A    between atoms: C1_5  and  O1_6 
+REMARK    4  A    between atoms: C3_8  and  C5_10 
+REMARK    5  A    between atoms: C5_10  and  C6_11 
+REMARK    6  A    between atoms: C6_11  and  C7_12 
+REMARK    7  A    between atoms: C8_13  and  C10_15 
+REMARK    8  A    between atoms: C10_15  and  C11_16 
+REMARK    9  A    between atoms: C11_16  and  C12_17 
+ROOT
+ATOM      1  C5  HFP d         193.612 124.512  30.122  0.00  0.00     0.037 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  HFP d         195.105 124.790  30.058  0.00  0.00    -0.084 C 
+ATOM      3  C2  HFP d         195.674 125.647  30.919  0.00  0.00     0.021 C 
+ATOM      4  C4  HFP d         195.935 124.097  29.006  0.00  0.00     0.043 C 
+BRANCH   3   5
+ATOM      5  C1  HFP d         197.153 125.963  30.905  0.00  0.00     0.270 C 
+BRANCH   5   6
+ATOM      6  P   HFP d         197.766 126.093  32.632  0.00  0.00     0.293 P 
+ATOM      7  O3P HFP d         196.626 126.679  33.489  0.00  0.00    -0.638 OA
+ATOM      8  O2P HFP d         198.085 124.646  33.135  0.00  0.00    -0.638 OA
+ATOM      9  O1P HFP d         198.940 126.952  32.626  0.00  0.00    -0.638 OA
+ENDBRANCH   5   6
+BRANCH   5  10
+ATOM     10  O1  HFP d         197.357 127.221  30.233  0.00  0.00    -0.378 OA
+ATOM     11  H2  HFP d         198.284 127.429  30.228  0.00  0.00     0.211 HD
+ENDBRANCH   5  10
+ENDBRANCH   3   5
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C6  HFP d         193.131 124.285  31.586  0.00  0.00     0.031 C 
+BRANCH  12  13
+ATOM     13  C7  HFP d         191.907 123.381  31.606  0.00  0.00    -0.024 C 
+ATOM     14  C8  HFP d         191.090 123.303  32.673  0.00  0.00    -0.087 C 
+ATOM     15  C9  HFP d         191.385 124.114  33.912  0.00  0.00     0.043 C 
+BRANCH  14  16
+ATOM     16  C10 HFP d         189.871 122.388  32.671  0.00  0.00     0.037 C 
+BRANCH  16  17
+ATOM     17  C11 HFP d         188.772 122.930  31.786  0.00  0.00     0.031 C 
+BRANCH  17  18
+ATOM     18  C12 HFP d         187.511 122.095  31.972  0.00  0.00    -0.024 C 
+ATOM     19  C13 HFP d         186.338 122.382  31.355  0.00  0.00    -0.091 C 
+ATOM     20  C15 HFP d         185.112 121.515  31.574  0.00  0.00     0.042 C 
+ATOM     21  C14 HFP d         186.207 123.561  30.417  0.00  0.00     0.042 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  14  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9

@@ -1,0 +1,61 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_18  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C5_7  and  C6_9 
+REMARK    5  A    between atoms: C1_12  and  O1_24 
+REMARK    6  A    between atoms: C2_13  and  O2_14 
+REMARK    7  A    between atoms: C3_15  and  O3_16 
+REMARK    8  A    between atoms: C4_17  and  O4_18 
+REMARK    9  A    between atoms: C5_19  and  C6_21 
+ROOT
+ATOM      1  C1  MAW d         -18.770  -5.944  22.348  0.00  0.00     0.289 C 
+ATOM      2  C2  MAW d         -18.890  -6.339  23.830  0.00  0.00     0.204 C 
+ATOM      3  C3  MAW d         -17.516  -6.364  24.512  0.00  0.00     0.183 C 
+ATOM      4  C4  MAW d         -16.536  -7.205  23.686  0.00  0.00     0.195 C 
+ATOM      5  C5  MAW d         -16.493  -6.684  22.261  0.00  0.00     0.257 C 
+ATOM      6  O5  MAW d         -17.805  -6.772  21.671  0.00  0.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  O4  MAW d         -15.214  -7.108  24.234  0.00  0.00    -0.347 OA
+BRANCH   7   8
+ATOM      8  C1  MAW d         -14.714  -8.186  24.943  0.00  0.00     0.298 C 
+ATOM      9  C2  MAW d         -13.182  -8.083  24.912  0.00  0.00     0.206 C 
+ATOM     10  C3  MAW d         -12.614  -9.090  25.869  0.00  0.00     0.177 C 
+ATOM     11  C4  MAW d         -13.283  -9.204  27.190  0.00  0.00     0.051 C 
+ATOM     12  C5  MAW d         -14.687  -8.927  27.273  0.00  0.00     0.147 C 
+ATOM     13  O5  MAW d         -15.229  -8.045  26.284  0.00  0.00    -0.311 OA
+BRANCH   9  14
+ATOM     14  O2  MAW d         -12.788  -6.786  25.321  0.00  0.00    -0.388 OA
+ATOM     15  H3  MAW d         -13.161  -6.142  24.731  0.00  0.00     0.210 HD
+ENDBRANCH   9  14
+BRANCH  10  16
+ATOM     16  O3  MAW d         -11.188  -9.113  25.868  0.00  0.00    -0.389 OA
+ATOM     17  H5  MAW d         -10.858  -8.258  26.117  0.00  0.00     0.210 HD
+ENDBRANCH  10  16
+BRANCH  12  18
+ATOM     18  C6  MAW d         -15.250  -8.751  28.580  0.00  0.00     0.233 C 
+ATOM     19  O6A MAW d         -16.091  -7.833  28.720  0.00  0.00    -0.642 OA
+ATOM     20  O6B MAW d         -14.860  -9.467  29.518  0.00  0.00    -0.642 OA
+ENDBRANCH  12  18
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  21
+ATOM     21  O3  MAW d         -17.646  -6.914  25.816  0.00  0.00    -0.390 OA
+ATOM     22  H11 MAW d         -16.795  -6.929  26.238  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   5  23
+ATOM     23  C6  MAW d         -15.476  -7.450  21.433  0.00  0.00     0.206 C 
+ATOM     24  O6A MAW d         -14.269  -7.134  21.553  0.00  0.00    -0.646 OA
+ATOM     25  O6B MAW d         -15.870  -8.376  20.693  0.00  0.00    -0.646 OA
+ENDBRANCH   5  23
+BRANCH   2  26
+ATOM     26  O2  MAW d         -19.498  -7.615  23.940  0.00  0.00    -0.388 OA
+ATOM     27  H9  MAW d         -19.569  -7.853  24.857  0.00  0.00     0.210 HD
+ENDBRANCH   2  26
+BRANCH   1  28
+ATOM     28  O1  MAW d         -18.357  -4.625  22.250  0.00  0.00    -0.368 OA
+ATOM     29  H14 MAW d         -17.504  -4.530  22.657  0.00  0.00     0.212 HD
+ENDBRANCH   1  28
+TORSDOF 9

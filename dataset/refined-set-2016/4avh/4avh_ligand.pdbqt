@@ -1,0 +1,64 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_2  and  O6_1 
+REMARK    2  A    between atoms: C5_3  and  C6_2 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C3_7  and  O3_8 
+REMARK    5  A    between atoms: C2_9  and  O2_10 
+REMARK    6  A    between atoms: O1_12  and  C1_11 
+REMARK    7  A    between atoms: C7_13  and  O1_12 
+REMARK    8  A    between atoms: C8_14  and  C7_13 
+REMARK    9  A    between atoms: C9_15  and  C8_14 
+REMARK   10  A    between atoms: S1_19  and  C9_15 
+REMARK   11  A    between atoms: C13_16  and  C14_17 
+REMARK   12  A    between atoms: C13_16  and  S1_19 
+ROOT
+ATOM      1  C5  FK9 d         -61.262 -18.280 -20.712  0.00  0.00     0.179 C 
+ATOM      2  O5  FK9 d         -61.155 -18.512 -22.138  0.00  0.00    -0.348 OA
+ATOM      3  C4  FK9 d         -60.382 -19.261 -19.942  0.00  0.00     0.180 C 
+ATOM      4  C3  FK9 d         -60.715 -20.698 -20.318  0.00  0.00     0.183 C 
+ATOM      5  C2  FK9 d         -60.605 -20.877 -21.833  0.00  0.00     0.204 C 
+ATOM      6  C1  FK9 d         -61.505 -19.857 -22.524  0.00  0.00     0.291 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  O1  FK9 d         -62.857 -20.138 -22.157  0.00  0.00    -0.358 OA
+BRANCH   7   8
+ATOM      8  C7  FK9 d         -63.768 -19.524 -23.064  0.00  0.00     0.172 C 
+BRANCH   8   9
+ATOM      9  C8  FK9 d         -65.200 -19.777 -22.623  0.00  0.00     0.036 C 
+BRANCH   9  10
+ATOM     10  C9  FK9 d         -66.029 -18.527 -22.865  0.00  0.00     0.076 C 
+BRANCH  10  11
+ATOM     11  S1  FK9 d         -67.357 -18.480 -21.720  0.00  0.00    -0.169 SA
+BRANCH  11  12
+ATOM     12  C13 FK9 d         -68.449 -17.174 -22.186  0.00  0.00     0.073 C 
+BRANCH  12  13
+ATOM     13  C14 FK9 d         -67.873 -15.824 -21.775  0.00  0.00     0.006 C 
+ATOM     14  C15 FK9 d         -68.809 -14.687 -22.143  0.00  0.00     0.006 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   5  15
+ATOM     15  O2  FK9 d         -59.257 -20.650 -22.288  0.00  0.00    -0.388 OA
+ATOM     16  H10 FK9 d         -58.994 -19.764 -22.067  0.00  0.00     0.210 HD
+ENDBRANCH   5  15
+BRANCH   1  17
+ATOM     17  C6  FK9 d         -60.867 -16.852 -20.371  0.00  0.00     0.198 C 
+BRANCH  17  18
+ATOM     18  O6  FK9 d         -59.560 -16.579 -20.907  0.00  0.00    -0.398 OA
+ATOM     19  H1  FK9 d         -59.577 -16.688 -21.851  0.00  0.00     0.209 HD
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+BRANCH   4  20
+ATOM     20  O3  FK9 d         -59.822 -21.572 -19.617  0.00  0.00    -0.390 OA
+ATOM     21  H8  FK9 d         -59.929 -21.449 -18.681  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   3  22
+ATOM     22  O4  FK9 d         -60.572 -19.110 -18.528  0.00  0.00    -0.390 OA
+ATOM     23  H6  FK9 d         -60.017 -19.728 -18.067  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+TORSDOF 12

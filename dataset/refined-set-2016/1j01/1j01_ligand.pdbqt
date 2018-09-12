@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O4'_16 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C3'_12  and  O3'_14 
+REMARK    6  A    between atoms: O4'_16  and  C4'_15 
+ROOT
+ATOM      1  C1  XIL d          16.939  65.278  38.689  0.00  0.00     0.291 C 
+ATOM      2  C2  XIL d          16.736  64.264  39.823  0.00  0.00     0.204 C 
+ATOM      3  C3  XIL d          15.286  63.764  39.853  0.00  0.00     0.182 C 
+ATOM      4  C4  XIL d          14.307  64.934  39.857  0.00  0.00     0.173 C 
+ATOM      5  C5  XIL d          14.626  65.900  38.709  0.00  0.00     0.205 C 
+ATOM      6  O5  XIL d          15.995  66.354  38.807  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O4' XIL d          18.277  65.824  38.768  0.00  0.00    -0.350 OA
+BRANCH   7   8
+ATOM      8  C4' XIL d          18.550  66.655  37.644  0.00  0.00     0.164 C 
+ATOM      9  C5' XIL d          19.028  65.850  36.431  0.00  0.00     0.055 C 
+ATOM     10  C6' XIL d          19.271  66.834  35.322  0.00  0.00     0.125 C 
+ATOM     11  N1' XIL d          20.301  67.776  35.697  0.00  0.00    -0.359 N 
+ATOM     12  C2' XIL d          20.340  68.338  37.000  0.00  0.00     0.249 C 
+ATOM     13  H10 XIL d          20.997  68.036  35.028  0.00  0.00     0.162 HD
+ATOM     14  C3' XIL d          19.648  67.693  38.053  0.00  0.00     0.238 C 
+ATOM     15  O2' XIL d          21.192  69.177  37.263  0.00  0.00    -0.271 OA
+BRANCH  14  16
+ATOM     16  O3' XIL d          19.226  68.461  39.162  0.00  0.00    -0.384 OA
+ATOM     17  H12 XIL d          19.059  67.885  39.899  0.00  0.00     0.210 HD
+ENDBRANCH  14  16
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  18
+ATOM     18  O2  XIL d          17.611  63.163  39.627  0.00  0.00    -0.388 OA
+ATOM     19  H3  XIL d          18.509  63.473  39.608  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+BRANCH   3  20
+ATOM     20  O3  XIL d          15.075  62.968  41.013  0.00  0.00    -0.390 OA
+ATOM     21  H5  XIL d          14.184  62.637  41.011  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   4  22
+ATOM     22  O4  XIL d          12.986  64.439  39.710  0.00  0.00    -0.391 OA
+ATOM     23  H7  XIL d          12.792  63.841  40.422  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+TORSDOF 6

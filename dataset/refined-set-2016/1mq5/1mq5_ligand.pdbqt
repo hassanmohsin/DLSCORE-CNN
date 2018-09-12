@@ -1,0 +1,63 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N7_8 
+REMARK       I    between atoms: N7_8  and  C9_9 
+REMARK    2  A    between atoms: C9_9  and  C11_11 
+REMARK    3  A    between atoms: C12_12  and  N17_18 
+REMARK       I    between atoms: N17_18  and  C19_19 
+REMARK    4  A    between atoms: C19_19  and  C21_21 
+REMARK    5  A    between atoms: C24_24  and  C26_27 
+REMARK    6  A    between atoms: C26_27  and  N27_28 
+ROOT
+ATOM      1  N17 XLC d           6.013   6.002  22.278  0.00  0.00    -0.322 N 
+ATOM      2  C19 XLC d           5.766   4.664  22.140  0.00  0.00     0.264 C 
+ATOM      3  O20 XLC d           4.918   4.154  22.924  0.00  0.00    -0.267 OA
+ATOM      4  H9  XLC d           6.705   6.393  21.672  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C12 XLC d           5.410   6.869  23.163  0.00  0.00     0.051 A 
+ATOM      6  C11 XLC d           6.203   7.668  24.102  0.00  0.00     0.060 A 
+ATOM      7  C16 XLC d           5.527   8.541  25.008  0.00  0.00     0.043 A 
+ATOM      8  C15 XLC d           4.121   8.645  25.020  0.00  0.00     0.035 A 
+ATOM      9  C14 XLC d           3.353   7.865  24.107  0.00  0.00     0.026 A 
+ATOM     10 CL2  XLC d           3.360   9.690  26.123  0.00  0.00    -0.084 Cl
+ATOM     11  C13 XLC d           3.992   6.991  23.191  0.00  0.00     0.032 A 
+BRANCH   6  12
+ATOM     12  C9  XLC d           7.627   7.620  24.189  0.00  0.00     0.258 C 
+ATOM     13  N7  XLC d           8.227   7.698  25.425  0.00  0.00    -0.323 N 
+ATOM     14  H5  XLC d           7.614   7.778  26.211  0.00  0.00     0.169 HD
+ATOM     15  O10 XLC d           8.328   7.515  23.138  0.00  0.00    -0.267 OA
+BRANCH  13  16
+ATOM     16  C1  XLC d           9.561   7.679  25.698  0.00  0.00     0.035 A 
+ATOM     17  C2  XLC d          10.543   8.237  24.836  0.00  0.00     0.031 A 
+ATOM     18  C3  XLC d          11.891   8.152  25.163  0.00  0.00     0.026 A 
+ATOM     19  C4  XLC d          12.311   7.529  26.353  0.00  0.00     0.034 A 
+ATOM     20 CL1  XLC d          13.979   7.438  26.715  0.00  0.00    -0.084 Cl
+ATOM     21  C5  XLC d          11.332   6.977  27.225  0.00  0.00     0.026 A 
+ATOM     22  C6  XLC d           9.971   7.058  26.900  0.00  0.00     0.031 A 
+ENDBRANCH  13  16
+ENDBRANCH   6  12
+ENDBRANCH   1   5
+BRANCH   2  23
+ATOM     23  C21 XLC d           6.487   3.781  21.239  0.00  0.00     0.095 A 
+ATOM     24  S22 XLC d           6.350   2.049  21.482  0.00  0.00    -0.094 SA
+ATOM     25  C23 XLC d           7.445   1.768  20.197  0.00  0.00     0.061 A 
+ATOM     26  C24 XLC d           7.924   2.905  19.571  0.00  0.00    -0.003 A 
+ATOM     27  C25 XLC d           7.368   4.065  20.157  0.00  0.00     0.065 A 
+ATOM     28 CL3  XLC d           7.771   5.590  19.600  0.00  0.00    -0.082 Cl
+BRANCH  26  29
+ATOM     29  C26 XLC d           8.915   2.814  18.447  0.00  0.00     0.275 C 
+BRANCH  29  30
+ATOM     30  N27 XLC d           8.427   2.561  17.066  0.00  0.00    -0.064 N 
+ATOM     31  C29 XLC d           7.512   1.399  16.866  0.00  0.00     0.263 C 
+ATOM     32  C30 XLC d           7.316   1.122  15.346  0.00  0.00     0.262 C 
+ATOM     33  N31 XLC d           6.884   2.367  14.622  0.00  0.00    -0.072 N 
+ATOM     34  C33 XLC d           7.759   3.538  14.874  0.00  0.00     0.262 C 
+ATOM     35  C35 XLC d           6.689   2.127  13.162  0.00  0.00     0.269 C 
+ATOM     36  H18 XLC d           5.979   2.608  14.995  0.00  0.00     0.279 HD
+ATOM     37  C34 XLC d           7.902   3.786  16.397  0.00  0.00     0.263 C 
+ATOM     38  H13 XLC d           9.259   2.316  16.553  0.00  0.00     0.280 HD
+ENDBRANCH  29  30
+ENDBRANCH  26  29
+ENDBRANCH   2  23
+TORSDOF 6

@@ -1,0 +1,74 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PG_1  and  S3G_4 
+REMARK    2  A    between atoms: O3B_8  and  PG_1 
+REMARK    3  A    between atoms: PB_5  and  O3B_8 
+REMARK    4  A    between atoms: O3A_12  and  PB_5 
+REMARK    5  A    between atoms: PA_9  and  O3A_12 
+REMARK    6  A    between atoms: PA_9  and  O5'_13 
+REMARK    7  A    between atoms: O5'_13  and  C5'_14 
+REMARK    8  A    between atoms: C5'_14  and  C4'_15 
+REMARK    9  A    between atoms: C3'_17  and  O3'_18 
+REMARK   10  A    between atoms: C2'_19  and  O2'_20 
+REMARK   11  A    between atoms: C1'_21  and  N9_22 
+ROOT
+ATOM      1  C4' ATG d          19.569  45.001 -10.411  0.00  0.00     0.180 C 
+ATOM      2  O4' ATG d          20.087  44.515 -11.666  0.00  0.00    -0.353 OA
+ATOM      3  C3' ATG d          20.723  44.852  -9.430  0.00  0.00     0.182 C 
+ATOM      4  C2' ATG d          21.453  43.630  -9.918  0.00  0.00     0.198 C 
+ATOM      5  C1' ATG d          21.307  43.762 -11.444  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' ATG d          19.130  46.465 -10.546  0.00  0.00     0.216 C 
+BRANCH   6   7
+ATOM      7  O5' ATG d          20.307  47.264 -10.701  0.00  0.00    -0.287 OA
+BRANCH   7   8
+ATOM      8  PA  ATG d          20.481  48.732 -10.039  0.00  0.00     0.417 P 
+ATOM      9  O1A ATG d          21.923  48.985  -9.722  0.00  0.00    -0.624 OA
+ATOM     10  O2A ATG d          19.382  49.112  -9.083  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  O3A ATG d          20.135  49.598 -11.348  0.00  0.00    -0.180 OA
+BRANCH  11  12
+ATOM     12  PB  ATG d          20.453  51.177 -11.506  0.00  0.00     0.426 P 
+ATOM     13  O1B ATG d          20.546  51.793 -10.156  0.00  0.00    -0.624 OA
+ATOM     14  O2B ATG d          21.450  51.323 -12.608  0.00  0.00    -0.624 OA
+BRANCH  12  15
+ATOM     15  O3B ATG d          18.996  51.567 -12.133  0.00  0.00    -0.195 OA
+BRANCH  15  16
+ATOM     16  PG  ATG d          18.160  52.945 -12.061  0.00  0.00     0.322 P 
+ATOM     17  O1G ATG d          18.903  54.002 -12.875  0.00  0.00    -0.638 OA
+ATOM     18  O2G ATG d          17.877  53.344 -10.630  0.00  0.00    -0.638 OA
+BRANCH  16  19
+ATOM     19  S3G ATG d          16.296  52.414 -12.818  0.00  0.00    -0.054 SA
+ATOM     20  H1  ATG d          16.394  52.131 -13.780  0.00  0.00     0.114 HD
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  21
+ATOM     21  O3' ATG d          20.331  44.799  -8.046  0.00  0.00    -0.390 OA
+ATOM     22  H6  ATG d          19.755  44.056  -7.909  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   5  23
+ATOM     23  N9  ATG d          22.490  44.445 -12.022  0.00  0.00    -0.294 N 
+ATOM     24  C8  ATG d          22.457  45.645 -12.610  0.00  0.00     0.214 A 
+ATOM     25  N7  ATG d          23.682  46.034 -13.034  0.00  0.00    -0.236 NA
+ATOM     26  C5  ATG d          24.554  45.063 -12.717  0.00  0.00     0.149 A 
+ATOM     27  C6  ATG d          26.012  44.848 -12.882  0.00  0.00     0.155 A 
+ATOM     28  C4  ATG d          23.779  44.013 -12.055  0.00  0.00     0.167 A 
+ATOM     29  N6  ATG d          26.797  45.765 -13.503  0.00  0.00    -0.382 N 
+ATOM     30  N1  ATG d          26.542  43.699 -12.407  0.00  0.00    -0.222 NA
+ATOM     31  H11 ATG d          27.807  45.593 -13.605  0.00  0.00     0.157 HD
+ATOM     32  H12 ATG d          26.382  46.633 -13.872  0.00  0.00     0.157 HD
+ATOM     33  C2  ATG d          25.782  42.776 -11.799  0.00  0.00     0.237 A 
+ATOM     34  N3  ATG d          24.461  42.912 -11.631  0.00  0.00    -0.222 NA
+ENDBRANCH   5  23
+BRANCH   4  35
+ATOM     35  O2' ATG d          20.726  42.471  -9.484  0.00  0.00    -0.388 OA
+ATOM     36  H8  ATG d          20.677  42.466  -8.535  0.00  0.00     0.210 HD
+ENDBRANCH   4  35
+TORSDOF 11

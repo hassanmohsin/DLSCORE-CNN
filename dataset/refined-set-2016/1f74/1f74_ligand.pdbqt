@@ -1,0 +1,70 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_6 
+REMARK    3  A    between atoms: C3_6  and  C4_7 
+REMARK    4  A    between atoms: C4_7  and  C5_8 
+REMARK    5  A    between atoms: C5_8  and  C6_14 
+REMARK    6  A    between atoms: C5_8  and  N_9 
+REMARK       I    between atoms: N_9  and  C10_10 
+REMARK    7  A    between atoms: C6_14  and  O6_13 
+REMARK    8  A    between atoms: C6_14  and  C7_15 
+REMARK    9  A    between atoms: C7_15  and  C8_17 
+REMARK   10  A    between atoms: C7_15  and  O7_16 
+REMARK   11  A    between atoms: C8_17  and  C9_19 
+REMARK   12  A    between atoms: C8_17  and  O8_18 
+REMARK   13  A    between atoms: C9_19  and  O9_20 
+ROOT
+ATOM      1  C5  NAY d           0.209  15.806  10.330  0.00  0.00     0.116 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4  NAY d           1.629  16.005   9.701  0.00  0.00     0.036 C 
+BRANCH   2   3
+ATOM      3  C3  NAY d           1.484  16.052   8.121  0.00  0.00     0.092 C 
+BRANCH   3   4
+ATOM      4  C2  NAY d           2.534  15.215   7.370  0.00  0.00     0.225 C 
+ATOM      5  O2  NAY d           3.768  15.195   7.544  0.00  0.00    -0.286 OA
+BRANCH   4   6
+ATOM      6  C1  NAY d           1.979  14.300   6.248  0.00  0.00     0.246 C 
+ATOM      7  O1B NAY d           0.891  14.583   5.719  0.00  0.00    -0.642 OA
+ATOM      8  O1A NAY d           2.717  13.341   5.970  0.00  0.00    -0.642 OA
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C6  NAY d          -0.174  16.955  11.334  0.00  0.00     0.172 C 
+BRANCH   9  10
+ATOM     10  O6  NAY d          -0.145  18.181  10.570  0.00  0.00    -0.391 OA
+ATOM     11  H10 NAY d          -0.772  18.124   9.858  0.00  0.00     0.210 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C7  NAY d          -1.617  16.765  11.898  0.00  0.00     0.179 C 
+BRANCH  12  13
+ATOM     13  C8  NAY d          -2.058  17.990  12.734  0.00  0.00     0.173 C 
+BRANCH  13  14
+ATOM     14  C9  NAY d          -3.386  17.767  13.423  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O9  NAY d          -3.314  16.729  14.408  0.00  0.00    -0.398 OA
+ATOM     16  H18 NAY d          -2.673  16.965  15.068  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+BRANCH  13  17
+ATOM     17  O8  NAY d          -0.984  18.283  13.662  0.00  0.00    -0.391 OA
+ATOM     18  H15 NAY d          -0.880  17.555  14.264  0.00  0.00     0.210 HD
+ENDBRANCH  13  17
+ENDBRANCH  12  13
+BRANCH  12  19
+ATOM     19  O7  NAY d          -2.503  16.578  10.799  0.00  0.00    -0.390 OA
+ATOM     20  H13 NAY d          -2.223  15.824  10.293  0.00  0.00     0.210 HD
+ENDBRANCH  12  19
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+BRANCH   1  21
+ATOM     21  N   NAY d           0.113  14.513  11.061  0.00  0.00    -0.354 N 
+ATOM     22  C10 NAY d          -0.971  13.735  10.958  0.00  0.00     0.214 C 
+ATOM     23  O10 NAY d          -2.074  14.013  10.433  0.00  0.00    -0.274 OA
+ATOM     24  C11 NAY d          -0.759  12.372  11.612  0.00  0.00     0.117 C 
+ATOM     25  H6  NAY d           0.874  14.220  11.640  0.00  0.00     0.162 HD
+ENDBRANCH   1  21
+TORSDOF 13

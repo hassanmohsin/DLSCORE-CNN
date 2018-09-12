@@ -1,0 +1,93 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAL_12  and  OAA_1 
+REMARK    2  A    between atoms: CAM_13  and  OAB_2 
+REMARK    3  A    between atoms: CAQ_17  and  OAC_3 
+REMARK    4  A    between atoms: CAR_18  and  OAD_4 
+REMARK    5  A    between atoms: CAS_19  and  OAE_5 
+REMARK    6  A    between atoms: CAT_20  and  OAF_6 
+REMARK    7  A    between atoms: CAU_21  and  OAG_7 
+REMARK    8  A    between atoms: CAV_22  and  OAH_8 
+REMARK    9  A    between atoms: CAQ_17  and  CAL_12 
+REMARK   10  A    between atoms: CAW_23  and  CAM_13 
+REMARK   11  A    between atoms: CAS_19  and  CAO_15 
+REMARK   12  A    between atoms: CAO_15  and  SAY_25 
+REMARK   13  A    between atoms: CAX_24  and  OAP_16 
+REMARK   14  A    between atoms: OAP_16  and  SAZ_26 
+REMARK   15  A    between atoms: CAT_20  and  CAQ_17 
+REMARK   16  A    between atoms: CAX_24  and  CAS_19 
+REMARK   17  A    between atoms: CAV_22  and  CAT_20 
+REMARK   18  A    between atoms: CAV_22  and  CAX_24 
+ROOT
+ATOM      1  CAX KTL d          43.642  89.129  33.462  0.00  0.00     0.205 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  OAP KTL d          42.912  88.771  34.624  0.00  0.00    -0.246 OA
+BRANCH   2   3
+ATOM      3  SAZ KTL d          43.661  88.237  35.966  0.00  0.00     0.252 S 
+ATOM      4  OAI KTL d          44.560  87.097  35.675  0.00  0.00    -0.572 OA
+ATOM      5  OAJ KTL d          44.526  89.281  36.571  0.00  0.00    -0.572 OA
+ATOM      6  OAK KTL d          42.555  87.837  36.856  0.00  0.00    -0.572 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  CAS KTL d          43.424  90.632  33.198  0.00  0.00     0.159 C 
+BRANCH   7   8
+ATOM      8  OAE KTL d          44.050  90.967  31.957  0.00  0.00    -0.392 OA
+ATOM      9  H5  KTL d          43.744  90.376  31.279  0.00  0.00     0.210 HD
+ENDBRANCH   7   8
+BRANCH   7  10
+ATOM     10  CAO KTL d          43.875  91.553  34.349  0.00  0.00     0.098 C 
+BRANCH  10  11
+ATOM     11  SAY KTL d          43.685  93.226  34.188  0.00  0.00    -0.206 SA
+ATOM     12  CAN KTL d          45.026  93.736  33.309  0.00  0.00     0.098 C 
+ATOM     13  CAR KTL d          46.026  94.270  34.354  0.00  0.00     0.156 C 
+ATOM     14  CAU KTL d          45.201  94.847  35.496  0.00  0.00     0.162 C 
+ATOM     15  CAW KTL d          44.109  93.796  35.721  0.00  0.00     0.092 C 
+BRANCH  13  16
+ATOM     16  OAD KTL d          47.010  95.246  33.925  0.00  0.00    -0.392 OA
+ATOM     17  H4  KTL d          47.558  95.487  34.663  0.00  0.00     0.210 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  OAG KTL d          45.998  95.085  36.657  0.00  0.00    -0.392 OA
+ATOM     19  H7  KTL d          46.688  95.702  36.445  0.00  0.00     0.210 HD
+ENDBRANCH  14  18
+BRANCH  15  20
+ATOM     20  CAM KTL d          42.984  94.328  36.601  0.00  0.00     0.181 C 
+BRANCH  20  21
+ATOM     21  OAB KTL d          42.374  95.541  36.128  0.00  0.00    -0.400 OA
+ATOM     22  H2  KTL d          41.687  95.804  36.729  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  15  20
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   1  23
+ATOM     23  CAV KTL d          43.056  88.284  32.316  0.00  0.00     0.182 C 
+BRANCH  23  24
+ATOM     24  OAH KTL d          41.683  88.668  32.134  0.00  0.00    -0.390 OA
+ATOM     25  H8  KTL d          41.179  88.410  32.897  0.00  0.00     0.210 HD
+ENDBRANCH  23  24
+BRANCH  23  26
+ATOM     26  CAT KTL d          43.121  86.756  32.495  0.00  0.00     0.180 C 
+BRANCH  26  27
+ATOM     27  OAF KTL d          44.443  86.319  32.779  0.00  0.00    -0.390 OA
+ATOM     28  H6  KTL d          44.764  86.766  33.553  0.00  0.00     0.210 HD
+ENDBRANCH  26  27
+BRANCH  26  29
+ATOM     29  CAQ KTL d          42.666  86.002  31.244  0.00  0.00     0.173 C 
+BRANCH  29  30
+ATOM     30  OAC KTL d          43.638  86.119  30.198  0.00  0.00    -0.391 OA
+ATOM     31  H3  KTL d          44.446  85.698  30.469  0.00  0.00     0.210 HD
+ENDBRANCH  29  30
+BRANCH  29  32
+ATOM     32  CAL KTL d          42.375  84.521  31.558  0.00  0.00     0.198 C 
+BRANCH  32  33
+ATOM     33  OAA KTL d          41.225  84.142  30.767  0.00  0.00    -0.398 OA
+ATOM     34  H1  KTL d          41.014  83.231  30.934  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH  26  29
+ENDBRANCH  23  26
+ENDBRANCH   1  23
+TORSDOF 18

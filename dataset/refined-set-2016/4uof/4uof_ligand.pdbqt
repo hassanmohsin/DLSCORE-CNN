@@ -1,0 +1,58 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3A_8  and  PB_1 
+REMARK    2  A    between atoms: PA_5  and  O3A_8 
+REMARK    3  A    between atoms: PA_5  and  O5'_9 
+REMARK    4  A    between atoms: O5'_9  and  C5'_10 
+REMARK    5  A    between atoms: C5'_10  and  C4'_11 
+REMARK    6  A    between atoms: C3'_13  and  O3'_14 
+REMARK    7  A    between atoms: C1'_16  and  N9_17 
+REMARK    8  A    between atoms: C6_21  and  N6_22 
+ROOT
+ATOM      1  C4' DAT d           9.610 -56.150   6.775  0.00  0.00     0.177 C 
+ATOM      2  O4' DAT d          10.711 -56.288   6.088  0.00  0.00    -0.356 OA
+ATOM      3  C3' DAT d           9.498 -54.634   6.970  0.00  0.00     0.153 C 
+ATOM      4  C2' DAT d          10.960 -54.208   7.158  0.00  0.00     0.088 C 
+ATOM      5  C1' DAT d          11.681 -55.116   6.514  0.00  0.00     0.233 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  DAT d          12.311 -54.571   5.330  0.00  0.00    -0.296 N 
+ATOM      7  C8  DAT d          11.336 -54.374   4.383  0.00  0.00     0.214 A 
+ATOM      8  N7  DAT d          11.906 -53.851   3.274  0.00  0.00    -0.236 NA
+ATOM      9  C5  DAT d          13.243 -53.737   3.513  0.00  0.00     0.149 A 
+ATOM     10  C6  DAT d          14.263 -53.275   2.737  0.00  0.00     0.155 A 
+ATOM     11  C4  DAT d          13.489 -54.183   4.783  0.00  0.00     0.167 A 
+ATOM     12  N1  DAT d          15.516 -53.257   3.226  0.00  0.00    -0.222 NA
+ATOM     13  C2  DAT d          15.758 -53.706   4.495  0.00  0.00     0.237 A 
+ATOM     14  N3  DAT d          14.736 -54.160   5.261  0.00  0.00    -0.222 NA
+BRANCH  10  15
+ATOM     15  N6  DAT d          14.263 -52.775   1.406  0.00  0.00    -0.382 N 
+ATOM     16  H   DAT d          15.144 -52.465   0.972  0.00  0.00     0.157 HD
+ATOM     17  H   DAT d          13.382 -52.723   0.875  0.00  0.00     0.157 HD
+ENDBRANCH  10  15
+ENDBRANCH   5   6
+BRANCH   1  18
+ATOM     18  C5' DAT d           8.392 -56.640   5.938  0.00  0.00     0.216 C 
+BRANCH  18  19
+ATOM     19  O5' DAT d           8.425 -55.959   4.695  0.00  0.00    -0.287 OA
+BRANCH  19  20
+ATOM     20  PA  DAT d           7.094 -55.693   3.903  0.00  0.00     0.418 P 
+ATOM     21  O1A DAT d           6.046 -56.766   4.217  0.00  0.00    -0.624 OA
+ATOM     22  O2A DAT d           7.334 -55.686   2.450  0.00  0.00    -0.624 OA
+BRANCH  20  23
+ATOM     23  O3A DAT d           6.529 -54.322   4.350  0.00  0.00    -0.173 OA
+BRANCH  23  24
+ATOM     24  PB  DAT d           5.551 -54.132   5.593  0.00  0.00     0.431 P 
+ATOM     25  O1B DAT d           5.045 -52.687   5.568  0.00  0.00    -0.616 OA
+ATOM     26  O2B DAT d           6.327 -54.374   6.921  0.00  0.00    -0.616 OA
+ATOM     27  O3B DAT d           4.427 -55.124   5.441  0.00  0.00    -0.616 OA
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   1  18
+BRANCH   3  28
+ATOM     28  O3' DAT d           8.689 -54.347   8.034  0.00  0.00    -0.393 OA
+ATOM     29  H   DAT d           7.823 -54.703   7.877  0.00  0.00     0.210 HD
+ENDBRANCH   3  28
+TORSDOF 8

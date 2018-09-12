@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3A_2  and  N7A_1 
+REMARK    2  A    between atoms: C4_8  and  C5A_7 
+REMARK    3  A    between atoms: N7_14  and  C2_13 
+REMARK    4  A    between atoms: N7_14  and  C1B_15 
+REMARK    5  A    between atoms: C3B_18  and  N7B_19 
+ROOT
+ATOM      1  C4  CK7 d          13.279  -8.808  13.466  0.00  0.00     0.096 A 
+ATOM      2  N3  CK7 d          12.373  -9.371  12.601  0.00  0.00    -0.061 NA
+ATOM      3  C5  CK7 d          13.358  -9.211  14.790  0.00  0.00     0.053 A 
+ATOM      4  C6  CK7 d          12.430 -10.138  15.176  0.00  0.00     0.139 A 
+ATOM      5  N1  CK7 d          11.525 -10.635  14.279  0.00  0.00    -0.075 NA
+ATOM      6  C2  CK7 d          11.505 -10.294  13.007  0.00  0.00     0.727 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N7  CK7 d          10.578 -10.888  12.281  0.00  0.00    -0.188 N 
+ATOM      8  H8  CK7 d          10.223 -11.814  12.559  0.00  0.00     0.184 HD
+BRANCH   7   9
+ATOM      9  C1B CK7 d          10.052 -10.235  11.080  0.00  0.00     0.051 A 
+ATOM     10  C2B CK7 d          10.710  -9.140  10.432  0.00  0.00     0.066 A 
+ATOM     11  C3B CK7 d          10.184  -8.461   9.283  0.00  0.00     0.105 A 
+ATOM     12  C4B CK7 d           8.960  -8.891   8.753  0.00  0.00     0.036 A 
+ATOM     13  C5B CK7 d           8.269  -9.955   9.383  0.00  0.00     0.005 A 
+ATOM     14  C6B CK7 d           8.805 -10.635  10.523  0.00  0.00     0.030 A 
+BRANCH  11  15
+ATOM     15  N7B CK7 d          10.780  -7.383   8.614  0.00  0.00    -0.116 N 
+ATOM     16  O9B CK7 d          11.657  -7.599   7.748  0.00  0.00    -0.532 OA
+ATOM     17  O8B CK7 d          10.445  -6.207   8.878  0.00  0.00    -0.532 OA
+ENDBRANCH  11  15
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+BRANCH   1  18
+ATOM     18  C5A CK7 d          14.189  -7.770  12.913  0.00  0.00     0.062 A 
+ATOM     19  C1A CK7 d          15.196  -6.804  13.535  0.00  0.00     0.053 A 
+ATOM     20  N2A CK7 d          15.496  -5.869  12.565  0.00  0.00    -0.228 NA
+ATOM     21  C6A CK7 d          15.897  -6.811  14.862  0.00  0.00     0.072 C 
+ATOM     22  C3A CK7 d          14.766  -5.990  11.431  0.00  0.00     0.165 A 
+ATOM     23  S4A CK7 d          13.699  -7.276  11.407  0.00  0.00    -0.048 SA
+BRANCH  22  24
+ATOM     24  N7A CK7 d          14.702  -5.255  10.131  0.00  0.00    -0.378 N 
+ATOM     25  H1  CK7 d          15.299  -4.430   9.976  0.00  0.00     0.158 HD
+ATOM     26  H2  CK7 d          14.061  -5.573   9.390  0.00  0.00     0.158 HD
+ENDBRANCH  22  24
+ENDBRANCH   1  18
+TORSDOF 5

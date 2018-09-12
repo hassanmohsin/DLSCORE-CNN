@@ -1,0 +1,139 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  SD_7 
+REMARK    6  A    between atoms: N_9  and  CA_10 
+REMARK    7  A    between atoms: CA_10  and  C_11 
+REMARK    8  A    between atoms: CA_10  and  CB_13 
+REMARK       I    between atoms: C_11  and  N_23 
+REMARK    9  A    between atoms: CB_13  and  CG_14 
+REMARK   10  A    between atoms: N_23  and  CA_24 
+REMARK   11  A    between atoms: CA_24  and  C_25 
+REMARK   12  A    between atoms: CA_24  and  CB_27 
+REMARK       I    between atoms: C_25  and  N_34 
+REMARK   13  A    between atoms: CB_27  and  CG_28 
+REMARK   14  A    between atoms: CG_28  and  CD_29 
+REMARK   15  A    between atoms: CD_29  and  NE_30 
+REMARK       I    between atoms: NE_30  and  CZ_31 
+REMARK       I    between atoms: CZ_31  and  NH1_32 
+REMARK   16  A    between atoms: CA_35  and  C_36 
+REMARK       I    between atoms: C_36  and  N_41 
+REMARK   17  A    between atoms: N_41  and  CA_42 
+REMARK   18  A    between atoms: CA_42  and  C_43 
+REMARK   19  A    between atoms: CA_42  and  CB_45 
+REMARK   20  A    between atoms: CB_45  and  CG_46 
+ROOT
+ATOM      1  CA  MET d         -20.446 -12.542  38.371  0.00  0.00     0.176 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   MET d         -20.660 -12.584  36.927  0.00  0.00    -0.346 N 
+ATOM      3  C   MET d         -21.563 -11.810  36.297  0.00  0.00     0.241 C 
+ATOM      4  O   MET d         -22.274 -10.964  36.880  0.00  0.00    -0.271 OA
+ATOM      5  H22 MET d         -20.110 -13.217  36.381  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CA  MET d         -21.678 -12.000  34.770  0.00  0.00     0.181 C 
+BRANCH   6   7
+ATOM      7  N   MET d         -23.052 -12.315  34.343  0.00  0.00    -0.346 N 
+ATOM      8  C   MET d         -23.570 -13.500  34.662  0.00  0.00     0.249 C 
+ATOM      9  O   MET d         -22.922 -14.365  35.220  0.00  0.00    -0.271 OA
+ATOM     10  H12 MET d         -23.587 -11.650  33.822  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CA  MET d         -24.995 -13.787  34.278  0.00  0.00     0.275 C 
+BRANCH  11  12
+ATOM     12  N   MET d         -25.126 -15.124  33.576  0.00  0.00    -0.066 N 
+ATOM     13  H1  MET d         -26.091 -15.283  33.334  0.00  0.00     0.275 HD
+ATOM     14  H2  MET d         -24.808 -15.858  34.189  0.00  0.00     0.275 HD
+ATOM     15  H3  MET d         -24.566 -15.120  32.738  0.00  0.00     0.275 HD
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  MET d         -25.851 -13.769  35.534  0.00  0.00     0.053 C 
+BRANCH  16  17
+ATOM     17  CG  MET d         -26.415 -12.420  35.890  0.00  0.00     0.076 C 
+BRANCH  17  18
+ATOM     18  SD  MET d         -27.842 -11.829  34.940  0.00  0.00    -0.173 SA
+ATOM     19  CE  MET d         -27.071 -11.482  33.328  0.00  0.00     0.089 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+BRANCH   6  20
+ATOM     20  CB  MET d         -21.097 -10.799  34.021  0.00  0.00     0.075 C 
+BRANCH  20  21
+ATOM     21  CG  MET d         -19.806 -10.316  34.625  0.00  0.00    -0.028 A 
+ATOM     22  CD1 MET d         -18.576 -10.901  34.491  0.00  0.00     0.096 A 
+ATOM     23  NE1 MET d         -17.643 -10.181  35.190  0.00  0.00    -0.365 N 
+ATOM     24  CE2 MET d         -18.248  -9.099  35.789  0.00  0.00     0.042 A 
+ATOM     25  H17 MET d         -16.642 -10.414  35.257  0.00  0.00     0.165 HD
+ATOM     26  CD2 MET d         -19.618  -9.151  35.456  0.00  0.00    -0.002 A 
+ATOM     27  CZ2 MET d         -17.701  -8.070  36.614  0.00  0.00     0.030 A 
+ATOM     28  CE3 MET d         -20.480  -8.170  35.973  0.00  0.00     0.014 A 
+ATOM     29  CZ3 MET d         -19.947  -7.130  36.778  0.00  0.00     0.001 A 
+ATOM     30  CH2 MET d         -18.576  -7.085  37.090  0.00  0.00     0.002 A 
+ENDBRANCH  20  21
+ENDBRANCH   6  20
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  C   MET d         -18.962 -12.632  38.617  0.00  0.00     0.243 C 
+ATOM     32  O   MET d         -18.399 -13.703  38.458  0.00  0.00    -0.271 OA
+ATOM     33  N   MET d         -18.324 -11.523  39.023  0.00  0.00    -0.337 N 
+ATOM     34  CA  MET d         -16.846 -11.483  39.099  0.00  0.00     0.179 C 
+ATOM     35  CD  MET d         -18.957 -10.221  39.369  0.00  0.00     0.127 C 
+ATOM     36  CB  MET d         -16.547  -9.984  39.198  0.00  0.00     0.037 C 
+ATOM     37  CG  MET d         -17.817  -9.360  39.849  0.00  0.00     0.022 C 
+BRANCH  34  38
+ATOM     38  C   MET d         -16.150 -12.226  40.273  0.00  0.00     0.241 C 
+ATOM     39  O   MET d         -14.889 -12.359  40.285  0.00  0.00    -0.271 OA
+ATOM     40  N   MET d         -16.933 -12.681  41.247  0.00  0.00    -0.344 N 
+ATOM     41  H42 MET d         -17.926 -12.637  41.141  0.00  0.00     0.163 HD
+BRANCH  40  42
+ATOM     42  CA  MET d         -16.361 -13.248  42.476  0.00  0.00     0.190 C 
+BRANCH  42  43
+ATOM     43  C   MET d         -16.120 -14.768  42.384  0.00  0.00     0.197 C 
+ATOM     44  O   MET d         -16.411 -15.470  41.399  0.00  0.00    -0.646 OA
+ATOM     45  OXT MET d         -15.623 -15.383  43.335  0.00  0.00    -0.646 OA
+ENDBRANCH  42  43
+BRANCH  42  46
+ATOM     46  CB  MET d         -17.261 -12.902  43.680  0.00  0.00     0.077 C 
+BRANCH  46  47
+ATOM     47  CG  MET d         -18.654 -13.500  43.612  0.00  0.00    -0.028 A 
+ATOM     48  CD1 MET d         -19.033 -14.729  44.060  0.00  0.00     0.096 A 
+ATOM     49  NE1 MET d         -20.369 -14.929  43.836  0.00  0.00    -0.365 N 
+ATOM     50  CE2 MET d         -20.899 -13.805  43.250  0.00  0.00     0.042 A 
+ATOM     51  H47 MET d         -20.893 -15.785  44.069  0.00  0.00     0.165 HD
+ATOM     52  CD2 MET d         -19.848 -12.881  43.084  0.00  0.00    -0.002 A 
+ATOM     53  CZ2 MET d         -22.204 -13.544  42.809  0.00  0.00     0.030 A 
+ATOM     54  CE3 MET d         -20.122 -11.647  42.480  0.00  0.00     0.014 A 
+ATOM     55  CZ3 MET d         -21.425 -11.380  42.068  0.00  0.00     0.001 A 
+ATOM     56  CH2 MET d         -22.447 -12.342  42.225  0.00  0.00     0.002 A 
+ENDBRANCH  46  47
+ENDBRANCH  42  46
+ENDBRANCH  40  42
+ENDBRANCH  34  38
+ENDBRANCH   1  31
+BRANCH   1  57
+ATOM     57  CB  MET d         -21.144 -13.719  39.084  0.00  0.00     0.036 C 
+BRANCH  57  58
+ATOM     58  CG  MET d         -22.629 -13.862  38.761  0.00  0.00     0.023 C 
+BRANCH  58  59
+ATOM     59  CD  MET d         -23.241 -15.017  39.568  0.00  0.00     0.138 C 
+BRANCH  59  60
+ATOM     60  NE  MET d         -24.698 -14.942  39.509  0.00  0.00    -0.227 N 
+ATOM     61  CZ  MET d         -25.495 -15.997  39.689  0.00  0.00     0.665 C 
+ATOM     62  NH1 MET d         -24.956 -17.183  39.961  0.00  0.00    -0.235 N 
+ATOM     63  NH2 MET d         -26.817 -15.869  39.615  0.00  0.00    -0.235 N 
+ATOM     64  H31 MET d         -25.562 -18.004  40.102  0.00  0.00     0.174 HD
+ATOM     65  H32 MET d         -23.933 -17.280  40.031  0.00  0.00     0.174 HD
+ATOM     66  H33 MET d         -27.235 -14.951  39.404  0.00  0.00     0.174 HD
+ATOM     67  H34 MET d         -27.423 -16.688  39.768  0.00  0.00     0.174 HD
+ATOM     68  H30 MET d         -25.133 -14.028  39.319  0.00  0.00     0.177 HD
+ENDBRANCH  59  60
+ENDBRANCH  58  59
+ENDBRANCH  57  58
+ENDBRANCH   1  57
+TORSDOF 20

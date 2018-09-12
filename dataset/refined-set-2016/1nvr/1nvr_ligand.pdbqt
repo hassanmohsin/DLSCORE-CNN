@@ -1,0 +1,53 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C25_2  and  N3_31 
+REMARK    2  A    between atoms: C23_4  and  N4_34 
+REMARK    3  A    between atoms: C22_5  and  O6_32 
+REMARK    4  A    between atoms: C21_6  and  N2_8 
+ROOT
+ATOM      1  O4  STU d           4.109   3.842  16.898  0.00  0.00    -0.333 OA
+ATOM      2  C25 STU d           2.878   4.468  17.089  0.00  0.00     0.233 C 
+ATOM      3  C24 STU d           2.134   4.560  15.711  0.00  0.00     0.090 C 
+ATOM      4  C23 STU d           2.971   3.924  14.562  0.00  0.00     0.223 C 
+ATOM      5  C22 STU d           4.391   4.550  14.510  0.00  0.00     0.207 C 
+ATOM      6  C21 STU d           5.046   4.068  15.863  0.00  0.00     0.168 C 
+ATOM      7  C26 STU d           5.676   2.684  15.624  0.00  0.00     0.074 C 
+ENDROOT
+BRANCH   4   8
+ATOM      8  N4  STU d           2.176   4.159  13.207  0.00  0.00    -0.072 N 
+ATOM      9  C28 STU d           2.926   3.508  12.071  0.00  0.00     0.267 C 
+ATOM     10  H23 STU d           2.093   5.148  13.033  0.00  0.00     0.277 HD
+ATOM     11  H24 STU d           1.257   3.752  13.281  0.00  0.00     0.277 HD
+ENDBRANCH   4   8
+BRANCH   5  12
+ATOM     12  O6  STU d           4.202   5.996  14.536  0.00  0.00    -0.384 OA
+ATOM     13  C27 STU d           5.175   6.663  13.751  0.00  0.00     0.202 C 
+ENDBRANCH   5  12
+BRANCH   2  14
+ATOM     14  N3  STU d           3.104   5.848  17.602  0.00  0.00    -0.316 N 
+ATOM     15  C19 STU d           4.344   6.492  17.688  0.00  0.00     0.077 A 
+ATOM     16  C18 STU d           5.562   6.203  17.142  0.00  0.00     0.077 A 
+ATOM     17  C6  STU d           4.115   7.668  18.511  0.00  0.00     0.022 A 
+ATOM     18  N2  STU d           6.037   5.132  16.296  0.00  0.00    -0.308 N 
+ATOM     19  C11 STU d           6.709   7.061  17.351  0.00  0.00     0.015 A 
+ATOM     20  C17 STU d           7.400   5.315  15.984  0.00  0.00     0.049 A 
+ATOM     21  C12 STU d           7.809   6.530  16.645  0.00  0.00     0.004 A 
+ATOM     22  C16 STU d           8.335   4.605  15.201  0.00  0.00     0.030 A 
+ATOM     23  C13 STU d           9.129   6.990  16.493  0.00  0.00     0.014 A 
+ATOM     24  C14 STU d          10.092   6.295  15.699  0.00  0.00     0.001 A 
+ATOM     25  C15 STU d           9.644   5.067  15.054  0.00  0.00     0.002 A 
+ATOM     26  C10 STU d           6.495   8.225  18.165  0.00  0.00    -0.010 A 
+ATOM     27  C7  STU d           5.302   8.512  18.706  0.00  0.00     0.054 A 
+ATOM     28  C9  STU d           7.509   9.289  18.516  0.00  0.00     0.163 A 
+ATOM     29  C8  STU d           5.380   9.783  19.478  0.00  0.00     0.253 A 
+ATOM     30  N1  STU d           6.646  10.151  19.315  0.00  0.00    -0.353 N 
+ATOM     31  O5  STU d           4.495  10.356  20.105  0.00  0.00    -0.268 OA
+ATOM     32  H15 STU d           6.996  10.992  19.727  0.00  0.00     0.163 HD
+ATOM     33  C5  STU d           2.784   7.692  18.893  0.00  0.00     0.004 A 
+ATOM     34  C20 STU d           2.173   6.529  18.294  0.00  0.00     0.048 A 
+ATOM     35  C4  STU d           1.971   8.551  19.673  0.00  0.00     0.014 A 
+ATOM     36  C1  STU d           0.788   6.228  18.464  0.00  0.00     0.030 A 
+ATOM     37  C2  STU d           0.018   7.108  19.252  0.00  0.00     0.002 A 
+ATOM     38  C3  STU d           0.616   8.276  19.856  0.00  0.00     0.001 A 
+ENDBRANCH   2  14
+TORSDOF 4

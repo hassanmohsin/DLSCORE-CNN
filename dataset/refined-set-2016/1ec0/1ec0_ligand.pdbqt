@@ -1,0 +1,114 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_23  and  C01_1 
+REMARK    2  A    between atoms: C13_13  and  C07_7 
+REMARK    3  A    between atoms: O14_14  and  C13_13 
+REMARK    4  A    between atoms: C15_15  and  O14_14 
+REMARK    5  A    between atoms: C16_16  and  C15_15 
+REMARK    6  A    between atoms: C15_15  and  C26_26 
+REMARK    7  A    between atoms: C17_17  and  C16_16 
+REMARK    8  A    between atoms: C16_16  and  O25_25 
+REMARK    9  A    between atoms: C18_18  and  C17_17 
+REMARK   10  A    between atoms: C17_17  and  O24_24 
+REMARK   11  A    between atoms: C18_18  and  C19_19 
+REMARK   12  A    between atoms: O22_22  and  C18_18 
+REMARK       I    between atoms: C19_19  and  N21_21 
+REMARK   13  A    between atoms: N21_21  and  C39_39 
+REMARK   14  A    between atoms: C23_23  and  O22_22 
+REMARK       I    between atoms: C26_26  and  N28_28 
+REMARK   15  A    between atoms: N28_28  and  C29_29 
+REMARK   16  A    between atoms: C35_35  and  O36_36 
+REMARK   17  A    between atoms: C45_45  and  O46_46 
+ROOT
+ATOM      1  C16 BED d          12.955  23.976   5.586  0.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C15 BED d          11.895  24.225   4.551  0.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O14 BED d          11.793  23.112   3.608  0.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C13 BED d          11.311  23.487   2.303  0.00  0.00     0.210 C 
+BRANCH   4   5
+ATOM      5  C07 BED d           9.830  23.868   2.296  0.00  0.00     0.004 A 
+ATOM      6  C08 BED d           8.811  22.936   2.738  0.00  0.00     0.124 A 
+ATOM      7  C09 BED d           7.425  23.329   2.733  0.00  0.00     0.043 A 
+ATOM      8  F50 BED d           9.131  21.732   3.153  0.00  0.00    -0.205 F 
+ATOM      9  C10 BED d           7.050  24.644   2.288  0.00  0.00     0.003 A 
+ATOM     10  C11 BED d           8.062  25.571   1.848  0.00  0.00     0.001 A 
+ATOM     11  C12 BED d           9.434  25.185   1.855  0.00  0.00     0.012 A 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  12
+ATOM     12  C26 BED d          10.680  24.321   5.386  0.00  0.00     0.250 C 
+ATOM     13  O27 BED d          10.295  23.331   6.010  0.00  0.00    -0.271 OA
+ATOM     14  N28 BED d          10.042  25.514   5.409  0.00  0.00    -0.348 N 
+ATOM     15  H20 BED d          10.409  26.273   4.872  0.00  0.00     0.163 HD
+BRANCH  14  16
+ATOM     16  C29 BED d           8.853  25.718   6.184  0.00  0.00     0.147 C 
+ATOM     17  C30 BED d           9.142  26.445   7.468  0.00  0.00    -0.027 A 
+ATOM     18  C31 BED d           8.041  27.285   7.816  0.00  0.00    -0.047 A 
+ATOM     19  C32 BED d          10.315  26.396   8.319  0.00  0.00     0.010 A 
+ATOM     20  C37 BED d           8.059  28.092   8.999  0.00  0.00     0.008 A 
+ATOM     21  C38 BED d           6.969  27.158   6.782  0.00  0.00     0.073 C 
+ATOM     22  C34 BED d           9.227  28.044   9.848  0.00  0.00     0.001 A 
+ATOM     23  C33 BED d          10.354  27.203   9.515  0.00  0.00     0.001 A 
+ATOM     24  C35 BED d           7.763  26.609   5.570  0.00  0.00     0.149 C 
+BRANCH  24  25
+ATOM     25  O36 BED d           8.414  27.665   4.869  0.00  0.00    -0.393 OA
+ATOM     26  H26 BED d           7.761  28.233   4.478  0.00  0.00     0.210 HD
+ENDBRANCH  24  25
+ENDBRANCH  14  16
+ENDBRANCH   2  12
+ENDBRANCH   1   2
+BRANCH   1  27
+ATOM     27  C17 BED d          14.257  23.622   4.980  0.00  0.00     0.188 C 
+BRANCH  27  28
+ATOM     28  C18 BED d          15.132  22.849   6.000  0.00  0.00     0.244 C 
+BRANCH  28  29
+ATOM     29  C19 BED d          15.141  21.347   5.831  0.00  0.00     0.250 C 
+ATOM     30  O20 BED d          14.131  20.655   6.000  0.00  0.00    -0.271 OA
+ATOM     31  N21 BED d          16.359  20.790   5.495  0.00  0.00    -0.348 N 
+ATOM     32  H15 BED d          17.134  21.412   5.380  0.00  0.00     0.163 HD
+BRANCH  31  33
+ATOM     33  C39 BED d          16.603  19.370   5.296  0.00  0.00     0.147 C 
+ATOM     34  C40 BED d          16.508  18.938   3.854  0.00  0.00    -0.027 A 
+ATOM     35  C41 BED d          17.432  17.886   3.583  0.00  0.00    -0.047 A 
+ATOM     36  C42 BED d          15.655  19.435   2.807  0.00  0.00     0.010 A 
+ATOM     37  C47 BED d          17.540  17.296   2.276  0.00  0.00     0.008 A 
+ATOM     38  C48 BED d          18.195  17.557   4.822  0.00  0.00     0.073 C 
+ATOM     39  C44 BED d          16.688  17.793   1.235  0.00  0.00     0.001 A 
+ATOM     40  C43 BED d          15.755  18.848   1.488  0.00  0.00     0.001 A 
+ATOM     41  C45 BED d          18.003  18.855   5.663  0.00  0.00     0.149 C 
+BRANCH  41  42
+ATOM     42  O46 BED d          18.946  19.889   5.335  0.00  0.00    -0.393 OA
+ATOM     43  H35 BED d          19.823  19.596   5.552  0.00  0.00     0.210 HD
+ENDBRANCH  41  42
+ENDBRANCH  31  33
+ENDBRANCH  28  29
+BRANCH  28  44
+ATOM     44  O22 BED d          14.777  23.125   7.384  0.00  0.00    -0.369 OA
+BRANCH  44  45
+ATOM     45  C23 BED d          15.890  23.353   8.252  0.00  0.00     0.210 C 
+BRANCH  45  46
+ATOM     46  C01 BED d          16.560  22.074   8.736  0.00  0.00     0.004 A 
+ATOM     47  C02 BED d          17.971  21.882   8.481  0.00  0.00     0.012 A 
+ATOM     48  C03 BED d          18.660  20.712   8.898  0.00  0.00     0.001 A 
+ATOM     49  C04 BED d          17.951  19.669   9.599  0.00  0.00     0.003 A 
+ATOM     50  C05 BED d          16.551  19.816   9.872  0.00  0.00     0.043 A 
+ATOM     51  C06 BED d          15.865  21.010   9.443  0.00  0.00     0.124 A 
+ATOM     52  F49 BED d          14.585  21.066   9.727  0.00  0.00    -0.205 F 
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+ENDBRANCH  28  44
+ENDBRANCH  27  28
+BRANCH  27  53
+ATOM     53  O24 BED d          14.813  24.877   4.561  0.00  0.00    -0.390 OA
+ATOM     54  H18 BED d          14.925  25.441   5.317  0.00  0.00     0.210 HD
+ENDBRANCH  27  53
+ENDBRANCH   1  27
+BRANCH   1  55
+ATOM     55  O25 BED d          13.117  25.102   6.493  0.00  0.00    -0.390 OA
+ATOM     56  H19 BED d          13.729  24.868   7.181  0.00  0.00     0.210 HD
+ENDBRANCH   1  55
+TORSDOF 17

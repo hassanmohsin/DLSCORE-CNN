@@ -1,0 +1,56 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C6_6 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C4_4  and  C13_13 
+REMARK    4  A    between atoms: C9_9  and  C5_5 
+REMARK    5  A    between atoms: C5_5  and  P1_19 
+REMARK    6  A    between atoms: C16_16  and  C12_12 
+REMARK    7  A    between atoms: C12_12  and  P2_23 
+ROOT
+ATOM      1  C1  FEP d          32.565  10.376  90.186  0.00  0.00     0.011 C 
+ATOM      2  C2  FEP d          33.923  10.112  90.090  0.00  0.00     0.001 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C3  FEP d          34.626   9.885  91.270  0.00  0.00     0.001 C 
+ATOM      4  C4  FEP d          34.667  10.842  92.279  0.00  0.00     0.011 C 
+BRANCH   4   5
+ATOM      5  C13 FEP d          35.394  10.619  93.450  0.00  0.00    -0.036 A 
+ATOM      6  C18 FEP d          36.773  10.370  93.380  0.00  0.00     0.012 A 
+ATOM      7  C17 FEP d          37.556  10.439  94.532  0.00  0.00     0.015 A 
+ATOM      8  C16 FEP d          36.959  10.764  95.779  0.00  0.00     0.027 A 
+ATOM      9  C15 FEP d          35.584  11.011  95.835  0.00  0.00     0.015 A 
+ATOM     10  C14 FEP d          34.810  10.938  94.678  0.00  0.00     0.012 A 
+BRANCH   8  11
+ATOM     11  C12 FEP d          37.637  10.739  96.857  0.00  0.00     0.380 C 
+ATOM     12  F3  FEP d          37.709   9.231  97.199  0.00  0.00    -0.185 F 
+ATOM     13  F4  FEP d          38.674  11.088  96.575  0.00  0.00    -0.185 F 
+BRANCH  11  14
+ATOM     14  P2  FEP d          37.206  11.369  98.615  0.00  0.00     0.339 P 
+ATOM     15  OP6 FEP d          35.749  10.808  99.055  0.00  0.00    -0.635 OA
+ATOM     16  OP5 FEP d          38.337  10.865  99.669  0.00  0.00    -0.635 OA
+ATOM     17  OP4 FEP d          37.181  12.995  98.601  0.00  0.00    -0.635 OA
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   4   5
+ENDBRANCH   2   3
+BRANCH   1  18
+ATOM     18  C6  FEP d          31.796  10.630  89.071  0.00  0.00    -0.036 A 
+ATOM     19  C11 FEP d          30.998  11.775  89.081  0.00  0.00     0.012 A 
+ATOM     20  C10 FEP d          29.846  11.813  88.287  0.00  0.00     0.015 A 
+ATOM     21  C9  FEP d          29.475  10.727  87.481  0.00  0.00     0.027 A 
+ATOM     22  C8  FEP d          30.287   9.597  87.477  0.00  0.00     0.015 A 
+ATOM     23  C7  FEP d          31.433   9.550  88.264  0.00  0.00     0.012 A 
+BRANCH  21  24
+ATOM     24  C5  FEP d          28.471  10.817  86.684  0.00  0.00     0.380 C 
+ATOM     25  F1  FEP d          28.062   9.348  86.414  0.00  0.00    -0.185 F 
+ATOM     26  F2  FEP d          27.631  11.301  87.290  0.00  0.00    -0.185 F 
+BRANCH  24  27
+ATOM     27  P1  FEP d          28.403  11.417  84.888  0.00  0.00     0.339 P 
+ATOM     28  OP3 FEP d          29.460  10.555  84.051  0.00  0.00    -0.635 OA
+ATOM     29  OP2 FEP d          26.940  11.201  84.266  0.00  0.00    -0.635 OA
+ATOM     30  OP1 FEP d          28.813  12.946  84.881  0.00  0.00    -0.635 OA
+ENDBRANCH  24  27
+ENDBRANCH  21  24
+ENDBRANCH   1  18
+TORSDOF 7

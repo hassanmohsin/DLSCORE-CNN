@@ -1,0 +1,55 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_3  and  C41_4 
+REMARK    2  A    between atoms: C41_4  and  C32_5 
+REMARK    3  A    between atoms: C32_5  and  C31_6 
+REMARK    4  A    between atoms: C31_6  and  C3_7 
+REMARK    5  A    between atoms: C31_6  and  C22_10 
+REMARK    6  A    between atoms: C22_10  and  C21_11 
+REMARK    7  A    between atoms: C21_11  and  C2_12 
+REMARK    8  A    between atoms: C21_11  and  C12_15 
+REMARK    9  A    between atoms: C12_15  and  C11_16 
+REMARK   10  A    between atoms: C11_16  and  C1_18 
+ROOT
+ATOM      1  C22 PAY d         115.849  42.670  48.355  0.00  0.00     0.031 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C31 PAY d         115.829  41.442  47.346  0.00  0.00     0.088 C 
+BRANCH   2   3
+ATOM      3  C32 PAY d         116.784  41.681  46.130  0.00  0.00     0.026 C 
+BRANCH   3   4
+ATOM      4  C41 PAY d         116.341  42.829  45.167  0.00  0.00     0.114 C 
+BRANCH   4   5
+ATOM      5  C4  PAY d         115.126  42.469  44.339  0.00  0.00     0.172 C 
+ATOM      6  O42 PAY d         115.092  41.361  43.737  0.00  0.00    -0.648 OA
+ATOM      7  O41 PAY d         114.192  43.308  44.284  0.00  0.00    -0.648 OA
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2   8
+ATOM      8  C3  PAY d         116.130  40.103  48.005  0.00  0.00     0.177 C 
+ATOM      9  O31 PAY d         116.865  40.048  49.026  0.00  0.00    -0.648 OA
+ATOM     10  O32 PAY d         115.602  39.083  47.485  0.00  0.00    -0.648 OA
+ENDBRANCH   2   8
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C21 PAY d         114.967  42.508  49.641  0.00  0.00     0.088 C 
+BRANCH  11  12
+ATOM     12  C2  PAY d         113.571  42.043  49.300  0.00  0.00     0.177 C 
+ATOM     13  O21 PAY d         112.730  42.852  48.823  0.00  0.00    -0.648 OA
+ATOM     14  O22 PAY d         113.321  40.816  49.501  0.00  0.00    -0.648 OA
+ENDBRANCH  11  12
+BRANCH  11  15
+ATOM     15  C12 PAY d         115.004  43.826  50.514  0.00  0.00     0.030 C 
+BRANCH  15  16
+ATOM     16  C11 PAY d         114.062  43.815  51.772  0.00  0.00     0.083 C 
+ATOM     17  C10 PAY d         114.021  45.218  52.439  0.00  0.00     0.021 C 
+BRANCH  16  18
+ATOM     18  C1  PAY d         114.517  42.804  52.815  0.00  0.00     0.176 C 
+ATOM     19  O12 PAY d         115.450  43.113  53.607  0.00  0.00    -0.648 OA
+ATOM     20  O11 PAY d         113.935  41.688  52.851  0.00  0.00    -0.648 OA
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  11  15
+ENDBRANCH   1  11
+TORSDOF 10

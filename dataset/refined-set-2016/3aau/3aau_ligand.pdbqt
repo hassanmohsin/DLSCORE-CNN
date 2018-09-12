@@ -1,0 +1,76 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAB_2  and  NAA_1 
+REMARK       I    between atoms: NAC_3  and  CAB_2 
+REMARK    1  A    between atoms: CAD_4  and  NAC_3 
+REMARK    2  A    between atoms: CAI_9  and  NAJ_10 
+REMARK       I    between atoms: NAJ_10  and  CAK_11 
+REMARK       I    between atoms: CAK_11  and  NAL_12 
+REMARK    3  A    between atoms: CAW_23  and  CAO_15 
+REMARK    4  A    between atoms: CAP_16  and  OAQ_17 
+REMARK    5  A    between atoms: CAS_19  and  OAR_18 
+REMARK    6  A    between atoms: CBB_28  and  CAT_20 
+REMARK    7  A    between atoms: CAY_25  and  NAX_24 
+REMARK    8  A    between atoms: CAZ_26  and  CAY_25 
+REMARK    9  A    between atoms: NBA_27  and  CBB_28 
+ROOT
+ATOM      1  CAY GZC d          -1.700  20.759  21.191  0.00  0.00     0.194 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  NAX GZC d          -1.107  19.981  22.290  0.00  0.00    -0.296 NA
+ATOM      3  CAW GZC d          -0.657  20.232  23.382  0.00  0.00     0.124 C 
+BRANCH   3   4
+ATOM      4  CAO GZC d           0.013  19.620  24.435  0.00  0.00     0.016 A 
+ATOM      5  CAN GZC d           0.371  20.341  25.566  0.00  0.00     0.045 A 
+ATOM      6  CAD GZC d           0.921  19.698  26.671  0.00  0.00     0.050 A 
+ATOM      7  CAE GZC d           1.106  18.320  26.636  0.00  0.00     0.033 A 
+ATOM      8  CAF GZC d           0.756  17.595  25.506  0.00  0.00     0.039 A 
+ATOM      9  CAP GZC d           0.221  18.248  24.403  0.00  0.00     0.077 A 
+BRANCH   6  10
+ATOM     10  NAC GZC d           1.332  20.361  27.749  0.00  0.00    -0.193 N 
+ATOM     11  CAB GZC d           0.565  20.560  28.772  0.00  0.00     0.669 C 
+ATOM     12  NAA GZC d          -0.067  21.643  29.213  0.00  0.00    -0.235 N 
+ATOM     13  NAM GZC d           0.385  19.402  29.399  0.00  0.00    -0.235 N 
+ATOM     14  H1  GZC d          -0.641  21.592  30.067  0.00  0.00     0.174 HD
+ATOM     15  H2  GZC d           0.018  22.533  28.701  0.00  0.00     0.174 HD
+ATOM     16  H11 GZC d          -0.202  19.360  30.244  0.00  0.00     0.174 HD
+ATOM     17  H12 GZC d           0.833  18.547  29.040  0.00  0.00     0.174 HD
+ATOM     18  H3  GZC d           2.294  20.729  27.770  0.00  0.00     0.184 HD
+ENDBRANCH   6  10
+BRANCH   9  19
+ATOM     19  OAQ GZC d          -0.014  17.543  23.267  0.00  0.00    -0.360 OA
+ATOM     20  H14 GZC d           0.542  17.872  22.570  0.00  0.00     0.217 HD
+ENDBRANCH   9  19
+ENDBRANCH   3   4
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     21  CAZ GZC d          -2.271  19.878  20.281  0.00  0.00     0.105 C 
+ATOM     22  NBA GZC d          -1.588  18.841  19.826  0.00  0.00    -0.299 NA
+BRANCH  22  23
+ATOM     23  CBB GZC d          -2.240  17.906  18.926  0.00  0.00     0.189 C 
+BRANCH  23  24
+ATOM     24  CAT GZC d          -1.526  16.561  18.765  0.00  0.00    -0.003 A 
+ATOM     25  CAS GZC d          -0.646  16.003  19.689  0.00  0.00     0.073 A 
+ATOM     26  CAG GZC d          -0.095  14.745  19.476  0.00  0.00     0.039 A 
+ATOM     27  CAH GZC d          -0.416  14.024  18.332  0.00  0.00     0.033 A 
+ATOM     28  CAI GZC d          -1.289  14.570  17.396  0.00  0.00     0.050 A 
+ATOM     29  CAU GZC d          -1.832  15.830  17.622  0.00  0.00     0.041 A 
+BRANCH  25  30
+ATOM     30  OAR GZC d          -0.320  16.693  20.815  0.00  0.00    -0.360 OA
+ATOM     31  H15 GZC d          -0.773  17.528  20.816  0.00  0.00     0.217 HD
+ENDBRANCH  25  30
+BRANCH  28  32
+ATOM     32  NAJ GZC d          -1.604  13.840  16.329  0.00  0.00    -0.193 N 
+ATOM     33  CAK GZC d          -2.246  14.305  15.259  0.00  0.00     0.669 C 
+ATOM     34  NAL GZC d          -2.765  13.447  14.384  0.00  0.00    -0.235 N 
+ATOM     35  NAV GZC d          -2.343  15.611  15.030  0.00  0.00    -0.235 N 
+ATOM     36  H9  GZC d          -3.263  13.797  13.553  0.00  0.00     0.174 HD
+ATOM     37  H10 GZC d          -2.668  12.433  14.537  0.00  0.00     0.174 HD
+ATOM     38  H17 GZC d          -1.944  16.283  15.701  0.00  0.00     0.174 HD
+ATOM     39  H18 GZC d          -2.817  15.951  14.181  0.00  0.00     0.174 HD
+ATOM     40  H8  GZC d          -1.332  12.846  16.331  0.00  0.00     0.184 HD
+ENDBRANCH  28  32
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  21
+TORSDOF 9

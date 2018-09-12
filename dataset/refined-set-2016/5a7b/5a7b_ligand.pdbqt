@@ -1,0 +1,69 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C06_15  and  O_2 
+REMARK    2  A    between atoms: O_2  and  C07_16 
+REMARK    3  A    between atoms: C01_3  and  C04_12 
+REMARK    4  A    between atoms: C2_8  and  C1_4 
+REMARK    5  A    between atoms: N1_5  and  C2_8 
+REMARK    6  A    between atoms: C7_17  and  O1_6 
+REMARK    7  A    between atoms: C10_21  and  N2_9 
+REMARK    8  A    between atoms: N2_9  and  C11_22 
+REMARK    9  A    between atoms: N2_9  and  C13_24 
+REMARK   10  A    between atoms: C05_14  and  C06_15 
+ROOT
+ATOM      1  C   KMN d          92.232  93.837 -40.863  0.00  0.00     0.018 C 
+ATOM      2  C01 KMN d          91.460  93.274 -45.656  0.00  0.00     0.019 A 
+ATOM      3  C1  KMN d          90.815  95.582 -45.193  0.00  0.00     0.004 A 
+ATOM      4  C02 KMN d          91.795  93.081 -44.315  0.00  0.00     0.044 A 
+ATOM      5  C3  KMN d          90.981  94.515 -46.093  0.00  0.00     0.032 A 
+ATOM      6  C4  KMN d          91.632  94.134 -43.409  0.00  0.00     0.052 A 
+ATOM      7  C7  KMN d          91.150  95.372 -43.841  0.00  0.00     0.092 A 
+ATOM      8  C20 KMN d          91.966  93.953 -42.028  0.00  0.00    -0.075 C 
+ENDROOT
+BRANCH   7   9
+ATOM      9  O1  KMN d          90.992  96.409 -42.940  0.00  0.00    -0.359 OA
+ATOM     10  H3  KMN d          91.257  96.119 -42.075  0.00  0.00     0.217 HD
+ENDBRANCH   7   9
+BRANCH   2  11
+ATOM     11  C04 KMN d          91.636  92.201 -46.589  0.00  0.00    -0.065 C 
+ATOM     12  C05 KMN d          91.806  91.329 -47.399  0.00  0.00    -0.074 C 
+BRANCH  12  13
+ATOM     13  C06 KMN d          92.036  90.246 -48.369  0.00  0.00     0.269 C 
+BRANCH  13  14
+ATOM     14  O   KMN d          90.820  89.781 -48.960  0.00  0.00    -0.340 OA
+BRANCH  14  15
+ATOM     15  C07 KMN d          90.243  90.573 -49.909  0.00  0.00     0.070 A 
+ATOM     16  C08 KMN d          88.982  90.152 -50.346  0.00  0.00     0.037 A 
+ATOM     17  C09 KMN d          88.291  90.884 -51.314  0.00  0.00     0.003 A 
+ATOM     18  C17 KMN d          88.861  92.037 -51.847  0.00  0.00     0.000 A 
+ATOM     19  C18 KMN d          90.119  92.461 -51.416  0.00  0.00     0.003 A 
+ATOM     20  C19 KMN d          90.811  91.727 -50.446  0.00  0.00     0.037 A 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   2  11
+BRANCH   3  21
+ATOM     21  C2  KMN d          90.282  96.896 -45.706  0.00  0.00     0.276 C 
+BRANCH  21  22
+ATOM     22  N1  KMN d          90.782  98.124 -44.961  0.00  0.00    -0.067 N 
+ATOM     23  C03 KMN d          89.781  99.239 -45.075  0.00  0.00     0.237 C 
+ATOM     24  C8  KMN d          90.277 100.456 -44.306  0.00  0.00     0.061 C 
+ATOM     25  C10 KMN d          91.638 100.889 -44.843  0.00  0.00     0.191 C 
+ATOM     26  C15 KMN d          92.657  99.758 -44.660  0.00  0.00     0.061 C 
+ATOM     27  C16 KMN d          92.176  98.507 -45.387  0.00  0.00     0.237 C 
+ATOM     28  H2  KMN d          90.838  97.880 -43.985  0.00  0.00     0.280 HD
+BRANCH  25  29
+ATOM     29  N2  KMN d          92.119 102.207 -44.209  0.00  0.00    -0.067 N 
+ATOM     30  H7  KMN d          92.451 102.760 -44.983  0.00  0.00     0.280 HD
+BRANCH  29  31
+ATOM     31  C11 KMN d          90.975 103.008 -43.579  0.00  0.00     0.231 C 
+ATOM     32  C12 KMN d          90.411 103.998 -44.585  0.00  0.00     0.034 C 
+ENDBRANCH  29  31
+BRANCH  29  33
+ATOM     33  C13 KMN d          93.301 102.108 -43.252  0.00  0.00     0.231 C 
+ATOM     34  C14 KMN d          93.602 103.475 -42.661  0.00  0.00     0.034 C 
+ENDBRANCH  29  33
+ENDBRANCH  25  29
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+TORSDOF 10

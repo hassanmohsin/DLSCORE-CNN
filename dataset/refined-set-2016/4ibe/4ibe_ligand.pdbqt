@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAS_2  and  CBC_4 
+REMARK    2  A    between atoms: CBB_10  and  NBE_11 
+REMARK    3  A    between atoms: CBD_12  and  CBA_13 
+REMARK    4  A    between atoms: CAU_21  and  OAE_22 
+REMARK    5  A    between atoms: CAW_23  and  CAT_24 
+REMARK    6  A    between atoms: CAT_24  and  CAZ_26 
+ROOT
+ATOM      1  NBE 11Y d           1.789  20.273   0.271  0.00  0.00    -0.309 N 
+ATOM      2  CBD 11Y d           2.683  21.146   0.756  0.00  0.00     0.172 A 
+ATOM      3  CAV 11Y d           2.111  19.018   0.589  0.00  0.00     0.216 A 
+ATOM      4  OAC 11Y d           1.364  17.903   0.271  0.00  0.00    -0.169 OA
+ATOM      5  CAU 11Y d           3.326  19.066   1.275  0.00  0.00     0.133 A 
+ATOM      6  CAW 11Y d           3.703  20.412   1.347  0.00  0.00     0.059 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CBB 11Y d           0.625  20.678  -0.452  0.00  0.00     0.038 A 
+ATOM      8  CAQ 11Y d          -0.633  20.262  -0.044  0.00  0.00     0.050 A 
+ATOM      9  CBC 11Y d          -1.779  20.657  -0.726  0.00  0.00     0.064 A 
+ATOM     10  CAY 11Y d          -1.655  21.497  -1.840  0.00  0.00     0.051 A 
+ATOM     11 CLA  11Y d          -3.009  22.054  -2.763  0.00  0.00    -0.083 Cl
+ATOM     12  CAM 11Y d          -0.391  21.914  -2.240  0.00  0.00     0.027 A 
+ATOM     13  CAN 11Y d           0.746  21.510  -1.555  0.00  0.00     0.031 A 
+BRANCH   9  14
+ATOM     14  CAS 11Y d          -3.087  20.136  -0.203  0.00  0.00     0.211 C 
+ATOM     15  OAA 11Y d          -3.092  19.398   0.820  0.00  0.00    -0.644 OA
+ATOM     16  OAD 11Y d          -4.191  20.437  -0.722  0.00  0.00    -0.644 OA
+ENDBRANCH   9  14
+ENDBRANCH   1   7
+BRANCH   2  17
+ATOM     17  CBA 11Y d           2.136  22.214   1.639  0.00  0.00     0.012 A 
+ATOM     18  SAR 11Y d           1.428  21.861   3.118  0.00  0.00    -0.103 SA
+ATOM     19  CAO 11Y d           1.027  23.418   3.610  0.00  0.00     0.069 A 
+ATOM     20  CAX 11Y d           1.470  24.257   2.581  0.00  0.00     0.018 A 
+ATOM     21 BRA  11Y d           1.251  26.175   2.669  0.00  0.00    -0.051 Br
+ATOM     22  CAP 11Y d           2.093  23.604   1.470  0.00  0.00     0.036 A 
+ENDBRANCH   2  17
+BRANCH   6  23
+ATOM     23  CAT 11Y d           4.952  21.053   1.859  0.00  0.00     0.193 C 
+ATOM     24  OAB 11Y d           5.236  22.162   1.426  0.00  0.00    -0.287 OA
+BRANCH  23  25
+ATOM     25  CAZ 11Y d           5.859  20.441   2.870  0.00  0.00     0.015 A 
+ATOM     26  CAK 11Y d           7.227  20.626   2.730  0.00  0.00     0.015 A 
+ATOM     27  CAI 11Y d           8.111  20.092   3.652  0.00  0.00     0.001 A 
+ATOM     28  CAH 11Y d           7.616  19.372   4.728  0.00  0.00     0.000 A 
+ATOM     29  CAJ 11Y d           6.248  19.190   4.880  0.00  0.00     0.001 A 
+ATOM     30  CAL 11Y d           5.363  19.730   3.953  0.00  0.00     0.015 A 
+ENDBRANCH  23  25
+ENDBRANCH   6  23
+BRANCH   5  31
+ATOM     31  OAE 11Y d           4.033  17.992   1.766  0.00  0.00    -0.356 OA
+ATOM     32  H7  11Y d           4.263  17.411   1.050  0.00  0.00     0.218 HD
+ENDBRANCH   5  31
+TORSDOF 6

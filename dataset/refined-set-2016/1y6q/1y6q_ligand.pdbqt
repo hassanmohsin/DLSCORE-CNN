@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_4  and  N6_15 
+REMARK    2  A    between atoms: C5_7  and  S_6 
+REMARK    3  A    between atoms: C4_8  and  C5_7 
+REMARK    4  A    between atoms: C10_11  and  N1_10 
+REMARK    5  A    between atoms: C10_11  and  C9_12 
+REMARK    6  A    between atoms: C3_19  and  O3_20 
+ROOT
+ATOM      1  C2  TDI d          53.790  75.119  21.033  0.00  0.00     0.236 A 
+ATOM      2  C4  TDI d          55.679  74.355  19.843  0.00  0.00     0.098 A 
+ATOM      3  C5  TDI d          54.877  74.090  18.701  0.00  0.00     0.107 A 
+ATOM      4  C6  TDI d          53.497  74.366  18.796  0.00  0.00     0.151 A 
+ATOM      5  C9  TDI d          57.026  73.974  19.456  0.00  0.00     0.014 A 
+ATOM      6  C8  TDI d          56.982  73.527  18.181  0.00  0.00     0.099 A 
+ATOM      7  N7  TDI d          55.700  73.593  17.722  0.00  0.00    -0.360 N 
+ATOM      8  N1  TDI d          52.999  74.877  19.974  0.00  0.00    -0.223 NA
+ATOM      9  N3  TDI d          55.108  74.866  20.980  0.00  0.00    -0.239 NA
+ATOM     10  H14 TDI d          55.394  73.311  16.780  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   5  11
+ATOM     11  C10 TDI d          58.245  74.061  20.335  0.00  0.00     0.277 C 
+BRANCH  11  12
+ATOM     12  N1  TDI d          58.843  73.448  21.530  0.00  0.00    -0.064 N 
+ATOM     13  C1  TDI d          58.578  72.050  21.066  0.00  0.00     0.243 C 
+ATOM     14  C4  TDI d          58.251  71.265  22.340  0.00  0.00     0.051 C 
+ATOM     15  C3  TDI d          57.862  72.329  23.412  0.00  0.00     0.150 C 
+ATOM     16  C2  TDI d          57.858  73.667  22.639  0.00  0.00     0.267 C 
+ATOM     17  H10 TDI d          59.795  73.695  21.749  0.00  0.00     0.280 HD
+BRANCH  14  18
+ATOM     18  C5  TDI d          56.913  70.567  22.496  0.00  0.00     0.082 C 
+BRANCH  18  19
+ATOM     19  S   TDI d          55.708  69.777  23.563  0.00  0.00    -0.173 SA
+ATOM     20  CS5 TDI d          56.570  68.203  23.222  0.00  0.00     0.089 C 
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+BRANCH  15  21
+ATOM     21  O3  TDI d          59.161  72.345  24.048  0.00  0.00    -0.393 OA
+ATOM     22  H20 TDI d          59.272  71.552  24.560  0.00  0.00     0.210 HD
+ENDBRANCH  15  21
+ENDBRANCH  11  12
+ENDBRANCH   5  11
+BRANCH   4  23
+ATOM     23  N6  TDI d          52.669  74.119  17.707  0.00  0.00    -0.382 N 
+ATOM     24  H15 TDI d          51.661  74.319  17.771  0.00  0.00     0.157 HD
+ATOM     25  H16 TDI d          53.064  73.736  16.836  0.00  0.00     0.157 HD
+ENDBRANCH   4  23
+TORSDOF 6

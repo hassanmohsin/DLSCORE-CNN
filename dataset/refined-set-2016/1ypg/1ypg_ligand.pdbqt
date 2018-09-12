@@ -1,0 +1,62 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C3_2 
+REMARK    2  A    between atoms: C3_2  and  C4_3 
+REMARK    3  A    between atoms: C7_6  and  C10_7 
+REMARK    4  A    between atoms: C17_15  and  C18_14 
+REMARK    5  A    between atoms: N19_18  and  C23_22 
+REMARK    6  A    between atoms: C23_22  and  C24_23 
+ROOT
+ATOM      1  C10 UIR d          15.467 -11.317  20.035  0.00  0.00     0.235 C 
+ATOM      2  N11 UIR d          15.340 -12.524  19.157  0.00  0.00    -0.057 N 
+ATOM      3  C12 UIR d          14.384 -12.360  18.019  0.00  0.00     0.236 C 
+ATOM      4  C13 UIR d          15.247 -12.459  16.732  0.00  0.00     0.030 C 
+ATOM      5  C14 UIR d          16.618 -11.989  17.184  0.00  0.00     0.035 C 
+ATOM      6  C15 UIR d          16.724 -12.692  18.565  0.00  0.00     0.196 C 
+ATOM      7  C16 UIR d          17.720 -11.857  19.421  0.00  0.00     0.055 C 
+ATOM      8  C17 UIR d          18.829 -12.763  20.055  0.00  0.00     0.098 C 
+ATOM      9  N19 UIR d          18.228 -13.268  21.259  0.00  0.00    -0.342 N 
+ATOM     10  C20 UIR d          17.032 -12.662  21.576  0.00  0.00     0.227 C 
+ATOM     11  O21 UIR d          16.433 -12.795  22.674  0.00  0.00    -0.273 OA
+ATOM     12  C22 UIR d          16.880 -11.428  20.660  0.00  0.00     0.121 C 
+ATOM     13  H6  UIR d          15.073 -13.326  19.707  0.00  0.00     0.281 HD
+ENDROOT
+BRANCH   1  14
+ATOM     14  C7  UIR d          14.311 -11.180  20.978  0.00  0.00    -0.027 A 
+ATOM     15  C8  UIR d          13.586 -12.305  21.383  0.00  0.00     0.010 A 
+ATOM     16  C9  UIR d          12.548 -12.199  22.309  0.00  0.00     0.016 A 
+ATOM     17  C4  UIR d          12.224 -10.946  22.852  0.00  0.00     0.007 A 
+ATOM     18  C5  UIR d          12.950  -9.817  22.448  0.00  0.00     0.016 A 
+ATOM     19  C6  UIR d          13.980  -9.934  21.530  0.00  0.00     0.010 A 
+BRANCH  17  20
+ATOM     20  C3  UIR d          11.155 -10.842  23.792  0.00  0.00     0.102 C 
+ATOM     21  N2  UIR d          10.824  -9.640  24.334  0.00  0.00    -0.385 N 
+ATOM     22  H31 UIR d          11.344  -8.793  24.064  0.00  0.00     0.157 HD
+ATOM     23  H32 UIR d          10.053  -9.576  25.014  0.00  0.00     0.157 HD
+BRANCH  20  24
+ATOM     24  N1  UIR d          10.392 -11.842  24.239  0.00  0.00    -0.385 N 
+ATOM     25  H1  UIR d           9.644 -11.653  24.921  0.00  0.00     0.157 HD
+ATOM     26  H2  UIR d          10.552 -12.802  23.902  0.00  0.00     0.157 HD
+ENDBRANCH  20  24
+ENDBRANCH  17  20
+ENDBRANCH   1  14
+BRANCH   8  27
+ATOM     27  C18 UIR d          20.341 -12.890  19.891  0.00  0.00     0.009 A 
+ATOM     28  C42 UIR d          21.164 -12.339  20.380  0.00  0.00     0.007 A 
+ATOM     29  C41 UIR d          20.836 -12.019  18.764  0.00  0.00     0.007 A 
+ENDBRANCH   8  27
+BRANCH   9  30
+ATOM     30  C23 UIR d          18.719 -14.417  22.085  0.00  0.00     0.165 C 
+BRANCH  30  31
+ATOM     31  C24 UIR d          19.659 -14.067  23.231  0.00  0.00    -0.037 A 
+ATOM     32  C25 UIR d          21.038 -14.284  23.027  0.00  0.00     0.048 A 
+ATOM     33  C26 UIR d          21.916 -13.962  24.082  0.00  0.00     0.105 A 
+ATOM     34  O27 UIR d          23.312 -14.114  24.069  0.00  0.00    -0.323 OA
+ATOM     35  C30 UIR d          21.441 -13.438  25.302  0.00  0.00     0.105 A 
+ATOM     36  C28 UIR d          23.686 -13.645  25.388  0.00  0.00     0.352 A 
+ATOM     37  O29 UIR d          22.501 -13.221  26.148  0.00  0.00    -0.323 OA
+ATOM     38  C31 UIR d          20.081 -13.223  25.557  0.00  0.00     0.040 A 
+ATOM     39  C32 UIR d          19.214 -13.537  24.483  0.00  0.00     0.012 A 
+ENDBRANCH  30  31
+ENDBRANCH   9  30
+TORSDOF 6

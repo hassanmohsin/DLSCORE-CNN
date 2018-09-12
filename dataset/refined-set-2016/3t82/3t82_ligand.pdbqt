@@ -1,0 +1,61 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C2_3  and  O2_4 
+REMARK    3  A    between atoms: C3_5  and  O3_6 
+REMARK    4  A    between atoms: O3_6  and  CAY_19 
+REMARK    5  A    between atoms: C4_7  and  O4_8 
+REMARK    6  A    between atoms: O4_8  and  CAX_18 
+REMARK    7  A    between atoms: C5_9  and  C6_11 
+REMARK    8  A    between atoms: C6_11  and  O6_12 
+REMARK    9  A    between atoms: O6_12  and  SAI_15 
+REMARK   10  A    between atoms: SAI_15  and  NAH_14 
+ROOT
+ATOM      1  C1  SG4 d          17.148   2.309  11.726  0.00  0.00     0.288 C 
+ATOM      2  C2  SG4 d          16.533   3.475  10.913  0.00  0.00     0.205 C 
+ATOM      3  C3  SG4 d          16.861   4.861  11.468  0.00  0.00     0.197 C 
+ATOM      4  C4  SG4 d          17.012   4.948  12.986  0.00  0.00     0.195 C 
+ATOM      5  C5  SG4 d          17.414   3.653  13.708  0.00  0.00     0.182 C 
+ATOM      6  O5  SG4 d          16.802   2.461  13.143  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  C6  SG4 d          17.325   3.773  15.207  0.00  0.00     0.226 C 
+BRANCH   7   8
+ATOM      8  O6  SG4 d          16.016   4.026  15.639  0.00  0.00    -0.257 OA
+BRANCH   8   9
+ATOM      9  SAI SG4 d          15.465   3.252  16.787  0.00  0.00     0.355 S 
+ATOM     10  OAB SG4 d          16.162   3.688  17.991  0.00  0.00    -0.176 OA
+ATOM     11  OAQ SG4 d          14.032   3.577  16.871  0.00  0.00    -0.176 OA
+BRANCH   9  12
+ATOM     12  NAH SG4 d          15.767   1.737  16.565  0.00  0.00    -0.306 N 
+ATOM     13  H10 SG4 d          15.468   1.063  17.241  0.00  0.00     0.171 HD
+ATOM     14  H11 SG4 d          16.259   1.440  15.747  0.00  0.00     0.171 HD
+ENDBRANCH   9  12
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   4  15
+ATOM     15  O4  SG4 d          17.553   6.117  13.528  0.00  0.00    -0.311 OA
+BRANCH  15  16
+ATOM     16  CAX SG4 d          16.872   7.133  13.862  0.00  0.00     0.255 C 
+ATOM     17  OAW SG4 d          15.609   7.113  13.815  0.00  0.00    -0.266 OA
+ATOM     18  CBA SG4 d          17.592   8.348  14.352  0.00  0.00     0.126 C 
+ENDBRANCH  15  16
+ENDBRANCH   4  15
+BRANCH   3  19
+ATOM     19  O3  SG4 d          16.160   5.915  10.862  0.00  0.00    -0.311 OA
+BRANCH  19  20
+ATOM     20  CAY SG4 d          16.728   6.817  10.152  0.00  0.00     0.255 C 
+ATOM     21  OAZ SG4 d          17.962   6.748   9.907  0.00  0.00    -0.266 OA
+ATOM     22  CBB SG4 d          15.897   7.961   9.624  0.00  0.00     0.126 C 
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+BRANCH   1  23
+ATOM     23  O1  SG4 d          18.430   1.940  11.402  0.00  0.00    -0.369 OA
+ATOM     24  H2  SG4 d          18.512   1.880  10.457  0.00  0.00     0.212 HD
+ENDBRANCH   1  23
+BRANCH   2  25
+ATOM     25  O2  SG4 d          16.429   3.332   9.550  0.00  0.00    -0.388 OA
+ATOM     26  H4  SG4 d          16.038   4.114   9.180  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+TORSDOF 10

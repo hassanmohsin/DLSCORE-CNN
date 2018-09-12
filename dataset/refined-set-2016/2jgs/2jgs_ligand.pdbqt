@@ -1,0 +1,38 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_1  and  C10_4 
+REMARK    2  A    between atoms: C10_4  and  C9_5 
+REMARK    3  A    between atoms: C9_5  and  C8_6 
+REMARK    4  A    between atoms: C8_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  C2_8 
+ROOT
+ATOM      1  C2  BTN d          36.164  11.344  52.751  0.00  0.00     0.072 C 
+ATOM      2  S1  BTN d          34.953  11.170  51.579  0.00  0.00    -0.160 SA
+ATOM      3  C6  BTN d          33.792  10.847  52.930  0.00  0.00     0.101 C 
+ATOM      4  C5  BTN d          34.186  11.680  54.137  0.00  0.00     0.118 A 
+ATOM      5  N1  BTN d          33.550  12.983  54.110  0.00  0.00    -0.347 N 
+ATOM      6  C3  BTN d          34.440  13.970  53.995  0.00  0.00     0.248 A 
+ATOM      7  O3  BTN d          34.105  15.320  53.981  0.00  0.00    -0.152 OA
+ATOM      8  N2  BTN d          35.678  13.511  53.926  0.00  0.00    -0.347 N 
+ATOM      9  C4  BTN d          35.659  12.060  54.001  0.00  0.00     0.122 A 
+ATOM     10  H13 BTN d          32.562  13.125  54.170  0.00  0.00     0.163 HD
+ATOM     11  H14 BTN d          36.499  14.075  53.836  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1  12
+ATOM     12  C7  BTN d          37.379  12.051  52.178  0.00  0.00     0.017 C 
+BRANCH  12  13
+ATOM     13  C8  BTN d          38.206  11.044  51.421  0.00  0.00     0.002 C 
+BRANCH  13  14
+ATOM     14  C9  BTN d          39.486  11.722  50.935  0.00  0.00     0.010 C 
+BRANCH  14  15
+ATOM     15  C10 BTN d          40.080  10.926  49.768  0.00  0.00     0.113 C 
+BRANCH  15  16
+ATOM     16  C11 BTN d          40.976   9.822  50.302  0.00  0.00     0.172 C 
+ATOM     17  O11 BTN d          41.435   8.949  49.541  0.00  0.00    -0.648 OA
+ATOM     18  O12 BTN d          41.302   9.776  51.515  0.00  0.00    -0.648 OA
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 5

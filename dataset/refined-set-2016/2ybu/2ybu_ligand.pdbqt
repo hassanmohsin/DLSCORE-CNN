@@ -1,0 +1,46 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_4  and  CAK_14 
+REMARK    2  A    between atoms: CAK_14  and  CAL_15 
+REMARK    3  A    between atoms: CAL_15  and  CA0_16 
+REMARK    4  A    between atoms: CA0_16  and  N10_17 
+ROOT
+ATOM      1  CAL CX9 d          27.526 -34.046 -41.938  0.00  0.00     0.041 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAK CX9 d          27.951 -34.827 -43.183  0.00  0.00     0.139 C 
+BRANCH   2   3
+ATOM      3  N1  CX9 d          28.411 -36.194 -42.910  0.00  0.00    -0.264 N 
+ATOM      4  C6  CX9 d          27.471 -37.195 -42.766  0.00  0.00     0.282 A 
+ATOM      5  O6  CX9 d          26.263 -36.963 -42.882  0.00  0.00    -0.265 OA
+ATOM      6  C5  CX9 d          27.946 -38.469 -42.536  0.00  0.00     0.151 A 
+ATOM      7  N7  CX9 d          27.327 -39.615 -42.356  0.00  0.00    -0.338 N 
+ATOM      8  C4  CX9 d          29.297 -38.744 -42.446  0.00  0.00     0.167 A 
+ATOM      9  CAA CX9 d          25.854 -39.825 -42.417  0.00  0.00     0.157 C 
+ATOM     10  C8  CX9 d          28.269 -40.571 -42.194  0.00  0.00     0.212 A 
+ATOM     11  N9  CX9 d          29.501 -40.008 -42.238  0.00  0.00    -0.223 NA
+ATOM     12  N3  CX9 d          30.221 -37.776 -42.547  0.00  0.00    -0.286 N 
+ATOM     13  CAC CX9 d          31.736 -38.163 -42.440  0.00  0.00     0.163 C 
+ATOM     14  C2  CX9 d          29.751 -36.511 -42.802  0.00  0.00     0.333 A 
+ATOM     15  O2  CX9 d          30.567 -35.625 -42.873  0.00  0.00    -0.246 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  CA0 CX9 d          27.256 -32.653 -42.510  0.00  0.00     0.139 C 
+BRANCH  16  17
+ATOM     17  N10 CX9 d          26.597 -31.807 -41.500  0.00  0.00    -0.264 N 
+ATOM     18  CAP CX9 d          25.254 -31.975 -41.215  0.00  0.00     0.284 A 
+ATOM     19  OAF CX9 d          24.602 -32.879 -41.832  0.00  0.00    -0.265 OA
+ATOM     20  CAV CX9 d          24.684 -31.121 -40.281  0.00  0.00     0.170 A 
+ATOM     21  NAX CX9 d          23.441 -31.051 -39.777  0.00  0.00    -0.234 NA
+ATOM     22  CAT CX9 d          25.460 -30.181 -39.602  0.00  0.00     0.147 A 
+ATOM     23  CAJ CX9 d          23.392 -30.095 -38.833  0.00  0.00     0.209 A 
+ATOM     24  NAN CX9 d          24.638 -29.522 -38.746  0.00  0.00    -0.335 N 
+ATOM     25  H15 CX9 d          24.901 -28.733 -38.139  0.00  0.00     0.168 HD
+ATOM     26  NAZ CX9 d          26.834 -30.043 -39.922  0.00  0.00    -0.287 N 
+ATOM     27  CAR CX9 d          27.377 -30.870 -40.847  0.00  0.00     0.332 A 
+ATOM     28  CAD CX9 d          27.773 -29.038 -39.286  0.00  0.00     0.163 C 
+ATOM     29  OAH CX9 d          28.582 -30.758 -41.129  0.00  0.00    -0.246 OA
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4

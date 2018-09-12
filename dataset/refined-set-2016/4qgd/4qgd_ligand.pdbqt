@@ -1,0 +1,43 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  C10_10 
+REMARK    2  A    between atoms: C7_7  and  C14_14 
+REMARK    3  A    between atoms: C10_10  and  N11_11 
+REMARK    4  A    between atoms: C14_14  and  C15_15 
+REMARK    5  A    between atoms: C15_15  and  C16_16 
+REMARK    6  A    between atoms: C16_16  and  O17_17 
+ROOT
+ATOM      1  C2  PZZ d         -21.930   6.638   8.149  0.00  0.00     0.098 A 
+ATOM      2  C3  PZZ d         -21.721   7.705   7.211  0.00  0.00    -0.005 A 
+ATOM      3  N1  PZZ d         -21.750   5.415   7.489  0.00  0.00    -0.364 N 
+ATOM      4  C4  PZZ d         -21.102   7.669   4.711  0.00  0.00     0.014 A 
+ATOM      5  C5  PZZ d         -20.813   6.804   3.661  0.00  0.00     0.002 A 
+ATOM      6  C6  PZZ d         -20.844   5.410   3.772  0.00  0.00     0.009 A 
+ATOM      7  C7  PZZ d         -21.136   4.764   4.955  0.00  0.00    -0.030 A 
+ATOM      8  C8  PZZ d         -21.403   7.070   5.925  0.00  0.00     0.000 A 
+ATOM      9  C9  PZZ d         -21.450   5.611   6.142  0.00  0.00     0.049 A 
+ATOM     10  H   PZZ d         -21.829   4.492   7.940  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   2  11
+ATOM     11  C10 PZZ d         -21.779   9.227   7.271  0.00  0.00     0.274 C 
+BRANCH  11  12
+ATOM     12  N11 PZZ d         -21.480   9.916   8.533  0.00  0.00    -0.075 N 
+ATOM     13  C12 PZZ d         -21.583  11.349   8.201  0.00  0.00     0.269 C 
+ATOM     14  C13 PZZ d         -22.388   9.639   9.677  0.00  0.00     0.269 C 
+ATOM     15  H   PZZ d         -20.541   9.684   8.816  0.00  0.00     0.279 HD
+ENDBRANCH  11  12
+ENDBRANCH   2  11
+BRANCH   7  16
+ATOM     16  C14 PZZ d         -21.093   3.234   5.040  0.00  0.00     0.043 C 
+BRANCH  16  17
+ATOM     17  C15 PZZ d         -20.982   2.518   3.678  0.00  0.00     0.031 C 
+BRANCH  17  18
+ATOM     18  C16 PZZ d         -19.610   1.856   3.444  0.00  0.00     0.164 C 
+BRANCH  18  19
+ATOM     19  O17 PZZ d         -19.127   0.924   4.487  0.00  0.00    -0.401 OA
+ATOM     20  H   PZZ d         -18.278   0.581   4.235  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 6

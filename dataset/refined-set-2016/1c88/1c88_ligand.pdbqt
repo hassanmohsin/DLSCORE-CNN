@@ -1,0 +1,36 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C14_8  and  N19_13 
+REMARK    2  A    between atoms: C15_9  and  C16_10 
+REMARK       I    between atoms: N19_13  and  C20_14 
+REMARK    3  A    between atoms: C20_14  and  C21_15 
+ROOT
+ATOM      1  N1  OTA d          45.336  10.374  -0.275  0.00  0.00    -0.070 N 
+ATOM      2  C2  OTA d          45.822  10.629   1.101  0.00  0.00     0.279 C 
+ATOM      3  C3  OTA d          45.322  11.995   1.528  0.00  0.00     0.018 A 
+ATOM      4  C4  OTA d          44.587  12.817   0.726  0.00  0.00    -0.022 A 
+ATOM      5  C5  OTA d          43.923  12.414  -0.560  0.00  0.00     0.068 C 
+ATOM      6  C6  OTA d          43.932  10.899  -0.646  0.00  0.00     0.237 C 
+ATOM      7  S13 OTA d          45.801  12.762   3.077  0.00  0.00    -0.073 SA
+ATOM      8  C14 OTA d          44.916  14.138   2.571  0.00  0.00     0.095 A 
+ATOM      9  C15 OTA d          44.352  14.096   1.366  0.00  0.00     0.082 A 
+ATOM     10  H1  OTA d          45.994  10.797  -0.910  0.00  0.00     0.277 HD
+ATOM     11  H2  OTA d          45.331   9.376  -0.413  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   8  12
+ATOM     12  N19 OTA d          44.814  15.281   3.435  0.00  0.00    -0.311 N 
+ATOM     13  C20 OTA d          45.436  15.448   4.613  0.00  0.00     0.323 C 
+ATOM     14  O24 OTA d          46.047  14.565   5.264  0.00  0.00    -0.260 OA
+ATOM     15  H9  OTA d          44.221  16.026   3.129  0.00  0.00     0.170 HD
+BRANCH  13  16
+ATOM     16  C21 OTA d          45.208  16.831   5.182  0.00  0.00     0.270 C 
+ATOM     17  O23 OTA d          43.910  17.299   5.061  0.00  0.00    -0.640 OA
+ATOM     18  O22 OTA d          46.019  17.423   5.811  0.00  0.00    -0.640 OA
+ENDBRANCH  13  16
+ENDBRANCH   8  12
+BRANCH   9  19
+ATOM     19  C16 OTA d          43.668  15.297   0.859  0.00  0.00     0.212 C 
+ATOM     20  O18 OTA d          43.489  15.218  -0.440  0.00  0.00    -0.644 OA
+ATOM     21  O17 OTA d          43.303  16.212   1.549  0.00  0.00    -0.644 OA
+ENDBRANCH   9  19
+TORSDOF 3

@@ -1,0 +1,104 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_7 
+REMARK    2  A    between atoms: C2_2  and  O2_8 
+REMARK    3  A    between atoms: C3_3  and  O3_9 
+REMARK    4  A    between atoms: C4_4  and  O4_10 
+REMARK    5  A    between atoms: C5_5  and  O5_11 
+REMARK    6  A    between atoms: C6_6  and  O6_12 
+REMARK    7  A    between atoms: O1_7  and  P1_13 
+REMARK    8  A    between atoms: O3_9  and  P3_17 
+REMARK    9  A    between atoms: P1_13  and  O13_16 
+REMARK   10  A    between atoms: O13_16  and  C7_21 
+REMARK   11  A    between atoms: C7_21  and  C8_22 
+REMARK   12  A    between atoms: C8_22  and  O14_32 
+REMARK   13  A    between atoms: C8_22  and  C9_23 
+REMARK   14  A    between atoms: C9_23  and  O15_33 
+REMARK   15  A    between atoms: O15_33  and  C10_24 
+REMARK   16  A    between atoms: C10_24  and  C11_25 
+REMARK   17  A    between atoms: C11_25  and  C12_26 
+REMARK   18  A    between atoms: O14_32  and  C14_28 
+REMARK   19  A    between atoms: C14_28  and  C15_29 
+REMARK   20  A    between atoms: C15_29  and  C16_30 
+ROOT
+ATOM      1  O1  PIB d          10.822  21.385   4.702  0.00  0.00    -0.279 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  PIB d          10.949  20.316   5.651  0.00  0.00     0.197 C 
+ATOM      3  C6  PIB d           9.540  19.745   5.974  0.00  0.00     0.181 C 
+ATOM      4  C5  PIB d           9.650  18.531   6.953  0.00  0.00     0.180 C 
+ATOM      5  C4  PIB d          10.528  17.424   6.300  0.00  0.00     0.181 C 
+ATOM      6  C3  PIB d          11.967  18.000   6.002  0.00  0.00     0.198 C 
+ATOM      7  C2  PIB d          11.863  19.232   5.031  0.00  0.00     0.182 C 
+BRANCH   3   8
+ATOM      8  O6  PIB d           8.737  20.758   6.580  0.00  0.00    -0.390 OA
+ATOM      9  H10 PIB d           7.871  20.410   6.758  0.00  0.00     0.210 HD
+ENDBRANCH   3   8
+BRANCH   4  10
+ATOM     10  O5  PIB d           8.345  18.028   7.197  0.00  0.00    -0.390 OA
+ATOM     11  H9  PIB d           7.814  18.708   7.595  0.00  0.00     0.210 HD
+ENDBRANCH   4  10
+BRANCH   5  12
+ATOM     12  O4  PIB d          10.608  16.311   7.206  0.00  0.00    -0.390 OA
+ATOM     13  H8  PIB d          11.141  15.626   6.819  0.00  0.00     0.210 HD
+ENDBRANCH   5  12
+BRANCH   6  14
+ATOM     14  O3  PIB d          12.821  17.048   5.358  0.00  0.00    -0.272 OA
+BRANCH  14  15
+ATOM     15  P3  PIB d          13.808  16.037   6.151  0.00  0.00     0.422 P 
+ATOM     16  O33 PIB d          14.669  15.255   5.063  0.00  0.00    -0.617 OA
+ATOM     17  O32 PIB d          14.698  16.907   7.127  0.00  0.00    -0.617 OA
+ATOM     18  O31 PIB d          12.926  15.026   6.997  0.00  0.00    -0.617 OA
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   7  19
+ATOM     19  O2  PIB d          11.324  18.824   3.783  0.00  0.00    -0.390 OA
+ATOM     20  H7  PIB d          11.276  19.573   3.200  0.00  0.00     0.210 HD
+ENDBRANCH   7  19
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     21  P1  PIB d          11.707  22.698   4.680  0.00  0.00     0.408 P 
+ATOM     22  O12 PIB d          13.130  22.437   5.281  0.00  0.00    -0.624 OA
+ATOM     23  O11 PIB d          11.785  23.207   3.170  0.00  0.00    -0.624 OA
+BRANCH  21  24
+ATOM     24  O13 PIB d          10.945  23.797   5.580  0.00  0.00    -0.287 OA
+BRANCH  24  25
+ATOM     25  C7  PIB d           9.896  24.590   5.058  0.00  0.00     0.216 C 
+BRANCH  25  26
+ATOM     26  C8  PIB d          10.507  25.965   4.844  0.00  0.00     0.180 C 
+BRANCH  26  27
+ATOM     27  O14 PIB d          10.038  26.576   3.616  0.00  0.00    -0.312 OA
+BRANCH  27  28
+ATOM     28  C14 PIB d          10.873  26.620   2.493  0.00  0.00     0.259 C 
+ATOM     29  O17 PIB d          12.021  26.179   2.429  0.00  0.00    -0.265 OA
+BRANCH  28  30
+ATOM     30  C15 PIB d          10.365  27.626   1.467  0.00  0.00     0.111 C 
+BRANCH  30  31
+ATOM     31  C16 PIB d          10.948  29.042   1.607  0.00  0.00     0.005 C 
+ATOM     32  C17 PIB d           9.996  29.985   2.342  0.00  0.00     0.005 C 
+ENDBRANCH  30  31
+ENDBRANCH  28  30
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+BRANCH  26  33
+ATOM     33  C9  PIB d          10.339  26.856   6.100  0.00  0.00     0.213 C 
+BRANCH  33  34
+ATOM     34  O15 PIB d           9.870  28.191   5.816  0.00  0.00    -0.319 OA
+BRANCH  34  35
+ATOM     35  C10 PIB d           9.120  28.835   6.797  0.00  0.00     0.258 C 
+ATOM     36  O16 PIB d           8.810  28.366   7.906  0.00  0.00    -0.265 OA
+BRANCH  35  37
+ATOM     37  C11 PIB d           8.928  30.319   6.455  0.00  0.00     0.111 C 
+BRANCH  37  38
+ATOM     38  C12 PIB d           9.129  31.328   7.606  0.00  0.00     0.005 C 
+ATOM     39  C13 PIB d           9.115  32.790   7.132  0.00  0.00     0.005 C 
+ENDBRANCH  37  38
+ENDBRANCH  35  37
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  26  33
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  21  24
+ENDBRANCH   1  21
+TORSDOF 20

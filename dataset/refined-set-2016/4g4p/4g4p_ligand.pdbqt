@@ -1,0 +1,36 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+REMARK       I    between atoms: CD_7  and  NE2_9 
+ROOT
+ATOM      1  CA  GLN d          27.294  20.790  27.324  0.00  0.00     0.283 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLN d          27.669  21.678  28.460  0.00  0.00    -0.065 N 
+ATOM      3  H1  GLN d          28.597  21.445  28.776  0.00  0.00     0.275 HD
+ATOM      4  H2  GLN d          27.015  21.551  29.216  0.00  0.00     0.275 HD
+ATOM      5  H3  GLN d          27.649  22.639  28.156  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   GLN d          25.912  21.123  26.839  0.00  0.00     0.204 C 
+ATOM      7  O   GLN d          25.195  21.872  27.523  0.00  0.00    -0.646 OA
+ATOM      8  OXT GLN d          25.523  20.658  25.754  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  GLN d          27.357  19.316  27.709  0.00  0.00     0.053 C 
+BRANCH   9  10
+ATOM     10  CG  GLN d          26.360  18.851  28.761  0.00  0.00     0.105 C 
+BRANCH  10  11
+ATOM     11  CD  GLN d          26.504  17.367  29.082  0.00  0.00     0.215 C 
+ATOM     12  OE1 GLN d          27.065  16.585  28.304  0.00  0.00    -0.274 OA
+ATOM     13  NE2 GLN d          25.984  16.972  30.242  0.00  0.00    -0.370 N 
+ATOM     14  H9  GLN d          26.043  16.012  30.515  0.00  0.00     0.159 HD
+ATOM     15  H10 GLN d          25.534  17.635  30.840  0.00  0.00     0.159 HD
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5

@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  S1_4 
+REMARK    2  A    between atoms: C10_1  and  C11_2 
+REMARK    3  A    between atoms: S1_4  and  C9_5 
+REMARK    4  A    between atoms: C9_5  and  C2_6 
+REMARK    5  A    between atoms: C6_15  and  N4_16 
+ROOT
+ATOM      1  C2  APQ d          16.350  16.936  19.625  0.00  0.00    -0.016 A 
+ATOM      2  C3  APQ d          16.566  17.127  21.014  0.00  0.00     0.098 A 
+ATOM      3  N3  APQ d          15.546  16.932  21.928  0.00  0.00    -0.064 NA
+ATOM      4  C8  APQ d          15.681  17.089  23.201  0.00  0.00     0.701 A 
+ATOM      5  N1  APQ d          16.854  17.455  23.744  0.00  0.00    -0.154 N 
+ATOM      6  C7  APQ d          17.944  17.679  23.004  0.00  0.00     0.272 A 
+ATOM      7  O1  APQ d          19.024  18.018  23.501  0.00  0.00    -0.267 OA
+ATOM      8  C4  APQ d          17.851  17.511  21.491  0.00  0.00     0.065 A 
+ATOM      9  C5  APQ d          18.931  17.719  20.589  0.00  0.00     0.048 A 
+ATOM     10  C6  APQ d          18.712  17.530  19.198  0.00  0.00     0.027 A 
+ATOM     11  C1  APQ d          17.432  17.148  18.745  0.00  0.00     0.039 A 
+ATOM     12  N2  APQ d          14.650  16.882  23.981  0.00  0.00    -0.233 N 
+ATOM     13  H10 APQ d          16.914  17.564  24.736  0.00  0.00     0.187 HD
+ATOM     14  H15 APQ d          13.746  16.601  23.576  0.00  0.00     0.174 HD
+ATOM     15  H16 APQ d          14.743  17.000  25.000  0.00  0.00     0.174 HD
+ENDROOT
+BRANCH   1  16
+ATOM     16  C9  APQ d          14.926  16.526  19.151  0.00  0.00     0.114 C 
+BRANCH  16  17
+ATOM     17  S1  APQ d          14.691  14.846  18.400  0.00  0.00    -0.164 SA
+BRANCH  17  18
+ATOM     18  C10 APQ d          12.929  14.635  18.024  0.00  0.00     0.073 C 
+BRANCH  18  19
+ATOM     19  C11 APQ d          12.348  15.997  17.559  0.00  0.00     0.006 C 
+ATOM     20  C12 APQ d          11.797  15.836  16.111  0.00  0.00     0.006 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+BRANCH  10  21
+ATOM     21  N4  APQ d          19.706  17.715  18.295  0.00  0.00    -0.399 N 
+ATOM     22  H12 APQ d          19.523  17.572  17.291  0.00  0.00     0.156 HD
+ATOM     23  H13 APQ d          20.644  17.999  18.612  0.00  0.00     0.156 HD
+ENDBRANCH  10  21
+TORSDOF 5

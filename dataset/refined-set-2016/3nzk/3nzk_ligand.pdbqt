@@ -1,0 +1,74 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_2  and  C5_1 
+REMARK    2  A    between atoms: C5_1  and  N4_18 
+REMARK    3  A    between atoms: C10_4  and  C9_3 
+REMARK    4  A    between atoms: C12_7  and  C11_6 
+REMARK    5  A    between atoms: C18_11  and  C19_8 
+REMARK    6  A    between atoms: C19_8  and  O20_29 
+REMARK    7  A    between atoms: C15_9  and  C16_10 
+REMARK       I    between atoms: C16_10  and  N17_28 
+REMARK    8  A    between atoms: C18_11  and  C22_13 
+REMARK    9  A    between atoms: N17_28  and  C18_11 
+REMARK       I    between atoms: C22_13  and  N23_30 
+REMARK   10  A    between atoms: N23_30  and  O24_32 
+ROOT
+ATOM      1  C12 C90 d          -4.044 -23.377  -8.602  0.00  0.00     0.018 A 
+ATOM      2  C15 C90 d          -5.443 -24.366  -6.278  0.00  0.00     0.032 A 
+ATOM      3  CE1 C90 d          -5.483 -23.318  -8.562  0.00  0.00     0.022 A 
+ATOM      4  CE2 C90 d          -3.292 -23.915  -7.493  0.00  0.00     0.022 A 
+ATOM      5  CF1 C90 d          -6.180 -23.804  -7.406  0.00  0.00     0.018 A 
+ATOM      6  CF  C90 d          -3.979 -24.419  -6.324  0.00  0.00     0.018 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C11 C90 d          -3.370 -22.834  -9.730  0.00  0.00    -0.061 C 
+ATOM      8  C10 C90 d          -2.803 -22.298 -10.654  0.00  0.00    -0.061 C 
+BRANCH   8   9
+ATOM      9  C9  C90 d          -2.143 -21.673 -11.732  0.00  0.00     0.018 A 
+ATOM     10  CD1 C90 d          -0.791 -22.040 -12.069  0.00  0.00     0.021 A 
+ATOM     11  CC1 C90 d          -0.126 -21.396 -13.179  0.00  0.00     0.010 A 
+ATOM     12  C6  C90 d          -0.819 -20.380 -13.942  0.00  0.00    -0.033 A 
+ATOM     13  CC2 C90 d          -2.180 -20.009 -13.602  0.00  0.00     0.010 A 
+ATOM     14  CD2 C90 d          -2.845 -20.660 -12.490  0.00  0.00     0.021 A 
+BRANCH  12  15
+ATOM     15  C5  C90 d          -0.091 -19.698 -15.097  0.00  0.00     0.273 C 
+BRANCH  15  16
+ATOM     16  N4  C90 d           0.241 -18.277 -14.724  0.00  0.00    -0.063 N 
+ATOM     17  CB1 C90 d           1.441 -17.908 -15.491  0.00  0.00     0.261 C 
+ATOM     18  CA1 C90 d           1.808 -16.410 -15.261  0.00  0.00     0.195 C 
+ATOM     19  O1  C90 d           1.973 -16.154 -13.863  0.00  0.00    -0.388 OA
+ATOM     20  CA2 C90 d           0.768 -16.441 -13.159  0.00  0.00     0.195 C 
+ATOM     21  CB2 C90 d           0.533 -17.951 -13.310  0.00  0.00     0.261 C 
+ATOM     22  H16 C90 d          -0.537 -17.704 -15.009  0.00  0.00     0.280 HD
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   7
+BRANCH   2  23
+ATOM     23  C16 C90 d          -6.167 -24.822  -5.131  0.00  0.00     0.252 C 
+ATOM     24  O16 C90 d          -5.554 -25.222  -4.132  0.00  0.00    -0.268 OA
+ATOM     25  N17 C90 d          -7.479 -24.637  -5.120  0.00  0.00    -0.341 N 
+ATOM     26  H25 C90 d          -7.896 -24.182  -5.907  0.00  0.00     0.163 HD
+BRANCH  25  27
+ATOM     27  C18 C90 d          -8.359 -25.061  -4.019  0.00  0.00     0.207 C 
+BRANCH  27  28
+ATOM     28  C19 C90 d          -8.725 -23.799  -3.150  0.00  0.00     0.146 C 
+ATOM     29  C21 C90 d          -7.558 -22.859  -2.810  0.00  0.00     0.042 C 
+BRANCH  28  30
+ATOM     30  O20 C90 d          -9.669 -23.000  -3.865  0.00  0.00    -0.393 OA
+ATOM     31  H26 C90 d         -10.418 -23.534  -4.103  0.00  0.00     0.210 HD
+ENDBRANCH  28  30
+ENDBRANCH  27  28
+BRANCH  27  32
+ATOM     32  C22 C90 d          -9.546 -25.814  -4.643  0.00  0.00     0.266 C 
+ATOM     33  N23 C90 d          -9.713 -27.051  -4.251  0.00  0.00    -0.236 N 
+ATOM     34  H27 C90 d          -8.987 -27.511  -3.739  0.00  0.00     0.197 HD
+ATOM     35  O22 C90 d         -10.449 -25.174  -5.143  0.00  0.00    -0.269 OA
+BRANCH  33  36
+ATOM     36  O24 C90 d         -10.834 -27.699  -4.526  0.00  0.00    -0.287 OA
+ATOM     37  H28 C90 d         -11.568 -27.238  -4.137  0.00  0.00     0.244 HD
+ENDBRANCH  33  36
+ENDBRANCH  27  32
+ENDBRANCH  25  27
+ENDBRANCH   2  23
+TORSDOF 10

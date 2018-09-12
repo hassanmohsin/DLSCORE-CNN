@@ -1,0 +1,48 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_2  and  O4_5 
+REMARK    2  A    between atoms: O4_5  and  C4_6 
+REMARK    3  A    between atoms: C4_6  and  C3_7 
+REMARK    4  A    between atoms: C3_7  and  O3_8 
+REMARK    5  A    between atoms: C3_7  and  C2_9 
+REMARK    6  A    between atoms: C2_9  and  O2_10 
+REMARK    7  A    between atoms: C2_9  and  C1_11 
+REMARK       I    between atoms: C1_11  and  N_13 
+REMARK    8  A    between atoms: N_13  and  ON_14 
+ROOT
+ATOM      1  C3  RES d          -9.954   5.505 -30.978  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4  RES d          -9.149   5.228 -32.239  0.00  0.00     0.217 C 
+BRANCH   2   3
+ATOM      3  O4  RES d          -8.980   3.821 -32.353  0.00  0.00    -0.280 OA
+BRANCH   3   4
+ATOM      4  P   RES d          -8.326   3.118 -33.643  0.00  0.00     0.422 P 
+ATOM      5  O7  RES d          -8.264   4.171 -34.727  0.00  0.00    -0.617 OA
+ATOM      6  O5  RES d          -6.979   2.629 -33.172  0.00  0.00    -0.617 OA
+ATOM      7  O6  RES d          -9.297   2.008 -33.985  0.00  0.00    -0.617 OA
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  O3  RES d         -11.234   6.033 -31.321  0.00  0.00    -0.390 OA
+ATOM      9  H4  RES d         -11.701   5.404 -31.858  0.00  0.00     0.210 HD
+ENDBRANCH   1   8
+BRANCH   1  10
+ATOM     10  C2  RES d         -10.165   4.203 -30.232  0.00  0.00     0.242 C 
+BRANCH  10  11
+ATOM     11  O2  RES d          -9.023   3.964 -29.423  0.00  0.00    -0.383 OA
+ATOM     12  H6  RES d          -8.252   3.903 -29.975  0.00  0.00     0.210 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  C1  RES d         -11.357   4.309 -29.339  0.00  0.00     0.272 C 
+ATOM     14  O1  RES d         -12.463   4.087 -29.790  0.00  0.00    -0.268 OA
+ATOM     15  N   RES d         -11.119   4.639 -28.073  0.00  0.00    -0.235 N 
+ATOM     16  H7  RES d         -10.181   4.823 -27.777  0.00  0.00     0.197 HD
+BRANCH  15  17
+ATOM     17  ON  RES d         -12.162   4.731 -27.154  0.00  0.00    -0.287 OA
+ATOM     18  H8  RES d         -12.782   5.390 -27.445  0.00  0.00     0.244 HD
+ENDBRANCH  15  17
+ENDBRANCH  10  13
+ENDBRANCH   1  10
+TORSDOF 8

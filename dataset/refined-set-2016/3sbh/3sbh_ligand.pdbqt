@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  S7_7 
+REMARK    2  A    between atoms: S7_7  and  C8_8 
+REMARK    3  A    between atoms: C8_8  and  C9_9 
+REMARK    4  A    between atoms: C9_9  and  C13_13 
+REMARK    5  A    between atoms: C16_16  and  S19_19 
+REMARK    6  A    between atoms: S19_19  and  N22_22 
+ROOT
+ATOM      1  C13 E65 d          -4.180   4.236  14.217  0.00  0.00     0.011 A 
+ATOM      2  C14 E65 d          -3.395   3.179  14.578  0.00  0.00     0.017 A 
+ATOM      3  C15 E65 d          -3.921   2.182  15.431  0.00  0.00     0.026 A 
+ATOM      4  C16 E65 d          -5.253   2.238  15.783  0.00  0.00     0.079 A 
+ATOM      5  C17 E65 d          -6.063   3.296  15.387  0.00  0.00     0.026 A 
+ATOM      6  C18 E65 d          -5.546   4.327  14.582  0.00  0.00     0.017 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C9  E65 d          -3.503   5.249  13.333  0.00  0.00     0.169 C 
+ATOM      8  O10 E65 d          -4.195   6.099  12.809  0.00  0.00    -0.291 OA
+BRANCH   7   9
+ATOM      9  C8  E65 d          -2.045   5.178  12.948  0.00  0.00     0.166 C 
+BRANCH   9  10
+ATOM     10  S7  E65 d          -1.887   6.179  11.453  0.00  0.00    -0.082 SA
+BRANCH  10  11
+ATOM     11  C2  E65 d          -1.544   7.850  12.112  0.00  0.00     0.189 A 
+ATOM     12  N1  E65 d          -1.356   9.012  11.460  0.00  0.00    -0.228 NA
+ATOM     13  C6  E65 d          -1.094  10.192  12.125  0.00  0.00     0.035 A 
+ATOM     14  C5  E65 d          -1.002  10.241  13.511  0.00  0.00     0.053 A 
+ATOM     15  C12 E65 d          -0.898  11.497  11.390  0.00  0.00     0.070 C 
+ATOM     16  C4  E65 d          -1.190   9.005  14.149  0.00  0.00     0.035 A 
+ATOM     17  N3  E65 d          -1.442   7.954  13.436  0.00  0.00    -0.228 NA
+ATOM     18  C11 E65 d          -1.136   8.732  15.579  0.00  0.00     0.070 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  19
+ATOM     19  S19 E65 d          -5.903   0.876  16.761  0.00  0.00     0.256 S 
+ATOM     20  O20 E65 d          -7.379   0.896  16.553  0.00  0.00    -0.201 OA
+ATOM     21  O21 E65 d          -5.308   1.000  18.090  0.00  0.00    -0.201 OA
+BRANCH  19  22
+ATOM     22  N22 E65 d          -5.219  -0.473  16.014  0.00  0.00    -0.324 N 
+ATOM     23  H14 E65 d          -5.416  -1.390  16.361  0.00  0.00     0.169 HD
+ATOM     24  H15 E65 d          -4.617  -0.356  15.224  0.00  0.00     0.169 HD
+ENDBRANCH  19  22
+ENDBRANCH   4  19
+TORSDOF 6

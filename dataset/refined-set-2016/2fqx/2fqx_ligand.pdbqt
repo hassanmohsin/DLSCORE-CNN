@@ -1,0 +1,49 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5_1  and  C5_2 
+REMARK    2  A    between atoms: C5_2  and  C4_3 
+REMARK    3  A    between atoms: C3_5  and  O3_6 
+REMARK    4  A    between atoms: C2_7  and  O2_8 
+REMARK    5  A    between atoms: C1_9  and  N9_10 
+REMARK    6  A    between atoms: C2_17  and  N2_18 
+ROOT
+ATOM      1  N9  GMP d          33.721  61.309  10.368  0.00  0.00    -0.293 N 
+ATOM      2  C8  GMP d          33.378  62.554  10.698  0.00  0.00     0.214 A 
+ATOM      3  N7  GMP d          33.861  63.399   9.790  0.00  0.00    -0.234 NA
+ATOM      4  C5  GMP d          34.517  62.694   8.871  0.00  0.00     0.173 A 
+ATOM      5  C6  GMP d          35.193  63.009   7.697  0.00  0.00     0.292 A 
+ATOM      6  O6  GMP d          35.347  64.175   7.328  0.00  0.00    -0.265 OA
+ATOM      7  N1  GMP d          35.736  61.972   6.934  0.00  0.00    -0.152 N 
+ATOM      8  C2  GMP d          35.603  60.642   7.358  0.00  0.00     0.703 A 
+ATOM      9  N3  GMP d          34.952  60.376   8.497  0.00  0.00    -0.044 NA
+ATOM     10  C4  GMP d          34.420  61.358   9.241  0.00  0.00     0.186 A 
+ATOM     11  H11 GMP d          36.220  62.179   6.084  0.00  0.00     0.187 HD
+ENDROOT
+BRANCH   1  12
+ATOM     12  C1  GMP d          33.358  60.054  11.068  0.00  0.00     0.262 C 
+ATOM     13  O4  GMP d          32.041  60.240  11.620  0.00  0.00    -0.353 OA
+ATOM     14  C4  GMP d          32.124  60.123  13.050  0.00  0.00     0.179 C 
+ATOM     15  C3  GMP d          33.573  60.490  13.373  0.00  0.00     0.182 C 
+ATOM     16  C2  GMP d          34.289  59.751  12.245  0.00  0.00     0.198 C 
+BRANCH  14  17
+ATOM     17  C5  GMP d          31.124  61.089  13.697  0.00  0.00     0.198 C 
+BRANCH  17  18
+ATOM     18  O5  GMP d          31.404  62.454  13.365  0.00  0.00    -0.398 OA
+ATOM     19  H1  GMP d          31.358  62.566  12.423  0.00  0.00     0.209 HD
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+BRANCH  15  20
+ATOM     20  O3  GMP d          33.959  59.916  14.627  0.00  0.00    -0.390 OA
+ATOM     21  H6  GMP d          33.880  58.971  14.579  0.00  0.00     0.210 HD
+ENDBRANCH  15  20
+BRANCH  16  22
+ATOM     22  O2  GMP d          34.283  58.339  12.480  0.00  0.00    -0.388 OA
+ATOM     23  H8  GMP d          34.727  58.154  13.299  0.00  0.00     0.210 HD
+ENDBRANCH  16  22
+ENDBRANCH   1  12
+BRANCH   8  24
+ATOM     24  N2  GMP d          36.122  59.657   6.633  0.00  0.00    -0.233 N 
+ATOM     25  H12 GMP d          36.024  58.681   6.946  0.00  0.00     0.174 HD
+ATOM     26  H13 GMP d          36.623  59.870   5.758  0.00  0.00     0.174 HD
+ENDBRANCH   8  24
+TORSDOF 6

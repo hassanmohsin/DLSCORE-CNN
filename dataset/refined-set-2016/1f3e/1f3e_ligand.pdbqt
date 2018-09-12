@@ -1,0 +1,31 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  N14_14 
+REMARK    2  A    between atoms: C7_7  and  N13_13 
+ROOT
+ATOM      1  N1  DPZ d          15.813  17.034  24.333  0.00  0.00    -0.263 N 
+ATOM      2  C2  DPZ d          15.410  16.831  23.059  0.00  0.00     0.273 A 
+ATOM      3  O3  DPZ d          14.262  16.484  22.818  0.00  0.00    -0.266 OA
+ATOM      4  C4  DPZ d          16.398  17.044  21.907  0.00  0.00     0.075 A 
+ATOM      5  C5  DPZ d          16.049  16.863  20.538  0.00  0.00     0.044 A 
+ATOM      6  C6  DPZ d          17.021  17.085  19.541  0.00  0.00     0.059 A 
+ATOM      7  C7  DPZ d          18.331  17.481  19.869  0.00  0.00     0.028 A 
+ATOM      8  C8  DPZ d          18.661  17.667  21.220  0.00  0.00     0.047 A 
+ATOM      9  C9  DPZ d          17.707  17.455  22.234  0.00  0.00     0.053 A 
+ATOM     10  C10 DPZ d          18.091  17.650  23.687  0.00  0.00     0.271 A 
+ATOM     11  O11 DPZ d          19.229  18.004  23.954  0.00  0.00    -0.266 OA
+ATOM     12  N12 DPZ d          17.169  17.447  24.649  0.00  0.00    -0.263 N 
+ATOM     13  H1  DPZ d          15.160  16.896  25.078  0.00  0.00     0.190 HD
+ATOM     14  H4  DPZ d          17.425  17.584  25.606  0.00  0.00     0.190 HD
+ENDROOT
+BRANCH   5  15
+ATOM     15  N14 DPZ d          14.803  16.474  20.164  0.00  0.00    -0.398 N 
+ATOM     16  H7  DPZ d          14.080  16.307  20.878  0.00  0.00     0.156 HD
+ATOM     17  H8  DPZ d          14.581  16.346  19.166  0.00  0.00     0.156 HD
+ENDBRANCH   5  15
+BRANCH   7  18
+ATOM     18  N13 DPZ d          19.257  17.700  18.895  0.00  0.00    -0.399 N 
+ATOM     19  H5  DPZ d          19.006  17.561  17.906  0.00  0.00     0.156 HD
+ATOM     20  H6  DPZ d          20.208  18.005  19.148  0.00  0.00     0.156 HD
+ENDBRANCH   7  18
+TORSDOF 2

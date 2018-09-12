@@ -1,0 +1,66 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  N_5 
+REMARK    3  A    between atoms: CA_4  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+REMARK    5  A    between atoms: CG_7  and  SD_8 
+REMARK    6  A    between atoms: SD_8  and  C5_9 
+REMARK    7  A    between atoms: C5_9  and  C4_10 
+REMARK    8  A    between atoms: C4_10  and  O4_11 
+REMARK    9  A    between atoms: C4_10  and  C3_12 
+REMARK   10  A    between atoms: C3_12  and  O3_13 
+REMARK   11  A    between atoms: C3_12  and  C2_14 
+REMARK       I    between atoms: C2_14  and  N1_16 
+REMARK   12  A    between atoms: N1_16  and  O1_17 
+ROOT
+ATOM      1  C5  HYI d         -24.357  31.386 -16.174  0.00  0.00     0.108 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  SD  HYI d         -23.727  33.061 -15.794  0.00  0.00    -0.166 SA
+BRANCH   2   3
+ATOM      3  CG  HYI d         -22.097  32.646 -15.073  0.00  0.00     0.076 C 
+BRANCH   3   4
+ATOM      4  CB  HYI d         -21.104  32.119 -16.111  0.00  0.00     0.054 C 
+BRANCH   4   5
+ATOM      5  CA  HYI d         -19.720  31.880 -15.500  0.00  0.00     0.284 C 
+BRANCH   5   6
+ATOM      6  C   HYI d         -19.192  33.184 -14.901  0.00  0.00     0.204 C 
+ATOM      7  O   HYI d         -19.077  33.234 -13.656  0.00  0.00    -0.646 OA
+ATOM      8  OXT HYI d         -18.912  34.101 -15.703  0.00  0.00    -0.646 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  N   HYI d         -19.801  30.849 -14.456  0.00  0.00    -0.065 N 
+ATOM     10  H2  HYI d         -20.149  29.992 -14.856  0.00  0.00     0.275 HD
+ATOM     11  H3  HYI d         -20.425  31.157 -13.727  0.00  0.00     0.275 HD
+ATOM     12  H4  HYI d         -18.884  30.690 -14.069  0.00  0.00     0.275 HD
+ENDBRANCH   5   9
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  13
+ATOM     13  C4  HYI d         -24.877  31.264 -17.608  0.00  0.00     0.165 C 
+BRANCH  13  14
+ATOM     14  O4  HYI d         -25.874  32.261 -17.843  0.00  0.00    -0.392 OA
+ATOM     15  H12 HYI d         -26.593  32.138 -17.234  0.00  0.00     0.210 HD
+ENDBRANCH  13  14
+BRANCH  13  16
+ATOM     16  C3  HYI d         -25.472  29.879 -17.872  0.00  0.00     0.241 C 
+BRANCH  16  17
+ATOM     17  O3  HYI d         -26.595  29.664 -17.013  0.00  0.00    -0.383 OA
+ATOM     18  H14 HYI d         -27.253  30.327 -17.183  0.00  0.00     0.210 HD
+ENDBRANCH  16  17
+BRANCH  16  19
+ATOM     19  C2  HYI d         -25.945  29.816 -19.325  0.00  0.00     0.272 C 
+ATOM     20  O2  HYI d         -27.129  29.976 -19.611  0.00  0.00    -0.268 OA
+ATOM     21  N1  HYI d         -24.982  29.587 -20.216  0.00  0.00    -0.235 N 
+ATOM     22  H15 HYI d         -24.037  29.472 -19.909  0.00  0.00     0.197 HD
+BRANCH  21  23
+ATOM     23  O1  HYI d         -25.276  29.509 -21.541  0.00  0.00    -0.287 OA
+ATOM     24  H16 HYI d         -24.480  29.342 -22.032  0.00  0.00     0.244 HD
+ENDBRANCH  21  23
+ENDBRANCH  16  19
+ENDBRANCH  13  16
+ENDBRANCH   1  13
+TORSDOF 12

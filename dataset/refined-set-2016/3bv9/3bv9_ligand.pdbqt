@@ -1,0 +1,113 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: C_10  and  CA_2 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CG_4  and  CD_5 
+REMARK    6  A    between atoms: CD_5  and  NE_6 
+REMARK       I    between atoms: NE_6  and  CZ_7 
+REMARK       I    between atoms: CZ_7  and  NH1_8 
+REMARK       I    between atoms: N_12  and  C_10 
+REMARK    7  A    between atoms: C_14  and  CA_13 
+REMARK       I    between atoms: N_23  and  C_14 
+REMARK    8  A    between atoms: C_25  and  CA_24 
+REMARK       I    between atoms: N_30  and  C_25 
+REMARK    9  A    between atoms: CA_31  and  N_30 
+REMARK   10  A    between atoms: C_33  and  CA_31 
+REMARK       I    between atoms: N3_46  and  C_33 
+REMARK   11  A    between atoms: C1_35  and  C3_36 
+REMARK   12  A    between atoms: C1_35  and  C32_43 
+REMARK   13  A    between atoms: C1_35  and  N3_46 
+REMARK   14  A    between atoms: C3_36  and  C4_37 
+REMARK       I    between atoms: C32_43  and  O_47 
+ROOT
+ATOM      1  C   DAR d          15.668  16.787  15.013  0.00  0.00     0.243 C 
+ATOM      2  O   DAR d          14.815  16.088  15.644  0.00  0.00    -0.271 OA
+ATOM      3  N   DAR d          16.851  15.992  14.597  0.00  0.00    -0.337 N 
+ATOM      4  CA  DAR d          17.157  14.549  14.828  0.00  0.00     0.179 C 
+ATOM      5  CB  DAR d          18.461  14.369  14.200  0.00  0.00     0.037 C 
+ATOM      6  CG  DAR d          19.092  15.638  13.815  0.00  0.00     0.022 C 
+ATOM      7  CD  DAR d          17.960  16.605  13.844  0.00  0.00     0.127 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA  DAR d          15.629  18.308  14.641  0.00  0.00     0.180 C 
+ATOM      9  N   DAR d          14.155  18.236  14.354  0.00  0.00    -0.332 N 
+ATOM     10  C   DAR d          13.660  17.606  13.149  0.00  0.00     0.252 C 
+ATOM     11  CD  DAR d          13.595  19.553  14.837  0.00  0.00     0.092 C 
+ATOM     12  O   DAR d          14.391  16.787  12.492  0.00  0.00    -0.271 OA
+ATOM     13  CG  DAR d          14.848  20.247  15.402  0.00  0.00     0.011 C 
+ATOM     14  C7  DAR d          12.525  19.188  15.923  0.00  0.00     0.026 C 
+ATOM     15  CB  DAR d          15.662  19.096  15.874  0.00  0.00     0.041 C 
+ATOM     16  C4  DAR d          14.489  21.381  16.402  0.00  0.00     0.007 C 
+ATOM     17  C5  DAR d          13.532  20.873  17.516  0.00  0.00     0.001 C 
+ATOM     18  C6  DAR d          12.225  20.350  16.891  0.00  0.00     0.002 C 
+BRANCH  10  19
+ATOM     19  CA  DAR d          12.219  17.820  12.633  0.00  0.00     0.278 C 
+BRANCH  19  20
+ATOM     20  N   DAR d          11.739  16.660  12.205  0.00  0.00    -0.066 N 
+ATOM     21  H1  DAR d          10.799  16.790  11.866  0.00  0.00     0.275 HD
+ATOM     22  H2  DAR d          11.734  15.998  12.965  0.00  0.00     0.275 HD
+ATOM     23  H3  DAR d          12.320  16.311  11.459  0.00  0.00     0.275 HD
+ENDBRANCH  19  20
+BRANCH  19  24
+ATOM     24  CB  DAR d          12.304  18.969  11.575  0.00  0.00     0.071 C 
+BRANCH  24  25
+ATOM     25  CG  DAR d          10.997  19.680  11.396  0.00  0.00    -0.007 C 
+BRANCH  25  26
+ATOM     26  CD  DAR d           9.691  19.260  11.036  0.00  0.00     0.102 C 
+BRANCH  26  27
+ATOM     27  NE  DAR d           9.383  17.786  11.073  0.00  0.00    -0.203 N 
+ATOM     28  CZ  DAR d           8.393  17.182  10.564  0.00  0.00     0.669 C 
+ATOM     29  NH1 DAR d           7.441  17.848   9.884  0.00  0.00    -0.235 N 
+ATOM     30  NH2 DAR d           8.330  15.892  10.706  0.00  0.00    -0.235 N 
+ATOM     31  H10 DAR d           6.644  17.336   9.478  0.00  0.00     0.174 HD
+ATOM     32  H11 DAR d           7.509  18.869   9.769  0.00  0.00     0.174 HD
+ATOM     33  H12 DAR d           9.065  15.395  11.229  0.00  0.00     0.174 HD
+ATOM     34  H13 DAR d           7.545  15.367  10.296  0.00  0.00     0.174 HD
+ATOM     35  H9  DAR d          10.062  17.196  11.575  0.00  0.00     0.183 HD
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  19  24
+ENDBRANCH  10  19
+ENDBRANCH   1   8
+BRANCH   4  36
+ATOM     36  C   DAR d          17.149  14.333  16.383  0.00  0.00     0.241 C 
+ATOM     37  O   DAR d          17.826  15.021  17.196  0.00  0.00    -0.271 OA
+ATOM     38  N   DAR d          16.250  13.346  16.660  0.00  0.00    -0.346 N 
+ATOM     39  H34 DAR d          15.812  12.923  15.867  0.00  0.00     0.163 HD
+BRANCH  38  40
+ATOM     40  CA  DAR d          15.849  12.833  17.940  0.00  0.00     0.172 C 
+ATOM     41  CB  DAR d          16.153  11.359  18.200  0.00  0.00     0.042 C 
+BRANCH  40  42
+ATOM     42  C   DAR d          15.045  13.510  19.004  0.00  0.00     0.240 C 
+ATOM     43  O   DAR d          15.126  13.039  20.212  0.00  0.00    -0.271 OA
+ATOM     44  N3  DAR d          14.325  14.492  18.544  0.00  0.00    -0.346 N 
+ATOM     45  H53 DAR d          14.394  14.716  17.572  0.00  0.00     0.163 HD
+BRANCH  44  46
+ATOM     46  C1  DAR d          13.432  15.275  19.365  0.00  0.00     0.180 C 
+BRANCH  46  47
+ATOM     47  C3  DAR d          13.052  16.384  18.505  0.00  0.00     0.073 C 
+BRANCH  47  48
+ATOM     48  C4  DAR d          12.092  17.296  19.171  0.00  0.00    -0.056 A 
+ATOM     49  C5  DAR d          10.544  17.254  18.929  0.00  0.00     0.007 A 
+ATOM     50  C7  DAR d           9.595  18.181  19.589  0.00  0.00     0.007 A 
+ATOM     51  C9  DAR d          10.134  19.229  20.549  0.00  0.00    -0.062 A 
+ATOM     52  C8  DAR d          11.652  19.336  20.852  0.00  0.00     0.007 A 
+ATOM     53  C33 DAR d           9.164  20.212  21.225  0.00  0.00     0.048 C 
+ATOM     54  C6  DAR d          12.625  18.347  20.142  0.00  0.00     0.007 A 
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+BRANCH  46  55
+ATOM     55  C32 DAR d          12.332  14.292  19.762  0.00  0.00     0.238 C 
+ATOM     56  O5  DAR d          11.760  13.491  18.969  0.00  0.00    -0.271 OA
+ATOM     57  O   DAR d          11.948  14.278  21.035  0.00  0.00    -0.368 N 
+ATOM     58  H46 DAR d          11.231  13.649  21.334  0.00  0.00     0.159 HD
+ATOM     59  H47 DAR d          12.377  14.897  21.694  0.00  0.00     0.159 HD
+ENDBRANCH  46  55
+ENDBRANCH  44  46
+ENDBRANCH  40  42
+ENDBRANCH  38  40
+ENDBRANCH   4  36
+TORSDOF 14

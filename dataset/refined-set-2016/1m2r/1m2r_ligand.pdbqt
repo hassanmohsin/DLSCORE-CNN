@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_17 
+REMARK    2  A    between atoms: C4_4  and  O4_20 
+REMARK    3  A    between atoms: C22_11  and  N22_18 
+REMARK    4  A    between atoms: C25_14  and  N25_19 
+ROOT
+ATOM      1  C1  MNY d          21.513   7.672  21.581  0.00  0.00     0.081 A 
+ATOM      2  C2  MNY d          22.026   7.757  20.236  0.00  0.00     0.065 A 
+ATOM      3  C3  MNY d          23.001   6.796  19.784  0.00  0.00     0.065 A 
+ATOM      4  C4  MNY d          23.454   5.780  20.692  0.00  0.00     0.081 A 
+ATOM      5  C5  MNY d          22.934   5.721  22.006  0.00  0.00     0.040 A 
+ATOM      6  C6  MNY d          21.977   6.662  22.448  0.00  0.00     0.040 A 
+ATOM      7  C13 MNY d          23.540   6.883  18.389  0.00  0.00     0.199 A 
+ATOM      8  C14 MNY d          23.060   7.947  17.451  0.00  0.00     0.058 A 
+ATOM      9  C15 MNY d          22.077   8.905  17.902  0.00  0.00     0.058 A 
+ATOM     10  C16 MNY d          21.539   8.817  19.295  0.00  0.00     0.199 A 
+ATOM     11  C22 MNY d          21.619   9.920  16.997  0.00  0.00     0.041 A 
+ATOM     12  C23 MNY d          22.145   9.981  15.689  0.00  0.00     0.032 A 
+ATOM     13  C24 MNY d          23.109   9.053  15.248  0.00  0.00     0.032 A 
+ATOM     14  C25 MNY d          23.575   8.042  16.108  0.00  0.00     0.041 A 
+ATOM     15  O16 MNY d          20.698   9.638  19.681  0.00  0.00    -0.286 OA
+ATOM     16  O13 MNY d          24.385   6.058  17.999  0.00  0.00    -0.286 OA
+ENDROOT
+BRANCH  11  17
+ATOM     17  N22 MNY d          20.661  10.875  17.378  0.00  0.00    -0.398 N 
+ATOM     18  H6  MNY d          20.261  10.853  18.327  0.00  0.00     0.156 HD
+ATOM     19  H7  MNY d          20.359  11.597  16.708  0.00  0.00     0.156 HD
+ENDBRANCH  11  17
+BRANCH  14  20
+ATOM     20  N25 MNY d          24.564   7.119  15.605  0.00  0.00    -0.398 N 
+ATOM     21  H8  MNY d          24.924   6.369  16.212  0.00  0.00     0.156 HD
+ATOM     22  H9  MNY d          24.910   7.211  14.639  0.00  0.00     0.156 HD
+ENDBRANCH  14  20
+BRANCH   1  23
+ATOM     23  O1  MNY d          20.563   8.585  22.065  0.00  0.00    -0.360 OA
+ATOM     24  H5  MNY d          20.343   9.204  21.379  0.00  0.00     0.217 HD
+ENDBRANCH   1  23
+BRANCH   4  25
+ATOM     25  O4  MNY d          24.430   4.799  20.293  0.00  0.00    -0.360 OA
+ATOM     26  H10 MNY d          24.688   4.959  19.393  0.00  0.00     0.217 HD
+ENDBRANCH   4  25
+TORSDOF 4

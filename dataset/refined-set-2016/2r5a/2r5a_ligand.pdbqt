@@ -1,0 +1,42 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CA_2  and  C_9 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CG_4  and  CD_5 
+REMARK    6  A    between atoms: CD_5  and  CE_6 
+REMARK    7  A    between atoms: CE_6  and  NZ_7 
+ROOT
+ATOM      1  CA  MLZ d         -26.430 -20.552 -17.220  0.00  0.00     0.283 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   MLZ d         -26.994 -20.526 -15.837  0.00  0.00    -0.065 N 
+ATOM      3  H1  MLZ d         -27.164 -19.571 -15.561  0.00  0.00     0.275 HD
+ATOM      4  H2  MLZ d         -26.338 -20.948 -15.199  0.00  0.00     0.275 HD
+ATOM      5  H3  MLZ d         -27.861 -21.040 -15.818  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  CB  MLZ d         -25.137 -19.737 -17.298  0.00  0.00     0.044 C 
+BRANCH   6   7
+ATOM      7  CG  MLZ d         -25.070 -19.016 -18.636  0.00  0.00     0.004 C 
+BRANCH   7   8
+ATOM      8  CD  MLZ d         -23.806 -18.183 -18.801  0.00  0.00     0.027 C 
+BRANCH   8   9
+ATOM      9  CE  MLZ d         -23.515 -18.037 -20.287  0.00  0.00     0.231 C 
+BRANCH   9  10
+ATOM     10  NZ  MLZ d         -22.692 -16.901 -20.642  0.00  0.00    -0.079 N 
+ATOM     11  CM  MLZ d         -22.704 -16.439 -22.020  0.00  0.00     0.266 C 
+ATOM     12  H13 MLZ d         -21.739 -17.142 -20.417  0.00  0.00     0.276 HD
+ATOM     13  H14 MLZ d         -22.988 -16.128 -20.067  0.00  0.00     0.276 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  14
+ATOM     14  C   MLZ d         -26.153 -21.954 -17.693  0.00  0.00     0.204 C 
+ATOM     15  O   MLZ d         -25.435 -22.706 -17.026  0.00  0.00    -0.646 OA
+ATOM     16  OXT MLZ d         -26.620 -22.366 -18.766  0.00  0.00    -0.646 OA
+ENDBRANCH   1  14
+TORSDOF 7

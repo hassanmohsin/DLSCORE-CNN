@@ -1,0 +1,149 @@
+REMARK  29 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBN_2  and  CAZ_4 
+REMARK    2  A    between atoms: CAZ_4  and  CBB_5 
+REMARK    3  A    between atoms: CBB_5  and  CBW_6 
+REMARK    4  A    between atoms: CBW_6  and  CBP_7 
+REMARK    5  A    between atoms: CBW_6  and  NBI_10 
+REMARK       I    between atoms: NBI_10  and  CBQ_11 
+REMARK       I    between atoms: CBQ_11  and  N_13 
+REMARK    6  A    between atoms: N_13  and  CA_14 
+REMARK    7  A    between atoms: CA_14  and  C_15 
+REMARK    8  A    between atoms: CA_14  and  CB_18 
+REMARK    9  A    between atoms: CB_18  and  CAP_19 
+REMARK   10  A    between atoms: CAP_19  and  CAQ_20 
+REMARK   11  A    between atoms: CAQ_20  and  CBC_21 
+REMARK   12  A    between atoms: CBC_21  and  NBX_22 
+REMARK   13  A    between atoms: CBR_26  and  CBD_27 
+REMARK   14  A    between atoms: CBD_27  and  OBM_28 
+REMARK   15  A    between atoms: OBM_28  and  CAY_29 
+REMARK   16  A    between atoms: CAY_29  and  CAX_30 
+REMARK   17  A    between atoms: CAX_30  and  OBL_31 
+REMARK   18  A    between atoms: OBL_31  and  CAW_32 
+REMARK   19  A    between atoms: CAW_32  and  CAV_33 
+REMARK   20  A    between atoms: CAV_33  and  OBK_34 
+REMARK   21  A    between atoms: OBK_34  and  CAU_35 
+REMARK   22  A    between atoms: CAU_35  and  CAT_36 
+REMARK   23  A    between atoms: CAT_36  and  OBJ_37 
+REMARK   24  A    between atoms: OBJ_37  and  CAS_38 
+REMARK   25  A    between atoms: CAS_38  and  CAR_39 
+REMARK   26  A    between atoms: CAR_39  and  NBG_40 
+REMARK   27  A    between atoms: NBG_40  and  CBT_41 
+REMARK   28  A    between atoms: CBS_44  and  NBY_45 
+REMARK   29  A    between atoms: CBU_49  and  NBZ_50 
+ROOT
+ATOM      1  NBX CI9 d          24.655  46.548  40.716  0.00  0.00    -0.261 N 
+ATOM      2  CAO CI9 d          24.867  47.862  40.747  0.00  0.00     0.145 A 
+ATOM      3  NBF CI9 d          24.906  46.078  39.587  0.00  0.00    -0.066 NA
+ATOM      4  NBE CI9 d          25.290  46.964  38.810  0.00  0.00    -0.133 NA
+ATOM      5  CBR CI9 d          25.282  48.101  39.502  0.00  0.00     0.099 A 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CBD CI9 d          25.637  49.339  38.991  0.00  0.00     0.230 C 
+BRANCH   6   7
+ATOM      7  OBM CI9 d          25.874  50.414  39.914  0.00  0.00    -0.383 OA
+BRANCH   7   8
+ATOM      8  CAY CI9 d          24.972  51.477  39.648  0.00  0.00     0.194 C 
+BRANCH   8   9
+ATOM      9  CAX CI9 d          25.419  52.682  40.443  0.00  0.00     0.193 C 
+BRANCH   9  10
+ATOM     10  OBL CI9 d          25.323  52.351  41.840  0.00  0.00    -0.387 OA
+BRANCH  10  11
+ATOM     11  CAW CI9 d          24.825  53.482  42.548  0.00  0.00     0.193 C 
+BRANCH  11  12
+ATOM     12  CAV CI9 d          25.845  53.802  43.598  0.00  0.00     0.193 C 
+BRANCH  12  13
+ATOM     13  OBK CI9 d          26.695  54.888  43.150  0.00  0.00    -0.387 OA
+BRANCH  13  14
+ATOM     14  CAU CI9 d          27.812  55.036  44.071  0.00  0.00     0.193 C 
+BRANCH  14  15
+ATOM     15  CAT CI9 d          27.341  55.132  45.546  0.00  0.00     0.193 C 
+BRANCH  15  16
+ATOM     16  OBJ CI9 d          28.209  54.410  46.438  0.00  0.00    -0.387 OA
+BRANCH  16  17
+ATOM     17  CAS CI9 d          27.466  53.623  47.375  0.00  0.00     0.187 C 
+BRANCH  17  18
+ATOM     18  CAR CI9 d          28.561  52.801  48.057  0.00  0.00     0.146 C 
+BRANCH  18  19
+ATOM     19  NBG CI9 d          29.605  53.683  48.611  0.00  0.00    -0.386 N 
+ATOM     20  H36 CI9 d          29.293  54.367  49.315  0.00  0.00     0.159 HD
+BRANCH  19  21
+ATOM     21  CBT CI9 d          30.917  53.703  48.308  0.00  0.00     0.061 A 
+ATOM     22  CAM CI9 d          31.351  54.597  47.318  0.00  0.00     0.034 A 
+ATOM     23  CAL CI9 d          32.706  54.692  46.996  0.00  0.00     0.038 A 
+ATOM     24  CBS CI9 d          33.640  53.899  47.670  0.00  0.00     0.105 A 
+ATOM     25  CAN CI9 d          33.205  53.024  48.667  0.00  0.00     0.074 A 
+ATOM     26  CBU CI9 d          31.856  52.909  49.006  0.00  0.00     0.131 A 
+BRANCH  24  27
+ATOM     27  NBY CI9 d          34.955  53.956  47.379  0.00  0.00    -0.116 N 
+ATOM     28  OAJ CI9 d          35.439  53.784  46.028  0.00  0.00    -0.532 OA
+ATOM     29  OAE CI9 d          35.921  54.139  48.428  0.00  0.00    -0.532 OA
+ENDBRANCH  24  27
+BRANCH  26  30
+ATOM     30  NBZ CI9 d          31.527  52.024  49.974  0.00  0.00    -0.113 N 
+ATOM     31  OAK CI9 d          30.206  51.644  50.231  0.00  0.00    -0.532 OA
+ATOM     32  OAF CI9 d          32.528  51.392  50.744  0.00  0.00    -0.532 OA
+ENDBRANCH  26  30
+ENDBRANCH  19  21
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   1  33
+ATOM     33  CBC CI9 d          24.174  45.714  41.846  0.00  0.00     0.152 C 
+BRANCH  33  34
+ATOM     34  CAQ CI9 d          22.726  46.041  42.095  0.00  0.00     0.022 C 
+BRANCH  34  35
+ATOM     35  CAP CI9 d          22.183  45.315  43.358  0.00  0.00     0.004 C 
+BRANCH  35  36
+ATOM     36  CB  CI9 d          20.678  45.580  43.305  0.00  0.00     0.036 C 
+BRANCH  36  37
+ATOM     37  CA  CI9 d          19.849  44.891  44.368  0.00  0.00     0.187 C 
+BRANCH  37  38
+ATOM     38  N   CI9 d          18.526  45.276  43.890  0.00  0.00    -0.329 N 
+ATOM     39  CBQ CI9 d          17.844  44.501  43.028  0.00  0.00     0.317 C 
+ATOM     40  NBI CI9 d          16.594  44.895  42.682  0.00  0.00    -0.329 N 
+ATOM     41  OAD CI9 d          18.266  43.448  42.536  0.00  0.00    -0.247 OA
+ATOM     42  H6  CI9 d          16.116  45.593  43.215  0.00  0.00     0.165 HD
+ATOM     43  H7  CI9 d          18.119  46.132  44.209  0.00  0.00     0.165 HD
+BRANCH  40  44
+ATOM     44  CBW CI9 d          15.946  44.276  41.502  0.00  0.00     0.187 C 
+BRANCH  44  45
+ATOM     45  CBB CI9 d          14.652  45.017  41.080  0.00  0.00     0.046 C 
+BRANCH  45  46
+ATOM     46  CAZ CI9 d          14.908  46.536  41.003  0.00  0.00     0.116 C 
+BRANCH  46  47
+ATOM     47  CBN CI9 d          13.712  47.316  40.369  0.00  0.00     0.172 C 
+ATOM     48  OAA CI9 d          13.702  48.558  40.576  0.00  0.00    -0.648 OA
+ATOM     49  OAG CI9 d          12.915  46.745  39.587  0.00  0.00    -0.648 OA
+ENDBRANCH  46  47
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+BRANCH  44  50
+ATOM     50  CBP CI9 d          16.930  44.446  40.311  0.00  0.00     0.196 C 
+ATOM     51  OAI CI9 d          16.818  43.646  39.335  0.00  0.00    -0.646 OA
+ATOM     52  OAC CI9 d          17.807  45.358  40.327  0.00  0.00    -0.646 OA
+ENDBRANCH  44  50
+ENDBRANCH  40  44
+ENDBRANCH  37  38
+BRANCH  37  53
+ATOM     53  C   CI9 d          20.103  45.592  45.695  0.00  0.00     0.196 C 
+ATOM     54  OXT CI9 d          19.542  46.703  45.865  0.00  0.00    -0.646 OA
+ATOM     55  O   CI9 d          20.718  44.910  46.553  0.00  0.00    -0.646 OA
+ENDBRANCH  37  53
+ENDBRANCH  36  37
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH   1  33
+TORSDOF 29

@@ -1,0 +1,96 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C46_2  and  C41_4 
+REMARK    2  A    between atoms: C43_9  and  N24_10 
+REMARK    3  A    between atoms: C29_15  and  C21_16 
+REMARK       I    between atoms: C21_16  and  N20_18 
+REMARK    4  A    between atoms: N20_18  and  C19_19 
+REMARK    5  A    between atoms: C19_19  and  C32_20 
+REMARK    6  A    between atoms: C19_19  and  C17_27 
+REMARK    7  A    between atoms: C32_20  and  C38_21 
+REMARK    8  A    between atoms: C17_27  and  O18_28 
+REMARK    9  A    between atoms: C17_27  and  C16_29 
+REMARK   10  A    between atoms: C16_29  and  N11_30 
+REMARK   11  A    between atoms: N11_30  and  C12_31 
+REMARK   12  A    between atoms: N11_30  and  S8_35 
+REMARK   13  A    between atoms: C12_31  and  C13_32 
+REMARK   14  A    between atoms: S8_35  and  C5_38 
+ROOT
+ATOM      1  C19 K62 d          19.417  29.204  14.125  0.00  0.00     0.118 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N20 K62 d          20.345  28.345  13.376  0.00  0.00    -0.351 N 
+ATOM      3  C21 K62 d          21.053  28.792  12.321  0.00  0.00     0.249 C 
+ATOM      4  O22 K62 d          21.073  29.956  11.942  0.00  0.00    -0.271 OA
+ATOM      5  H11 K62 d          20.455  27.393  13.660  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  C29 K62 d          21.868  27.805  11.538  0.00  0.00     0.243 C 
+ATOM      7  O28 K62 d          21.856  26.484  12.093  0.00  0.00    -0.287 OA
+ATOM      8  C26 K62 d          21.529  25.579  11.017  0.00  0.00     0.368 C 
+ATOM      9  N24 K62 d          21.192  26.260   9.920  0.00  0.00    -0.291 N 
+ATOM     10  O27 K62 d          21.612  24.373  11.185  0.00  0.00    -0.238 OA
+ATOM     11  C25 K62 d          21.239  27.703  10.125  0.00  0.00     0.177 C 
+BRANCH   9  12
+ATOM     12  C43 K62 d          20.855  25.677   8.679  0.00  0.00     0.040 A 
+ATOM     13  C44 K62 d          21.366  24.428   8.298  0.00  0.00     0.030 A 
+ATOM     14  C45 K62 d          21.019  23.854   7.080  0.00  0.00     0.003 A 
+ATOM     15  C40 K62 d          20.172  24.519   6.205  0.00  0.00     0.015 A 
+ATOM     16  C41 K62 d          19.652  25.760   6.564  0.00  0.00     0.011 A 
+ATOM     17  C42 K62 d          19.997  26.339   7.789  0.00  0.00     0.044 A 
+BRANCH  16  18
+ATOM     18  C46 K62 d          18.728  26.491   5.628  0.00  0.00     0.155 C 
+ATOM     19  O45 K62 d          18.485  27.669   5.850  0.00  0.00    -0.293 OA
+ATOM     20  C47 K62 d          18.128  25.773   4.452  0.00  0.00     0.096 C 
+ENDBRANCH  16  18
+ENDBRANCH   9  12
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     21  C32 K62 d          18.093  28.422  14.019  0.00  0.00     0.066 C 
+BRANCH  21  22
+ATOM     22  C38 K62 d          17.786  28.119  12.554  0.00  0.00    -0.056 A 
+ATOM     23  C37 K62 d          17.394  29.124  11.669  0.00  0.00     0.007 A 
+ATOM     24  C36 K62 d          17.136  28.829  10.319  0.00  0.00     0.001 A 
+ATOM     25  C35 K62 d          17.278  27.539   9.839  0.00  0.00     0.000 A 
+ATOM     26  C34 K62 d          17.663  26.535  10.719  0.00  0.00     0.001 A 
+ATOM     27  C33 K62 d          17.918  26.822  12.061  0.00  0.00     0.007 A 
+ENDBRANCH  21  22
+ENDBRANCH   1  21
+BRANCH   1  28
+ATOM     28  C17 K62 d          19.862  29.499  15.559  0.00  0.00     0.155 C 
+BRANCH  28  29
+ATOM     29  O18 K62 d          19.769  28.334  16.419  0.00  0.00    -0.392 OA
+ATOM     30  H21 K62 d          20.055  28.565  17.295  0.00  0.00     0.210 HD
+ENDBRANCH  28  29
+BRANCH  28  31
+ATOM     31  C16 K62 d          19.015  30.646  16.139  0.00  0.00     0.141 C 
+BRANCH  31  32
+ATOM     32  N11 K62 d          19.268  31.928  15.429  0.00  0.00    -0.204 NA
+BRANCH  32  33
+ATOM     33  C12 K62 d          20.053  32.892  16.242  0.00  0.00     0.111 C 
+BRANCH  33  34
+ATOM     34  C13 K62 d          21.535  32.480  16.302  0.00  0.00    -0.009 C 
+ATOM     35  C15 K62 d          22.309  33.438  17.197  0.00  0.00     0.011 C 
+ATOM     36  C14 K62 d          22.168  32.443  14.906  0.00  0.00     0.011 C 
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+BRANCH  32  37
+ATOM     37  S8  K62 d          17.961  32.576  14.697  0.00  0.00     0.243 S 
+ATOM     38  O9  K62 d          18.477  33.480  13.715  0.00  0.00    -0.206 OA
+ATOM     39  O10 K62 d          17.204  31.504  14.089  0.00  0.00    -0.206 OA
+BRANCH  37  40
+ATOM     40  C5  K62 d          17.057  33.401  15.765  0.00  0.00     0.077 A 
+ATOM     41  C6  K62 d          16.066  32.727  16.481  0.00  0.00     0.028 A 
+ATOM     42  C7  K62 d          15.287  33.392  17.441  0.00  0.00     0.041 A 
+ATOM     43  C2  K62 d          15.517  34.736  17.675  0.00  0.00     0.105 A 
+ATOM     44  C3  K62 d          16.487  35.423  16.981  0.00  0.00     0.106 A 
+ATOM     45  O19 K62 d          14.897  35.570  18.556  0.00  0.00    -0.323 OA
+ATOM     46  C4  K62 d          17.266  34.775  16.021  0.00  0.00     0.064 A 
+ATOM     47  O29 K62 d          16.497  36.730  17.405  0.00  0.00    -0.323 OA
+ATOM     48  C18 K62 d          15.538  36.861  18.467  0.00  0.00     0.352 A 
+ENDBRANCH  37  40
+ENDBRANCH  32  37
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH   1  28
+TORSDOF 14

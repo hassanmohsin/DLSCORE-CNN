@@ -1,0 +1,82 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O38_38 
+REMARK    2  A    between atoms: C15_15  and  N10_10 
+REMARK    3  A    between atoms: C16_16  and  C15_15 
+REMARK    4  A    between atoms: C16_16  and  O17_17 
+REMARK    5  A    between atoms: C18_18  and  C16_16 
+REMARK    6  A    between atoms: C18_18  and  N19_19 
+REMARK    7  A    between atoms: C31_31  and  C18_18 
+REMARK       I    between atoms: N19_19  and  C20_20 
+REMARK    8  A    between atoms: C20_20  and  O22_22 
+REMARK    9  A    between atoms: O22_22  and  C23_23 
+REMARK   10  A    between atoms: C37_37  and  C31_31 
+ROOT
+ATOM      1  C16 GR6 d          16.171 -18.789  -4.556  0.00  0.00     0.160 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C15 GR6 d          15.189 -19.930  -4.208  0.00  0.00     0.169 C 
+BRANCH   2   3
+ATOM      3  N10 GR6 d          15.319 -20.930  -5.278  0.00  0.00    -0.304 N 
+ATOM      4  S7  GR6 d          15.753 -22.482  -4.799  0.00  0.00     0.263 S 
+ATOM      5  C4  GR6 d          14.312 -23.344  -4.153  0.00  0.00     0.113 A 
+ATOM      6  O8  GR6 d          16.668 -22.372  -3.695  0.00  0.00    -0.200 OA
+ATOM      7  O9  GR6 d          16.165 -23.185  -6.018  0.00  0.00    -0.200 OA
+ATOM      8  C3  GR6 d          13.308 -23.873  -4.964  0.00  0.00     0.094 A 
+ATOM      9  C5  GR6 d          14.309 -23.582  -2.774  0.00  0.00     0.031 A 
+ATOM     10  C2  GR6 d          12.288 -24.647  -4.399  0.00  0.00     0.075 A 
+ATOM     11  O40 GR6 d          13.349 -23.615  -6.318  0.00  0.00    -0.349 OA
+ATOM     12  C1  GR6 d          12.298 -24.874  -3.027  0.00  0.00     0.070 A 
+ATOM     13  C6  GR6 d          13.306 -24.343  -2.212  0.00  0.00     0.038 A 
+ATOM     14  C41 GR6 d          12.282 -24.126  -7.140  0.00  0.00     0.179 C 
+ATOM     15  C42 GR6 d          12.558 -23.980  -8.627  0.00  0.00     0.053 C 
+ATOM     16  C43 GR6 d          12.854 -22.559  -9.004  0.00  0.00    -0.029 C 
+ATOM     17  C44 GR6 d          14.078 -22.226  -9.468  0.00  0.00    -0.031 C 
+ATOM     18  C14 GR6 d          14.431 -20.827  -9.859  0.00  0.00     0.027 C 
+ATOM     19  C13 GR6 d          15.394 -19.967  -9.028  0.00  0.00     0.005 C 
+ATOM     20  C12 GR6 d          15.895 -20.554  -7.690  0.00  0.00     0.021 C 
+ATOM     21  C11 GR6 d          14.797 -20.716  -6.624  0.00  0.00     0.135 C 
+BRANCH  12  22
+ATOM     22  O38 GR6 d          11.338 -25.615  -2.417  0.00  0.00    -0.356 OA
+ATOM     23  C39 GR6 d          10.534 -26.430  -3.267  0.00  0.00     0.210 C 
+ENDBRANCH  12  22
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  O17 GR6 d          15.785 -17.653  -3.771  0.00  0.00    -0.392 OA
+ATOM     25  H15 GR6 d          16.369 -16.927  -3.958  0.00  0.00     0.210 HD
+ENDBRANCH   1  24
+BRANCH   1  26
+ATOM     26  C18 GR6 d          17.651 -19.145  -4.333  0.00  0.00     0.121 C 
+BRANCH  26  27
+ATOM     27  N19 GR6 d          18.478 -18.047  -4.886  0.00  0.00    -0.329 N 
+ATOM     28  C20 GR6 d          19.183 -18.254  -6.030  0.00  0.00     0.361 C 
+ATOM     29  O21 GR6 d          19.337 -19.300  -6.639  0.00  0.00    -0.238 OA
+ATOM     30  H17 GR6 d          18.517 -17.162  -4.422  0.00  0.00     0.165 HD
+BRANCH  28  31
+ATOM     31  O22 GR6 d          19.711 -17.065  -6.403  0.00  0.00    -0.296 OA
+BRANCH  31  32
+ATOM     32  C23 GR6 d          20.719 -17.065  -7.444  0.00  0.00     0.166 C 
+ATOM     33  C24 GR6 d          20.439 -15.775  -8.230  0.00  0.00     0.204 C 
+ATOM     34  O25 GR6 d          20.955 -14.712  -7.444  0.00  0.00    -0.358 OA
+ATOM     35  C26 GR6 d          22.118 -15.159  -6.736  0.00  0.00     0.266 C 
+ATOM     36  O27 GR6 d          21.989 -14.809  -5.387  0.00  0.00    -0.361 OA
+ATOM     37  C30 GR6 d          22.100 -16.707  -6.825  0.00  0.00     0.075 C 
+ATOM     38  C28 GR6 d          21.796 -15.958  -4.539  0.00  0.00     0.171 C 
+ATOM     39  C29 GR6 d          22.332 -17.124  -5.355  0.00  0.00     0.038 C 
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  26  27
+BRANCH  26  40
+ATOM     40  C31 GR6 d          17.991 -19.258  -2.805  0.00  0.00     0.066 C 
+BRANCH  40  41
+ATOM     41  C37 GR6 d          19.493 -19.469  -2.697  0.00  0.00    -0.056 A 
+ATOM     42  C32 GR6 d          20.295 -18.463  -2.138  0.00  0.00     0.007 A 
+ATOM     43  C33 GR6 d          21.673 -18.628  -2.028  0.00  0.00     0.001 A 
+ATOM     44  C34 GR6 d          22.245 -19.827  -2.490  0.00  0.00     0.000 A 
+ATOM     45  C35 GR6 d          21.455 -20.839  -3.051  0.00  0.00     0.001 A 
+ATOM     46  C36 GR6 d          20.082 -20.660  -3.154  0.00  0.00     0.007 A 
+ENDBRANCH  40  41
+ENDBRANCH  26  40
+ENDBRANCH   1  26
+TORSDOF 10

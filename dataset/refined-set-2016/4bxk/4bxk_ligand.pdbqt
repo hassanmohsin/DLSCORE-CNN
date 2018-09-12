@@ -1,0 +1,88 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBB_5  and  CAP_6 
+REMARK    2  A    between atoms: CAP_6  and  CBE_7 
+REMARK    3  A    between atoms: CBE_7  and  NAD_8 
+REMARK    4  A    between atoms: CBE_7  and  CAZ_9 
+REMARK       I    between atoms: CAZ_9  and  NAV_11 
+REMARK    5  A    between atoms: NAV_11  and  CBF_12 
+REMARK    6  A    between atoms: CBF_12  and  CAO_13 
+REMARK    7  A    between atoms: CBF_12  and  PBG_20 
+REMARK    8  A    between atoms: CAO_13  and  CBA_14 
+REMARK    9  A    between atoms: PBG_20  and  CAQ_23 
+REMARK   10  A    between atoms: CAQ_23  and  CBC_24 
+REMARK   11  A    between atoms: CBC_24  and  CAY_26 
+REMARK       I    between atoms: CAY_26  and  N_28 
+REMARK   12  A    between atoms: N_28  and  CA_29 
+REMARK   13  A    between atoms: CA_29  and  C_31 
+REMARK       I    between atoms: C_31  and  NAC_33 
+ROOT
+ATOM      1  CBF 1IU d          -2.198 -16.925 -23.294  0.00  0.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  NAV 1IU d          -3.082 -17.940 -22.694  0.00  0.00    -0.345 N 
+ATOM      3  CAZ 1IU d          -3.780 -18.783 -23.491  0.00  0.00     0.249 C 
+ATOM      4  OAG 1IU d          -3.796 -18.691 -24.709  0.00  0.00    -0.271 OA
+ATOM      5  H8  1IU d          -3.166 -18.006 -21.700  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CBE 1IU d          -4.610 -19.936 -22.893  0.00  0.00     0.281 C 
+BRANCH   6   7
+ATOM      7  CAP 1IU d          -4.307 -20.199 -21.428  0.00  0.00     0.124 C 
+BRANCH   7   8
+ATOM      8  CBB 1IU d          -5.120 -21.380 -20.912  0.00  0.00     0.148 A 
+ATOM      9  NAS 1IU d          -5.747 -22.302 -21.634  0.00  0.00    -0.243 N 
+ATOM     10  NAR 1IU d          -6.288 -23.036 -20.813  0.00  0.00    -0.047 NA
+ATOM     11  H1  1IU d          -5.773 -22.383 -22.660  0.00  0.00     0.192 HD
+ATOM     12  NAW 1IU d          -6.047 -22.628 -19.619  0.00  0.00    -0.023 NA
+ATOM     13  NAT 1IU d          -5.349 -21.628 -19.629  0.00  0.00    -0.114 NA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  14
+ATOM     14  NAD 1IU d          -6.017 -19.647 -23.162  0.00  0.00    -0.066 N 
+ATOM     15  H5  1IU d          -6.144 -19.484 -24.149  0.00  0.00     0.275 HD
+ATOM     16  H6  1IU d          -6.296 -18.827 -22.647  0.00  0.00     0.275 HD
+ATOM     17  H7  1IU d          -6.582 -20.431 -22.876  0.00  0.00     0.275 HD
+ENDBRANCH   6  14
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  CAO 1IU d          -2.458 -15.523 -22.781  0.00  0.00     0.074 C 
+BRANCH  18  19
+ATOM     19  CBA 1IU d          -3.760 -15.121 -23.182  0.00  0.00    -0.056 A 
+ATOM     20  CAM 1IU d          -4.808 -15.044 -22.263  0.00  0.00     0.007 A 
+ATOM     21  CAK 1IU d          -6.082 -14.638 -22.673  0.00  0.00     0.001 A 
+ATOM     22  CAJ 1IU d          -6.337 -14.292 -23.998  0.00  0.00     0.000 A 
+ATOM     23  CAL 1IU d          -5.288 -14.361 -24.909  0.00  0.00     0.001 A 
+ATOM     24  CAN 1IU d          -4.017 -14.764 -24.504  0.00  0.00     0.007 A 
+ENDBRANCH  18  19
+ENDBRANCH   1  18
+BRANCH   1  25
+ATOM     25  PBG 1IU d          -0.456 -17.496 -22.868  0.00  0.00     0.130 P 
+ATOM     26  OAI 1IU d          -0.301 -18.909 -23.551  0.00  0.00    -0.666 OA
+ATOM     27  OAH 1IU d          -0.275 -17.643 -21.402  0.00  0.00    -0.666 OA
+BRANCH  25  28
+ATOM     28  CAQ 1IU d           0.595 -16.389 -23.748  0.00  0.00     0.119 C 
+BRANCH  28  29
+ATOM     29  CBC 1IU d           1.939 -16.286 -22.994  0.00  0.00     0.083 C 
+ATOM     30  CAA 1IU d           3.083 -15.970 -23.999  0.00  0.00     0.020 C 
+BRANCH  29  31
+ATOM     31  CAY 1IU d           1.954 -15.154 -21.938  0.00  0.00     0.222 C 
+ATOM     32  OAF 1IU d           1.142 -14.221 -21.962  0.00  0.00    -0.273 OA
+ATOM     33  N   1IU d           2.983 -15.251 -21.080  0.00  0.00    -0.348 N 
+ATOM     34  H23 1IU d           3.616 -16.018 -21.187  0.00  0.00     0.163 HD
+BRANCH  33  35
+ATOM     35  CA  1IU d           3.231 -14.291 -19.990  0.00  0.00     0.172 C 
+ATOM     36  CB  1IU d           4.323 -14.832 -19.050  0.00  0.00     0.042 C 
+BRANCH  35  37
+ATOM     37  C   1IU d           3.654 -12.908 -20.544  0.00  0.00     0.237 C 
+ATOM     38  O   1IU d           3.354 -11.886 -19.924  0.00  0.00    -0.271 OA
+ATOM     39  NAC 1IU d           4.312 -12.887 -21.710  0.00  0.00    -0.368 N 
+ATOM     40  H28 1IU d           4.604 -12.015 -22.104  0.00  0.00     0.159 HD
+ATOM     41  H29 1IU d           4.512 -13.743 -22.187  0.00  0.00     0.159 HD
+ENDBRANCH  35  37
+ENDBRANCH  33  35
+ENDBRANCH  29  31
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH   1  25
+TORSDOF 13

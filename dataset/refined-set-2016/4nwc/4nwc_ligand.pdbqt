@@ -1,0 +1,51 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  N_5 
+REMARK    3  A    between atoms: CA_4  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+REMARK    5  A    between atoms: CG_7  and  CD2_8 
+REMARK    6  A    between atoms: CG_7  and  CD1_11 
+REMARK    7  A    between atoms: CD1_11  and  CAH_12 
+REMARK    8  A    between atoms: CAH_12  and  CAN_13 
+REMARK    9  A    between atoms: CAN_13  and  OAK_15 
+ROOT
+ATOM      1  CG  MOL d           4.343  27.511  15.215  0.00  0.00     0.089 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  MOL d           3.542  28.816  15.023  0.00  0.00     0.059 C 
+BRANCH   2   3
+ATOM      3  CA  MOL d           3.546  29.337  13.582  0.00  0.00     0.284 C 
+BRANCH   3   4
+ATOM      4  C   MOL d           2.444  30.367  13.350  0.00  0.00     0.204 C 
+ATOM      5  O   MOL d           2.778  31.426  12.784  0.00  0.00    -0.646 OA
+ATOM      6  OXT MOL d           1.289  30.058  13.715  0.00  0.00    -0.646 OA
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  N   MOL d           4.845  29.935  13.204  0.00  0.00    -0.065 N 
+ATOM      8  H   MOL d           5.581  29.262  13.354  0.00  0.00     0.275 HD
+ATOM      9  H   MOL d           5.016  30.752  13.770  0.00  0.00     0.275 HD
+ATOM     10  H   MOL d           4.823  30.198  12.231  0.00  0.00     0.275 HD
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD2 MOL d           3.592  26.349  14.551  0.00  0.00     0.177 C 
+ATOM     12  OAG MOL d           2.390  26.510  14.257  0.00  0.00    -0.648 OA
+ATOM     13  OAD MOL d           4.254  25.302  14.333  0.00  0.00    -0.648 OA
+ENDBRANCH   1  11
+BRANCH   1  14
+ATOM     14  CD1 MOL d           4.598  27.241  16.708  0.00  0.00     0.025 C 
+BRANCH  14  15
+ATOM     15  CAH MOL d           5.651  28.173  17.343  0.00  0.00     0.112 C 
+BRANCH  15  16
+ATOM     16  CAN MOL d           7.014  28.007  16.644  0.00  0.00     0.258 C 
+ATOM     17  OAE MOL d           7.545  26.887  16.586  0.00  0.00    -0.265 OA
+BRANCH  16  18
+ATOM     18  OAK MOL d           7.539  29.158  16.145  0.00  0.00    -0.326 OA
+ATOM     19  CAA MOL d           8.643  28.991  15.259  0.00  0.00     0.213 C 
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+TORSDOF 9

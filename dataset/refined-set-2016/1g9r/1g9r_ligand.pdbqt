@@ -1,0 +1,89 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9 
+REMARK    2  A    between atoms: C2'_10  and  O2'_11 
+REMARK    3  A    between atoms: C3'_12  and  O3'_15 
+REMARK    4  A    between atoms: C4'_13  and  C5'_16 
+REMARK    5  A    between atoms: C5'_16  and  O5'_17 
+REMARK    6  A    between atoms: O5'_17  and  PA_18 
+REMARK    7  A    between atoms: PA_18  and  O3A_21 
+REMARK    8  A    between atoms: O3A_21  and  PB_22 
+REMARK    9  A    between atoms: PB_22  and  O3B_25 
+REMARK   10  A    between atoms: O3B_25  and  C1'_26 
+REMARK   11  A    between atoms: C3'_28  and  O3'_33 
+REMARK   12  A    between atoms: C4'_29  and  O4'_34 
+REMARK   13  A    between atoms: C5'_30  and  C6'_31 
+REMARK   14  A    between atoms: C6'_31  and  O6'_36 
+ROOT
+ATOM      1  PA  UPF d          26.669  49.083  60.775  0.00  0.00     0.417 P 
+ATOM      2  O1A UPF d          28.131  49.302  60.770  0.00  0.00    -0.624 OA
+ATOM      3  O2A UPF d          25.993  49.617  59.551  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O5' UPF d          26.196  47.573  61.063  0.00  0.00    -0.287 OA
+BRANCH   4   5
+ATOM      5  C5' UPF d          26.754  46.228  61.370  0.00  0.00     0.216 C 
+BRANCH   5   6
+ATOM      6  C4' UPF d          28.068  45.811  60.788  0.00  0.00     0.180 C 
+ATOM      7  C3' UPF d          28.844  46.440  59.638  0.00  0.00     0.182 C 
+ATOM      8  C2' UPF d          29.131  45.208  58.793  0.00  0.00     0.198 C 
+ATOM      9  C1' UPF d          27.849  44.398  58.881  0.00  0.00     0.263 C 
+ATOM     10  O4' UPF d          27.248  44.761  60.103  0.00  0.00    -0.353 OA
+BRANCH   7  11
+ATOM     11  O3' UPF d          29.923  47.221  60.117  0.00  0.00    -0.390 OA
+ATOM     12  H9  UPF d          29.588  47.915  60.673  0.00  0.00     0.210 HD
+ENDBRANCH   7  11
+BRANCH   8  13
+ATOM     13  O2' UPF d          30.236  44.444  59.266  0.00  0.00    -0.388 OA
+ATOM     14  H6  UPF d          31.029  44.964  59.204  0.00  0.00     0.210 HD
+ENDBRANCH   8  13
+BRANCH   9  15
+ATOM     15  N1  UPF d          27.163  44.456  57.503  0.00  0.00    -0.280 N 
+ATOM     16  C2  UPF d          27.534  43.796  56.323  0.00  0.00     0.331 A 
+ATOM     17  N3  UPF d          26.660  44.074  55.247  0.00  0.00    -0.275 N 
+ATOM     18  O2  UPF d          28.508  43.060  56.249  0.00  0.00    -0.246 OA
+ATOM     19  C4  UPF d          25.501  44.926  55.274  0.00  0.00     0.250 A 
+ATOM     20  H1  UPF d          26.870  43.632  54.375  0.00  0.00     0.173 HD
+ATOM     21  C5  UPF d          25.203  45.563  56.520  0.00  0.00     0.092 A 
+ATOM     22  O4  UPF d          24.843  45.063  54.261  0.00  0.00    -0.268 OA
+ATOM     23  C6  UPF d          25.994  45.332  57.560  0.00  0.00     0.104 A 
+ENDBRANCH   9  15
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  24
+ATOM     24  O3A UPF d          25.938  49.260  62.184  0.00  0.00    -0.180 OA
+BRANCH  24  25
+ATOM     25  PB  UPF d          25.680  50.476  63.170  0.00  0.00     0.420 P 
+ATOM     26  O1B UPF d          27.020  51.096  63.263  0.00  0.00    -0.624 OA
+ATOM     27  O2B UPF d          24.709  51.358  62.530  0.00  0.00    -0.624 OA
+BRANCH  25  28
+ATOM     28  O3B UPF d          25.216  49.967  64.584  0.00  0.00    -0.255 OA
+BRANCH  28  29
+ATOM     29  C1' UPF d          25.592  49.806  66.137  0.00  0.00     0.309 C 
+ATOM     30  C2' UPF d          27.068  49.264  66.108  0.00  0.00     0.257 C 
+ATOM     31  C3' UPF d          27.388  48.034  65.112  0.00  0.00     0.188 C 
+ATOM     32  F2' UPF d          27.995  50.287  65.860  0.00  0.00    -0.241 F 
+ATOM     33  C4' UPF d          26.355  46.893  65.389  0.00  0.00     0.180 C 
+ATOM     34  C5' UPF d          24.923  47.585  65.361  0.00  0.00     0.179 C 
+ATOM     35  O5' UPF d          24.711  48.696  66.374  0.00  0.00    -0.348 OA
+BRANCH  31  36
+ATOM     36  O3' UPF d          28.664  47.530  65.388  0.00  0.00    -0.390 OA
+ATOM     37  H19 UPF d          28.706  47.259  66.298  0.00  0.00     0.210 HD
+ENDBRANCH  31  36
+BRANCH  33  38
+ATOM     38  O4' UPF d          26.642  46.302  66.694  0.00  0.00    -0.390 OA
+ATOM     39  H20 UPF d          27.502  45.899  66.675  0.00  0.00     0.210 HD
+ENDBRANCH  33  38
+BRANCH  34  40
+ATOM     40  C6' UPF d          23.902  46.555  65.839  0.00  0.00     0.198 C 
+BRANCH  40  41
+ATOM     41  O6' UPF d          23.660  45.309  65.248  0.00  0.00    -0.398 OA
+ATOM     42  H21 UPF d          22.979  44.857  65.732  0.00  0.00     0.209 HD
+ENDBRANCH  40  41
+ENDBRANCH  34  40
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH  24  25
+ENDBRANCH   1  24
+TORSDOF 14

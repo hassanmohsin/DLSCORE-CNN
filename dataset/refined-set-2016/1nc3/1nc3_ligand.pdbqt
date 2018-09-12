@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_10  and  C1'_11 
+REMARK    2  A    between atoms: C2'_12  and  O2'_13 
+REMARK    3  A    between atoms: C3'_14  and  O3'_15 
+REMARK    4  A    between atoms: C4'_16  and  C5'_18 
+REMARK    5  A    between atoms: C5'_18  and  O5'_19 
+ROOT
+ATOM      1  N1  FMC d          52.374  40.634  19.822  0.00  0.00    -0.222 NA
+ATOM      2  C2  FMC d          53.072  40.673  20.986  0.00  0.00     0.236 A 
+ATOM      3  N3  FMC d          54.379  40.334  21.123  0.00  0.00    -0.237 NA
+ATOM      4  C4  FMC d          55.013  39.913  19.895  0.00  0.00     0.119 A 
+ATOM      5  C5  FMC d          54.340  39.857  18.658  0.00  0.00     0.126 A 
+ATOM      6  C6  FMC d          52.936  40.241  18.632  0.00  0.00     0.153 A 
+ATOM      7  N6  FMC d          52.201  40.219  17.517  0.00  0.00    -0.382 N 
+ATOM      8  N7  FMC d          55.230  39.420  17.715  0.00  0.00    -0.272 N 
+ATOM      9  N8  FMC d          56.473  39.184  18.313  0.00  0.00    -0.174 NA
+ATOM     10  C9  FMC d          56.366  39.470  19.630  0.00  0.00     0.117 A 
+ATOM     11  H2  FMC d          52.625  39.924  16.626  0.00  0.00     0.157 HD
+ATOM     12  H3  FMC d          51.210  40.497  17.548  0.00  0.00     0.157 HD
+ATOM     13  H4  FMC d          55.017  39.285  16.716  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH  10  14
+ATOM     14  C1' FMC d          57.547  39.316  20.657  0.00  0.00     0.209 C 
+ATOM     15  C2' FMC d          57.480  39.880  22.108  0.00  0.00     0.184 C 
+ATOM     16  C3' FMC d          57.684  38.688  23.024  0.00  0.00     0.180 C 
+ATOM     17  C4' FMC d          57.434  37.385  22.204  0.00  0.00     0.177 C 
+ATOM     18  O4' FMC d          57.780  37.887  20.839  0.00  0.00    -0.367 OA
+BRANCH  15  19
+ATOM     19  O2' FMC d          58.359  40.912  22.435  0.00  0.00    -0.390 OA
+ATOM     20  H7  FMC d          59.253  40.613  22.321  0.00  0.00     0.210 HD
+ENDBRANCH  15  19
+BRANCH  16  21
+ATOM     21  O3' FMC d          59.047  38.815  23.510  0.00  0.00    -0.390 OA
+ATOM     22  H9  FMC d          59.140  39.637  23.978  0.00  0.00     0.210 HD
+ENDBRANCH  16  21
+BRANCH  17  23
+ATOM     23  C5' FMC d          55.950  36.844  22.200  0.00  0.00     0.198 C 
+BRANCH  23  24
+ATOM     24  O5' FMC d          55.446  36.346  23.437  0.00  0.00    -0.398 OA
+ATOM     25  H13 FMC d          54.551  36.050  23.317  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH  17  23
+ENDBRANCH  10  14
+TORSDOF 5

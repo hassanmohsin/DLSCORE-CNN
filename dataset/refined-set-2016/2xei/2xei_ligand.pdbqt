@@ -1,0 +1,125 @@
+REMARK  23 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBH_2  and  CAV_4 
+REMARK    2  A    between atoms: CAV_4  and  CAX_5 
+REMARK    3  A    between atoms: CAX_5  and  CBQ_6 
+REMARK    4  A    between atoms: CBQ_6  and  CBJ_7 
+REMARK    5  A    between atoms: CBQ_6  and  NBE_10 
+REMARK       I    between atoms: NBE_10  and  CBK_11 
+REMARK       I    between atoms: CBK_11  and  N_13 
+REMARK    6  A    between atoms: N_13  and  CA_14 
+REMARK    7  A    between atoms: CA_14  and  C_15 
+REMARK    8  A    between atoms: CA_14  and  CB_18 
+REMARK    9  A    between atoms: CB_18  and  CAP_19 
+REMARK   10  A    between atoms: CAP_19  and  CAQ_20 
+REMARK   11  A    between atoms: CAQ_20  and  CAY_21 
+REMARK   12  A    between atoms: CAY_21  and  NBR_22 
+REMARK   13  A    between atoms: CBL_26  and  CAZ_27 
+REMARK   14  A    between atoms: CAZ_27  and  OBG_28 
+REMARK   15  A    between atoms: OBG_28  and  CAU_29 
+REMARK   16  A    between atoms: CAU_29  and  CAT_30 
+REMARK   17  A    between atoms: CAT_30  and  OBF_31 
+REMARK   18  A    between atoms: OBF_31  and  CAS_32 
+REMARK   19  A    between atoms: CAS_32  and  CAR_33 
+REMARK   20  A    between atoms: CAR_33  and  NBC_34 
+REMARK   21  A    between atoms: NBC_34  and  CBN_35 
+REMARK   22  A    between atoms: CBM_38  and  NBS_39 
+REMARK   23  A    between atoms: CBO_43  and  NBT_44 
+ROOT
+ATOM      1  NBR ARK d          24.726  47.561  41.645  0.00  0.00    -0.261 N 
+ATOM      2  CAO ARK d          25.131  48.366  42.643  0.00  0.00     0.145 A 
+ATOM      3  NBB ARK d          25.011  48.045  40.532  0.00  0.00    -0.066 NA
+ATOM      4  NBA ARK d          25.591  49.133  40.672  0.00  0.00    -0.133 NA
+ATOM      5  CBL ARK d          25.694  49.376  41.991  0.00  0.00     0.099 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  CAY ARK d          24.015  46.275  41.872  0.00  0.00     0.152 C 
+BRANCH   6   7
+ATOM      7  CAQ ARK d          23.057  46.490  43.037  0.00  0.00     0.022 C 
+BRANCH   7   8
+ATOM      8  CAP ARK d          22.113  45.316  43.234  0.00  0.00     0.004 C 
+BRANCH   8   9
+ATOM      9  CB  ARK d          20.669  45.826  43.264  0.00  0.00     0.036 C 
+BRANCH   9  10
+ATOM     10  CA  ARK d          19.796  44.961  44.242  0.00  0.00     0.187 C 
+BRANCH  10  11
+ATOM     11  N   ARK d          18.454  45.191  43.742  0.00  0.00    -0.329 N 
+ATOM     12  CBK ARK d          17.835  44.413  42.854  0.00  0.00     0.317 C 
+ATOM     13  NBE ARK d          16.583  44.770  42.555  0.00  0.00    -0.329 N 
+ATOM     14  OAD ARK d          18.332  43.392  42.347  0.00  0.00    -0.247 OA
+ATOM     15  H6  ARK d          16.111  45.434  43.135  0.00  0.00     0.165 HD
+ATOM     16  H7  ARK d          17.959  45.988  44.087  0.00  0.00     0.165 HD
+BRANCH  13  17
+ATOM     17  CBQ ARK d          15.884  44.207  41.390  0.00  0.00     0.187 C 
+BRANCH  17  18
+ATOM     18  CAX ARK d          14.574  45.018  41.042  0.00  0.00     0.046 C 
+BRANCH  18  19
+ATOM     19  CAV ARK d          14.856  46.536  40.813  0.00  0.00     0.116 C 
+BRANCH  19  20
+ATOM     20  CBH ARK d          13.813  47.444  40.045  0.00  0.00     0.172 C 
+ATOM     21  OAA ARK d          13.858  48.698  40.215  0.00  0.00    -0.648 OA
+ATOM     22  OAG ARK d          12.996  46.866  39.297  0.00  0.00    -0.648 OA
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  17  23
+ATOM     23  CBJ ARK d          16.871  44.417  40.189  0.00  0.00     0.196 C 
+ATOM     24  OAI ARK d          16.774  43.624  39.193  0.00  0.00    -0.646 OA
+ATOM     25  OAC ARK d          17.727  45.352  40.258  0.00  0.00    -0.646 OA
+ENDBRANCH  17  23
+ENDBRANCH  13  17
+ENDBRANCH  10  11
+BRANCH  10  26
+ATOM     26  C   ARK d          19.896  45.556  45.645  0.00  0.00     0.196 C 
+ATOM     27  OXT ARK d          19.416  46.711  45.800  0.00  0.00    -0.646 OA
+ATOM     28  O   ARK d          20.517  44.851  46.504  0.00  0.00    -0.646 OA
+ENDBRANCH  10  26
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   5  29
+ATOM     29  CAZ ARK d          26.281  50.496  42.602  0.00  0.00     0.230 C 
+BRANCH  29  30
+ATOM     30  OBG ARK d          25.433  51.603  42.988  0.00  0.00    -0.383 OA
+BRANCH  30  31
+ATOM     31  CAU ARK d          25.338  51.678  44.430  0.00  0.00     0.194 C 
+BRANCH  31  32
+ATOM     32  CAT ARK d          25.290  53.141  44.955  0.00  0.00     0.193 C 
+BRANCH  32  33
+ATOM     33  OBF ARK d          26.603  53.557  45.410  0.00  0.00    -0.387 OA
+BRANCH  33  34
+ATOM     34  CAS ARK d          26.775  53.215  46.805  0.00  0.00     0.187 C 
+BRANCH  34  35
+ATOM     35  CAR ARK d          28.000  52.331  47.092  0.00  0.00     0.146 C 
+BRANCH  35  36
+ATOM     36  NBC ARK d          29.094  53.181  47.593  0.00  0.00    -0.386 N 
+ATOM     37  H28 ARK d          29.022  54.196  47.433  0.00  0.00     0.159 HD
+BRANCH  36  38
+ATOM     38  CBN ARK d          30.179  52.728  48.244  0.00  0.00     0.061 A 
+ATOM     39  CAM ARK d          30.074  52.078  49.475  0.00  0.00     0.034 A 
+ATOM     40  CAL ARK d          31.223  51.642  50.116  0.00  0.00     0.038 A 
+ATOM     41  CBM ARK d          32.480  51.865  49.550  0.00  0.00     0.105 A 
+ATOM     42  CAN ARK d          32.580  52.524  48.342  0.00  0.00     0.074 A 
+ATOM     43  CBO ARK d          31.443  52.959  47.690  0.00  0.00     0.131 A 
+BRANCH  41  44
+ATOM     44  NBS ARK d          33.623  51.454  50.113  0.00  0.00    -0.116 N 
+ATOM     45  OAJ ARK d          34.851  51.657  49.432  0.00  0.00    -0.532 OA
+ATOM     46  OAE ARK d          33.662  50.692  51.329  0.00  0.00    -0.532 OA
+ENDBRANCH  41  44
+BRANCH  43  47
+ATOM     47  NBT ARK d          31.605  53.565  46.517  0.00  0.00    -0.113 N 
+ATOM     48  OAK ARK d          32.910  53.705  45.977  0.00  0.00    -0.532 OA
+ATOM     49  OAF ARK d          30.476  53.971  45.752  0.00  0.00    -0.532 OA
+ENDBRANCH  43  47
+ENDBRANCH  36  38
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   5  29
+TORSDOF 23

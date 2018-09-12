@@ -1,0 +1,62 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C07_2  and  O02_12 
+REMARK    2  A    between atoms: C07_2  and  C08_27 
+REMARK    3  A    between atoms: C09_3  and  C10_4 
+REMARK    4  A    between atoms: C08_27  and  C09_3 
+REMARK    5  A    between atoms: C11_28  and  C13_5 
+REMARK    6  A    between atoms: C12_29  and  C19_6 
+REMARK    7  A    between atoms: C04_18  and  N01_7 
+REMARK    8  A    between atoms: N01_7  and  C11_28 
+REMARK    9  A    between atoms: N01_7  and  C12_29 
+ROOT
+ATOM      1  C01 LZQ d          45.795  12.182   2.537  0.00  0.00     0.010 A 
+ATOM      2  C07 LZQ d          45.948  14.677   2.447  0.00  0.00     0.158 C 
+ATOM      3  C02 LZQ d          45.915  10.888   1.900  0.00  0.00     0.003 A 
+ATOM      4  C03 LZQ d          46.325  10.771   0.506  0.00  0.00     0.029 A 
+ATOM      5  C04 LZQ d          46.627  11.970  -0.276  0.00  0.00     0.031 A 
+ATOM      6  C05 LZQ d          46.501  13.299   0.383  0.00  0.00     0.039 A 
+ATOM      7  C06 LZQ d          46.078  13.411   1.811  0.00  0.00    -0.027 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  N01 LZQ d          47.060  11.868  -1.740  0.00  0.00    -0.372 N 
+BRANCH   8   9
+ATOM      9  C11 LZQ d          48.558  11.851  -2.139  0.00  0.00     0.162 C 
+BRANCH   9  10
+ATOM     10  C13 LZQ d          49.332  10.508  -1.762  0.00  0.00    -0.040 A 
+ATOM     11  C14 LZQ d          50.030  10.385  -0.463  0.00  0.00     0.009 A 
+ATOM     12  C15 LZQ d          50.747   9.141  -0.113  0.00  0.00     0.001 A 
+ATOM     13  C16 LZQ d          50.781   8.008  -1.046  0.00  0.00     0.000 A 
+ATOM     14  C17 LZQ d          50.099   8.110  -2.337  0.00  0.00     0.001 A 
+ATOM     15  C18 LZQ d          49.375   9.355  -2.699  0.00  0.00     0.009 A 
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+BRANCH   8  16
+ATOM     16  C12 LZQ d          45.987  11.840  -2.821  0.00  0.00     0.162 C 
+BRANCH  16  17
+ATOM     17  C19 LZQ d          45.665  10.456  -3.551  0.00  0.00    -0.040 A 
+ATOM     18  C20 LZQ d          45.373  10.452  -5.008  0.00  0.00     0.009 A 
+ATOM     19  C21 LZQ d          45.067   9.189  -5.711  0.00  0.00     0.001 A 
+ATOM     20  C22 LZQ d          45.048   7.924  -4.973  0.00  0.00     0.000 A 
+ATOM     21  C23 LZQ d          45.335   7.921  -3.535  0.00  0.00     0.001 A 
+ATOM     22  C24 LZQ d          45.642   9.177  -2.820  0.00  0.00     0.009 A 
+ENDBRANCH  16  17
+ENDBRANCH   8  16
+ENDBRANCH   5   8
+BRANCH   2  23
+ATOM     23  O02 LZQ d          44.716  14.985   2.853  0.00  0.00    -0.390 OA
+ATOM     24  H6  LZQ d          44.724  15.842   3.263  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   2  25
+ATOM     25  C08 LZQ d          46.866  15.814   2.795  0.00  0.00     0.127 C 
+BRANCH  25  26
+ATOM     26  C09 LZQ d          47.519  15.602   4.205  0.00  0.00     0.227 C 
+ATOM     27  O10 LZQ d          47.281  14.612   4.897  0.00  0.00    -0.286 OA
+BRANCH  26  28
+ATOM     28  C10 LZQ d          48.358  16.546   4.646  0.00  0.00     0.246 C 
+ATOM     29  O01 LZQ d          47.919  17.947   4.618  0.00  0.00    -0.642 OA
+ATOM     30  O11 LZQ d          49.475  16.224   5.068  0.00  0.00    -0.642 OA
+ENDBRANCH  26  28
+ENDBRANCH  25  26
+ENDBRANCH   2  25
+TORSDOF 9

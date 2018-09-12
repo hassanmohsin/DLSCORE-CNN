@@ -1,0 +1,19 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_4 
+ROOT
+ATOM      1  CA  MOL d          22.227  40.168  73.019  0.00  0.00     0.185 C 
+ATOM      2  CB  MOL d          22.201  39.748  74.476  0.00  0.00     0.058 C 
+ATOM      3  CAD MOL d          20.843  39.121  74.807  0.00  0.00     0.153 C 
+ATOM      4  NAG MOL d          20.578  37.994  73.875  0.00  0.00    -0.277 NA
+ATOM      5  CAI MOL d          21.128  37.971  72.584  0.00  0.00     0.091 C 
+ATOM      6  CAA MOL d          20.853  36.787  71.641  0.00  0.00     0.090 C 
+ATOM      7  N   MOL d          21.962  39.009  72.147  0.00  0.00    -0.364 N 
+ATOM      8  H9  MOL d          22.392  38.962  71.212  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  C   MOL d          23.529  40.846  72.613  0.00  0.00     0.196 C 
+ATOM     10  O   MOL d          24.078  41.635  73.382  0.00  0.00    -0.646 OA
+ATOM     11  OXT MOL d          24.022  40.622  71.501  0.00  0.00    -0.646 OA
+ENDBRANCH   1   9
+TORSDOF 1

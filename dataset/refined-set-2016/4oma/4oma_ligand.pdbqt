@@ -1,0 +1,51 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  O3_5 
+REMARK    2  A    between atoms: C4_6  and  C4A_7 
+REMARK    3  A    between atoms: C4A_7  and  N_16 
+REMARK    4  A    between atoms: C5_8  and  C5A_10 
+REMARK    5  A    between atoms: C5A_10  and  O4P_11 
+REMARK    6  A    between atoms: O4P_11  and  P_12 
+REMARK    7  A    between atoms: N_16  and  CA_17 
+ROOT
+ATOM      1  N1  LCS d           4.449  21.193  14.326  0.00  0.00    -0.262 NA
+ATOM      2  C2  LCS d           5.346  20.634  15.160  0.00  0.00     0.064 C 
+ATOM      3  C2A LCS d           5.232  20.900  16.542  0.00  0.00     0.073 C 
+ATOM      4  C3  LCS d           6.413  19.912  14.596  0.00  0.00     0.098 C 
+ATOM      5  C4  LCS d           6.517  19.607  13.240  0.00  0.00     0.004 C 
+ATOM      6  C5  LCS d           5.530  20.181  12.389  0.00  0.00    -0.006 C 
+ATOM      7  C6  LCS d           4.496  20.955  12.998  0.00  0.00     0.127 C 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C4A LCS d           7.523  18.837  12.644  0.00  0.00     0.162 C 
+BRANCH   8   9
+ATOM      9  N   LCS d           8.598  18.446  13.592  0.00  0.00    -0.380 N 
+ATOM     10  H10 LCS d           8.444  18.579  14.602  0.00  0.00     0.160 HD
+BRANCH   9  11
+ATOM     11  CA  LCS d           9.769  17.922  13.174  0.00  0.00     0.109 A 
+ATOM     12  C   LCS d          10.802  17.638  13.975  0.00  0.00     0.227 A 
+ATOM     13  O   LCS d          10.858  17.860  15.315  0.00  0.00    -0.168 OA
+ATOM     14  ND  LCS d          11.817  17.144  13.267  0.00  0.00    -0.235 N 
+ATOM     15  OG  LCS d          11.288  17.075  11.748  0.00  0.00    -0.246 OA
+ATOM     16  H11 LCS d          12.717  16.873  13.607  0.00  0.00     0.197 HD
+ATOM     17  CB  LCS d          10.001  17.608  11.830  0.00  0.00     0.201 A 
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+BRANCH   4  18
+ATOM     18  O3  LCS d           7.250  19.392  15.504  0.00  0.00    -0.358 OA
+ATOM     19  H4  LCS d           7.944  18.920  15.059  0.00  0.00     0.217 HD
+ENDBRANCH   4  18
+BRANCH   6  20
+ATOM     20  C5A LCS d           5.465  20.073  10.921  0.00  0.00     0.223 C 
+BRANCH  20  21
+ATOM     21  O4P LCS d           5.043  18.802  10.556  0.00  0.00    -0.278 OA
+BRANCH  21  22
+ATOM     22  P   LCS d           5.315  17.991   9.191  0.00  0.00     0.422 P 
+ATOM     23  O1P LCS d           5.022  18.941   8.138  0.00  0.00    -0.617 OA
+ATOM     24  O2P LCS d           6.829  17.698   9.366  0.00  0.00    -0.617 OA
+ATOM     25  O3P LCS d           4.507  16.790   9.282  0.00  0.00    -0.617 OA
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   6  20
+TORSDOF 7

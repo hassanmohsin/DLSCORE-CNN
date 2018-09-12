@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: SAZ_26  and  NAC_3 
+REMARK    2  A    between atoms: CAR_18  and  CAI_9 
+REMARK    3  A    between atoms: CAT_20  and  OAP_16 
+REMARK    4  A    between atoms: OAP_16  and  SAZ_26 
+ROOT
+ATOM      1  CAB VZ4 d          -1.265   4.903  10.228  0.00  0.00     0.024 C 
+ATOM      2  OAD VZ4 d          -1.253   5.090   6.931  0.00  0.00    -0.297 OA
+ATOM      3  CAG VZ4 d          -4.099   1.273  14.215  0.00  0.00     0.046 A 
+ATOM      4  CAH VZ4 d          -5.026   3.587  12.993  0.00  0.00     0.018 A 
+ATOM      5  CAJ VZ4 d          -0.102   3.134   7.880  0.00  0.00     0.079 C 
+ATOM      6  CAK VZ4 d          -3.159   0.317  12.147  0.00  0.00     0.039 C 
+ATOM      7  CAL VZ4 d          -0.501   2.354   9.153  0.00  0.00     0.013 C 
+ATOM      8  CAM VZ4 d          -2.588   0.756  10.801  0.00  0.00     0.010 C 
+ATOM      9  CAN VZ4 d          -4.163   4.282  10.347  0.00  0.00     0.011 C 
+ATOM     10  CAO VZ4 d          -3.460   4.620   9.006  0.00  0.00     0.018 C 
+ATOM     11  CAQ VZ4 d          -1.143   4.261   7.832  0.00  0.00     0.135 C 
+ATOM     12  CAR VZ4 d          -5.203   3.402  14.368  0.00  0.00    -0.023 A 
+ATOM     13  CAS VZ4 d          -3.894   1.460  12.853  0.00  0.00    -0.049 A 
+ATOM     14  CAT VZ4 d          -4.777   2.217  14.952  0.00  0.00     0.098 A 
+ATOM     15  CAU VZ4 d          -4.365   2.617  12.239  0.00  0.00    -0.047 A 
+ATOM     16  CAV VZ4 d          -4.075   2.793  10.749  0.00  0.00     0.024 C 
+ATOM     17  CAW VZ4 d          -2.633   2.269  10.610  0.00  0.00    -0.000 C 
+ATOM     18  CAX VZ4 d          -1.995   2.663   9.279  0.00  0.00     0.006 C 
+ATOM     19  CAY VZ4 d          -2.003   4.160   9.097  0.00  0.00     0.021 C 
+ENDROOT
+BRANCH  14  20
+ATOM     20  OAP VZ4 d          -4.871   2.037  16.316  0.00  0.00    -0.216 OA
+BRANCH  20  21
+ATOM     21  SAZ VZ4 d          -5.753   1.156  16.926  0.00  0.00     0.360 S 
+ATOM     22  OAE VZ4 d          -5.468   1.295  18.391  0.00  0.00    -0.176 OA
+ATOM     23  OAF VZ4 d          -7.113   1.602  16.627  0.00  0.00    -0.176 OA
+BRANCH  21  24
+ATOM     24  NAC VZ4 d          -5.423  -0.335  16.461  0.00  0.00    -0.305 N 
+ATOM     25  H7  VZ4 d          -5.967  -1.099  16.808  0.00  0.00     0.171 HD
+ATOM     26  H8  VZ4 d          -4.673  -0.505  15.822  0.00  0.00     0.171 HD
+ENDBRANCH  21  24
+ENDBRANCH  20  21
+ENDBRANCH  14  20
+BRANCH  12  27
+ATOM     27  CAI VZ4 d          -5.950   4.472  15.151  0.00  0.00     0.037 C 
+ATOM     28  CAA VZ4 d          -5.238   5.826  15.067  0.00  0.00     0.010 C 
+ENDBRANCH  12  27
+TORSDOF 4

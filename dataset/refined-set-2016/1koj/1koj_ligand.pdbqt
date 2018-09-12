@@ -1,0 +1,52 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  C1_13 
+REMARK    2  A    between atoms: C2_1  and  O2_5 
+REMARK    3  A    between atoms: C2_1  and  C3_2 
+REMARK    4  A    between atoms: C3_2  and  O3_6 
+REMARK    5  A    between atoms: C3_2  and  C4_3 
+REMARK    6  A    between atoms: C4_3  and  O4_7 
+REMARK    7  A    between atoms: C4_3  and  C5_4 
+REMARK    8  A    between atoms: C5_4  and  O5_8 
+REMARK    9  A    between atoms: O5_8  and  P_9 
+REMARK       I    between atoms: C1_13  and  N_15 
+ROOT
+ATOM      1  C3  PAN d          16.745   8.911  29.864  0.00  0.00     0.187 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  PAN d          15.254   9.386  30.024  0.00  0.00     0.245 C 
+BRANCH   2   3
+ATOM      3  C1  PAN d          15.016  10.148  28.676  0.00  0.00     0.300 C 
+ATOM      4  N   PAN d          14.061   9.504  28.032  0.00  0.00    -0.056 NA
+ATOM      5  ON1 PAN d          13.561   9.926  26.731  0.00  0.00    -0.058 OA
+ATOM      6  O1  PAN d          15.509  11.145  28.161  0.00  0.00    -0.266 OA
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O2  PAN d          14.471   8.212  30.325  0.00  0.00    -0.383 OA
+ATOM      8  H6  PAN d          14.618   7.555  29.655  0.00  0.00     0.210 HD
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  O3  PAN d          16.837   7.932  28.848  0.00  0.00    -0.390 OA
+ATOM     10  H7  PAN d          16.295   7.187  29.078  0.00  0.00     0.210 HD
+ENDBRANCH   1   9
+BRANCH   1  11
+ATOM     11  C4  PAN d          17.244   8.170  31.150  0.00  0.00     0.174 C 
+BRANCH  11  12
+ATOM     12  O4  PAN d          17.174   9.145  32.205  0.00  0.00    -0.391 OA
+ATOM     13  H8  PAN d          17.732   9.883  31.990  0.00  0.00     0.210 HD
+ENDBRANCH  11  12
+BRANCH  11  14
+ATOM     14  C5  PAN d          18.724   7.738  30.881  0.00  0.00     0.217 C 
+BRANCH  14  15
+ATOM     15  O5  PAN d          19.443   9.016  30.592  0.00  0.00    -0.280 OA
+BRANCH  15  16
+ATOM     16  P   PAN d          21.003   8.656  30.198  0.00  0.00     0.422 P 
+ATOM     17  O3P PAN d          21.659  10.015  29.921  0.00  0.00    -0.617 OA
+ATOM     18  O2P PAN d          21.031   7.776  28.963  0.00  0.00    -0.617 OA
+ATOM     19  O1P PAN d          21.688   7.850  31.309  0.00  0.00    -0.617 OA
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   1  11
+TORSDOF 9

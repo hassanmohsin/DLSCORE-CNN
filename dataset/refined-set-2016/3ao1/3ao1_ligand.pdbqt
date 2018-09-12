@@ -1,0 +1,19 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O10_10 
+ROOT
+ATOM      1  C1  BZX d          19.676   8.127  10.573  0.00  0.00     0.076 A 
+ATOM      2  C2  BZX d          20.850   7.752  11.210  0.00  0.00     0.068 A 
+ATOM      3  C3  BZX d          22.125   8.156  10.781  0.00  0.00     0.039 A 
+ATOM      4  C4  BZX d          22.294   8.975   9.662  0.00  0.00     0.042 A 
+ATOM      5  C5  BZX d          21.134   9.362   9.016  0.00  0.00     0.105 A 
+ATOM      6  C6  BZX d          19.821   8.943   9.471  0.00  0.00     0.107 A 
+ATOM      7  O7  BZX d          18.887   9.469   8.622  0.00  0.00    -0.323 OA
+ATOM      8  C8  BZX d          19.582   9.936   7.459  0.00  0.00     0.352 C 
+ATOM      9  O9  BZX d          20.938  10.123   7.906  0.00  0.00    -0.323 OA
+ENDROOT
+BRANCH   2  10
+ATOM     10  O10 BZX d          20.740   6.958  12.293  0.00  0.00    -0.361 OA
+ATOM     11  H6  BZX d          19.823   6.773  12.457  0.00  0.00     0.217 HD
+ENDBRANCH   2  10
+TORSDOF 1

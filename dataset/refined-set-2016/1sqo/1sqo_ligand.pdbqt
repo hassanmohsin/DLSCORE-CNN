@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  N17_11 
+REMARK    2  A    between atoms: C12_9  and  C28_18 
+REMARK    3  A    between atoms: N17_11  and  C18_12 
+REMARK    4  A    between atoms: C28_18  and  N29_19 
+ROOT
+ATOM      1  C1  UI2 d          22.848  15.604  33.486  0.00  0.00     0.003 A 
+ATOM      2  C2  UI2 d          21.563  15.615  32.925  0.00  0.00     0.012 A 
+ATOM      3  C3  UI2 d          20.683  16.743  33.131  0.00  0.00    -0.024 A 
+ATOM      4  C4  UI2 d          21.183  17.831  33.920  0.00  0.00     0.002 A 
+ATOM      5  C5  UI2 d          22.484  17.860  34.472  0.00  0.00     0.060 A 
+ATOM      6  C6  UI2 d          23.314  16.720  34.258  0.00  0.00     0.031 A 
+ATOM      7  C10 UI2 d          19.395  16.702  32.592  0.00  0.00     0.013 A 
+ATOM      8  C11 UI2 d          18.519  17.766  32.944  0.00  0.00     0.016 A 
+ATOM      9  C12 UI2 d          18.939  18.849  33.778  0.00  0.00     0.008 A 
+ATOM     10  C13 UI2 d          20.251  18.926  34.232  0.00  0.00     0.029 A 
+ENDROOT
+BRANCH   5  11
+ATOM     11  N17 UI2 d          23.023  18.979  35.199  0.00  0.00    -0.187 N 
+ATOM     12  H7  UI2 d          23.000  19.896  34.731  0.00  0.00     0.184 HD
+BRANCH  11  13
+ATOM     13  C18 UI2 d          23.573  18.935  36.477  0.00  0.00     0.726 A 
+ATOM     14  N19 UI2 d          23.542  17.827  37.284  0.00  0.00    -0.075 NA
+ATOM     15  C20 UI2 d          24.018  17.762  38.555  0.00  0.00     0.138 A 
+ATOM     16  C21 UI2 d          24.623  18.926  39.179  0.00  0.00     0.040 A 
+ATOM     17  C22 UI2 d          24.565  20.060  38.270  0.00  0.00     0.138 A 
+ATOM     18  N23 UI2 d          24.123  20.087  37.040  0.00  0.00    -0.075 NA
+ENDBRANCH  11  13
+ENDBRANCH   5  11
+BRANCH   9  19
+ATOM     19  C28 UI2 d          18.109  19.891  34.190  0.00  0.00     0.102 C 
+ATOM     20  N30 UI2 d          18.543  21.090  34.651  0.00  0.00    -0.385 N 
+ATOM     21  H13 UI2 d          19.553  21.282  34.715  0.00  0.00     0.157 HD
+ATOM     22  H14 UI2 d          17.863  21.809  34.937  0.00  0.00     0.157 HD
+BRANCH  19  23
+ATOM     23  N29 UI2 d          16.803  19.779  34.160  0.00  0.00    -0.385 N 
+ATOM     24  H11 UI2 d          16.212  20.563  34.470  0.00  0.00     0.157 HD
+ATOM     25  H12 UI2 d          16.368  18.907  33.827  0.00  0.00     0.157 HD
+ENDBRANCH  19  23
+ENDBRANCH   9  19
+TORSDOF 4

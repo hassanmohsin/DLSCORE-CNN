@@ -1,0 +1,53 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1_3 
+REMARK    2  A    between atoms: C1_3  and  CAH_4 
+REMARK    3  A    between atoms: CAH_4  and  CAG_5 
+REMARK       I    between atoms: CAG_5  and  NAI_7 
+REMARK    4  A    between atoms: NAI_7  and  CAB_8 
+REMARK    5  A    between atoms: CAC_9  and  OAJ_10 
+REMARK    6  A    between atoms: CAD_11  and  OAK_12 
+REMARK    7  A    between atoms: CAE_13  and  CAF_14 
+REMARK    8  A    between atoms: CAF_14  and  OAM_15 
+ROOT
+ATOM      1  CAB VPU d          -3.533  16.050  11.825  0.00  0.00     0.192 C 
+ATOM      2  CAC VPU d          -2.577  14.918  12.240  0.00  0.00     0.180 C 
+ATOM      3  CAD VPU d          -1.931  14.395  10.952  0.00  0.00     0.180 C 
+ATOM      4  CAE VPU d          -0.971  15.428  10.341  0.00  0.00     0.185 C 
+ATOM      5  OAL VPU d          -1.507  16.766  10.300  0.00  0.00    -0.326 OA
+ATOM      6  CAA VPU d          -2.741  17.077  11.032  0.00  0.00     0.159 C 
+ATOM      7  NAY VPU d          -3.192  18.258  10.974  0.00  0.00    -0.280 NA
+ATOM      8  H20 VPU d          -2.692  18.964  10.457  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  NAI VPU d          -4.215  16.604  13.008  0.00  0.00    -0.346 N 
+ATOM     10  CAG VPU d          -5.456  16.226  13.374  0.00  0.00     0.218 C 
+ATOM     11  OAN VPU d          -6.113  15.387  12.768  0.00  0.00    -0.274 OA
+ATOM     12  H10 VPU d          -3.738  17.287  13.561  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CAH VPU d          -6.053  16.885  14.605  0.00  0.00     0.103 C 
+BRANCH  13  14
+ATOM     14  C1  VPU d          -7.518  17.255  14.346  0.00  0.00     0.009 C 
+BRANCH  14  15
+ATOM     15  C2  VPU d          -7.654  18.620  13.688  0.00  0.00    -0.004 C 
+ATOM     16  C3  VPU d          -8.571  18.593  12.453  0.00  0.00     0.005 C 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   1   9
+BRANCH   2  17
+ATOM     17  OAJ VPU d          -3.228  13.842  12.946  0.00  0.00    -0.390 OA
+ATOM     18  H13 VPU d          -2.586  13.179  13.172  0.00  0.00     0.210 HD
+ENDBRANCH   2  17
+BRANCH   3  19
+ATOM     19  OAK VPU d          -1.236  13.158  11.195  0.00  0.00    -0.390 OA
+ATOM     20  H15 VPU d          -1.851  12.508  11.516  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   4  21
+ATOM     21  CAF VPU d          -0.589  15.011   8.930  0.00  0.00     0.199 C 
+BRANCH  21  22
+ATOM     22  OAM VPU d          -1.262  15.370   7.973  0.00  0.00    -0.398 OA
+ATOM     23  H19 VPU d          -1.273  16.319   7.933  0.00  0.00     0.209 HD
+ENDBRANCH  21  22
+ENDBRANCH   4  21
+TORSDOF 8

@@ -1,0 +1,48 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C10_10 
+REMARK    2  A    between atoms: N7_7  and  C20_20 
+REMARK    3  A    between atoms: C10_10  and  C11_11 
+REMARK    4  A    between atoms: C11_11  and  C12_12 
+REMARK    5  A    between atoms: C12_12  and  C13_13 
+REMARK    6  A    between atoms: C13_13  and  C14_14 
+REMARK    7  A    between atoms: C20_20  and  C21_21 
+ROOT
+ATOM      1  N1  POY d          18.605 -11.046  19.507  0.00  0.00    -0.264 N 
+ATOM      2  C2  POY d          17.771 -10.193  20.153  0.00  0.00     0.282 A 
+ATOM      3  C3  POY d          18.243  -9.635  21.340  0.00  0.00     0.151 A 
+ATOM      4  C4  POY d          19.497  -9.880  21.825  0.00  0.00     0.167 A 
+ATOM      5  N5  POY d          20.334 -10.751  21.202  0.00  0.00    -0.286 N 
+ATOM      6  C6  POY d          19.900 -11.338  20.030  0.00  0.00     0.333 A 
+ATOM      7  N7  POY d          17.760  -8.754  22.202  0.00  0.00    -0.334 N 
+ATOM      8  C8  POY d          18.713  -8.568  23.245  0.00  0.00     0.212 A 
+ATOM      9  N9  POY d          19.783  -9.218  23.008  0.00  0.00    -0.223 NA
+ATOM     10  O17 POY d          16.605 -10.059  19.744  0.00  0.00    -0.265 OA
+ATOM     11  O18 POY d          20.655 -12.112  19.418  0.00  0.00    -0.246 OA
+ATOM     12  C19 POY d          21.668 -10.992  21.871  0.00  0.00     0.163 C 
+ENDROOT
+BRANCH   1  13
+ATOM     13  C10 POY d          18.130 -11.704  18.211  0.00  0.00     0.137 C 
+BRANCH  13  14
+ATOM     14  C11 POY d          17.399 -13.038  18.536  0.00  0.00     0.021 C 
+BRANCH  14  15
+ATOM     15  C12 POY d          17.438 -14.110  17.339  0.00  0.00     0.009 C 
+BRANCH  15  16
+ATOM     16  C13 POY d          16.814 -13.298  16.161  0.00  0.00     0.078 C 
+BRANCH  16  17
+ATOM     17  C14 POY d          16.641 -14.158  14.944  0.00  0.00     0.123 C 
+ATOM     18  C15 POY d          16.837 -15.530  15.016  0.00  0.00     0.091 C 
+ATOM     19  O16 POY d          16.121 -13.643  13.876  0.00  0.00    -0.298 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   7  20
+ATOM     20  C20 POY d          16.458  -8.184  22.069  0.00  0.00     0.130 C 
+BRANCH  20  21
+ATOM     21  C21 POY d          15.396  -8.920  22.864  0.00  0.00     0.016 C 
+ATOM     22  C22 POY d          13.946  -8.397  22.847  0.00  0.00     0.006 C 
+ENDBRANCH  20  21
+ENDBRANCH   7  20
+TORSDOF 7

@@ -1,0 +1,21 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAJ_2  and  CAM_4 
+ROOT
+ATOM      1  CAM 0JD d          15.171  10.663   4.450  0.00  0.00     0.253 C 
+ATOM      2  OAI 0JD d          14.540  11.201   5.588  0.00  0.00    -0.330 OA
+ATOM      3  CAL 0JD d          14.090  10.245   6.441  0.00  0.00     0.103 A 
+ATOM      4  CAF 0JD d          13.678  10.639   7.674  0.00  0.00     0.040 A 
+ATOM      5  CAD 0JD d          13.358   9.691   8.610  0.00  0.00     0.003 A 
+ATOM      6  CAC 0JD d          13.440   8.371   8.306  0.00  0.00     0.003 A 
+ATOM      7  CAE 0JD d          13.838   7.963   7.057  0.00  0.00     0.039 A 
+ATOM      8  CAK 0JD d          14.155   8.900   6.124  0.00  0.00     0.102 A 
+ATOM      9  OAH 0JD d          14.367   8.467   4.849  0.00  0.00    -0.345 OA
+ATOM     10  CAG 0JD d          14.436   9.492   3.883  0.00  0.00     0.219 C 
+ENDROOT
+BRANCH   1  11
+ATOM     11  CAJ 0JD d          15.398  11.806   3.478  0.00  0.00     0.205 C 
+ATOM     12  OAA 0JD d          15.351  12.938   3.735  0.00  0.00    -0.646 OA
+ATOM     13  OAB 0JD d          15.669  11.367   2.365  0.00  0.00    -0.646 OA
+ENDBRANCH   1  11
+TORSDOF 1

@@ -1,0 +1,34 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CG_7 
+ROOT
+ATOM      1  CB  AMQ d          77.408  26.927  42.244  0.00  0.00     0.089 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CA  AMQ d          76.136  26.430  42.967  0.00  0.00     0.287 C 
+BRANCH   2   3
+ATOM      3  N   AMQ d          75.074  27.493  42.917  0.00  0.00    -0.065 N 
+ATOM      4  H1  AMQ d          74.881  27.730  41.956  0.00  0.00     0.275 HD
+ATOM      5  H2  AMQ d          75.396  28.313  43.408  0.00  0.00     0.275 HD
+ATOM      6  H3  AMQ d          74.233  27.149  43.353  0.00  0.00     0.275 HD
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  C   AMQ d          76.442  26.055  44.456  0.00  0.00     0.204 C 
+ATOM      8  OT1 AMQ d          77.363  25.254  44.668  0.00  0.00    -0.646 OA
+ATOM      9  OT2 AMQ d          75.722  26.563  45.346  0.00  0.00    -0.646 OA
+ENDBRANCH   2   7
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  CG  AMQ d          77.243  27.126  40.754  0.00  0.00     0.031 A 
+ATOM     11  CD1 AMQ d          77.433  26.168  39.708  0.00  0.00     0.207 A 
+ATOM     12  OE1 AMQ d          77.823  24.946  40.065  0.00  0.00    -0.170 OA
+ATOM     13  NE1 AMQ d          77.179  26.532  38.475  0.00  0.00    -0.236 N 
+ATOM     14  OE2 AMQ d          76.770  27.904  38.687  0.00  0.00    -0.240 OA
+ATOM     15  H10 AMQ d          77.248  26.009  37.626  0.00  0.00     0.197 HD
+ATOM     16  CD2 AMQ d          76.822  28.203  40.039  0.00  0.00     0.083 A 
+ATOM     17  CE2 AMQ d          76.377  29.586  40.400  0.00  0.00     0.079 C 
+ENDBRANCH   1  10
+TORSDOF 4

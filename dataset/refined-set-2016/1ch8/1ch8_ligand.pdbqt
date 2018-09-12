@@ -1,0 +1,60 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_28  and  N9_2 
+REMARK    2  A    between atoms: C2_9  and  N2_10 
+REMARK    3  A    between atoms: PA_16  and  O3A_19 
+REMARK    4  A    between atoms: O5'_20  and  PA_16 
+REMARK    5  A    between atoms: O3A_19  and  PB_21 
+REMARK    6  A    between atoms: C5'_25  and  O5'_20 
+REMARK    7  A    between atoms: C4'_26  and  C5'_25 
+ROOT
+ATOM      1  P1  GPX d           2.758  51.660  41.473  0.00  0.00     0.409 P 
+ATOM      2  O11 GPX d           2.515  52.196  40.115  0.00  0.00    -0.624 OA
+ATOM      3  O21 GPX d           3.944  52.332  42.057  0.00  0.00    -0.624 OA
+ATOM      4  O3' GPX d           1.472  51.825  42.447  0.00  0.00    -0.279 OA
+ATOM      5  C4' GPX d           0.659  50.060  43.994  0.00  0.00     0.180 C 
+ATOM      6  O4' GPX d           1.858  49.663  44.622  0.00  0.00    -0.353 OA
+ATOM      7  C1' GPX d           2.884  49.411  43.681  0.00  0.00     0.263 C 
+ATOM      8  C2' GPX d           2.179  49.485  42.341  0.00  0.00     0.216 C 
+ATOM      9  O2' GPX d           3.006  50.075  41.325  0.00  0.00    -0.277 OA
+ATOM     10  C3' GPX d           1.057  50.482  42.624  0.00  0.00     0.199 C 
+ENDROOT
+BRANCH   7  11
+ATOM     11  N9  GPX d           3.395  48.178  44.034  0.00  0.00    -0.293 N 
+ATOM     12  C8  GPX d           2.736  46.997  44.183  0.00  0.00     0.214 A 
+ATOM     13  N7  GPX d           3.431  46.009  44.670  0.00  0.00    -0.234 NA
+ATOM     14  C5  GPX d           4.692  46.586  44.875  0.00  0.00     0.173 A 
+ATOM     15  C6  GPX d           5.844  46.026  45.374  0.00  0.00     0.292 A 
+ATOM     16  C4  GPX d           4.679  47.895  44.495  0.00  0.00     0.186 A 
+ATOM     17  O6  GPX d           6.037  44.867  45.749  0.00  0.00    -0.265 OA
+ATOM     18  N1  GPX d           6.891  46.925  45.419  0.00  0.00    -0.152 N 
+ATOM     19  C2  GPX d           6.779  48.231  45.013  0.00  0.00     0.703 A 
+ATOM     20  H2  GPX d           7.774  46.609  45.764  0.00  0.00     0.187 HD
+ATOM     21  N3  GPX d           5.678  48.765  44.545  0.00  0.00    -0.044 NA
+BRANCH  19  22
+ATOM     22  N2  GPX d           7.856  49.008  45.086  0.00  0.00    -0.233 N 
+ATOM     23  H3  GPX d           7.802  49.992  44.788  0.00  0.00     0.174 HD
+ATOM     24  H4  GPX d           8.744  48.625  45.440  0.00  0.00     0.174 HD
+ENDBRANCH  19  22
+ENDBRANCH   7  11
+BRANCH   5  25
+ATOM     25  C5' GPX d          -0.392  48.896  43.908  0.00  0.00     0.216 C 
+BRANCH  25  26
+ATOM     26  O5' GPX d          -1.774  49.318  43.592  0.00  0.00    -0.287 OA
+BRANCH  26  27
+ATOM     27  PA  GPX d          -2.507  49.661  44.993  0.00  0.00     0.418 P 
+ATOM     28  O1A GPX d          -3.651  50.598  44.904  0.00  0.00    -0.624 OA
+ATOM     29  O2A GPX d          -1.483  50.221  45.897  0.00  0.00    -0.624 OA
+BRANCH  27  30
+ATOM     30  O3A GPX d          -2.909  48.189  45.527  0.00  0.00    -0.173 OA
+BRANCH  30  31
+ATOM     31  PB  GPX d          -4.310  47.439  45.314  0.00  0.00     0.431 P 
+ATOM     32  O1B GPX d          -4.422  46.613  44.079  0.00  0.00    -0.616 OA
+ATOM     33  O2B GPX d          -5.364  48.475  45.316  0.00  0.00    -0.616 OA
+ATOM     34  O3B GPX d          -4.469  46.557  46.490  0.00  0.00    -0.616 OA
+ENDBRANCH  30  31
+ENDBRANCH  27  30
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH   5  25
+TORSDOF 7

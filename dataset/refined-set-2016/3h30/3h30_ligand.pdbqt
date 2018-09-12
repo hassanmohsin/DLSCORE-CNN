@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_11  and  C1'_12 
+REMARK    2  A    between atoms: C4'_14  and  C5'_15 
+REMARK    3  A    between atoms: C5'_15  and  O5'_16 
+REMARK    4  A    between atoms: C3'_17  and  O3'_18 
+REMARK    5  A    between atoms: C2'_19  and  O2'_20 
+ROOT
+ATOM      1  C1' RFZ d          17.506  -2.647   9.181  0.00  0.00     0.261 C 
+ATOM      2  O4' RFZ d          16.426  -2.043   9.932  0.00  0.00    -0.353 OA
+ATOM      3  C4' RFZ d          16.882  -1.889  11.307  0.00  0.00     0.179 C 
+ATOM      4  C3' RFZ d          18.416  -2.135  11.266  0.00  0.00     0.182 C 
+ATOM      5  C2' RFZ d          18.760  -2.039   9.778  0.00  0.00     0.198 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  RFZ d          17.378  -2.315   7.747  0.00  0.00    -0.309 N 
+ATOM      7  C6  RFZ d          18.016  -2.930   6.759  0.00  0.00     0.068 A 
+ATOM      8  C5  RFZ d          18.936  -3.975   6.739  0.00  0.00     0.057 A 
+ATOM      9  C7  RFZ d          17.612  -2.331   5.574  0.00  0.00     0.086 A 
+ATOM     10  C4  RFZ d          19.454  -4.422   5.528  0.00  0.00     0.058 A 
+ATOM     11 CL2  RFZ d          20.596  -5.722   5.518  0.00  0.00    -0.082 Cl
+ATOM     12  C3  RFZ d          19.045  -3.821   4.337  0.00  0.00     0.058 A 
+ATOM     13 CL1  RFZ d          19.673  -4.367   2.826  0.00  0.00    -0.082 Cl
+ATOM     14  C2  RFZ d          18.124  -2.776   4.358  0.00  0.00     0.059 A 
+ATOM     15  N2  RFZ d          16.742  -1.378   5.894  0.00  0.00    -0.242 NA
+ATOM     16  C1  RFZ d          16.599  -1.370   7.218  0.00  0.00     0.213 A 
+ENDBRANCH   1   6
+BRANCH   5  17
+ATOM     17  O2' RFZ d          19.886  -2.860   9.466  0.00  0.00    -0.388 OA
+ATOM     18  H12 RFZ d          19.686  -3.764   9.678  0.00  0.00     0.210 HD
+ENDBRANCH   5  17
+BRANCH   3  19
+ATOM     19  C5' RFZ d          16.563  -0.458  11.749  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O5' RFZ d          15.145  -0.269  11.762  0.00  0.00    -0.398 OA
+ATOM     21  H8  RFZ d          14.799  -0.416  10.890  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+BRANCH   4  22
+ATOM     22  O3' RFZ d          18.700  -3.458  11.750  0.00  0.00    -0.390 OA
+ATOM     23  H10 RFZ d          19.638  -3.609  11.725  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+TORSDOF 5

@@ -1,0 +1,104 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_3  and  O4_4 
+REMARK    2  A    between atoms: O4_4  and  C4_5 
+REMARK       I    between atoms: C4_5  and  N1_6 
+REMARK    3  A    between atoms: N1_6  and  C6_7 
+REMARK    4  A    between atoms: C6_7  and  C7_8 
+REMARK    5  A    between atoms: C6_7  and  C8_27 
+REMARK    6  A    between atoms: C7_8  and  C15_9 
+REMARK    7  A    between atoms: C7_8  and  O6_26 
+REMARK    8  A    between atoms: C15_9  and  N2_10 
+REMARK    9  A    between atoms: N2_10  and  C16_11 
+REMARK   10  A    between atoms: N2_10  and  S_15 
+REMARK   11  A    between atoms: C16_11  and  C17_12 
+REMARK   12  A    between atoms: S_15  and  C18_16 
+REMARK   13  A    between atoms: C21_19  and  O1_20 
+REMARK   14  A    between atoms: C8_27  and  C9_28 
+REMARK   15  A    between atoms: C14_31  and  O40_32 
+REMARK   16  A    between atoms: O40_32  and  C41_33 
+REMARK   17  A    between atoms: C41_33  and  P42_34 
+ROOT
+ATOM      1  C6  QFI d          14.540  23.023  17.187  0.00  0.00     0.120 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N1  QFI d          13.572  22.215  17.884  0.00  0.00    -0.329 N 
+ATOM      3  C4  QFI d          13.817  20.923  18.182  0.00  0.00     0.361 C 
+ATOM      4  O5  QFI d          14.838  20.307  17.902  0.00  0.00    -0.238 OA
+ATOM      5  H3  QFI d          12.699  22.622  18.153  0.00  0.00     0.165 HD
+BRANCH   3   6
+ATOM      6  O4  QFI d          12.745  20.431  18.820  0.00  0.00    -0.296 OA
+BRANCH   6   7
+ATOM      7  C5  QFI d          12.789  19.050  19.210  0.00  0.00     0.166 C 
+ATOM      8  C   QFI d          11.888  18.187  18.320  0.00  0.00     0.075 C 
+ATOM      9  C27 QFI d          10.548  18.219  19.056  0.00  0.00     0.266 C 
+ATOM     10  C1  QFI d          11.562  18.844  16.961  0.00  0.00     0.038 C 
+ATOM     11  O   QFI d          10.765  18.504  20.445  0.00  0.00    -0.358 OA
+ATOM     12  O9  QFI d           9.756  19.233  18.435  0.00  0.00    -0.361 OA
+ATOM     13  C3  QFI d          12.123  18.992  20.605  0.00  0.00     0.204 C 
+ATOM     14  C2  QFI d          10.070  19.219  17.040  0.00  0.00     0.171 C 
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C7  QFI d          14.843  24.205  18.134  0.00  0.00     0.155 C 
+BRANCH  15  16
+ATOM     16  C15 QFI d          16.008  25.084  17.607  0.00  0.00     0.141 C 
+BRANCH  16  17
+ATOM     17  N2  QFI d          17.252  24.281  17.583  0.00  0.00    -0.204 NA
+BRANCH  17  18
+ATOM     18  C16 QFI d          18.217  24.938  18.489  0.00  0.00     0.111 C 
+BRANCH  18  19
+ATOM     19  C17 QFI d          18.292  24.254  19.879  0.00  0.00    -0.009 C 
+ATOM     20  C24 QFI d          17.397  23.000  19.917  0.00  0.00     0.011 C 
+ATOM     21  C25 QFI d          19.732  23.794  20.128  0.00  0.00     0.011 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  17  22
+ATOM     22  S   QFI d          17.898  24.124  16.013  0.00  0.00     0.243 S 
+ATOM     23  O7  QFI d          16.785  23.902  15.042  0.00  0.00    -0.206 OA
+ATOM     24  O8  QFI d          18.816  22.942  15.999  0.00  0.00    -0.206 OA
+BRANCH  22  25
+ATOM     25  C18 QFI d          18.797  25.556  15.571  0.00  0.00     0.074 A 
+ATOM     26  C19 QFI d          18.153  26.621  14.919  0.00  0.00     0.027 A 
+ATOM     27  C20 QFI d          18.875  27.780  14.579  0.00  0.00     0.038 A 
+ATOM     28  C21 QFI d          20.239  27.886  14.886  0.00  0.00     0.068 A 
+ATOM     29  C22 QFI d          20.884  26.812  15.534  0.00  0.00     0.038 A 
+ATOM     30  C23 QFI d          20.164  25.651  15.876  0.00  0.00     0.027 A 
+BRANCH  28  31
+ATOM     31  O1  QFI d          20.939  29.052  14.546  0.00  0.00    -0.356 OA
+ATOM     32  C26 QFI d          22.311  29.118  14.973  0.00  0.00     0.210 C 
+ENDBRANCH  28  31
+ENDBRANCH  22  25
+ENDBRANCH  17  22
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  33
+ATOM     33  O6  QFI d          13.660  24.976  18.235  0.00  0.00    -0.392 OA
+ATOM     34  H24 QFI d          12.954  24.429  18.558  0.00  0.00     0.210 HD
+ENDBRANCH  15  33
+ENDBRANCH   1  15
+BRANCH   1  35
+ATOM     35  C8  QFI d          13.941  23.543  15.858  0.00  0.00     0.066 C 
+BRANCH  35  36
+ATOM     36  C9  QFI d          13.336  22.411  15.034  0.00  0.00    -0.056 A 
+ATOM     37  C10 QFI d          14.172  21.541  14.304  0.00  0.00     0.010 A 
+ATOM     38  C12 QFI d          13.606  20.498  13.544  0.00  0.00     0.037 A 
+ATOM     39  C14 QFI d          12.202  20.327  13.513  0.00  0.00     0.069 A 
+ATOM     40  C13 QFI d          11.370  21.199  14.247  0.00  0.00     0.037 A 
+ATOM     41  C11 QFI d          11.937  22.240  15.005  0.00  0.00     0.010 A 
+BRANCH  39  42
+ATOM     42  O40 QFI d          11.640  19.298  12.764  0.00  0.00    -0.338 OA
+BRANCH  42  43
+ATOM     43  C41 QFI d          11.915  18.009  13.292  0.00  0.00     0.321 C 
+BRANCH  43  44
+ATOM     44  P42 QFI d          11.047  16.742  12.317  0.00  0.00     0.284 P 
+ATOM     45  O45 QFI d           9.474  17.007  12.367  0.00  0.00    -0.638 OA
+ATOM     46  O44 QFI d          11.358  15.414  12.892  0.00  0.00    -0.638 OA
+ATOM     47  O43 QFI d          11.532  16.801  10.798  0.00  0.00    -0.638 OA
+ENDBRANCH  43  44
+ENDBRANCH  42  43
+ENDBRANCH  39  42
+ENDBRANCH  35  36
+ENDBRANCH   1  35
+TORSDOF 17

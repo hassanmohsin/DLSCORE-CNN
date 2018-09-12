@@ -1,0 +1,84 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_2  and  O27_5 
+REMARK    2  A    between atoms: O27_5  and  C19_6 
+REMARK    3  A    between atoms: C18_7  and  C17_8 
+REMARK    4  A    between atoms: C16_9  and  C15_10 
+REMARK    5  A    between atoms: C15_10  and  N5_11 
+REMARK    6  A    between atoms: N7_18  and  C10_23 
+REMARK    7  A    between atoms: C10_23  and  C11_24 
+REMARK    8  A    between atoms: C11_24  and  O19_25 
+REMARK    9  A    between atoms: C11_24  and  C12_26 
+REMARK   10  A    between atoms: C12_26  and  O21_27 
+REMARK   11  A    between atoms: C12_26  and  C13_28 
+REMARK   12  A    between atoms: C13_28  and  O23_29 
+REMARK   13  A    between atoms: C13_28  and  C14_30 
+REMARK   14  A    between atoms: C14_30  and  O26_31 
+ROOT
+ATOM      1  N5  TP6 d         -22.956   0.333   4.439  0.00  0.00    -0.291 N 
+ATOM      2  C9  TP6 d         -23.391  -0.841   4.917  0.00  0.00     0.152 A 
+ATOM      3  C4  TP6 d         -23.086  -2.239   4.568  0.00  0.00     0.280 A 
+ATOM      4  O2  TP6 d         -22.287  -2.526   3.662  0.00  0.00    -0.265 OA
+ATOM      5  N3  TP6 d         -23.727  -3.206   5.266  0.00  0.00    -0.273 N 
+ATOM      6  C6  TP6 d         -23.604   1.212   5.189  0.00  0.00     0.331 A 
+ATOM      7  O4  TP6 d         -23.479   2.478   5.061  0.00  0.00    -0.246 OA
+ATOM      8  N7  TP6 d         -24.415   0.722   6.122  0.00  0.00    -0.280 N 
+ATOM      9  C8  TP6 d         -24.354  -0.595   6.000  0.00  0.00     0.148 A 
+ATOM     10  N1  TP6 d         -24.927  -1.656   6.615  0.00  0.00    -0.292 N 
+ATOM     11  C2  TP6 d         -24.607  -2.916   6.265  0.00  0.00     0.328 A 
+ATOM     12  O1  TP6 d         -25.158  -3.850   6.858  0.00  0.00    -0.247 OA
+ATOM     13  H11 TP6 d         -23.549  -4.164   5.041  0.00  0.00     0.173 HD
+ATOM     14  H12 TP6 d         -25.598  -1.502   7.340  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   8  15
+ATOM     15  C10 TP6 d         -25.213   1.569   6.986  0.00  0.00     0.170 C 
+BRANCH  15  16
+ATOM     16  C11 TP6 d         -25.667   0.965   8.291  0.00  0.00     0.168 C 
+BRANCH  16  17
+ATOM     17  O19 TP6 d         -24.862  -0.070   8.906  0.00  0.00    -0.391 OA
+ATOM     18  H16 TP6 d         -25.273  -0.350   9.716  0.00  0.00     0.210 HD
+ENDBRANCH  16  17
+BRANCH  16  19
+ATOM     19  C12 TP6 d         -26.312   1.945   9.251  0.00  0.00     0.179 C 
+BRANCH  19  20
+ATOM     20  O21 TP6 d         -27.632   1.547   8.928  0.00  0.00    -0.390 OA
+ATOM     21  H18 TP6 d         -28.249   2.057   9.439  0.00  0.00     0.210 HD
+ENDBRANCH  19  20
+BRANCH  19  22
+ATOM     22  C13 TP6 d         -26.158   3.450   9.013  0.00  0.00     0.173 C 
+BRANCH  22  23
+ATOM     23  O23 TP6 d         -24.815   3.868   9.306  0.00  0.00    -0.391 OA
+ATOM     24  H20 TP6 d         -24.616   3.676  10.215  0.00  0.00     0.210 HD
+ENDBRANCH  22  23
+BRANCH  22  25
+ATOM     25  C14 TP6 d         -27.085   4.217   9.959  0.00  0.00     0.198 C 
+BRANCH  25  26
+ATOM     26  O26 TP6 d         -26.807   3.826  11.315  0.00  0.00    -0.398 OA
+ATOM     27  H23 TP6 d         -25.902   4.027  11.522  0.00  0.00     0.209 HD
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  19  22
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+BRANCH   1  28
+ATOM     28  C15 TP6 d         -21.978   0.607   3.390  0.00  0.00     0.134 C 
+BRANCH  28  29
+ATOM     29  C16 TP6 d         -20.669   0.297   4.064  0.00  0.00     0.020 C 
+ATOM     30  C17 TP6 d         -19.497   0.365   3.442  0.00  0.00     0.004 C 
+BRANCH  30  31
+ATOM     31  C18 TP6 d         -19.362   0.818   2.064  0.00  0.00     0.027 C 
+ATOM     32  C19 TP6 d         -19.367   2.128   1.846  0.00  0.00     0.182 C 
+BRANCH  32  33
+ATOM     33  O27 TP6 d         -19.189   2.588   0.480  0.00  0.00    -0.283 OA
+BRANCH  33  34
+ATOM     34  P   TP6 d         -18.437   3.990   0.253  0.00  0.00     0.422 P 
+ATOM     35  O2P TP6 d         -18.191   3.962  -1.250  0.00  0.00    -0.617 OA
+ATOM     36  O3P TP6 d         -17.151   3.958   1.051  0.00  0.00    -0.617 OA
+ATOM     37  O1P TP6 d         -19.377   5.055   0.734  0.00  0.00    -0.617 OA
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  30  31
+ENDBRANCH  28  29
+ENDBRANCH   1  28
+TORSDOF 14

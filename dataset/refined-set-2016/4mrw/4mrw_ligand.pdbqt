@@ -1,0 +1,21 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C2_2 
+ROOT
+ATOM      1  C2  MRW d           3.810 -27.240 -35.505  0.00  0.00     0.079 A 
+ATOM      2  C3  MRW d           4.381 -28.058 -36.469  0.00  0.00     0.056 A 
+ATOM      3  C4  MRW d           5.161 -29.127 -36.057  0.00  0.00     0.120 A 
+ATOM      4  N5  MRW d           5.371 -29.380 -34.747  0.00  0.00    -0.260 NA
+ATOM      5  C6  MRW d           4.827 -28.597 -33.795  0.00  0.00     0.071 A 
+ATOM      6  C7  MRW d           5.069 -28.890 -32.455  0.00  0.00     0.056 A 
+ATOM      7  C8  MRW d           4.509 -28.083 -31.467  0.00  0.00     0.036 A 
+ATOM      8 CL9  MRW d           4.816 -28.448 -29.794  0.00  0.00    -0.084 Cl
+ATOM      9  C10 MRW d           3.716 -26.989 -31.823  0.00  0.00     0.025 A 
+ATOM     10  C11 MRW d           3.474 -26.695 -33.161  0.00  0.00     0.018 A 
+ATOM     11  C12 MRW d           4.031 -27.501 -34.154  0.00  0.00     0.026 A 
+ENDROOT
+BRANCH   1  12
+ATOM     12  O1  MRW d           3.059 -26.223 -35.896  0.00  0.00    -0.360 OA
+ATOM     13  H   MRW d           2.738 -25.756 -35.133  0.00  0.00     0.217 HD
+ENDBRANCH   1  12
+TORSDOF 1

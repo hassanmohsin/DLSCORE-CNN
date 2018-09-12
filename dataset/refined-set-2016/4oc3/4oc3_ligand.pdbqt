@@ -1,0 +1,79 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CBC_7  and  CBA_8 
+REMARK       I    between atoms: CBA_8  and  NAT_10 
+REMARK    2  A    between atoms: NAT_10  and  CAQ_11 
+REMARK    3  A    between atoms: CAQ_11  and  CAO_12 
+REMARK    4  A    between atoms: CAO_12  and  CAP_13 
+REMARK    5  A    between atoms: CAP_13  and  CB_14 
+REMARK    6  A    between atoms: CB_14  and  CA_15 
+REMARK    7  A    between atoms: CA_15  and  C_16 
+REMARK    8  A    between atoms: CA_15  and  N_19 
+REMARK       I    between atoms: N_19  and  CAZ_20 
+REMARK       I    between atoms: CAZ_20  and  NAV_22 
+REMARK    9  A    between atoms: NAV_22  and  CBF_23 
+REMARK   10  A    between atoms: CBF_23  and  CAY_24 
+REMARK   11  A    between atoms: CBF_23  and  CAS_27 
+REMARK   12  A    between atoms: CAS_27  and  CBD_28 
+ROOT
+ATOM      1  CA  MOL d          19.993  45.068  44.289  0.00  0.00     0.187 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  MOL d          20.978  45.821  43.373  0.00  0.00     0.036 C 
+BRANCH   2   3
+ATOM      3  CAP MOL d          22.441  45.320  43.496  0.00  0.00     0.004 C 
+BRANCH   3   4
+ATOM      4  CAO MOL d          23.388  46.199  42.617  0.00  0.00     0.020 C 
+BRANCH   4   5
+ATOM      5  CAQ MOL d          24.161  47.178  43.560  0.00  0.00     0.123 C 
+BRANCH   5   6
+ATOM      6  NAT MOL d          23.318  48.329  43.623  0.00  0.00    -0.357 N 
+ATOM      7  CBA MOL d          23.069  49.314  44.484  0.00  0.00     0.251 C 
+ATOM      8  OAD MOL d          22.204  50.061  44.034  0.00  0.00    -0.268 OA
+ATOM      9  H   MOL d          22.764  48.420  42.795  0.00  0.00     0.162 HD
+BRANCH   7  10
+ATOM     10  CBC MOL d          23.318  49.430  46.050  0.00  0.00     0.032 A 
+ATOM     11  CAM MOL d          23.542  48.417  46.989  0.00  0.00     0.018 A 
+ATOM     12  fur MOL d          23.635  48.693  48.401  0.00  0.00     0.019 A 
+ATOM     13  CBB MOL d          23.496  49.961  49.024  0.00  0.00     0.006 A 
+ATOM     14  IAG MOL d          23.633  50.312  51.253  0.00  0.00    -0.045 I 
+ATOM     15  CAL MOL d          23.260  50.954  48.047  0.00  0.00     0.019 A 
+ATOM     16  CAN MOL d          23.148  50.710  46.643  0.00  0.00     0.018 A 
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  C   MOL d          20.132  45.653  45.700  0.00  0.00     0.196 C 
+ATOM     18  OXT MOL d          20.744  44.933  46.543  0.00  0.00    -0.646 OA
+ATOM     19  O   MOL d          19.589  46.780  45.915  0.00  0.00    -0.646 OA
+ENDBRANCH   1  17
+BRANCH   1  20
+ATOM     20  N   MOL d          18.662  45.464  43.791  0.00  0.00    -0.329 N 
+ATOM     21  CAZ MOL d          17.951  44.780  42.912  0.00  0.00     0.317 C 
+ATOM     22  OAC MOL d          18.361  43.735  42.437  0.00  0.00    -0.247 OA
+ATOM     23  NAV MOL d          16.726  45.198  42.580  0.00  0.00    -0.328 N 
+ATOM     24  H   MOL d          16.288  45.945  43.081  0.00  0.00     0.165 HD
+ATOM     25  H   MOL d          18.269  46.313  44.145  0.00  0.00     0.165 HD
+BRANCH  23  26
+ATOM     26  CBF MOL d          16.035  44.537  41.464  0.00  0.00     0.193 C 
+BRANCH  26  27
+ATOM     27  CAY MOL d          16.981  44.673  40.193  0.00  0.00     0.197 C 
+ATOM     28  OAF MOL d          16.771  43.872  39.241  0.00  0.00    -0.646 OA
+ATOM     29  OAB MOL d          17.936  45.513  40.214  0.00  0.00    -0.646 OA
+ENDBRANCH  26  27
+BRANCH  26  30
+ATOM     30  CAS MOL d          14.631  45.083  41.199  0.00  0.00     0.101 C 
+BRANCH  30  31
+ATOM     31  CBD MOL d          14.523  46.545  40.741  0.00  0.00     0.055 A 
+ATOM     32  CAJ MOL d          13.467  47.320  40.765  0.00  0.00     0.035 A 
+ATOM     33  CAH MOL d          13.753  48.524  40.264  0.00  0.00     0.027 A 
+ATOM     34  CAI MOL d          15.000  48.548  39.837  0.00  0.00     0.142 A 
+ATOM     35  OAW MOL d          15.537  47.275  40.148  0.00  0.00    -0.327 OA
+ENDBRANCH  30  31
+ENDBRANCH  26  30
+ENDBRANCH  23  26
+ENDBRANCH   1  20
+TORSDOF 12

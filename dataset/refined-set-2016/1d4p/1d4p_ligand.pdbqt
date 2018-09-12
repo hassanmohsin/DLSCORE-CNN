@@ -1,0 +1,53 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_10  and  C1_1 
+REMARK    2  A    between atoms: C11_8  and  C17_13 
+REMARK    3  A    between atoms: C13_10  and  N14_11 
+REMARK       I    between atoms: C17_13  and  N19_15 
+REMARK    4  A    between atoms: C22_18  and  C33_21 
+REMARK    5  A    between atoms: C33_21  and  C35_22 
+ROOT
+ATOM      1  C1  BPP d         -23.977 -31.842  23.185  0.00  0.00     0.008 A 
+ATOM      2  C2  BPP d         -23.262 -33.049  22.846  0.00  0.00     0.029 A 
+ATOM      3  C3  BPP d         -22.241 -32.969  21.857  0.00  0.00    -0.006 A 
+ATOM      4  C4  BPP d         -21.939 -31.736  21.219  0.00  0.00     0.043 A 
+ATOM      5  C5  BPP d         -22.654 -30.550  21.562  0.00  0.00     0.031 A 
+ATOM      6  C6  BPP d         -23.672 -30.618  22.539  0.00  0.00     0.017 A 
+ATOM      7  C10 BPP d         -21.361 -33.891  21.303  0.00  0.00     0.049 A 
+ATOM      8  C11 BPP d         -20.550 -33.242  20.366  0.00  0.00     0.102 A 
+ATOM      9  N12 BPP d         -20.950 -31.931  20.363  0.00  0.00    -0.351 N 
+ATOM     10  H5  BPP d         -20.535 -31.196  19.773  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH   8  11
+ATOM     11  C17 BPP d         -19.479 -33.753  19.558  0.00  0.00     0.270 C 
+ATOM     12  N19 BPP d         -18.094 -33.561  20.061  0.00  0.00    -0.347 N 
+ATOM     13  C24 BPP d         -17.791 -32.896  21.325  0.00  0.00     0.126 C 
+ATOM     14  C20 BPP d         -16.853 -34.060  19.319  0.00  0.00     0.126 C 
+ATOM     15  C23 BPP d         -17.395 -34.016  22.227  0.00  0.00     0.025 C 
+ATOM     16  C22 BPP d         -16.129 -34.771  21.628  0.00  0.00    -0.007 C 
+ATOM     17  C21 BPP d         -16.392 -35.256  20.202  0.00  0.00     0.025 C 
+ATOM     18  O18 BPP d         -19.665 -34.337  18.480  0.00  0.00    -0.266 OA
+BRANCH  16  19
+ATOM     19  C33 BPP d         -15.720 -35.925  22.600  0.00  0.00     0.043 C 
+BRANCH  19  20
+ATOM     20  C35 BPP d         -15.246 -35.360  23.973  0.00  0.00    -0.058 A 
+ATOM     21  C42 BPP d         -13.914 -34.864  24.126  0.00  0.00     0.007 A 
+ATOM     22  C41 BPP d         -13.487 -34.351  25.355  0.00  0.00     0.001 A 
+ATOM     23  C40 BPP d         -14.374 -34.320  26.464  0.00  0.00     0.000 A 
+ATOM     24  C39 BPP d         -15.699 -34.801  26.360  0.00  0.00     0.001 A 
+ATOM     25  C38 BPP d         -16.130 -35.317  25.124  0.00  0.00     0.007 A 
+ENDBRANCH  19  20
+ENDBRANCH  16  19
+ENDBRANCH   8  11
+BRANCH   1  26
+ATOM     26  C13 BPP d         -24.987 -31.838  24.186  0.00  0.00     0.102 C 
+ATOM     27  N15 BPP d         -25.730 -32.884  24.466  0.00  0.00    -0.385 N 
+ATOM     28  H8  BPP d         -25.606 -33.760  23.938  0.00  0.00     0.157 HD
+ATOM     29  H9  BPP d         -26.437 -32.829  25.213  0.00  0.00     0.157 HD
+BRANCH  26  30
+ATOM     30  N14 BPP d         -25.122 -30.703  24.844  0.00  0.00    -0.385 N 
+ATOM     31  H6  BPP d         -25.832 -30.619  25.585  0.00  0.00     0.157 HD
+ATOM     32  H7  BPP d         -24.517 -29.901  24.616  0.00  0.00     0.157 HD
+ENDBRANCH  26  30
+ENDBRANCH   1  26
+TORSDOF 5

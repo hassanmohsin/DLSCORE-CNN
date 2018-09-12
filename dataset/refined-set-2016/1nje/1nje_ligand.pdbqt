@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_9 
+REMARK    2  A    between atoms: C4_4  and  N4_8 
+REMARK    3  A    between atoms: C3'_11  and  O3'_14 
+REMARK    4  A    between atoms: C4'_12  and  C5'_15 
+REMARK    5  A    between atoms: C5'_15  and  O5'_16 
+REMARK    6  A    between atoms: O5'_16  and  P_17 
+ROOT
+ATOM      1  C1' DCM d          15.771  48.716 -54.895  0.00  0.00     0.235 C 
+ATOM      2  C2' DCM d          15.294  48.003 -56.165  0.00  0.00     0.088 C 
+ATOM      3  C3' DCM d          16.237  48.567 -57.215  0.00  0.00     0.153 C 
+ATOM      4  C4' DCM d          16.267  50.092 -56.973  0.00  0.00     0.177 C 
+ATOM      5  O4' DCM d          16.057  50.085 -55.472  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  DCM d          14.972  48.621 -53.641  0.00  0.00    -0.281 N 
+ATOM      7  C6  DCM d          15.414  49.506 -52.744  0.00  0.00     0.102 A 
+ATOM      8  C5  DCM d          14.930  49.544 -51.440  0.00  0.00     0.067 A 
+ATOM      9  C4  DCM d          13.899  48.583 -51.103  0.00  0.00     0.128 A 
+ATOM     10  N3  DCM d          13.453  47.698 -52.038  0.00  0.00    -0.177 NA
+ATOM     11  C2  DCM d          13.958  47.662 -53.339  0.00  0.00     0.352 A 
+ATOM     12  O2  DCM d          13.474  46.802 -54.079  0.00  0.00    -0.244 OA
+BRANCH   9  13
+ATOM     13  N4  DCM d          13.335  48.574 -49.893  0.00  0.00    -0.384 N 
+ATOM     14  H3  DCM d          13.656  49.234 -49.170  0.00  0.00     0.157 HD
+ATOM     15  H4  DCM d          12.579  47.907 -49.682  0.00  0.00     0.157 HD
+ENDBRANCH   9  13
+ENDBRANCH   1   6
+BRANCH   4  16
+ATOM     16  C5' DCM d          15.023  50.786 -57.542  0.00  0.00     0.217 C 
+BRANCH  16  17
+ATOM     17  O5' DCM d          14.931  50.866 -58.992  0.00  0.00    -0.280 OA
+BRANCH  17  18
+ATOM     18  P   DCM d          15.665  52.000 -59.820  0.00  0.00     0.422 P 
+ATOM     19  O3P DCM d          15.291  53.280 -59.248  0.00  0.00    -0.617 OA
+ATOM     20  O2P DCM d          15.247  51.846 -61.214  0.00  0.00    -0.617 OA
+ATOM     21  O1P DCM d          17.098  51.761 -59.795  0.00  0.00    -0.617 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   4  16
+BRANCH   3  22
+ATOM     22  O3' DCM d          17.542  47.939 -56.936  0.00  0.00    -0.393 OA
+ATOM     23  H10 DCM d          18.183  48.252 -57.563  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+TORSDOF 6

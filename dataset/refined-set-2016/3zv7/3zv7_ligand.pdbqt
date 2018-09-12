@@ -1,0 +1,26 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CW1_13  and  OW1_14 
+ROOT
+ATOM      1  CW2 NHG d           4.849  65.338  62.598  0.00  0.00     0.046 A 
+ATOM      2  CW3 NHG d           4.040  66.336  63.130  0.00  0.00    -0.017 A 
+ATOM      3  CW7 NHG d           3.884  67.807  62.745  0.00  0.00     0.033 C 
+ATOM      4  CK2 NHG d           3.427  67.978  61.294  0.00  0.00     0.025 C 
+ATOM      5  CW9 NHG d           5.169  68.579  63.045  0.00  0.00     0.045 C 
+ATOM      6  CK1 NHG d           5.061  68.662  64.566  0.00  0.00     0.236 C 
+ATOM      7  NW2 NHG d           3.682  69.150  64.710  0.00  0.00    -0.053 N 
+ATOM      8  CW8 NHG d           2.888  68.324  63.785  0.00  0.00     0.297 C 
+ATOM      9  NW1 NHG d           2.405  67.109  64.460  0.00  0.00    -0.361 N 
+ATOM     10  CW4 NHG d           3.110  66.030  64.121  0.00  0.00     0.037 A 
+ATOM     11  CW5 NHG d           2.996  64.714  64.556  0.00  0.00     0.032 A 
+ATOM     12  CW6 NHG d           3.803  63.713  64.027  0.00  0.00     0.039 A 
+ATOM     13  CW1 NHG d           4.738  64.027  63.047  0.00  0.00     0.066 A 
+ATOM     14  H9  NHG d           3.622  70.124  64.456  0.00  0.00     0.279 HD
+ATOM     15  H10 NHG d           3.361  69.029  65.658  0.00  0.00     0.279 HD
+ATOM     16  H12 NHG d           1.613  67.094  65.119  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH  13  17
+ATOM     17  OW1 NHG d           5.570  63.068  62.557  0.00  0.00    -0.361 OA
+ATOM     18  H15 NHG d           6.140  63.450  61.901  0.00  0.00     0.217 HD
+ENDBRANCH  13  17
+TORSDOF 1

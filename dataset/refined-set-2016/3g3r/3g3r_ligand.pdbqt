@@ -1,0 +1,31 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N3B_8  and  PG_1 
+REMARK    2  A    between atoms: PB_5  and  N3B_8 
+REMARK    3  A    between atoms: O3A_12  and  PB_5 
+REMARK    4  A    between atoms: PA_9  and  O3A_12 
+ROOT
+ATOM      1  PB  ANP d          11.565  14.958  14.886  0.00  0.00     0.379 P 
+ATOM      2  O1B ANP d          10.012  14.893  15.185  0.00  0.00    -0.629 OA
+ATOM      3  O2B ANP d          12.099  15.199  13.528  0.00  0.00    -0.629 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N3B ANP d          11.899  16.336  15.736  0.00  0.00    -0.218 N 
+ATOM      5  H1  ANP d          11.169  16.785  16.251  0.00  0.00     0.179 HD
+BRANCH   4   6
+ATOM      6  PG  ANP d          13.424  16.986  15.750  0.00  0.00     0.381 P 
+ATOM      7  O1G ANP d          13.464  18.383  15.275  0.00  0.00    -0.622 OA
+ATOM      8  O2G ANP d          13.911  17.040  17.277  0.00  0.00    -0.622 OA
+ATOM      9  O3G ANP d          14.488  15.926  15.252  0.00  0.00    -0.622 OA
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  10
+ATOM     10  O3A ANP d          12.037  13.578  15.505  0.00  0.00    -0.178 OA
+BRANCH  10  11
+ATOM     11  PA  ANP d          12.590  12.209  14.960  0.00  0.00     0.431 P 
+ATOM     12  O1A ANP d          13.487  12.632  13.744  0.00  0.00    -0.616 OA
+ATOM     13  O2A ANP d          11.548  11.295  14.231  0.00  0.00    -0.616 OA
+ATOM     14  O5' ANP d          13.257  11.583  16.113  0.00  0.00    -0.616 OA
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 4

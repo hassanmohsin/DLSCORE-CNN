@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAV_6  and  CAU_7 
+REMARK    2  A    between atoms: CAU_7  and  NAN_8 
+REMARK    3  A    between atoms: CAF_16  and  NAG_17 
+REMARK    4  A    between atoms: NAG_17  and  SAH_19 
+REMARK    5  A    between atoms: SAH_19  and  CAI_22 
+ROOT
+ATOM      1  NAN N6A d          35.094 -20.256  56.944  0.00  0.00    -0.281 N 
+ATOM      2  CAO N6A d          34.150 -19.881  57.889  0.00  0.00     0.136 A 
+ATOM      3  NAP N6A d          33.772 -20.621  58.910  0.00  0.00    -0.285 NA
+ATOM      4  CAM N6A d          35.385 -19.421  55.944  0.00  0.00     0.330 A 
+ATOM      5  OAL N6A d          36.207 -19.745  55.085  0.00  0.00    -0.246 OA
+ATOM      6  NAD N6A d          34.747 -18.159  55.861  0.00  0.00    -0.277 N 
+ATOM      7  CAE N6A d          33.775 -17.775  56.819  0.00  0.00     0.256 A 
+ATOM      8  OAA N6A d          33.196 -16.685  56.726  0.00  0.00    -0.270 OA
+ATOM      9  CAF N6A d          33.486 -18.684  57.835  0.00  0.00     0.256 A 
+ATOM     10  H8  N6A d          33.078 -20.275  59.554  0.00  0.00     0.188 HD
+ATOM     11  H9  N6A d          34.985 -17.532  55.119  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   9  12
+ATOM     12  NAG N6A d          32.625 -18.324  58.833  0.00  0.00    -0.290 N 
+ATOM     13  CAB N6A d          33.142 -17.334  59.798  0.00  0.00     0.164 C 
+BRANCH  12  14
+ATOM     14  SAH N6A d          31.026 -18.752  58.895  0.00  0.00     0.261 S 
+ATOM     15  OAQ N6A d          30.766 -20.276  58.931  0.00  0.00    -0.200 OA
+ATOM     16  OAC N6A d          30.436 -18.149  60.126  0.00  0.00    -0.200 OA
+BRANCH  14  17
+ATOM     17  CAI N6A d          30.282 -18.068  57.567  0.00  0.00     0.079 A 
+ATOM     18  CAJ N6A d          30.443 -18.651  56.330  0.00  0.00     0.025 A 
+ATOM     19  CAK N6A d          29.821 -18.087  55.218  0.00  0.00     0.002 A 
+ATOM     20  CAT N6A d          29.057 -16.936  55.389  0.00  0.00     0.000 A 
+ATOM     21  CAS N6A d          28.905 -16.343  56.637  0.00  0.00     0.002 A 
+ATOM     22  CAR N6A d          29.507 -16.913  57.726  0.00  0.00     0.025 A 
+ENDBRANCH  14  17
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+BRANCH   1  23
+ATOM     23  CAU N6A d          35.811 -21.599  56.998  0.00  0.00     0.173 C 
+BRANCH  23  24
+ATOM     24  CAV N6A d          35.115 -22.576  56.293  0.00  0.00    -0.040 A 
+ATOM     25  CAW N6A d          34.553 -23.637  56.957  0.00  0.00     0.009 A 
+ATOM     26  CAX N6A d          33.825 -24.625  56.281  0.00  0.00     0.001 A 
+ATOM     27  CBA N6A d          33.663 -24.554  54.900  0.00  0.00     0.000 A 
+ATOM     28  CAZ N6A d          34.240 -23.494  54.225  0.00  0.00     0.001 A 
+ATOM     29  CAY N6A d          34.950 -22.520  54.907  0.00  0.00     0.009 A 
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 5

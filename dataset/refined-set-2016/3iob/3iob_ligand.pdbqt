@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  N6_7 
+REMARK    2  A    between atoms: CAR_19  and  N9_10 
+REMARK    3  A    between atoms: CAO_16  and  OAB_11 
+REMARK    4  A    between atoms: CAP_17  and  OAC_12 
+REMARK    5  A    between atoms: CAG_14  and  SAD_13 
+REMARK    6  A    between atoms: CAQ_18  and  CAG_14 
+ROOT
+ATOM      1  N1  A4D d          13.703   9.681  -5.328  0.00  0.00    -0.222 NA
+ATOM      2  C2  A4D d          12.715   9.291  -4.513  0.00  0.00     0.237 A 
+ATOM      3  N3  A4D d          12.864   9.320  -3.185  0.00  0.00    -0.222 NA
+ATOM      4  C4  A4D d          14.030   9.743  -2.634  0.00  0.00     0.167 A 
+ATOM      5  C5  A4D d          15.070  10.158  -3.459  0.00  0.00     0.149 A 
+ATOM      6  C6  A4D d          14.885  10.111  -4.833  0.00  0.00     0.155 A 
+ATOM      7  N7  A4D d          16.090  10.525  -2.683  0.00  0.00    -0.236 NA
+ATOM      8  C8  A4D d          15.710  10.360  -1.412  0.00  0.00     0.214 A 
+ATOM      9  N9  A4D d          14.464   9.885  -1.375  0.00  0.00    -0.294 N 
+ENDROOT
+BRANCH   9  10
+ATOM     10  CAR A4D d          13.706   9.572  -0.164  0.00  0.00     0.262 C 
+ATOM     11  OAK A4D d          13.573  10.740   0.697  0.00  0.00    -0.355 OA
+ATOM     12  CAQ A4D d          13.571  10.256   2.097  0.00  0.00     0.164 C 
+ATOM     13  CAO A4D d          13.791   8.730   2.024  0.00  0.00     0.180 C 
+ATOM     14  CAP A4D d          14.520   8.584   0.689  0.00  0.00     0.198 C 
+BRANCH  12  15
+ATOM     15  CAG A4D d          14.688  10.982   2.896  0.00  0.00     0.105 C 
+BRANCH  15  16
+ATOM     16  SAD A4D d          14.758  10.433   4.639  0.00  0.00    -0.180 SA
+ATOM     17  H7  A4D d          15.494  10.929   5.117  0.00  0.00     0.101 HD
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+BRANCH  13  18
+ATOM     18  OAB A4D d          12.516   8.095   1.941  0.00  0.00    -0.390 OA
+ATOM     19  H5  A4D d          12.635   7.173   1.743  0.00  0.00     0.210 HD
+ENDBRANCH  13  18
+BRANCH  14  20
+ATOM     20  OAC A4D d          14.430   7.247   0.140  0.00  0.00    -0.388 OA
+ATOM     21  H6  A4D d          13.517   7.025  -0.003  0.00  0.00     0.210 HD
+ENDBRANCH  14  20
+ENDBRANCH   9  10
+BRANCH   6  22
+ATOM     22  N6  A4D d          15.875  10.485  -5.631  0.00  0.00    -0.382 N 
+ATOM     23  H2  A4D d          16.766  10.809  -5.229  0.00  0.00     0.157 HD
+ATOM     24  H3  A4D d          15.753  10.452  -6.653  0.00  0.00     0.157 HD
+ENDBRANCH   6  22
+TORSDOF 6

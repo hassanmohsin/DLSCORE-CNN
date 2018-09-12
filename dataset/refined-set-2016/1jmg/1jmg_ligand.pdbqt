@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1_9 
+REMARK    2  A    between atoms: C3_11  and  O3_13 
+REMARK    3  A    between atoms: C4_12  and  C5_15 
+REMARK    4  A    between atoms: C5_15  and  O5_16 
+REMARK    5  A    between atoms: O5_16  and  P_17 
+ROOT
+ATOM      1  C1  UMP d          15.442  46.566 -53.043  0.00  0.00     0.235 C 
+ATOM      2  C2  UMP d          14.773  46.438 -54.417  0.00  0.00     0.088 C 
+ATOM      3  C3  UMP d          15.964  46.503 -55.365  0.00  0.00     0.153 C 
+ATOM      4  C4  UMP d          16.871  47.639 -54.844  0.00  0.00     0.177 C 
+ATOM      5  O4  UMP d          16.372  47.711 -53.379  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UMP d          14.526  46.347 -51.860  0.00  0.00    -0.282 N 
+ATOM      7  C2  UMP d          14.334  45.018 -51.484  0.00  0.00     0.331 A 
+ATOM      8  N3  UMP d          13.375  44.647 -50.600  0.00  0.00    -0.275 N 
+ATOM      9  O2  UMP d          15.032  44.106 -51.857  0.00  0.00    -0.246 OA
+ATOM     10  C4  UMP d          12.541  45.531 -49.997  0.00  0.00     0.250 A 
+ATOM     11  H1  UMP d          13.278  43.676 -50.382  0.00  0.00     0.173 HD
+ATOM     12  C5  UMP d          12.781  46.945 -50.388  0.00  0.00     0.092 A 
+ATOM     13  O4  UMP d          11.689  45.081 -49.230  0.00  0.00    -0.268 OA
+ATOM     14  C6  UMP d          13.792  47.307 -51.324  0.00  0.00     0.104 A 
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3  UMP d          16.644  45.203 -55.231  0.00  0.00    -0.393 OA
+ATOM     16  H9  UMP d          16.075  44.514 -55.555  0.00  0.00     0.210 HD
+ENDBRANCH   3  15
+BRANCH   4  17
+ATOM     17  C5  UMP d          16.592  48.957 -55.590  0.00  0.00     0.217 C 
+BRANCH  17  18
+ATOM     18  O5  UMP d          16.969  48.983 -57.044  0.00  0.00    -0.280 OA
+BRANCH  18  19
+ATOM     19  P   UMP d          15.809  49.341 -58.131  0.00  0.00     0.422 P 
+ATOM     20  O1P UMP d          16.206  49.307 -59.551  0.00  0.00    -0.617 OA
+ATOM     21  O2P UMP d          14.807  48.289 -57.896  0.00  0.00    -0.617 OA
+ATOM     22  O3P UMP d          15.275  50.675 -57.810  0.00  0.00    -0.617 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   4  17
+TORSDOF 5

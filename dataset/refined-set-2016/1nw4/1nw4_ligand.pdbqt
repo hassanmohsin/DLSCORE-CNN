@@ -1,0 +1,46 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C5_5  and  O6_6 
+REMARK    4  A    between atoms: C7_7  and  O8_8 
+REMARK    5  A    between atoms: C9_9  and  C9_10 
+ROOT
+ATOM      1  C3  IMH d           8.386   1.353  92.509  0.00  0.00     0.241 C 
+ATOM      2  N4  IMH d           7.444   2.356  92.140  0.00  0.00    -0.055 N 
+ATOM      3  C5  IMH d           9.640   1.600  91.726  0.00  0.00     0.182 C 
+ATOM      4  C7  IMH d           9.516   3.041  91.348  0.00  0.00     0.184 C 
+ATOM      5  C9  IMH d           8.036   3.455  91.463  0.00  0.00     0.254 C 
+ATOM      6  H5  IMH d           6.996   2.698  92.976  0.00  0.00     0.278 HD
+ATOM      7  H6  IMH d           6.754   1.940  91.534  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   5   8
+ATOM      8  C9  IMH d           7.823   4.684  92.366  0.00  0.00     0.022 A 
+ATOM      9  C8  IMH d           6.578   5.194  92.727  0.00  0.00     0.100 A 
+ATOM     10  N7  IMH d           6.612   6.250  93.505  0.00  0.00    -0.359 N 
+ATOM     11  C5  IMH d           7.965   6.499  93.709  0.00  0.00     0.130 A 
+ATOM     12  H13 IMH d           5.812   6.779  93.882  0.00  0.00     0.165 HD
+ATOM     13  C6  IMH d           8.601   7.539  94.479  0.00  0.00     0.275 A 
+ATOM     14  C4  IMH d           8.746   5.557  93.025  0.00  0.00     0.100 A 
+ATOM     15  O6  IMH d           8.043   8.432  95.127  0.00  0.00    -0.266 OA
+ATOM     16  N1  IMH d          10.011   7.473  94.452  0.00  0.00    -0.316 N 
+ATOM     17  C2  IMH d          10.744   6.504  93.753  0.00  0.00     0.210 A 
+ATOM     18  H14 IMH d          10.521   8.163  94.966  0.00  0.00     0.170 HD
+ATOM     19  N3  IMH d          10.143   5.514  93.018  0.00  0.00    -0.241 NA
+ENDBRANCH   5   8
+BRANCH   4  20
+ATOM     20  O8  IMH d           9.998   3.254  90.016  0.00  0.00    -0.390 OA
+ATOM     21  H10 IMH d           9.489   2.730  89.409  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   1  22
+ATOM     22  C2  IMH d           8.652   1.367  93.970  0.00  0.00     0.199 C 
+BRANCH  22  23
+ATOM     23  O1  IMH d           7.418   1.157  94.648  0.00  0.00    -0.399 OA
+ATOM     24  H1  IMH d           7.568   1.163  95.586  0.00  0.00     0.209 HD
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   3  25
+ATOM     25  O6  IMH d           9.581   0.713  90.602  0.00  0.00    -0.391 OA
+ATOM     26  H8  IMH d          10.358   0.829  90.068  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+TORSDOF 5

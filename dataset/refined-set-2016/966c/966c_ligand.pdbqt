@@ -1,0 +1,56 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  O12_7 
+REMARK    2  A    between atoms: O12_7  and  C13_8 
+REMARK    3  A    between atoms: C16_11  and  S23_14 
+REMARK    4  A    between atoms: S23_14  and  C24_15 
+REMARK    5  A    between atoms: C24_15  and  C27_18 
+REMARK    6  A    between atoms: C27_18  and  C28_19 
+REMARK       I    between atoms: C28_19  and  N32_21 
+REMARK    7  A    between atoms: N32_21  and  O33_22 
+ROOT
+ATOM      1  S23 RS2 d           9.795 -12.013  35.871  0.00  0.00     0.184 S 
+ATOM      2  O25 RS2 d           9.563 -11.728  34.470  0.00  0.00    -0.222 OA
+ATOM      3  O26 RS2 d           9.107 -13.128  36.417  0.00  0.00    -0.222 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C16 RS2 d           9.248 -10.602  36.826  0.00  0.00     0.060 A 
+ATOM      5  C15 RS2 d           8.736 -10.821  38.088  0.00  0.00     0.026 A 
+ATOM      6  C14 RS2 d           8.156  -9.745  38.775  0.00  0.00     0.039 A 
+ATOM      7  C13 RS2 d           8.147  -8.441  38.195  0.00  0.00     0.076 A 
+ATOM      8  C18 RS2 d           8.763  -8.240  36.952  0.00  0.00     0.039 A 
+ATOM      9  C17 RS2 d           9.328  -9.317  36.260  0.00  0.00     0.026 A 
+BRANCH   7  10
+ATOM     10  O12 RS2 d           7.578  -7.309  38.782  0.00  0.00    -0.311 OA
+BRANCH  10  11
+ATOM     11  C5  RS2 d           6.845  -7.447  39.921  0.00  0.00     0.076 A 
+ATOM     12  C4  RS2 d           5.465  -7.542  39.836  0.00  0.00     0.037 A 
+ATOM     13  C3  RS2 d           4.719  -7.753  41.000  0.00  0.00     0.003 A 
+ATOM     14  C2  RS2 d           5.334  -7.881  42.235  0.00  0.00     0.000 A 
+ATOM     15  C1  RS2 d           6.714  -7.755  42.325  0.00  0.00     0.003 A 
+ATOM     16  C6  RS2 d           7.464  -7.519  41.163  0.00  0.00     0.037 A 
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+ENDBRANCH   1   4
+BRANCH   1  17
+ATOM     17  C24 RS2 d          11.547 -12.189  36.186  0.00  0.00     0.081 C 
+ATOM     18  C40 RS2 d          11.864 -12.356  37.712  0.00  0.00     0.052 C 
+ATOM     19  C39 RS2 d          13.348 -12.744  37.864  0.00  0.00     0.169 C 
+ATOM     20  O38 RS2 d          13.612 -13.949  37.133  0.00  0.00    -0.391 OA
+ATOM     21  C37 RS2 d          13.286 -14.046  35.742  0.00  0.00     0.169 C 
+ATOM     22  C36 RS2 d          11.813 -13.579  35.515  0.00  0.00     0.052 C 
+BRANCH  17  23
+ATOM     23  C27 RS2 d          12.367 -11.040  35.461  0.00  0.00     0.131 C 
+BRANCH  23  24
+ATOM     24  C28 RS2 d          12.640  -9.686  36.203  0.00  0.00     0.242 C 
+ATOM     25  N32 RS2 d          12.520  -8.585  35.450  0.00  0.00    -0.237 N 
+ATOM     26  H12 RS2 d          12.312  -8.700  34.479  0.00  0.00     0.197 HD
+ATOM     27  O31 RS2 d          12.945  -9.611  37.381  0.00  0.00    -0.271 OA
+BRANCH  25  28
+ATOM     28  O33 RS2 d          12.670  -7.265  35.948  0.00  0.00    -0.287 OA
+ATOM     29  H13 RS2 d          12.543  -6.644  35.240  0.00  0.00     0.244 HD
+ENDBRANCH  25  28
+ENDBRANCH  23  24
+ENDBRANCH  17  23
+ENDBRANCH   1  17
+TORSDOF 7

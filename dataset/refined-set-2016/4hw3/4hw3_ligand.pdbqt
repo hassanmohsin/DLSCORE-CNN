@@ -1,0 +1,48 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAQ_2  and  CAW_4 
+REMARK    2  A    between atoms: CAV_12  and  CAN_13 
+REMARK    3  A    between atoms: CAN_13  and  CAL_14 
+REMARK    4  A    between atoms: CAL_14  and  CAM_15 
+REMARK    5  A    between atoms: CAM_15  and  OAO_16 
+REMARK    6  A    between atoms: OAO_16  and  CAT_17 
+ROOT
+ATOM      1  CAN 19G d          37.351  -7.992  21.963  0.00  0.00     0.043 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAV 19G d          35.887  -7.731  22.115  0.00  0.00    -0.022 A 
+ATOM      3  CAW 19G d          34.950  -7.927  21.070  0.00  0.00     0.089 A 
+ATOM      4  S   19G d          33.438  -7.523  21.705  0.00  0.00    -0.082 SA
+ATOM      5  CAX 19G d          33.897  -7.098  23.283  0.00  0.00     0.016 A 
+ATOM      6  CAH 19G d          33.206  -6.651  24.407  0.00  0.00     0.020 A 
+ATOM      7  CAY 19G d          35.293  -7.272  23.340  0.00  0.00    -0.011 A 
+ATOM      8  CAF 19G d          33.875  -6.391  25.595  0.00  0.00     0.001 A 
+ATOM      9  CAG 19G d          35.264  -6.568  25.647  0.00  0.00     0.001 A 
+ATOM     10  CAI 19G d          35.968  -6.997  24.529  0.00  0.00     0.013 A 
+BRANCH   3  11
+ATOM     11  CAQ 19G d          35.151  -8.370  19.666  0.00  0.00     0.217 C 
+ATOM     12  OAC 19G d          34.299  -7.975  18.834  0.00  0.00    -0.643 OA
+ATOM     13  OAD 19G d          36.110  -9.096  19.299  0.00  0.00    -0.643 OA
+ENDBRANCH   3  11
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  CAL 19G d          37.770  -9.421  22.108  0.00  0.00     0.031 C 
+BRANCH  14  15
+ATOM     15  CAM 19G d          37.826 -10.010  23.483  0.00  0.00     0.176 C 
+BRANCH  15  16
+ATOM     16  OAO 19G d          38.723  -9.318  24.274  0.00  0.00    -0.351 OA
+BRANCH  16  17
+ATOM     17  CAT 19G d          38.947  -9.621  25.590  0.00  0.00     0.069 A 
+ATOM     18  CAJ 19G d          38.049 -10.392  26.295  0.00  0.00     0.045 A 
+ATOM     19  CAR 19G d          38.318 -10.680  27.632  0.00  0.00    -0.037 A 
+ATOM     20  CAA 19G d          37.348 -11.503  28.420  0.00  0.00     0.050 C 
+ATOM     21  CAU 19G d          39.470 -10.202  28.259  0.00  0.00     0.046 A 
+ATOM     22 CL   19G d          39.808 -10.563  29.927  0.00  0.00    -0.083 Cl
+ATOM     23  CAS 19G d          40.363  -9.428  27.535  0.00  0.00    -0.037 A 
+ATOM     24  CAB 19G d          41.597  -8.910  28.209  0.00  0.00     0.050 C 
+ATOM     25  CAK 19G d          40.102  -9.143  26.195  0.00  0.00     0.045 A 
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+TORSDOF 6

@@ -1,0 +1,75 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PG_1  and  O3B_5 
+REMARK    2  A    between atoms: O3B_5  and  PB_6 
+REMARK    3  A    between atoms: PB_6  and  O3A_9 
+REMARK    4  A    between atoms: O3A_9  and  PA_10 
+REMARK    5  A    between atoms: PA_10  and  O5_13 
+REMARK    6  A    between atoms: O5_13  and  C5_14 
+REMARK    7  A    between atoms: C5_14  and  C4_15 
+REMARK    8  A    between atoms: C3_17  and  O3_18 
+REMARK    9  A    between atoms: C2_19  and  O2_20 
+REMARK   10  A    between atoms: C1_21  and  N9_22 
+REMARK   11  A    between atoms: C2_29  and  N2_30 
+ROOT
+ATOM      1  C4  GTP d         -17.062  87.537  61.708  0.00  0.00     0.180 A 
+ATOM      2  O4  GTP d         -15.872  87.305  62.518  0.00  0.00    -0.353 OA
+ATOM      3  C3  GTP d         -18.035  88.368  62.548  0.00  0.00     0.182 A 
+ATOM      4  C2  GTP d         -17.325  88.599  63.904  0.00  0.00     0.198 A 
+ATOM      5  C1  GTP d         -15.989  87.879  63.814  0.00  0.00     0.262 A 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5  GTP d         -16.730  88.107  60.342  0.00  0.00     0.216 C 
+BRANCH   6   7
+ATOM      7  O5  GTP d         -17.752  87.733  59.409  0.00  0.00    -0.287 OA
+BRANCH   7   8
+ATOM      8  PA  GTP d         -17.590  86.708  58.363  0.00  0.00     0.417 P 
+ATOM      9  O1A GTP d         -16.768  85.562  58.856  0.00  0.00    -0.624 OA
+ATOM     10  O2A GTP d         -17.227  87.322  57.084  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  O3A GTP d         -19.140  86.169  58.287  0.00  0.00    -0.180 OA
+BRANCH  11  12
+ATOM     12  PB  GTP d         -19.590  85.014  57.289  0.00  0.00     0.428 P 
+ATOM     13  O1B GTP d         -18.515  84.787  56.304  0.00  0.00    -0.624 OA
+ATOM     14  O2B GTP d         -20.939  85.303  56.808  0.00  0.00    -0.624 OA
+BRANCH  12  15
+ATOM     15  O3B GTP d         -19.924  83.831  58.214  0.00  0.00    -0.173 OA
+BRANCH  15  16
+ATOM     16  PG  GTP d         -20.537  82.485  57.721  0.00  0.00     0.431 P 
+ATOM     17  O1G GTP d         -19.850  81.350  58.387  0.00  0.00    -0.616 OA
+ATOM     18  O2G GTP d         -22.007  82.108  57.929  0.00  0.00    -0.616 OA
+ATOM     19  O3G GTP d         -20.124  82.263  56.311  0.00  0.00    -0.616 OA
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  20
+ATOM     20  O3  GTP d         -19.288  87.691  62.658  0.00  0.00    -0.390 OA
+ATOM     21  H5  GTP d         -19.156  86.848  63.075  0.00  0.00     0.210 HD
+ENDBRANCH   3  20
+BRANCH   5  22
+ATOM     22  N9  GTP d         -14.811  88.754  64.032  0.00  0.00    -0.293 N 
+ATOM     23  C8  GTP d         -13.706  88.569  64.821  0.00  0.00     0.214 A 
+ATOM     24  N7  GTP d         -12.847  89.532  64.797  0.00  0.00    -0.234 NA
+ATOM     25  C5  GTP d         -13.365  90.442  63.954  0.00  0.00     0.173 A 
+ATOM     26  C6  GTP d         -12.870  91.726  63.527  0.00  0.00     0.292 A 
+ATOM     27  C4  GTP d         -14.598  90.007  63.444  0.00  0.00     0.186 A 
+ATOM     28  O6  GTP d         -11.790  92.264  63.889  0.00  0.00    -0.265 OA
+ATOM     29  N1  GTP d         -13.757  92.409  62.588  0.00  0.00    -0.152 N 
+ATOM     30  C2  GTP d         -14.959  91.887  62.140  0.00  0.00     0.703 A 
+ATOM     31  H10 GTP d         -13.479  93.308  62.248  0.00  0.00     0.187 HD
+ATOM     32  N3  GTP d         -15.433  90.698  62.527  0.00  0.00    -0.044 NA
+BRANCH  30  33
+ATOM     33  N2  GTP d         -15.652  92.633  61.283  0.00  0.00    -0.233 N 
+ATOM     34  H11 GTP d         -16.553  92.294  60.917  0.00  0.00     0.174 HD
+ATOM     35  H12 GTP d         -15.287  93.549  60.986  0.00  0.00     0.174 HD
+ENDBRANCH  30  33
+ENDBRANCH   5  22
+BRANCH   4  36
+ATOM     36  O2  GTP d         -18.075  88.124  65.007  0.00  0.00    -0.388 OA
+ATOM     37  H7  GTP d         -18.220  87.190  64.911  0.00  0.00     0.210 HD
+ENDBRANCH   4  36
+TORSDOF 11

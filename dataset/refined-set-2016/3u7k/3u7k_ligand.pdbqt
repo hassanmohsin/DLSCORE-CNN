@@ -1,0 +1,74 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_4 
+REMARK       I    between atoms: C_1  and  NAS_20 
+REMARK    2  A    between atoms: CA_4  and  N_2 
+REMARK       I    between atoms: N_2  and  CAG_9 
+REMARK    3  A    between atoms: CA_4  and  CB_5 
+REMARK       I    between atoms: CAG_9  and  NAI_11 
+REMARK    4  A    between atoms: NAI_11  and  CAJ_12 
+REMARK    5  A    between atoms: CAP_17  and  OAP_18 
+REMARK    6  A    between atoms: NAS_20  and  CAT_21 
+REMARK    7  A    between atoms: NAS_20  and  CAY_26 
+REMARK    8  A    between atoms: CAT_21  and  CAU_22 
+REMARK       I    between atoms: CAU_22  and  NAW_24 
+REMARK    9  A    between atoms: NAW_24  and  OAX_25 
+REMARK   10  A    between atoms: CAY_26  and  CAZ_27 
+ROOT
+ATOM      1  CA  MDB d         -17.093  85.670  70.033  0.00  0.00     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   MDB d         -16.739  84.879  68.791  0.00  0.00     0.243 C 
+ATOM      3  O   MDB d         -15.990  85.415  67.982  0.00  0.00    -0.271 OA
+ATOM      4  NAS MDB d         -17.197  83.629  68.568  0.00  0.00    -0.341 N 
+BRANCH   4   5
+ATOM      5  CAT MDB d         -16.791  82.962  67.333  0.00  0.00     0.230 C 
+BRANCH   5   6
+ATOM      6  CAU MDB d         -17.958  82.564  66.444  0.00  0.00     0.258 C 
+ATOM      7  OAV MDB d         -18.958  83.261  66.310  0.00  0.00    -0.270 OA
+ATOM      8  NAW MDB d         -17.788  81.406  65.817  0.00  0.00    -0.236 N 
+ATOM      9  H22 MDB d         -16.950  80.887  65.983  0.00  0.00     0.197 HD
+BRANCH   8  10
+ATOM     10  OAX MDB d         -18.733  80.889  64.938  0.00  0.00    -0.287 OA
+ATOM     11  H23 MDB d         -18.425  80.058  64.597  0.00  0.00     0.244 HD
+ENDBRANCH   8  10
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+BRANCH   4  12
+ATOM     12  CAY MDB d         -18.086  82.835  69.429  0.00  0.00     0.131 C 
+BRANCH  12  13
+ATOM     13  CAZ MDB d         -17.252  82.026  70.422  0.00  0.00     0.004 C 
+ATOM     14  CBA MDB d         -18.151  81.489  71.538  0.00  0.00     0.006 C 
+ATOM     15  CBB MDB d         -17.549  80.160  71.985  0.00  0.00     0.000 C 
+ATOM     16  CBC MDB d         -16.518  79.756  70.943  0.00  0.00     0.000 C 
+ATOM     17  CBD MDB d         -16.615  80.784  69.812  0.00  0.00     0.006 C 
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  N   MDB d         -15.844  86.327  70.367  0.00  0.00    -0.329 N 
+ATOM     19  CAG MDB d         -15.135  86.077  71.466  0.00  0.00     0.321 C 
+ATOM     20  OAH MDB d         -15.522  85.285  72.313  0.00  0.00    -0.247 OA
+ATOM     21  NAI MDB d         -13.997  86.765  71.559  0.00  0.00    -0.306 N 
+ATOM     22  H12 MDB d         -13.794  87.383  70.799  0.00  0.00     0.171 HD
+ATOM     23  H1  MDB d         -15.492  87.013  69.730  0.00  0.00     0.165 HD
+BRANCH  21  24
+ATOM     24  CAJ MDB d         -13.074  86.728  72.567  0.00  0.00     0.069 A 
+ATOM     25  CAK MDB d         -13.222  85.928  73.700  0.00  0.00     0.032 A 
+ATOM     26  CAL MDB d         -12.249  85.933  74.705  0.00  0.00     0.002 A 
+ATOM     27  CAM MDB d         -11.121  86.744  74.584  0.00  0.00     0.003 A 
+ATOM     28  CAN MDB d         -10.967  87.544  73.449  0.00  0.00     0.039 A 
+ATOM     29  CAP MDB d         -11.946  87.533  72.447  0.00  0.00     0.095 A 
+BRANCH  29  30
+ATOM     30  OAP MDB d         -11.795  88.315  71.333  0.00  0.00    -0.354 OA
+ATOM     31  CAQ MDB d         -10.580  88.248  70.583  0.00  0.00     0.210 C 
+ENDBRANCH  29  30
+ENDBRANCH  21  24
+ENDBRANCH   1  18
+BRANCH   1  32
+ATOM     32  CB  MDB d         -18.249  86.664  69.837  0.00  0.00    -0.022 C 
+ATOM     33  CAA MDB d         -18.586  87.340  71.168  0.00  0.00     0.017 C 
+ATOM     34  CAC MDB d         -17.900  87.785  68.854  0.00  0.00     0.017 C 
+ATOM     35  CAD MDB d         -19.509  85.945  69.359  0.00  0.00     0.017 C 
+ENDBRANCH   1  32
+TORSDOF 10

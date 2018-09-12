@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_8 
+REMARK    2  A    between atoms: C7_8  and  N1_9 
+REMARK    3  A    between atoms: C1'_14  and  C8_13 
+REMARK    4  A    between atoms: O5'_21  and  C5'_18 
+REMARK    5  A    between atoms: C6'_19  and  O6'_20 
+REMARK    6  A    between atoms: C6''_27  and  O5'_21 
+ROOT
+ATOM      1  C1  CR9 d           9.002   1.491  24.677  0.00  0.00     0.048 A 
+ATOM      2  C2  CR9 d           9.864   1.340  23.539  0.00  0.00     0.132 A 
+ATOM      3  F2  CR9 d          10.170   0.112  23.030  0.00  0.00    -0.205 F 
+ATOM      4  C3  CR9 d          10.453   2.421  22.894  0.00  0.00     0.075 A 
+ATOM      5  C4  CR9 d          10.172   3.634  23.403  0.00  0.00     0.066 A 
+ATOM      6  C5  CR9 d           9.373   3.838  24.463  0.00  0.00     0.087 A 
+ATOM      7  C6  CR9 d           8.764   2.812  25.133  0.00  0.00     0.052 A 
+ATOM      8  N3  CR9 d          10.587   4.779  23.007  0.00  0.00    -0.338 N 
+ATOM      9  N4  CR9 d           9.253   5.111  24.777  0.00  0.00    -0.228 NA
+ATOM     10  C8  CR9 d          10.032   5.618  23.831  0.00  0.00     0.142 A 
+ATOM     11  H7  CR9 d          11.215   4.987  22.218  0.00  0.00     0.167 HD
+ENDROOT
+BRANCH  10  12
+ATOM     12  C1' CR9 d          10.268   7.003  23.736  0.00  0.00     0.046 A 
+ATOM     13  C2' CR9 d           9.885   7.886  24.770  0.00  0.00     0.018 A 
+ATOM     14  C3' CR9 d          10.131   9.249  24.703  0.00  0.00     0.004 A 
+ATOM     15  C4' CR9 d          10.763   9.780  23.595  0.00  0.00     0.040 A 
+ATOM     16  C5' CR9 d          11.159   8.931  22.542  0.00  0.00     0.103 A 
+ATOM     17  C6' CR9 d          10.911   7.578  22.615  0.00  0.00     0.113 A 
+BRANCH  16  18
+ATOM     18  O5' CR9 d          11.825   9.343  21.397  0.00  0.00    -0.343 OA
+BRANCH  18  19
+ATOM     19  C6' CR9 d          12.711  10.436  21.599  0.00  0.00     0.132 C 
+ATOM     20  C1' CR9 d          12.186  11.615  20.756  0.00  0.00     0.011 C 
+ATOM     21  C2' CR9 d          13.018  11.797  19.491  0.00  0.00     0.007 C 
+ATOM     22  C1A CR9 d          10.724  11.322  20.366  0.00  0.00     0.012 C 
+ATOM     23  C3' CR9 d          14.461  12.143  19.846  0.00  0.00     0.001 C 
+ATOM     24  C4' CR9 d          14.959  11.397  21.094  0.00  0.00     0.002 C 
+ATOM     25  C5' CR9 d          14.158  10.086  21.266  0.00  0.00     0.033 C 
+ENDBRANCH  18  19
+ENDBRANCH  16  18
+BRANCH  17  26
+ATOM     26  O6' CR9 d          11.333   6.845  21.528  0.00  0.00    -0.357 OA
+ATOM     27  H11 CR9 d          12.272   6.943  21.427  0.00  0.00     0.217 HD
+ENDBRANCH  17  26
+ENDBRANCH  10  12
+BRANCH   1  28
+ATOM     28  C7  CR9 d           8.426   0.382  25.337  0.00  0.00     0.105 C 
+ATOM     29  N2  CR9 d           8.156  -0.749  24.741  0.00  0.00    -0.385 N 
+ATOM     30  H5  CR9 d           8.356  -0.863  23.737  0.00  0.00     0.157 HD
+ATOM     31  H6  CR9 d           7.743  -1.527  25.275  0.00  0.00     0.157 HD
+BRANCH  28  32
+ATOM     32  N1  CR9 d           8.147   0.456  26.607  0.00  0.00    -0.385 N 
+ATOM     33  H3  CR9 d           7.727  -0.351  27.090  0.00  0.00     0.157 HD
+ATOM     34  H4  CR9 d           8.346   1.322  27.128  0.00  0.00     0.157 HD
+ENDBRANCH  28  32
+ENDBRANCH   1  28
+TORSDOF 6

@@ -1,0 +1,46 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: ND1_21  and  CA6_6 
+REMARK    2  A    between atoms: CD4_24  and  CB6_12 
+REMARK    3  A    between atoms: CD5_25  and  CC2_15 
+REMARK    4  A    between atoms: CC4_17  and  NC7_20 
+ROOT
+ATOM      1  ND1 SB4 d          21.064 -21.169  28.429  0.00  0.00    -0.333 N 
+ATOM      2  CD2 SB4 d          20.610 -19.985  28.897  0.00  0.00     0.211 A 
+ATOM      3  ND3 SB4 d          20.157 -20.161  30.148  0.00  0.00    -0.241 NA
+ATOM      4  CD4 SB4 d          20.420 -21.428  30.504  0.00  0.00     0.097 A 
+ATOM      5  CD5 SB4 d          20.937 -22.074  29.406  0.00  0.00     0.095 A 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CC2 SB4 d          21.272 -23.391  29.216  0.00  0.00     0.106 A 
+ATOM      7  CC1 SB4 d          20.398 -24.344  29.681  0.00  0.00     0.054 A 
+ATOM      8  CC6 SB4 d          20.658 -25.677  29.490  0.00  0.00     0.139 A 
+ATOM      9  NC5 SB4 d          21.881 -26.028  28.827  0.00  0.00    -0.075 NA
+ATOM     10  CC4 SB4 d          22.705 -25.113  28.333  0.00  0.00     0.720 A 
+ATOM     11  NC3 SB4 d          22.451 -23.818  28.554  0.00  0.00    -0.061 NA
+BRANCH  10  12
+ATOM     12  NC7 SB4 d          23.815 -25.499  27.687  0.00  0.00    -0.231 N 
+ATOM     13  H18 SB4 d          24.458 -24.793  27.301  0.00  0.00     0.174 HD
+ATOM     14  H19 SB4 d          24.024 -26.501  27.576  0.00  0.00     0.174 HD
+ENDBRANCH  10  12
+ENDBRANCH   5   6
+BRANCH   1  15
+ATOM     15  CA6 SB4 d          21.604 -21.377  27.108  0.00  0.00     0.094 C 
+ATOM     16  CA1 SB4 d          23.037 -20.801  27.209  0.00  0.00     0.053 C 
+ATOM     17  CA2 SB4 d          23.691 -20.848  25.868  0.00  0.00     0.234 C 
+ATOM     18  NA3 SB4 d          22.803 -20.189  24.904  0.00  0.00    -0.075 N 
+ATOM     19  CA4 SB4 d          21.488 -20.758  24.715  0.00  0.00     0.234 C 
+ATOM     20  H5  SB4 d          23.268 -20.198  24.010  0.00  0.00     0.277 HD
+ATOM     21  H6  SB4 d          22.679 -19.236  25.209  0.00  0.00     0.277 HD
+ATOM     22  CA5 SB4 d          20.828 -20.612  26.084  0.00  0.00     0.053 C 
+ENDBRANCH   1  15
+BRANCH   4  23
+ATOM     23  CB6 SB4 d          20.022 -21.899  31.714  0.00  0.00    -0.005 C 
+ATOM     24  CB1 SB4 d          20.800 -22.718  32.522  0.00  0.00     0.017 C 
+ATOM     25  CB2 SB4 d          20.453 -23.140  33.781  0.00  0.00     0.043 C 
+ATOM     26  CB3 SB4 d          19.158 -22.839  34.186  0.00  0.00     0.116 C 
+ATOM     27  CB4 SB4 d          18.349 -22.097  33.387  0.00  0.00     0.043 C 
+ATOM     28  FB7 SB4 d          18.726 -23.347  35.332  0.00  0.00    -0.206 F 
+ATOM     29  CB5 SB4 d          18.723 -21.604  32.160  0.00  0.00     0.017 C 
+ENDBRANCH   4  23
+TORSDOF 4

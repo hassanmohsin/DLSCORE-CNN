@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAS_2  and  CBC_4 
+REMARK    2  A    between atoms: CBB_10  and  NBE_11 
+REMARK    3  A    between atoms: CBD_12  and  CBA_13 
+REMARK    4  A    between atoms: CAU_21  and  OAF_22 
+REMARK    5  A    between atoms: CAW_23  and  CAT_24 
+REMARK    6  A    between atoms: CAT_24  and  CAZ_26 
+ROOT
+ATOM      1  NBE 1DL d           1.670  20.283   0.254  0.00  0.00    -0.309 N 
+ATOM      2  CBD 1DL d           2.587  21.138   0.713  0.00  0.00     0.172 A 
+ATOM      3  CAV 1DL d           2.016  19.030   0.555  0.00  0.00     0.216 A 
+ATOM      4  OAD 1DL d           1.273  17.930   0.250  0.00  0.00    -0.169 OA
+ATOM      5  CAU 1DL d           3.247  19.063   1.208  0.00  0.00     0.133 A 
+ATOM      6  CAW 1DL d           3.623  20.404   1.284  0.00  0.00     0.059 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CBB 1DL d           0.516  20.658  -0.515  0.00  0.00     0.038 A 
+ATOM      8  CAQ 1DL d          -0.740  20.155  -0.197  0.00  0.00     0.048 A 
+ATOM      9  CBC 1DL d          -1.869  20.504  -0.926  0.00  0.00     0.048 A 
+ATOM     10  CAX 1DL d          -1.729  21.394  -2.001  0.00  0.00    -0.045 A 
+ATOM     11  CAA 1DL d          -2.867  21.856  -2.861  0.00  0.00     0.049 C 
+ATOM     12  CAK 1DL d          -0.475  21.895  -2.312  0.00  0.00     0.010 A 
+ATOM     13  CAN 1DL d           0.646  21.533  -1.583  0.00  0.00     0.030 A 
+BRANCH   9  14
+ATOM     14  CAS 1DL d          -3.160  19.884  -0.473  0.00  0.00     0.210 C 
+ATOM     15  OAB 1DL d          -3.140  19.097   0.507  0.00  0.00    -0.644 OA
+ATOM     16  OAE 1DL d          -4.269  20.098  -1.015  0.00  0.00    -0.644 OA
+ENDBRANCH   9  14
+ENDBRANCH   1   7
+BRANCH   2  17
+ATOM     17  CBA 1DL d           2.061  22.196   1.593  0.00  0.00     0.012 A 
+ATOM     18  SAR 1DL d           1.397  21.832   3.092  0.00  0.00    -0.103 SA
+ATOM     19  CAO 1DL d           0.994  23.386   3.587  0.00  0.00     0.069 A 
+ATOM     20  CAY 1DL d           1.393  24.210   2.531  0.00  0.00     0.018 A 
+ATOM     21 BRA  1DL d           1.152  26.112   2.606  0.00  0.00    -0.051 Br
+ATOM     22  CAP 1DL d           1.997  23.577   1.406  0.00  0.00     0.036 A 
+ENDBRANCH   2  17
+BRANCH   6  23
+ATOM     23  CAT 1DL d           4.860  21.055   1.811  0.00  0.00     0.193 C 
+ATOM     24  OAC 1DL d           5.151  22.148   1.333  0.00  0.00    -0.287 OA
+BRANCH  23  25
+ATOM     25  CAZ 1DL d           5.737  20.468   2.869  0.00  0.00     0.015 A 
+ATOM     26  CAL 1DL d           7.086  20.788   2.861  0.00  0.00     0.015 A 
+ATOM     27  CAI 1DL d           7.935  20.269   3.833  0.00  0.00     0.001 A 
+ATOM     28  CAH 1DL d           7.433  19.425   4.816  0.00  0.00     0.000 A 
+ATOM     29  CAJ 1DL d           6.079  19.107   4.834  0.00  0.00     0.001 A 
+ATOM     30  CAM 1DL d           5.229  19.628   3.861  0.00  0.00     0.015 A 
+ENDBRANCH  23  25
+ENDBRANCH   6  23
+BRANCH   5  31
+ATOM     31  OAF 1DL d           3.952  17.977   1.663  0.00  0.00    -0.356 OA
+ATOM     32  H10 1DL d           4.758  18.272   2.070  0.00  0.00     0.218 HD
+ENDBRANCH   5  31
+TORSDOF 6

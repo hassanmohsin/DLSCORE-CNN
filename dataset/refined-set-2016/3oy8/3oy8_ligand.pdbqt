@@ -1,0 +1,85 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_22  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_7 
+REMARK    3  A    between atoms: C3_3  and  O3_8 
+REMARK    4  A    between atoms: C4_4  and  O4_9 
+REMARK    5  A    between atoms: C5_5  and  C6_6 
+REMARK    6  A    between atoms: C6_6  and  O6_11 
+REMARK    7  A    between atoms: C2_13  and  C1_12 
+REMARK    8  A    between atoms: C3_14  and  C2_13 
+REMARK    9  A    between atoms: C2_13  and  O2_20 
+REMARK   10  A    between atoms: C4_15  and  C3_14 
+REMARK   11  A    between atoms: C3_14  and  O3_21 
+REMARK   12  A    between atoms: C4_15  and  C5_16 
+REMARK   13  A    between atoms: C4_15  and  O4_22 
+REMARK   14  A    between atoms: C5_16  and  C6_17 
+REMARK   15  A    between atoms: C5_16  and  O5_23 
+REMARK   16  A    between atoms: C6_17  and  O6_24 
+ROOT
+ATOM      1  C4  GAL d          23.988  -2.190  17.951  0.00  0.00     0.187 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  GAL d          23.663  -3.239  16.877  0.00  0.00     0.189 C 
+BRANCH   2   3
+ATOM      3  C2  GAL d          23.432  -4.638  17.467  0.00  0.00     0.250 C 
+BRANCH   3   4
+ATOM      4  C1  GAL d          23.252  -5.655  16.375  0.00  0.00     0.205 C 
+ATOM      5  O11 GAL d          22.235  -6.381  16.410  0.00  0.00    -0.646 OA
+ATOM      6  O12 GAL d          24.112  -5.740  15.468  0.00  0.00    -0.646 OA
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  O2  GAL d          22.274  -4.632  18.310  0.00  0.00    -0.382 OA
+ATOM      8  H18 GAL d          22.141  -5.501  18.669  0.00  0.00     0.210 HD
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+BRANCH   2   9
+ATOM      9  O3  GAL d          22.514  -2.833  16.123  0.00  0.00    -0.390 OA
+ATOM     10  H19 GAL d          22.691  -2.000  15.702  0.00  0.00     0.210 HD
+ENDBRANCH   2   9
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C5  GAL d          25.348  -2.437  18.627  0.00  0.00     0.173 C 
+BRANCH  11  12
+ATOM     12  C6  GAL d          26.543  -2.021  17.767  0.00  0.00     0.198 C 
+BRANCH  12  13
+ATOM     13  O6  GAL d          27.752  -2.240  18.504  0.00  0.00    -0.398 OA
+ATOM     14  H21 GAL d          27.735  -1.721  19.300  0.00  0.00     0.209 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+BRANCH  11  15
+ATOM     15  O5  GAL d          25.396  -1.737  19.878  0.00  0.00    -0.391 OA
+ATOM     16  H20 GAL d          26.203  -1.953  20.330  0.00  0.00     0.210 HD
+ENDBRANCH  11  15
+ENDBRANCH   1  11
+BRANCH   1  17
+ATOM     17  O4  GAL d          23.934  -0.874  17.379  0.00  0.00    -0.348 OA
+BRANCH  17  18
+ATOM     18  C1  GAL d          23.349   0.191  17.929  0.00  0.00     0.292 C 
+ATOM     19  C2  GAL d          23.911   1.460  17.283  0.00  0.00     0.204 C 
+ATOM     20  C3  GAL d          23.193   2.699  17.826  0.00  0.00     0.183 C 
+ATOM     21  C4  GAL d          21.677   2.529  17.703  0.00  0.00     0.180 C 
+ATOM     22  C5  GAL d          21.256   1.236  18.410  0.00  0.00     0.179 C 
+ATOM     23  O5  GAL d          21.930   0.140  17.824  0.00  0.00    -0.348 OA
+BRANCH  19  24
+ATOM     24  O2  GAL d          25.296   1.557  17.526  0.00  0.00    -0.388 OA
+ATOM     25  H8  GAL d          25.731   0.784  17.186  0.00  0.00     0.210 HD
+ENDBRANCH  19  24
+BRANCH  20  26
+ATOM     26  O3  GAL d          23.620   3.857  17.144  0.00  0.00    -0.390 OA
+ATOM     27  H9  GAL d          23.392   3.784  16.225  0.00  0.00     0.210 HD
+ENDBRANCH  20  26
+BRANCH  21  28
+ATOM     28  O4  GAL d          21.308   2.486  16.334  0.00  0.00    -0.390 OA
+ATOM     29  H10 GAL d          21.575   3.293  15.910  0.00  0.00     0.210 HD
+ENDBRANCH  21  28
+BRANCH  22  30
+ATOM     30  C6  GAL d          19.753   1.005  18.331  0.00  0.00     0.198 C 
+BRANCH  30  31
+ATOM     31  O6  GAL d          19.427  -0.196  18.985  0.00  0.00    -0.398 OA
+ATOM     32  H11 GAL d          19.881  -0.917  18.565  0.00  0.00     0.209 HD
+ENDBRANCH  30  31
+ENDBRANCH  22  30
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+TORSDOF 16

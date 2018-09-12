@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  C2_2 
+REMARK    2  A    between atoms: C4_4  and  C8_8 
+REMARK    3  A    between atoms: C5_5  and  C7_7 
+REMARK    4  A    between atoms: C11_11  and  C21_21 
+ROOT
+ATOM      1  S1  HJZ d          77.474  31.808  -8.286  0.00  0.00    -0.082 SA
+ATOM      2  C2  HJZ d          75.966  32.019  -9.073  0.00  0.00     0.017 A 
+ATOM      3  C3  HJZ d          76.154  32.677 -10.247  0.00  0.00     0.033 A 
+ATOM      4  C4  HJZ d          77.425  32.978 -10.491  0.00  0.00    -0.000 A 
+ATOM      5  C5  HJZ d          78.329  32.601  -9.558  0.00  0.00     0.093 A 
+ENDROOT
+BRANCH   4   6
+ATOM      6  C8  HJZ d          77.758  33.667 -11.739  0.00  0.00    -0.018 A 
+ATOM      7  C11 HJZ d          77.757  35.038 -11.917  0.00  0.00    -0.043 A 
+ATOM      8  C14 HJZ d          78.083  35.618 -13.230  0.00  0.00     0.008 A 
+ATOM      9  C12 HJZ d          78.434  34.750 -14.340  0.00  0.00     0.001 A 
+ATOM     10  C13 HJZ d          78.426  33.316 -14.145  0.00  0.00     0.001 A 
+ATOM     11  C15 HJZ d          78.090  32.761 -12.858  0.00  0.00     0.013 A 
+BRANCH   7  12
+ATOM     12  C21 HJZ d          77.384  35.928 -10.747  0.00  0.00     0.019 C 
+ATOM     13  C22 HJZ d          78.300  37.108 -10.495  0.00  0.00     0.010 C 
+ATOM     14  C23 HJZ d          77.686  37.950  -9.323  0.00  0.00     0.005 C 
+ATOM     15  C24 HJZ d          76.255  38.404  -9.634  0.00  0.00    -0.019 C 
+ATOM     16  C25 HJZ d          75.246  37.266 -10.081  0.00  0.00     0.005 C 
+ATOM     17  C27 HJZ d          75.665  39.301  -8.522  0.00  0.00     0.010 C 
+ATOM     18  C26 HJZ d          75.887  36.303 -11.135  0.00  0.00     0.010 C 
+ENDBRANCH   7  12
+ENDBRANCH   4   6
+BRANCH   5  19
+ATOM     19  C7  HJZ d          79.753  32.767  -9.486  0.00  0.00     0.217 C 
+ATOM     20  O9  HJZ d          80.344  32.296  -8.488  0.00  0.00    -0.643 OA
+ATOM     21  O10 HJZ d          80.508  33.305 -10.232  0.00  0.00    -0.643 OA
+ENDBRANCH   5  19
+BRANCH   2  22
+ATOM     22  C6  HJZ d          74.803  31.571  -8.373  0.00  0.00    -0.019 A 
+ATOM     23  C16 HJZ d          73.618  32.391  -8.596  0.00  0.00     0.013 A 
+ATOM     24  C19 HJZ d          72.436  32.025  -7.885  0.00  0.00     0.001 A 
+ATOM     25  C17 HJZ d          72.418  30.883  -6.971  0.00  0.00     0.000 A 
+ATOM     26  C18 HJZ d          73.577  30.084  -6.722  0.00  0.00     0.001 A 
+ATOM     27  C20 HJZ d          74.771  30.418  -7.426  0.00  0.00     0.013 A 
+ENDBRANCH   2  22
+TORSDOF 4

@@ -1,0 +1,32 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_17  and  CAK_18 
+REMARK    2  A    between atoms: CAK_18  and  CAM_19 
+ROOT
+ATOM      1  OAD MOL d         113.462 -38.019 -10.559  0.00  0.00    -0.286 OA
+ATOM      2  CAQ MOL d         113.397 -39.177 -10.166  0.00  0.00     0.198 A 
+ATOM      3  CAS MOL d         113.580 -40.249 -11.022  0.00  0.00     0.049 A 
+ATOM      4  CAJ MOL d         113.855 -40.035 -12.369  0.00  0.00     0.019 A 
+ATOM      5  CAH MOL d         114.057 -41.134 -13.196  0.00  0.00     0.008 A 
+ATOM      6  CAN MOL d         113.982 -42.436 -12.689  0.00  0.00    -0.053 A 
+ATOM      7  CAA MOL d         114.183 -43.537 -13.518  0.00  0.00     0.049 C 
+ATOM      8  CAO MOL d         113.710 -42.644 -11.336  0.00  0.00    -0.021 A 
+ATOM      9  CAB MOL d         113.622 -43.906 -10.750  0.00  0.00     0.052 C 
+ATOM     10  CAT MOL d         113.499 -41.553 -10.532  0.00  0.00     0.096 A 
+ATOM     11  OAL MOL d         113.267 -41.828  -9.235  0.00  0.00    -0.308 OA
+ATOM     12  CAU MOL d         113.112 -40.793  -8.373  0.00  0.00     0.097 A 
+ATOM     13  CAR MOL d         113.191 -39.466  -8.835  0.00  0.00     0.049 A 
+ATOM     14  CAI MOL d         113.048 -38.423  -7.930  0.00  0.00     0.018 A 
+ATOM     15  CAF MOL d         112.818 -38.723  -6.595  0.00  0.00     0.002 A 
+ATOM     16  CAG MOL d         112.741 -40.042  -6.150  0.00  0.00     0.010 A 
+ATOM     17  CAP MOL d         112.879 -41.100  -7.040  0.00  0.00    -0.013 A 
+ENDROOT
+BRANCH  17  18
+ATOM     18  CAK MOL d         112.792 -42.415  -6.569  0.00  0.00     0.154 C 
+BRANCH  18  19
+ATOM     19  CAM MOL d         114.002 -43.331  -6.858  0.00  0.00     0.177 C 
+ATOM     20  OAE MOL d         113.797 -44.559  -6.713  0.00  0.00    -0.648 OA
+ATOM     21  OAC MOL d         115.083 -42.798  -7.202  0.00  0.00    -0.648 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+TORSDOF 2

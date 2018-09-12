@@ -1,0 +1,108 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_1  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_4 
+REMARK    3  A    between atoms: C4_5  and  O4_6 
+REMARK    4  A    between atoms: C5_7  and  C6_8 
+REMARK    5  A    between atoms: C6_8  and  O6_9 
+REMARK    6  A    between atoms: C1_11  and  O1_12 
+REMARK    7  A    between atoms: O1_12  and  CBH_13 
+REMARK    8  A    between atoms: CBH_13  and  CAO_14 
+REMARK    9  A    between atoms: CAO_14  and  OAD_15 
+REMARK   10  A    between atoms: CBD_16  and  OAK_17 
+REMARK   11  A    between atoms: CBC_19  and  CAN_20 
+REMARK   12  A    between atoms: CAN_20  and  OAC_21 
+REMARK   13  A    between atoms: CBG_22  and  OAU_23 
+REMARK   14  A    between atoms: OAU_23  and  P1_25 
+REMARK   15  A    between atoms: P1_25  and  OBA_27 
+REMARK   16  A    between atoms: OBA_27  and  CBO_28 
+REMARK   17  A    between atoms: CBM_29  and  O14_30 
+REMARK   18  A    between atoms: CBL_31  and  O10_32 
+REMARK   19  A    between atoms: C8_35  and  OAH_36 
+ROOT
+ATOM      1  CBH AGR d          32.733  26.198  33.351  0.00  0.00     0.217 C 
+ATOM      2  CBD AGR d          33.889  25.481  32.685  0.00  0.00     0.215 C 
+ATOM      3  OAR AGR d          31.665  25.303  33.169  0.00  0.00    -0.341 OA
+ATOM      4  CBC AGR d          32.184  24.023  32.915  0.00  0.00     0.181 C 
+ATOM      5  CBG AGR d          33.659  24.139  32.996  0.00  0.00     0.200 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  O1  AGR d          33.124  26.391  34.752  0.00  0.00    -0.318 OA
+BRANCH   6   7
+ATOM      7  C1  AGR d          32.145  26.659  35.749  0.00  0.00     0.295 C 
+ATOM      8  C2  AGR d          32.583  27.764  36.700  0.00  0.00     0.204 C 
+ATOM      9  C3  AGR d          33.457  27.307  37.850  0.00  0.00     0.183 C 
+ATOM     10  C4  AGR d          33.900  25.926  37.867  0.00  0.00     0.180 C 
+ATOM     11  C5  AGR d          32.985  24.870  37.274  0.00  0.00     0.179 C 
+ATOM     12  O5  AGR d          31.856  25.472  36.459  0.00  0.00    -0.348 OA
+BRANCH   8  13
+ATOM     13  O2  AGR d          33.076  28.900  36.011  0.00  0.00    -0.388 OA
+ATOM     14  H1  AGR d          32.479  29.126  35.308  0.00  0.00     0.210 HD
+ENDBRANCH   8  13
+BRANCH   9  15
+ATOM     15  O3  AGR d          34.570  28.210  38.073  0.00  0.00    -0.390 OA
+ATOM     16  H4  AGR d          35.094  27.892  38.799  0.00  0.00     0.210 HD
+ENDBRANCH   9  15
+BRANCH  10  17
+ATOM     17  O4  AGR d          34.643  25.579  39.062  0.00  0.00    -0.390 OA
+ATOM     18  H6  AGR d          34.094  25.714  39.825  0.00  0.00     0.210 HD
+ENDBRANCH  10  17
+BRANCH  11  19
+ATOM     19  C6  AGR d          32.454  23.838  38.159  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6  AGR d          31.274  24.089  38.856  0.00  0.00    -0.398 OA
+ATOM     21  H10 AGR d          31.054  23.332  39.387  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH  11  19
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  22
+ATOM     22  CAO AGR d          32.515  27.546  32.683  0.00  0.00     0.235 C 
+BRANCH  22  23
+ATOM     23  OAD AGR d          33.262  28.625  33.168  0.00  0.00    -0.395 OA
+ATOM     24  H14 AGR d          33.062  28.760  34.087  0.00  0.00     0.209 HD
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+BRANCH   2  25
+ATOM     25  OAK AGR d          35.163  25.926  33.094  0.00  0.00    -0.387 OA
+ATOM     26  H16 AGR d          35.255  26.849  32.891  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   5  27
+ATOM     27  OAU AGR d          34.220  23.309  31.976  0.00  0.00    -0.279 OA
+BRANCH  27  28
+ATOM     28  P1  AGR d          35.369  22.188  32.194  0.00  0.00     0.409 P 
+ATOM     29  O15 AGR d          36.278  22.217  30.997  0.00  0.00    -0.624 OA
+ATOM     30  OAL AGR d          36.150  22.436  33.443  0.00  0.00    -0.624 OA
+BRANCH  28  31
+ATOM     31  OBA AGR d          34.634  20.785  32.354  0.00  0.00    -0.277 OA
+BRANCH  31  32
+ATOM     32  CBO AGR d          34.258  19.884  31.277  0.00  0.00     0.220 C 
+ATOM     33  CBM AGR d          32.833  19.639  31.325  0.00  0.00     0.183 C 
+ATOM     34  CBL AGR d          32.344  18.584  30.494  0.00  0.00     0.173 C 
+ATOM     35  CBN AGR d          33.131  17.310  30.740  0.00  0.00     0.205 C 
+ATOM     36  OAX AGR d          34.530  17.537  30.605  0.00  0.00    -0.356 OA
+ATOM     37  C8  AGR d          35.036  18.585  31.424  0.00  0.00     0.288 C 
+BRANCH  33  38
+ATOM     38  O14 AGR d          32.052  20.862  31.090  0.00  0.00    -0.390 OA
+ATOM     39  H24 AGR d          31.125  20.657  31.130  0.00  0.00     0.210 HD
+ENDBRANCH  33  38
+BRANCH  34  40
+ATOM     40  O10 AGR d          32.519  18.882  29.088  0.00  0.00    -0.391 OA
+ATOM     41  H26 AGR d          32.184  18.161  28.569  0.00  0.00     0.210 HD
+ENDBRANCH  34  40
+BRANCH  37  42
+ATOM     42  OAH AGR d          36.377  18.744  31.166  0.00  0.00    -0.369 OA
+ATOM     43  H30 AGR d          36.834  17.934  31.361  0.00  0.00     0.212 HD
+ENDBRANCH  37  42
+ENDBRANCH  31  32
+ENDBRANCH  28  31
+ENDBRANCH  27  28
+ENDBRANCH   5  27
+BRANCH   4  44
+ATOM     44  CAN AGR d          31.678  23.048  33.919  0.00  0.00     0.199 C 
+BRANCH  44  45
+ATOM     45  OAC AGR d          30.291  22.866  33.890  0.00  0.00    -0.398 OA
+ATOM     46  H20 AGR d          30.033  22.546  33.034  0.00  0.00     0.209 HD
+ENDBRANCH  44  45
+ENDBRANCH   4  44
+TORSDOF 19

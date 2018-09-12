@@ -1,0 +1,75 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_4 
+REMARK    2  A    between atoms: C7_8  and  O7_9 
+REMARK    3  A    between atoms: C12_14  and  O12_15 
+REMARK    4  A    between atoms: C17_20  and  C20_23 
+REMARK    5  A    between atoms: C20_23  and  C22_25 
+REMARK    6  A    between atoms: C22_25  and  C23_26 
+REMARK    7  A    between atoms: C23_26  and  C24_27 
+REMARK       I    between atoms: C24_27  and  N24_28 
+REMARK    8  A    between atoms: N24_28  and  C25_30 
+REMARK    9  A    between atoms: C25_30  and  C26_31 
+REMARK   10  A    between atoms: C26_31  and  S26_32 
+ROOT
+ATOM      1  C1  TCH d         -10.872 -16.930 -11.691  0.00  0.00     0.012 C 
+ATOM      2  C2  TCH d         -12.350 -17.192 -11.960  0.00  0.00     0.032 C 
+ATOM      3  C3  TCH d         -13.266 -16.484 -10.985  0.00  0.00     0.118 C 
+ATOM      4  C4  TCH d         -12.689 -16.673  -9.588  0.00  0.00     0.037 C 
+ATOM      5  C5  TCH d         -11.801 -17.876  -9.839  0.00  0.00    -0.001 C 
+ATOM      6  C6  TCH d         -11.465 -19.010  -8.899  0.00  0.00     0.037 C 
+ATOM      7  C7  TCH d         -11.326 -20.157  -9.845  0.00  0.00     0.123 C 
+ATOM      8  C8  TCH d          -9.890 -20.068  -9.742  0.00  0.00     0.024 C 
+ATOM      9  C9  TCH d          -9.534 -18.676 -10.303  0.00  0.00     0.003 C 
+ATOM     10  C10 TCH d         -10.483 -17.443 -10.322  0.00  0.00    -0.036 C 
+ATOM     11  C11 TCH d          -8.032 -18.432 -10.193  0.00  0.00     0.038 C 
+ATOM     12  C12 TCH d          -7.211 -19.734 -10.282  0.00  0.00     0.127 C 
+ATOM     13  C13 TCH d          -7.895 -21.107 -10.565  0.00  0.00    -0.010 C 
+ATOM     14  C14 TCH d          -9.396 -21.047 -10.727  0.00  0.00     0.003 C 
+ATOM     15  C15 TCH d          -9.868 -22.451 -10.867  0.00  0.00     0.006 C 
+ATOM     16  C16 TCH d          -8.737 -22.964 -11.779  0.00  0.00     0.006 C 
+ATOM     17  C17 TCH d          -7.690 -21.857 -11.871  0.00  0.00     0.000 C 
+ATOM     18  C18 TCH d          -7.554 -22.080  -9.456  0.00  0.00     0.018 C 
+ATOM     19  C19 TCH d         -10.027 -16.248  -9.485  0.00  0.00     0.016 C 
+ENDROOT
+BRANCH  17  20
+ATOM     20  C20 TCH d          -6.295 -22.369 -12.112  0.00  0.00    -0.013 C 
+ATOM     21  C21 TCH d          -5.827 -23.099 -10.887  0.00  0.00     0.010 C 
+BRANCH  20  22
+ATOM     22  C22 TCH d          -6.137 -23.194 -13.371  0.00  0.00     0.014 C 
+BRANCH  22  23
+ATOM     23  C23 TCH d          -7.308 -23.124 -14.332  0.00  0.00     0.103 C 
+BRANCH  23  24
+ATOM     24  C24 TCH d          -7.813 -24.508 -14.563  0.00  0.00     0.217 C 
+ATOM     25  N24 TCH d          -7.635 -25.089 -15.745  0.00  0.00    -0.360 N 
+ATOM     26  H40 TCH d          -7.428 -24.524 -16.544  0.00  0.00     0.162 HD
+ATOM     27  O24 TCH d          -8.352 -25.059 -13.653  0.00  0.00    -0.274 OA
+BRANCH  25  28
+ATOM     28  C25 TCH d          -7.736 -26.542 -15.900  0.00  0.00     0.140 C 
+BRANCH  28  29
+ATOM     29  C26 TCH d          -6.693 -27.128 -16.855  0.00  0.00     0.184 C 
+BRANCH  29  30
+ATOM     30  S26 TCH d          -6.717 -28.765 -17.166  0.00  0.00     0.103 S 
+ATOM     31  O1S TCH d          -7.436 -29.517 -16.133  0.00  0.00    -0.595 OA
+ATOM     32  O2S TCH d          -5.339 -29.232 -17.316  0.00  0.00    -0.595 OA
+ATOM     33  O3S TCH d          -7.358 -29.087 -18.442  0.00  0.00    -0.595 OA
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  20  22
+ENDBRANCH  17  20
+BRANCH  12  34
+ATOM     34  O12 TCH d          -5.914 -19.453 -10.851  0.00  0.00    -0.395 OA
+ATOM     35  H19 TCH d          -5.412 -20.258 -10.904  0.00  0.00     0.210 HD
+ENDBRANCH  12  34
+BRANCH   7  36
+ATOM     36  O7  TCH d         -11.437 -19.697 -11.196  0.00  0.00    -0.395 OA
+ATOM     37  H13 TCH d         -11.347 -20.434 -11.789  0.00  0.00     0.210 HD
+ENDBRANCH   7  36
+BRANCH   3  38
+ATOM     38  O3  TCH d         -13.655 -15.168 -11.472  0.00  0.00    -0.396 OA
+ATOM     39  H6  TCH d         -14.228 -14.753 -10.838  0.00  0.00     0.210 HD
+ENDBRANCH   3  38
+TORSDOF 10

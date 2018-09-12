@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1  and  C5'_2 
+REMARK    2  A    between atoms: C5'_2  and  C4'_3 
+REMARK    3  A    between atoms: C1'_5  and  N9_6 
+REMARK    4  A    between atoms: C6_10  and  N6_15 
+REMARK    5  A    between atoms: C2'_16  and  O2'_17 
+REMARK    6  A    between atoms: C3'_18  and  O3'_19 
+ROOT
+ATOM      1  C4' TBN d          93.363  64.633  19.391  0.00  0.00     0.179 C 
+ATOM      2  O4' TBN d          93.051  65.998  19.698  0.00  0.00    -0.353 OA
+ATOM      3  C1' TBN d          91.875  66.056  20.521  0.00  0.00     0.261 C 
+ATOM      4  C2' TBN d          91.616  64.647  21.089  0.00  0.00     0.198 C 
+ATOM      5  C3' TBN d          92.629  63.741  20.397  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  N9  TBN d          90.832  66.775  19.722  0.00  0.00    -0.311 N 
+ATOM      7  C8  TBN d          90.728  68.158  19.565  0.00  0.00     0.096 A 
+ATOM      8  C7  TBN d          89.667  68.478  18.767  0.00  0.00     0.036 A 
+ATOM      9  C5  TBN d          89.092  67.296  18.413  0.00  0.00     0.057 A 
+ATOM     10  C6  TBN d          87.954  67.112  17.581  0.00  0.00     0.136 A 
+ATOM     11  C4  TBN d          89.764  66.227  18.972  0.00  0.00     0.147 A 
+ATOM     12  N1  TBN d          87.600  65.790  17.398  0.00  0.00    -0.224 NA
+ATOM     13  C2  TBN d          88.319  64.797  17.991  0.00  0.00     0.237 A 
+ATOM     14  N3  TBN d          89.413  64.904  18.792  0.00  0.00    -0.223 NA
+BRANCH  10  15
+ATOM     15  N6  TBN d          87.263  68.110  17.006  0.00  0.00    -0.383 N 
+ATOM     16  H9  TBN d          86.447  67.897  16.415  0.00  0.00     0.157 HD
+ATOM     17  H10 TBN d          87.549  69.088  17.157  0.00  0.00     0.157 HD
+ENDBRANCH  10  15
+ENDBRANCH   3   6
+BRANCH   4  18
+ATOM     18  O2' TBN d          91.814  64.719  22.502  0.00  0.00    -0.388 OA
+ATOM     19  H12 TBN d          92.705  64.994  22.682  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' TBN d          92.952  64.241  17.949  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O5' TBN d          93.102  65.343  17.035  0.00  0.00    -0.398 OA
+ATOM     22  H1  TBN d          92.552  66.064  17.318  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   5  23
+ATOM     23  O3' TBN d          93.502  63.055  21.310  0.00  0.00    -0.390 OA
+ATOM     24  H14 TBN d          93.990  63.692  21.819  0.00  0.00     0.210 HD
+ENDBRANCH   5  23
+TORSDOF 6

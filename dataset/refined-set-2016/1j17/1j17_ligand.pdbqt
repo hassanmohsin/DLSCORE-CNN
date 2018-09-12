@@ -1,0 +1,52 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_6  and  N7_7 
+REMARK    2  A    between atoms: C10_12  and  C13_13 
+REMARK       I    between atoms: C13_13  and  N14_15 
+REMARK    3  A    between atoms: N17_20  and  S20_21 
+REMARK    4  A    between atoms: S20_21  and  C24_24 
+ROOT
+ATOM      1  C13 ZEN d          10.744  50.225  62.443  0.00  0.00     0.224 C 
+ATOM      2  O23 ZEN d          10.835  51.457  62.538  0.00  0.00    -0.273 OA
+ATOM      3  N14 ZEN d           9.551  49.629  62.376  0.00  0.00    -0.349 N 
+ATOM      4  C15 ZEN d           9.360  48.155  62.266  0.00  0.00     0.141 C 
+ATOM      5  C16 ZEN d           8.470  47.860  61.029  0.00  0.00     0.127 C 
+ATOM      6  C18 ZEN d           7.506  50.133  61.117  0.00  0.00     0.127 C 
+ATOM      7  C19 ZEN d           8.311  50.448  62.403  0.00  0.00     0.141 C 
+ATOM      8  N17 ZEN d           7.231  48.676  61.088  0.00  0.00    -0.203 NA
+ENDROOT
+BRANCH   1   9
+ATOM      9  C10 ZEN d          12.079  49.492  62.413  0.00  0.00     0.081 C 
+ATOM     10  C9  ZEN d          13.189  50.312  63.129  0.00  0.00     0.034 C 
+ATOM     11  C8  ZEN d          14.511  49.515  63.138  0.00  0.00     0.123 C 
+ATOM     12  N7  ZEN d          14.929  49.220  61.744  0.00  0.00    -0.381 N 
+ATOM     13  C12 ZEN d          13.924  48.539  60.874  0.00  0.00     0.123 C 
+ATOM     14  C11 ZEN d          12.541  49.256  60.934  0.00  0.00     0.034 C 
+BRANCH  12  15
+ATOM     15  C4  ZEN d          16.153  49.743  61.226  0.00  0.00     0.032 A 
+ATOM     16  C3  ZEN d          17.127  50.260  62.109  0.00  0.00     0.048 A 
+ATOM     17  C2  ZEN d          18.335  50.760  61.589  0.00  0.00     0.118 A 
+ATOM     18  N1  ZEN d          18.555  50.746  60.251  0.00  0.00    -0.273 NA
+ATOM     19  C6  ZEN d          17.634  50.250  59.387  0.00  0.00     0.118 A 
+ATOM     20  C5  ZEN d          16.412  49.734  59.851  0.00  0.00     0.048 A 
+ENDBRANCH  12  15
+ENDBRANCH   1   9
+BRANCH   8  21
+ATOM     21  S20 ZEN d           6.160  48.255  59.922  0.00  0.00     0.243 S 
+ATOM     22  O22 ZEN d           5.920  46.853  60.099  0.00  0.00    -0.206 OA
+ATOM     23  O21 ZEN d           4.989  49.108  60.041  0.00  0.00    -0.206 OA
+BRANCH  21  24
+ATOM     24  C24 ZEN d           6.868  48.489  58.297  0.00  0.00     0.075 A 
+ATOM     25  C33 ZEN d           7.491  47.407  57.647  0.00  0.00     0.026 A 
+ATOM     26  C34 ZEN d           8.058  47.574  56.377  0.00  0.00     0.014 A 
+ATOM     27  C27 ZEN d           8.016  48.826  55.742  0.00  0.00    -0.024 A 
+ATOM     28  C26 ZEN d           7.414  49.934  56.382  0.00  0.00    -0.024 A 
+ATOM     29  C28 ZEN d           8.580  48.981  54.493  0.00  0.00     0.036 A 
+ATOM     30  C25 ZEN d           6.840  49.759  57.662  0.00  0.00     0.037 A 
+ATOM     31  C31 ZEN d           7.380  51.191  55.729  0.00  0.00     0.014 A 
+ATOM     32  C30 ZEN d           7.950  51.336  54.456  0.00  0.00     0.024 A 
+ATOM     33  C29 ZEN d           8.557  50.217  53.842  0.00  0.00     0.034 A 
+ATOM     34 CL32 ZEN d           9.332  50.347  52.277  0.00  0.00    -0.084 Cl
+ENDBRANCH  21  24
+ENDBRANCH   8  21
+TORSDOF 4

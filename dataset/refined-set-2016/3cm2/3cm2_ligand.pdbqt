@@ -1,0 +1,81 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_2  and  CA_3 
+REMARK    2  A    between atoms: CA_3  and  N_4 
+REMARK    3  A    between atoms: CA_3  and  C_5 
+REMARK       I    between atoms: C_5  and  NAX_7 
+REMARK    4  A    between atoms: NAX_7  and  CBH_8 
+REMARK    5  A    between atoms: CBE_12  and  CAR_13 
+REMARK    6  A    between atoms: CAR_13  and  NAB_14 
+REMARK    7  A    between atoms: CBI_20  and  CAZ_21 
+REMARK       I    between atoms: CAZ_21  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CBG_24 
+REMARK    9  A    between atoms: CBG_24  and  CBC_25 
+REMARK   10  A    between atoms: CBG_24  and  CBB_31 
+ROOT
+ATOM      1  CBH X23 d         -22.362   9.786  47.440  0.00  0.00     0.182 C 
+ATOM      2  CBA X23 d         -23.613   9.741  48.326  0.00  0.00     0.244 C 
+ATOM      3  OAF X23 d         -24.296  10.758  48.465  0.00  0.00    -0.271 OA
+ATOM      4  NBJ X23 d         -23.999   8.640  48.935  0.00  0.00    -0.332 N 
+ATOM      5  CBE X23 d         -21.027   9.404  48.148  0.00  0.00     0.043 C 
+ATOM      6  CAS X23 d         -21.262   8.759  49.529  0.00  0.00     0.011 C 
+ATOM      7  CAT X23 d         -21.925   7.359  49.484  0.00  0.00     0.026 C 
+ATOM      8  CBF X23 d         -23.340   7.319  48.865  0.00  0.00     0.088 C 
+ATOM      9  CAU X23 d         -24.257   6.392  49.660  0.00  0.00     0.028 C 
+ATOM     10  CAV X23 d         -25.610   7.125  49.646  0.00  0.00     0.037 C 
+ATOM     11  CBI X23 d         -25.222   8.605  49.741  0.00  0.00     0.179 C 
+ENDROOT
+BRANCH  11  12
+ATOM     12  CAZ X23 d         -25.050   8.955  51.226  0.00  0.00     0.241 C 
+ATOM     13  OAE X23 d         -23.964   9.112  51.773  0.00  0.00    -0.271 OA
+ATOM     14  NAW X23 d         -26.241   9.054  51.771  0.00  0.00    -0.347 N 
+ATOM     15  H28 X23 d         -26.979   8.972  51.101  0.00  0.00     0.163 HD
+BRANCH  14  16
+ATOM     16  CBG X23 d         -26.739   9.258  53.139  0.00  0.00     0.151 C 
+BRANCH  16  17
+ATOM     17  CBC X23 d         -26.152   8.314  54.267  0.00  0.00    -0.031 A 
+ATOM     18  CAO X23 d         -26.641   7.008  54.367  0.00  0.00     0.009 A 
+ATOM     19  CAK X23 d         -26.167   6.164  55.376  0.00  0.00     0.001 A 
+ATOM     20  CAH X23 d         -25.223   6.640  56.285  0.00  0.00     0.000 A 
+ATOM     21  CAL X23 d         -24.757   7.956  56.193  0.00  0.00     0.001 A 
+ATOM     22  CAP X23 d         -25.226   8.802  55.187  0.00  0.00     0.009 A 
+ENDBRANCH  16  17
+BRANCH  16  23
+ATOM     23  CBB X23 d         -27.514  10.525  53.398  0.00  0.00    -0.031 A 
+ATOM     24  CAM X23 d         -27.413  11.604  52.532  0.00  0.00     0.009 A 
+ATOM     25  CAI X23 d         -28.225  12.715  52.740  0.00  0.00     0.001 A 
+ATOM     26  CAG X23 d         -29.151  12.710  53.777  0.00  0.00     0.000 A 
+ATOM     27  CAJ X23 d         -29.281  11.604  54.617  0.00  0.00     0.001 A 
+ATOM     28  CAN X23 d         -28.474  10.495  54.406  0.00  0.00     0.009 A 
+ENDBRANCH  16  23
+ENDBRANCH  14  16
+ENDBRANCH  11  12
+BRANCH   1  29
+ATOM     29  NAX X23 d         -22.419  11.089  46.774  0.00  0.00    -0.346 N 
+ATOM     30  C   X23 d         -22.104  11.192  45.507  0.00  0.00     0.248 C 
+ATOM     31  O   X23 d         -21.709  10.246  44.835  0.00  0.00    -0.271 OA
+ATOM     32  H10 X23 d         -22.699  11.901  47.287  0.00  0.00     0.163 HD
+BRANCH  30  33
+ATOM     33  CA  X23 d         -22.281  12.583  44.938  0.00  0.00     0.274 C 
+BRANCH  33  34
+ATOM     34  CB  X23 d         -23.747  12.638  44.524  0.00  0.00     0.038 C 
+ATOM     35  CAA X23 d         -24.201  14.054  44.241  0.00  0.00     0.007 C 
+ENDBRANCH  33  34
+BRANCH  33  36
+ATOM     36  N   X23 d         -21.423  12.767  43.765  0.00  0.00    -0.067 N 
+ATOM     37  H7  X23 d         -20.456  12.729  44.047  0.00  0.00     0.275 HD
+ATOM     38  H8  X23 d         -21.616  13.663  43.345  0.00  0.00     0.275 HD
+ATOM     39  H9  X23 d         -21.607  12.036  43.096  0.00  0.00     0.275 HD
+ENDBRANCH  33  36
+ENDBRANCH  30  33
+ENDBRANCH   1  29
+BRANCH   5  40
+ATOM     40  CAR X23 d         -20.059  10.594  48.230  0.00  0.00     0.236 C 
+BRANCH  40  41
+ATOM     41  NAB X23 d         -18.993  10.352  49.208  0.00  0.00    -0.079 N 
+ATOM     42  H15 X23 d         -18.377  11.149  49.237  0.00  0.00     0.274 HD
+ATOM     43  H16 X23 d         -18.470   9.533  48.940  0.00  0.00     0.274 HD
+ATOM     44  H17 X23 d         -19.399  10.207  50.119  0.00  0.00     0.274 HD
+ENDBRANCH  40  41
+ENDBRANCH   5  40
+TORSDOF 10

@@ -1,0 +1,21 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  S_5 
+REMARK    2  A    between atoms: S_5  and  N_6 
+ROOT
+ATOM      1  S   FMS d          -5.287   1.136  16.312  0.00  0.00     0.327 S 
+ATOM      2  O1  FMS d          -3.994   1.561  16.826  0.00  0.00    -0.197 OA
+ATOM      3  O2  FMS d          -5.645   1.727  15.018  0.00  0.00    -0.197 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   FMS d          -6.564   1.646  17.402  0.00  0.00     0.517 C 
+ATOM      5  F3  FMS d          -6.336   1.189  18.589  0.00  0.00    -0.155 F 
+ATOM      6  F2  FMS d          -6.568   3.011  17.331  0.00  0.00    -0.155 F 
+ATOM      7  F1  FMS d          -7.699   1.304  16.915  0.00  0.00    -0.155 F 
+ENDBRANCH   1   4
+BRANCH   1   8
+ATOM      8  N   FMS d          -5.199  -0.476  16.199  0.00  0.00    -0.321 N 
+ATOM      9  H1  FMS d          -4.512  -0.899  15.609  0.00  0.00     0.169 HD
+ATOM     10  H2  FMS d          -5.832  -1.049  16.720  0.00  0.00     0.169 HD
+ENDBRANCH   1   8
+TORSDOF 2

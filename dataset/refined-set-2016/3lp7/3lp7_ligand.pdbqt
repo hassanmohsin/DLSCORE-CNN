@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+REMARK       I    between atoms: NE_8  and  CZ_9 
+REMARK       I    between atoms: CZ_9  and  NH1_10 
+REMARK    6  A    between atoms: NH1_10  and  OH1_12 
+ROOT
+ATOM      1  CD  HAR d          23.715 -14.976   7.144  0.00  0.00     0.138 C 
+ATOM      2  NE  HAR d          24.674 -14.532   7.995  0.00  0.00    -0.225 N 
+ATOM      3  CZ  HAR d          25.820 -13.985   7.628  0.00  0.00     0.691 C 
+ATOM      4  NH1 HAR d          26.135 -13.815   6.345  0.00  0.00    -0.099 N 
+ATOM      5  NH2 HAR d          26.676 -13.597   8.567  0.00  0.00    -0.233 N 
+ATOM      6  H11 HAR d          24.495 -14.629   9.005  0.00  0.00     0.177 HD
+ATOM      7  H12 HAR d          25.499 -14.101   5.587  0.00  0.00     0.213 HD
+ATOM      8  H13 HAR d          26.442 -13.724   9.562  0.00  0.00     0.174 HD
+ATOM      9  H14 HAR d          27.574 -13.169   8.300  0.00  0.00     0.174 HD
+ENDROOT
+BRANCH   1  10
+ATOM     10  CG  HAR d          23.337 -16.361   7.543  0.00  0.00     0.023 C 
+BRANCH  10  11
+ATOM     11  CB  HAR d          22.462 -17.582   7.270  0.00  0.00     0.045 C 
+BRANCH  11  12
+ATOM     12  CA  HAR d          21.081 -17.677   6.699  0.00  0.00     0.283 C 
+BRANCH  12  13
+ATOM     13  N   HAR d          21.151 -17.734   5.337  0.00  0.00    -0.065 N 
+ATOM     14  H1  HAR d          21.707 -18.529   5.062  0.00  0.00     0.275 HD
+ATOM     15  H2  HAR d          21.575 -16.889   4.987  0.00  0.00     0.275 HD
+ATOM     16  H3  HAR d          20.222 -17.826   4.956  0.00  0.00     0.275 HD
+ENDBRANCH  12  13
+BRANCH  12  17
+ATOM     17  C   HAR d          20.233 -16.465   7.095  0.00  0.00     0.204 C 
+ATOM     18  O   HAR d          20.158 -16.404   8.414  0.00  0.00    -0.646 OA
+ATOM     19  OXT HAR d          19.663 -15.619   6.258  0.00  0.00    -0.646 OA
+ENDBRANCH  12  17
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   4  20
+ATOM     20  OH1 HAR d          27.310 -13.258   6.098  0.00  0.00    -0.276 OA
+ATOM     21  H15 HAR d          27.433 -13.184   5.159  0.00  0.00     0.245 HD
+ENDBRANCH   4  20
+TORSDOF 6

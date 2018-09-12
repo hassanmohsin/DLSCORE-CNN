@@ -1,0 +1,22 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_9  and  C41_10 
+ROOT
+ATOM      1  C2  FOT d          25.709  39.161  72.541  0.00  0.00     0.327 A 
+ATOM      2  C6  FOT d          27.852  39.984  72.069  0.00  0.00     0.290 A 
+ATOM      3  C5  FOT d          27.300  41.338  71.945  0.00  0.00     0.217 A 
+ATOM      4  O2  FOT d          24.964  38.185  72.798  0.00  0.00    -0.247 OA
+ATOM      5  N3  FOT d          25.136  40.372  72.433  0.00  0.00    -0.300 N 
+ATOM      6  N1  FOT d          27.029  38.970  72.374  0.00  0.00    -0.273 N 
+ATOM      7  O6  FOT d          29.072  39.838  71.911  0.00  0.00    -0.265 OA
+ATOM      8  F5  FOT d          28.077  42.388  71.631  0.00  0.00    -0.197 F 
+ATOM      9  C4  FOT d          25.848  41.460  72.150  0.00  0.00     0.158 A 
+ATOM     10  H1  FOT d          24.149  40.458  72.569  0.00  0.00     0.171 HD
+ATOM     11  H2  FOT d          27.406  38.050  72.480  0.00  0.00     0.173 HD
+ENDROOT
+BRANCH   9  12
+ATOM     12  C41 FOT d          25.222  42.791  72.001  0.00  0.00     0.230 C 
+ATOM     13  O42 FOT d          25.901  43.752  72.385  0.00  0.00    -0.643 OA
+ATOM     14  O41 FOT d          24.095  42.886  71.444  0.00  0.00    -0.643 OA
+ENDBRANCH   9  12
+TORSDOF 1

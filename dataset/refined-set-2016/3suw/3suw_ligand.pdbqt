@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C8_2  and  N2_4 
+REMARK    1  A    between atoms: N2_4  and  C2_5 
+REMARK    2  A    between atoms: C3_6  and  O4_7 
+REMARK    3  A    between atoms: C4_8  and  O2_9 
+REMARK    4  A    between atoms: C6_15  and  O3_16 
+ROOT
+ATOM      1  C2  GC2 d          35.224  18.137 -17.071  0.00  0.00     0.141 C 
+ATOM      2  C3  GC2 d          34.847  16.943 -16.158  0.00  0.00     0.173 C 
+ATOM      3  C4  GC2 d          36.038  16.397 -15.316  0.00  0.00     0.182 C 
+ATOM      4  C1  GC2 d          36.133  19.168 -16.346  0.00  0.00     0.263 C 
+ATOM      5  N1  GC2 d          37.320  18.401 -15.857  0.00  0.00    -0.060 N 
+ATOM      6  C5  GC2 d          36.906  17.508 -14.756  0.00  0.00     0.247 C 
+ATOM      7  C9  GC2 d          38.409  19.199 -15.260  0.00  0.00     0.238 C 
+ATOM      8  C7  GC2 d          39.237  18.100 -14.566  0.00  0.00     0.061 C 
+ATOM      9  C6  GC2 d          38.224  17.015 -14.140  0.00  0.00     0.153 C 
+ATOM     10  H12 GC2 d          37.686  17.866 -16.629  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  N2  GC2 d          34.024  18.790 -17.657  0.00  0.00    -0.353 N 
+ATOM     12  C8  GC2 d          33.173  19.567 -16.979  0.00  0.00     0.214 C 
+ATOM     13  O1  GC2 d          33.248  19.841 -15.772  0.00  0.00    -0.274 OA
+ATOM     14  C10 GC2 d          32.032  20.121 -17.833  0.00  0.00     0.117 C 
+ATOM     15  H4  GC2 d          33.840  18.637 -18.628  0.00  0.00     0.163 HD
+ENDBRANCH   1  11
+BRANCH   2  16
+ATOM     16  O4  GC2 d          34.332  15.882 -16.938  0.00  0.00    -0.391 OA
+ATOM     17  H7  GC2 d          34.104  15.155 -16.371  0.00  0.00     0.210 HD
+ENDBRANCH   2  16
+BRANCH   3  18
+ATOM     18  O2  GC2 d          35.519  15.652 -14.221  0.00  0.00    -0.391 OA
+ATOM     19  H9  GC2 d          36.238  15.314 -13.700  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+BRANCH   9  20
+ATOM     20  O3  GC2 d          38.583  15.722 -14.676  0.00  0.00    -0.393 OA
+ATOM     21  H19 GC2 d          37.944  15.077 -14.398  0.00  0.00     0.210 HD
+ENDBRANCH   9  20
+TORSDOF 4

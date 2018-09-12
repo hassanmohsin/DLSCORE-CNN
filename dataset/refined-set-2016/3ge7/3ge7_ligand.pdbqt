@@ -1,0 +1,60 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  N17_5 
+REMARK    2  A    between atoms: C10_8  and  C18_9 
+REMARK    3  A    between atoms: C18_9  and  C19_10 
+REMARK    4  A    between atoms: C19_10  and  N20_11 
+REMARK    5  A    between atoms: N20_11  and  C21_12 
+REMARK    6  A    between atoms: C21_12  and  C22_13 
+REMARK    7  A    between atoms: C12_20  and  N14_21 
+ROOT
+ATOM      1  C2  AFQ d          18.183  17.142  23.055  0.00  0.00     0.272 C 
+ATOM      2  O16 AFQ d          19.278  17.516  23.435  0.00  0.00    -0.267 OA
+ATOM      3  N3  AFQ d          17.141  16.866  23.884  0.00  0.00    -0.156 N 
+ATOM      4  C4  AFQ d          15.991  16.374  23.334  0.00  0.00     0.679 C 
+ATOM      5  N5  AFQ d          15.791  16.293  22.067  0.00  0.00    -0.190 N 
+ATOM      6  C6  AFQ d          16.706  16.627  21.109  0.00  0.00     0.073 A 
+ATOM      7  C10 AFQ d          16.384  16.522  19.736  0.00  0.00     0.004 A 
+ATOM      8  C9  AFQ d          17.406  16.913  18.869  0.00  0.00     0.111 A 
+ATOM      9  N11 AFQ d          17.498  17.047  17.524  0.00  0.00    -0.062 NA
+ATOM     10  C12 AFQ d          18.662  17.435  17.170  0.00  0.00     0.701 A 
+ATOM     11  N13 AFQ d          19.446  17.652  18.244  0.00  0.00    -0.188 N 
+ATOM     12  C8  AFQ d          18.621  17.337  19.340  0.00  0.00     0.080 A 
+ATOM     13  C7  AFQ d          18.987  17.434  20.681  0.00  0.00     0.052 A 
+ATOM     14  C1  AFQ d          17.971  17.036  21.565  0.00  0.00     0.062 A 
+ATOM     15  H1  AFQ d          17.214  17.019  24.869  0.00  0.00     0.187 HD
+ATOM     16  H4  AFQ d          14.873  15.951  21.750  0.00  0.00     0.184 HD
+ATOM     17  H26 AFQ d          20.424  17.974  18.259  0.00  0.00     0.184 HD
+ENDROOT
+BRANCH   7  18
+ATOM     18  C18 AFQ d          15.146  15.865  19.154  0.00  0.00     0.071 C 
+BRANCH  18  19
+ATOM     19  C19 AFQ d          15.366  14.425  18.571  0.00  0.00     0.237 C 
+BRANCH  19  20
+ATOM     20  N20 AFQ d          14.222  14.205  17.642  0.00  0.00    -0.074 N 
+ATOM     21  H9  AFQ d          14.348  13.303  17.211  0.00  0.00     0.277 HD
+ATOM     22  H10 AFQ d          14.260  14.923  16.936  0.00  0.00     0.277 HD
+BRANCH  20  23
+ATOM     23  C21 AFQ d          12.853  14.233  18.244  0.00  0.00     0.237 C 
+BRANCH  23  24
+ATOM     24  C22 AFQ d          11.810  14.310  17.089  0.00  0.00     0.011 C 
+ATOM     25  C26 AFQ d          11.695  15.716  16.474  0.00  0.00     0.006 C 
+ATOM     26  C25 AFQ d          10.248  15.777  15.924  0.00  0.00     0.000 C 
+ATOM     27  C24 AFQ d           9.399  14.960  16.956  0.00  0.00     0.000 C 
+ATOM     28  C23 AFQ d          10.390  13.976  17.605  0.00  0.00     0.006 C 
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   7  18
+BRANCH   4  29
+ATOM     29  N17 AFQ d          14.999  16.026  24.195  0.00  0.00    -0.234 N 
+ATOM     30  H2  AFQ d          14.111  15.650  23.833  0.00  0.00     0.174 HD
+ATOM     31  H3  AFQ d          15.135  16.139  25.210  0.00  0.00     0.174 HD
+ENDBRANCH   4  29
+BRANCH  10  32
+ATOM     32  N14 AFQ d          19.226  17.660  15.982  0.00  0.00    -0.229 N 
+ATOM     33  C15 AFQ d          18.608  17.471  14.685  0.00  0.00     0.165 C 
+ATOM     34  H22 AFQ d          20.198  18.002  15.987  0.00  0.00     0.177 HD
+ENDBRANCH  10  32
+TORSDOF 7

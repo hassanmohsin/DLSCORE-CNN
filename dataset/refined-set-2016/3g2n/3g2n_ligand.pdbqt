@@ -1,0 +1,52 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_6  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N1_9 
+REMARK    2  A    between atoms: N1_9  and  C1_10 
+REMARK    3  A    between atoms: C5_12  and  C6_13 
+REMARK    4  A    between atoms: C6_13  and  O6_14 
+REMARK    5  A    between atoms: C4_15  and  O4_16 
+REMARK    6  A    between atoms: C3_17  and  O3_18 
+REMARK    7  A    between atoms: C2_19  and  O2_20 
+ROOT
+ATOM      1  C1  OAK d          33.769  22.788  27.788  0.00  0.00     0.255 C 
+ATOM      2  O5  OAK d          33.544  21.361  28.058  0.00  0.00    -0.354 OA
+ATOM      3  C5  OAK d          32.372  20.856  27.412  0.00  0.00     0.179 C 
+ATOM      4  C4  OAK d          32.525  21.028  25.880  0.00  0.00     0.180 C 
+ATOM      5  C3  OAK d          32.783  22.494  25.494  0.00  0.00     0.182 C 
+ATOM      6  C2  OAK d          33.970  23.064  26.288  0.00  0.00     0.198 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N1  OAK d          34.969  23.250  28.534  0.00  0.00    -0.328 N 
+ATOM      8  C7  OAK d          34.817  23.971  29.642  0.00  0.00     0.253 C 
+ATOM      9  O7  OAK d          33.726  24.289  30.110  0.00  0.00    -0.268 OA
+ATOM     10  H6  OAK d          35.885  23.020  28.205  0.00  0.00     0.165 HD
+BRANCH   8  11
+ATOM     11  C8  OAK d          36.114  24.394  30.342  0.00  0.00     0.032 A 
+ATOM     12  C9  OAK d          37.158  23.487  30.491  0.00  0.00     0.017 A 
+ATOM     13  C10 OAK d          38.335  23.867  31.133  0.00  0.00     0.001 A 
+ATOM     14  C11 OAK d          38.475  25.160  31.630  0.00  0.00     0.000 A 
+ATOM     15  C12 OAK d          37.429  26.074  31.484  0.00  0.00     0.001 A 
+ATOM     16  C13 OAK d          36.247  25.691  30.839  0.00  0.00     0.017 A 
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   6  17
+ATOM     17  O2  OAK d          34.123  24.474  26.052  0.00  0.00    -0.389 OA
+ATOM     18  H17 OAK d          34.276  24.624  25.127  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   3  19
+ATOM     19  C6  OAK d          32.232  19.388  27.856  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6  OAK d          33.316  18.619  27.330  0.00  0.00    -0.398 OA
+ATOM     21  H11 OAK d          34.138  18.969  27.654  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   3  19
+BRANCH   5  22
+ATOM     22  O3  OAK d          33.053  22.584  24.095  0.00  0.00    -0.390 OA
+ATOM     23  H15 OAK d          32.306  22.257  23.608  0.00  0.00     0.210 HD
+ENDBRANCH   5  22
+BRANCH   4  24
+ATOM     24  O4  OAK d          31.342  20.575  25.238  0.00  0.00    -0.390 OA
+ATOM     25  H13 OAK d          31.433  20.679  24.298  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+TORSDOF 7

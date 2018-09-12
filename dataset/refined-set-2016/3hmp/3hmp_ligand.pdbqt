@@ -1,0 +1,31 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAP_3  and  CAH_4 
+REMARK    2  A    between atoms: CAH_4  and  NAK_5 
+REMARK    3  A    between atoms: NAK_5  and  C6_6 
+ROOT
+ATOM      1  C6  CX4 d         -35.153 -16.330 -10.148  0.00  0.00     0.137 A 
+ATOM      2  C5  CX4 d         -35.962 -17.062 -11.025  0.00  0.00     0.038 A 
+ATOM      3  CAD CX4 d         -36.203 -18.432 -10.858  0.00  0.00     0.019 A 
+ATOM      4  CAB CX4 d         -37.009 -19.119 -11.769  0.00  0.00     0.025 A 
+ATOM      5  CAL CX4 d         -37.578 -18.426 -12.841  0.00  0.00     0.036 A 
+ATOM      6 CLAA CX4 d         -38.594 -19.223 -13.978  0.00  0.00    -0.084 Cl
+ATOM      7  CAE CX4 d         -37.342 -17.063 -13.010  0.00  0.00     0.056 A 
+ATOM      8  C4  CX4 d         -36.534 -16.378 -12.107  0.00  0.00     0.073 A 
+ATOM      9  N3  CX4 d         -36.304 -15.066 -12.278  0.00  0.00    -0.241 NA
+ATOM     10  C2  CX4 d         -35.536 -14.413 -11.424  0.00  0.00     0.235 A 
+ATOM     11  N1  CX4 d         -34.970 -15.017 -10.385  0.00  0.00    -0.224 NA
+ENDROOT
+BRANCH   1  12
+ATOM     12  NAK CX4 d         -34.575 -16.900  -9.085  0.00  0.00    -0.374 N 
+ATOM     13  H8  CX4 d         -34.702 -17.911  -8.932  0.00  0.00     0.161 HD
+BRANCH  12  14
+ATOM     14  CAH CX4 d         -33.766 -16.134  -8.128  0.00  0.00     0.126 C 
+BRANCH  14  15
+ATOM     15  CAP CX4 d         -34.676 -15.589  -7.026  0.00  0.00     0.003 A 
+ATOM     16  CAF CX4 d         -33.998 -15.421  -5.665  0.00  0.00     0.007 A 
+ATOM     17  CAG CX4 d         -34.988 -16.570  -5.894  0.00  0.00     0.007 A 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 3

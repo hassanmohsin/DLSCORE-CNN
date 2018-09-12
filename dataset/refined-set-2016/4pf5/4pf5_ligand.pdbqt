@@ -1,0 +1,52 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N03_14  and  C1_1 
+REMARK    2  A    between atoms: C2_2  and  O2_3 
+REMARK    3  A    between atoms: C3_4  and  O3_5 
+REMARK    4  A    between atoms: C4_6  and  O4_7 
+REMARK    5  A    between atoms: C5_8  and  C6_10 
+REMARK    6  A    between atoms: C6_10  and  O6_11 
+REMARK    7  A    between atoms: C01_12  and  C03_17 
+REMARK    8  A    between atoms: C03_17  and  O01_18 
+ROOT
+ATOM      1  C1  M3N d         -16.344 -14.649 -32.056  0.00  0.00     0.274 C 
+ATOM      2  C2  M3N d         -14.874 -14.896 -31.790  0.00  0.00     0.199 C 
+ATOM      3  C3  M3N d         -14.021 -14.481 -32.954  0.00  0.00     0.182 C 
+ATOM      4  C4  M3N d         -14.539 -15.028 -34.269  0.00  0.00     0.180 C 
+ATOM      5  C5  M3N d         -15.995 -14.660 -34.468  0.00  0.00     0.179 C 
+ATOM      6  O5  M3N d         -16.772 -15.020 -33.375  0.00  0.00    -0.352 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  N03 M3N d         -16.900 -13.380 -31.662  0.00  0.00    -0.252 N 
+ATOM      8  C02 M3N d         -17.607 -12.514 -32.427  0.00  0.00     0.141 A 
+ATOM      9  C01 M3N d         -18.012 -11.450 -31.630  0.00  0.00     0.092 A 
+ATOM     10  N05 M3N d         -17.586 -11.685 -30.391  0.00  0.00    -0.161 NA
+ATOM     11  N04 M3N d         -16.911 -12.881 -30.397  0.00  0.00     0.007 NA
+BRANCH   9  12
+ATOM     12  C03 M3N d         -18.830 -10.236 -32.092  0.00  0.00     0.226 C 
+BRANCH  12  13
+ATOM     13  O01 M3N d         -19.734 -10.755 -33.059  0.00  0.00    -0.395 OA
+ATOM     14  H   M3N d         -20.283 -11.417 -32.655  0.00  0.00     0.209 HD
+ENDBRANCH  12  13
+ENDBRANCH   9  12
+ENDBRANCH   1   7
+BRANCH   2  15
+ATOM     15  O2  M3N d         -14.684 -16.273 -31.528  0.00  0.00    -0.388 OA
+ATOM     16  H   M3N d         -15.196 -16.523 -30.768  0.00  0.00     0.210 HD
+ENDBRANCH   2  15
+BRANCH   3  17
+ATOM     17  O3  M3N d         -12.701 -14.899 -32.731  0.00  0.00    -0.390 OA
+ATOM     18  H   M3N d         -12.373 -14.497 -31.935  0.00  0.00     0.210 HD
+ENDBRANCH   3  17
+BRANCH   5  19
+ATOM     19  C6  M3N d         -16.528 -15.457 -35.688  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6  M3N d         -16.639 -16.849 -35.303  0.00  0.00    -0.398 OA
+ATOM     21  H   M3N d         -15.784 -17.175 -35.047  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   5  19
+BRANCH   4  22
+ATOM     22  O4  M3N d         -13.810 -14.433 -35.333  0.00  0.00    -0.390 OA
+ATOM     23  H   M3N d         -14.129 -14.771 -36.162  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+TORSDOF 8

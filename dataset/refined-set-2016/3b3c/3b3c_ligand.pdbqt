@@ -1,0 +1,30 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CB_2 
+REMARK    2  A    between atoms: CA_1  and  N_6 
+REMARK    3  A    between atoms: CA_1  and  P_7 
+REMARK    4  A    between atoms: CB_2  and  CG_3 
+ROOT
+ATOM      1  CA  PLU d          34.739  -2.963  39.422  0.00  0.00     0.312 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  PLU d          33.673  -2.834  40.516  0.00  0.00     0.051 C 
+BRANCH   2   3
+ATOM      3  CG  PLU d          32.477  -1.970  40.092  0.00  0.00    -0.020 C 
+ATOM      4  CD1 PLU d          31.551  -1.726  41.281  0.00  0.00     0.009 C 
+ATOM      5  CD2 PLU d          32.870  -0.646  39.432  0.00  0.00     0.009 C 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  N   PLU d          34.169  -3.480  38.187  0.00  0.00    -0.062 N 
+ATOM      7  H11 PLU d          33.428  -2.871  37.878  0.00  0.00     0.275 HD
+ATOM      8  H12 PLU d          33.799  -4.404  38.348  0.00  0.00     0.275 HD
+ATOM      9  H13 PLU d          34.885  -3.523  37.479  0.00  0.00     0.275 HD
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  P   PLU d          36.056  -4.101  39.914  0.00  0.00     0.290 P 
+ATOM     11  O1  PLU d          35.396  -5.461  40.102  0.00  0.00    -0.638 OA
+ATOM     12  O2  PLU d          36.770  -3.568  41.131  0.00  0.00    -0.638 OA
+ATOM     13  O3  PLU d          36.883  -4.126  38.673  0.00  0.00    -0.638 OA
+ENDBRANCH   1  10
+TORSDOF 4

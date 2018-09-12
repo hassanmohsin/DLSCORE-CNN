@@ -1,0 +1,95 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S8_2  and  C5_4 
+REMARK    2  A    between atoms: S8_2  and  N11_12 
+REMARK    3  A    between atoms: C7_8  and  O19_9 
+REMARK    4  A    between atoms: N11_12  and  C12_13 
+REMARK    5  A    between atoms: N11_12  and  C16_19 
+REMARK    6  A    between atoms: C12_13  and  C15_14 
+REMARK    7  A    between atoms: C16_19  and  C17_20 
+REMARK    8  A    between atoms: C17_20  and  O18_21 
+REMARK    9  A    between atoms: C17_20  and  C19_22 
+REMARK   10  A    between atoms: C19_22  and  C32_23 
+REMARK   11  A    between atoms: C19_22  and  N20_30 
+REMARK   12  A    between atoms: C32_23  and  C38_24 
+REMARK       I    between atoms: N20_30  and  C21_31 
+REMARK   13  A    between atoms: C21_31  and  C22_33 
+REMARK   14  A    between atoms: C26_37  and  O29_38 
+REMARK   15  A    between atoms: C25_39  and  O28_40 
+ROOT
+ATOM      1  C17 MZ4 d          20.081  29.919  15.842  0.00  0.00     0.155 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C16 MZ4 d          19.049  30.945  16.370  0.00  0.00     0.141 C 
+BRANCH   2   3
+ATOM      3  N11 MZ4 d          19.192  32.204  15.608  0.00  0.00    -0.199 NA
+BRANCH   3   4
+ATOM      4  S8  MZ4 d          17.840  32.733  14.873  0.00  0.00     0.244 S 
+ATOM      5  O10 MZ4 d          17.122  31.602  14.359  0.00  0.00    -0.206 OA
+ATOM      6  O9  MZ4 d          18.275  33.555  13.778  0.00  0.00    -0.206 OA
+BRANCH   4   7
+ATOM      7  C5  MZ4 d          16.880  33.608  15.855  0.00  0.00     0.077 A 
+ATOM      8  C4  MZ4 d          15.830  33.016  16.567  0.00  0.00     0.025 A 
+ATOM      9  C3  MZ4 d          15.020  33.781  17.411  0.00  0.00     0.004 A 
+ATOM     10  C2  MZ4 d          15.243  35.147  17.569  0.00  0.00     0.037 A 
+ATOM     11  C7  MZ4 d          16.288  35.755  16.870  0.00  0.00     0.069 A 
+ATOM     12  C6  MZ4 d          17.091  34.981  16.022  0.00  0.00     0.061 A 
+BRANCH  11  13
+ATOM     13  O19 MZ4 d          16.550  37.100  16.991  0.00  0.00    -0.356 OA
+ATOM     14  C20 MZ4 d          16.076  37.899  18.072  0.00  0.00     0.210 C 
+ENDBRANCH  11  13
+ENDBRANCH   4   7
+ENDBRANCH   3   4
+BRANCH   3  15
+ATOM     15  C12 MZ4 d          19.983  33.223  16.350  0.00  0.00     0.153 C 
+BRANCH  15  16
+ATOM     16  C15 MZ4 d          21.457  33.046  15.932  0.00  0.00    -0.004 A 
+ATOM     17  S1  MZ4 d          21.940  32.856  14.326  0.00  0.00    -0.105 SA
+ATOM     18  C13 MZ4 d          23.523  32.731  14.839  0.00  0.00     0.050 A 
+ATOM     19  C14 MZ4 d          23.715  32.856  16.174  0.00  0.00     0.008 A 
+ATOM     20  C18 MZ4 d          22.466  33.019  16.840  0.00  0.00     0.016 A 
+ENDBRANCH  15  16
+ENDBRANCH   3  15
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  21
+ATOM     21  O18 MZ4 d          20.087  28.783  16.717  0.00  0.00    -0.392 OA
+ATOM     22  H16 MZ4 d          20.718  28.146  16.402  0.00  0.00     0.210 HD
+ENDBRANCH   1  21
+BRANCH   1  23
+ATOM     23  C19 MZ4 d          19.779  29.521  14.386  0.00  0.00     0.118 C 
+BRANCH  23  24
+ATOM     24  C32 MZ4 d          18.578  28.563  14.232  0.00  0.00     0.066 C 
+BRANCH  24  25
+ATOM     25  C38 MZ4 d          18.310  28.251  12.743  0.00  0.00    -0.056 A 
+ATOM     26  C33 MZ4 d          18.813  27.088  12.145  0.00  0.00     0.007 A 
+ATOM     27  C34 MZ4 d          18.581  26.805  10.797  0.00  0.00     0.001 A 
+ATOM     28  C35 MZ4 d          17.833  27.690  10.027  0.00  0.00     0.000 A 
+ATOM     29  C36 MZ4 d          17.331  28.848  10.614  0.00  0.00     0.001 A 
+ATOM     30  C37 MZ4 d          17.565  29.124  11.958  0.00  0.00     0.007 A 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+BRANCH  23  31
+ATOM     31  N20 MZ4 d          20.933  28.807  13.823  0.00  0.00    -0.349 N 
+ATOM     32  C21 MZ4 d          21.461  29.159  12.624  0.00  0.00     0.252 C 
+ATOM     33  O22 MZ4 d          21.062  30.078  11.920  0.00  0.00    -0.268 OA
+ATOM     34  H25 MZ4 d          21.337  28.047  14.333  0.00  0.00     0.163 HD
+BRANCH  32  35
+ATOM     35  C22 MZ4 d          22.615  28.349  12.070  0.00  0.00     0.034 A 
+ATOM     36  C23 MZ4 d          23.615  27.851  12.898  0.00  0.00     0.020 A 
+ATOM     37  C24 MZ4 d          24.633  27.088  12.351  0.00  0.00     0.040 A 
+ATOM     38  C25 MZ4 d          24.646  26.828  10.986  0.00  0.00     0.098 A 
+ATOM     39  C26 MZ4 d          23.653  27.333  10.159  0.00  0.00     0.099 A 
+ATOM     40  C27 MZ4 d          22.633  28.083  10.710  0.00  0.00     0.056 A 
+BRANCH  38  41
+ATOM     41  O28 MZ4 d          25.656  26.097  10.432  0.00  0.00    -0.358 OA
+ATOM     42  H30 MZ4 d          26.256  25.820  11.114  0.00  0.00     0.217 HD
+ENDBRANCH  38  41
+BRANCH  39  43
+ATOM     43  O29 MZ4 d          23.687  27.082   8.814  0.00  0.00    -0.358 OA
+ATOM     44  H29 MZ4 d          24.451  26.556   8.610  0.00  0.00     0.217 HD
+ENDBRANCH  39  43
+ENDBRANCH  32  35
+ENDBRANCH  23  31
+ENDBRANCH   1  23
+TORSDOF 15

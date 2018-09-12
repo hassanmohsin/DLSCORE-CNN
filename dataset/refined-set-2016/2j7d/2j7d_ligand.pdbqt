@@ -1,0 +1,52 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  O4_9 
+REMARK    4  A    between atoms: C5_10  and  C6_11 
+REMARK    5  A    between atoms: C6_11  and  O6_12 
+REMARK    6  A    between atoms: C7_14  and  C8_15 
+REMARK    7  A    between atoms: C8_15  and  O8_16 
+REMARK    8  A    between atoms: C8_15  and  O9_18 
+ROOT
+ATOM      1  C1  GI1 d          -0.896  10.593  10.590  0.00  0.00     0.138 A 
+ATOM      2  C2  GI1 d           0.079  11.397   9.809  0.00  0.00     0.219 C 
+ATOM      3  C3  GI1 d          -0.453  11.699   8.408  0.00  0.00     0.185 C 
+ATOM      4  C4  GI1 d          -1.338  10.547   7.897  0.00  0.00     0.175 C 
+ATOM      5  C80 GI1 d          -2.676   9.405  11.125  0.00  0.00     0.125 A 
+ATOM      6  N10 GI1 d          -2.103  10.149  10.159  0.00  0.00    -0.331 N 
+ATOM      7  C5  GI1 d          -2.603  10.447   8.785  0.00  0.00     0.145 C 
+ATOM      8  N1  GI1 d          -0.700  10.148  11.846  0.00  0.00    -0.230 NA
+ATOM      9  C7  GI1 d          -1.776   9.413  12.175  0.00  0.00     0.106 A 
+ENDROOT
+BRANCH   9  10
+ATOM     10  C8  GI1 d          -2.132   8.722  13.441  0.00  0.00     0.310 C 
+BRANCH  10  11
+ATOM     11  O8  GI1 d          -2.883   7.515  13.250  0.00  0.00    -0.366 OA
+ATOM     12  H13 GI1 d          -3.645   7.699  12.713  0.00  0.00     0.213 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  O9  GI1 d          -0.959   8.530  14.246  0.00  0.00    -0.360 OA
+ATOM     14  C9  GI1 d          -0.188   7.317  14.082  0.00  0.00     0.205 C 
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+BRANCH   7  15
+ATOM     15  C6  GI1 d          -3.551   9.373   8.324  0.00  0.00     0.192 C 
+BRANCH  15  16
+ATOM     16  O6  GI1 d          -3.029   8.067   8.565  0.00  0.00    -0.399 OA
+ATOM     17  H11 GI1 d          -2.879   7.954   9.496  0.00  0.00     0.209 HD
+ENDBRANCH  15  16
+ENDBRANCH   7  15
+BRANCH   2  18
+ATOM     18  O2  GI1 d           0.325  12.649  10.432  0.00  0.00    -0.385 OA
+ATOM     19  H2  GI1 d           0.950  13.142   9.914  0.00  0.00     0.210 HD
+ENDBRANCH   2  18
+BRANCH   4  20
+ATOM     20  O4  GI1 d          -1.668  10.689   6.518  0.00  0.00    -0.391 OA
+ATOM     21  H7  GI1 d          -0.870  10.699   6.002  0.00  0.00     0.210 HD
+ENDBRANCH   4  20
+BRANCH   3  22
+ATOM     22  O3  GI1 d           0.674  11.990   7.579  0.00  0.00    -0.390 OA
+ATOM     23  H4  GI1 d           0.376  12.183   6.698  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+TORSDOF 8

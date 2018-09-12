@@ -1,0 +1,67 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4_1  and  C4_2 
+REMARK    2  A    between atoms: N1_8  and  C1'_9 
+REMARK    3  A    between atoms: C3'_11  and  O3'_12 
+REMARK    4  A    between atoms: C4'_14  and  C5'_15 
+REMARK    5  A    between atoms: C5'_15  and  O5'_16 
+REMARK    6  A    between atoms: O5'_16  and  PA_17 
+REMARK    7  A    between atoms: PA_17  and  N3A_20 
+REMARK    8  A    between atoms: N3A_20  and  PB_21 
+REMARK    9  A    between atoms: PB_21  and  O3B_24 
+REMARK   10  A    between atoms: O3B_24  and  PG_25 
+ROOT
+ATOM      1  C1' DUP d         -10.417  30.604  -2.205  0.00  0.00     0.230 C 
+ATOM      2  C2' DUP d         -10.272  31.976  -1.637  0.00  0.00     0.088 C 
+ATOM      3  C3' DUP d         -11.601  32.662  -1.804  0.00  0.00     0.153 C 
+ATOM      4  O4' DUP d         -11.438  30.780  -3.221  0.00  0.00    -0.356 OA
+ATOM      5  C4' DUP d         -12.340  31.720  -2.707  0.00  0.00     0.177 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  C5' DUP d         -12.991  32.364  -3.913  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' DUP d         -13.565  31.340  -4.738  0.00  0.00    -0.293 OA
+BRANCH   7   8
+ATOM      8  PA  DUP d         -14.453  31.758  -6.061  0.00  0.00     0.368 P 
+ATOM      9  O1A DUP d         -14.452  30.553  -6.915  0.00  0.00    -0.629 OA
+ATOM     10  O2A DUP d         -13.883  33.063  -6.569  0.00  0.00    -0.629 OA
+BRANCH   8  11
+ATOM     11  N3A DUP d         -16.044  32.098  -5.657  0.00  0.00    -0.225 N 
+ATOM     12  H14 DUP d         -16.741  31.488  -6.035  0.00  0.00     0.178 HD
+BRANCH  11  13
+ATOM     13  PB  DUP d         -16.587  33.343  -4.694  0.00  0.00     0.378 P 
+ATOM     14  O1B DUP d         -15.836  34.727  -4.821  0.00  0.00    -0.629 OA
+ATOM     15  O2B DUP d         -16.684  32.867  -3.247  0.00  0.00    -0.629 OA
+BRANCH  13  16
+ATOM     16  O3B DUP d         -18.024  33.569  -5.418  0.00  0.00    -0.178 OA
+BRANCH  16  17
+ATOM     17  PG  DUP d         -18.047  33.893  -7.042  0.00  0.00     0.431 P 
+ATOM     18  O2G DUP d         -18.111  32.577  -7.826  0.00  0.00    -0.616 OA
+ATOM     19  O1G DUP d         -16.759  34.608  -7.535  0.00  0.00    -0.616 OA
+ATOM     20  O3G DUP d         -19.270  34.767  -7.064  0.00  0.00    -0.616 OA
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   3  21
+ATOM     21  O3' DUP d         -12.298  32.854  -0.544  0.00  0.00    -0.393 OA
+ATOM     22  H10 DUP d         -13.127  33.289  -0.705  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   1  23
+ATOM     23  N1  DUP d          -9.200  29.976  -2.715  0.00  0.00    -0.303 N 
+ATOM     24  C6  DUP d          -9.134  29.600  -4.012  0.00  0.00     0.162 A 
+ATOM     25  C5  DUP d          -7.988  29.028  -4.501  0.00  0.00     0.049 A 
+ATOM     26  C4  DUP d          -6.937  28.796  -3.590  0.00  0.00     0.141 A 
+ATOM     27  N3  DUP d          -7.056  29.128  -2.286  0.00  0.00    -0.289 N 
+ATOM     28  C2  DUP d          -8.176  29.701  -1.849  0.00  0.00     0.326 A 
+ATOM     29  H5  DUP d          -6.306  28.944  -1.651  0.00  0.00     0.172 HD
+ATOM     30  O2  DUP d          -8.268  30.076  -0.666  0.00  0.00    -0.247 OA
+BRANCH  26  31
+ATOM     31  O4  DUP d          -5.879  28.163  -4.083  0.00  0.00    -0.346 OA
+ATOM     32  H1  DUP d          -5.998  28.028  -5.016  0.00  0.00     0.219 HD
+ENDBRANCH  26  31
+ENDBRANCH   1  23
+TORSDOF 10

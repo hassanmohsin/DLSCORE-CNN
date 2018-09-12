@@ -1,0 +1,39 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2'_10  and  O2'_11 
+REMARK    2  A    between atoms: C1'_12  and  N9_13 
+REMARK    3  A    between atoms: C6_17  and  N6_18 
+ROOT
+ATOM      1  P   CMP d          -3.020  33.766  27.353  0.00  0.00     0.408 P 
+ATOM      2  O1P CMP d          -1.859  32.889  27.555  0.00  0.00    -0.624 OA
+ATOM      3  O2P CMP d          -4.388  33.015  26.845  0.00  0.00    -0.624 OA
+ATOM      4  O5' CMP d          -3.428  34.491  28.675  0.00  0.00    -0.287 OA
+ATOM      5  C5' CMP d          -2.437  35.428  29.083  0.00  0.00     0.216 C 
+ATOM      6  C4' CMP d          -2.218  36.376  27.947  0.00  0.00     0.180 C 
+ATOM      7  O4' CMP d          -1.185  37.352  28.186  0.00  0.00    -0.353 OA
+ATOM      8  C3' CMP d          -1.747  35.722  26.678  0.00  0.00     0.198 C 
+ATOM      9  O3' CMP d          -2.746  34.861  26.165  0.00  0.00    -0.279 OA
+ATOM     10  C2' CMP d          -1.425  36.954  25.849  0.00  0.00     0.199 C 
+ATOM     11  C1' CMP d          -0.765  37.835  26.920  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH  11  12
+ATOM     12  N9  CMP d           0.706  37.721  26.872  0.00  0.00    -0.294 N 
+ATOM     13  C8  CMP d           1.426  36.677  27.275  0.00  0.00     0.214 A 
+ATOM     14  N7  CMP d           2.753  36.972  27.075  0.00  0.00    -0.236 NA
+ATOM     15  C5  CMP d           2.823  38.229  26.533  0.00  0.00     0.149 A 
+ATOM     16  C6  CMP d           3.953  39.056  26.119  0.00  0.00     0.155 A 
+ATOM     17  C4  CMP d           1.586  38.701  26.405  0.00  0.00     0.167 A 
+ATOM     18  N1  CMP d           3.750  40.250  25.616  0.00  0.00    -0.222 NA
+ATOM     19  C2  CMP d           2.461  40.727  25.484  0.00  0.00     0.237 A 
+ATOM     20  N3  CMP d           1.372  39.934  25.887  0.00  0.00    -0.222 NA
+BRANCH  16  21
+ATOM     21  N6  CMP d           5.301  38.552  26.271  0.00  0.00    -0.382 N 
+ATOM     22  H9  CMP d           6.103  39.130  25.981  0.00  0.00     0.157 HD
+ATOM     23  H10 CMP d           5.459  37.615  26.669  0.00  0.00     0.157 HD
+ENDBRANCH  16  21
+ENDBRANCH  11  12
+BRANCH  10  24
+ATOM     24  O2' CMP d          -2.612  37.583  25.377  0.00  0.00    -0.388 OA
+ATOM     25  H6  CMP d          -3.099  36.972  24.836  0.00  0.00     0.210 HD
+ENDBRANCH  10  24
+TORSDOF 3

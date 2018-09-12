@@ -1,0 +1,62 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAH_1  and  CAC_2 
+REMARK    2  A    between atoms: CAK_8  and  NAZ_9 
+REMARK    3  A    between atoms: CAG_16  and  OAI_17 
+REMARK    4  A    between atoms: NAB_18  and  CAA_19 
+REMARK    5  A    between atoms: CAA_19  and  CAW_20 
+REMARK    6  A    between atoms: CAW_20  and  NAX_21 
+REMARK    7  A    between atoms: NAX_21  and  CAY_22 
+REMARK    8  A    between atoms: CAY_22  and  CAQ_23 
+ROOT
+ATOM      1  CAC NF6 d         -33.902  -1.122 189.429  0.00  0.00     0.359 A 
+ATOM      2  CAD NF6 d         -32.753  -0.953 190.339  0.00  0.00     0.009 A 
+ATOM      3  CAE NF6 d         -32.069   0.297 190.373  0.00  0.00    -0.003 A 
+ATOM      4  CAF NF6 d         -32.514   1.368 189.517  0.00  0.00     0.009 A 
+ATOM      5  CAM NF6 d         -31.820   2.647 189.552  0.00  0.00     0.015 A 
+ATOM      6  CAL NF6 d         -30.717   2.828 190.422  0.00  0.00     0.031 A 
+ATOM      7  CAK NF6 d         -30.279   1.754 191.272  0.00  0.00     0.040 A 
+ATOM      8  CAJ NF6 d         -30.975   0.480 191.237  0.00  0.00     0.002 A 
+ATOM      9  CAP NF6 d         -30.531  -0.589 192.091  0.00  0.00     0.014 A 
+ATOM     10  CAO NF6 d         -31.215  -1.838 192.054  0.00  0.00     0.002 A 
+ATOM     11  CAN NF6 d         -32.317  -2.023 191.185  0.00  0.00     0.012 A 
+ATOM     12  CAG NF6 d         -33.662   1.149 188.633  0.00  0.00     0.359 A 
+ATOM     13  NAB NF6 d         -34.309  -0.090 188.628  0.00  0.00    -0.009 N 
+ATOM     14  H   NF6 d         -34.927   0.232 189.356  0.00  0.00     0.287 HD
+ENDROOT
+BRANCH  13  15
+ATOM     15  CAA NF6 d         -35.429  -0.300 187.751  0.00  0.00     0.269 C 
+BRANCH  15  16
+ATOM     16  CAW NF6 d         -36.805   0.256 188.145  0.00  0.00     0.260 C 
+BRANCH  16  17
+ATOM     17  NAX NF6 d         -37.971  -0.072 187.205  0.00  0.00    -0.068 N 
+ATOM     18  H   NF6 d         -38.085  -1.072 187.156  0.00  0.00     0.277 HD
+ATOM     19  H   NF6 d         -37.767   0.289 186.286  0.00  0.00     0.277 HD
+BRANCH  17  20
+ATOM     20  CAY NF6 d         -39.206   0.525 187.688  0.00  0.00     0.300 C 
+BRANCH  20  21
+ATOM     21  CAQ NF6 d         -39.586   1.907 187.171  0.00  0.00     0.124 A 
+ATOM     22  SAU NF6 d         -39.809   2.436 185.553  0.00  0.00    -0.055 SA
+ATOM     23  CAT NF6 d         -40.197   4.064 185.947  0.00  0.00     0.095 A 
+ATOM     24  NAS NF6 d         -40.145   4.126 187.275  0.00  0.00    -0.147 NA
+ATOM     25  CAV NF6 d         -40.537   5.207 185.015  0.00  0.00     0.081 C 
+ATOM     26  NAR NF6 d         -39.823   2.988 187.921  0.00  0.00    -0.145 NA
+ENDBRANCH  20  21
+ENDBRANCH  17  20
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+BRANCH   1  27
+ATOM     27  OAH NF6 d         -34.575  -2.341 189.393  0.00  0.00    -0.366 OA
+ATOM     28  H   NF6 d         -34.169  -2.944 190.004  0.00  0.00     0.212 HD
+ENDBRANCH   1  27
+BRANCH  12  29
+ATOM     29  OAI NF6 d         -34.116   2.184 187.787  0.00  0.00    -0.366 OA
+ATOM     30  H   NF6 d         -33.573   2.954 187.911  0.00  0.00     0.212 HD
+ENDBRANCH  12  29
+BRANCH   7  31
+ATOM     31  NAZ NF6 d         -29.148   1.910 192.182  0.00  0.00    -0.389 N 
+ATOM     32  CBA NF6 d         -29.386   2.323 193.554  0.00  0.00     0.149 C 
+ATOM     33  CBB NF6 d         -27.789   1.642 191.723  0.00  0.00     0.149 C 
+ENDBRANCH   7  31
+TORSDOF 8

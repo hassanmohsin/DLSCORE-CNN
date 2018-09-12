@@ -1,0 +1,45 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_2  and  C11_5 
+REMARK    2  A    between atoms: C11_5  and  C10_6 
+REMARK    3  A    between atoms: C10_6  and  C9_7 
+REMARK    4  A    between atoms: C9_7  and  N1_8 
+REMARK    5  A    between atoms: N4_11  and  C7_14 
+REMARK    6  A    between atoms: C7_14  and  C8_15 
+REMARK    7  A    between atoms: C8_15  and  O8_16 
+ROOT
+ATOM      1  N1  EP1 d          -2.650  26.402 -10.931  0.00  0.00    -0.068 N 
+ATOM      2  C2  EP1 d          -2.428  25.763  -9.601  0.00  0.00     0.262 C 
+ATOM      3  C3  EP1 d          -1.668  24.411  -9.653  0.00  0.00     0.262 C 
+ATOM      4  N4  EP1 d          -0.498  24.475 -10.562  0.00  0.00    -0.066 N 
+ATOM      5  C5  EP1 d          -1.013  24.718 -11.920  0.00  0.00     0.262 C 
+ATOM      6  C6  EP1 d          -1.690  26.103 -12.023  0.00  0.00     0.262 C 
+ATOM      7  H7  EP1 d          -3.545  26.070 -11.255  0.00  0.00     0.280 HD
+ATOM      8  H12 EP1 d          -0.027  23.584 -10.548  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  C9  EP1 d          -2.758  27.873 -10.727  0.00  0.00     0.236 C 
+BRANCH   9  10
+ATOM     10  C10 EP1 d          -3.549  28.577 -11.847  0.00  0.00     0.045 C 
+BRANCH  10  11
+ATOM     11  C11 EP1 d          -4.649  29.515 -11.338  0.00  0.00     0.167 C 
+BRANCH  11  12
+ATOM     12  S   EP1 d          -5.630  30.150 -12.758  0.00  0.00     0.101 S 
+ATOM     13  O2S EP1 d          -4.702  30.724 -13.735  0.00  0.00    -0.595 OA
+ATOM     14  O3S EP1 d          -6.364  28.931 -13.261  0.00  0.00    -0.595 OA
+ATOM     15  O1S EP1 d          -6.639  31.206 -12.370  0.00  0.00    -0.595 OA
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   4  16
+ATOM     16  C7  EP1 d           0.478  25.512 -10.142  0.00  0.00     0.260 C 
+BRANCH  16  17
+ATOM     17  C8  EP1 d           1.820  24.886  -9.787  0.00  0.00     0.192 C 
+BRANCH  17  18
+ATOM     18  O8  EP1 d           2.742  25.056 -10.875  0.00  0.00    -0.399 OA
+ATOM     19  H21 EP1 d           3.576  24.663 -10.646  0.00  0.00     0.209 HD
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   4  16
+TORSDOF 7

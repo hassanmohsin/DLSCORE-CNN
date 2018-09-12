@@ -1,0 +1,42 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N48_2  and  C41_4 
+REMARK    2  A    between atoms: C35_9  and  C31_10 
+REMARK    3  A    between atoms: C31_10  and  O29_12 
+REMARK    4  A    between atoms: O29_12  and  C13_13 
+ROOT
+ATOM      1  C13 CF9 d           0.934  15.258 -40.930  0.00  0.00     0.090 A 
+ATOM      2  C3  CF9 d           1.124  16.190 -39.924  0.00  0.00     0.012 A 
+ATOM      3  C4  CF9 d           1.367  17.551 -40.096  0.00  0.00     0.015 A 
+ATOM      4  C5  CF9 d           1.534  18.372 -38.975  0.00  0.00     0.002 A 
+ATOM      5  C6  CF9 d           1.466  17.850 -37.682  0.00  0.00     0.018 A 
+ATOM      6  C1  CF9 d           1.223  16.481 -37.538  0.00  0.00     0.053 A 
+ATOM      7  C14 CF9 d           0.702  13.913 -40.606  0.00  0.00     0.041 A 
+ATOM      8  C15 CF9 d           0.629  13.456 -39.289  0.00  0.00     0.041 A 
+ATOM      9  C16 CF9 d           0.825  14.411 -38.327  0.00  0.00     0.091 A 
+ATOM     10  C2  CF9 d           1.061  15.713 -38.657  0.00  0.00     0.027 A 
+ATOM     11  O24 CF9 d           0.829  14.317 -36.912  0.00  0.00    -0.274 OA
+ATOM     12  C22 CF9 d           1.072  15.599 -36.462  0.00  0.00     0.299 A 
+ATOM     13  O27 CF9 d           1.152  15.900 -35.287  0.00  0.00    -0.259 OA
+ENDROOT
+BRANCH   1  14
+ATOM     14  O29 CF9 d           1.010  15.661 -42.235  0.00  0.00    -0.274 OA
+BRANCH  14  15
+ATOM     15  C31 CF9 d           2.350  15.883 -42.764  0.00  0.00     0.298 C 
+ATOM     16  O33 CF9 d           2.583  16.624 -43.704  0.00  0.00    -0.259 OA
+BRANCH  15  17
+ATOM     17  C35 CF9 d           3.454  15.150 -42.101  0.00  0.00     0.040 A 
+ATOM     18  C37 CF9 d           3.103  14.117 -41.241  0.00  0.00     0.020 A 
+ATOM     19  C39 CF9 d           4.102  13.408 -40.597  0.00  0.00     0.037 A 
+ATOM     20  C41 CF9 d           5.427  13.729 -40.861  0.00  0.00     0.102 A 
+ATOM     21  C43 CF9 d           5.775  14.782 -41.703  0.00  0.00     0.037 A 
+ATOM     22  C45 CF9 d           4.779  15.495 -42.345  0.00  0.00     0.020 A 
+BRANCH  20  23
+ATOM     23  N48 CF9 d           6.415  12.877 -40.310  0.00  0.00    -0.116 N 
+ATOM     24  O50 CF9 d           6.131  11.672 -40.201  0.00  0.00    -0.532 OA
+ATOM     25  O52 CF9 d           7.523  13.300 -39.942  0.00  0.00    -0.532 OA
+ENDBRANCH  20  23
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+TORSDOF 4

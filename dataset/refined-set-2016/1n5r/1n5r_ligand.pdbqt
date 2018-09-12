@@ -1,0 +1,67 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C20_5  and  N36_21 
+REMARK    2  A    between atoms: C22_7  and  C30_15 
+REMARK    3  A    between atoms: N23_8  and  C41_23 
+REMARK    4  A    between atoms: C27_12  and  N37_22 
+REMARK    5  A    between atoms: C41_23  and  C42_24 
+REMARK    6  A    between atoms: C42_24  and  C43_25 
+REMARK    7  A    between atoms: C43_25  and  N44_26 
+REMARK    8  A    between atoms: N44_26  and  C44_27 
+REMARK    9  A    between atoms: N44_26  and  C47_30 
+ROOT
+ATOM      1  C16 PRM d          37.727  25.772   9.693  0.00  0.00     0.015 A 
+ATOM      2  C17 PRM d          38.507  25.953   8.522  0.00  0.00    -0.011 A 
+ATOM      3  C18 PRM d          37.999  25.313   7.297  0.00  0.00     0.005 A 
+ATOM      4  C19 PRM d          36.783  24.536   7.416  0.00  0.00     0.043 A 
+ATOM      5  C20 PRM d          36.052  24.380   8.628  0.00  0.00     0.026 A 
+ATOM      6  C21 PRM d          36.528  25.008   9.776  0.00  0.00     0.030 A 
+ATOM      7  C22 PRM d          38.771  25.439   6.078  0.00  0.00     0.056 C 
+ATOM      8  N23 PRM d          40.089  26.024   6.038  0.00  0.00    -0.345 N 
+ATOM      9  C24 PRM d          40.613  26.485   7.264  0.00  0.00     0.048 A 
+ATOM     10  C25 PRM d          39.828  26.493   8.518  0.00  0.00     0.002 A 
+ATOM     11  C26 PRM d          41.971  26.953   7.372  0.00  0.00     0.059 A 
+ATOM     12  C27 PRM d          42.588  27.395   8.561  0.00  0.00     0.027 A 
+ATOM     13  C28 PRM d          41.838  27.391   9.750  0.00  0.00     0.030 A 
+ATOM     14  C29 PRM d          40.481  26.942   9.696  0.00  0.00     0.017 A 
+ENDROOT
+BRANCH   8  15
+ATOM     15  C41 PRM d          40.894  26.187   4.741  0.00  0.00     0.131 C 
+BRANCH  15  16
+ATOM     16  C42 PRM d          41.834  25.063   4.316  0.00  0.00     0.048 C 
+BRANCH  16  17
+ATOM     17  C43 PRM d          42.194  25.118   2.832  0.00  0.00     0.238 C 
+BRANCH  17  18
+ATOM     18  N44 PRM d          43.542  24.644   2.250  0.00  0.00    -0.071 N 
+ATOM     19  C46 PRM d          44.699  25.150   3.076  0.00  0.00     0.272 C 
+BRANCH  18  20
+ATOM     20  C44 PRM d          43.598  23.120   2.272  0.00  0.00     0.232 C 
+ATOM     21  C45 PRM d          42.454  22.193   1.845  0.00  0.00     0.035 C 
+ENDBRANCH  18  20
+BRANCH  18  22
+ATOM     22  C47 PRM d          43.690  25.122   0.810  0.00  0.00     0.232 C 
+ATOM     23  C48 PRM d          44.967  25.045  -0.035  0.00  0.00     0.035 C 
+ENDBRANCH  18  22
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+BRANCH   7  24
+ATOM     24  C30 PRM d          38.172  24.963   4.786  0.00  0.00    -0.008 A 
+ATOM     25  C31 PRM d          37.470  25.903   3.952  0.00  0.00     0.014 A 
+ATOM     26  C32 PRM d          36.930  25.479   2.701  0.00  0.00     0.001 A 
+ATOM     27  C33 PRM d          37.082  24.135   2.283  0.00  0.00     0.000 A 
+ATOM     28  C34 PRM d          37.774  23.209   3.114  0.00  0.00     0.001 A 
+ATOM     29  C35 PRM d          38.317  23.622   4.363  0.00  0.00     0.014 A 
+ENDBRANCH   7  24
+BRANCH  12  30
+ATOM     30  N37 PRM d          43.915  27.845   8.585  0.00  0.00    -0.399 N 
+ATOM     31  H14 PRM d          44.472  27.852   7.719  0.00  0.00     0.156 HD
+ATOM     32  H15 PRM d          44.333  28.169   9.469  0.00  0.00     0.156 HD
+ENDBRANCH  12  30
+BRANCH   5  33
+ATOM     33  N36 PRM d          34.871  23.610   8.704  0.00  0.00    -0.399 N 
+ATOM     34  H12 PRM d          34.508  23.140   7.863  0.00  0.00     0.156 HD
+ATOM     35  H13 PRM d          34.373  23.518   9.601  0.00  0.00     0.156 HD
+ENDBRANCH   5  33
+TORSDOF 9

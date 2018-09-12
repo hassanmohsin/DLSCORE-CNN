@@ -1,0 +1,37 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_6 
+REMARK    3  A    between atoms: C2_4  and  O7_5 
+REMARK    4  A    between atoms: C3_6  and  C6_11 
+REMARK    5  A    between atoms: C3_6  and  C4_7 
+REMARK    6  A    between atoms: C4_7  and  C5_8 
+ROOT
+ATOM      1  C3  ICT d          84.313  65.801   1.831  0.00  0.00     0.136 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  ICT d          85.286  66.991   1.984  0.00  0.00     0.233 C 
+BRANCH   2   3
+ATOM      3  C1  ICT d          85.334  67.482   3.428  0.00  0.00     0.203 C 
+ATOM      4  O2  ICT d          84.812  68.550   3.726  0.00  0.00    -0.646 OA
+ATOM      5  O1  ICT d          85.894  66.774   4.252  0.00  0.00    -0.646 OA
+ENDBRANCH   2   3
+BRANCH   2   6
+ATOM      6  O7  ICT d          84.898  68.058   1.136  0.00  0.00    -0.384 OA
+ATOM      7  H2  ICT d          84.022  68.342   1.367  0.00  0.00     0.210 HD
+ENDBRANCH   2   6
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C6  ICT d          82.865  66.201   2.180  0.00  0.00     0.180 C 
+ATOM      9  O6  ICT d          82.043  66.431   1.292  0.00  0.00    -0.648 OA
+ATOM     10  O5  ICT d          82.558  66.264   3.368  0.00  0.00    -0.648 OA
+ENDBRANCH   1   8
+BRANCH   1  11
+ATOM     11  C4  ICT d          84.321  65.230   0.406  0.00  0.00     0.131 C 
+BRANCH  11  12
+ATOM     12  C5  ICT d          85.194  64.014   0.225  0.00  0.00     0.173 C 
+ATOM     13  O4  ICT d          84.844  62.976   0.771  0.00  0.00    -0.648 OA
+ATOM     14  O3  ICT d          86.205  64.100  -0.467  0.00  0.00    -0.648 OA
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 6

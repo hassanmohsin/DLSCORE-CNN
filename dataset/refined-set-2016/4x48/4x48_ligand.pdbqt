@@ -1,0 +1,50 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_10  and  C21_1 
+REMARK    2  A    between atoms: O13_24  and  C14_11 
+REMARK    3  A    between atoms: N6_20  and  C1_14 
+REMARK    4  A    between atoms: C2_15  and  O13_24 
+REMARK    5  A    between atoms: S7_26  and  C10_18 
+REMARK    6  A    between atoms: N6_20  and  S7_26 
+ROOT
+ATOM      1  C21 XPF d          62.437  23.961  42.507  0.00  0.00     0.016 A 
+ATOM      2  C25 XPF d          62.807  20.311  41.145  0.00  0.00     0.107 C 
+ATOM      3  C23 XPF d          62.358  21.713  43.147  0.00  0.00     0.031 A 
+ATOM      4  C22 XPF d          62.245  23.074  43.538  0.00  0.00     0.022 A 
+ATOM      5  C24 XPF d          62.649  21.554  41.811  0.00  0.00     0.086 A 
+ATOM      6  N26 XPF d          62.924  19.288  40.606  0.00  0.00    -0.191 NA
+ATOM      7  S20 XPF d          62.795  23.095  41.071  0.00  0.00    -0.079 SA
+ENDROOT
+BRANCH   1   8
+ATOM      8  C17 XPF d          62.380  25.398  42.503  0.00  0.00    -0.019 A 
+ATOM      9  C18 XPF d          61.167  26.061  42.524  0.00  0.00     0.015 A 
+ATOM     10  C19 XPF d          61.122  27.442  42.532  0.00  0.00     0.037 A 
+ATOM     11  C14 XPF d          62.307  28.154  42.502  0.00  0.00     0.069 A 
+ATOM     12  C15 XPF d          63.516  27.498  42.492  0.00  0.00     0.037 A 
+ATOM     13  C16 XPF d          63.553  26.120  42.489  0.00  0.00     0.015 A 
+BRANCH  11  14
+ATOM     14  O13 XPF d          62.381  29.533  42.513  0.00  0.00    -0.342 OA
+BRANCH  14  15
+ATOM     15  C2  XPF d          61.181  30.162  42.060  0.00  0.00     0.178 C 
+ATOM     16  C3  XPF d          61.621  31.242  41.111  0.00  0.00     0.202 C 
+ATOM     17  O4  XPF d          61.921  32.418  41.869  0.00  0.00    -0.386 OA
+ATOM     18  C5  XPF d          61.350  32.277  43.170  0.00  0.00     0.196 C 
+ATOM     19  C1  XPF d          60.611  30.959  43.205  0.00  0.00     0.148 C 
+BRANCH  19  20
+ATOM     20  N6  XPF d          60.902  30.298  44.489  0.00  0.00    -0.310 N 
+ATOM     21  H20 XPF d          61.837  30.139  44.804  0.00  0.00     0.172 HD
+BRANCH  20  22
+ATOM     22  S7  XPF d          59.551  29.824  45.399  0.00  0.00     0.230 S 
+ATOM     23  O8  XPF d          59.962  29.256  46.666  0.00  0.00    -0.206 OA
+ATOM     24  O9  XPF d          58.680  29.046  44.551  0.00  0.00    -0.206 OA
+BRANCH  22  25
+ATOM     25  C10 XPF d          58.783  31.394  45.666  0.00  0.00     0.121 C 
+ATOM     26  C11 XPF d          59.667  32.258  46.528  0.00  0.00     0.027 C 
+ATOM     27  C12 XPF d          57.422  31.176  46.278  0.00  0.00     0.027 C 
+ENDBRANCH  22  25
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   1   8
+TORSDOF 6

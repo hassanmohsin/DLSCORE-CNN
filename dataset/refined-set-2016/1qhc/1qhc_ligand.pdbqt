@@ -1,0 +1,107 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  O3A_8 
+REMARK    2  A    between atoms: PA_1  and  O5'_4 
+REMARK    3  A    between atoms: O5'_4  and  C5'_23 
+REMARK    4  A    between atoms: O3A_8  and  PB_5 
+REMARK    5  A    between atoms: PB_5  and  O3_38 
+REMARK    6  A    between atoms: O3'_30  and  PG_9 
+REMARK    7  A    between atoms: C1'_26  and  N9A_13 
+REMARK    8  A    between atoms: C6A_18  and  N6A_19 
+REMARK    9  A    between atoms: C5'_23  and  C4'_24 
+REMARK   10  A    between atoms: C2'_27  and  O2'_28 
+REMARK   11  A    between atoms: C3'_29  and  O3'_30 
+REMARK   12  A    between atoms: C5_32  and  O5_31 
+REMARK   13  A    between atoms: O5_31  and  PD_39 
+REMARK   14  A    between atoms: C4_33  and  C5_32 
+REMARK   15  A    between atoms: C1_35  and  N1U_43 
+REMARK   16  A    between atoms: O3_38  and  C3_37 
+ROOT
+ATOM      1  PA  PUA d          38.992  -4.356  21.687  0.00  0.00     0.417 P 
+ATOM      2  O1A PUA d          40.058  -5.337  22.164  0.00  0.00    -0.624 OA
+ATOM      3  O2A PUA d          39.497  -3.000  21.191  0.00  0.00    -0.624 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  O3A PUA d          37.938  -4.119  22.850  0.00  0.00    -0.180 OA
+BRANCH   4   5
+ATOM      5  PB  PUA d          37.051  -2.892  23.306  0.00  0.00     0.418 P 
+ATOM      6  O2B PUA d          36.236  -3.330  24.451  0.00  0.00    -0.624 OA
+ATOM      7  O1B PUA d          36.386  -2.342  22.115  0.00  0.00    -0.624 OA
+BRANCH   5   8
+ATOM      8  O3  PUA d          38.130  -1.874  23.925  0.00  0.00    -0.281 OA
+BRANCH   8   9
+ATOM      9  C3  PUA d          38.509  -0.711  23.201  0.00  0.00     0.169 C 
+ATOM     10  C2  PUA d          37.350   0.262  23.174  0.00  0.00     0.089 C 
+ATOM     11  C1  PUA d          37.475   0.918  24.535  0.00  0.00     0.235 C 
+ATOM     12  O4  PUA d          38.864   1.011  24.794  0.00  0.00    -0.356 OA
+ATOM     13  C4  PUA d          39.580   0.047  23.984  0.00  0.00     0.178 C 
+BRANCH  11  14
+ATOM     14  N1U PUA d          36.908   2.272  24.560  0.00  0.00    -0.282 N 
+ATOM     15  C2U PUA d          35.766   2.479  25.334  0.00  0.00     0.331 A 
+ATOM     16  N3U PUA d          35.233   3.745  25.241  0.00  0.00    -0.275 N 
+ATOM     17  O2U PUA d          35.266   1.616  26.029  0.00  0.00    -0.246 OA
+ATOM     18  C4U PUA d          35.704   4.797  24.463  0.00  0.00     0.250 A 
+ATOM     19  H20 PUA d          34.419   3.928  25.793  0.00  0.00     0.173 HD
+ATOM     20  C5U PUA d          36.913   4.521  23.724  0.00  0.00     0.092 A 
+ATOM     21  O4U PUA d          35.004   5.795  24.338  0.00  0.00    -0.268 OA
+ATOM     22  C6U PUA d          37.465   3.302  23.802  0.00  0.00     0.104 A 
+ENDBRANCH  11  14
+BRANCH  13  23
+ATOM     23  C5  PUA d          40.562   0.786  23.107  0.00  0.00     0.217 C 
+BRANCH  23  24
+ATOM     24  O5  PUA d          39.878   1.835  22.393  0.00  0.00    -0.280 OA
+BRANCH  24  25
+ATOM     25  PD  PUA d          40.249   2.194  20.843  0.00  0.00     0.422 P 
+ATOM     26  O3D PUA d          40.755   0.889  20.225  0.00  0.00    -0.617 OA
+ATOM     27  O2D PUA d          38.951   2.707  20.195  0.00  0.00    -0.617 OA
+ATOM     28  O1D PUA d          41.335   3.271  20.928  0.00  0.00    -0.617 OA
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  13  23
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1  29
+ATOM     29  O5' PUA d          38.087  -5.002  20.554  0.00  0.00    -0.287 OA
+BRANCH  29  30
+ATOM     30  C5' PUA d          37.363  -6.186  20.811  0.00  0.00     0.216 C 
+BRANCH  30  31
+ATOM     31  C4' PUA d          37.494  -7.115  19.645  0.00  0.00     0.180 C 
+ATOM     32  C3' PUA d          38.936  -7.380  19.210  0.00  0.00     0.199 C 
+ATOM     33  C2' PUA d          39.080  -6.531  17.945  0.00  0.00     0.199 C 
+ATOM     34  C1' PUA d          37.671  -6.647  17.362  0.00  0.00     0.262 C 
+ATOM     35  O4' PUA d          36.821  -6.539  18.485  0.00  0.00    -0.353 OA
+BRANCH  32  36
+ATOM     36  O3' PUA d          39.032  -8.766  18.890  0.00  0.00    -0.272 OA
+BRANCH  36  37
+ATOM     37  PG  PUA d          39.722  -9.838  19.904  0.00  0.00     0.422 P 
+ATOM     38  O3G PUA d          40.087  -9.070  21.174  0.00  0.00    -0.617 OA
+ATOM     39  O2G PUA d          40.932 -10.357  19.134  0.00  0.00    -0.617 OA
+ATOM     40  O1G PUA d          38.652 -10.900  20.146  0.00  0.00    -0.617 OA
+ENDBRANCH  36  37
+ENDBRANCH  32  36
+BRANCH  33  41
+ATOM     41  O2' PUA d          40.081  -7.022  17.064  0.00  0.00    -0.388 OA
+ATOM     42  H10 PUA d          39.860  -7.907  16.797  0.00  0.00     0.210 HD
+ENDBRANCH  33  41
+BRANCH  34  43
+ATOM     43  N9A PUA d          37.240  -5.704  16.315  0.00  0.00    -0.294 N 
+ATOM     44  C8A PUA d          36.444  -6.045  15.245  0.00  0.00     0.214 A 
+ATOM     45  N7A PUA d          36.225  -5.060  14.405  0.00  0.00    -0.236 NA
+ATOM     46  C5A PUA d          36.910  -3.987  14.957  0.00  0.00     0.149 A 
+ATOM     47  C4A PUA d          37.534  -4.363  16.146  0.00  0.00     0.167 A 
+ATOM     48  C6A PUA d          37.077  -2.639  14.535  0.00  0.00     0.155 A 
+ATOM     49  N3A PUA d          38.283  -3.570  16.946  0.00  0.00    -0.222 NA
+ATOM     50  C2A PUA d          38.365  -2.318  16.444  0.00  0.00     0.237 A 
+ATOM     51  N1A PUA d          37.818  -1.817  15.313  0.00  0.00    -0.222 NA
+BRANCH  48  52
+ATOM     52  N6A PUA d          36.547  -2.143  13.417  0.00  0.00    -0.382 N 
+ATOM     53  H2  PUA d          35.978  -2.746  12.805  0.00  0.00     0.157 HD
+ATOM     54  H3  PUA d          36.706  -1.157  13.165  0.00  0.00     0.157 HD
+ENDBRANCH  48  52
+ENDBRANCH  34  43
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 16

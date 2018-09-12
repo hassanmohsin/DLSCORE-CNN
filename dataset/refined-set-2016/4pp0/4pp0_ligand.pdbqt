@@ -1,0 +1,58 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2 
+REMARK    2  A    between atoms: CA_1  and  CB_4 
+REMARK    3  A    between atoms: CA_1  and  N_11 
+REMARK    4  A    between atoms: CB_4  and  CG_5 
+REMARK    5  A    between atoms: CG_5  and  CD_6 
+REMARK    6  A    between atoms: CD_6  and  NE_7 
+REMARK       I    between atoms: NE_7  and  CZ_8 
+REMARK       I    between atoms: CZ_8  and  NH2_9 
+REMARK    7  A    between atoms: CAU_12  and  CAS_17 
+REMARK    8  A    between atoms: CAQ_15  and  OAM_16 
+ROOT
+ATOM      1  CA  OP1 d          17.352  -5.735  -4.197  0.00  0.00     0.292 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   OP1 d          16.226  -6.679  -4.564  0.00  0.00     0.205 C 
+ATOM      3  O   OP1 d          16.171  -7.849  -4.122  0.00  0.00    -0.646 OA
+ATOM      4  OXT OP1 d          15.336  -6.243  -5.332  0.00  0.00    -0.646 OA
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  CB  OP1 d          18.232  -5.503  -5.417  0.00  0.00     0.046 C 
+BRANCH   5   6
+ATOM      6  CG  OP1 d          18.664  -6.780  -6.108  0.00  0.00     0.023 C 
+BRANCH   6   7
+ATOM      7  CD  OP1 d          19.409  -6.516  -7.381  0.00  0.00     0.138 C 
+BRANCH   7   8
+ATOM      8  NE  OP1 d          20.042  -7.726  -7.879  0.00  0.00    -0.227 N 
+ATOM      9  CZ  OP1 d          20.837  -7.708  -9.077  0.00  0.00     0.665 C 
+ATOM     10  NH2 OP1 d          20.949  -6.628  -9.830  0.00  0.00    -0.235 N 
+ATOM     11  NH1 OP1 d          21.414  -8.861  -9.434  0.00  0.00    -0.235 N 
+ATOM     12  H   OP1 d          21.528  -6.652 -10.682  0.00  0.00     0.174 HD
+ATOM     13  H   OP1 d          20.458  -5.762  -9.565  0.00  0.00     0.174 HD
+ATOM     14  H   OP1 d          21.316  -9.693  -8.835  0.00  0.00     0.174 HD
+ATOM     15  H   OP1 d          21.956  -8.917 -10.308  0.00  0.00     0.174 HD
+ATOM     16  H   OP1 d          19.919  -8.610  -7.366  0.00  0.00     0.177 HD
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  17
+ATOM     17  N   OP1 d          18.100  -6.233  -3.033  0.00  0.00    -0.017 N 
+ATOM     18  CAU OP1 d          19.353  -6.916  -2.780  0.00  0.00     0.292 C 
+ATOM     19  CAM OP1 d          19.266  -7.482  -1.412  0.00  0.00     0.049 C 
+ATOM     20  CAK OP1 d          18.220  -6.747  -0.659  0.00  0.00     0.064 C 
+ATOM     21  CAQ OP1 d          17.511  -6.065  -1.755  0.00  0.00     0.323 C 
+ATOM     22  H   OP1 d          18.579  -5.346  -3.013  0.00  0.00     0.285 HD
+BRANCH  18  23
+ATOM     23  CAS OP1 d          20.520  -5.982  -2.865  0.00  0.00     0.205 C 
+ATOM     24  OAH OP1 d          20.395  -4.739  -3.134  0.00  0.00    -0.646 OA
+ATOM     25  OAE OP1 d          21.688  -6.426  -2.607  0.00  0.00    -0.646 OA
+ENDBRANCH  18  23
+BRANCH  21  26
+ATOM     26  OAM OP1 d          16.247  -5.635  -1.634  0.00  0.00    -0.369 OA
+ATOM     27  H   OP1 d          15.663  -6.244  -2.071  0.00  0.00     0.212 HD
+ENDBRANCH  21  26
+ENDBRANCH   1  17
+TORSDOF 8

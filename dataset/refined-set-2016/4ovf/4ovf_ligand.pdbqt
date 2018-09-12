@@ -1,0 +1,26 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_14  and  C13_15 
+ROOT
+ATOM      1 CL   MOL d           6.990  -1.682  -9.680  0.00  0.00    -0.084 Cl
+ATOM      2  C4  MOL d           7.637  -3.220 -10.332  0.00  0.00     0.035 A 
+ATOM      3  C3  MOL d           8.719  -3.877  -9.741  0.00  0.00     0.038 A 
+ATOM      4  C2  MOL d           9.156  -5.074 -10.318  0.00  0.00     0.000 A 
+ATOM      5  C5  MOL d           7.023  -3.755 -11.463  0.00  0.00     0.026 A 
+ATOM      6  C6  MOL d           7.467  -4.949 -12.025  0.00  0.00     0.032 A 
+ATOM      7  C1  MOL d           8.541  -5.614 -11.446  0.00  0.00     0.043 A 
+ATOM      8  N   MOL d           9.167  -6.757 -11.766  0.00  0.00    -0.358 N 
+ATOM      9  C7  MOL d          10.160  -6.975 -10.888  0.00  0.00     0.017 A 
+ATOM     10  C8  MOL d          10.181  -5.936  -9.966  0.00  0.00    -0.023 A 
+ATOM     11  C12 MOL d          11.164  -5.838  -8.826  0.00  0.00     0.042 C 
+ATOM     12  C11 MOL d          11.686  -7.249  -8.555  0.00  0.00     0.020 C 
+ATOM     13  C9  MOL d          11.112  -8.148 -10.883  0.00  0.00     0.073 C 
+ATOM     14  C10 MOL d          12.200  -7.964  -9.811  0.00  0.00     0.093 C 
+ATOM     15  H4  MOL d           8.925  -7.369 -12.558  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH  14  16
+ATOM     16  C13 MOL d          12.758  -9.301  -9.402  0.00  0.00     0.177 C 
+ATOM     17  O1  MOL d          12.027 -10.407  -9.489  0.00  0.00    -0.648 OA
+ATOM     18  O2  MOL d          13.894  -9.388  -8.975  0.00  0.00    -0.648 OA
+ENDBRANCH  14  16
+TORSDOF 1

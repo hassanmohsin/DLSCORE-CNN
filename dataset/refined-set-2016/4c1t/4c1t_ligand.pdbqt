@@ -1,0 +1,103 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5'_2  and  O5'_1 
+REMARK    2  A    between atoms: C4'_3  and  C5'_2 
+REMARK    3  A    between atoms: C3'_5  and  O3'_6 
+REMARK    4  A    between atoms: C2'_7  and  O2'_8 
+REMARK    5  A    between atoms: O2B_15  and  C1'_9 
+REMARK    6  A    between atoms: O4B_26  and  C1B_10 
+REMARK    7  A    between atoms: C2B_11  and  O2B_15 
+REMARK    8  A    between atoms: C3B_12  and  O3B_16 
+REMARK    9  A    between atoms: C4B_13  and  O4B_17 
+REMARK   10  A    between atoms: O4B_36  and  C1B_19 
+REMARK   11  A    between atoms: C2B_20  and  O2B_24 
+REMARK   12  A    between atoms: C3B_21  and  O3B_25 
+REMARK   13  A    between atoms: C4B_22  and  O4B_26 
+REMARK   14  A    between atoms: C1B_29  and  O4A_28 
+REMARK   15  A    between atoms: C2B_30  and  O2B_34 
+REMARK   16  A    between atoms: C3B_31  and  O3B_35 
+REMARK   17  A    between atoms: C4B_32  and  O4B_36 
+ROOT
+ATOM      1  O4B AHR d          17.802 116.247  15.712  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1B AHR d          18.351 117.471  16.224  0.00  0.00     0.291 C 
+ATOM      3  C2B AHR d          19.288 117.177  17.362  0.00  0.00     0.211 C 
+ATOM      4  C3B AHR d          20.268 118.170  17.961  0.00  0.00     0.182 C 
+ATOM      5  C4B AHR d          20.907 118.909  16.801  0.00  0.00     0.173 C 
+ATOM      6  C5B AHR d          19.969 119.123  15.635  0.00  0.00     0.205 C 
+ATOM      7  O5B AHR d          18.999 118.212  15.256  0.00  0.00    -0.356 OA
+BRANCH   3   8
+ATOM      8  O2B AHR d          18.610 116.472  18.347  0.00  0.00    -0.346 OA
+BRANCH   8   9
+ATOM      9  C1' AHR d          19.311 115.305  18.707  0.00  0.00     0.292 C 
+ATOM     10  O4' AHR d          19.277 114.346  17.670  0.00  0.00    -0.348 OA
+ATOM     11  C4' AHR d          18.845 113.059  18.196  0.00  0.00     0.179 C 
+ATOM     12  C3' AHR d          18.974 113.206  19.708  0.00  0.00     0.182 C 
+ATOM     13  C2' AHR d          18.648 114.677  19.928  0.00  0.00     0.204 C 
+BRANCH  11  14
+ATOM     14  C5' AHR d          19.657 111.952  17.571  0.00  0.00     0.198 C 
+BRANCH  14  15
+ATOM     15  O5' AHR d          21.042 112.102  17.847  0.00  0.00    -0.398 OA
+ATOM     16  H1  AHR d          21.345 112.932  17.498  0.00  0.00     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+BRANCH  12  17
+ATOM     17  O3' AHR d          18.133 112.321  20.427  0.00  0.00    -0.390 OA
+ATOM     18  H6  AHR d          18.255 112.457  21.359  0.00  0.00     0.210 HD
+ENDBRANCH  12  17
+BRANCH  13  19
+ATOM     19  O2' AHR d          19.293 115.168  21.094  0.00  0.00    -0.388 OA
+ATOM     20  H8  AHR d          19.076 116.085  21.212  0.00  0.00     0.210 HD
+ENDBRANCH  13  19
+ENDBRANCH   8   9
+ENDBRANCH   3   8
+BRANCH   4  21
+ATOM     21  O3B AHR d          21.254 117.524  18.695  0.00  0.00    -0.390 OA
+ATOM     22  H16 AHR d          20.854 117.061  19.422  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   5  23
+ATOM     23  O4B AHR d          21.383 120.133  17.242  0.00  0.00    -0.391 OA
+ATOM     24  H17 AHR d          21.972 119.997  17.975  0.00  0.00     0.210 HD
+ENDBRANCH   5  23
+ENDBRANCH   1   2
+BRANCH   1  25
+ATOM     25  C4B AHR d          16.909 116.563  14.703  0.00  0.00     0.180 C 
+ATOM     26  C3B AHR d          16.730 115.353  13.809  0.00  0.00     0.182 C 
+ATOM     27  C2B AHR d          15.365 115.481  13.171  0.00  0.00     0.204 C 
+ATOM     28  C1B AHR d          14.098 115.887  13.884  0.00  0.00     0.291 C 
+ATOM     29  O5B AHR d          14.367 116.931  14.752  0.00  0.00    -0.356 OA
+ATOM     30  C5B AHR d          15.626 117.077  15.315  0.00  0.00     0.205 C 
+BRANCH  26  31
+ATOM     31  O3B AHR d          17.710 115.338  12.828  0.00  0.00    -0.390 OA
+ATOM     32  H25 AHR d          17.589 114.576  12.273  0.00  0.00     0.210 HD
+ENDBRANCH  26  31
+BRANCH  27  33
+ATOM     33  O2B AHR d          15.162 114.420  12.304  0.00  0.00    -0.388 OA
+ATOM     34  H24 AHR d          14.305 114.500  11.903  0.00  0.00     0.210 HD
+ENDBRANCH  27  33
+BRANCH  28  35
+ATOM     35  O4B AHR d          13.038 116.194  12.950  0.00  0.00    -0.348 OA
+BRANCH  35  36
+ATOM     36  C4B AHR d          12.200 115.095  12.763  0.00  0.00     0.180 C 
+ATOM     37  C3B AHR d          11.057 115.078  13.764  0.00  0.00     0.182 C 
+ATOM     38  C2B AHR d          10.077 114.077  13.197  0.00  0.00     0.204 C 
+ATOM     39  C1B AHR d           9.537 114.115  11.795  0.00  0.00     0.288 C 
+ATOM     40  O5B AHR d          10.577 114.360  10.914  0.00  0.00    -0.356 OA
+ATOM     41  C5B AHR d          11.714 115.041  11.329  0.00  0.00     0.205 C 
+BRANCH  37  42
+ATOM     42  O3B AHR d          11.468 114.663  15.022  0.00  0.00    -0.390 OA
+ATOM     43  H34 AHR d          10.725 114.667  15.614  0.00  0.00     0.210 HD
+ENDBRANCH  37  42
+BRANCH  38  44
+ATOM     44  O2B AHR d           9.084 113.768  14.113  0.00  0.00    -0.388 OA
+ATOM     45  H33 AHR d           8.485 113.138  13.729  0.00  0.00     0.210 HD
+ENDBRANCH  38  44
+BRANCH  39  46
+ATOM     46  O4A AHR d           8.918 112.919  11.480  0.00  0.00    -0.369 OA
+ATOM     47  H26 AHR d           8.207 112.761  12.090  0.00  0.00     0.212 HD
+ENDBRANCH  39  46
+ENDBRANCH  35  36
+ENDBRANCH  28  35
+ENDBRANCH   1  25
+TORSDOF 17

@@ -1,0 +1,56 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P1_1  and  C7_5 
+REMARK    2  A    between atoms: C7_5  and  P8_6 
+REMARK    3  A    between atoms: C7_5  and  O14_10 
+REMARK    4  A    between atoms: C7_5  and  C16_11 
+REMARK    5  A    between atoms: C16_11  and  C19_12 
+REMARK    6  A    between atoms: C19_12  and  N22_13 
+REMARK    7  A    between atoms: N22_13  and  C23_14 
+REMARK    8  A    between atoms: C23_14  and  C26_15 
+REMARK    9  A    between atoms: C26_15  and  C29_16 
+REMARK   10  A    between atoms: C29_16  and  C32_17 
+ROOT
+ATOM      1  C7  BFQ d          15.246  77.284  25.504  0.00  0.00     0.286 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  P1  BFQ d          15.492  75.729  24.586  0.00  0.00     0.310 P 
+ATOM      3  O2  BFQ d          16.877  75.601  24.048  0.00  0.00    -0.637 OA
+ATOM      4  O3  BFQ d          15.181  74.555  25.579  0.00  0.00    -0.637 OA
+ATOM      5  O5  BFQ d          14.375  75.669  23.460  0.00  0.00    -0.637 OA
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  P8  BFQ d          16.515  77.395  26.823  0.00  0.00     0.310 P 
+ATOM      7  O9  BFQ d          17.920  77.327  26.352  0.00  0.00    -0.637 OA
+ATOM      8  O10 BFQ d          16.153  78.736  27.604  0.00  0.00    -0.637 OA
+ATOM      9  O12 BFQ d          16.166  76.203  27.818  0.00  0.00    -0.637 OA
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  O14 BFQ d          13.952  77.286  26.105  0.00  0.00    -0.365 OA
+ATOM     11  H1  BFQ d          13.881  76.551  26.703  0.00  0.00     0.212 HD
+ENDBRANCH   1  10
+BRANCH   1  12
+ATOM     12  C16 BFQ d          15.380  78.504  24.538  0.00  0.00     0.096 C 
+BRANCH  12  13
+ATOM     13  C19 BFQ d          14.131  79.474  24.599  0.00  0.00     0.238 C 
+BRANCH  13  14
+ATOM     14  N22 BFQ d          14.182  80.568  25.615  0.00  0.00    -0.075 N 
+ATOM     15  C39 BFQ d          13.663  80.156  26.925  0.00  0.00     0.269 C 
+ATOM     16  H6  BFQ d          13.551  81.278  25.276  0.00  0.00     0.279 HD
+BRANCH  14  17
+ATOM     17  C23 BFQ d          15.494  81.228  25.741  0.00  0.00     0.234 C 
+BRANCH  17  18
+ATOM     18  C26 BFQ d          15.486  82.684  25.218  0.00  0.00     0.028 C 
+BRANCH  18  19
+ATOM     19  C29 BFQ d          16.728  82.806  24.304  0.00  0.00     0.001 C 
+BRANCH  19  20
+ATOM     20  C32 BFQ d          17.097  84.252  23.978  0.00  0.00    -0.005 C 
+ATOM     21  C35 BFQ d          18.210  84.231  22.898  0.00  0.00     0.005 C 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 10

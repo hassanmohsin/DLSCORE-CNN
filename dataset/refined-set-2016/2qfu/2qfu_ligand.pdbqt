@@ -1,0 +1,29 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_7  and  P1_1 
+REMARK    2  A    between atoms: N1_10  and  C1_7 
+REMARK    3  A    between atoms: C2_8  and  C3_9 
+REMARK    4  A    between atoms: C2_8  and  N1_10 
+ROOT
+ATOM      1  N1  GPJ d          60.234   8.481  29.520  0.00  0.00    -0.053 N 
+ATOM      2  H5  GPJ d          59.795   9.388  29.514  0.00  0.00     0.278 HD
+ATOM      3  H6  GPJ d          61.234   8.591  29.461  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  GPJ d          59.810   7.795  28.320  0.00  0.00     0.377 C 
+BRANCH   4   5
+ATOM      5  P1  GPJ d          60.245   8.674  26.903  0.00  0.00     0.285 P 
+ATOM      6  O1  GPJ d          60.305  10.108  27.245  0.00  0.00    -0.638 OA
+ATOM      7  O2  GPJ d          59.171   8.300  25.952  0.00  0.00    -0.638 OA
+ATOM      8  O3  GPJ d          61.601   8.178  26.435  0.00  0.00    -0.638 OA
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1   9
+ATOM      9  C2  GPJ d          59.943   7.869  30.818  0.00  0.00     0.345 C 
+BRANCH   9  10
+ATOM     10  C3  GPJ d          60.442   8.715  31.929  0.00  0.00     0.199 C 
+ATOM     11  O4  GPJ d          60.986   9.831  31.648  0.00  0.00    -0.647 OA
+ATOM     12  O5  GPJ d          60.289   8.283  33.065  0.00  0.00    -0.647 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4

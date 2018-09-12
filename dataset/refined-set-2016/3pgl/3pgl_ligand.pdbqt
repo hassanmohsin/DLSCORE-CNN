@@ -1,0 +1,59 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_8  and  S10_10 
+REMARK    2  A    between atoms: S10_10  and  C11_11 
+REMARK    3  A    between atoms: S10_10  and  O18_18 
+REMARK    4  A    between atoms: C11_11  and  C12_12 
+REMARK    5  A    between atoms: C16_16  and  O19_19 
+REMARK    6  A    between atoms: O19_19  and  C20_20 
+REMARK    7  A    between atoms: C20_20  and  C21_21 
+REMARK    8  A    between atoms: C21_21  and  C22_22 
+REMARK    9  A    between atoms: C22_22  and  O23_23 
+ROOT
+ATOM      1  C11 RZX d           0.720  10.440  -8.327  0.00  0.00     0.159 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  S10 RZX d           1.652  11.846  -7.961  0.00  0.00    -0.016 S 
+BRANCH   2   3
+ATOM      3  C8  RZX d           2.510  12.009  -6.499  0.00  0.00     0.182 A 
+ATOM      4  N7  RZX d           3.415  13.005  -6.362  0.00  0.00    -0.221 NA
+ATOM      5  C3  RZX d           3.877  12.874  -5.101  0.00  0.00     0.086 A 
+ATOM      6  C2  RZX d           3.165  11.725  -4.486  0.00  0.00     0.063 A 
+ATOM      7  C4  RZX d           4.820  13.561  -4.351  0.00  0.00     0.034 A 
+ATOM      8  C1  RZX d           3.451  11.372  -3.179  0.00  0.00     0.032 A 
+ATOM      9  N9  RZX d           2.316  11.231  -5.417  0.00  0.00    -0.332 N 
+ATOM     10  C6  RZX d           4.404  12.103  -2.475  0.00  0.00     0.002 A 
+ATOM     11  C5  RZX d           5.084  13.173  -3.041  0.00  0.00     0.002 A 
+ATOM     12  H5  RZX d           1.667  10.437  -5.320  0.00  0.00     0.168 HD
+ENDBRANCH   2   3
+BRANCH   2  13
+ATOM     13  O18 RZX d           0.601  12.933  -7.994  0.00  0.00    -0.333 OA
+ATOM     14  H10 RZX d           1.007  13.770  -7.803  0.00  0.00     0.227 HD
+ENDBRANCH   2  13
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C12 RZX d           0.520   9.266  -7.391  0.00  0.00     0.053 A 
+ATOM     16  N13 RZX d           0.580   8.095  -8.041  0.00  0.00    -0.264 NA
+ATOM     17  C14 RZX d           0.432   6.923  -7.413  0.00  0.00     0.119 A 
+ATOM     18  C15 RZX d           0.171   6.850  -6.049  0.00  0.00     0.056 A 
+ATOM     19  C16 RZX d           0.073   8.037  -5.330  0.00  0.00     0.078 A 
+ATOM     20  C17 RZX d           0.243   9.271  -5.999  0.00  0.00    -0.003 A 
+ATOM     21  C25 RZX d           0.134  10.544  -5.178  0.00  0.00     0.053 C 
+BRANCH  19  22
+ATOM     22  O19 RZX d          -0.185   7.965  -3.969  0.00  0.00    -0.350 OA
+BRANCH  22  23
+ATOM     23  C20 RZX d          -1.422   7.443  -3.469  0.00  0.00     0.178 C 
+BRANCH  23  24
+ATOM     24  C21 RZX d          -2.426   8.589  -3.436  0.00  0.00     0.053 C 
+BRANCH  24  25
+ATOM     25  C22 RZX d          -3.795   8.142  -2.957  0.00  0.00     0.169 C 
+BRANCH  25  26
+ATOM     26  O23 RZX d          -4.743   8.920  -3.698  0.00  0.00    -0.396 OA
+ATOM     27  C24 RZX d          -5.849   8.142  -4.163  0.00  0.00     0.201 C 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH   1  15
+TORSDOF 9

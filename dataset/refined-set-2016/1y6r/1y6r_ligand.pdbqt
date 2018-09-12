@@ -1,0 +1,50 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_3  and  S5_2 
+REMARK    2  A    between atoms: C4_4  and  C5_3 
+REMARK    3  A    between atoms: C2_6  and  O2_7 
+REMARK    4  A    between atoms: C3_8  and  O3_9 
+REMARK    5  A    between atoms: C1_10  and  C9_11 
+REMARK    6  A    between atoms: C6_15  and  N6_16 
+ROOT
+ATOM      1  C4  MTM d          57.735  71.884  22.016  0.00  0.00     0.227 C 
+ATOM      2  N4  MTM d          58.259  72.449  20.768  0.00  0.00    -0.057 N 
+ATOM      3  C2  MTM d          57.641  74.271  22.126  0.00  0.00     0.184 C 
+ATOM      4  C3  MTM d          57.838  72.988  23.055  0.00  0.00     0.180 C 
+ATOM      5  C1  MTM d          57.936  73.866  20.633  0.00  0.00     0.254 C 
+ATOM      6  H7  MTM d          57.858  71.948  19.990  0.00  0.00     0.278 HD
+ATOM      7  H8  MTM d          59.261  72.341  20.757  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   5   8
+ATOM      8  C9  MTM d          56.768  73.984  19.662  0.00  0.00     0.021 A 
+ATOM      9  C8  MTM d          56.823  73.736  18.289  0.00  0.00     0.100 A 
+ATOM     10  N7  MTM d          55.652  73.903  17.648  0.00  0.00    -0.360 N 
+ATOM     11  C5  MTM d          54.779  74.274  18.631  0.00  0.00     0.107 A 
+ATOM     12  H15 MTM d          55.458  73.779  16.644  0.00  0.00     0.165 HD
+ATOM     13  C6  MTM d          53.384  74.595  18.645  0.00  0.00     0.151 A 
+ATOM     14  C4  MTM d          55.434  74.338  19.878  0.00  0.00     0.098 A 
+ATOM     15  N1  MTM d          52.825  74.936  19.868  0.00  0.00    -0.223 NA
+ATOM     16  C2  MTM d          53.574  74.960  20.994  0.00  0.00     0.236 A 
+ATOM     17  N3  MTM d          54.891  74.674  21.096  0.00  0.00    -0.239 NA
+BRANCH  13  18
+ATOM     18  N6  MTM d          52.623  74.570  17.543  0.00  0.00    -0.382 N 
+ATOM     19  H16 MTM d          51.623  74.809  17.602  0.00  0.00     0.157 HD
+ATOM     20  H17 MTM d          53.038  74.312  16.636  0.00  0.00     0.157 HD
+ENDBRANCH  13  18
+ENDBRANCH   5   8
+BRANCH   3  21
+ATOM     21  O2  MTM d          58.520  75.356  22.547  0.00  0.00    -0.390 OA
+ATOM     22  H10 MTM d          59.424  75.071  22.488  0.00  0.00     0.210 HD
+ENDBRANCH   3  21
+BRANCH   1  23
+ATOM     23  C5  MTM d          56.314  71.403  21.723  0.00  0.00     0.109 C 
+BRANCH  23  24
+ATOM     24  S5  MTM d          55.529  70.475  23.053  0.00  0.00    -0.171 SA
+ATOM     25  CS  MTM d          56.186  68.813  22.684  0.00  0.00     0.089 C 
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH   4  26
+ATOM     26  O3  MTM d          59.185  72.979  23.672  0.00  0.00    -0.391 OA
+ATOM     27  H12 MTM d          59.294  73.759  24.203  0.00  0.00     0.210 HD
+ENDBRANCH   4  26
+TORSDOF 6

@@ -1,0 +1,49 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  P2_18 
+REMARK    2  A    between atoms: C_1  and  N2_2 
+REMARK    3  A    between atoms: C3_6  and  O1_7 
+REMARK    4  A    between atoms: C4A_9  and  C4_8 
+REMARK    5  A    between atoms: C5_10  and  C5A_12 
+REMARK    6  A    between atoms: C5A_12  and  O2_13 
+REMARK    7  A    between atoms: O2_13  and  P1_14 
+ROOT
+ATOM      1  N1  EPC d          17.162  52.567  13.629  0.00  0.00    -0.262 NA
+ATOM      2  C2  EPC d          16.037  52.877  14.457  0.00  0.00     0.064 A 
+ATOM      3  C2A EPC d          14.941  53.831  13.943  0.00  0.00     0.073 C 
+ATOM      4  C3  EPC d          15.966  52.342  15.751  0.00  0.00     0.102 A 
+ATOM      5  C4  EPC d          17.093  51.447  16.278  0.00  0.00     0.026 A 
+ATOM      6  C5  EPC d          18.203  51.180  15.423  0.00  0.00    -0.002 A 
+ATOM      7  C6  EPC d          18.188  51.782  14.029  0.00  0.00     0.127 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  C4A EPC d          17.010  50.930  17.703  0.00  0.00     0.126 C 
+ATOM      9  N2  EPC d          16.009  51.247  18.428  0.00  0.00    -0.282 NA
+BRANCH   9  10
+ATOM     10  C   EPC d          15.865  51.049  19.831  0.00  0.00     0.233 C 
+ATOM     11  CA  EPC d          16.614  49.734  20.346  0.00  0.00     0.049 C 
+BRANCH  10  12
+ATOM     12  P2  EPC d          14.254  51.087  20.292  0.00  0.00     0.284 P 
+ATOM     13  O6  EPC d          14.140  51.074  21.894  0.00  0.00    -0.638 OA
+ATOM     14  O8  EPC d          13.640  49.754  19.851  0.00  0.00    -0.638 OA
+ATOM     15  O7  EPC d          13.550  52.343  19.651  0.00  0.00    -0.638 OA
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   5   8
+BRANCH   6  16
+ATOM     16  C5A EPC d          19.404  50.341  15.868  0.00  0.00     0.223 C 
+BRANCH  16  17
+ATOM     17  O2  EPC d          18.932  49.027  16.037  0.00  0.00    -0.278 OA
+BRANCH  17  18
+ATOM     18  P1  EPC d          20.016  48.093  16.640  0.00  0.00     0.422 P 
+ATOM     19  O5  EPC d          20.474  48.793  17.926  0.00  0.00    -0.617 OA
+ATOM     20  O4  EPC d          21.257  47.976  15.824  0.00  0.00    -0.617 OA
+ATOM     21  O3  EPC d          19.391  46.717  16.853  0.00  0.00    -0.617 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   6  16
+BRANCH   4  22
+ATOM     22  O1  EPC d          14.876  52.663  16.559  0.00  0.00    -0.358 OA
+ATOM     23  H5  EPC d          15.181  53.120  17.334  0.00  0.00     0.217 HD
+ENDBRANCH   4  22
+TORSDOF 7

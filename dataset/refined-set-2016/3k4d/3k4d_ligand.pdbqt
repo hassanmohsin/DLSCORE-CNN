@@ -1,0 +1,34 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_4 
+REMARK    2  A    between atoms: CB_5  and  OG_7 
+REMARK    3  A    between atoms: CG_6  and  OD2_12 
+REMARK    4  A    between atoms: CD1_11  and  OAJ_9 
+ROOT
+ATOM      1  N   EVA d         -23.417 -26.487  -0.839  0.00  0.00    -0.342 N 
+ATOM      2  CA  EVA d         -22.404 -27.260  -0.129  0.00  0.00     0.217 C 
+ATOM      3  CB  EVA d         -23.080 -28.215   0.828  0.00  0.00     0.183 C 
+ATOM      4  CG  EVA d         -24.061 -27.445   1.712  0.00  0.00     0.187 C 
+ATOM      5  CAE EVA d         -24.668 -26.248  -0.395  0.00  0.00     0.249 C 
+ATOM      6  OAK EVA d         -25.368 -25.494  -1.042  0.00  0.00    -0.271 OA
+ATOM      7  CD1 EVA d         -25.199 -26.890   0.884  0.00  0.00     0.241 C 
+ATOM      8  H1  EVA d         -23.163 -26.103  -1.727  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   2   9
+ATOM      9  C   EVA d         -21.521 -27.966  -1.148  0.00  0.00     0.199 C 
+ATOM     10  O   EVA d         -22.050 -28.743  -1.902  0.00  0.00    -0.646 OA
+ATOM     11  OXT EVA d         -20.322 -27.747  -1.161  0.00  0.00    -0.646 OA
+ENDBRANCH   2   9
+BRANCH   3  12
+ATOM     12  OG  EVA d         -22.097 -28.804   1.668  0.00  0.00    -0.390 OA
+ATOM     13  H5  EVA d         -22.519 -29.395   2.281  0.00  0.00     0.210 HD
+ENDBRANCH   3  12
+BRANCH   4  14
+ATOM     14  OD2 EVA d         -24.642 -28.388   2.597  0.00  0.00    -0.390 OA
+ATOM     15  H8  EVA d         -23.964 -28.768   3.143  0.00  0.00     0.210 HD
+ENDBRANCH   4  14
+BRANCH   7  16
+ATOM     16  OAJ EVA d         -25.880 -25.918   1.665  0.00  0.00    -0.383 OA
+ATOM     17  H6  EVA d         -26.607 -25.565   1.166  0.00  0.00     0.210 HD
+ENDBRANCH   7  16
+TORSDOF 4

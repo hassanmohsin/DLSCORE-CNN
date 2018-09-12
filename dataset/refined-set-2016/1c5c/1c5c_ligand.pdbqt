@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_11 
+REMARK    2  A    between atoms: C2_2  and  N2_15 
+REMARK    3  A    between atoms: C5_5  and  S5_19 
+REMARK       I    between atoms: N2_15  and  C21_16 
+ROOT
+ATOM      1  C1  TK4 d          20.245  15.187 158.029  0.00  0.00     0.118 A 
+ATOM      2  C2  TK4 d          20.626  15.307 159.358  0.00  0.00     0.060 A 
+ATOM      3  C3  TK4 d          21.926  15.851 159.680  0.00  0.00     0.032 A 
+ATOM      4  C4  TK4 d          22.773  16.244 158.659  0.00  0.00     0.016 A 
+ATOM      5  C5  TK4 d          23.224  16.514 156.182  0.00  0.00     0.091 A 
+ATOM      6  C6  TK4 d          22.828  16.387 154.861  0.00  0.00     0.027 A 
+ATOM      7  C7  TK4 d          21.543  15.849 154.556  0.00  0.00     0.003 A 
+ATOM      8  C8  TK4 d          20.686  15.452 155.571  0.00  0.00     0.014 A 
+ATOM      9  C9  TK4 d          21.111  15.589 156.951  0.00  0.00     0.002 A 
+ATOM     10  C10 TK4 d          22.385  16.122 157.283  0.00  0.00     0.000 A 
+ENDROOT
+BRANCH   2  11
+ATOM     11  N2  TK4 d          19.716  14.886 160.413  0.00  0.00    -0.326 N 
+ATOM     12  C21 TK4 d          20.145  14.410 161.683  0.00  0.00     0.218 C 
+ATOM     13  C22 TK4 d          19.079  13.867 162.607  0.00  0.00     0.117 C 
+ATOM     14  O2  TK4 d          21.325  14.420 162.014  0.00  0.00    -0.274 OA
+ATOM     15  H6  TK4 d          18.733  14.934 160.235  0.00  0.00     0.169 HD
+ENDBRANCH   2  11
+BRANCH   1  16
+ATOM     16  S1  TK4 d          18.607  14.504 157.533  0.00  0.00     0.141 S 
+ATOM     17  O13 TK4 d          18.941  13.180 156.947  0.00  0.00    -0.591 OA
+ATOM     18  O12 TK4 d          17.830  15.439 156.702  0.00  0.00    -0.591 OA
+ATOM     19  O11 TK4 d          17.837  14.239 158.835  0.00  0.00    -0.591 OA
+ENDBRANCH   1  16
+BRANCH   5  20
+ATOM     20  S5  TK4 d          24.862  17.199 156.578  0.00  0.00     0.138 S 
+ATOM     21  O53 TK4 d          25.563  16.114 157.315  0.00  0.00    -0.591 OA
+ATOM     22  O52 TK4 d          24.739  18.460 157.368  0.00  0.00    -0.591 OA
+ATOM     23  O51 TK4 d          25.541  17.474 155.269  0.00  0.00    -0.591 OA
+ENDBRANCH   5  20
+TORSDOF 3

@@ -1,0 +1,77 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_6  and  P1_2 
+REMARK    2  A    between atoms: C10_8  and  C9_6 
+REMARK    3  A    between atoms: C9_6  and  C4_24 
+REMARK    4  A    between atoms: C11_16  and  C10_8 
+REMARK    5  A    between atoms: C19_20  and  C12_17 
+REMARK       I    between atoms: N1_31  and  C19_20 
+REMARK    6  A    between atoms: C21_37  and  N1_31 
+REMARK       I    between atoms: C26_39  and  N2_34 
+REMARK    7  A    between atoms: C27_42  and  C26_39 
+ROOT
+ATOM      1  C17 OHH d           2.364  40.176  21.008  0.00  0.00     0.012 A 
+ATOM      2  C16 OHH d           3.820  40.185  21.124  0.00  0.00     0.001 A 
+ATOM      3  C15 OHH d           4.496  39.812  22.401  0.00  0.00     0.001 A 
+ATOM      4  C14 OHH d           3.735  39.429  23.577  0.00  0.00     0.012 A 
+ATOM      5  C4B OHH d           2.256  39.404  23.515  0.00  0.00    -0.025 A 
+ATOM      6  C8B OHH d           1.537  39.792  22.173  0.00  0.00    -0.025 A 
+ATOM      7  C18 OHH d           0.090  39.769  22.124  0.00  0.00     0.028 A 
+ATOM      8  C11 OHH d          -0.750  39.400  23.290  0.00  0.00     0.028 A 
+ATOM      9  C12 OHH d           0.022  39.020  24.609  0.00  0.00     0.046 A 
+ATOM     10  C13 OHH d           1.449  39.036  24.664  0.00  0.00     0.030 A 
+ENDROOT
+BRANCH   9  11
+ATOM     11  C19 OHH d          -0.696  38.602  25.918  0.00  0.00     0.254 C 
+ATOM     12  O5  OHH d          -0.776  39.455  26.787  0.00  0.00    -0.267 OA
+ATOM     13  N1  OHH d          -1.221  37.242  26.007  0.00  0.00    -0.347 N 
+ATOM     14  C20 OHH d          -1.919  36.900  27.300  0.00  0.00     0.153 C 
+BRANCH  13  15
+ATOM     15  C21 OHH d          -1.110  36.231  24.927  0.00  0.00     0.090 C 
+ATOM     16  C22 OHH d          -2.479  35.960  24.250  0.00  0.00     0.045 C 
+ATOM     17  C23 OHH d          -2.230  34.957  23.119  0.00  0.00     0.128 C 
+ATOM     18  N2  OHH d          -1.675  33.669  23.610  0.00  0.00    -0.348 N 
+ATOM     19  C24 OHH d          -0.307  33.818  24.273  0.00  0.00     0.128 C 
+ATOM     20  C26 OHH d          -2.291  32.356  23.511  0.00  0.00     0.253 C 
+ATOM     21  C25 OHH d          -0.405  34.871  25.430  0.00  0.00     0.045 C 
+ATOM     22  O6  OHH d          -1.764  31.335  23.932  0.00  0.00    -0.267 OA
+BRANCH  20  23
+ATOM     23  C27 OHH d          -3.694  32.236  22.838  0.00  0.00     0.033 A 
+ATOM     24  C28 OHH d          -3.867  31.449  21.561  0.00  0.00     0.018 A 
+ATOM     25  C29 OHH d          -5.145  31.317  20.901  0.00  0.00     0.013 A 
+ATOM     26  C4C OHH d          -6.357  31.962  21.462  0.00  0.00    -0.026 A 
+ATOM     27  C8C OHH d          -6.219  32.790  22.790  0.00  0.00    -0.025 A 
+ATOM     28  C30 OHH d          -7.703  31.869  20.828  0.00  0.00     0.012 A 
+ATOM     29  C34 OHH d          -4.905  32.885  23.409  0.00  0.00     0.029 A 
+ATOM     30  C33 OHH d          -7.432  33.443  23.361  0.00  0.00     0.012 A 
+ATOM     31  C32 OHH d          -8.727  33.319  22.698  0.00  0.00     0.001 A 
+ATOM     32  C31 OHH d          -8.858  32.536  21.437  0.00  0.00     0.001 A 
+ENDBRANCH  20  23
+ENDBRANCH  13  15
+ENDBRANCH   9  11
+BRANCH   8  33
+ATOM     33  C10 OHH d          -2.352  39.374  23.275  0.00  0.00     0.182 C 
+ATOM     34  O4  OHH d          -2.956  39.116  24.272  0.00  0.00    -0.291 OA
+BRANCH  33  35
+ATOM     35  C9  OHH d          -2.932  39.521  21.855  0.00  0.00     0.224 C 
+BRANCH  35  36
+ATOM     36  P1  OHH d          -3.313  41.169  21.441  0.00  0.00     0.276 P 
+ATOM     37  O1  OHH d          -2.086  41.946  21.195  0.00  0.00    -0.639 OA
+ATOM     38  O3  OHH d          -4.289  41.087  20.273  0.00  0.00    -0.639 OA
+ATOM     39  O2  OHH d          -4.350  41.723  22.423  0.00  0.00    -0.639 OA
+ENDBRANCH  35  36
+BRANCH  35  40
+ATOM     40  C4  OHH d          -4.146  38.561  21.790  0.00  0.00    -0.022 A 
+ATOM     41  C3  OHH d          -5.453  38.728  22.462  0.00  0.00     0.009 A 
+ATOM     42  C2  OHH d          -6.557  37.801  22.372  0.00  0.00     0.002 A 
+ATOM     43  C1  OHH d          -6.419  36.612  21.579  0.00  0.00     0.012 A 
+ATOM     44  C8A OHH d          -5.174  36.310  20.853  0.00  0.00    -0.025 A 
+ATOM     45  C4A OHH d          -3.960  37.309  20.943  0.00  0.00    -0.018 A 
+ATOM     46  C8  OHH d          -5.055  35.074  20.038  0.00  0.00     0.012 A 
+ATOM     47  C5  OHH d          -2.735  36.905  20.170  0.00  0.00     0.013 A 
+ATOM     48  C6  OHH d          -2.672  35.670  19.385  0.00  0.00     0.001 A 
+ATOM     49  C7  OHH d          -3.845  34.760  19.326  0.00  0.00     0.001 A 
+ENDBRANCH  35  40
+ENDBRANCH  33  35
+ENDBRANCH   8  33
+TORSDOF 7

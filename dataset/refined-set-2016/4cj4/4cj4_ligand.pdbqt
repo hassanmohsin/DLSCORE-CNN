@@ -1,0 +1,59 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_12  and  C7_7 
+REMARK    2  A    between atoms: C8_8  and  C13_13 
+REMARK    3  A    between atoms: C17_17  and  C9_9 
+REMARK       I    between atoms: N23_23  and  C12_12 
+REMARK    4  A    between atoms: C21_21  and  C17_17 
+REMARK    5  A    between atoms: C18_18  and  C20_20 
+REMARK    6  A    between atoms: C21_21  and  C18_18 
+REMARK    7  A    between atoms: C19_19  and  C21_21 
+REMARK    8  A    between atoms: C19_19  and  N23_23 
+ROOT
+ATOM      1  C21 S3G d          -9.231  45.187   0.160  0.00  0.00     0.008 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C17 S3G d         -10.574  44.614   0.535  0.00  0.00     0.046 C 
+BRANCH   2   3
+ATOM      3  C9  S3G d         -11.608  44.682  -0.543  0.00  0.00    -0.038 A 
+ATOM      4  C1  S3G d         -11.258  44.217  -1.804  0.00  0.00     0.011 A 
+ATOM      5  C2  S3G d         -12.151  44.218  -2.854  0.00  0.00     0.040 A 
+ATOM      6  C10 S3G d         -13.408  44.694  -2.598  0.00  0.00     0.106 A 
+ATOM      7  C11 S3G d         -13.760  45.149  -1.364  0.00  0.00     0.122 A 
+ATOM      8  O27 S3G d         -14.431  44.768  -3.494  0.00  0.00    -0.323 OA
+ATOM      9  C8  S3G d         -12.889  45.158  -0.301  0.00  0.00     0.083 A 
+ATOM     10  O28 S3G d         -15.059  45.568  -1.331  0.00  0.00    -0.322 OA
+ATOM     11  C14 S3G d         -15.502  45.045  -2.590  0.00  0.00     0.352 C 
+BRANCH   9  12
+ATOM     12  C13 S3G d         -13.380  45.678   1.010  0.00  0.00     0.212 C 
+ATOM     13  O24 S3G d         -14.482  45.235   1.436  0.00  0.00    -0.644 OA
+ATOM     14  O26 S3G d         -12.675  46.554   1.589  0.00  0.00    -0.644 OA
+ENDBRANCH   9  12
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C18 S3G d          -8.218  44.877   1.251  0.00  0.00     0.010 C 
+BRANCH  15  16
+ATOM     16  C20 S3G d          -7.933  43.392   1.480  0.00  0.00    -0.022 C 
+ATOM     17  C15 S3G d          -7.457  42.685   0.226  0.00  0.00     0.009 C 
+ATOM     18  C16 S3G d          -6.880  43.272   2.569  0.00  0.00     0.009 C 
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+BRANCH   1  19
+ATOM     19  C19 S3G d          -9.355  46.688  -0.021  0.00  0.00     0.128 C 
+BRANCH  19  20
+ATOM     20  N23 S3G d          -9.921  47.332   1.140  0.00  0.00    -0.356 N 
+ATOM     21  C12 S3G d          -9.167  48.203   1.893  0.00  0.00     0.251 C 
+ATOM     22  O25 S3G d          -8.065  48.655   1.619  0.00  0.00    -0.268 OA
+ATOM     23  H   S3G d         -10.868  47.144   1.399  0.00  0.00     0.162 HD
+BRANCH  21  24
+ATOM     24  C7  S3G d          -9.812  48.596   3.145  0.00  0.00     0.034 A 
+ATOM     25  C3  S3G d         -10.867  49.476   3.129  0.00  0.00     0.036 A 
+ATOM     26  C5  S3G d         -11.434  49.809   4.340  0.00  0.00     0.117 A 
+ATOM     27  N22 S3G d         -11.031  49.336   5.525  0.00  0.00    -0.273 NA
+ATOM     28  C6  S3G d         -10.000  48.485   5.487  0.00  0.00     0.117 A 
+ATOM     29  C4  S3G d          -9.359  48.084   4.337  0.00  0.00     0.036 A 
+ENDBRANCH  21  24
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+TORSDOF 8

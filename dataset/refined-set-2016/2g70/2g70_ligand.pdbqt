@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C22_10 
+REMARK    2  A    between atoms: C6_6  and  N1_12 
+REMARK    3  A    between atoms: C22_10  and  O22_9 
+ROOT
+ATOM      1  C1  HNT d          28.136  45.605  18.304  0.00  0.00     0.074 C 
+ATOM      2  C2  HNT d          27.778  44.818  19.566  0.00  0.00     0.213 C 
+ATOM      3  C4  HNT d          27.630  42.639  18.479  0.00  0.00     0.272 C 
+ATOM      4  C5  HNT d          27.077  42.713  16.032  0.00  0.00     0.045 A 
+ATOM      5  C6  HNT d          26.906  43.366  14.817  0.00  0.00     0.103 A 
+ATOM      6  C7  HNT d          27.130  44.738  14.743  0.00  0.00     0.037 A 
+ATOM      7  C8  HNT d          27.527  45.444  15.875  0.00  0.00     0.010 A 
+ATOM      8  C8A HNT d          27.700  44.786  17.087  0.00  0.00    -0.048 A 
+ATOM      9  C4A HNT d          27.473  43.415  17.169  0.00  0.00    -0.024 A 
+ATOM     10  N41 HNT d          28.327  43.455  19.488  0.00  0.00    -0.065 N 
+ATOM     11  H12 HNT d          28.230  43.013  20.389  0.00  0.00     0.278 HD
+ATOM     12  H13 HNT d          29.303  43.510  19.244  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   2  13
+ATOM     13  C22 HNT d          28.266  45.554  20.816  0.00  0.00     0.197 C 
+BRANCH  13  14
+ATOM     14  O22 HNT d          27.607  45.023  21.968  0.00  0.00    -0.399 OA
+ATOM     15  H9  HNT d          27.910  45.480  22.744  0.00  0.00     0.209 HD
+ENDBRANCH  13  14
+ENDBRANCH   2  13
+BRANCH   5  16
+ATOM     16  N1  HNT d          26.591  42.680  13.718  0.00  0.00    -0.116 N 
+ATOM     17  O2  HNT d          26.351  41.281  13.781  0.00  0.00    -0.532 OA
+ATOM     18  O3  HNT d          26.488  43.342  12.465  0.00  0.00    -0.532 OA
+ENDBRANCH   5  16
+TORSDOF 3

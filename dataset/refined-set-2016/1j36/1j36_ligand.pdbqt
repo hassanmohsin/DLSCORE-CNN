@@ -1,0 +1,79 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_6  and  C4_12 
+REMARK    2  A    between atoms: C2_10  and  N1_6 
+REMARK       I    between atoms: C1_9  and  N2_7 
+REMARK    3  A    between atoms: C13_21  and  N3_8 
+REMARK    4  A    between atoms: C1_9  and  C2_10 
+REMARK    5  A    between atoms: C2_10  and  C10_18 
+REMARK    6  A    between atoms: C4_12  and  C3_11 
+REMARK    7  A    between atoms: C4_12  and  C14_22 
+REMARK    8  A    between atoms: C5_13  and  C9_17 
+REMARK    9  A    between atoms: C10_18  and  C11_19 
+REMARK   10  A    between atoms: C11_19  and  C12_20 
+REMARK   11  A    between atoms: C12_20  and  C13_21 
+REMARK   12  A    between atoms: C14_22  and  C15_23 
+REMARK   13  A    between atoms: C15_23  and  C16_24 
+ROOT
+ATOM      1  C2  LPR d          11.794  -5.246  16.929  0.00  0.00     0.278 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1  LPR d          12.527  -3.966  17.449  0.00  0.00     0.252 C 
+ATOM      3  O1  LPR d          12.577  -2.938  16.702  0.00  0.00    -0.271 OA
+ATOM      4  N2  LPR d          13.110  -3.942  18.665  0.00  0.00    -0.329 N 
+ATOM      5  C8  LPR d          13.162  -5.023  19.683  0.00  0.00     0.154 A 
+ATOM      6  C5  LPR d          13.831  -2.707  19.149  0.00  0.00     0.211 A 
+ATOM      7  C7  LPR d          13.929  -4.416  20.792  0.00  0.00    -0.008 A 
+ATOM      8  C6  LPR d          14.325  -3.134  20.541  0.00  0.00     0.007 A 
+BRANCH   6   9
+ATOM      9  C9  LPR d          15.037  -2.335  18.276  0.00  0.00     0.200 C 
+ATOM     10  O5  LPR d          15.742  -3.148  17.775  0.00  0.00    -0.646 OA
+ATOM     11  O4  LPR d          15.135  -1.066  18.145  0.00  0.00    -0.646 OA
+ENDBRANCH   6   9
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C10 LPR d          12.775  -6.063  16.137  0.00  0.00     0.043 C 
+BRANCH  12  13
+ATOM     13  C11 LPR d          13.884  -6.720  16.810  0.00  0.00     0.004 C 
+BRANCH  13  14
+ATOM     14  C12 LPR d          15.355  -6.192  16.425  0.00  0.00     0.027 C 
+BRANCH  14  15
+ATOM     15  C13 LPR d          15.895  -6.873  15.281  0.00  0.00     0.229 C 
+BRANCH  15  16
+ATOM     16  N3  LPR d          17.349  -6.555  15.077  0.00  0.00    -0.079 N 
+ATOM     17  H3  LPR d          17.691  -7.050  14.268  0.00  0.00     0.274 HD
+ATOM     18  H4  LPR d          17.872  -6.839  15.890  0.00  0.00     0.274 HD
+ATOM     19  H5  LPR d          17.459  -5.563  14.936  0.00  0.00     0.274 HD
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+BRANCH   1  20
+ATOM     20  N1  LPR d          10.650  -4.736  16.092  0.00  0.00    -0.048 N 
+ATOM     21  H1  LPR d          11.067  -4.286  15.292  0.00  0.00     0.279 HD
+ATOM     22  H2  LPR d          10.139  -5.551  15.790  0.00  0.00     0.279 HD
+BRANCH  20  23
+ATOM     23  C4  LPR d           9.610  -3.759  16.635  0.00  0.00     0.287 C 
+BRANCH  23  24
+ATOM     24  C3  LPR d           8.960  -4.393  17.871  0.00  0.00     0.204 C 
+ATOM     25  O3  LPR d           8.472  -5.528  17.799  0.00  0.00    -0.646 OA
+ATOM     26  O2  LPR d           8.973  -3.727  18.943  0.00  0.00    -0.646 OA
+ENDBRANCH  23  24
+BRANCH  23  27
+ATOM     27  C14 LPR d           8.584  -3.440  15.497  0.00  0.00     0.049 C 
+BRANCH  27  28
+ATOM     28  C15 LPR d           7.497  -2.455  15.893  0.00  0.00     0.041 C 
+BRANCH  28  29
+ATOM     29  C16 LPR d           6.491  -2.112  14.829  0.00  0.00    -0.058 A 
+ATOM     30  C17 LPR d           6.527  -2.772  13.558  0.00  0.00     0.007 A 
+ATOM     31  C18 LPR d           5.569  -2.450  12.554  0.00  0.00     0.001 A 
+ATOM     32  C19 LPR d           4.570  -1.463  12.812  0.00  0.00     0.000 A 
+ATOM     33  C20 LPR d           4.534  -0.800  14.079  0.00  0.00     0.001 A 
+ATOM     34  C21 LPR d           5.491  -1.127  15.076  0.00  0.00     0.007 A 
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  23  27
+ENDBRANCH  20  23
+ENDBRANCH   1  20
+TORSDOF 13

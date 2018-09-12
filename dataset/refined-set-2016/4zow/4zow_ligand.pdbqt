@@ -1,0 +1,53 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK       I    between atoms: C2_4  and  N2_6 
+REMARK    2  A    between atoms: N2_6  and  C3_7 
+REMARK    3  A    between atoms: C3_7  and  C4_8 
+REMARK    4  A    between atoms: C3_7  and  C5_10 
+REMARK    5  A    between atoms: C4_8  and  O4_9 
+REMARK    6  A    between atoms: C5_10  and  O5_11 
+REMARK    7  A    between atoms: C5_10  and  C6_12 
+REMARK    8  A    between atoms: C9_15  and  N9_16 
+ROOT
+ATOM      1  C5  CLM d         -18.838  14.774  24.326  0.00  0.00     0.176 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  CLM d         -18.984  13.637  25.339  0.00  0.00     0.141 C 
+BRANCH   2   3
+ATOM      3  N2  CLM d         -18.784  12.338  24.719  0.00  0.00    -0.349 N 
+ATOM      4  C2  CLM d         -17.758  11.469  25.195  0.00  0.00     0.251 C 
+ATOM      5  O2  CLM d         -17.047  11.810  26.107  0.00  0.00    -0.271 OA
+ATOM      6  H2  CLM d         -19.366  12.053  23.958  0.00  0.00     0.163 HD
+BRANCH   4   7
+ATOM      7  C1  CLM d         -17.568  10.089  24.544  0.00  0.00     0.269 C 
+ATOM      8 CL1  CLM d         -18.610   9.919  23.136  0.00  0.00    -0.098 Cl
+ATOM      9 CL2  CLM d         -15.874   9.758  24.182  0.00  0.00    -0.098 Cl
+ENDBRANCH   4   7
+ENDBRANCH   2   3
+BRANCH   2  10
+ATOM     10  C4  CLM d         -20.348  13.653  25.908  0.00  0.00     0.192 C 
+BRANCH  10  11
+ATOM     11  O4  CLM d         -21.249  13.175  24.922  0.00  0.00    -0.399 OA
+ATOM     12  H6  CLM d         -21.208  13.738  24.158  0.00  0.00     0.209 HD
+ENDBRANCH  10  11
+ENDBRANCH   2  10
+ENDBRANCH   1   2
+BRANCH   1  13
+ATOM     13  O5  CLM d         -18.759  14.248  23.016  0.00  0.00    -0.389 OA
+ATOM     14  H8  CLM d         -19.550  13.758  22.825  0.00  0.00     0.210 HD
+ENDBRANCH   1  13
+BRANCH   1  15
+ATOM     15  C6  CLM d         -17.590  15.561  24.654  0.00  0.00    -0.028 A 
+ATOM     16  C7  CLM d         -16.635  15.785  23.699  0.00  0.00     0.012 A 
+ATOM     17  C8  CLM d         -15.481  16.519  24.027  0.00  0.00     0.037 A 
+ATOM     18  C9  CLM d         -15.309  17.031  25.362  0.00  0.00     0.102 A 
+ATOM     19  C10 CLM d         -16.271  16.800  26.319  0.00  0.00     0.037 A 
+ATOM     20  C11 CLM d         -17.410  16.075  25.995  0.00  0.00     0.012 A 
+BRANCH  18  21
+ATOM     21  N9  CLM d         -14.183  17.746  25.689  0.00  0.00    -0.116 N 
+ATOM     22  O9A CLM d         -13.892  17.988  26.996  0.00  0.00    -0.532 OA
+ATOM     23  O9B CLM d         -13.363  18.213  24.710  0.00  0.00    -0.532 OA
+ENDBRANCH  18  21
+ENDBRANCH   1  15
+TORSDOF 8

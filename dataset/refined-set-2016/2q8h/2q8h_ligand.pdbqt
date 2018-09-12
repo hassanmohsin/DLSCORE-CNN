@@ -1,0 +1,14 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C_2 
+ROOT
+ATOM      1  C1  TF4 d           0.564  38.787  -9.689  0.00  0.00     0.278 C 
+ATOM      2 CL1  TF4 d           0.051  37.506 -10.871  0.00  0.00    -0.097 Cl
+ATOM      3 CL2  TF4 d           0.483  40.539 -10.165  0.00  0.00    -0.097 Cl
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   TF4 d           1.986  38.480  -9.293  0.00  0.00     0.207 C 
+ATOM      5  O   TF4 d           2.826  39.389  -9.266  0.00  0.00    -0.646 OA
+ATOM      6  O2  TF4 d           2.295  37.319  -8.994  0.00  0.00    -0.646 OA
+ENDBRANCH   1   4
+TORSDOF 1

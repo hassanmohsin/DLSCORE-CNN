@@ -1,0 +1,63 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_3  and  S7_4 
+REMARK    2  A    between atoms: S7_4  and  N10_6 
+REMARK    3  A    between atoms: C6_12  and  N26_20 
+REMARK    4  A    between atoms: C1_13  and  S11_14 
+REMARK    5  A    between atoms: S11_14  and  C21_17 
+REMARK    6  A    between atoms: C21_17  and  C24_18 
+REMARK    7  A    between atoms: C24_18  and  O25_19 
+REMARK    8  A    between atoms: N26_20  and  C14_21 
+REMARK    9  A    between atoms: C14_21  and  C15_22 
+ROOT
+ATOM      1  F27 WWO d          21.321  -3.380   1.582  0.00  0.00    -0.202 F 
+ATOM      2  C5  WWO d          21.628  -2.781   2.731  0.00  0.00     0.170 A 
+ATOM      3  C4  WWO d          21.436  -3.530   3.928  0.00  0.00     0.161 A 
+ATOM      4  C3  WWO d          21.766  -2.879   5.140  0.00  0.00     0.182 A 
+ATOM      5  F12 WWO d          21.663  -3.412   6.370  0.00  0.00    -0.201 F 
+ATOM      6  C2  WWO d          22.267  -1.572   5.141  0.00  0.00     0.180 A 
+ATOM      7  F13 WWO d          22.558  -1.031   6.349  0.00  0.00    -0.201 F 
+ATOM      8  C6  WWO d          22.123  -1.454   2.706  0.00  0.00     0.094 A 
+ATOM      9  C1  WWO d          22.461  -0.860   3.932  0.00  0.00     0.130 A 
+ENDROOT
+BRANCH   8  10
+ATOM     10  N26 WWO d          22.245  -0.737   1.445  0.00  0.00    -0.382 N 
+ATOM     11  H8  WWO d          23.141  -0.426   1.042  0.00  0.00     0.160 HD
+BRANCH  10  12
+ATOM     12  C14 WWO d          20.955  -0.513   0.824  0.00  0.00     0.158 C 
+BRANCH  12  13
+ATOM     13  C15 WWO d          20.872  -0.378  -0.658  0.00  0.00    -0.041 A 
+ATOM     14  C20 WWO d          21.233  -1.430  -1.514  0.00  0.00     0.009 A 
+ATOM     15  C19 WWO d          21.107  -1.287  -2.916  0.00  0.00     0.001 A 
+ATOM     16  C18 WWO d          20.617  -0.078  -3.431  0.00  0.00     0.000 A 
+ATOM     17  C17 WWO d          20.261   0.983  -2.578  0.00  0.00     0.001 A 
+ATOM     18  C16 WWO d          20.395   0.836  -1.195  0.00  0.00     0.009 A 
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+BRANCH   9  19
+ATOM     19  S11 WWO d          23.016   0.865   3.994  0.00  0.00     0.182 S 
+ATOM     20  O22 WWO d          22.191   1.491   5.141  0.00  0.00    -0.222 OA
+ATOM     21  O23 WWO d          22.220   1.533   2.822  0.00  0.00    -0.222 OA
+BRANCH  19  22
+ATOM     22  C21 WWO d          24.728   1.415   3.901  0.00  0.00     0.172 C 
+BRANCH  22  23
+ATOM     23  C24 WWO d          24.764   2.707   3.068  0.00  0.00     0.179 C 
+BRANCH  23  24
+ATOM     24  O25 WWO d          26.038   2.884   2.520  0.00  0.00    -0.400 OA
+ATOM     25  H7  WWO d          26.677   2.944   3.220  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+ENDBRANCH   9  19
+BRANCH   3  26
+ATOM     26  S7  WWO d          20.767  -5.244   3.885  0.00  0.00     0.263 S 
+ATOM     27  O9  WWO d          21.644  -6.322   3.268  0.00  0.00    -0.201 OA
+ATOM     28  O8  WWO d          19.433  -5.405   3.194  0.00  0.00    -0.201 OA
+BRANCH  26  29
+ATOM     29  N10 WWO d          20.524  -5.702   5.596  0.00  0.00    -0.324 N 
+ATOM     30  H1  WWO d          20.162  -6.606   5.825  0.00  0.00     0.169 HD
+ATOM     31  H2  WWO d          20.750  -5.055   6.324  0.00  0.00     0.169 HD
+ENDBRANCH  26  29
+ENDBRANCH   3  26
+TORSDOF 9

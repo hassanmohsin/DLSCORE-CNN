@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  S1_7 
+REMARK    2  A    between atoms: C6_3  and  N3_15 
+REMARK    3  A    between atoms: C3_6  and  S2_11 
+REMARK    4  A    between atoms: S1_7  and  N1_8 
+REMARK    5  A    between atoms: S2_11  and  N2_12 
+ROOT
+ATOM      1  C2  I7B d          -5.001   1.888  14.428  0.00  0.00     0.054 A 
+ATOM      2  C1  I7B d          -4.688   2.868  13.469  0.00  0.00     0.107 A 
+ATOM      3  C6  I7B d          -4.986   4.233  13.689  0.00  0.00     0.051 A 
+ATOM      4  C5  I7B d          -5.603   4.596  14.895  0.00  0.00     0.056 A 
+ATOM      5  C4  I7B d          -5.928   3.629  15.870  0.00  0.00     0.059 A 
+ATOM      6  C3  I7B d          -5.621   2.263  15.631  0.00  0.00     0.102 A 
+ATOM      7 CL1  I7B d          -6.666   4.103  17.304  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   2   8
+ATOM      8  S1  I7B d          -3.926   2.354  11.965  0.00  0.00     0.259 S 
+ATOM      9  O2  I7B d          -3.922   0.930  11.935  0.00  0.00    -0.201 OA
+ATOM     10  O1  I7B d          -4.600   3.062  10.926  0.00  0.00    -0.201 OA
+BRANCH   8  11
+ATOM     11  N1  I7B d          -2.421   2.828  11.987  0.00  0.00    -0.324 N 
+ATOM     12  H3  I7B d          -1.822   2.627  11.212  0.00  0.00     0.169 HD
+ATOM     13  H4  I7B d          -2.066   3.330  12.776  0.00  0.00     0.169 HD
+ENDBRANCH   8  11
+ENDBRANCH   2   8
+BRANCH   3  14
+ATOM     14  N3  I7B d          -4.695   5.229  12.764  0.00  0.00    -0.398 N 
+ATOM     15  H7  I7B d          -4.242   4.986  11.871  0.00  0.00     0.156 HD
+ATOM     16  H8  I7B d          -4.932   6.210  12.971  0.00  0.00     0.156 HD
+ENDBRANCH   3  14
+BRANCH   6  17
+ATOM     17  S2  I7B d          -5.999   0.965  16.797  0.00  0.00     0.258 S 
+ATOM     18  O3  I7B d          -5.327   1.262  18.024  0.00  0.00    -0.201 OA
+ATOM     19  O4  I7B d          -7.427   0.862  16.803  0.00  0.00    -0.201 OA
+BRANCH  17  20
+ATOM     20  N2  I7B d          -5.432  -0.399  16.256  0.00  0.00    -0.324 N 
+ATOM     21  H5  I7B d          -5.555  -1.237  16.787  0.00  0.00     0.169 HD
+ATOM     22  H6  I7B d          -4.949  -0.428  15.381  0.00  0.00     0.169 HD
+ENDBRANCH  17  20
+ENDBRANCH   6  17
+TORSDOF 5

@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5_1  and  C5_2 
+REMARK    2  A    between atoms: C5_2  and  C4_3 
+REMARK    3  A    between atoms: C1_5  and  N9_6 
+REMARK    4  A    between atoms: C2_12  and  N2_16 
+REMARK    5  A    between atoms: C3_18  and  O3_19 
+ROOT
+ATOM      1  N9  GNG d          11.005   0.607   4.551  0.00  0.00    -0.296 N 
+ATOM      2  C8  GNG d           9.889   0.935   5.225  0.00  0.00     0.214 A 
+ATOM      3  N7  GNG d           9.840   0.169   6.325  0.00  0.00    -0.234 NA
+ATOM      4  C5  GNG d          10.941  -0.609   6.343  0.00  0.00     0.173 A 
+ATOM      5  C4  GNG d          11.688  -0.336   5.223  0.00  0.00     0.186 A 
+ATOM      6  N3  GNG d          12.863  -1.010   5.009  0.00  0.00    -0.044 NA
+ATOM      7  C2  GNG d          13.293  -1.941   5.912  0.00  0.00     0.703 A 
+ATOM      8  N1  GNG d          12.557  -2.215   6.999  0.00  0.00    -0.152 N 
+ATOM      9  C6  GNG d          11.409  -1.569   7.207  0.00  0.00     0.292 A 
+ATOM     10  O6  GNG d          10.772  -1.849   8.217  0.00  0.00    -0.265 OA
+ATOM     11  H7  GNG d          12.869  -2.904   7.654  0.00  0.00     0.187 HD
+ENDROOT
+BRANCH   1  12
+ATOM     12  C1  GNG d          11.444   1.212   3.268  0.00  0.00     0.233 C 
+ATOM     13  O4  GNG d          10.399   1.872   2.563  0.00  0.00    -0.356 OA
+ATOM     14  C4  GNG d          10.909   2.155   1.264  0.00  0.00     0.176 C 
+ATOM     15  C3  GNG d          11.953   1.083   1.006  0.00  0.00     0.153 C 
+ATOM     16  C2  GNG d          11.982   0.223   2.255  0.00  0.00     0.088 C 
+BRANCH  14  17
+ATOM     17  C5  GNG d           9.761   2.156   0.279  0.00  0.00     0.198 C 
+BRANCH  17  18
+ATOM     18  O5  GNG d           9.398   3.529   0.172  0.00  0.00    -0.398 OA
+ATOM     19  H1  GNG d           8.674   3.617  -0.436  0.00  0.00     0.209 HD
+ENDBRANCH  17  18
+ENDBRANCH  14  17
+BRANCH  15  20
+ATOM     20  O3  GNG d          13.221   1.722   0.951  0.00  0.00    -0.393 OA
+ATOM     21  H13 GNG d          13.261   2.279   0.182  0.00  0.00     0.210 HD
+ENDBRANCH  15  20
+ENDBRANCH   1  12
+BRANCH   7  22
+ATOM     22  N2  GNG d          14.439  -2.640   5.771  0.00  0.00    -0.233 N 
+ATOM     23  H8  GNG d          15.047  -2.474   4.956  0.00  0.00     0.174 HD
+ATOM     24  H9  GNG d          14.706  -3.340   6.478  0.00  0.00     0.174 HD
+ENDBRANCH   7  22
+TORSDOF 5

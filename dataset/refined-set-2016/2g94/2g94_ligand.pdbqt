@@ -1,0 +1,119 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N12_4  and  C15_7 
+REMARK    2  A    between atoms: C15_7  and  O11_8 
+REMARK    3  A    between atoms: O11_8  and  C16_9 
+REMARK       I    between atoms: C16_9  and  N2_12 
+REMARK    4  A    between atoms: N2_12  and  C21_13 
+REMARK    5  A    between atoms: C21_13  and  C22_14 
+REMARK    6  A    between atoms: C21_13  and  C25_19 
+REMARK    7  A    between atoms: C22_14  and  S2_15 
+REMARK       I    between atoms: C25_19  and  N3_21 
+REMARK    8  A    between atoms: N3_21  and  C31_22 
+REMARK    9  A    between atoms: C31_22  and  C32_23 
+REMARK   10  A    between atoms: C31_22  and  C33_24 
+REMARK   11  A    between atoms: C32_23  and  C37_28 
+REMARK   12  A    between atoms: C32_23  and  O31_32 
+REMARK   13  A    between atoms: C33_24  and  C34_25 
+REMARK   14  A    between atoms: C37_28  and  C38_29 
+REMARK   15  A    between atoms: C38_29  and  C30_31 
+REMARK       I    between atoms: C30_31  and  N4_34 
+REMARK   16  A    between atoms: N4_34  and  C41_35 
+REMARK   17  A    between atoms: C41_35  and  C42_36 
+REMARK   18  A    between atoms: C41_35  and  C45_39 
+REMARK       I    between atoms: C45_39  and  N5_41 
+REMARK   19  A    between atoms: N5_41  and  C51_42 
+REMARK   20  A    between atoms: C51_42  and  C52_43 
+ROOT
+ATOM      1  C31 ZPQ d          -4.222  -4.477  32.376  0.00  0.00     0.113 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N3  ZPQ d          -3.036  -3.986  31.619  0.00  0.00    -0.352 N 
+ATOM      3  C25 ZPQ d          -3.114  -3.799  30.250  0.00  0.00     0.241 C 
+ATOM      4  O2  ZPQ d          -4.137  -4.012  29.607  0.00  0.00    -0.271 OA
+ATOM      5  H17 ZPQ d          -2.182  -3.791  32.101  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  C21 ZPQ d          -1.850  -3.334  29.605  0.00  0.00     0.192 C 
+BRANCH   6   7
+ATOM      7  N2  ZPQ d          -0.937  -4.450  29.811  0.00  0.00    -0.323 N 
+ATOM      8  C16 ZPQ d           0.373  -4.438  30.140  0.00  0.00     0.362 C 
+ATOM      9  O12 ZPQ d           0.998  -3.394  30.307  0.00  0.00    -0.238 OA
+ATOM     10  H10 ZPQ d          -1.339  -5.358  29.691  0.00  0.00     0.165 HD
+BRANCH   8  11
+ATOM     11  O11 ZPQ d           0.921  -5.691  30.263  0.00  0.00    -0.282 OA
+BRANCH  11  12
+ATOM     12  C15 ZPQ d           2.236  -5.820  30.806  0.00  0.00     0.331 C 
+BRANCH  12  13
+ATOM     13  N12 ZPQ d           2.360  -5.437  32.246  0.00  0.00    -0.250 N 
+ATOM     14  N11 ZPQ d           3.105  -4.372  32.767  0.00  0.00    -0.175 NA
+ATOM     15  C12 ZPQ d           2.896  -4.419  34.340  0.00  0.00     0.053 A 
+ATOM     16  C11 ZPQ d           1.984  -5.601  34.519  0.00  0.00     0.055 A 
+ATOM     17  C14 ZPQ d           3.518  -3.465  35.273  0.00  0.00     0.072 C 
+ATOM     18  C13 ZPQ d           1.692  -6.168  33.320  0.00  0.00     0.031 A 
+ATOM     19  C17 ZPQ d           0.801  -7.380  33.186  0.00  0.00     0.070 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+BRANCH   6  20
+ATOM     20  C22 ZPQ d          -2.048  -3.153  28.076  0.00  0.00     0.174 C 
+BRANCH  20  21
+ATOM     21  S2  ZPQ d          -0.890  -2.090  27.255  0.00  0.00     0.143 S 
+ATOM     22  O22 ZPQ d          -1.514  -1.657  26.029  0.00  0.00    -0.228 OA
+ATOM     23  O23 ZPQ d          -0.495  -1.013  28.165  0.00  0.00    -0.228 OA
+ATOM     24  C23 ZPQ d           0.466  -3.191  26.913  0.00  0.00     0.161 C 
+ENDBRANCH  20  21
+ENDBRANCH   6  20
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  25
+ATOM     25  C32 ZPQ d          -4.984  -3.388  33.183  0.00  0.00     0.141 C 
+BRANCH  25  26
+ATOM     26  C37 ZPQ d          -5.360  -2.194  32.283  0.00  0.00     0.047 C 
+BRANCH  26  27
+ATOM     27  C38 ZPQ d          -6.662  -1.543  32.754  0.00  0.00     0.076 C 
+ATOM     28  C39 ZPQ d          -6.726  -0.100  32.239  0.00  0.00     0.020 C 
+BRANCH  27  29
+ATOM     29  C30 ZPQ d          -7.878  -2.299  32.209  0.00  0.00     0.222 C 
+ATOM     30  O32 ZPQ d          -7.910  -2.765  31.080  0.00  0.00    -0.273 OA
+ATOM     31  N4  ZPQ d          -8.936  -2.398  33.075  0.00  0.00    -0.347 N 
+ATOM     32  H36 ZPQ d          -8.866  -2.007  33.993  0.00  0.00     0.163 HD
+BRANCH  31  33
+ATOM     33  C41 ZPQ d         -10.177  -3.079  32.660  0.00  0.00     0.179 C 
+BRANCH  33  34
+ATOM     34  C42 ZPQ d         -11.069  -3.460  33.871  0.00  0.00     0.009 C 
+ATOM     35  C43 ZPQ d         -12.243  -4.361  33.434  0.00  0.00     0.012 C 
+ATOM     36  C44 ZPQ d         -11.622  -2.212  34.557  0.00  0.00     0.012 C 
+ENDBRANCH  33  34
+BRANCH  33  37
+ATOM     37  C45 ZPQ d         -10.882  -2.136  31.636  0.00  0.00     0.240 C 
+ATOM     38  O4  ZPQ d         -10.785  -0.933  31.726  0.00  0.00    -0.271 OA
+ATOM     39  N5  ZPQ d         -11.611  -2.778  30.642  0.00  0.00    -0.359 N 
+ATOM     40  H45 ZPQ d         -11.637  -3.778  30.633  0.00  0.00     0.162 HD
+BRANCH  39  41
+ATOM     41  C51 ZPQ d         -12.352  -2.035  29.595  0.00  0.00     0.126 C 
+BRANCH  41  42
+ATOM     42  C52 ZPQ d         -11.691  -2.175  28.184  0.00  0.00    -0.005 C 
+ATOM     43  C53 ZPQ d         -10.312  -1.509  28.149  0.00  0.00     0.011 C 
+ATOM     44  C54 ZPQ d         -11.529  -3.647  27.815  0.00  0.00     0.011 C 
+ENDBRANCH  41  42
+ENDBRANCH  39  41
+ENDBRANCH  33  37
+ENDBRANCH  31  33
+ENDBRANCH  27  29
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+BRANCH  25  45
+ATOM     45  O31 ZPQ d          -4.155  -2.894  34.233  0.00  0.00    -0.393 OA
+ATOM     46  H35 ZPQ d          -3.908  -3.612  34.804  0.00  0.00     0.210 HD
+ENDBRANCH  25  45
+ENDBRANCH   1  25
+BRANCH   1  47
+ATOM     47  C33 ZPQ d          -3.795  -5.664  33.304  0.00  0.00     0.031 C 
+BRANCH  47  48
+ATOM     48  C34 ZPQ d          -3.262  -6.903  32.509  0.00  0.00    -0.021 C 
+ATOM     49  C35 ZPQ d          -4.329  -7.510  31.575  0.00  0.00     0.009 C 
+ATOM     50  C36 ZPQ d          -2.805  -7.987  33.500  0.00  0.00     0.009 C 
+ENDBRANCH  47  48
+ENDBRANCH   1  47
+TORSDOF 20

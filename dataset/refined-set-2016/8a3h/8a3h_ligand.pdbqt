@@ -1,0 +1,71 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O4B_20  and  C1A_1 
+REMARK    2  A    between atoms: C2A_2  and  O2A_7 
+REMARK    3  A    between atoms: C3A_3  and  O3A_8 
+REMARK    4  A    between atoms: C4A_4  and  O4A_9 
+REMARK    5  A    between atoms: C5A_5  and  C6A_6 
+REMARK    6  A    between atoms: C6A_6  and  O6A_11 
+REMARK    7  A    between atoms: C2B_13  and  O2B_18 
+REMARK    8  A    between atoms: C3B_14  and  O3B_19 
+REMARK    9  A    between atoms: O4B_20  and  C4B_15 
+REMARK   10  A    between atoms: C5B_16  and  C6B_17 
+REMARK   11  A    between atoms: C6B_17  and  O6B_22 
+ROOT
+ATOM      1  C1B IDC d          61.624  41.913  36.428  0.00  0.00     0.115 A 
+ATOM      2  C2B IDC d          60.548  42.312  35.453  0.00  0.00     0.217 C 
+ATOM      3  C3B IDC d          60.687  43.783  35.039  0.00  0.00     0.185 C 
+ATOM      4  C4B IDC d          61.199  44.590  36.252  0.00  0.00     0.181 C 
+ATOM      5  C5B IDC d          62.623  44.186  36.581  0.00  0.00     0.146 C 
+ATOM      6  N1B IDC d          62.555  42.754  36.935  0.00  0.00    -0.334 N 
+ATOM      7  N2B IDC d          61.779  40.716  36.989  0.00  0.00    -0.352 N 
+ATOM      8  C7B IDC d          62.854  40.764  37.869  0.00  0.00     0.106 A 
+ATOM      9  C8B IDC d          63.315  42.040  37.841  0.00  0.00     0.110 A 
+ATOM     10  H21 IDC d          61.196  39.888  36.801  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  O4B IDC d          61.181  45.991  35.883  0.00  0.00    -0.348 OA
+BRANCH  11  12
+ATOM     12  C1A IDC d          60.721  46.841  36.907  0.00  0.00     0.292 C 
+ATOM     13  C2A IDC d          61.052  48.256  36.513  0.00  0.00     0.204 C 
+ATOM     14  C3A IDC d          60.462  49.215  37.534  0.00  0.00     0.183 C 
+ATOM     15  C4A IDC d          58.958  48.989  37.638  0.00  0.00     0.180 C 
+ATOM     16  C5A IDC d          58.726  47.506  38.005  0.00  0.00     0.179 C 
+ATOM     17  O5A IDC d          59.305  46.687  36.951  0.00  0.00    -0.348 OA
+BRANCH  13  18
+ATOM     18  O2A IDC d          62.495  48.360  36.468  0.00  0.00    -0.388 OA
+ATOM     19  H8  IDC d          62.835  47.751  35.823  0.00  0.00     0.210 HD
+ENDBRANCH  13  18
+BRANCH  14  20
+ATOM     20  O3A IDC d          60.697  50.580  37.137  0.00  0.00    -0.390 OA
+ATOM     21  H9  IDC d          60.326  51.166  37.786  0.00  0.00     0.210 HD
+ENDBRANCH  14  20
+BRANCH  15  22
+ATOM     22  O4A IDC d          58.412  49.829  38.667  0.00  0.00    -0.390 OA
+ATOM     23  H10 IDC d          58.556  50.740  38.440  0.00  0.00     0.210 HD
+ENDBRANCH  15  22
+BRANCH  16  24
+ATOM     24  C6A IDC d          57.296  47.088  38.084  0.00  0.00     0.198 C 
+BRANCH  24  25
+ATOM     25  O6A IDC d          56.654  47.265  36.814  0.00  0.00    -0.398 OA
+ATOM     26  H11 IDC d          57.096  46.736  36.160  0.00  0.00     0.209 HD
+ENDBRANCH  24  25
+ENDBRANCH  16  24
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+BRANCH   3  27
+ATOM     27  O3B IDC d          59.432  44.203  34.600  0.00  0.00    -0.390 OA
+ATOM     28  H19 IDC d          59.477  45.116  34.343  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   5  29
+ATOM     29  C6B IDC d          63.262  44.963  37.759  0.00  0.00     0.192 C 
+BRANCH  29  30
+ATOM     30  O6B IDC d          62.441  44.828  38.946  0.00  0.00    -0.399 OA
+ATOM     31  H20 IDC d          62.371  43.910  39.178  0.00  0.00     0.209 HD
+ENDBRANCH  29  30
+ENDBRANCH   5  29
+BRANCH   2  32
+ATOM     32  O2B IDC d          60.497  41.431  34.325  0.00  0.00    -0.385 OA
+ATOM     33  H18 IDC d          60.411  40.535  34.628  0.00  0.00     0.210 HD
+ENDBRANCH   2  32
+TORSDOF 11

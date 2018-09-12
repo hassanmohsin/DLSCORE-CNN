@@ -1,0 +1,67 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: C2_3  and  O2_4 
+REMARK    3  A    between atoms: O2_4  and  CA1_13 
+REMARK    4  A    between atoms: C3_5  and  N3_6 
+REMARK       I    between atoms: N3_6  and  CB1_22 
+REMARK    5  A    between atoms: C4_7  and  O4_8 
+REMARK    6  A    between atoms: C5_9  and  C6_11 
+REMARK    7  A    between atoms: C6_11  and  O6_12 
+REMARK    8  A    between atoms: CA1_13  and  CA2_15 
+REMARK    9  A    between atoms: CB1_22  and  CB2_24 
+ROOT
+ATOM      1  C1  DQT d          20.203  -8.766  -1.500  0.00  0.00     0.291 C 
+ATOM      2  C2  DQT d          18.726  -9.138  -1.382  0.00  0.00     0.212 C 
+ATOM      3  C3  DQT d          17.787  -7.936  -1.315  0.00  0.00     0.150 C 
+ATOM      4  C4  DQT d          18.363  -6.808  -0.459  0.00  0.00     0.174 C 
+ATOM      5  C5  DQT d          19.856  -6.579  -0.685  0.00  0.00     0.179 C 
+ATOM      6  O5  DQT d          20.566  -7.805  -0.510  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   3   7
+ATOM      7  N3  DQT d          16.537  -8.295  -0.675  0.00  0.00    -0.347 N 
+ATOM      8  CB1 DQT d          15.318  -8.221  -1.215  0.00  0.00     0.252 C 
+ATOM      9  OB1 DQT d          15.144  -7.969  -2.399  0.00  0.00    -0.268 OA
+ATOM     10  H4  DQT d          16.593  -8.632   0.265  0.00  0.00     0.163 HD
+BRANCH   8  11
+ATOM     11  CB2 DQT d          14.116  -8.393  -0.313  0.00  0.00     0.032 A 
+ATOM     12  CB3 DQT d          14.206  -8.093   1.051  0.00  0.00     0.017 A 
+ATOM     13  CB4 DQT d          13.104  -8.238   1.886  0.00  0.00     0.007 A 
+ATOM     14  CB5 DQT d          11.892  -8.679   1.373  0.00  0.00    -0.062 A 
+ATOM     15  CB6 DQT d          11.786  -8.976   0.015  0.00  0.00     0.007 A 
+ATOM     16  CB8 DQT d          10.710  -8.825   2.296  0.00  0.00     0.048 C 
+ATOM     17  CB7 DQT d          12.892  -8.831  -0.825  0.00  0.00     0.017 A 
+ENDBRANCH   8  11
+ENDBRANCH   3   7
+BRANCH   2  18
+ATOM     18  O2  DQT d          18.592  -9.876  -0.175  0.00  0.00    -0.305 OA
+BRANCH  18  19
+ATOM     19  CA1 DQT d          18.210 -11.248  -0.275  0.00  0.00     0.293 C 
+ATOM     20  OA1 DQT d          18.285 -11.862  -1.333  0.00  0.00    -0.259 OA
+BRANCH  19  21
+ATOM     21  CA2 DQT d          17.723 -11.900   0.983  0.00  0.00     0.039 A 
+ATOM     22  CA3 DQT d          17.435 -13.264   1.030  0.00  0.00     0.018 A 
+ATOM     23  CA4 DQT d          16.986 -13.834   2.219  0.00  0.00     0.007 A 
+ATOM     24  CA5 DQT d          16.828 -13.043   3.355  0.00  0.00    -0.062 A 
+ATOM     25  CA6 DQT d          17.116 -11.686   3.305  0.00  0.00     0.007 A 
+ATOM     26  CA8 DQT d          16.344 -13.641   4.647  0.00  0.00     0.048 C 
+ATOM     27  CA7 DQT d          17.565 -11.115   2.123  0.00  0.00     0.018 A 
+ENDBRANCH  19  21
+ENDBRANCH  18  19
+ENDBRANCH   2  18
+BRANCH   4  28
+ATOM     28  O4  DQT d          18.118  -7.112   0.920  0.00  0.00    -0.391 OA
+ATOM     29  H6  DQT d          18.539  -7.934   1.141  0.00  0.00     0.210 HD
+ENDBRANCH   4  28
+BRANCH   1  30
+ATOM     30  O1  DQT d          21.026  -9.914  -1.297  0.00  0.00    -0.363 OA
+ATOM     31  CME DQT d          22.385  -9.644  -1.639  0.00  0.00     0.204 C 
+ENDBRANCH   1  30
+BRANCH   5  32
+ATOM     32  C6  DQT d          20.430  -5.547   0.281  0.00  0.00     0.198 C 
+BRANCH  32  33
+ATOM     33  O6  DQT d          21.821  -5.359   0.028  0.00  0.00    -0.398 OA
+ATOM     34  H10 DQT d          22.277  -6.184   0.145  0.00  0.00     0.209 HD
+ENDBRANCH  32  33
+ENDBRANCH   5  32
+TORSDOF 9

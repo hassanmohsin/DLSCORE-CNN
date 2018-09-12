@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  CA_4 
+REMARK    2  A    between atoms: CA_4  and  N_5 
+REMARK    3  A    between atoms: CA_4  and  CB_6 
+REMARK    4  A    between atoms: CB_6  and  CAS_7 
+REMARK    5  A    between atoms: CAS_7  and  CAN_9 
+ROOT
+ATOM      1  CAS MS8 d           1.203  44.178   2.544  0.00  0.00     0.154 C 
+ATOM      2  CAJ MS8 d           2.707  44.454   2.651  0.00  0.00     0.084 C 
+ATOM      3  OAL MS8 d           1.008  42.911   3.183  0.00  0.00    -0.361 OA
+ATOM      4  CAR MS8 d           2.181  42.181   2.802  0.00  0.00     0.152 C 
+ATOM      5  CAQ MS8 d           3.257  43.157   3.247  0.00  0.00     0.153 C 
+ATOM      6  CAH MS8 d           2.261  40.862   3.572  0.00  0.00     0.036 C 
+ATOM      7  CAP MS8 d           2.400  41.116   5.073  0.00  0.00     0.029 C 
+ATOM      8  CAG MS8 d           3.582  42.053   5.320  0.00  0.00     0.168 C 
+ATOM      9  OAK MS8 d           3.297  43.304   4.676  0.00  0.00    -0.383 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  CB  MS8 d           0.830  44.087   1.063  0.00  0.00     0.093 C 
+BRANCH  10  11
+ATOM     11  CA  MS8 d          -0.662  43.791   0.885  0.00  0.00     0.286 C 
+BRANCH  11  12
+ATOM     12  C   MS8 d          -1.037  44.078  -0.569  0.00  0.00     0.204 C 
+ATOM     13  O   MS8 d          -0.817  45.237  -0.981  0.00  0.00    -0.646 OA
+ATOM     14  OXT MS8 d          -1.523  43.135  -1.233  0.00  0.00    -0.646 OA
+ENDBRANCH  11  12
+BRANCH  11  15
+ATOM     15  N   MS8 d          -0.968  42.394   1.225  0.00  0.00    -0.065 N 
+ATOM     16  H2  MS8 d          -0.716  42.219   2.185  0.00  0.00     0.275 HD
+ATOM     17  H3  MS8 d          -0.444  41.779   0.623  0.00  0.00     0.275 HD
+ATOM     18  H4  MS8 d          -1.954  42.226   1.100  0.00  0.00     0.275 HD
+ENDBRANCH  11  15
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   1  19
+ATOM     19  CAN MS8 d           0.391  45.275   3.234  0.00  0.00     0.209 C 
+ATOM     20  OAC MS8 d          -0.133  44.994   4.334  0.00  0.00    -0.646 OA
+ATOM     21  OAE MS8 d           0.296  46.370   2.638  0.00  0.00    -0.646 OA
+ENDBRANCH   1  19
+TORSDOF 5

@@ -1,0 +1,18 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  N   PRO d          23.198  18.788  16.777  0.00  0.00    -0.061 N 
+ATOM      2  CA  PRO d          23.453  18.560  18.199  0.00  0.00     0.285 C 
+ATOM      3  CB  PRO d          22.624  19.673  18.850  0.00  0.00     0.046 C 
+ATOM      4  CG  PRO d          22.748  20.855  17.827  0.00  0.00     0.030 C 
+ATOM      5  CD  PRO d          23.220  20.236  16.492  0.00  0.00     0.233 C 
+ATOM      6  H1  PRO d          22.294  18.413  16.535  0.00  0.00     0.278 HD
+ATOM      7  H2  PRO d          23.910  18.329  16.231  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   2   8
+ATOM      8  C   PRO d          23.021  17.173  18.678  0.00  0.00     0.204 C 
+ATOM      9  O   PRO d          23.129  16.882  19.878  0.00  0.00    -0.646 OA
+ATOM     10  OXT PRO d          22.573  16.338  17.871  0.00  0.00    -0.646 OA
+ENDBRANCH   2   8
+TORSDOF 1

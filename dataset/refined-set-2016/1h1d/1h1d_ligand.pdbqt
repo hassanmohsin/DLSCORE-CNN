@@ -1,0 +1,66 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C31_25  and  N2_1 
+REMARK    2  A    between atoms: C32_26  and  O5_4 
+REMARK    3  A    between atoms: C6_5  and  C11_10 
+REMARK    4  A    between atoms: C22_18  and  C6_5 
+REMARK    5  A    between atoms: C7_6  and  O9_8 
+REMARK    6  A    between atoms: C28_24  and  N14_12 
+REMARK    7  A    between atoms: C27_23  and  C22_18 
+REMARK    8  A    between atoms: N23_19  and  C27_23 
+REMARK    9  A    between atoms: C24_20  and  C33_27 
+ROOT
+ATOM      1  N2  BIA d         -32.131  57.656  52.804  0.00  0.00    -0.280 NA
+ATOM      2  C12 BIA d         -30.140  56.835  53.969  0.00  0.00     0.249 C 
+ATOM      3  C16 BIA d         -29.944  58.319  51.997  0.00  0.00     0.249 C 
+ATOM      4  C21 BIA d         -31.339  57.978  51.587  0.00  0.00     0.123 C 
+ATOM      5  N23 BIA d         -29.290  57.189  52.791  0.00  0.00    -0.068 N 
+ATOM      6  C25 BIA d         -31.519  56.495  53.513  0.00  0.00     0.123 C 
+ATOM      7  H15 BIA d         -29.229  56.377  52.197  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   5   8
+ATOM      8  C27 BIA d         -27.890  57.576  53.191  0.00  0.00     0.242 C 
+BRANCH   8   9
+ATOM      9  C22 BIA d         -26.946  57.963  52.060  0.00  0.00     0.111 C 
+BRANCH   9  10
+ATOM     10  C6  BIA d         -26.798  59.482  52.030  0.00  0.00     0.161 C 
+ATOM     11  O8  BIA d         -27.551  60.198  52.686  0.00  0.00    -0.292 OA
+BRANCH  10  12
+ATOM     12  C11 BIA d         -25.726  60.116  51.215  0.00  0.00     0.015 A 
+ATOM     13  C3  BIA d         -25.780  61.510  51.018  0.00  0.00     0.054 A 
+ATOM     14  C7  BIA d         -24.705  62.217  50.216  0.00  0.00     0.102 A 
+ATOM     15  C32 BIA d         -23.652  61.449  49.674  0.00  0.00     0.132 A 
+ATOM     16  C28 BIA d         -23.650  60.023  49.896  0.00  0.00     0.139 A 
+ATOM     17  C19 BIA d         -24.659  59.374  50.648  0.00  0.00     0.054 A 
+BRANCH  14  18
+ATOM     18  O9  BIA d         -24.779  63.551  50.046  0.00  0.00    -0.358 OA
+ATOM     19  H4  BIA d         -24.040  63.844  49.526  0.00  0.00     0.217 HD
+ENDBRANCH  14  18
+BRANCH  15  20
+ATOM     20  O5  BIA d         -22.739  62.155  48.990  0.00  0.00    -0.356 OA
+ATOM     21  H3  BIA d         -22.069  61.568  48.660  0.00  0.00     0.218 HD
+ENDBRANCH  15  20
+BRANCH  16  22
+ATOM     22  N14 BIA d         -22.579  59.146  49.344  0.00  0.00    -0.113 N 
+ATOM     23  O17 BIA d         -21.664  59.650  48.672  0.00  0.00    -0.532 OA
+ATOM     24  O18 BIA d         -22.615  57.954  49.554  0.00  0.00    -0.532 OA
+ENDBRANCH  16  22
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+BRANCH   1  25
+ATOM     25  C31 BIA d         -33.529  57.503  52.580  0.00  0.00     0.011 A 
+ATOM     26  C4  BIA d         -34.188  57.824  51.329  0.00  0.00     0.024 A 
+ATOM     27  C10 BIA d         -35.575  57.648  51.183  0.00  0.00     0.003 A 
+ATOM     28  C37 BIA d         -36.366  57.153  52.247  0.00  0.00     0.016 A 
+ATOM     29  C24 BIA d         -35.717  56.841  53.471  0.00  0.00     0.049 A 
+ATOM     30  C26 BIA d         -34.352  57.013  53.624  0.00  0.00     0.039 A 
+BRANCH  29  31
+ATOM     31  C33 BIA d         -36.484  56.307  54.660  0.00  0.00     0.417 C 
+ATOM     32  F37 BIA d         -37.367  55.409  54.172  0.00  0.00    -0.166 F 
+ATOM     33  F38 BIA d         -35.748  55.647  55.477  0.00  0.00    -0.166 F 
+ATOM     34  F39 BIA d         -37.127  57.250  55.166  0.00  0.00    -0.166 F 
+ENDBRANCH  29  31
+ENDBRANCH   1  25
+TORSDOF 9

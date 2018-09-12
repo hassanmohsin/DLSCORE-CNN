@@ -1,0 +1,30 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CK2_2  and  CK7_7 
+REMARK    2  A    between atoms: CK3_3  and  OK2_14 
+REMARK    3  A    between atoms: CK4_4  and  OK1_13 
+ROOT
+ATOM      1  CK1 BPY d          20.619 -23.165  72.433  0.00  0.00     0.015 A 
+ATOM      2  CK2 BPY d          21.908 -22.634  72.361  0.00  0.00     0.010 A 
+ATOM      3  CK3 BPY d          22.106 -21.326  71.903  0.00  0.00     0.110 A 
+ATOM      4  CK4 BPY d          21.027 -20.552  71.530  0.00  0.00     0.099 A 
+ATOM      5  CK5 BPY d          19.716 -21.089  71.603  0.00  0.00     0.039 A 
+ATOM      6  CK6 BPY d          19.527 -22.391  72.050  0.00  0.00     0.004 A 
+ENDROOT
+BRANCH   2   7
+ATOM      7  CK7 BPY d          23.112 -23.415  72.776  0.00  0.00    -0.023 A 
+ATOM      8  CK8 BPY d          23.466 -23.457  74.118  0.00  0.00     0.012 A 
+ATOM      9  CK9 BPY d          24.583 -24.159  74.526  0.00  0.00     0.001 A 
+ATOM     10  CK1 BPY d          25.342 -24.833  73.597  0.00  0.00     0.000 A 
+ATOM     11  CK1 BPY d          24.989 -24.795  72.261  0.00  0.00     0.001 A 
+ATOM     12  CK1 BPY d          23.869 -24.094  71.851  0.00  0.00     0.012 A 
+ENDBRANCH   2   7
+BRANCH   3  13
+ATOM     13  OK2 BPY d          23.383 -20.799  71.825  0.00  0.00    -0.357 OA
+ATOM     14  H10 BPY d          24.011 -21.450  72.114  0.00  0.00     0.217 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+ATOM     15  OK1 BPY d          21.251 -19.252  71.084  0.00  0.00    -0.358 OA
+ATOM     16  H9  BPY d          22.183 -19.068  71.103  0.00  0.00     0.217 HD
+ENDBRANCH   4  15
+TORSDOF 3

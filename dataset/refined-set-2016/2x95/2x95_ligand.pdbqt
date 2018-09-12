@@ -1,0 +1,97 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CBI_33  and  N_2 
+REMARK    4  A    between atoms: CA_4  and  CB_5 
+REMARK    5  A    between atoms: CB_5  and  CAT_23 
+REMARK    6  A    between atoms: CAQ_20  and  NAA_6 
+REMARK    7  A    between atoms: CAR_21  and  CAQ_20 
+REMARK    8  A    between atoms: CAS_22  and  CAR_21 
+REMARK    9  A    between atoms: CAU_24  and  CAS_22 
+REMARK   10  A    between atoms: CAT_23  and  CBD_29 
+REMARK   11  A    between atoms: CBI_33  and  CAU_24 
+REMARK   12  A    between atoms: CBE_30  and  CAW_25 
+REMARK   13  A    between atoms: CAW_25  and  CBJ_34 
+REMARK       I    between atoms: NAX_26  and  CBC_28 
+REMARK   14  A    between atoms: CBJ_34  and  NAX_26 
+REMARK   15  A    between atoms: CBJ_34  and  CBB_27 
+REMARK   16  A    between atoms: CBC_28  and  CBI_33 
+ROOT
+ATOM      1  CBI X95 d          27.548  -3.335 -25.097  0.00  0.00     0.278 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   X95 d          27.225  -1.944 -25.455  0.00  0.00    -0.048 N 
+ATOM      3  H1  X95 d          27.770  -1.694 -26.265  0.00  0.00     0.279 HD
+ATOM      4  H2  X95 d          26.244  -1.899 -25.683  0.00  0.00     0.279 HD
+BRANCH   2   5
+ATOM      5  CA  X95 d          27.494  -0.956 -24.402  0.00  0.00     0.287 C 
+BRANCH   5   6
+ATOM      6  C   X95 d          26.730  -1.320 -23.137  0.00  0.00     0.204 C 
+ATOM      7  OXT X95 d          25.496  -1.489 -23.239  0.00  0.00    -0.646 OA
+ATOM      8  O   X95 d          27.405  -1.435 -22.093  0.00  0.00    -0.646 OA
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  CB  X95 d          27.077   0.435 -24.892  0.00  0.00     0.049 C 
+BRANCH   9  10
+ATOM     10  CAT X95 d          28.010   1.499 -24.318  0.00  0.00     0.041 C 
+BRANCH  10  11
+ATOM     11  CBD X95 d          27.612   2.935 -24.680  0.00  0.00    -0.058 A 
+ATOM     12  CAL X95 d          28.121   3.987 -23.914  0.00  0.00     0.007 A 
+ATOM     13  CAH X95 d          27.782   5.305 -24.218  0.00  0.00     0.001 A 
+ATOM     14  CAG X95 d          26.929   5.578 -25.290  0.00  0.00     0.000 A 
+ATOM     15  CAI X95 d          26.415   4.530 -26.054  0.00  0.00     0.001 A 
+ATOM     16  CAM X95 d          26.761   3.211 -25.753  0.00  0.00     0.007 A 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  CAU X95 d          26.824  -4.166 -26.173  0.00  0.00     0.043 C 
+BRANCH  17  18
+ATOM     18  CAS X95 d          27.255  -5.626 -26.304  0.00  0.00     0.004 C 
+BRANCH  18  19
+ATOM     19  CAR X95 d          27.169  -6.084 -27.766  0.00  0.00     0.027 C 
+BRANCH  19  20
+ATOM     20  CAQ X95 d          27.568  -7.552 -27.916  0.00  0.00     0.229 C 
+BRANCH  20  21
+ATOM     21  NAA X95 d          27.441  -7.958 -29.329  0.00  0.00    -0.079 N 
+ATOM     22  H6  X95 d          27.705  -8.926 -29.425  0.00  0.00     0.274 HD
+ATOM     23  H7  X95 d          28.046  -7.387 -29.898  0.00  0.00     0.274 HD
+ATOM     24  H8  X95 d          26.486  -7.838 -29.628  0.00  0.00     0.274 HD
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+BRANCH   1  25
+ATOM     25  CBC X95 d          29.068  -3.590 -25.160  0.00  0.00     0.249 C 
+ATOM     26  OAD X95 d          29.830  -2.726 -25.592  0.00  0.00    -0.271 OA
+ATOM     27  NAX X95 d          29.426  -4.794 -24.699  0.00  0.00    -0.344 N 
+ATOM     28  H31 X95 d          28.704  -5.301 -24.228  0.00  0.00     0.163 HD
+BRANCH  27  29
+ATOM     29  CBJ X95 d          30.743  -5.495 -24.782  0.00  0.00     0.190 C 
+BRANCH  29  30
+ATOM     30  CAW X95 d          31.375  -5.806 -23.418  0.00  0.00     0.077 C 
+BRANCH  30  31
+ATOM     31  CBE X95 d          30.365  -6.683 -22.650  0.00  0.00    -0.028 A 
+ATOM     32  CAP X95 d          30.170  -6.654 -21.333  0.00  0.00     0.096 A 
+ATOM     33  NXZ X95 d          29.213  -7.520 -20.993  0.00  0.00    -0.365 N 
+ATOM     34  CBF X95 d          28.757  -8.128 -22.085  0.00  0.00     0.042 A 
+ATOM     35  H34 X95 d          28.879  -7.691 -20.034  0.00  0.00     0.165 HD
+ATOM     36  CAN X95 d          27.773  -9.102 -22.276  0.00  0.00     0.030 A 
+ATOM     37  CBG X95 d          29.464  -7.621 -23.168  0.00  0.00    -0.002 A 
+ATOM     38  CAJ X95 d          27.490  -9.570 -23.559  0.00  0.00     0.002 A 
+ATOM     39  CAK X95 d          28.197  -9.064 -24.648  0.00  0.00     0.001 A 
+ATOM     40  CAO X95 d          29.181  -8.095 -24.452  0.00  0.00     0.014 A 
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  41
+ATOM     41  CBB X95 d          31.661  -4.954 -25.892  0.00  0.00     0.197 C 
+ATOM     42  OAC X95 d          31.139  -4.955 -27.022  0.00  0.00    -0.646 OA
+ATOM     43  OAF X95 d          32.826  -4.608 -25.623  0.00  0.00    -0.646 OA
+ENDBRANCH  29  41
+ENDBRANCH  27  29
+ENDBRANCH   1  25
+TORSDOF 16

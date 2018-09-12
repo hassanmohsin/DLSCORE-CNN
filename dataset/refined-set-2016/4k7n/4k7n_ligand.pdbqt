@@ -1,0 +1,22 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_4 
+REMARK    2  A    between atoms: C4_5  and  O4_6 
+ROOT
+ATOM      1  C1  MCT d         -28.076  -8.520 -44.408  0.00  0.00    -0.059 A 
+ATOM      2  C2  MCT d         -28.003  -9.790 -44.976  0.00  0.00     0.046 A 
+ATOM      3  C3  MCT d         -27.760 -10.911 -44.193  0.00  0.00     0.099 A 
+ATOM      4  C4  MCT d         -27.621 -10.753 -42.815  0.00  0.00     0.098 A 
+ATOM      5  C5  MCT d         -27.715  -9.484 -42.240  0.00  0.00     0.040 A 
+ATOM      6  C6  MCT d         -27.943  -8.373 -43.037  0.00  0.00     0.009 A 
+ATOM      7  C   MCT d         -28.299  -7.398 -45.209  0.00  0.00     0.048 C 
+ENDROOT
+BRANCH   3   8
+ATOM      8  O3  MCT d         -27.659 -12.166 -44.723  0.00  0.00    -0.358 OA
+ATOM      9  H   MCT d         -26.944 -12.188 -45.348  0.00  0.00     0.217 HD
+ENDBRANCH   3   8
+BRANCH   4  10
+ATOM     10  O4  MCT d         -27.416 -11.855 -42.045  0.00  0.00    -0.358 OA
+ATOM     11  H   MCT d         -28.149 -12.451 -42.145  0.00  0.00     0.217 HD
+ENDBRANCH   4  10
+TORSDOF 2

@@ -1,0 +1,43 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_5  and  C7_6 
+REMARK    2  A    between atoms: C7_6  and  C8_11 
+REMARK    3  A    between atoms: C8_11  and  C9_12 
+REMARK    4  A    between atoms: C9_12  and  C10_13 
+REMARK    5  A    between atoms: C10_13  and  O27_14 
+REMARK    6  A    between atoms: O27_14  and  P_15 
+ROOT
+ATOM      1  N3  JCL d         -24.053  -0.747   6.679  0.00  0.00    -0.275 N 
+ATOM      2  N1  JCL d         -23.545  -2.542   5.240  0.00  0.00    -0.298 N 
+ATOM      3  C6  JCL d         -22.809  -1.738   4.486  0.00  0.00     0.119 A 
+ATOM      4 CL   JCL d         -22.060  -2.461   3.087  0.00  0.00    -0.064 Cl
+ATOM      5  C5  JCL d         -22.612  -0.303   4.773  0.00  0.00     0.049 A 
+ATOM      6  C2  JCL d         -24.154  -2.054   6.317  0.00  0.00     0.328 A 
+ATOM      7  C4  JCL d         -23.331   0.170   5.980  0.00  0.00     0.258 A 
+ATOM      8  O1  JCL d         -24.816  -2.871   6.985  0.00  0.00    -0.247 OA
+ATOM      9  O2  JCL d         -23.249   1.384   6.331  0.00  0.00    -0.267 OA
+ATOM     10  H1  JCL d         -24.534  -0.444   7.502  0.00  0.00     0.173 HD
+ATOM     11  H2  JCL d         -23.642  -3.508   5.001  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   5  12
+ATOM     12  C7  JCL d         -21.808   0.635   3.889  0.00  0.00     0.048 C 
+BRANCH  12  13
+ATOM     13  C8  JCL d         -20.348   0.274   3.593  0.00  0.00     0.007 C 
+BRANCH  13  14
+ATOM     14  C9  JCL d         -19.643   1.565   3.177  0.00  0.00     0.027 C 
+BRANCH  14  15
+ATOM     15  C10 JCL d         -19.362   1.674   1.706  0.00  0.00     0.182 C 
+BRANCH  15  16
+ATOM     16  O27 JCL d         -19.717   2.858   0.933  0.00  0.00    -0.283 OA
+BRANCH  16  17
+ATOM     17  P   JCL d         -18.735   4.107   0.596  0.00  0.00     0.422 P 
+ATOM     18  O1P JCL d         -19.654   5.271   0.905  0.00  0.00    -0.617 OA
+ATOM     19  O2P JCL d         -17.560   3.909   1.527  0.00  0.00    -0.617 OA
+ATOM     20  O3P JCL d         -18.397   4.061  -0.876  0.00  0.00    -0.617 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   5  12
+TORSDOF 6

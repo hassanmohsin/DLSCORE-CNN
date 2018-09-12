@@ -1,0 +1,61 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_7  and  C8_1 
+REMARK    2  A    between atoms: C5_2  and  N2_7 
+REMARK    3  A    between atoms: C6_3  and  C7_27 
+REMARK       I    between atoms: C7_27  and  N1_4 
+REMARK    4  A    between atoms: N3_8  and  C3_9 
+REMARK    5  A    between atoms: C11_13  and  O3_26 
+REMARK    6  A    between atoms: C14_16  and  C23_33 
+ROOT
+ATOM      1  C5  HIE d          18.048  10.013  15.056  0.00  0.00     0.046 A 
+ATOM      2  C6  HIE d          18.767  11.165  14.659  0.00  0.00     0.058 A 
+ATOM      3  C2  HIE d          18.636  12.018  16.920  0.00  0.00     0.033 A 
+ATOM      4  C3  HIE d          17.898  10.908  17.304  0.00  0.00     0.060 A 
+ATOM      5  C4  HIE d          17.621   9.895  16.385  0.00  0.00     0.061 A 
+ATOM      6  C1  HIE d          19.059  12.146  15.613  0.00  0.00     0.022 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  N3  HIE d          17.312  10.852  18.600  0.00  0.00    -0.236 N 
+ATOM      8  N4  HIE d          17.400   9.686  19.362  0.00  0.00    -0.162 NA
+ATOM      9  C14 HIE d          16.702   9.957  20.452  0.00  0.00     0.176 A 
+ATOM     10  C15 HIE d          16.174  11.274  20.431  0.00  0.00     0.070 A 
+ATOM     11  C16 HIE d          16.575  11.809  19.224  0.00  0.00     0.053 A 
+ATOM     12  C20 HIE d          15.333  12.046  21.338  0.00  0.00     0.164 C 
+ATOM     13  C17 HIE d          16.169  13.173  18.752  0.00  0.00     0.069 C 
+ATOM     14  C18 HIE d          14.909  13.723  19.433  0.00  0.00    -0.036 C 
+ATOM     15  C19 HIE d          15.030  13.480  20.947  0.00  0.00     0.093 C 
+ATOM     16  C21 HIE d          13.663  13.020  18.886  0.00  0.00     0.015 C 
+ATOM     17  C22 HIE d          14.792  15.213  19.143  0.00  0.00     0.015 C 
+ATOM     18  O1  HIE d          14.866  11.547  22.362  0.00  0.00    -0.292 OA
+BRANCH   9  19
+ATOM     19  C23 HIE d          16.552   8.894  21.493  0.00  0.00     0.437 C 
+ATOM     20  F1  HIE d          17.104   7.743  21.124  0.00  0.00    -0.164 F 
+ATOM     21  F2  HIE d          17.110   9.215  22.611  0.00  0.00    -0.164 F 
+ATOM     22  F3  HIE d          15.305   8.684  21.797  0.00  0.00    -0.164 F 
+ENDBRANCH   9  19
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     23  N2  HIE d          17.759   9.013  14.126  0.00  0.00    -0.384 N 
+ATOM     24  H   HIE d          18.091   9.189  13.167  0.00  0.00     0.160 HD
+BRANCH  23  25
+ATOM     25  C8  HIE d          17.051   7.753  14.326  0.00  0.00     0.082 C 
+ATOM     26  C13 HIE d          15.539   7.941  14.218  0.00  0.00     0.027 C 
+ATOM     27  C12 HIE d          14.771   6.600  14.303  0.00  0.00     0.034 C 
+ATOM     28  C11 HIE d          15.319   5.556  13.339  0.00  0.00     0.118 C 
+ATOM     29  C10 HIE d          16.820   5.387  13.490  0.00  0.00     0.034 C 
+ATOM     30  C9  HIE d          17.542   6.718  13.325  0.00  0.00     0.027 C 
+BRANCH  28  31
+ATOM     31  O3  HIE d          14.702   4.281  13.595  0.00  0.00    -0.396 OA
+ATOM     32  H   HIE d          13.762   4.356  13.476  0.00  0.00     0.210 HD
+ENDBRANCH  28  31
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+BRANCH   2  33
+ATOM     33  C7  HIE d          19.211  11.401  13.245  0.00  0.00     0.251 C 
+ATOM     34  N1  HIE d          20.335  12.102  13.044  0.00  0.00    -0.366 N 
+ATOM     35  H   HIE d          20.656  12.276  12.113  0.00  0.00     0.159 HD
+ATOM     36  H   HIE d          20.853  12.452  13.825  0.00  0.00     0.159 HD
+ATOM     37  O2  HIE d          18.522  10.976  12.311  0.00  0.00    -0.268 OA
+ENDBRANCH   2  33
+TORSDOF 6

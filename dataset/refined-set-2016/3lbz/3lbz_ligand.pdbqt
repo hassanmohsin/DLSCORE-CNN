@@ -1,0 +1,47 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK    3  A    between atoms: CA_4  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CAL_18  and  CAH_14 
+ROOT
+ATOM      1  N   Z89 d          -5.456   5.267  18.824  0.00  0.00    -0.296 N 
+ATOM      2  CAL Z89 d          -5.746   2.944  18.511  0.00  0.00     0.078 A 
+ATOM      3  CAM Z89 d          -4.935   4.028  18.971  0.00  0.00     0.201 A 
+ATOM      4  CAW Z89 d          -6.700   5.092  18.273  0.00  0.00     0.129 A 
+ATOM      5  SAX Z89 d          -7.656   6.566  17.967  0.00  0.00    -0.025 SA
+ATOM      6  SAY Z89 d          -7.299   3.472  17.852  0.00  0.00    -0.059 SA
+ATOM      7  OAZ Z89 d          -3.736   3.904  19.476  0.00  0.00    -0.170 OA
+ENDROOT
+BRANCH   2   8
+ATOM      8  CAH Z89 d          -5.324   1.595  18.578  0.00  0.00     0.066 A 
+ATOM      9  CAB Z89 d          -4.109   1.154  19.087  0.00  0.00     0.009 A 
+ATOM     10  CAA Z89 d          -4.138  -0.232  18.950  0.00  0.00     0.046 A 
+ATOM     11  CAC Z89 d          -2.992   1.817  19.622  0.00  0.00     0.034 A 
+ATOM     12  CAG Z89 d          -3.025  -0.921  19.376  0.00  0.00     0.032 A 
+ATOM     13  NAJ Z89 d          -5.312  -0.646  18.394  0.00  0.00    -0.322 N 
+ATOM     14  CAF Z89 d          -1.914  -0.278  19.904  0.00  0.00     0.021 A 
+ATOM     15  CAD Z89 d          -1.871   1.099  20.047  0.00  0.00     0.011 A 
+ATOM     16 BRAE Z89 d          -0.314   1.925  20.802  0.00  0.00    -0.051 Br
+ATOM     17  CAI Z89 d          -6.016   0.474  18.164  0.00  0.00     0.258 A 
+ATOM     18  H7  Z89 d          -5.590  -1.586  18.198  0.00  0.00     0.169 HD
+ATOM     19  OAK Z89 d          -7.182   0.455  17.635  0.00  0.00    -0.267 OA
+ENDBRANCH   2   8
+BRANCH   1  20
+ATOM     20  CA  Z89 d          -4.874   6.584  19.270  0.00  0.00     0.204 C 
+BRANCH  20  21
+ATOM     21  C   Z89 d          -5.864   6.985  20.367  0.00  0.00     0.197 C 
+ATOM     22  O   Z89 d          -6.492   6.060  20.968  0.00  0.00    -0.646 OA
+ATOM     23  OXT Z89 d          -6.080   8.202  20.658  0.00  0.00    -0.646 OA
+ENDBRANCH  20  21
+BRANCH  20  24
+ATOM     24  CB  Z89 d          -3.477   6.554  19.925  0.00  0.00     0.149 C 
+BRANCH  24  25
+ATOM     25  CG  Z89 d          -2.958   7.974  20.174  0.00  0.00     0.175 C 
+ATOM     26  OD1 Z89 d          -2.797   8.408  21.347  0.00  0.00    -0.648 OA
+ATOM     27  OD2 Z89 d          -2.719   8.703  19.183  0.00  0.00    -0.648 OA
+ENDBRANCH  24  25
+ENDBRANCH  20  24
+ENDBRANCH   1  20
+TORSDOF 5

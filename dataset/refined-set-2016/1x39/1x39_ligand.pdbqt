@@ -1,0 +1,56 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O6B_1  and  C6B_2 
+REMARK    2  A    between atoms: C6B_2  and  C5B_3 
+REMARK    3  A    between atoms: C4B_4  and  O4B_5 
+REMARK    4  A    between atoms: C3B_6  and  O3B_7 
+REMARK    5  A    between atoms: C2B_8  and  O2B_9 
+REMARK    6  A    between atoms: C7B_12  and  C7_15 
+REMARK    7  A    between atoms: C7_15  and  N1_16 
+REMARK    8  A    between atoms: N1_16  and  C1_17 
+ROOT
+ATOM      1  C5B IDE d          23.914  24.805  34.232  0.00  0.00     0.145 C 
+ATOM      2  C4B IDE d          22.756  24.161  35.027  0.00  0.00     0.175 C 
+ATOM      3  C3B IDE d          23.221  23.626  36.401  0.00  0.00     0.185 C 
+ATOM      4  C2B IDE d          23.761  24.735  37.304  0.00  0.00     0.219 C 
+ATOM      5  N1B IDE d          24.519  25.794  35.168  0.00  0.00    -0.332 N 
+ATOM      6  C8B IDE d          25.231  26.913  34.729  0.00  0.00     0.122 A 
+ATOM      7  C7B IDE d          25.585  27.506  35.896  0.00  0.00     0.069 A 
+ATOM      8  N2B IDE d          25.118  26.806  36.980  0.00  0.00    -0.234 NA
+ATOM      9  C1B IDE d          24.467  25.760  36.503  0.00  0.00     0.138 A 
+ENDROOT
+BRANCH   7  10
+ATOM     10  C7  IDE d          26.402  28.762  35.856  0.00  0.00     0.180 C 
+BRANCH  10  11
+ATOM     11  N1  IDE d          27.473  28.653  36.840  0.00  0.00    -0.384 N 
+ATOM     12  H14 IDE d          27.440  27.925  37.568  0.00  0.00     0.160 HD
+BRANCH  11  13
+ATOM     13  C1  IDE d          28.589  29.585  36.782  0.00  0.00     0.028 A 
+ATOM     14  C6  IDE d          28.352  30.935  36.506  0.00  0.00     0.029 A 
+ATOM     15  C5  IDE d          29.421  31.831  36.451  0.00  0.00     0.002 A 
+ATOM     16  C4  IDE d          30.721  31.365  36.664  0.00  0.00     0.000 A 
+ATOM     17  C3  IDE d          30.962  30.014  36.927  0.00  0.00     0.002 A 
+ATOM     18  C2  IDE d          29.893  29.124  36.992  0.00  0.00     0.029 A 
+ENDBRANCH  11  13
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+BRANCH   1  19
+ATOM     19  C6B IDE d          23.472  25.379  32.882  0.00  0.00     0.192 C 
+BRANCH  19  20
+ATOM     20  O6B IDE d          22.651  26.517  33.108  0.00  0.00    -0.399 OA
+ATOM     21  H1  IDE d          23.144  27.172  33.589  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH   4  22
+ATOM     22  O2B IDE d          24.642  24.238  38.317  0.00  0.00    -0.385 OA
+ATOM     23  H10 IDE d          24.950  24.962  38.850  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   2  24
+ATOM     24  O4B IDE d          22.156  23.094  34.289  0.00  0.00    -0.391 OA
+ATOM     25  H6  IDE d          21.449  22.716  34.799  0.00  0.00     0.210 HD
+ENDBRANCH   2  24
+BRANCH   3  26
+ATOM     26  O3B IDE d          22.118  23.005  37.085  0.00  0.00    -0.390 OA
+ATOM     27  H8  IDE d          21.789  22.283  36.562  0.00  0.00     0.210 HD
+ENDBRANCH   3  26
+TORSDOF 8

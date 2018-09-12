@@ -1,0 +1,45 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N23_23 
+REMARK    2  A    between atoms: N5_5  and  C21_21 
+REMARK    3  A    between atoms: C6_6  and  C15_15 
+REMARK    4  A    between atoms: C8_8  and  N24_24 
+ROOT
+ATOM      1  C1   ET d           5.104  15.537 -32.268  0.00  0.00     0.017 A 
+ATOM      2  C2   ET d           4.155  16.565 -32.374  0.00  0.00     0.030 A 
+ATOM      3  C3   ET d           3.132  16.438 -33.282  0.00  0.00     0.027 A 
+ATOM      4  C4   ET d           2.968  15.314 -34.063  0.00  0.00     0.059 A 
+ATOM      5  N5   ET d           3.743  13.058 -34.649  0.00  0.00    -0.367 N 
+ATOM      6  C6   ET d           4.724  12.170 -34.788  0.00  0.00     0.152 C 
+ATOM      7  C7   ET d           6.672  11.070 -33.581  0.00  0.00     0.039 A 
+ATOM      8  C8   ET d           7.641  11.231 -32.590  0.00  0.00     0.026 A 
+ATOM      9  C9   ET d           7.761  12.373 -31.830  0.00  0.00     0.030 A 
+ATOM     10  C10  ET d           6.910  13.465 -31.963  0.00  0.00     0.015 A 
+ATOM     11  C11  ET d           5.788  12.166 -33.710  0.00  0.00    -0.018 A 
+ATOM     12  C12  ET d           5.927  13.328 -32.990  0.00  0.00    -0.015 A 
+ATOM     13  C13  ET d           4.943  14.416 -33.087  0.00  0.00     0.001 A 
+ATOM     14  C14  ET d           3.894  14.265 -33.997  0.00  0.00     0.044 A 
+ENDROOT
+BRANCH   6  15
+ATOM     15  C15  ET d           4.611  10.923 -35.501  0.00  0.00    -0.031 A 
+ATOM     16  C16  ET d           5.363  10.728 -36.701  0.00  0.00     0.009 A 
+ATOM     17  C17  ET d           5.257   9.518 -37.350  0.00  0.00     0.001 A 
+ATOM     18  C18  ET d           4.358   8.544 -36.875  0.00  0.00     0.000 A 
+ATOM     19  C19  ET d           3.658   8.772 -35.664  0.00  0.00     0.001 A 
+ATOM     20  C20  ET d           3.744   9.980 -35.035  0.00  0.00     0.009 A 
+ENDBRANCH   6  15
+BRANCH   5  21
+ATOM     21  C21  ET d           2.677  13.102 -35.717  0.00  0.00     0.120 C 
+ATOM     22  C22  ET d           1.394  12.682 -35.046  0.00  0.00     0.026 C 
+ENDBRANCH   5  21
+BRANCH   8  23
+ATOM     23  N24  ET d           8.409  10.108 -32.358  0.00  0.00    -0.399 N 
+ATOM     24  H20  ET d           8.290   9.272 -32.948  0.00  0.00     0.156 HD
+ATOM     25  H21  ET d           9.101  10.106 -31.595  0.00  0.00     0.156 HD
+ENDBRANCH   8  23
+BRANCH   3  26
+ATOM     26  N23  ET d           2.226  17.494 -33.465  0.00  0.00    -0.399 N 
+ATOM     27  H18  ET d           2.314  18.352 -32.901  0.00  0.00     0.156 HD
+ATOM     28  H19  ET d           1.473  17.412 -34.163  0.00  0.00     0.156 HD
+ENDBRANCH   3  26
+TORSDOF 4

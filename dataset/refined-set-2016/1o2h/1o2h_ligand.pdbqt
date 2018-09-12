@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C7_7 
+REMARK    2  A    between atoms: C7_7  and  N1_8 
+REMARK    3  A    between atoms: C8_12  and  C1'_13 
+REMARK    4  A    between atoms: C5'_17  and  O5'_18 
+REMARK    5  A    between atoms: O5'_18  and  C2''_22 
+REMARK    6  A    between atoms: C6'_19  and  O6'_20 
+ROOT
+ATOM      1  C1  CR3 d          44.140  -3.104  25.944  0.00  0.00     0.008 A 
+ATOM      2  C2  CR3 d          44.519  -1.755  25.965  0.00  0.00     0.017 A 
+ATOM      3  C3  CR3 d          44.478  -1.023  27.131  0.00  0.00     0.031 A 
+ATOM      4  C4  CR3 d          44.062  -1.644  28.270  0.00  0.00     0.043 A 
+ATOM      5  C5  CR3 d          43.694  -2.932  28.302  0.00  0.00    -0.006 A 
+ATOM      6  C6  CR3 d          43.719  -3.710  27.147  0.00  0.00     0.029 A 
+ATOM      7  N3  CR3 d          43.931  -1.195  29.466  0.00  0.00    -0.355 N 
+ATOM      8  CN4 CR3 d          43.326  -3.299  29.510  0.00  0.00     0.044 A 
+ATOM      9  C8  CR3 d          43.497  -2.172  30.206  0.00  0.00     0.046 A 
+ATOM     10  H8  CR3 d          44.133  -0.236  29.782  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH   9  11
+ATOM     11  C1' CR3 d          43.273  -2.023  31.587  0.00  0.00     0.027 A 
+ATOM     12  C2' CR3 d          42.938  -3.133  32.360  0.00  0.00     0.017 A 
+ATOM     13  C3' CR3 d          42.753  -3.009  33.734  0.00  0.00     0.004 A 
+ATOM     14  C4' CR3 d          42.901  -1.785  34.351  0.00  0.00     0.040 A 
+ATOM     15  C5' CR3 d          43.238  -0.665  33.603  0.00  0.00     0.103 A 
+ATOM     16  C6' CR3 d          43.419  -0.777  32.233  0.00  0.00     0.111 A 
+BRANCH  15  17
+ATOM     17  O5' CR3 d          43.420   0.585  34.179  0.00  0.00    -0.343 OA
+BRANCH  17  18
+ATOM     18  C2' CR3 d          43.609   0.851  35.575  0.00  0.00     0.129 C 
+ATOM     19  C3' CR3 d          45.125   0.710  35.868  0.00  0.00     0.032 C 
+ATOM     20  C4' CR3 d          45.592   2.056  36.438  0.00  0.00     0.002 C 
+ATOM     21  C5' CR3 d          44.329   2.840  36.772  0.00  0.00     0.002 C 
+ATOM     22  C1' CR3 d          43.282   2.334  35.796  0.00  0.00     0.032 C 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+BRANCH  16  23
+ATOM     23  O6' CR3 d          43.723   0.389  31.552  0.00  0.00    -0.357 OA
+ATOM     24  H13 CR3 d          44.533   0.751  31.892  0.00  0.00     0.217 HD
+ENDBRANCH  16  23
+ENDBRANCH   9  11
+BRANCH   1  25
+ATOM     25  C7  CR3 d          44.187  -3.796  24.722  0.00  0.00     0.102 C 
+ATOM     26  N2  CR3 d          44.652  -3.171  23.666  0.00  0.00    -0.385 N 
+ATOM     27  H6  CR3 d          44.982  -2.199  23.747  0.00  0.00     0.157 HD
+ATOM     28  H7  CR3 d          44.687  -3.653  22.756  0.00  0.00     0.157 HD
+BRANCH  25  29
+ATOM     29  N1  CR3 d          43.763  -5.034  24.637  0.00  0.00    -0.385 N 
+ATOM     30  H4  CR3 d          43.802  -5.531  23.736  0.00  0.00     0.157 HD
+ATOM     31  H5  CR3 d          43.391  -5.509  25.471  0.00  0.00     0.157 HD
+ENDBRANCH  25  29
+ENDBRANCH   1  25
+TORSDOF 6

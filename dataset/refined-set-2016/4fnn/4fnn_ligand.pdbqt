@@ -1,0 +1,73 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+REMARK    2  A    between atoms: C2_4  and  C3_5 
+REMARK    3  A    between atoms: C3_5  and  C4_6 
+REMARK    4  A    between atoms: C4_6  and  C5_7 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C6_8  and  C7_9 
+REMARK    7  A    between atoms: C7_9  and  C8_10 
+REMARK    8  A    between atoms: C8_10  and  C9_11 
+REMARK    9  A    between atoms: C9_11  and  C10_12 
+REMARK   10  A    between atoms: C10_12  and  C11_13 
+REMARK   11  A    between atoms: C11_13  and  C12_14 
+REMARK   12  A    between atoms: C12_14  and  C13_15 
+REMARK   13  A    between atoms: C13_15  and  C14_16 
+REMARK   14  A    between atoms: C14_16  and  C15_17 
+REMARK   15  A    between atoms: C15_17  and  C16_18 
+REMARK   16  A    between atoms: C16_18  and  C17_19 
+ROOT
+ATOM      1  C8  STE d         -36.067 -25.099 -42.942  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C7  STE d         -36.696 -24.187 -41.890  0.00  0.00     0.000 C 
+BRANCH   2   3
+ATOM      3  C6  STE d         -36.955 -22.801 -42.445  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  C5  STE d         -36.883 -21.670 -41.448  0.00  0.00     0.000 C 
+BRANCH   4   5
+ATOM      5  C4  STE d         -35.470 -21.126 -41.385  0.00  0.00     0.001 C 
+BRANCH   5   6
+ATOM      6  C3  STE d         -35.451 -19.660 -40.961  0.00  0.00     0.010 C 
+BRANCH   6   7
+ATOM      7  C2  STE d         -34.048 -19.270 -40.517  0.00  0.00     0.113 C 
+BRANCH   7   8
+ATOM      8  C1  STE d         -33.853 -17.805 -40.687  0.00  0.00     0.172 C 
+ATOM      9  O1  STE d         -32.748 -17.326 -40.474  0.00  0.00    -0.648 OA
+ATOM     10  O2  STE d         -34.802 -17.125 -41.040  0.00  0.00    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C9  STE d         -34.960 -24.395 -43.692  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  C10 STE d         -34.773 -22.981 -43.148  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  C11 STE d         -33.290 -22.606 -43.026  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  C12 STE d         -32.433 -23.719 -42.442  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  C13 STE d         -32.214 -23.588 -40.929  0.00  0.00     0.000 C 
+BRANCH  15  16
+ATOM     16  C14 STE d         -33.496 -23.610 -40.091  0.00  0.00     0.000 C 
+BRANCH  16  17
+ATOM     17  C15 STE d         -33.518 -24.833 -39.169  0.00  0.00     0.000 C 
+BRANCH  17  18
+ATOM     18  C16 STE d         -34.927 -25.254 -38.735  0.00  0.00    -0.000 C 
+BRANCH  18  19
+ATOM     19  C17 STE d         -35.099 -26.761 -38.640  0.00  0.00    -0.005 C 
+ATOM     20  C18 STE d         -36.442 -27.261 -39.124  0.00  0.00     0.005 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 16

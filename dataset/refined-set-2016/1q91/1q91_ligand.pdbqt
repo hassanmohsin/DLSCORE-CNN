@@ -1,0 +1,43 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C23_23  and  C7_3 
+REMARK    2  A    between atoms: C16_16  and  N1_8 
+REMARK    3  A    between atoms: C23_23  and  P_25 
+ROOT
+ATOM      1  C16 DPB d           9.327  40.527  25.525  0.00  0.00     0.235 C 
+ATOM      2  O17 DPB d           9.436  39.711  24.384  0.00  0.00    -0.356 OA
+ATOM      3  C18 DPB d          10.040  41.864  23.715  0.00  0.00     0.161 C 
+ATOM      4  C19 DPB d           9.487  40.653  23.352  0.00  0.00     0.177 C 
+ATOM      5  C20 DPB d           9.722  41.876  25.109  0.00  0.00     0.089 C 
+ATOM      6  C21 DPB d          10.239  40.182  22.192  0.00  0.00     0.207 C 
+ATOM      7  O22 DPB d          11.459  41.879  23.672  0.00  0.00    -0.332 OA
+ATOM      8  C23 DPB d          12.249  41.380  22.567  0.00  0.00     0.312 C 
+ATOM      9  O24 DPB d          11.704  40.140  22.103  0.00  0.00    -0.338 OA
+ENDROOT
+BRANCH   1  10
+ATOM     10  N1  DPB d          10.039  39.849  26.612  0.00  0.00    -0.282 N 
+ATOM     11  C2  DPB d           9.435  38.672  27.097  0.00  0.00     0.331 A 
+ATOM     12  N3  DPB d          10.060  38.007  28.123  0.00  0.00    -0.275 N 
+ATOM     13  O2  DPB d           8.387  38.175  26.686  0.00  0.00    -0.246 OA
+ATOM     14  C4  DPB d          11.187  38.447  28.650  0.00  0.00     0.256 A 
+ATOM     15  H7  DPB d           9.650  37.167  28.480  0.00  0.00     0.173 HD
+ATOM     16  C5  DPB d          11.855  39.675  28.169  0.00  0.00     0.022 A 
+ATOM     17  O4  DPB d          11.722  37.799  29.599  0.00  0.00    -0.267 OA
+ATOM     18  C6  DPB d          11.286  40.419  27.120  0.00  0.00     0.110 A 
+ATOM     19  C5M DPB d          13.249  40.244  28.801  0.00  0.00     0.056 C 
+ENDBRANCH   1  10
+BRANCH   8  20
+ATOM     20  C7  DPB d          13.748  41.056  22.786  0.00  0.00     0.018 A 
+ATOM     21  C12 DPB d          14.438  41.945  23.754  0.00  0.00     0.013 A 
+ATOM     22  C11 DPB d          15.774  41.699  23.979  0.00  0.00     0.001 A 
+ATOM     23  C10 DPB d          16.582  40.582  23.304  0.00  0.00     0.000 A 
+ATOM     24  C9  DPB d          15.815  39.764  22.369  0.00  0.00     0.001 A 
+ATOM     25  C8  DPB d          14.438  39.948  22.079  0.00  0.00     0.013 A 
+ENDBRANCH   8  20
+BRANCH   8  26
+ATOM     26  P   DPB d          12.119  42.673  21.155  0.00  0.00     0.330 P 
+ATOM     27  O2P DPB d          12.714  41.774  19.989  0.00  0.00    -0.636 OA
+ATOM     28  O1P DPB d          13.071  43.759  21.445  0.00  0.00    -0.636 OA
+ATOM     29  O3P DPB d          10.686  43.056  20.829  0.00  0.00    -0.636 OA
+ENDBRANCH   8  26
+TORSDOF 3

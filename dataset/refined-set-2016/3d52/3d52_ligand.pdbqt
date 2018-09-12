@@ -1,0 +1,59 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_3  and  C6_4 
+REMARK    2  A    between atoms: C6_4  and  O6_5 
+REMARK    3  A    between atoms: C4_6  and  O4_7 
+REMARK    4  A    between atoms: C3_8  and  O3_9 
+REMARK    5  A    between atoms: C2_10  and  O2_11 
+REMARK    6  A    between atoms: O7_23  and  N1_12 
+REMARK    7  A    between atoms: N9_20  and  C9_19 
+REMARK       I    between atoms: C8_21  and  N9_20 
+REMARK    8  A    between atoms: C8_21  and  O7_23 
+ROOT
+ATOM      1  C1  GHR d          30.598  65.143  10.033  0.00  0.00     0.160 C 
+ATOM      2  N5  GHR d          29.626  65.806   9.294  0.00  0.00    -0.365 N 
+ATOM      3  C5  GHR d          29.695  65.973   7.824  0.00  0.00     0.138 C 
+ATOM      4  C4  GHR d          31.041  65.537   7.197  0.00  0.00     0.174 C 
+ATOM      5  C3  GHR d          32.168  65.445   8.206  0.00  0.00     0.185 C 
+ATOM      6  C2  GHR d          31.736  64.468   9.274  0.00  0.00     0.220 C 
+ATOM      7  N1  GHR d          30.557  65.090  11.365  0.00  0.00    -0.107 NA
+ATOM      8  H1  GHR d          28.817  66.201   9.794  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   6   9
+ATOM      9  O2  GHR d          32.811  64.135  10.119  0.00  0.00    -0.385 OA
+ATOM     10  H11 GHR d          33.505  63.738   9.605  0.00  0.00     0.210 HD
+ENDBRANCH   6   9
+BRANCH   7  11
+ATOM     11  O7  GHR d          29.601  65.613  12.199  0.00  0.00    -0.154 OA
+BRANCH  11  12
+ATOM     12  C8  GHR d          28.760  66.636  11.840  0.00  0.00     0.389 C 
+ATOM     13  N9  GHR d          28.598  67.644  12.715  0.00  0.00    -0.301 N 
+ATOM     14  H16 GHR d          27.959  68.377  12.479  0.00  0.00     0.171 HD
+ATOM     15  O8  GHR d          28.084  66.608  10.817  0.00  0.00    -0.236 OA
+BRANCH  13  16
+ATOM     16  C9  GHR d          29.241  67.720  13.878  0.00  0.00     0.037 A 
+ATOM     17  C10 GHR d          30.560  67.311  13.994  0.00  0.00     0.031 A 
+ATOM     18  C11 GHR d          31.204  67.392  15.210  0.00  0.00     0.026 A 
+ATOM     19  C12 GHR d          30.563  67.875  16.335  0.00  0.00     0.034 A 
+ATOM     20 CL12 GHR d          31.395  67.959  17.859  0.00  0.00    -0.084 Cl
+ATOM     21  C13 GHR d          29.239  68.283  16.224  0.00  0.00     0.026 A 
+ATOM     22  C14 GHR d          28.582  68.205  14.996  0.00  0.00     0.031 A 
+ENDBRANCH  13  16
+ENDBRANCH  11  12
+ENDBRANCH   7  11
+BRANCH   3  23
+ATOM     23  C6  GHR d          28.511  65.310   7.129  0.00  0.00     0.191 C 
+BRANCH  23  24
+ATOM     24  O6  GHR d          27.329  65.739   7.761  0.00  0.00    -0.399 OA
+ATOM     25  H5  GHR d          27.352  65.488   8.677  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH   3  23
+BRANCH   5  26
+ATOM     26  O3  GHR d          33.309  64.926   7.566  0.00  0.00    -0.390 OA
+ATOM     27  H9  GHR d          34.021  64.865   8.192  0.00  0.00     0.210 HD
+ENDBRANCH   5  26
+BRANCH   4  28
+ATOM     28  O4  GHR d          31.338  66.465   6.182  0.00  0.00    -0.391 OA
+ATOM     29  H7  GHR d          32.162  66.230   5.771  0.00  0.00     0.210 HD
+ENDBRANCH   4  28
+TORSDOF 8

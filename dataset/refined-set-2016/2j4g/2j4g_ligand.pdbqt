@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_11 
+REMARK    2  A    between atoms: C4_4  and  O4_12 
+REMARK    3  A    between atoms: C5_5  and  C6_6 
+REMARK    4  A    between atoms: C6_6  and  O6_14 
+REMARK    5  A    between atoms: C7_7  and  C8_8 
+REMARK    6  A    between atoms: C8_8  and  C9_16 
+ROOT
+ATOM      1  C1  NB1 d           1.297  -6.208  33.663  0.00  0.00     0.217 C 
+ATOM      2  C2  NB1 d           1.860  -7.552  33.128  0.00  0.00     0.179 C 
+ATOM      3  C3  NB1 d           2.733  -7.338  31.863  0.00  0.00     0.177 C 
+ATOM      4  C4  NB1 d           2.092  -6.348  30.872  0.00  0.00     0.180 C 
+ATOM      5  C5  NB1 d           1.759  -5.009  31.585  0.00  0.00     0.178 C 
+ATOM      6  C7  NB1 d           3.353  -7.216  35.074  0.00  0.00     0.068 C 
+ATOM      7  N2  NB1 d           2.729  -8.048  34.235  0.00  0.00    -0.276 NA
+ATOM      8  O5  NB1 d           0.889  -5.284  32.681  0.00  0.00    -0.363 OA
+ATOM      9  S1  NB1 d           2.605  -5.729  34.742  0.00  0.00    -0.081 SA
+ENDROOT
+BRANCH   5  10
+ATOM     10  C6  NB1 d           1.041  -3.975  30.677  0.00  0.00     0.198 C 
+BRANCH  10  11
+ATOM     11  O6  NB1 d          -0.148  -4.555  30.157  0.00  0.00    -0.398 OA
+ATOM     12  H15 NB1 d          -0.720  -4.801  30.875  0.00  0.00     0.209 HD
+ENDBRANCH  10  11
+ENDBRANCH   5  10
+BRANCH   4  13
+ATOM     13  O4  NB1 d           3.067  -6.174  29.860  0.00  0.00    -0.390 OA
+ATOM     14  H14 NB1 d           3.245  -7.011  29.447  0.00  0.00     0.210 HD
+ENDBRANCH   4  13
+BRANCH   3  15
+ATOM     15  O3  NB1 d           3.093  -8.578  31.266  0.00  0.00    -0.391 OA
+ATOM     16  H13 NB1 d           3.720  -8.423  30.570  0.00  0.00     0.210 HD
+ENDBRANCH   3  15
+BRANCH   6  17
+ATOM     17  C8  NB1 d           4.407  -7.542  36.119  0.00  0.00     0.066 C 
+BRANCH  17  18
+ATOM     18  C9  NB1 d           4.771  -6.272  36.915  0.00  0.00     0.002 C 
+ATOM     19  CM  NB1 d           5.891  -6.510  37.935  0.00  0.00     0.005 C 
+ENDBRANCH  17  18
+ENDBRANCH   6  17
+TORSDOF 6

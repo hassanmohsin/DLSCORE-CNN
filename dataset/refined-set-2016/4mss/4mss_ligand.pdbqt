@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  N2_3 
+REMARK       I    between atoms: N2_3  and  C8_12 
+REMARK    2  A    between atoms: C4_5  and  O4_6 
+REMARK    3  A    between atoms: C5_7  and  O5_8 
+REMARK    4  A    between atoms: C6_9  and  O6_10 
+ROOT
+ATOM      1  N1  2CZ d          68.305  -9.264   2.775  0.00  0.00    -0.071 N 
+ATOM      2  C2  2CZ d          67.593  -8.009   2.669  0.00  0.00     0.260 C 
+ATOM      3  C3  2CZ d          67.783  -7.044   3.788  0.00  0.00     0.141 C 
+ATOM      4  C4  2CZ d          67.799  -7.697   5.173  0.00  0.00     0.173 C 
+ATOM      5  C5  2CZ d          66.652  -8.642   5.408  0.00  0.00     0.179 C 
+ATOM      6  C6  2CZ d          66.647  -9.968   4.648  0.00  0.00     0.175 C 
+ATOM      7  C7  2CZ d          67.813 -10.266   3.742  0.00  0.00     0.266 C 
+ATOM      8  H1  2CZ d          69.257  -9.047   3.027  0.00  0.00     0.277 HD
+ATOM      9  H2  2CZ d          68.289  -9.695   1.864  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   3  10
+ATOM     10  N2  2CZ d          69.059  -6.381   3.661  0.00  0.00    -0.353 N 
+ATOM     11  C8  2CZ d          69.168  -4.952   3.558  0.00  0.00     0.214 C 
+ATOM     12  O8  2CZ d          68.173  -4.259   3.509  0.00  0.00    -0.274 OA
+ATOM     13  C9  2CZ d          70.550  -4.320   3.463  0.00  0.00     0.117 C 
+ATOM     14  H5  2CZ d          69.893  -6.933   3.644  0.00  0.00     0.163 HD
+ENDBRANCH   3  10
+BRANCH   4  15
+ATOM     15  O4  2CZ d          67.665  -6.708   6.171  0.00  0.00    -0.391 OA
+ATOM     16  H8  2CZ d          67.676  -7.120   7.027  0.00  0.00     0.210 HD
+ENDBRANCH   4  15
+BRANCH   5  17
+ATOM     17  O5  2CZ d          66.659  -8.841   6.825  0.00  0.00    -0.390 OA
+ATOM     18  H10 2CZ d          66.533  -8.007   7.261  0.00  0.00     0.210 HD
+ENDBRANCH   5  17
+BRANCH   6  19
+ATOM     19  O6  2CZ d          65.551  -9.989   3.723  0.00  0.00    -0.391 OA
+ATOM     20  H12 2CZ d          65.551 -10.814   3.252  0.00  0.00     0.210 HD
+ENDBRANCH   6  19
+TORSDOF 4

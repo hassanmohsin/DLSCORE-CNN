@@ -1,0 +1,76 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_2  and  C13_9 
+REMARK    2  A    between atoms: C5_5  and  C8_6 
+REMARK       I    between atoms: C8_6  and  N10_8 
+REMARK    3  A    between atoms: C13_9  and  C14_10 
+REMARK    4  A    between atoms: C13_9  and  C18_12 
+REMARK    5  A    between atoms: C14_10  and  O15_11 
+REMARK    6  A    between atoms: C18_12  and  C19_13 
+REMARK    7  A    between atoms: C19_13  and  N22_14 
+REMARK    8  A    between atoms: C33_21  and  N1_23 
+REMARK       I    between atoms: N1_23  and  C2_24 
+REMARK       I    between atoms: C2_24  and  N3_26 
+REMARK    9  A    between atoms: N3_26  and  C6_27 
+REMARK   10  A    between atoms: C6_27  and  C11_29 
+ROOT
+ATOM      1  N22 FR9 d          49.231  57.644  19.236  0.00  0.00    -0.356 N 
+ATOM      2  C27 FR9 d          48.735  58.810  18.700  0.00  0.00     0.092 A 
+ATOM      3  C28 FR9 d          48.268  58.568  17.442  0.00  0.00     0.031 A 
+ATOM      4  C29 FR9 d          48.475  57.179  17.226  0.00  0.00    -0.008 A 
+ATOM      5  C30 FR9 d          49.083  56.652  18.389  0.00  0.00     0.046 A 
+ATOM      6  C31 FR9 d          48.154  56.337  16.195  0.00  0.00     0.016 A 
+ATOM      7  C32 FR9 d          48.446  54.976  16.297  0.00  0.00     0.030 A 
+ATOM      8  C33 FR9 d          49.083  54.502  17.447  0.00  0.00     0.038 A 
+ATOM      9  C34 FR9 d          49.370  55.357  18.479  0.00  0.00     0.060 A 
+ENDROOT
+BRANCH   1  10
+ATOM     10  C19 FR9 d          49.871  57.546  20.530  0.00  0.00     0.131 C 
+BRANCH  10  11
+ATOM     11  C18 FR9 d          51.382  57.453  20.335  0.00  0.00     0.048 C 
+BRANCH  11  12
+ATOM     12  C13 FR9 d          52.085  57.033  21.613  0.00  0.00     0.115 C 
+BRANCH  12  13
+ATOM     13  N2  FR9 d          52.053  55.575  21.770  0.00  0.00    -0.342 N 
+ATOM     14  C1  FR9 d          51.984  54.514  20.752  0.00  0.00     0.129 A 
+ATOM     15  C5  FR9 d          51.766  53.308  21.342  0.00  0.00     0.141 A 
+ATOM     16  N4  FR9 d          51.638  53.616  22.763  0.00  0.00    -0.237 NA
+ATOM     17  C3  FR9 d          51.793  54.907  22.885  0.00  0.00     0.210 A 
+BRANCH  15  18
+ATOM     18  C8  FR9 d          51.738  51.964  20.795  0.00  0.00     0.269 C 
+ATOM     19  O9  FR9 d          51.908  51.920  19.697  0.00  0.00    -0.266 OA
+ATOM     20  N10 FR9 d          51.415  51.014  21.523  0.00  0.00    -0.365 N 
+ATOM     21  H3  FR9 d          51.394  50.085  21.153  0.00  0.00     0.159 HD
+ATOM     22  H4  FR9 d          51.176  51.176  22.480  0.00  0.00     0.159 HD
+ENDBRANCH  15  18
+ENDBRANCH  12  13
+BRANCH  12  23
+ATOM     23  C14 FR9 d          53.512  57.668  21.627  0.00  0.00     0.189 C 
+BRANCH  23  24
+ATOM     24  O15 FR9 d          54.543  57.431  22.698  0.00  0.00    -0.399 OA
+ATOM     25  H8  FR9 d          55.330  57.921  22.492  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH  12  23
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+BRANCH   8  26
+ATOM     26  N1  FR9 d          49.313  53.245  17.721  0.00  0.00    -0.309 N 
+ATOM     27  C2  FR9 d          49.256  52.202  16.853  0.00  0.00     0.320 C 
+ATOM     28  O1  FR9 d          48.746  52.328  15.766  0.00  0.00    -0.247 OA
+ATOM     29  N3  FR9 d          49.519  51.081  17.443  0.00  0.00    -0.339 N 
+ATOM     30  H19 FR9 d          49.883  51.089  18.374  0.00  0.00     0.164 HD
+ATOM     31  H18 FR9 d          49.556  53.029  18.667  0.00  0.00     0.170 HD
+BRANCH  29  32
+ATOM     32  C6  FR9 d          49.296  49.822  16.782  0.00  0.00     0.162 C 
+BRANCH  32  33
+ATOM     33  C11 FR9 d          48.032  49.219  17.355  0.00  0.00    -0.040 A 
+ATOM     34  C7  FR9 d          47.726  49.349  18.700  0.00  0.00     0.009 A 
+ATOM     35  C15 FR9 d          46.570  48.772  19.201  0.00  0.00     0.001 A 
+ATOM     36  C10 FR9 d          45.659  48.138  18.415  0.00  0.00     0.000 A 
+ATOM     37  C12 FR9 d          45.994  47.986  17.060  0.00  0.00     0.001 A 
+ATOM     38  C9  FR9 d          47.168  48.514  16.536  0.00  0.00     0.009 A 
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH   8  26
+TORSDOF 10

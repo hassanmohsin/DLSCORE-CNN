@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  C2_8 
+REMARK    3  A    between atoms: C5_11  and  C6_13 
+ROOT
+ATOM      1  C2  PTB d          21.584   1.139  -8.195  0.00  0.00     0.241 A 
+ATOM      2  N3  PTB d          21.276   2.371  -8.644  0.00  0.00    -0.118 NA
+ATOM      3  N4  PTB d          22.368   3.104  -8.682  0.00  0.00    -0.126 NA
+ATOM      4  C5  PTB d          23.430   2.372  -8.256  0.00  0.00     0.177 A 
+ATOM      5  O1  PTB d          22.974   1.076  -7.925  0.00  0.00    -0.270 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  C   PTB d          20.736  -0.018  -7.967  0.00  0.00     0.234 C 
+ATOM      7  O   PTB d          21.180  -1.105  -7.648  0.00  0.00    -0.286 OA
+BRANCH   6   8
+ATOM      8  CA  PTB d          19.246   0.236  -8.128  0.00  0.00     0.263 C 
+ATOM      9  N   PTB d          18.680  -0.476  -9.324  0.00  0.00    -0.064 N 
+ATOM     10  CD  PTB d          17.356  -1.060  -8.904  0.00  0.00     0.233 C 
+ATOM     11  H1  PTB d          19.305  -1.211  -9.617  0.00  0.00     0.278 HD
+ATOM     12  H2  PTB d          18.546   0.174 -10.083  0.00  0.00     0.278 HD
+ATOM     13  CG  PTB d          17.090  -0.647  -7.463  0.00  0.00     0.030 C 
+ATOM     14  CB  PTB d          18.413  -0.173  -6.912  0.00  0.00     0.043 C 
+ENDBRANCH   6   8
+ENDBRANCH   1   6
+BRANCH   4  15
+ATOM     15  C6  PTB d          24.884   2.716  -8.101  0.00  0.00     0.018 C 
+ATOM     16  C7  PTB d          25.001   4.023  -7.318  0.00  0.00     0.023 C 
+ATOM     17  C8  PTB d          25.506   2.894  -9.481  0.00  0.00     0.023 C 
+ATOM     18  C9  PTB d          25.600   1.592  -7.354  0.00  0.00     0.023 C 
+ENDBRANCH   4  15
+TORSDOF 3

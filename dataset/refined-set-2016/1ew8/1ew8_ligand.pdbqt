@@ -1,0 +1,19 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P_1  and  C1P_5 
+REMARK    2  A    between atoms: C1P_5  and  C1_6 
+ROOT
+ATOM      1  P   PAE d          74.008  39.208  42.700  0.00  0.00     0.269 P 
+ATOM      2  O1P PAE d          74.596  40.581  43.035  0.00  0.00    -0.639 OA
+ATOM      3  O2P PAE d          72.771  39.064  43.580  0.00  0.00    -0.639 OA
+ATOM      4  O3P PAE d          73.685  39.114  41.276  0.00  0.00    -0.639 OA
+ENDROOT
+BRANCH   1   5
+ATOM      5  C1P PAE d          75.208  37.927  43.238  0.00  0.00     0.258 C 
+BRANCH   5   6
+ATOM      6  C1  PAE d          74.834  37.700  44.735  0.00  0.00     0.185 C 
+ATOM      7  O1  PAE d          74.109  38.624  45.183  0.00  0.00    -0.647 OA
+ATOM      8  O2  PAE d          74.969  36.580  45.208  0.00  0.00    -0.647 OA
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 2

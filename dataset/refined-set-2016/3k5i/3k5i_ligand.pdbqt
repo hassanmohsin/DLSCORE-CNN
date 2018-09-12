@@ -1,0 +1,49 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1'_7 
+REMARK    2  A    between atoms: C5_5  and  N6_6 
+REMARK    3  A    between atoms: C2'_8  and  O2'_12 
+REMARK    4  A    between atoms: C3'_9  and  O3'_13 
+REMARK    5  A    between atoms: C4'_10  and  C5'_14 
+REMARK    6  A    between atoms: C5'_14  and  O5'_15 
+REMARK    7  A    between atoms: O5'_15  and  P_16 
+ROOT
+ATOM      1  C1' AIR d         -21.645   9.799  45.390  0.00  0.00     0.262 C 
+ATOM      2  C2' AIR d         -21.952  11.166  44.792  0.00  0.00     0.198 C 
+ATOM      3  C3' AIR d         -22.732  11.776  45.965  0.00  0.00     0.182 C 
+ATOM      4  C4' AIR d         -21.877  11.309  47.129  0.00  0.00     0.180 C 
+ATOM      5  O4' AIR d         -21.829   9.908  46.772  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  AIR d         -22.542   8.742  44.913  0.00  0.00    -0.296 N 
+ATOM      7  C2  AIR d         -23.436   8.695  43.891  0.00  0.00     0.213 A 
+ATOM      8  N3  AIR d         -24.314   7.692  43.896  0.00  0.00    -0.252 NA
+ATOM      9  C4  AIR d         -23.852   7.000  44.990  0.00  0.00     0.166 A 
+ATOM     10  C5  AIR d         -22.752   7.567  45.583  0.00  0.00     0.122 A 
+BRANCH  10  11
+ATOM     11  N6  AIR d         -22.100   7.125  46.681  0.00  0.00    -0.384 N 
+ATOM     12  H3  AIR d         -22.350   6.217  47.098  0.00  0.00     0.157 HD
+ATOM     13  H4  AIR d         -21.353   7.696  47.101  0.00  0.00     0.157 HD
+ENDBRANCH  10  11
+ENDBRANCH   1   6
+BRANCH   2  14
+ATOM     14  O2' AIR d         -20.655  11.783  44.751  0.00  0.00    -0.388 OA
+ATOM     15  H9  AIR d         -20.755  12.720  44.627  0.00  0.00     0.210 HD
+ENDBRANCH   2  14
+BRANCH   3  16
+ATOM     16  O3' AIR d         -22.708  13.203  45.947  0.00  0.00    -0.390 OA
+ATOM     17  H10 AIR d         -21.813  13.502  45.839  0.00  0.00     0.210 HD
+ENDBRANCH   3  16
+BRANCH   4  18
+ATOM     18  C5' AIR d         -22.214  11.662  48.565  0.00  0.00     0.217 C 
+BRANCH  18  19
+ATOM     19  O5' AIR d         -21.809  10.638  49.519  0.00  0.00    -0.280 OA
+BRANCH  19  20
+ATOM     20  P   AIR d         -22.079  10.810  51.117  0.00  0.00     0.422 P 
+ATOM     21  O6  AIR d         -21.946  12.318  51.638  0.00  0.00    -0.617 OA
+ATOM     22  O7  AIR d         -21.071  10.033  51.922  0.00  0.00    -0.617 OA
+ATOM     23  O8  AIR d         -23.448  10.323  51.560  0.00  0.00    -0.617 OA
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+TORSDOF 7

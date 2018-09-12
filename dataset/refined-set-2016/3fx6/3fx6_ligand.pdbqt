@@ -1,0 +1,53 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_6  and  CAF_7 
+REMARK    2  A    between atoms: CAF_7  and  CAB_8 
+REMARK    3  A    between atoms: CAB_8  and  CAC_9 
+REMARK    4  A    between atoms: CAB_8  and  CAA_12 
+REMARK    5  A    between atoms: CAA_12  and  CAG_13 
+REMARK    6  A    between atoms: CAG_13  and  OAP_14 
+REMARK    7  A    between atoms: CAG_13  and  OAQ_15 
+REMARK    8  A    between atoms: CAG_13  and  CAH_16 
+REMARK    9  A    between atoms: CAH_16  and  NAM_17 
+ROOT
+ATOM      1  CAB BPX d         -22.927   0.447  -9.774  0.00  0.00     0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAF BPX d         -22.690   1.357  -8.565  0.00  0.00     0.054 C 
+BRANCH   2   3
+ATOM      3  CAK BPX d         -23.635   1.022  -7.408  0.00  0.00    -0.057 A 
+ATOM      4  CAJ BPX d         -24.890   1.614  -7.326  0.00  0.00     0.007 A 
+ATOM      5  CAI BPX d         -25.747   1.293  -6.280  0.00  0.00     0.001 A 
+ATOM      6  CAE BPX d         -25.349   0.379  -5.310  0.00  0.00     0.000 A 
+ATOM      7  CAD BPX d         -24.093  -0.212  -5.389  0.00  0.00     0.001 A 
+ATOM      8  CAL BPX d         -23.237   0.110  -6.436  0.00  0.00     0.007 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  CAC BPX d         -24.280   0.745 -10.425  0.00  0.00     0.177 C 
+ATOM     10  OAO BPX d         -24.704  -0.096 -11.248  0.00  0.00    -0.648 OA
+ATOM     11  OAN BPX d         -24.858   1.802 -10.092  0.00  0.00    -0.648 OA
+ENDBRANCH   1   9
+BRANCH   1  12
+ATOM     12  CAA BPX d         -21.821   0.653 -10.811  0.00  0.00     0.086 C 
+BRANCH  12  13
+ATOM     13  CAG BPX d         -20.867  -0.543 -10.772  0.00  0.00     0.182 C 
+BRANCH  13  14
+ATOM     14  OAP BPX d         -20.373  -0.737  -9.444  0.00  0.00    -0.364 OA
+ATOM     15  H11 BPX d         -21.103  -0.884  -8.854  0.00  0.00     0.213 HD
+ENDBRANCH  13  14
+BRANCH  13  16
+ATOM     16  OAQ BPX d         -21.587  -1.711 -11.176  0.00  0.00    -0.364 OA
+ATOM     17  H12 BPX d         -21.918  -1.588 -12.058  0.00  0.00     0.213 HD
+ENDBRANCH  13  16
+BRANCH  13  18
+ATOM     18  CAH BPX d         -19.701  -0.319 -11.739  0.00  0.00     0.269 C 
+BRANCH  18  19
+ATOM     19  NAM BPX d         -20.180  -0.405 -13.126  0.00  0.00    -0.150 N 
+ATOM     20  OAS BPX d         -20.220  -1.664 -13.787  0.00  0.00    -0.536 OA
+ATOM     21  OAR BPX d         -20.594   0.768 -13.814  0.00  0.00    -0.536 OA
+ENDBRANCH  18  19
+ENDBRANCH  13  18
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9

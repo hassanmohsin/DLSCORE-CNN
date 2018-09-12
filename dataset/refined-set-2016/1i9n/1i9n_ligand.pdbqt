@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C03_3  and  S11_11 
+REMARK    2  A    between atoms: C06_6  and  C07_7 
+REMARK       I    between atoms: C07_7  and  N09_9 
+REMARK    3  A    between atoms: N09_9  and  C10_10 
+REMARK    4  A    between atoms: S11_11  and  NP2_12 
+ROOT
+ATOM      1  C07 IOA d          -4.294   4.795  13.310  0.00  0.00     0.251 C 
+ATOM      2  O08 IOA d          -5.166   5.631  12.980  0.00  0.00    -0.268 OA
+ATOM      3  N09 IOA d          -2.943   4.947  12.805  0.00  0.00    -0.353 N 
+ATOM      4  H5  IOA d          -2.323   4.167  12.720  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C06 IOA d          -4.766   3.656  14.218  0.00  0.00     0.032 A 
+ATOM      6  C01 IOA d          -3.858   2.665  14.634  0.00  0.00     0.018 A 
+ATOM      7  C02 IOA d          -4.255   1.600  15.455  0.00  0.00     0.026 A 
+ATOM      8  C03 IOA d          -5.630   1.511  15.880  0.00  0.00     0.079 A 
+ATOM      9  C04 IOA d          -6.521   2.506  15.467  0.00  0.00     0.026 A 
+ATOM     10  C05 IOA d          -6.091   3.565  14.651  0.00  0.00     0.018 A 
+BRANCH   8  11
+ATOM     11  S11 IOA d          -6.097   0.122  16.915  0.00  0.00     0.256 S 
+ATOM     12  O14 IOA d          -5.416   0.483  18.173  0.00  0.00    -0.201 OA
+ATOM     13  O13 IOA d          -7.531   0.347  17.064  0.00  0.00    -0.201 OA
+BRANCH  11  14
+ATOM     14  NP2 IOA d          -5.646  -1.376  16.276  0.00  0.00    -0.324 N 
+ATOM     15  H8  IOA d          -5.859  -2.217  16.774  0.00  0.00     0.169 HD
+ATOM     16  H9  IOA d          -5.166  -1.422  15.400  0.00  0.00     0.169 HD
+ENDBRANCH  11  14
+ENDBRANCH   8  11
+ENDBRANCH   1   5
+BRANCH   3  17
+ATOM     17  C10 IOA d          -2.534   6.294  12.427  0.00  0.00     0.164 C 
+ATOM     18  C15 IOA d          -1.873   7.142  13.337  0.00  0.00     0.001 A 
+ATOM     19  C20 IOA d          -0.923   8.138  12.834  0.00  0.00     0.124 A 
+ATOM     20  C16 IOA d          -2.155   7.010  14.761  0.00  0.00     0.054 A 
+ATOM     21  C19 IOA d          -0.260   9.002  13.760  0.00  0.00     0.046 A 
+ATOM     22  F21 IOA d          -0.681   8.256  11.655  0.00  0.00    -0.205 F 
+ATOM     23  C18 IOA d          -0.534   8.888  15.200  0.00  0.00     0.045 A 
+ATOM     24  C17 IOA d          -1.474   7.896  15.700  0.00  0.00     0.117 A 
+ATOM     25  F22 IOA d          -1.721   7.797  17.036  0.00  0.00    -0.206 F 
+ENDBRANCH   3  17
+TORSDOF 4

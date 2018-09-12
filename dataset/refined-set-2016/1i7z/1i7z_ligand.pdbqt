@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5_2  and  C6_3 
+REMARK    2  A    between atoms: C6_3  and  C8_5 
+REMARK    3  A    between atoms: C29_13  and  O1_14 
+REMARK    4  A    between atoms: O1_14  and  C2_15 
+REMARK    5  A    between atoms: C2_15  and  C4_17 
+ROOT
+ATOM      1  C8  COC d          38.943   4.207  46.801  0.00  0.00     0.146 C 
+ATOM      2  C10 COC d          39.446   3.433  45.510  0.00  0.00     0.204 C 
+ATOM      3  N12 COC d          40.510   4.246  44.881  0.00  0.00    -0.065 N 
+ATOM      4  C14 COC d          41.364   3.471  43.947  0.00  0.00     0.270 C 
+ATOM      5  C18 COC d          38.356   3.237  44.418  0.00  0.00     0.036 C 
+ATOM      6  C21 COC d          38.532   4.487  43.510  0.00  0.00     0.035 C 
+ATOM      7  C24 COC d          39.685   5.264  44.193  0.00  0.00     0.191 C 
+ATOM      8  C26 COC d          39.148   6.256  45.289  0.00  0.00     0.066 C 
+ATOM      9  C29 COC d          38.279   5.511  46.306  0.00  0.00     0.149 C 
+ATOM     10  H6  COC d          41.101   4.670  45.579  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   9  11
+ATOM     11  O1  COC d          37.945   6.373  47.452  0.00  0.00    -0.311 OA
+BRANCH  11  12
+ATOM     12  C2  COC d          36.915   6.073  48.282  0.00  0.00     0.293 C 
+ATOM     13  O3  COC d          36.053   5.280  48.016  0.00  0.00    -0.259 OA
+BRANCH  12  14
+ATOM     14  C4  COC d          36.985   6.863  49.591  0.00  0.00     0.039 A 
+ATOM     15  C13 COC d          37.956   7.835  49.823  0.00  0.00     0.017 A 
+ATOM     16  C11 COC d          37.983   8.538  51.052  0.00  0.00     0.001 A 
+ATOM     17  C9  COC d          37.040   8.265  52.036  0.00  0.00     0.000 A 
+ATOM     18  C7  COC d          36.076   7.313  51.823  0.00  0.00     0.001 A 
+ATOM     19  C5  COC d          36.025   6.591  50.602  0.00  0.00     0.017 A 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH   9  11
+BRANCH   1  20
+ATOM     20  C6  COC d          40.131   4.439  47.759  0.00  0.00     0.267 C 
+ATOM     21  O7  COC d          41.266   4.752  47.497  0.00  0.00    -0.265 OA
+BRANCH  20  22
+ATOM     22  O5  COC d          39.682   4.228  49.012  0.00  0.00    -0.326 OA
+ATOM     23  C1  COC d          40.362   4.882  50.118  0.00  0.00     0.213 C 
+ENDBRANCH  20  22
+ENDBRANCH   1  20
+TORSDOF 5

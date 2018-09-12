@@ -1,0 +1,60 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O3A_8  and  PB_1 
+REMARK    2  A    between atoms: PA_5  and  O3A_8 
+REMARK    3  A    between atoms: PA_5  and  O5'_9 
+REMARK    4  A    between atoms: O5'_9  and  C5'_10 
+REMARK    5  A    between atoms: C5'_10  and  C4'_11 
+REMARK    6  A    between atoms: C3'_13  and  O3'_14 
+REMARK    7  A    between atoms: C2'_15  and  O2'_16 
+REMARK    8  A    between atoms: C1'_17  and  N9_18 
+ROOT
+ATOM      1  C4' ADP d         -45.265  10.467   2.174  0.00  0.00     0.180 C 
+ATOM      2  O4' ADP d         -46.612  10.647   1.666  0.00  0.00    -0.353 OA
+ATOM      3  C3' ADP d         -45.247  11.264   3.470  0.00  0.00     0.182 C 
+ATOM      4  C2' ADP d         -46.354  12.264   3.268  0.00  0.00     0.198 C 
+ATOM      5  C1' ADP d         -46.896  12.033   1.889  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  ADP d         -48.256  12.441   2.209  0.00  0.00    -0.294 N 
+ATOM      7  C8  ADP d         -49.435  12.146   1.674  0.00  0.00     0.214 A 
+ATOM      8  N7  ADP d         -50.432  12.764   2.333  0.00  0.00    -0.236 NA
+ATOM      9  C5  ADP d         -49.871  13.464   3.311  0.00  0.00     0.149 A 
+ATOM     10  C6  ADP d         -50.325  14.338   4.384  0.00  0.00     0.155 A 
+ATOM     11  C4  ADP d         -48.428  13.248   3.225  0.00  0.00     0.167 A 
+ATOM     12  N6  ADP d         -51.628  14.569   4.510  0.00  0.00    -0.382 N 
+ATOM     13  N1  ADP d         -49.398  14.883   5.204  0.00  0.00    -0.222 NA
+ATOM     14  H10 ADP d         -51.972  15.184   5.261  0.00  0.00     0.157 HD
+ATOM     15  H11 ADP d         -52.294  14.133   3.856  0.00  0.00     0.157 HD
+ATOM     16  C2  ADP d         -48.082  14.650   5.049  0.00  0.00     0.237 A 
+ATOM     17  N3  ADP d         -47.582  13.852   4.097  0.00  0.00    -0.222 NA
+ENDBRANCH   5   6
+BRANCH   4  18
+ATOM     18  O2' ADP d         -45.971  13.561   2.846  0.00  0.00    -0.388 OA
+ATOM     19  H7  ADP d         -46.745  14.104   2.752  0.00  0.00     0.210 HD
+ENDBRANCH   4  18
+BRANCH   1  20
+ATOM     20  C5' ADP d         -44.753   9.013   2.217  0.00  0.00     0.216 C 
+BRANCH  20  21
+ATOM     21  O5' ADP d         -43.380   8.940   1.791  0.00  0.00    -0.287 OA
+BRANCH  21  22
+ATOM     22  PA  ADP d         -42.670   7.611   1.153  0.00  0.00     0.418 P 
+ATOM     23  O1A ADP d         -42.686   6.474   2.145  0.00  0.00    -0.624 OA
+ATOM     24  O2A ADP d         -43.230   7.377  -0.228  0.00  0.00    -0.624 OA
+BRANCH  22  25
+ATOM     25  O3A ADP d         -41.119   8.000   0.958  0.00  0.00    -0.173 OA
+BRANCH  25  26
+ATOM     26  PB  ADP d         -40.194   6.943   0.173  0.00  0.00     0.431 P 
+ATOM     27  O1B ADP d         -39.054   6.640   1.121  0.00  0.00    -0.616 OA
+ATOM     28  O2B ADP d         -39.735   7.659  -1.074  0.00  0.00    -0.616 OA
+ATOM     29  O3B ADP d         -41.142   5.791  -0.079  0.00  0.00    -0.616 OA
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   3  30
+ATOM     30  O3' ADP d         -44.040  11.976   3.597  0.00  0.00    -0.390 OA
+ATOM     31  H5  ADP d         -43.949  12.575   2.865  0.00  0.00     0.210 HD
+ENDBRANCH   3  30
+TORSDOF 8

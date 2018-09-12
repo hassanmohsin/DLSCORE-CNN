@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_3  and  N2_12 
+REMARK    2  A    between atoms: C10_8  and  N5_16 
+ROOT
+ATOM      1  N1  HRD d          17.422  17.604  17.378  0.00  0.00    -0.188 N 
+ATOM      2  N3  HRD d          19.483  17.961  18.190  0.00  0.00    -0.063 NA
+ATOM      3  C4  HRD d          18.711  17.897  17.085  0.00  0.00     0.701 A 
+ATOM      4  C6  HRD d          18.662  17.690  19.225  0.00  0.00     0.104 A 
+ATOM      5  C7  HRD d          18.957  17.633  20.593  0.00  0.00     0.053 A 
+ATOM      6  C8  HRD d          17.873  17.340  21.436  0.00  0.00     0.050 A 
+ATOM      7  C10 HRD d          15.789  16.775  23.161  0.00  0.00     0.702 A 
+ATOM      8  C1  HRD d          16.573  17.129  20.944  0.00  0.00     0.092 A 
+ATOM      9  C2  HRD d          16.306  17.190  19.569  0.00  0.00     0.065 A 
+ATOM     10  C3  HRD d          17.388  17.482  18.729  0.00  0.00     0.081 A 
+ATOM     11  C9  HRD d          18.023  17.280  22.818  0.00  0.00     0.206 A 
+ATOM     12  O1  HRD d          19.238  17.476  23.405  0.00  0.00    -0.171 OA
+ATOM     13  N4  HRD d          17.014  16.995  23.669  0.00  0.00    -0.165 N 
+ATOM     14  N6  HRD d          15.598  16.839  21.827  0.00  0.00    -0.064 NA
+ATOM     15  H1  HRD d          16.638  17.497  16.719  0.00  0.00     0.184 HD
+ATOM     16  H8  HRD d          17.174  16.949  24.655  0.00  0.00     0.186 HD
+ENDROOT
+BRANCH   3  17
+ATOM     17  N2  HRD d          19.178  18.100  15.834  0.00  0.00    -0.229 N 
+ATOM     18  C5  HRD d          18.296  18.028  14.681  0.00  0.00     0.165 C 
+ATOM     19  H7  HRD d          20.177  18.309  15.695  0.00  0.00     0.177 HD
+ENDBRANCH   3  17
+BRANCH   7  20
+ATOM     20  N5  HRD d          14.811  16.507  24.064  0.00  0.00    -0.229 N 
+ATOM     21  C11 HRD d          13.458  16.295  23.567  0.00  0.00     0.165 C 
+ATOM     22  H9  HRD d          15.020  16.455  25.071  0.00  0.00     0.177 HD
+ENDBRANCH   7  20
+TORSDOF 2

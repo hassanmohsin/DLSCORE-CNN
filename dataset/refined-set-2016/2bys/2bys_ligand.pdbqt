@@ -1,0 +1,53 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  C1_3 
+REMARK    2  A    between atoms: C3_2  and  C8_9 
+REMARK    3  A    between atoms: C8_9  and  C9_10 
+REMARK    4  A    between atoms: C11_14  and  C14_17 
+REMARK    5  A    between atoms: C14_17  and  C16_18 
+REMARK    6  A    between atoms: C16_18  and  O2_19 
+REMARK    7  A    between atoms: C16_18  and  C17_20 
+ROOT
+ATOM      1  C9  LOB d          -7.993  24.207   4.642  0.00  0.00     0.195 C 
+ATOM      2  C12 LOB d          -8.451  22.786   4.915  0.00  0.00     0.034 C 
+ATOM      3  C15 LOB d          -9.907  22.675   4.529  0.00  0.00     0.004 C 
+ATOM      4  C13 LOB d         -10.029  22.710   3.017  0.00  0.00     0.033 C 
+ATOM      5  C11 LOB d          -9.269  23.854   2.338  0.00  0.00     0.191 C 
+ATOM      6  N1  LOB d          -8.316  24.573   3.234  0.00  0.00    -0.066 N 
+ATOM      7  C22 LOB d          -8.314  26.014   3.004  0.00  0.00     0.270 C 
+ATOM      8  H16 LOB d          -7.450  24.297   2.798  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   5   9
+ATOM      9  C14 LOB d          -8.490  23.320   1.119  0.00  0.00     0.069 C 
+BRANCH   9  10
+ATOM     10  C16 LOB d          -8.077  24.436   0.155  0.00  0.00     0.153 C 
+BRANCH  10  11
+ATOM     11  O2  LOB d          -6.700  24.744   0.374  0.00  0.00    -0.391 OA
+ATOM     12  H23 LOB d          -6.433  25.436  -0.220  0.00  0.00     0.210 HD
+ENDBRANCH  10  11
+BRANCH  10  13
+ATOM     13  C17 LOB d          -8.264  24.115  -1.291  0.00  0.00    -0.030 A 
+ATOM     14  C18 LOB d          -7.861  22.897  -1.838  0.00  0.00     0.010 A 
+ATOM     15  C20 LOB d          -8.045  22.631  -3.197  0.00  0.00     0.001 A 
+ATOM     16  C21 LOB d          -8.626  23.585  -4.031  0.00  0.00     0.000 A 
+ATOM     17  C10 LOB d          -9.015  24.812  -3.492  0.00  0.00     0.001 A 
+ATOM     18  C19 LOB d          -8.830  25.075  -2.134  0.00  0.00     0.010 A 
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+BRANCH   1  19
+ATOM     19  C8  LOB d          -6.479  24.410   4.837  0.00  0.00     0.117 C 
+BRANCH  19  20
+ATOM     20  C3  LOB d          -5.871  23.800   6.088  0.00  0.00     0.161 C 
+ATOM     21  O1  LOB d          -5.815  22.584   6.149  0.00  0.00    -0.292 OA
+BRANCH  20  22
+ATOM     22  C1  LOB d          -5.293  24.612   7.229  0.00  0.00     0.010 A 
+ATOM     23  C2  LOB d          -4.770  23.956   8.351  0.00  0.00     0.015 A 
+ATOM     24  C5  LOB d          -4.231  24.683   9.414  0.00  0.00     0.001 A 
+ATOM     25  C6  LOB d          -4.209  26.076   9.373  0.00  0.00     0.000 A 
+ATOM     26  C7  LOB d          -4.721  26.740   8.264  0.00  0.00     0.001 A 
+ATOM     27  C4  LOB d          -5.254  26.009   7.201  0.00  0.00     0.015 A 
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+TORSDOF 7

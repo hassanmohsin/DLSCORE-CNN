@@ -1,0 +1,23 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C04_4  and  S07_7 
+REMARK    2  A    between atoms: S07_7  and  NP0_10 
+ROOT
+ATOM      1  C01 FB2 d          16.966   6.198  14.564  0.00  0.00     0.000 A 
+ATOM      2  C02 FB2 d          15.626   6.137  14.965  0.00  0.00     0.002 A 
+ATOM      3  C03 FB2 d          15.120   5.045  15.705  0.00  0.00     0.025 A 
+ATOM      4  C04 FB2 d          15.946   3.951  16.072  0.00  0.00     0.079 A 
+ATOM      5  C05 FB2 d          17.291   4.042  15.650  0.00  0.00     0.025 A 
+ATOM      6  C06 FB2 d          17.809   5.136  14.909  0.00  0.00     0.002 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  S07 FB2 d          15.372   2.677  16.935  0.00  0.00     0.256 S 
+ATOM      8  O09 FB2 d          13.922   2.746  16.888  0.00  0.00    -0.201 OA
+ATOM      9  O08 FB2 d          15.957   2.835  18.230  0.00  0.00    -0.201 OA
+BRANCH   7  10
+ATOM     10  NP0 FB2 d          15.861   1.298  16.311  0.00  0.00    -0.324 N 
+ATOM     11  H6  FB2 d          15.588   0.433  16.733  0.00  0.00     0.169 HD
+ATOM     12  H7  FB2 d          16.441   1.296  15.497  0.00  0.00     0.169 HD
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+TORSDOF 2

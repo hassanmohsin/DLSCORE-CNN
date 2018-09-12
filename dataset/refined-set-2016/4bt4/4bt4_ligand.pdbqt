@@ -1,0 +1,28 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_7  and  OA4_1 
+REMARK    2  A    between atoms: CA2_4  and  OA3_5 
+REMARK    3  A    between atoms: CA2_4  and  CA1_6 
+REMARK    4  A    between atoms: CA2_4  and  C3_7 
+ROOT
+ATOM      1  CA3 QFH d         -22.817  29.042  82.507  0.00  0.00     0.060 C 
+ATOM      2  CA2 QFH d         -22.993  30.067  83.637  0.00  0.00     0.167 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  OA3 QFH d         -21.898  29.996  84.608  0.00  0.00    -0.377 OA
+ATOM      4  H8  QFH d         -22.039  30.642  85.290  0.00  0.00     0.211 HD
+ENDBRANCH   2   3
+BRANCH   2   5
+ATOM      5  CA1 QFH d         -22.894  31.453  83.020  0.00  0.00     0.211 C 
+ATOM      6  OA1 QFH d         -23.803  31.829  82.219  0.00  0.00    -0.646 OA
+ATOM      7  OA2 QFH d         -21.857  32.168  83.232  0.00  0.00    -0.646 OA
+ENDBRANCH   2   5
+BRANCH   2   8
+ATOM      8  C3  QFH d         -24.298  29.805  84.432  0.00  0.00     0.159 C 
+ATOM      9  CA5 QFH d         -25.545  29.800  83.562  0.00  0.00     0.043 C 
+BRANCH   8  10
+ATOM     10  OA4 QFH d         -24.390  30.852  85.420  0.00  0.00    -0.392 OA
+ATOM     11  H1  QFH d         -23.607  30.848  85.958  0.00  0.00     0.210 HD
+ENDBRANCH   8  10
+ENDBRANCH   2   8
+TORSDOF 4

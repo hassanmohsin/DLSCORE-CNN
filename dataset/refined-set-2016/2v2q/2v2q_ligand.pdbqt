@@ -1,0 +1,69 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAT_4  and  NAA_5 
+REMARK    2  A    between atoms: NBD_8  and  CBC_9 
+REMARK    3  A    between atoms: CBA_11  and  OAE_12 
+REMARK    4  A    between atoms: CAZ_13  and  OAD_14 
+REMARK    5  A    between atoms: CBB_15  and  CAN_16 
+REMARK    6  A    between atoms: CAN_16  and  NAQ_17 
+REMARK       I    between atoms: NAQ_17  and  CAU_18 
+REMARK    7  A    between atoms: CAU_18  and  CAL_20 
+REMARK    8  A    between atoms: CAL_20  and  CAM_21 
+REMARK    9  A    between atoms: CAM_21  and  CAW_22 
+ROOT
+ATOM      1  CBC NVG d          14.718 -10.360  17.183  0.00  0.00     0.263 C 
+ATOM      2  OAS NVG d          15.246 -10.416  18.560  0.00  0.00    -0.354 OA
+ATOM      3  CBA NVG d          15.951 -10.487  16.258  0.00  0.00     0.198 C 
+ATOM      4  CAZ NVG d          17.161 -10.283  17.168  0.00  0.00     0.181 C 
+ATOM      5  CBB NVG d          16.561  -9.801  18.516  0.00  0.00     0.173 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CAN NVG d          17.302 -10.092  19.864  0.00  0.00     0.157 C 
+BRANCH   6   7
+ATOM      7  NAQ NVG d          18.231 -11.230  19.737  0.00  0.00    -0.359 N 
+ATOM      8  CAU NVG d          19.541 -11.141  19.982  0.00  0.00     0.217 C 
+ATOM      9  OAB NVG d          20.112 -10.110  20.337  0.00  0.00    -0.274 OA
+ATOM     10  H13 NVG d          17.861 -12.114  19.453  0.00  0.00     0.162 HD
+BRANCH   8  11
+ATOM     11  CAL NVG d          20.339 -12.442  19.789  0.00  0.00     0.110 C 
+BRANCH  11  12
+ATOM     12  CAM NVG d          19.505 -13.707  20.045  0.00  0.00     0.087 C 
+BRANCH  12  13
+ATOM     13  CAW NVG d          19.126 -13.843  21.522  0.00  0.00     0.105 A 
+ATOM     14  NAR NVG d          18.290 -13.043  22.184  0.00  0.00    -0.233 NA
+ATOM     15  CAY NVG d          18.206 -13.468  23.438  0.00  0.00     0.085 A 
+ATOM     16  CAK NVG d          17.491 -13.009  24.543  0.00  0.00     0.034 A 
+ATOM     17  CAX NVG d          19.030 -14.583  23.547  0.00  0.00     0.062 A 
+ATOM     18  CAI NVG d          17.605 -13.678  25.761  0.00  0.00     0.002 A 
+ATOM     19  CAH NVG d          18.430 -14.799  25.870  0.00  0.00     0.002 A 
+ATOM     20  CAJ NVG d          19.146 -15.254  24.763  0.00  0.00     0.032 A 
+ATOM     21  NAP NVG d          19.576 -14.784  22.352  0.00  0.00    -0.343 N 
+ATOM     22  H22 NVG d          20.234 -15.538  22.109  0.00  0.00     0.167 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   4  23
+ATOM     23  OAD NVG d          17.818 -11.539  17.298  0.00  0.00    -0.390 OA
+ATOM     24  H9  NVG d          18.095 -11.841  16.441  0.00  0.00     0.210 HD
+ENDBRANCH   4  23
+BRANCH   1  25
+ATOM     25  NBD NVG d          13.896  -9.124  16.900  0.00  0.00    -0.280 N 
+ATOM     26  CAV NVG d          13.041  -9.037  15.762  0.00  0.00     0.330 A 
+ATOM     27  OAC NVG d          12.944  -9.971  14.961  0.00  0.00    -0.246 OA
+ATOM     28  NAO NVG d          12.319  -7.914  15.550  0.00  0.00    -0.293 N 
+ATOM     29  CAT NVG d          12.373  -6.865  16.391  0.00  0.00     0.125 A 
+ATOM     30  H1  NVG d          11.728  -7.861  14.745  0.00  0.00     0.172 HD
+ATOM     31  CAF NVG d          13.190  -6.897  17.522  0.00  0.00     0.067 A 
+ATOM     32  CAG NVG d          13.954  -8.027  17.784  0.00  0.00     0.102 A 
+BRANCH  29  33
+ATOM     33  NAA NVG d          11.648  -5.777  16.153  0.00  0.00    -0.284 NA
+ATOM     34  H2  NVG d          11.692  -4.994  16.786  0.00  0.00     0.188 HD
+ENDBRANCH  29  33
+ENDBRANCH   1  25
+BRANCH   3  35
+ATOM     35  OAE NVG d          15.989 -11.801  15.674  0.00  0.00    -0.388 OA
+ATOM     36  H7  NVG d          16.045 -12.451  16.364  0.00  0.00     0.210 HD
+ENDBRANCH   3  35
+TORSDOF 9

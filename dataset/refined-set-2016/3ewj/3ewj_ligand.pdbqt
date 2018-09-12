@@ -1,0 +1,88 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C4_5  and  N1_1 
+REMARK    1  A    between atoms: N1_1  and  C5_7 
+REMARK       I    between atoms: C13_25  and  N3_4 
+REMARK    2  A    between atoms: N3_4  and  C14_27 
+REMARK    3  A    between atoms: CA_18  and  C4_5 
+REMARK    4  A    between atoms: N_14  and  O4_6 
+REMARK    5  A    between atoms: C5_7  and  C6_8 
+REMARK    6  A    between atoms: C5_7  and  C10_11 
+REMARK       I    between atoms: C10_11  and  N2_24 
+REMARK    7  A    between atoms: N2_24  and  C11_12 
+REMARK    8  A    between atoms: C11_12  and  C13_25 
+REMARK       I    between atoms: C_15  and  N_14 
+REMARK    9  A    between atoms: C0_17  and  C_15 
+REMARK   10  A    between atoms: CA_18  and  C0_17 
+REMARK   11  A    between atoms: CB_19  and  CA_18 
+REMARK   12  A    between atoms: CB_19  and  C1_20 
+REMARK   13  A    between atoms: C14_27  and  C15_28 
+REMARK   14  A    between atoms: C15_28  and  N4_29 
+ROOT
+ATOM      1  C5  INN d           5.941   5.068  23.995  0.00  0.00     0.184 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N1  INN d           6.531   6.377  24.283  0.00  0.00    -0.347 N 
+ATOM      3  C4  INN d           5.823   7.431  24.690  0.00  0.00     0.223 C 
+ATOM      4  O1  INN d           4.624   7.458  24.900  0.00  0.00    -0.273 OA
+ATOM      5  H1  INN d           7.518   6.486  24.168  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CA  INN d           6.598   8.719  24.882  0.00  0.00     0.087 C 
+BRANCH   6   7
+ATOM      7  C0  INN d           5.953   9.732  23.853  0.00  0.00     0.119 C 
+BRANCH   7   8
+ATOM      8  C   INN d           6.737  11.042  23.995  0.00  0.00     0.241 C 
+ATOM      9  N   INN d           6.191  11.941  24.801  0.00  0.00    -0.237 N 
+ATOM     10  H18 INN d           5.370  11.785  25.350  0.00  0.00     0.197 HD
+ATOM     11  O   INN d           7.882  11.192  23.501  0.00  0.00    -0.271 OA
+BRANCH   9  12
+ATOM     12  O4  INN d           6.909  13.126  24.783  0.00  0.00    -0.287 OA
+ATOM     13  H6  INN d           7.799  12.960  25.070  0.00  0.00     0.244 HD
+ENDBRANCH   9  12
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  14
+ATOM     14  CB  INN d           6.569   9.191  26.396  0.00  0.00     0.018 C 
+BRANCH  14  15
+ATOM     15  C1  INN d           7.272   8.236  27.382  0.00  0.00    -0.022 C 
+ATOM     16  C2  INN d           8.744   7.856  27.006  0.00  0.00     0.009 C 
+ATOM     17  C3  INN d           7.252   8.833  28.792  0.00  0.00     0.009 C 
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  C6  INN d           6.148   4.866  22.452  0.00  0.00    -0.022 C 
+ATOM     19  C8  INN d           7.681   4.762  22.151  0.00  0.00     0.017 C 
+ATOM     20  C9  INN d           5.419   3.564  21.994  0.00  0.00     0.017 C 
+ATOM     21  C7  INN d           5.575   6.082  21.669  0.00  0.00     0.017 C 
+ENDBRANCH   1  18
+BRANCH   1  22
+ATOM     22  C10 INN d           6.385   3.870  24.836  0.00  0.00     0.241 C 
+ATOM     23  O2  INN d           7.591   3.534  24.828  0.00  0.00    -0.271 OA
+ATOM     24  N2  INN d           5.371   3.251  25.538  0.00  0.00    -0.346 N 
+ATOM     25  H31 INN d           4.454   3.641  25.456  0.00  0.00     0.163 HD
+BRANCH  24  26
+ATOM     26  C11 INN d           5.525   2.065  26.398  0.00  0.00     0.172 C 
+ATOM     27  C12 INN d           4.915   2.188  27.820  0.00  0.00     0.042 C 
+BRANCH  26  28
+ATOM     28  C13 INN d           4.822   0.993  25.592  0.00  0.00     0.240 C 
+ATOM     29  N3  INN d           5.541   0.123  24.879  0.00  0.00    -0.358 N 
+ATOM     30  H5  INN d           6.539   0.181  24.886  0.00  0.00     0.162 HD
+ATOM     31  O3  INN d           3.610   0.974  25.607  0.00  0.00    -0.271 OA
+BRANCH  29  32
+ATOM     32  C14 INN d           4.887  -0.904  24.095  0.00  0.00     0.150 C 
+BRANCH  32  33
+ATOM     33  C15 INN d           4.564  -0.380  22.676  0.00  0.00     0.249 C 
+BRANCH  33  34
+ATOM     34  N4  INN d           4.959  -1.382  21.679  0.00  0.00    -0.078 N 
+ATOM     35  H36 INN d           4.748  -1.038  20.755  0.00  0.00     0.274 HD
+ATOM     36  H37 INN d           4.452  -2.238  21.843  0.00  0.00     0.274 HD
+ATOM     37  H38 INN d           5.949  -1.558  21.753  0.00  0.00     0.274 HD
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  29  32
+ENDBRANCH  26  28
+ENDBRANCH  24  26
+ENDBRANCH   1  22
+TORSDOF 14

@@ -1,0 +1,90 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4B_18  and  C1A_1 
+REMARK    2  A    between atoms: C2A_2  and  O2A_8 
+REMARK    3  A    between atoms: C3A_3  and  O3A_9 
+REMARK    4  A    between atoms: C4A_4  and  O4A_10 
+REMARK    5  A    between atoms: C7A_7  and  O6A_11 
+REMARK    6  A    between atoms: O4C_30  and  C1B_12 
+REMARK    7  A    between atoms: C2B_13  and  O2B_19 
+REMARK    8  A    between atoms: C3B_14  and  O3B_20 
+REMARK    9  A    between atoms: C4B_15  and  N4B_18 
+REMARK   10  A    between atoms: C2C_23  and  O2C_28 
+REMARK   11  A    between atoms: C3C_24  and  O3C_29 
+REMARK   12  A    between atoms: C4C_25  and  O4C_30 
+REMARK   13  A    between atoms: C5C_26  and  C6C_27 
+REMARK   14  A    between atoms: C6C_27  and  O6C_32 
+ROOT
+ATOM      1  C1B QPU d         168.698  50.778  10.865  0.00  0.00     0.292 C 
+ATOM      2  C2B QPU d         167.273  50.220  10.662  0.00  0.00     0.204 C 
+ATOM      3  C3B QPU d         166.269  50.999  11.522  0.00  0.00     0.184 C 
+ATOM      4  C4B QPU d         166.684  50.854  12.997  0.00  0.00     0.246 C 
+ATOM      5  C5B QPU d         168.129  51.433  13.154  0.00  0.00     0.154 C 
+ATOM      6  C6B QPU d         168.635  51.304  14.586  0.00  0.00     0.042 C 
+ATOM      7  O5B QPU d         169.039  50.710  12.269  0.00  0.00    -0.351 OA
+ENDROOT
+BRANCH   4   8
+ATOM      8  N4B QPU d         165.707  51.578  13.846  0.00  0.00    -0.057 N 
+ATOM      9  H22 QPU d         166.153  52.383  14.256  0.00  0.00     0.278 HD
+ATOM     10  H23 QPU d         164.929  51.877  13.280  0.00  0.00     0.278 HD
+BRANCH   8  11
+ATOM     11  C1A QPU d         165.218  50.687  14.921  0.00  0.00     0.246 C 
+ATOM     12  C2A QPU d         163.732  50.296  14.711  0.00  0.00     0.182 C 
+ATOM     13  C3A QPU d         162.863  51.552  14.841  0.00  0.00     0.178 C 
+ATOM     14  C4A QPU d         162.680  51.827  16.340  0.00  0.00     0.155 C 
+ATOM     15  C5A QPU d         164.077  51.978  16.981  0.00  0.00     0.044 C 
+ATOM     16  C6A QPU d         164.221  52.683  18.322  0.00  0.00     0.015 C 
+ATOM     17  C7A QPU d         165.338  51.404  16.285  0.00  0.00     0.157 C 
+BRANCH  12  18
+ATOM     18  O2A QPU d         163.575  49.676  13.446  0.00  0.00    -0.391 OA
+ATOM     19  H10 QPU d         163.827  50.286  12.762  0.00  0.00     0.210 HD
+ENDBRANCH  12  18
+BRANCH  13  20
+ATOM     20  O3A QPU d         161.585  51.374  14.235  0.00  0.00    -0.390 OA
+ATOM     21  H11 QPU d         161.697  51.204  13.307  0.00  0.00     0.210 HD
+ENDBRANCH  13  20
+BRANCH  14  22
+ATOM     22  O4A QPU d         161.885  53.002  16.499  0.00  0.00    -0.392 OA
+ATOM     23  H12 QPU d         161.037  52.867  16.092  0.00  0.00     0.210 HD
+ENDBRANCH  14  22
+BRANCH  17  24
+ATOM     24  O6A QPU d         166.042  50.559  17.194  0.00  0.00    -0.393 OA
+ATOM     25  H13 QPU d         166.814  50.209  16.766  0.00  0.00     0.210 HD
+ENDBRANCH  17  24
+ENDBRANCH   8  11
+ENDBRANCH   4   8
+BRANCH   3  26
+ATOM     26  O3B QPU d         164.961  50.473  11.326  0.00  0.00    -0.391 OA
+ATOM     27  H25 QPU d         164.345  50.948  11.871  0.00  0.00     0.210 HD
+ENDBRANCH   3  26
+BRANCH   2  28
+ATOM     28  O2B QPU d         166.934  50.299   9.286  0.00  0.00    -0.388 OA
+ATOM     29  H24 QPU d         166.939  51.209   9.012  0.00  0.00     0.210 HD
+ENDBRANCH   2  28
+BRANCH   1  30
+ATOM     30  O4C QPU d         168.776  52.131  10.405  0.00  0.00    -0.348 OA
+BRANCH  30  31
+ATOM     31  C4C QPU d         169.378  52.382   9.100  0.00  0.00     0.187 C 
+ATOM     32  C3C QPU d         168.401  53.175   8.238  0.00  0.00     0.180 C 
+ATOM     33  C2C QPU d         169.045  53.409   6.861  0.00  0.00     0.173 C 
+ATOM     34  C1C QPU d         170.357  54.204   7.028  0.00  0.00     0.202 C 
+ATOM     35  O5C QPU d         171.260  53.503   7.924  0.00  0.00    -0.378 OA
+ATOM     36  C5C QPU d         170.692  53.216   9.249  0.00  0.00     0.176 C 
+BRANCH  32  37
+ATOM     37  O3C QPU d         167.204  52.442   8.085  0.00  0.00    -0.390 OA
+ATOM     38  H35 QPU d         166.818  52.286   8.939  0.00  0.00     0.210 HD
+ENDBRANCH  32  37
+BRANCH  33  39
+ATOM     39  O2C QPU d         168.161  54.136   6.008  0.00  0.00    -0.391 OA
+ATOM     40  H34 QPU d         167.357  53.643   5.892  0.00  0.00     0.210 HD
+ENDBRANCH  33  39
+BRANCH  36  41
+ATOM     41  C6C QPU d         171.776  52.518  10.068  0.00  0.00     0.198 C 
+BRANCH  41  42
+ATOM     42  O6C QPU d         172.235  53.337  11.128  0.00  0.00    -0.398 OA
+ATOM     43  H36 QPU d         172.906  52.875  11.616  0.00  0.00     0.209 HD
+ENDBRANCH  41  42
+ENDBRANCH  36  41
+ENDBRANCH  30  31
+ENDBRANCH   1  30
+TORSDOF 14

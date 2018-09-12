@@ -1,0 +1,46 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C1'_8 
+REMARK    2  A    between atoms: C5_5  and  N5_6 
+REMARK    3  A    between atoms: C2'_9  and  O2'_10 
+REMARK    4  A    between atoms: C3'_11  and  O3'_12 
+REMARK    5  A    between atoms: C4'_13  and  C5'_15 
+REMARK    6  A    between atoms: C5'_15  and  O5'_16 
+ROOT
+ATOM      1  C1' PIR d         105.333  35.004  82.931  0.00  0.00     0.250 C 
+ATOM      2  C2' PIR d         105.137  36.133  83.927  0.00  0.00     0.184 C 
+ATOM      3  C3' PIR d         103.670  36.569  83.769  0.00  0.00     0.182 C 
+ATOM      4  C4' PIR d         103.269  36.099  82.393  0.00  0.00     0.241 C 
+ATOM      5  N4' PIR d         104.038  34.872  82.277  0.00  0.00    -0.056 N 
+ATOM      6  H13 PIR d         103.525  34.120  82.710  0.00  0.00     0.278 HD
+ATOM      7  H14 PIR d         104.181  34.664  81.301  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  C2  PIR d         106.522  35.202  82.007  0.00  0.00    -0.025 C 
+ATOM      9  C1  PIR d         107.116  36.482  81.863  0.00  0.00     0.011 C 
+ATOM     10  C6  PIR d         108.124  36.686  80.908  0.00  0.00     0.029 C 
+ATOM     11  C5  PIR d         108.440  35.646  80.005  0.00  0.00     0.025 C 
+ATOM     12  C4  PIR d         107.894  34.348  80.184  0.00  0.00     0.029 C 
+ATOM     13  C3  PIR d         107.033  34.113  81.264  0.00  0.00     0.011 C 
+BRANCH  11  14
+ATOM     14  N5  PIR d         109.277  35.885  78.990  0.00  0.00    -0.399 N 
+ATOM     15  H4  PIR d         109.673  36.827  78.860  0.00  0.00     0.156 HD
+ATOM     16  H5  PIR d         109.525  35.127  78.338  0.00  0.00     0.156 HD
+ENDBRANCH  11  14
+ENDBRANCH   1   8
+BRANCH   2  17
+ATOM     17  O2' PIR d         105.365  35.682  85.253  0.00  0.00    -0.390 OA
+ATOM     18  H9  PIR d         104.796  34.944  85.438  0.00  0.00     0.210 HD
+ENDBRANCH   2  17
+BRANCH   4  19
+ATOM     19  C5' PIR d         103.597  37.045  81.228  0.00  0.00     0.199 C 
+BRANCH  19  20
+ATOM     20  O5' PIR d         103.707  36.314  80.008  0.00  0.00    -0.399 OA
+ATOM     21  H17 PIR d         103.910  36.913  79.299  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   3  22
+ATOM     22  O3' PIR d         102.845  35.983  84.762  0.00  0.00    -0.391 OA
+ATOM     23  H11 PIR d         103.115  36.292  85.619  0.00  0.00     0.210 HD
+ENDBRANCH   3  22
+TORSDOF 6

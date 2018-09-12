@@ -1,0 +1,32 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C2_2 
+REMARK    1  A    between atoms: C2_2  and  C5_5 
+REMARK    2  A    between atoms: C9_9  and  O14_14 
+ROOT
+ATOM      1  N1  PFT d          47.361  72.417  63.975  0.00  0.00    -0.339 N 
+ATOM      2  C2  PFT d          46.884  72.346  65.331  0.00  0.00     0.256 C 
+ATOM      3  C3  PFT d          47.946  73.704  63.390  0.00  0.00     0.165 A 
+ATOM      4  C4  PFT d          47.400  71.290  62.903  0.00  0.00     0.165 A 
+ATOM      5  O6  PFT d          47.003  73.377  65.940  0.00  0.00    -0.267 OA
+ATOM      6  C7  PFT d          48.341  73.278  61.927  0.00  0.00    -0.032 A 
+ATOM      7  C8  PFT d          48.003  71.875  61.701  0.00  0.00    -0.032 A 
+ATOM      8  C11 PFT d          48.948  73.955  60.815  0.00  0.00     0.009 A 
+ATOM      9  C12 PFT d          48.219  71.128  60.485  0.00  0.00     0.009 A 
+ATOM     10  C16 PFT d          49.189  73.221  59.552  0.00  0.00     0.001 A 
+ATOM     11  C17 PFT d          48.813  71.805  59.417  0.00  0.00     0.001 A 
+ENDROOT
+BRANCH   2  12
+ATOM     12  C5  PFT d          46.346  70.976  65.746  0.00  0.00     0.061 A 
+ATOM     13  C9  PFT d          47.329  70.241  66.533  0.00  0.00     0.065 A 
+ATOM     14  C13 PFT d          47.157  68.944  67.073  0.00  0.00     0.133 A 
+ATOM     15  C18 PFT d          45.835  68.489  66.697  0.00  0.00     0.090 A 
+ATOM     16  C15 PFT d          44.800  69.184  65.907  0.00  0.00     0.037 A 
+ATOM     17  O19 PFT d          45.521  67.282  67.121  0.00  0.00    -0.196 OA
+ATOM     18  C10 PFT d          45.055  70.472  65.411  0.00  0.00     0.022 A 
+BRANCH  13  19
+ATOM     19  O14 PFT d          48.581  70.731  66.853  0.00  0.00    -0.364 OA
+ATOM     20  H10 PFT d          48.683  71.601  66.485  0.00  0.00     0.217 HD
+ENDBRANCH  13  19
+ENDBRANCH   2  12
+TORSDOF 2

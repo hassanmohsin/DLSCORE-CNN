@@ -1,0 +1,62 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  N2_3 
+REMARK    2  A    between atoms: C3_2  and  C4_4 
+REMARK    3  A    between atoms: C7_7  and  C10_10 
+REMARK    4  A    between atoms: C13_13  and  O20_29 
+REMARK    5  A    between atoms: N19_18  and  C23_22 
+REMARK    6  A    between atoms: C23_22  and  C24_23 
+ROOT
+ATOM      1  C10 SHY d          16.033 -11.126  20.047  0.00  0.00     0.235 C 
+ATOM      2  N11 SHY d          15.984 -12.242  19.063  0.00  0.00    -0.054 N 
+ATOM      3  C12 SHY d          15.107 -11.871  17.905  0.00  0.00     0.267 C 
+ATOM      4  C13 SHY d          15.991 -11.714  16.651  0.00  0.00     0.146 C 
+ATOM      5  C14 SHY d          17.347 -11.369  17.285  0.00  0.00     0.067 C 
+ATOM      6  C15 SHY d          17.370 -12.257  18.504  0.00  0.00     0.205 C 
+ATOM      7  C16 SHY d          18.357 -11.698  19.554  0.00  0.00     0.124 C 
+ATOM      8  C17 SHY d          19.154 -12.791  20.156  0.00  0.00     0.233 C 
+ATOM      9  N19 SHY d          18.586 -13.278  21.327  0.00  0.00    -0.283 N 
+ATOM     10  C20 SHY d          17.467 -12.479  21.672  0.00  0.00     0.234 C 
+ATOM     11  O21 SHY d          16.747 -12.734  22.627  0.00  0.00    -0.272 OA
+ATOM     12  C22 SHY d          17.399 -11.287  20.736  0.00  0.00     0.129 C 
+ATOM     13  O24 SHY d          20.156 -13.329  19.707  0.00  0.00    -0.272 OA
+ATOM     14  H10 SHY d          15.709 -13.116  19.484  0.00  0.00     0.281 HD
+ENDROOT
+BRANCH   1  15
+ATOM     15  C7  SHY d          14.808 -11.152  20.947  0.00  0.00    -0.027 A 
+ATOM     16  C8  SHY d          14.452  -9.945  21.594  0.00  0.00     0.010 A 
+ATOM     17  C9  SHY d          13.369  -9.897  22.475  0.00  0.00     0.016 A 
+ATOM     18  C4  SHY d          12.628 -11.042  22.728  0.00  0.00     0.007 A 
+ATOM     19  C5  SHY d          12.952 -12.238  22.050  0.00  0.00     0.016 A 
+ATOM     20  C6  SHY d          14.021 -12.279  21.182  0.00  0.00     0.010 A 
+BRANCH  18  21
+ATOM     21  C3  SHY d          11.531 -10.991  23.661  0.00  0.00     0.102 C 
+ATOM     22  N1  SHY d          11.273  -9.891  24.423  0.00  0.00    -0.385 N 
+ATOM     23  H1  SHY d          11.836  -9.037  24.302  0.00  0.00     0.157 HD
+ATOM     24  H2  SHY d          10.515  -9.914  25.120  0.00  0.00     0.157 HD
+BRANCH  21  25
+ATOM     25  N2  SHY d          10.738 -12.087  23.882  0.00  0.00    -0.385 N 
+ATOM     26  H3  SHY d          10.886 -12.948  23.336  0.00  0.00     0.157 HD
+ATOM     27  H4  SHY d           9.995 -12.050  24.594  0.00  0.00     0.157 HD
+ENDBRANCH  21  25
+ENDBRANCH  18  21
+ENDBRANCH   1  15
+BRANCH   4  28
+ATOM     28  O20 SHY d          16.157 -12.951  15.945  0.00  0.00    -0.394 OA
+ATOM     29  H25 SHY d          15.334 -13.195  15.539  0.00  0.00     0.210 HD
+ENDBRANCH   4  28
+BRANCH   9  30
+ATOM     30  C23 SHY d          18.993 -14.432  22.140  0.00  0.00     0.173 C 
+BRANCH  30  31
+ATOM     31  C24 SHY d          20.069 -14.149  23.127  0.00  0.00    -0.037 A 
+ATOM     32  C32 SHY d          19.681 -13.853  24.426  0.00  0.00     0.012 A 
+ATOM     33  C31 SHY d          20.578 -13.515  25.419  0.00  0.00     0.040 A 
+ATOM     34  C30 SHY d          21.921 -13.469  25.029  0.00  0.00     0.105 A 
+ATOM     35  O29 SHY d          22.969 -13.185  25.814  0.00  0.00    -0.323 OA
+ATOM     36  C26 SHY d          22.327 -13.749  23.740  0.00  0.00     0.105 A 
+ATOM     37  C28 SHY d          24.132 -13.292  24.951  0.00  0.00     0.352 A 
+ATOM     38  O27 SHY d          23.686 -13.738  23.627  0.00  0.00    -0.323 OA
+ATOM     39  C25 SHY d          21.417 -14.101  22.756  0.00  0.00     0.048 A 
+ENDBRANCH  30  31
+ENDBRANCH   9  30
+TORSDOF 6

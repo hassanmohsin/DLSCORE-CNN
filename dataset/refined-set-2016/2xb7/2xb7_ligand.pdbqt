@@ -1,0 +1,78 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N29_29 
+REMARK    2  A    between atoms: C4_4  and  N7_7 
+REMARK    3  A    between atoms: N7_7  and  C8_8 
+REMARK    4  A    between atoms: C11_11  and  N16_16 
+REMARK    5  A    between atoms: C13_13  and  O14_14 
+REMARK    6  A    between atoms: C19_19  and  N22_22 
+REMARK    7  A    between atoms: N29_29  and  C30_30 
+REMARK    8  A    between atoms: C31_31  and  S36_36 
+REMARK    9  A    between atoms: S36_36  and  C37_37 
+ROOT
+ATOM      1  C8  GUI d           2.296  19.907   8.164  0.00  0.00     0.082 A 
+ATOM      2  C9  GUI d           3.585  20.286   8.012  0.00  0.00     0.035 A 
+ATOM      3  C10 GUI d           3.949  21.455   7.189  0.00  0.00     0.032 A 
+ATOM      4  C11 GUI d           2.989  22.184   6.563  0.00  0.00     0.033 A 
+ATOM      5  C12 GUI d           1.560  21.771   6.727  0.00  0.00     0.068 A 
+ATOM      6  C13 GUI d           1.216  20.690   7.482  0.00  0.00     0.097 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N7  GUI d           2.002  18.766   8.982  0.00  0.00    -0.185 N 
+ATOM      8  H2  GUI d           1.053  18.770   9.381  0.00  0.00     0.184 HD
+BRANCH   7   9
+ATOM      9  C4  GUI d           2.773  17.635   9.343  0.00  0.00     0.728 A 
+ATOM     10  N3  GUI d           3.899  17.443   8.781  0.00  0.00    -0.043 NA
+ATOM     11  C2  GUI d           4.720  16.337   9.093  0.00  0.00     0.170 A 
+ATOM     12  C1  GUI d           4.287  15.446  10.029  0.00  0.00     0.098 A 
+ATOM     13  C6  GUI d           3.011  15.687  10.650  0.00  0.00     0.164 A 
+ATOM     14 CL   GUI d           5.204  14.061  10.486  0.00  0.00    -0.079 Cl
+ATOM     15  N5  GUI d           2.320  16.718  10.313  0.00  0.00    -0.073 NA
+BRANCH  11  16
+ATOM     16  N29 GUI d           5.989  16.134   8.452  0.00  0.00    -0.338 N 
+ATOM     17  H31 GUI d           6.556  15.351   8.809  0.00  0.00     0.167 HD
+BRANCH  16  18
+ATOM     18  C30 GUI d           6.563  16.886   7.378  0.00  0.00     0.055 A 
+ATOM     19  C31 GUI d           7.917  16.833   7.204  0.00  0.00     0.086 A 
+ATOM     20  C32 GUI d           8.552  17.605   6.093  0.00  0.00     0.026 A 
+ATOM     21  C33 GUI d           7.790  18.361   5.257  0.00  0.00     0.002 A 
+ATOM     22  C34 GUI d           6.323  18.421   5.445  0.00  0.00     0.002 A 
+ATOM     23  C35 GUI d           5.746  17.721   6.448  0.00  0.00     0.031 A 
+BRANCH  19  24
+ATOM     24  S36 GUI d           8.933  15.854   8.306  0.00  0.00     0.181 S 
+ATOM     25  O40 GUI d          10.046  15.168   7.531  0.00  0.00    -0.222 OA
+ATOM     26  O41 GUI d           8.112  14.822   9.049  0.00  0.00    -0.222 OA
+BRANCH  24  27
+ATOM     27  C37 GUI d           9.731  16.932   9.525  0.00  0.00     0.105 C 
+ATOM     28  C38 GUI d           8.709  17.903  10.148  0.00  0.00     0.026 C 
+ATOM     29  C39 GUI d          10.846  17.738   8.833  0.00  0.00     0.026 C 
+ENDBRANCH  24  27
+ENDBRANCH  19  24
+ENDBRANCH  16  18
+ENDBRANCH  11  16
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  30
+ATOM     30  O14 GUI d          -0.132  20.270   7.658  0.00  0.00    -0.354 OA
+ATOM     31  C15 GUI d          -1.155  21.059   7.033  0.00  0.00     0.210 C 
+ENDBRANCH   6  30
+BRANCH   4  32
+ATOM     32  N16 GUI d           3.340  23.329   5.768  0.00  0.00    -0.381 N 
+ATOM     33  C17 GUI d           4.773  23.560   5.420  0.00  0.00     0.125 C 
+ATOM     34  C18 GUI d           5.122  25.051   5.192  0.00  0.00     0.053 C 
+ATOM     35  C19 GUI d           4.077  25.684   4.229  0.00  0.00     0.191 C 
+ATOM     36  C20 GUI d           2.740  25.710   5.019  0.00  0.00     0.053 C 
+ATOM     37  C21 GUI d           2.261  24.262   5.323  0.00  0.00     0.125 C 
+BRANCH  35  38
+ATOM     38  N22 GUI d           4.480  27.090   3.837  0.00  0.00    -0.064 N 
+ATOM     39  C23 GUI d           3.602  27.601   2.724  0.00  0.00     0.263 C 
+ATOM     40  C24 GUI d           3.968  29.081   2.406  0.00  0.00     0.262 C 
+ATOM     41  N25 GUI d           5.425  29.202   2.074  0.00  0.00    -0.072 N 
+ATOM     42  C26 GUI d           6.311  28.617   3.128  0.00  0.00     0.262 C 
+ATOM     43  C28 GUI d           5.768  30.627   1.908  0.00  0.00     0.269 C 
+ATOM     44  H23 GUI d           5.595  28.716   1.207  0.00  0.00     0.279 HD
+ATOM     45  C27 GUI d           5.917  27.139   3.388  0.00  0.00     0.263 C 
+ATOM     46  H18 GUI d           4.371  27.689   4.640  0.00  0.00     0.280 HD
+ENDBRANCH  35  38
+ENDBRANCH   4  32
+TORSDOF 9

@@ -1,0 +1,60 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_1  and  C4_2 
+REMARK       I    between atoms: C3_1  and  N2_4 
+REMARK    2  A    between atoms: C4_2  and  N6_7 
+REMARK    3  A    between atoms: N6_7  and  C8_3 
+REMARK    4  A    between atoms: C8_3  and  C9_9 
+REMARK    5  A    between atoms: N2_4  and  O1_5 
+REMARK    6  A    between atoms: N6_7  and  S7_8 
+REMARK    7  A    between atoms: S7_8  and  C12_12 
+REMARK    8  A    between atoms: C9_9  and  O10_10 
+REMARK    9  A    between atoms: C16_16  and  C19_19 
+ROOT
+ATOM      1  S7  JT5 d           0.740  -5.124   4.205  0.00  0.00     0.261 S 
+ATOM      2  O11 JT5 d           0.569  -6.393   3.461  0.00  0.00    -0.200 OA
+ATOM      3  O13 JT5 d          -0.421  -4.926   5.077  0.00  0.00    -0.200 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N6  JT5 d           1.020  -3.971   3.220  0.00  0.00    -0.296 N 
+BRANCH   4   5
+ATOM      5  C4  JT5 d           0.584  -2.610   3.357  0.00  0.00     0.240 C 
+BRANCH   5   6
+ATOM      6  C3  JT5 d           1.748  -1.972   4.127  0.00  0.00     0.259 C 
+ATOM      7  N2  JT5 d           1.356  -1.385   5.219  0.00  0.00    -0.236 N 
+ATOM      8  H5  JT5 d           0.390  -1.348   5.475  0.00  0.00     0.197 HD
+ATOM      9  O5  JT5 d           2.948  -1.990   3.844  0.00  0.00    -0.270 OA
+BRANCH   7  10
+ATOM     10  O1  JT5 d           2.308  -0.830   5.988  0.00  0.00    -0.287 OA
+ATOM     11  H6  JT5 d           2.768  -0.164   5.490  0.00  0.00     0.244 HD
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+BRANCH   4  12
+ATOM     12  C8  JT5 d           2.091  -4.234   2.205  0.00  0.00     0.161 C 
+BRANCH  12  13
+ATOM     13  C9  JT5 d           1.609  -4.301   0.777  0.00  0.00     0.184 C 
+BRANCH  13  14
+ATOM     14  O10 JT5 d           0.881  -3.105   0.451  0.00  0.00    -0.399 OA
+ATOM     15  H9  JT5 d           0.581  -3.154  -0.449  0.00  0.00     0.209 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+ENDBRANCH   1   4
+BRANCH   1  16
+ATOM     16  C12 JT5 d           2.000  -5.315   5.224  0.00  0.00     0.079 A 
+ATOM     17  C14 JT5 d           3.109  -6.071   4.839  0.00  0.00     0.026 A 
+ATOM     18  C15 JT5 d           4.195  -6.305   5.655  0.00  0.00     0.014 A 
+ATOM     19  C16 JT5 d           4.137  -5.788   6.972  0.00  0.00    -0.026 A 
+ATOM     20  C17 JT5 d           3.054  -4.982   7.367  0.00  0.00     0.014 A 
+ATOM     21  C18 JT5 d           1.984  -4.729   6.503  0.00  0.00     0.026 A 
+BRANCH  19  22
+ATOM     22  C19 JT5 d           5.269  -6.091   7.896  0.00  0.00    -0.026 A 
+ATOM     23  C20 JT5 d           4.976  -6.403   9.264  0.00  0.00     0.012 A 
+ATOM     24  C21 JT5 d           6.022  -6.696  10.174  0.00  0.00     0.001 A 
+ATOM     25  C22 JT5 d           7.362  -6.773   9.721  0.00  0.00     0.000 A 
+ATOM     26  C23 JT5 d           7.626  -6.549   8.348  0.00  0.00     0.001 A 
+ATOM     27  C24 JT5 d           6.586  -6.227   7.453  0.00  0.00     0.012 A 
+ENDBRANCH  19  22
+ENDBRANCH   1  16
+TORSDOF 9

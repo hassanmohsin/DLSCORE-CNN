@@ -1,0 +1,67 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1_13 
+REMARK    2  A    between atoms: C4_4  and  S_15 
+REMARK    3  A    between atoms: N_24  and  C8_7 
+REMARK    4  A    between atoms: C8_7  and  C20_25 
+REMARK    5  A    between atoms: C8_7  and  C9_26 
+REMARK    6  A    between atoms: C11_9  and  C16_21 
+REMARK    7  A    between atoms: S_15  and  N_24 
+REMARK    8  A    between atoms: C20_25  and  C28_36 
+ROOT
+ATOM      1  O1  DPS d          28.974  49.570   2.835  0.00  0.00    -0.201 OA
+ATOM      2  O2  DPS d          30.743  49.988   1.176  0.00  0.00    -0.201 OA
+ATOM      3  S   DPS d          29.530  49.339   1.532  0.00  0.00     0.259 S 
+ENDROOT
+BRANCH   3   4
+ATOM      4  C4  DPS d          28.277  49.736   0.342  0.00  0.00     0.079 A 
+ATOM      5  C3  DPS d          28.614  49.775  -1.026  0.00  0.00     0.027 A 
+ATOM      6  C2  DPS d          27.661  50.257  -1.937  0.00  0.00     0.031 A 
+ATOM      7  C1  DPS d          26.382  50.681  -1.492  0.00  0.00     0.030 A 
+ATOM      8  C6  DPS d          26.037  50.536  -0.127  0.00  0.00     0.031 A 
+ATOM      9  C5  DPS d          26.982  50.063   0.791  0.00  0.00     0.027 A 
+BRANCH   7  10
+ATOM     10  N1  DPS d          25.456  51.178  -2.393  0.00  0.00    -0.381 N 
+ATOM     11  C18 DPS d          25.717  51.058  -3.844  0.00  0.00     0.123 C 
+ATOM     12  C7  DPS d          25.014  52.077  -4.744  0.00  0.00     0.029 C 
+ATOM     13  C11 DPS d          23.695  52.615  -4.213  0.00  0.00     0.021 C 
+ATOM     14  C13 DPS d          23.435  52.696  -2.722  0.00  0.00     0.029 C 
+ATOM     15  C15 DPS d          24.110  51.576  -1.936  0.00  0.00     0.123 C 
+BRANCH  13  16
+ATOM     16  C16 DPS d          22.744  53.250  -5.144  0.00  0.00    -0.054 A 
+ATOM     17  C17 DPS d          22.444  52.643  -6.387  0.00  0.00     0.007 A 
+ATOM     18  C19 DPS d          21.554  53.275  -7.280  0.00  0.00     0.001 A 
+ATOM     19  C10 DPS d          20.974  54.513  -6.915  0.00  0.00     0.000 A 
+ATOM     20  C12 DPS d          21.261  55.123  -5.672  0.00  0.00     0.001 A 
+ATOM     21  C14 DPS d          22.151  54.484  -4.783  0.00  0.00     0.007 A 
+ENDBRANCH  13  16
+ENDBRANCH   7  10
+ENDBRANCH   3   4
+BRANCH   3  22
+ATOM     22  N   DPS d          29.931  47.664   1.519  0.00  0.00    -0.300 N 
+ATOM     23  H21 DPS d          30.809  47.372   1.139  0.00  0.00     0.173 HD
+BRANCH  22  24
+ATOM     24  C8  DPS d          29.007  46.658   2.055  0.00  0.00     0.198 C 
+BRANCH  24  25
+ATOM     25  C20 DPS d          29.792  45.546   2.792  0.00  0.00     0.077 C 
+BRANCH  25  26
+ATOM     26  C28 DPS d          30.738  44.802   1.883  0.00  0.00    -0.028 A 
+ATOM     27  C27 DPS d          32.052  45.174   1.563  0.00  0.00     0.096 A 
+ATOM     28  N7  DPS d          32.577  44.325   0.639  0.00  0.00    -0.365 N 
+ATOM     29  C23 DPS d          31.628  43.359   0.316  0.00  0.00     0.042 A 
+ATOM     30  H4  DPS d          33.525  44.387   0.242  0.00  0.00     0.165 HD
+ATOM     31  C24 DPS d          30.457  43.621   1.098  0.00  0.00    -0.002 A 
+ATOM     32  C22 DPS d          31.640  42.265  -0.580  0.00  0.00     0.030 A 
+ATOM     33  C25 DPS d          29.315  42.794   0.973  0.00  0.00     0.014 A 
+ATOM     34  C26 DPS d          29.339  41.704   0.076  0.00  0.00     0.001 A 
+ATOM     35  C21 DPS d          30.494  41.450  -0.695  0.00  0.00     0.002 A 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+BRANCH  24  36
+ATOM     36  C9  DPS d          28.119  46.141   0.955  0.00  0.00     0.197 C 
+ATOM     37  O4  DPS d          28.519  46.062  -0.160  0.00  0.00    -0.646 OA
+ATOM     38  O3  DPS d          26.849  45.736   1.207  0.00  0.00    -0.646 OA
+ENDBRANCH  24  36
+ENDBRANCH  22  24
+ENDBRANCH   3  22
+TORSDOF 8

@@ -1,0 +1,43 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N17_1  and  C11_2 
+REMARK    2  A    between atoms: C15_7  and  N18_8 
+REMARK    3  A    between atoms: N18_8  and  C01_9 
+REMARK    4  A    between atoms: C04_14  and  S07_15 
+REMARK    5  A    between atoms: S07_15  and  N10_18 
+ROOT
+ATOM      1  C01 U55 d           9.668  11.514  25.358  0.00  0.00     0.033 A 
+ATOM      2  C06 U55 d           8.814  12.529  25.859  0.00  0.00     0.031 A 
+ATOM      3  C05 U55 d           8.031  12.313  27.008  0.00  0.00     0.027 A 
+ATOM      4  C02 U55 d           9.638  10.246  25.977  0.00  0.00     0.031 A 
+ATOM      5  C03 U55 d           8.877  10.034  27.132  0.00  0.00     0.027 A 
+ATOM      6  C04 U55 d           8.069  11.051  27.656  0.00  0.00     0.079 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N18 U55 d          10.461  11.752  24.308  0.00  0.00    -0.341 N 
+ATOM      8  H5  U55 d          10.250  12.626  23.805  0.00  0.00     0.167 HD
+BRANCH   7   9
+ATOM      9  C15 U55 d          11.471  11.059  23.801  0.00  0.00     0.133 C 
+ATOM     10  N14 U55 d          11.790  11.296  22.473  0.00  0.00    -0.224 NA
+ATOM     11  C13 U55 d          12.828  10.644  21.928  0.00  0.00     0.237 C 
+ATOM     12  N12 U55 d          13.708   9.833  22.638  0.00  0.00    -0.225 NA
+ATOM     13  C11 U55 d          13.403   9.565  23.937  0.00  0.00     0.126 C 
+ATOM     14  C16 U55 d          12.250  10.151  24.533  0.00  0.00     0.100 C 
+BRANCH  13  15
+ATOM     15  N17 U55 d          14.213   8.687  24.623  0.00  0.00    -0.384 N 
+ATOM     16  H1  U55 d          14.011   8.462  25.608  0.00  0.00     0.157 HD
+ATOM     17  H2  U55 d          15.021   8.256  24.151  0.00  0.00     0.157 HD
+ENDBRANCH  13  15
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  18
+ATOM     18  S07 U55 d           6.879  10.685  28.850  0.00  0.00     0.256 S 
+ATOM     19  O08 U55 d           5.916   9.791  28.291  0.00  0.00    -0.201 OA
+ATOM     20  O09 U55 d           6.197  11.981  29.160  0.00  0.00    -0.201 OA
+BRANCH  18  21
+ATOM     21  N10 U55 d           7.465  10.111  30.219  0.00  0.00    -0.324 N 
+ATOM     22  H10 U55 d           6.846   9.872  30.967  0.00  0.00     0.169 HD
+ATOM     23  H11 U55 d           8.452   9.991  30.329  0.00  0.00     0.169 HD
+ENDBRANCH  18  21
+ENDBRANCH   6  18
+TORSDOF 5

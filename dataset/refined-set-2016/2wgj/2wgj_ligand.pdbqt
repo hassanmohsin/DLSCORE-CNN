@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_7  and  C21_10 
+REMARK    2  A    between atoms: C21_10  and  O27_12 
+REMARK    3  A    between atoms: O27_12  and  C15_13 
+REMARK    4  A    between atoms: C19_15  and  N22_16 
+REMARK    5  A    between atoms: C14_19  and  C16_20 
+REMARK    6  A    between atoms: N26_23  and  C20_25 
+ROOT
+ATOM      1  C15 VGH d          21.527  85.138   6.508  0.00  0.00     0.116 A 
+ATOM      2  C4  VGH d          21.744  84.762   5.164  0.00  0.00     0.054 A 
+ATOM      3  C19 VGH d          22.666  85.220   7.324  0.00  0.00     0.154 A 
+ATOM      4  N23 VGH d          23.923  84.975   6.878  0.00  0.00    -0.240 NA
+ATOM      5  C5  VGH d          24.084  84.625   5.584  0.00  0.00     0.131 A 
+ATOM      6  C14 VGH d          23.044  84.501   4.671  0.00  0.00    -0.003 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C16 VGH d          23.335  84.087   3.302  0.00  0.00     0.012 A 
+ATOM      8  C6  VGH d          22.520  83.628   2.237  0.00  0.00     0.152 A 
+ATOM      9  N24 VGH d          23.213  83.319   1.137  0.00  0.00    -0.184 NA
+ATOM     10  N26 VGH d          24.497  83.561   1.484  0.00  0.00    -0.276 N 
+ATOM     11  C7  VGH d          24.606  84.007   2.765  0.00  0.00     0.126 A 
+BRANCH  10  12
+ATOM     12  C20 VGH d          25.595  83.351   0.536  0.00  0.00     0.112 C 
+ATOM     13  C8  VGH d          26.030  81.893   0.292  0.00  0.00     0.055 C 
+ATOM     14  C10 VGH d          25.528  81.215  -0.984  0.00  0.00     0.234 C 
+ATOM     15  N25 VGH d          25.502  82.151  -2.159  0.00  0.00    -0.075 N 
+ATOM     16  C11 VGH d          24.840  83.475  -1.928  0.00  0.00     0.234 C 
+ATOM     17  H18 VGH d          25.014  81.689  -2.911  0.00  0.00     0.277 HD
+ATOM     18  H19 VGH d          26.456  82.327  -2.435  0.00  0.00     0.277 HD
+ATOM     19  C9  VGH d          25.500  84.191  -0.751  0.00  0.00     0.055 C 
+ENDBRANCH  10  12
+ENDBRANCH   6   7
+BRANCH   1  20
+ATOM     20  O27 VGH d          20.342  85.442   7.151  0.00  0.00    -0.338 OA
+BRANCH  20  21
+ATOM     21  C21 VGH d          19.033  85.449   6.539  0.00  0.00     0.161 C 
+ATOM     22  C1  VGH d          18.117  86.249   7.461  0.00  0.00     0.045 C 
+BRANCH  21  23
+ATOM     23  C17 VGH d          18.506  84.032   6.279  0.00  0.00     0.017 A 
+ATOM     24  C13 VGH d          18.188  83.586   4.968  0.00  0.00     0.044 A 
+ATOM     25 CL   VGH d          18.319  84.569   3.546  0.00  0.00    -0.084 Cl
+ATOM     26  C3  VGH d          17.719  82.288   4.714  0.00  0.00     0.028 A 
+ATOM     27  C2  VGH d          17.535  81.381   5.741  0.00  0.00     0.046 A 
+ATOM     28  C12 VGH d          17.835  81.794   7.021  0.00  0.00     0.138 A 
+ATOM     29  F   VGH d          17.661  80.919   8.002  0.00  0.00    -0.204 F 
+ATOM     30  C18 VGH d          18.316  83.079   7.308  0.00  0.00     0.083 A 
+ATOM     31 CL2  VGH d          18.618  83.397   8.986  0.00  0.00    -0.080 Cl
+ENDBRANCH  21  23
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   3  32
+ATOM     32  N22 VGH d          22.541  85.576   8.672  0.00  0.00    -0.382 N 
+ATOM     33  H8  VGH d          23.378  85.635   9.269  0.00  0.00     0.157 HD
+ATOM     34  H9  VGH d          21.612  85.778   9.067  0.00  0.00     0.157 HD
+ENDBRANCH   3  32
+TORSDOF 6

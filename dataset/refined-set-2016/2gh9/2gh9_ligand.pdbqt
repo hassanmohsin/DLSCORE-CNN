@@ -1,0 +1,104 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1A_1  and  O1X_7 
+REMARK    2  A    between atoms: C2A_2  and  O2A_8 
+REMARK    3  A    between atoms: C3A_3  and  O3A_9 
+REMARK    4  A    between atoms: C4A_4  and  O4A_10 
+REMARK    5  A    between atoms: C5A_5  and  C6A_6 
+REMARK    6  A    between atoms: C6A_6  and  O6A_12 
+REMARK    7  A    between atoms: O4A_10  and  C1B_13 
+REMARK    8  A    between atoms: C2B_14  and  O2B_19 
+REMARK    9  A    between atoms: C3B_15  and  O3B_20 
+REMARK   10  A    between atoms: C4B_16  and  O4B_21 
+REMARK   11  A    between atoms: C5B_17  and  C6B_18 
+REMARK   12  A    between atoms: C6B_18  and  O6B_23 
+REMARK   13  A    between atoms: O4B_21  and  C1C_24 
+REMARK   14  A    between atoms: C2C_25  and  O2C_30 
+REMARK   15  A    between atoms: C3C_26  and  O3C_31 
+REMARK   16  A    between atoms: C4C_27  and  O4C_32 
+REMARK   17  A    between atoms: C5C_28  and  C6C_29 
+REMARK   18  A    between atoms: C6C_29  and  O6C_34 
+ROOT
+ATOM      1  C1B MLR d          23.323  15.062  20.672  0.00  0.00     0.292 C 
+ATOM      2  C2B MLR d          22.373  14.028  21.247  0.00  0.00     0.204 C 
+ATOM      3  C3B MLR d          22.135  14.328  22.744  0.00  0.00     0.183 C 
+ATOM      4  C4B MLR d          23.426  14.486  23.532  0.00  0.00     0.187 C 
+ATOM      5  C5B MLR d          24.354  15.474  22.830  0.00  0.00     0.180 C 
+ATOM      6  O5B MLR d          24.531  15.108  21.442  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O4A MLR d          22.662  16.338  20.678  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C4A MLR d          22.676  17.036  19.445  0.00  0.00     0.187 C 
+ATOM      9  C3A MLR d          21.226  17.260  18.988  0.00  0.00     0.183 C 
+ATOM     10  C2A MLR d          21.215  18.154  17.764  0.00  0.00     0.204 C 
+ATOM     11  C1A MLR d          21.918  19.472  18.084  0.00  0.00     0.288 C 
+ATOM     12  O5A MLR d          23.221  19.248  18.637  0.00  0.00    -0.349 OA
+ATOM     13  C5A MLR d          23.374  18.371  19.751  0.00  0.00     0.180 C 
+BRANCH   9  14
+ATOM     14  O3A MLR d          20.572  16.005  18.738  0.00  0.00    -0.390 OA
+ATOM     15  H10 MLR d          20.567  15.488  19.535  0.00  0.00     0.210 HD
+ENDBRANCH   9  14
+BRANCH  10  16
+ATOM     16  O2A MLR d          19.871  18.391  17.290  0.00  0.00    -0.388 OA
+ATOM     17  H9  MLR d          19.365  18.813  17.974  0.00  0.00     0.210 HD
+ENDBRANCH  10  16
+BRANCH  11  18
+ATOM     18  O1X MLR d          21.107  20.200  19.003  0.00  0.00    -0.369 OA
+ATOM     19  H8  MLR d          20.248  20.340  18.623  0.00  0.00     0.212 HD
+ENDBRANCH  11  18
+BRANCH  13  20
+ATOM     20  C6A MLR d          24.875  18.169  20.036  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O6A MLR d          25.548  19.422  20.265  0.00  0.00    -0.398 OA
+ATOM     22  H11 MLR d          25.461  19.972  19.495  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH  13  20
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  23
+ATOM     23  O2B MLR d          21.121  14.086  20.558  0.00  0.00    -0.388 OA
+ATOM     24  H19 MLR d          20.746  14.954  20.657  0.00  0.00     0.210 HD
+ENDBRANCH   2  23
+BRANCH   3  25
+ATOM     25  O3B MLR d          21.332  13.320  23.319  0.00  0.00    -0.390 OA
+ATOM     26  H20 MLR d          21.123  13.556  24.215  0.00  0.00     0.210 HD
+ENDBRANCH   3  25
+BRANCH   5  27
+ATOM     27  C6B MLR d          25.723  15.523  23.519  0.00  0.00     0.198 C 
+BRANCH  27  28
+ATOM     28  O6B MLR d          26.373  16.784  23.337  0.00  0.00    -0.398 OA
+ATOM     29  H21 MLR d          27.214  16.772  23.778  0.00  0.00     0.209 HD
+ENDBRANCH  27  28
+ENDBRANCH   5  27
+BRANCH   4  30
+ATOM     30  O4B MLR d          23.132  14.941  24.868  0.00  0.00    -0.348 OA
+BRANCH  30  31
+ATOM     31  C1C MLR d          23.432  13.978  25.873  0.00  0.00     0.292 C 
+ATOM     32  C2C MLR d          22.272  14.027  26.850  0.00  0.00     0.204 C 
+ATOM     33  C3C MLR d          22.241  15.366  27.569  0.00  0.00     0.183 C 
+ATOM     34  C4C MLR d          23.602  15.627  28.202  0.00  0.00     0.180 C 
+ATOM     35  C5C MLR d          24.748  15.529  27.184  0.00  0.00     0.179 C 
+ATOM     36  O5C MLR d          24.688  14.262  26.523  0.00  0.00    -0.348 OA
+BRANCH  32  37
+ATOM     37  O2C MLR d          21.027  13.805  26.161  0.00  0.00    -0.388 OA
+ATOM     38  H29 MLR d          20.890  14.497  25.525  0.00  0.00     0.210 HD
+ENDBRANCH  32  37
+BRANCH  33  39
+ATOM     39  O3C MLR d          21.227  15.356  28.569  0.00  0.00    -0.390 OA
+ATOM     40  H30 MLR d          21.209  16.198  29.009  0.00  0.00     0.210 HD
+ENDBRANCH  33  39
+BRANCH  34  41
+ATOM     41  O4C MLR d          23.562  16.923  28.798  0.00  0.00    -0.390 OA
+ATOM     42  H31 MLR d          22.847  16.961  29.423  0.00  0.00     0.210 HD
+ENDBRANCH  34  41
+BRANCH  35  43
+ATOM     43  C6C MLR d          26.142  15.658  27.816  0.00  0.00     0.198 C 
+BRANCH  43  44
+ATOM     44  O6C MLR d          27.084  16.024  26.801  0.00  0.00    -0.398 OA
+ATOM     45  H32 MLR d          27.948  16.105  27.187  0.00  0.00     0.209 HD
+ENDBRANCH  43  44
+ENDBRANCH  35  43
+ENDBRANCH  30  31
+ENDBRANCH   4  30
+TORSDOF 18

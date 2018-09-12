@@ -1,0 +1,30 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CB_3  and  CG_4 
+ROOT
+ATOM      1  CG  TSS d           6.101   4.242  48.608  0.00  0.00    -0.029 A 
+ATOM      2  CD1 TSS d           5.852   4.653  49.910  0.00  0.00     0.096 A 
+ATOM      3  NE1 TSS d           5.112   3.715  50.537  0.00  0.00    -0.365 N 
+ATOM      4  CE2 TSS d           4.849   2.680  49.663  0.00  0.00     0.042 A 
+ATOM      5  CD2 TSS d           5.452   2.977  48.467  0.00  0.00    -0.002 A 
+ATOM      6  CZ2 TSS d           4.112   1.474  49.817  0.00  0.00     0.030 A 
+ATOM      7  CH2 TSS d           4.011   0.580  48.755  0.00  0.00     0.002 A 
+ATOM      8  CZ3 TSS d           4.626   0.882  47.538  0.00  0.00     0.001 A 
+ATOM      9  CE3 TSS d           5.345   2.073  47.385  0.00  0.00     0.014 A 
+ATOM     10  H9  TSS d           4.793   3.764  51.515  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  CB  TSS d           6.897   4.979  47.578  0.00  0.00     0.068 C 
+BRANCH  11  12
+ATOM     12  CA  TSS d           6.160   5.569  46.417  0.00  0.00     0.234 C 
+BRANCH  12  13
+ATOM     13  N1  TSS d           4.858   6.131  46.683  0.00  0.00    -0.079 N 
+ATOM     14  H1  TSS d           4.467   6.494  45.827  0.00  0.00     0.274 HD
+ATOM     15  H2  TSS d           4.945   6.877  47.355  0.00  0.00     0.274 HD
+ATOM     16  H3  TSS d           4.252   5.415  47.052  0.00  0.00     0.274 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 3

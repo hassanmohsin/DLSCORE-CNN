@@ -1,0 +1,44 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_6  and  NAD_22 
+REMARK    2  A    between atoms: CAM_23  and  CAR_15 
+REMARK    3  A    between atoms: CAS_16  and  CAM_23 
+REMARK    4  A    between atoms: NAX_18  and  CAY_19 
+ROOT
+ATOM      1  N1  0JN d          35.828  13.013  18.872  0.00  0.00    -0.224 NA
+ATOM      2  C2  0JN d          36.964  12.285  18.526  0.00  0.00     0.237 A 
+ATOM      3  N3  0JN d          37.986  12.960  17.857  0.00  0.00    -0.222 NA
+ATOM      4  C4  0JN d          37.856  14.266  17.562  0.00  0.00     0.164 A 
+ATOM      5  C5  0JN d          36.751  14.939  17.908  0.00  0.00     0.084 A 
+ATOM      6  C6  0JN d          35.756  14.312  18.554  0.00  0.00     0.138 A 
+ATOM      7  CAS 0JN d          36.973  16.179  17.460  0.00  0.00     0.077 A 
+ATOM      8  NAX 0JN d          38.681  15.120  16.936  0.00  0.00    -0.242 N 
+ATOM      9  NAP 0JN d          38.172  16.208  16.882  0.00  0.00    -0.173 NA
+ENDROOT
+BRANCH   7  10
+ATOM     10  CAM 0JN d          36.078  17.441  17.562  0.00  0.00     0.101 C 
+BRANCH  10  11
+ATOM     11  CAR 0JN d          35.038  17.476  16.627  0.00  0.00    -0.041 A 
+ATOM     12  CAH 0JN d          33.733  17.317  17.078  0.00  0.00     0.008 A 
+ATOM     13  CAG 0JN d          32.659  17.348  16.196  0.00  0.00     0.001 A 
+ATOM     14  CAJ 0JN d          32.890  17.552  14.844  0.00  0.00     0.012 A 
+ATOM     15  CAT 0JN d          34.190  17.723  14.382  0.00  0.00    -0.025 A 
+ATOM     16  CAI 0JN d          34.408  17.926  13.026  0.00  0.00     0.012 A 
+ATOM     17  CAU 0JN d          35.266  17.691  15.265  0.00  0.00    -0.019 A 
+ATOM     18  CAE 0JN d          35.698  18.099  12.545  0.00  0.00     0.001 A 
+ATOM     19  CAF 0JN d          36.777  18.067  13.418  0.00  0.00     0.001 A 
+ATOM     20  CAK 0JN d          36.556  17.865  14.773  0.00  0.00     0.013 A 
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+BRANCH   6  21
+ATOM     21  NAD 0JN d          34.680  15.018  18.881  0.00  0.00    -0.383 N 
+ATOM     22  H17 0JN d          34.626  16.017  18.636  0.00  0.00     0.157 HD
+ATOM     23  H18 0JN d          33.900  14.567  19.380  0.00  0.00     0.157 HD
+ENDBRANCH   6  21
+BRANCH   8  24
+ATOM     24  CAY 0JN d          40.039  14.877  16.353  0.00  0.00     0.047 C 
+ATOM     25  CAA 0JN d          40.028  13.627  15.472  0.00  0.00     0.040 C 
+ATOM     26  CAB 0JN d          40.441  16.087  15.509  0.00  0.00     0.040 C 
+ATOM     27  CAC 0JN d          41.063  14.699  17.477  0.00  0.00     0.040 C 
+ENDBRANCH   8  24
+TORSDOF 4

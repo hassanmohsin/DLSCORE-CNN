@@ -1,0 +1,38 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5_4  and  O1_18 
+REMARK    2  A    between atoms: C10_7  and  O3_17 
+REMARK    3  A    between atoms: C13_11  and  S1_22 
+ROOT
+ATOM      1  C2  AZN d          36.871  54.105  78.898  0.00  0.00     0.065 A 
+ATOM      2  C3  AZN d          38.851  53.561  80.466  0.00  0.00     0.029 A 
+ATOM      3  C4  AZN d          37.232  52.818  78.227  0.00  0.00     0.034 A 
+ATOM      4  C5  AZN d          35.803  54.815  78.418  0.00  0.00     0.115 A 
+ATOM      5  C8  AZN d          38.355  51.983  78.680  0.00  0.00     0.194 A 
+ATOM      6  C9  AZN d          36.519  52.335  77.144  0.00  0.00     0.045 A 
+ATOM      7  C10 AZN d          35.094  54.287  77.312  0.00  0.00     0.124 A 
+ATOM      8  C11 AZN d          40.200  51.581  80.266  0.00  0.00     0.016 A 
+ATOM      9  C12 AZN d          40.654  53.148  82.013  0.00  0.00     0.001 A 
+ATOM     10  C14 AZN d          40.944  51.967  81.364  0.00  0.00     0.001 A 
+ATOM     11  C13 AZN d          35.479  53.052  76.747  0.00  0.00     0.117 A 
+ATOM     12  C1  AZN d          37.708  54.485  80.034  0.00  0.00     0.197 A 
+ATOM     13  C6  AZN d          39.146  52.382  79.818  0.00  0.00     0.029 A 
+ATOM     14  C7  AZN d          39.618  53.945  81.570  0.00  0.00     0.016 A 
+ATOM     15  O   AZN d          37.486  55.526  80.635  0.00  0.00    -0.286 OA
+ATOM     16  O2  AZN d          38.613  50.942  78.098  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH  11  17
+ATOM     17  S1  AZN d          34.706  52.655  75.128  0.00  0.00     0.140 S 
+ATOM     18  O6  AZN d          33.743  53.690  74.894  0.00  0.00    -0.591 OA
+ATOM     19  O4  AZN d          33.983  51.427  75.159  0.00  0.00    -0.591 OA
+ATOM     20  O5  AZN d          35.578  52.722  74.013  0.00  0.00    -0.591 OA
+ENDBRANCH  11  17
+BRANCH   7  21
+ATOM     21  O3  AZN d          34.033  54.960  76.817  0.00  0.00    -0.356 OA
+ATOM     22  H6  AZN d          34.188  55.166  75.903  0.00  0.00     0.218 HD
+ENDBRANCH   7  21
+BRANCH   4  23
+ATOM     23  O1  AZN d          35.436  55.968  78.997  0.00  0.00    -0.357 OA
+ATOM     24  H7  AZN d          36.025  56.161  79.717  0.00  0.00     0.217 HD
+ENDBRANCH   4  23
+TORSDOF 3

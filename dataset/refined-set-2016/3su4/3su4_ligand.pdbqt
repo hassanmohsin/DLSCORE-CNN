@@ -1,0 +1,84 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  CA_4 
+REMARK       I    between atoms: NAV_21  and  C_1 
+REMARK    2  A    between atoms: CAH_9  and  CAL_13 
+REMARK    3  A    between atoms: CAZ_24  and  CAR_18 
+REMARK    4  A    between atoms: CAX_22  and  NAV_21 
+REMARK    5  A    between atoms: CAX_22  and  CAY_23 
+REMARK       I    between atoms: CAY_23  and  NBK_35 
+REMARK    6  A    between atoms: NBK_35  and  SBM_37 
+REMARK    7  A    between atoms: SBM_37  and  CBN_38 
+ROOT
+ATOM      1  N   SU3 d          39.698  -1.275   5.096  0.00  0.00    -0.334 N 
+ATOM      2  CA  SU3 d          38.926  -0.027   4.906  0.00  0.00     0.181 C 
+ATOM      3  CB  SU3 d          39.909   0.963   4.297  0.00  0.00     0.069 C 
+ATOM      4  CG  SU3 d          41.238   0.521   4.880  0.00  0.00     0.154 C 
+ATOM      5  CAF SU3 d          39.254  -2.498   5.448  0.00  0.00     0.244 C 
+ATOM      6  OAG SU3 d          38.043  -2.612   5.678  0.00  0.00    -0.271 OA
+ATOM      7  CAH SU3 d          40.177  -3.726   5.626  0.00  0.00     0.186 C 
+ATOM      8  NAI SU3 d          39.795  -4.390   6.879  0.00  0.00    -0.323 N 
+ATOM      9  CAJ SU3 d          40.448  -4.201   8.015  0.00  0.00     0.361 C 
+ATOM     10  OAK SU3 d          39.966  -4.891   9.086  0.00  0.00    -0.303 OA
+ATOM     11  OAM SU3 d          41.438  -3.471   8.120  0.00  0.00    -0.238 OA
+ATOM     12  CAO SU3 d          41.672   2.063   6.582  0.00  0.00     0.371 C 
+ATOM     13  OAP SU3 d          41.959   2.911   5.739  0.00  0.00    -0.238 OA
+ATOM     14  NAQ SU3 d          41.683   2.452   7.826  0.00  0.00    -0.278 N 
+ATOM     15  CBB SU3 d          41.976   3.788   8.373  0.00  0.00     0.114 A 
+ATOM     16  CBC SU3 d          41.821   3.652   9.863  0.00  0.00    -0.008 A 
+ATOM     17  CBD SU3 d          41.491   2.330  10.163  0.00  0.00    -0.002 A 
+ATOM     18  CBE SU3 d          41.393   1.498   8.890  0.00  0.00     0.114 A 
+ATOM     19  CBF SU3 d          41.952   4.590  10.882  0.00  0.00     0.014 A 
+ATOM     20  CBG SU3 d          41.738   4.186  12.184  0.00  0.00     0.002 A 
+ATOM     21  CBH SU3 d          41.416   2.856  12.486  0.00  0.00     0.008 A 
+ATOM     22  CBI SU3 d          41.278   1.915  11.471  0.00  0.00    -0.046 A 
+ATOM     23  CBJ SU3 d          40.946   0.491  11.871  0.00  0.00     0.039 C 
+ATOM     24  CBS SU3 d          39.533   0.034  11.514  0.00  0.00     0.005 C 
+ATOM     25  CBT SU3 d          39.326  -1.417  11.960  0.00  0.00     0.001 C 
+ATOM     26  CBU SU3 d          39.880  -2.418  10.922  0.00  0.00     0.011 C 
+ATOM     27  CBV SU3 d          39.779  -3.893  11.362  0.00  0.00    -0.025 C 
+ATOM     28  CBW SU3 d          40.602  -4.678  10.365  0.00  0.00     0.189 C 
+ATOM     29  CBX SU3 d          40.430  -4.108  12.738  0.00  0.00     0.017 C 
+ATOM     30  CBY SU3 d          38.303  -4.377  11.384  0.00  0.00     0.017 C 
+ATOM     31  CD1 SU3 d          41.111  -0.986   4.815  0.00  0.00     0.159 C 
+ATOM     32  OD2 SU3 d          41.361   0.770   6.283  0.00  0.00    -0.296 OA
+ATOM     33  H6  SU3 d          39.010  -5.010   6.874  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   2  34
+ATOM     34  C   SU3 d          37.757  -0.356   3.976  0.00  0.00     0.241 C 
+ATOM     35  O   SU3 d          37.938  -0.949   2.915  0.00  0.00    -0.271 OA
+ATOM     36  NAV SU3 d          36.549  -0.016   4.431  0.00  0.00    -0.341 N 
+ATOM     37  H15 SU3 d          36.479   0.495   5.287  0.00  0.00     0.163 HD
+BRANCH  36  38
+ATOM     38  CAX SU3 d          35.323  -0.371   3.711  0.00  0.00     0.119 A 
+ATOM     39  CAZ SU3 d          34.911  -1.836   3.845  0.00  0.00     0.026 A 
+ATOM     40  CBA SU3 d          34.122  -0.746   4.570  0.00  0.00     0.049 A 
+BRANCH  38  41
+ATOM     41  CAY SU3 d          35.047   0.398   2.404  0.00  0.00     0.259 C 
+ATOM     42  NBK SU3 d          35.841   1.437   2.150  0.00  0.00    -0.252 N 
+ATOM     43  H26 SU3 d          36.580   1.704   2.769  0.00  0.00     0.181 HD
+ATOM     44  OBL SU3 d          34.116   0.058   1.670  0.00  0.00    -0.270 OA
+BRANCH  42  45
+ATOM     45  SBM SU3 d          35.535   2.246   0.770  0.00  0.00     0.237 S 
+ATOM     46  OBO SU3 d          35.672   1.347  -0.413  0.00  0.00    -0.205 OA
+ATOM     47  OBP SU3 d          34.189   2.891   0.793  0.00  0.00    -0.205 OA
+BRANCH  45  48
+ATOM     48  CBN SU3 d          36.781   3.555   0.679  0.00  0.00     0.130 A 
+ATOM     49  CBQ SU3 d          36.448   4.658  -0.301  0.00  0.00     0.023 A 
+ATOM     50  CBR SU3 d          36.259   4.887   1.208  0.00  0.00     0.023 A 
+ENDBRANCH  45  48
+ENDBRANCH  42  45
+ENDBRANCH  38  41
+BRANCH  39  51
+ATOM     51  CAR SU3 d          34.177  -2.495   2.678  0.00  0.00     0.003 C 
+ATOM     52  CAS SU3 d          35.149  -3.158   1.702  0.00  0.00     0.005 C 
+ENDBRANCH  39  51
+ENDBRANCH  36  38
+ENDBRANCH   2  34
+BRANCH   7  53
+ATOM     53  CAL SU3 d          40.066  -4.713   4.433  0.00  0.00    -0.022 C 
+ATOM     54  CAT SU3 d          38.611  -5.126   4.205  0.00  0.00     0.017 C 
+ATOM     55  CBZ SU3 d          40.607  -4.027   3.166  0.00  0.00     0.017 C 
+ATOM     56  CCA SU3 d          40.853  -5.975   4.697  0.00  0.00     0.017 C 
+ENDBRANCH   7  53
+TORSDOF 7

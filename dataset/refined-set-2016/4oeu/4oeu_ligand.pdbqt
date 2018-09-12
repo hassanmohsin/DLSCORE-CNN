@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+ROOT
+ATOM      1  CA  HIS d         -77.704  -7.984  40.147  0.00  0.00     0.289 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   HIS d         -76.978  -9.248  40.056  0.00  0.00    -0.065 N 
+ATOM      3  H   HIS d         -77.369  -9.807  39.314  0.00  0.00     0.275 HD
+ATOM      4  H   HIS d         -77.058  -9.745  40.929  0.00  0.00     0.275 HD
+ATOM      5  H   HIS d         -76.006  -9.064  39.862  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   HIS d         -77.135  -7.118  41.260  0.00  0.00     0.204 C 
+ATOM      7  O   HIS d         -76.385  -7.618  42.091  0.00  0.00    -0.646 OA
+ATOM      8  OXT HIS d         -77.445  -5.929  41.389  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  HIS d         -79.188  -8.238  40.413  0.00  0.00     0.104 C 
+BRANCH   9  10
+ATOM     10  CG  HIS d         -79.469  -8.840  41.752  0.00  0.00     0.053 A 
+ATOM     11  ND1 HIS d         -78.595  -9.720  42.375  0.00  0.00    -0.247 NA
+ATOM     12  CE1 HIS d         -79.098 -10.094  43.532  0.00  0.00     0.207 A 
+ATOM     13  NE2 HIS d         -80.265  -9.489  43.700  0.00  0.00    -0.359 N 
+ATOM     14  CD2 HIS d         -80.515  -8.706  42.602  0.00  0.00     0.116 A 
+ATOM     15  H   HIS d         -80.882  -9.590  44.519  0.00  0.00     0.166 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4

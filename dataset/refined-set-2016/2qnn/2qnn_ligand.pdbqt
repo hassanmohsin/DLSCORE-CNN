@@ -1,0 +1,108 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C8_2 
+REMARK    1  A    between atoms: C8_2  and  C6_3 
+REMARK    2  A    between atoms: C27_6  and  S9_9 
+REMARK    3  A    between atoms: S9_9  and  N32_12 
+REMARK    4  A    between atoms: N32_12  and  C33_13 
+REMARK    5  A    between atoms: N32_12  and  C24_24 
+REMARK    6  A    between atoms: C33_13  and  C34_14 
+REMARK    7  A    between atoms: C37_17  and  C10_18 
+REMARK    8  A    between atoms: C23_28  and  N28_29 
+REMARK    9  A    between atoms: N28_29  and  C7_30 
+REMARK   10  A    between atoms: N28_29  and  S8_41 
+REMARK   11  A    between atoms: C7_30  and  C12_31 
+REMARK   12  A    between atoms: C31_34  and  C11_35 
+REMARK   13  A    between atoms: S8_41  and  C26_42 
+REMARK   14  A    between atoms: C4_45  and  C9_46 
+REMARK       I    between atoms: C9_46  and  N2_48 
+ROOT
+ATOM      1  C24 QN1 d          12.020 -18.695 -17.122  0.00  0.00     0.147 C 
+ATOM      2  C25 QN1 d          12.782 -17.602 -17.896  0.00  0.00     0.260 C 
+ATOM      3  N22 QN1 d          14.130 -18.167 -18.200  0.00  0.00    -0.071 N 
+ATOM      4  C21 QN1 d          14.050 -19.620 -18.223  0.00  0.00     0.260 C 
+ATOM      5  C23 QN1 d          12.726 -20.029 -17.539  0.00  0.00     0.147 C 
+ATOM      6  H16 QN1 d          14.784 -17.877 -17.490  0.00  0.00     0.277 HD
+ATOM      7  H17 QN1 d          14.440 -17.833 -19.099  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  N32 QN1 d          12.146 -18.545 -15.662  0.00  0.00    -0.294 N 
+BRANCH   8   9
+ATOM      9  S9  QN1 d          10.712 -18.905 -14.796  0.00  0.00     0.261 S 
+ATOM     10  O40 QN1 d          11.078 -18.959 -13.384  0.00  0.00    -0.200 OA
+ATOM     11  O11 QN1 d          10.095 -20.077 -15.422  0.00  0.00    -0.200 OA
+BRANCH   9  12
+ATOM     12  C27 QN1 d           9.559 -17.618 -14.924  0.00  0.00     0.079 A 
+ATOM     13  C18 QN1 d           9.870 -16.358 -14.434  0.00  0.00     0.026 A 
+ATOM     14  C2  QN1 d           8.919 -15.336 -14.512  0.00  0.00     0.018 A 
+ATOM     15  C6  QN1 d           7.703 -15.587 -15.166  0.00  0.00     0.031 A 
+ATOM     16  C5  QN1 d           7.434 -16.852 -15.702  0.00  0.00     0.018 A 
+ATOM     17  C20 QN1 d           8.365 -17.891 -15.618  0.00  0.00     0.026 A 
+BRANCH  15  18
+ATOM     18  C8  QN1 d           6.687 -14.480 -15.226  0.00  0.00     0.249 C 
+ATOM     19  N1  QN1 d           5.465 -14.795 -15.711  0.00  0.00    -0.366 N 
+ATOM     20  H1  QN1 d           4.755 -14.094 -15.771  0.00  0.00     0.159 HD
+ATOM     21  H2  QN1 d           5.271 -15.729 -16.010  0.00  0.00     0.159 HD
+ATOM     22  O2  QN1 d           6.975 -13.356 -14.840  0.00  0.00    -0.268 OA
+ENDBRANCH  15  18
+ENDBRANCH   9  12
+ENDBRANCH   8   9
+BRANCH   8  23
+ATOM     23  C33 QN1 d          13.374 -18.247 -14.917  0.00  0.00     0.174 C 
+BRANCH  23  24
+ATOM     24  C34 QN1 d          14.173 -19.553 -14.658  0.00  0.00    -0.040 A 
+ATOM     25  C38 QN1 d          15.520 -19.624 -15.074  0.00  0.00     0.009 A 
+ATOM     26  C39 QN1 d          16.297 -20.769 -14.845  0.00  0.00     0.017 A 
+ATOM     27  C37 QN1 d          15.706 -21.897 -14.237  0.00  0.00     0.047 A 
+ATOM     28  C36 QN1 d          14.373 -21.836 -13.825  0.00  0.00     0.017 A 
+ATOM     29  C35 QN1 d          13.604 -20.682 -14.063  0.00  0.00     0.009 A 
+BRANCH  27  30
+ATOM     30  C10 QN1 d          16.562 -23.142 -13.974  0.00  0.00     0.417 C 
+ATOM     31  F6  QN1 d          16.065 -24.271 -14.529  0.00  0.00    -0.166 F 
+ATOM     32  F5  QN1 d          17.831 -22.920 -14.437  0.00  0.00    -0.166 F 
+ATOM     33  F4  QN1 d          16.689 -23.294 -12.631  0.00  0.00    -0.166 F 
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   8  23
+ENDBRANCH   1   8
+BRANCH   5  34
+ATOM     34  N28 QN1 d          11.944 -20.845 -18.443  0.00  0.00    -0.294 N 
+BRANCH  34  35
+ATOM     35  C7  QN1 d          11.465 -20.415 -19.745  0.00  0.00     0.174 C 
+BRANCH  35  36
+ATOM     36  C12 QN1 d          10.187 -19.640 -19.840  0.00  0.00    -0.040 A 
+ATOM     37  C14 QN1 d          10.135 -18.643 -20.818  0.00  0.00     0.009 A 
+ATOM     38  C30 QN1 d           8.973 -17.915 -21.001  0.00  0.00     0.017 A 
+ATOM     39  C31 QN1 d           7.879 -18.121 -20.180  0.00  0.00     0.047 A 
+ATOM     40  C29 QN1 d           7.946 -19.088 -19.175  0.00  0.00     0.017 A 
+ATOM     41  C13 QN1 d           9.103 -19.828 -18.986  0.00  0.00     0.009 A 
+BRANCH  39  42
+ATOM     42  C11 QN1 d           6.621 -17.257 -20.429  0.00  0.00     0.417 C 
+ATOM     43  F3  QN1 d           7.057 -16.021 -20.873  0.00  0.00    -0.166 F 
+ATOM     44  F2  QN1 d           5.984 -17.830 -21.472  0.00  0.00    -0.166 F 
+ATOM     45  F1  QN1 d           5.909 -17.062 -19.322  0.00  0.00    -0.166 F 
+ENDBRANCH  39  42
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+BRANCH  34  46
+ATOM     46  S8  QN1 d          11.753 -22.455 -18.080  0.00  0.00     0.261 S 
+ATOM     47  O41 QN1 d          10.658 -22.963 -18.891  0.00  0.00    -0.200 OA
+ATOM     48  O10 QN1 d          11.731 -22.669 -16.641  0.00  0.00    -0.200 OA
+BRANCH  46  49
+ATOM     49  C26 QN1 d          13.254 -23.146 -18.723  0.00  0.00     0.079 A 
+ATOM     50  C17 QN1 d          13.333 -23.413 -20.092  0.00  0.00     0.026 A 
+ATOM     51  C1  QN1 d          14.512 -23.952 -20.635  0.00  0.00     0.018 A 
+ATOM     52  C4  QN1 d          15.561 -24.239 -19.768  0.00  0.00     0.031 A 
+ATOM     53  C3  QN1 d          15.481 -23.947 -18.413  0.00  0.00     0.018 A 
+ATOM     54  C19 QN1 d          14.305 -23.412 -17.835  0.00  0.00     0.026 A 
+BRANCH  52  55
+ATOM     55  C9  QN1 d          16.853 -24.789 -20.368  0.00  0.00     0.249 C 
+ATOM     56  O1  QN1 d          17.147 -24.469 -21.511  0.00  0.00    -0.268 OA
+ATOM     57  N2  QN1 d          17.664 -25.597 -19.698  0.00  0.00    -0.366 N 
+ATOM     58  H29 QN1 d          18.501 -25.935 -20.129  0.00  0.00     0.159 HD
+ATOM     59  H30 QN1 d          17.438 -25.868 -18.762  0.00  0.00     0.159 HD
+ENDBRANCH  52  55
+ENDBRANCH  46  49
+ENDBRANCH  34  46
+ENDBRANCH   5  34
+TORSDOF 14

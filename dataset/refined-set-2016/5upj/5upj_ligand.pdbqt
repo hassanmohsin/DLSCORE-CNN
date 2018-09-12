@@ -1,0 +1,41 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CG1_15 
+REMARK    2  A    between atoms: CA6_7  and  OA6_8 
+REMARK    3  A    between atoms: CG1_15  and  CB1_9 
+REMARK    4  A    between atoms: CG1_15  and  CG2_16 
+ROOT
+ATOM      1  CA  UIN d          -0.313  18.028  20.755  0.00  0.00     0.060 A 
+ATOM      2  CA2 UIN d          -1.445  17.570  21.495  0.00  0.00     0.297 A 
+ATOM      3  OA2 UIN d          -1.689  16.387  21.606  0.00  0.00    -0.259 OA
+ATOM      4  OA3 UIN d          -2.337  18.427  22.068  0.00  0.00    -0.279 OA
+ATOM      5  CA4 UIN d          -2.088  19.793  21.882  0.00  0.00     0.066 A 
+ATOM      6  CA5 UIN d          -0.984  20.299  21.176  0.00  0.00     0.006 A 
+ATOM      7  CA6 UIN d          -0.094  19.391  20.605  0.00  0.00     0.087 A 
+ATOM      8  CD1 UIN d          -3.110  20.673  22.556  0.00  0.00     0.066 C 
+ATOM      9  CD2 UIN d          -4.207  21.245  21.689  0.00  0.00     0.006 C 
+ATOM     10  CD3 UIN d          -3.821  22.402  20.791  0.00  0.00     0.000 C 
+ATOM     11  CD4 UIN d          -2.919  22.061  19.604  0.00  0.00     0.000 C 
+ATOM     12  CD5 UIN d          -1.433  22.377  19.791  0.00  0.00     0.005 C 
+ATOM     13  CD6 UIN d          -0.777  21.786  21.016  0.00  0.00     0.044 C 
+ENDROOT
+BRANCH   1  14
+ATOM     14  CG1 UIN d           0.706  17.067  20.132  0.00  0.00     0.060 C 
+BRANCH  14  15
+ATOM     15  CG2 UIN d           1.299  16.045  21.086  0.00  0.00     0.010 C 
+ATOM     16  CG3 UIN d           2.375  16.595  22.014  0.00  0.00     0.006 C 
+ENDBRANCH  14  15
+BRANCH  14  17
+ATOM     17  CB1 UIN d           0.185  16.470  18.847  0.00  0.00    -0.049 A 
+ATOM     18  CB6 UIN d           0.013  15.053  18.730  0.00  0.00     0.008 A 
+ATOM     19  CB5 UIN d          -0.525  14.523  17.556  0.00  0.00     0.001 A 
+ATOM     20  CB4 UIN d          -0.877  15.368  16.489  0.00  0.00     0.000 A 
+ATOM     21  CB3 UIN d          -0.707  16.756  16.596  0.00  0.00     0.001 A 
+ATOM     22  CB2 UIN d          -0.175  17.316  17.760  0.00  0.00     0.008 A 
+ENDBRANCH  14  17
+ENDBRANCH   1  14
+BRANCH   7  23
+ATOM     23  OA6 UIN d           0.988  19.776  19.877  0.00  0.00    -0.359 OA
+ATOM     24  H1  UIN d           1.459  19.006  19.581  0.00  0.00     0.217 HD
+ENDBRANCH   7  23
+TORSDOF 4

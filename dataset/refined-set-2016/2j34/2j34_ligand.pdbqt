@@ -1,0 +1,52 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_9  and  S1_10 
+REMARK    2  A    between atoms: S1_10  and  N1_13 
+REMARK    3  A    between atoms: N1_13  and  C12_14 
+REMARK    4  A    between atoms: N2_19  and  C16_20 
+REMARK    5  A    between atoms: C16_20  and  C18_22 
+REMARK       I    between atoms: C18_22  and  N3_24 
+ROOT
+ATOM      1  C12 GS6 d           6.129   6.549  22.564  0.00  0.00     0.186 C 
+ATOM      2  C13 GS6 d           4.784   5.839  22.337  0.00  0.00     0.055 C 
+ATOM      3  C14 GS6 d           5.126   4.517  21.628  0.00  0.00     0.129 C 
+ATOM      4  C15 GS6 d           7.134   5.751  21.722  0.00  0.00     0.244 C 
+ATOM      5  O3  GS6 d           8.273   6.108  21.451  0.00  0.00    -0.271 OA
+ATOM      6  N2  GS6 d           6.562   4.587  21.335  0.00  0.00    -0.337 N 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N1  GS6 d           6.053   8.010  22.361  0.00  0.00    -0.301 N 
+ATOM      8  H5  GS6 d           5.731   8.340  21.474  0.00  0.00     0.173 HD
+BRANCH   7   9
+ATOM      9  S1  GS6 d           6.458   9.125  23.483  0.00  0.00     0.266 S 
+ATOM     10  O2  GS6 d           5.474   9.117  24.505  0.00  0.00    -0.200 OA
+ATOM     11  O1  GS6 d           6.592  10.314  22.694  0.00  0.00    -0.200 OA
+BRANCH   9  12
+ATOM     12  C6  GS6 d           7.963   8.724  24.240  0.00  0.00     0.121 A 
+ATOM     13  C5  GS6 d           7.953   8.106  25.524  0.00  0.00     0.045 A 
+ATOM     14  C4  GS6 d           9.309   7.867  25.895  0.00  0.00    -0.017 A 
+ATOM     15  C3  GS6 d          10.239   8.321  24.926  0.00  0.00     0.018 A 
+ATOM     16  C9  GS6 d           9.737   7.267  27.103  0.00  0.00     0.014 A 
+ATOM     17  C2  GS6 d          11.635   8.139  25.191  0.00  0.00     0.043 A 
+ATOM     18  S2  GS6 d           9.528   9.006  23.550  0.00  0.00    -0.076 SA
+ATOM     19  C1  GS6 d          12.062   7.535  26.387  0.00  0.00     0.035 A 
+ATOM     20 CL   GS6 d          13.768   7.308  26.665  0.00  0.00    -0.084 Cl
+ATOM     21  C10 GS6 d          11.119   7.097  27.359  0.00  0.00     0.024 A 
+ENDBRANCH   9  12
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  22
+ATOM     22  C16 GS6 d           7.335   3.489  20.680  0.00  0.00     0.175 C 
+ATOM     23  C17 GS6 d           7.007   2.091  21.254  0.00  0.00     0.042 C 
+BRANCH  22  24
+ATOM     24  C18 GS6 d           7.113   3.460  19.173  0.00  0.00     0.242 C 
+ATOM     25  O4  GS6 d           6.140   4.056  18.730  0.00  0.00    -0.271 OA
+ATOM     26  N3  GS6 d           8.004   2.786  18.379  0.00  0.00    -0.346 N 
+ATOM     27  C19 GS6 d           7.722   2.727  16.936  0.00  0.00     0.152 C 
+ATOM     28  C23 GS6 d           9.229   2.091  18.852  0.00  0.00     0.152 C 
+ATOM     29  C20 GS6 d           8.990   2.746  16.071  0.00  0.00     0.187 C 
+ATOM     30  O5  GS6 d           9.914   1.764  16.541  0.00  0.00    -0.388 OA
+ATOM     31  C22 GS6 d          10.383   2.071  17.849  0.00  0.00     0.187 C 
+ENDBRANCH  22  24
+ENDBRANCH   6  22
+TORSDOF 5

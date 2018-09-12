@@ -1,0 +1,64 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CG1_15 
+REMARK    2  A    between atoms: CA6_7  and  OA6_8 
+REMARK    3  A    between atoms: CG1_15  and  CB1_9 
+REMARK    4  A    between atoms: CB5_13  and  N_25 
+REMARK    5  A    between atoms: CG1_15  and  CG2_16 
+REMARK    6  A    between atoms: N_25  and  S_26 
+REMARK    7  A    between atoms: S_26  and  CZ1_29 
+ROOT
+ATOM      1  CZ1 UNI d          19.180  18.995   6.838  0.00  0.00     0.080 A 
+ATOM      2  CZ2 UNI d          19.119  18.540   8.189  0.00  0.00     0.027 A 
+ATOM      3  CZ3 UNI d          19.673  19.340   9.224  0.00  0.00     0.024 A 
+ATOM      4  CZ4 UNI d          20.281  20.578   8.898  0.00  0.00     0.044 A 
+ATOM      5  CZ5 UNI d          20.331  21.020   7.560  0.00  0.00     0.024 A 
+ATOM      6  CZ6 UNI d          19.785  20.235   6.536  0.00  0.00     0.027 A 
+ATOM      7  CZ7 UNI d          20.874  21.354   9.889  0.00  0.00     0.099 C 
+ATOM      8  NZ7 UNI d          21.378  22.005  10.722  0.00  0.00    -0.191 NA
+ENDROOT
+BRANCH   1   9
+ATOM      9  S   UNI d          18.535  18.098   5.493  0.00  0.00     0.263 S 
+ATOM     10  O2  UNI d          18.917  18.839   4.292  0.00  0.00    -0.200 OA
+ATOM     11  O1  UNI d          18.870  16.683   5.503  0.00  0.00    -0.200 OA
+BRANCH   9  12
+ATOM     12  N   UNI d          16.983  17.942   5.308  0.00  0.00    -0.281 N 
+ATOM     13  H24 UNI d          16.489  17.113   5.569  0.00  0.00     0.179 HD
+BRANCH  12  14
+ATOM     14  CB5 UNI d          16.351  19.048   4.753  0.00  0.00     0.043 A 
+ATOM     15  CB4 UNI d          16.129  19.141   3.357  0.00  0.00     0.030 A 
+ATOM     16  CB3 UNI d          15.522  20.283   2.834  0.00  0.00     0.003 A 
+ATOM     17  CB2 UNI d          15.154  21.369   3.667  0.00  0.00     0.008 A 
+ATOM     18  CB1 UNI d          15.397  21.288   5.066  0.00  0.00    -0.047 A 
+ATOM     19  CB6 UNI d          15.996  20.124   5.587  0.00  0.00     0.038 A 
+BRANCH  18  20
+ATOM     20  CG1 UNI d          15.055  22.453   5.988  0.00  0.00     0.065 C 
+BRANCH  20  21
+ATOM     21  CA  UNI d          13.644  23.055   5.758  0.00  0.00     0.060 A 
+ATOM     22  CA6 UNI d          13.544  24.255   5.079  0.00  0.00     0.087 A 
+ATOM     23  CA5 UNI d          12.283  24.834   4.870  0.00  0.00     0.006 A 
+ATOM     24  CA4 UNI d          11.173  24.178   5.371  0.00  0.00     0.066 A 
+ATOM     25  CD6 UNI d          12.132  26.133   4.102  0.00  0.00     0.044 C 
+ATOM     26  OA3 UNI d          11.232  22.953   6.075  0.00  0.00    -0.279 OA
+ATOM     27  CD1 UNI d           9.756  24.721   5.200  0.00  0.00     0.066 C 
+ATOM     28  CA2 UNI d          12.462  22.430   6.233  0.00  0.00     0.297 A 
+ATOM     29  OA2 UNI d          12.522  21.371   6.752  0.00  0.00    -0.259 OA
+ATOM     30  CD2 UNI d           9.092  24.576   3.819  0.00  0.00     0.006 C 
+ATOM     31  CD3 UNI d           9.877  23.890   2.751  0.00  0.00     0.000 C 
+ATOM     32  CD4 UNI d          11.045  24.663   2.198  0.00  0.00     0.000 C 
+ATOM     33  CD5 UNI d          11.285  26.069   2.798  0.00  0.00     0.005 C 
+BRANCH  22  34
+ATOM     34  OA6 UNI d          14.720  24.821   4.703  0.00  0.00    -0.359 OA
+ATOM     35  H1  UNI d          15.438  24.249   4.947  0.00  0.00     0.217 HD
+ENDBRANCH  22  34
+ENDBRANCH  20  21
+BRANCH  20  36
+ATOM     36  CG2 UNI d          15.514  22.214   7.444  0.00  0.00    -0.001 A 
+ATOM     37  CG4 UNI d          16.772  22.931   7.934  0.00  0.00     0.006 A 
+ATOM     38  CG3 UNI d          15.409  23.341   8.474  0.00  0.00     0.006 A 
+ENDBRANCH  20  36
+ENDBRANCH  18  20
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 7

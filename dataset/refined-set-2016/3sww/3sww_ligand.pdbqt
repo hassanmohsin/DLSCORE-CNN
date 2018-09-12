@@ -1,0 +1,51 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C05_5  and  C04_4 
+REMARK    2  A    between atoms: C07_7  and  C16_16 
+REMARK    3  A    between atoms: C16_16  and  N21_21 
+REMARK    4  A    between atoms: C18_18  and  C17_17 
+REMARK    5  A    between atoms: C17_17  and  N20_20 
+REMARK    6  A    between atoms: C18_18  and  O23_23 
+ROOT
+ATOM      1  C05 KXB d          48.277  50.919  35.592  0.00  0.00    -0.004 A 
+ATOM      2  C06 KXB d          49.499  50.783  34.966  0.00  0.00     0.006 A 
+ATOM      3  C07 KXB d          47.253  51.574  34.882  0.00  0.00     0.003 A 
+ATOM      4  C10 KXB d          49.670  51.304  33.675  0.00  0.00     0.133 A 
+ATOM      5  C11 KXB d          47.514  52.069  33.588  0.00  0.00     0.040 A 
+ATOM      6  C12 KXB d          51.055  51.020  33.214  0.00  0.00     0.273 A 
+ATOM      7  C13 KXB d          50.774  50.151  35.443  0.00  0.00     0.168 A 
+ATOM      8  C14 KXB d          46.484  52.771  32.757  0.00  0.00     0.071 C 
+ATOM      9  N19 KXB d          48.720  51.936  32.947  0.00  0.00    -0.247 NA
+ATOM     10  N20 KXB d          51.656  50.321  34.253  0.00  0.00    -0.340 N 
+ATOM     11  O22 KXB d          51.585  51.281  32.141  0.00  0.00    -0.266 OA
+ENDROOT
+BRANCH   1  12
+ATOM     12  C04 KXB d          48.108  50.396  36.965  0.00  0.00    -0.003 A 
+ATOM     13  C01 KXB d          47.492  49.178  37.185  0.00  0.00     0.016 A 
+ATOM     14  C02 KXB d          47.357  48.702  38.473  0.00  0.00     0.025 A 
+ATOM     15  C08 KXB d          47.841  49.475  39.529  0.00  0.00     0.035 A 
+ATOM     16  C03 KXB d          48.470  50.691  39.350  0.00  0.00     0.048 A 
+ATOM     17 CL1  KXB d          47.677  48.886  41.116  0.00  0.00    -0.084 Cl
+ATOM     18  C09 KXB d          48.591  51.126  38.050  0.00  0.00     0.046 A 
+ATOM     19 CL2  KXB d          49.349  52.619  37.768  0.00  0.00    -0.083 Cl
+ENDBRANCH   1  12
+BRANCH   3  20
+ATOM     20  C16 KXB d          45.889  51.742  35.503  0.00  0.00     0.271 C 
+BRANCH  20  21
+ATOM     21  N21 KXB d          45.958  52.717  36.558  0.00  0.00    -0.075 N 
+ATOM     22  H18 KXB d          45.046  52.829  36.972  0.00  0.00     0.274 HD
+ATOM     23  H19 KXB d          46.266  53.599  36.180  0.00  0.00     0.274 HD
+ATOM     24  H20 KXB d          46.611  52.406  37.261  0.00  0.00     0.274 HD
+ENDBRANCH  20  21
+ENDBRANCH   3  20
+BRANCH  10  25
+ATOM     25  C17 KXB d          53.029  49.800  34.179  0.00  0.00     0.152 C 
+BRANCH  25  26
+ATOM     26  C18 KXB d          53.862  50.031  35.520  0.00  0.00     0.187 C 
+BRANCH  26  27
+ATOM     27  O23 KXB d          53.940  51.440  35.752  0.00  0.00    -0.394 OA
+ATOM     28  C15 KXB d          55.299  51.939  35.861  0.00  0.00     0.201 C 
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  10  25
+TORSDOF 6

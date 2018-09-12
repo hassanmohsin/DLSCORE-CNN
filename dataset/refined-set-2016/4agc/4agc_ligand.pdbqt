@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C80_2  and  N82_3 
+REMARK    1  A    between atoms: C80_2  and  C23_5 
+REMARK    2  A    between atoms: C18_9  and  S24_11 
+REMARK    3  A    between atoms: S24_11  and  C07_12 
+REMARK    4  A    between atoms: C13_19  and  C16_21 
+REMARK    5  A    between atoms: C17_22  and  C02_23 
+ROOT
+ATOM      1  C07 AXI d         -22.959  -0.270 -11.905  0.00  0.00     0.008 A 
+ATOM      2  C08 AXI d         -21.591  -0.542 -12.267  0.00  0.00     0.020 A 
+ATOM      3  C09 AXI d         -20.775   0.457 -12.895  0.00  0.00     0.017 A 
+ATOM      4  C12 AXI d         -23.512   1.033 -12.184  0.00  0.00     0.053 A 
+ATOM      5  C11 AXI d         -22.684   2.004 -12.808  0.00  0.00     0.090 A 
+ATOM      6  N15 AXI d         -22.918   3.313 -13.193  0.00  0.00    -0.174 NA
+ATOM      7  N14 AXI d         -21.872   3.847 -13.731  0.00  0.00    -0.277 N 
+ATOM      8  C13 AXI d         -20.895   3.007 -13.759  0.00  0.00     0.062 A 
+ATOM      9  C10 AXI d         -21.364   1.741 -13.156  0.00  0.00     0.022 A 
+ATOM     10  H12 AXI d         -21.825   4.812 -14.089  0.00  0.00     0.189 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  S24 AXI d         -23.902  -1.516 -11.133  0.00  0.00    -0.089 SA
+BRANCH  11  12
+ATOM     12  C18 AXI d         -25.398  -1.648 -12.044  0.00  0.00     0.021 A 
+ATOM     13  C23 AXI d         -26.661  -1.921 -11.407  0.00  0.00     0.049 A 
+ATOM     14  C22 AXI d         -27.843  -2.016 -12.228  0.00  0.00     0.018 A 
+ATOM     15  C21 AXI d         -27.785  -1.845 -13.635  0.00  0.00     0.001 A 
+ATOM     16  C20 AXI d         -26.539  -1.573 -14.263  0.00  0.00     0.001 A 
+ATOM     17  C19 AXI d         -25.362  -1.478 -13.474  0.00  0.00     0.020 A 
+BRANCH  13  18
+ATOM     18  C80 AXI d         -26.813  -2.112  -9.925  0.00  0.00     0.252 C 
+ATOM     19  O81 AXI d         -26.050  -1.540  -9.129  0.00  0.00    -0.268 OA
+ATOM     20  N82 AXI d         -27.794  -2.903  -9.473  0.00  0.00    -0.361 N 
+ATOM     21  C88 AXI d         -28.062  -3.167  -8.066  0.00  0.00     0.149 C 
+ATOM     22  H1  AXI d         -28.384  -3.344 -10.149  0.00  0.00     0.162 HD
+ENDBRANCH  13  18
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   8  23
+ATOM     23  C16 AXI d         -19.565   3.359 -14.326  0.00  0.00     0.034 C 
+ATOM     24  C17 AXI d         -18.334   2.766 -13.999  0.00  0.00     0.034 C 
+BRANCH  24  25
+ATOM     25  C02 AXI d         -17.005   3.150 -14.572  0.00  0.00     0.056 A 
+ATOM     26  N03 AXI d         -16.098   2.140 -14.754  0.00  0.00    -0.261 NA
+ATOM     27  C04 AXI d         -14.863   2.437 -15.268  0.00  0.00     0.117 A 
+ATOM     28  C05 AXI d         -14.473   3.760 -15.624  0.00  0.00     0.019 A 
+ATOM     29  C06 AXI d         -15.411   4.817 -15.437  0.00  0.00     0.004 A 
+ATOM     30  C01 AXI d         -16.698   4.518 -14.905  0.00  0.00     0.031 A 
+ENDBRANCH  24  25
+ENDBRANCH   8  23
+TORSDOF 5

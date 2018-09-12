@@ -1,0 +1,39 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_1  and  C7'_7 
+REMARK    2  A    between atoms: C7'_7  and  N_9 
+REMARK       I    between atoms: N_9  and  C_10 
+REMARK    3  A    between atoms: C_10  and  C1_12 
+REMARK    4  A    between atoms: C1_12  and  C5_16 
+ROOT
+ATOM      1  N   CRP d          30.703  37.185  22.218  0.00  0.00    -0.352 N 
+ATOM      2  C   CRP d          29.774  36.503  21.522  0.00  0.00     0.230 C 
+ATOM      3  O   CRP d          29.158  37.052  20.599  0.00  0.00    -0.273 OA
+ATOM      4  H9  CRP d          31.168  36.746  22.987  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C7' CRP d          31.036  38.558  21.860  0.00  0.00     0.113 C 
+ATOM      6  C8' CRP d          32.456  38.934  22.211  0.00  0.00     0.037 C 
+BRANCH   5   7
+ATOM      7  C1' CRP d          30.095  39.473  22.645  0.00  0.00    -0.036 A 
+ATOM      8  C6' CRP d          29.987  39.350  24.031  0.00  0.00     0.011 A 
+ATOM      9  C5' CRP d          29.174  40.200  24.761  0.00  0.00     0.024 A 
+ATOM     10  C4' CRP d          28.457  41.179  24.105  0.00  0.00     0.034 A 
+ATOM     11  C3' CRP d          28.549  41.308  22.725  0.00  0.00     0.024 A 
+ATOM     12 CL0  CRP d          27.388  42.339  25.082  0.00  0.00    -0.084 Cl
+ATOM     13  C2' CRP d          29.373  40.454  21.994  0.00  0.00     0.011 A 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   2  14
+ATOM     14  C1  CRP d          29.533  35.070  22.006  0.00  0.00     0.082 A 
+ATOM     15  C3  CRP d          30.562  34.000  22.385  0.00  0.00     0.042 A 
+ATOM     16  C2  CRP d          29.829  33.929  21.069  0.00  0.00     0.134 A 
+ATOM     17  C4  CRP d          30.223  32.957  23.447  0.00  0.00     0.014 C 
+ATOM     18 CL2  CRP d          28.655  32.654  20.812  0.00  0.00    -0.100 Cl
+ATOM     19 CL1  CRP d          30.669  34.302  19.561  0.00  0.00    -0.100 Cl
+BRANCH  14  20
+ATOM     20  C5  CRP d          28.218  35.063  22.759  0.00  0.00     0.018 C 
+ATOM     21  C6  CRP d          28.009  35.742  24.082  0.00  0.00     0.006 C 
+ENDBRANCH  14  20
+ENDBRANCH   2  14
+TORSDOF 4

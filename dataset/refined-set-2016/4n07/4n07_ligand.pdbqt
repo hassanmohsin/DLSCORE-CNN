@@ -1,0 +1,25 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_3  and  NAO_4 
+ROOT
+ATOM      1  NAO 2J9 d           3.556  -3.007  42.046  0.00  0.00    -0.358 N 
+ATOM      2  CAI 2J9 d           4.016  -4.021  41.071  0.00  0.00     0.258 C 
+ATOM      3  NAJ 2J9 d           3.507  -3.725  39.703  0.00  0.00    -0.298 N 
+ATOM      4  SAP 2J9 d           1.863  -3.813  39.676  0.00  0.00     0.262 S 
+ATOM      5  OAA 2J9 d           1.413  -5.267  39.786  0.00  0.00    -0.200 OA
+ATOM      6  OAB 2J9 d           1.332  -3.155  38.417  0.00  0.00    -0.200 OA
+ATOM      7  CAM 2J9 d           1.318  -2.966  41.110  0.00  0.00     0.108 A 
+ATOM      8  CAL 2J9 d           2.245  -2.660  42.151  0.00  0.00     0.055 A 
+ATOM      9  CAE 2J9 d           1.792  -1.994  43.304  0.00  0.00     0.034 A 
+ATOM     10  CAD 2J9 d           0.445  -1.638  43.419  0.00  0.00     0.044 A 
+ATOM     11  CAK 2J9 d          -0.454  -1.952  42.396  0.00  0.00     0.118 A 
+ATOM     12  FAC 2J9 d          -1.759  -1.597  42.549  0.00  0.00    -0.206 F 
+ATOM     13  CAF 2J9 d          -0.049  -2.631  41.228  0.00  0.00     0.069 A 
+ATOM     14  H8  2J9 d           4.081  -3.505  38.914  0.00  0.00     0.174 HD
+ENDROOT
+BRANCH   1  15
+ATOM     15  CAN 2J9 d           4.601  -2.779  43.111  0.00  0.00     0.086 A 
+ATOM     16  CAG 2J9 d           5.101  -1.399  43.544  0.00  0.00     0.027 A 
+ATOM     17  CAH 2J9 d           6.074  -2.384  42.890  0.00  0.00     0.027 A 
+ENDBRANCH   1  15
+TORSDOF 1

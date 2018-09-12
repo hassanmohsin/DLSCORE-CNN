@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_11  and  O2_23 
+REMARK    2  A    between atoms: C17_17  and  C20_20 
+REMARK    3  A    between atoms: C17_17  and  O3_24 
+REMARK    4  A    between atoms: C20_20  and  C21_21 
+REMARK    5  A    between atoms: C21_21  and  O5_26 
+ROOT
+ATOM      1  C1  PDN d          48.582 -15.449  11.648  0.00  0.00     0.022 C 
+ATOM      2  C2  PDN d          48.205 -15.916  13.053  0.00  0.00     0.084 C 
+ATOM      3  C3  PDN d          47.845 -14.742  13.942  0.00  0.00     0.149 C 
+ATOM      4  C4  PDN d          47.399 -13.470  13.357  0.00  0.00     0.053 C 
+ATOM      5  C5  PDN d          47.332 -13.277  12.033  0.00  0.00    -0.068 C 
+ATOM      6  C6  PDN d          46.739 -11.979  11.562  0.00  0.00     0.035 C 
+ATOM      7  C7  PDN d          47.603 -11.330  10.502  0.00  0.00     0.010 C 
+ATOM      8  C8  PDN d          48.093 -12.323   9.450  0.00  0.00    -0.002 C 
+ATOM      9  C9  PDN d          48.721 -13.592  10.034  0.00  0.00     0.031 C 
+ATOM     10  C10 PDN d          47.778 -14.327  11.019  0.00  0.00    -0.014 C 
+ATOM     11  C11 PDN d          49.390 -14.505   8.967  0.00  0.00     0.124 C 
+ATOM     12  C12 PDN d          50.320 -13.715   8.027  0.00  0.00     0.045 C 
+ATOM     13  C13 PDN d          49.703 -12.431   7.476  0.00  0.00     0.001 C 
+ATOM     14  C14 PDN d          49.153 -11.610   8.635  0.00  0.00     0.002 C 
+ATOM     15  C15 PDN d          48.745 -10.316   7.986  0.00  0.00     0.009 C 
+ATOM     16  C16 PDN d          49.727 -10.114   6.843  0.00  0.00     0.047 C 
+ATOM     17  C17 PDN d          50.587 -11.349   6.806  0.00  0.00     0.128 C 
+ATOM     18  C18 PDN d          48.583 -12.842   6.525  0.00  0.00     0.019 C 
+ATOM     19  C19 PDN d          46.521 -14.861  10.327  0.00  0.00     0.020 C 
+ATOM     20  O1  PDN d          47.923 -14.828  15.158  0.00  0.00    -0.293 OA
+ENDROOT
+BRANCH  17  21
+ATOM     21  C20 PDN d          51.057 -11.614   5.387  0.00  0.00     0.184 C 
+ATOM     22  O4  PDN d          50.665 -10.940   4.442  0.00  0.00    -0.292 OA
+BRANCH  21  23
+ATOM     23  C21 PDN d          52.067 -12.691   5.159  0.00  0.00     0.245 C 
+BRANCH  23  24
+ATOM     24  O5  PDN d          52.337 -12.814   3.761  0.00  0.00    -0.393 OA
+ATOM     25  H30 PDN d          52.676 -11.990   3.431  0.00  0.00     0.209 HD
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH  17  21
+BRANCH  17  26
+ATOM     26  O3  PDN d          51.750 -11.038   7.605  0.00  0.00    -0.381 OA
+ATOM     27  H29 PDN d          52.334 -11.787   7.618  0.00  0.00     0.211 HD
+ENDBRANCH  17  26
+BRANCH  11  28
+ATOM     28  O2  PDN d          48.447 -15.256   8.184  0.00  0.00    -0.395 OA
+ATOM     29  H28 PDN d          47.873 -15.743   8.763  0.00  0.00     0.210 HD
+ENDBRANCH  11  28
+TORSDOF 5

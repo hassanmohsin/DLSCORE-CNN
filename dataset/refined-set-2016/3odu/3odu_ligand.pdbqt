@@ -1,0 +1,52 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_14  and  S2_6 
+REMARK    2  A    between atoms: S2_6  and  C9_15 
+REMARK    3  A    between atoms: C9_15  and  N3_8 
+REMARK    4  A    between atoms: N3_8  and  C10_16 
+REMARK    5  A    between atoms: N4_10  and  C16_22 
+REMARK    6  A    between atoms: C7_13  and  C8_14 
+ROOT
+ATOM      1  N4  ITD d          22.509  -7.497  72.324  0.00  0.00    -0.365 N 
+ATOM      2  C9  ITD d          21.255  -7.369  72.779  0.00  0.00     0.158 C 
+ATOM      3  H8  ITD d          23.239  -7.659  73.032  0.00  0.00     0.162 HD
+ENDROOT
+BRANCH   2   4
+ATOM      4  S2  ITD d          20.266  -6.133  72.241  0.00  0.00    -0.087 SA
+BRANCH   4   5
+ATOM      5  C8  ITD d          18.621  -6.760  72.105  0.00  0.00     0.140 C 
+BRANCH   5   6
+ATOM      6  C7  ITD d          18.588  -7.737  70.955  0.00  0.00     0.030 A 
+ATOM      7  N2  ITD d          18.209  -7.382  69.701  0.00  0.00    -0.328 N 
+ATOM      8  C4  ITD d          18.229  -8.379  68.859  0.00  0.00     0.147 A 
+ATOM      9  C6  ITD d          17.752  -6.132  69.120  0.00  0.00     0.161 A 
+ATOM     10  N1  ITD d          17.926  -7.984  67.615  0.00  0.00    -0.360 N 
+ATOM     11  S1  ITD d          18.853  -9.843  69.494  0.00  0.00    -0.064 SA
+ATOM     12  C2  ITD d          17.661  -6.546  67.643  0.00  0.00     0.041 A 
+ATOM     13  H4  ITD d          17.887  -8.589  66.782  0.00  0.00     0.162 HD
+ATOM     14  C1  ITD d          16.263  -6.280  67.102  0.00  0.00     0.039 C 
+ATOM     15  C3  ITD d          18.729  -5.812  66.836  0.00  0.00     0.039 C 
+ATOM     16  C5  ITD d          18.981  -9.093  71.061  0.00  0.00     0.079 A 
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+BRANCH   2  17
+ATOM     17  N3  ITD d          20.721  -8.189  73.690  0.00  0.00    -0.262 NA
+BRANCH  17  18
+ATOM     18  C10 ITD d          21.301  -9.340  74.366  0.00  0.00     0.111 C 
+ATOM     19  C11 ITD d          22.147  -9.006  75.586  0.00  0.00     0.027 C 
+ATOM     20  C12 ITD d          22.268 -10.246  76.470  0.00  0.00     0.002 C 
+ATOM     21  C13 ITD d          22.821 -11.453  75.710  0.00  0.00     0.000 C 
+ATOM     22  C14 ITD d          22.144 -11.682  74.350  0.00  0.00     0.002 C 
+ATOM     23  C15 ITD d          21.967 -10.410  73.516  0.00  0.00     0.027 C 
+ENDBRANCH  17  18
+ENDBRANCH   2  17
+BRANCH   1  24
+ATOM     24  C16 ITD d          22.954  -7.432  70.931  0.00  0.00     0.083 C 
+ATOM     25  C17 ITD d          21.895  -7.605  69.845  0.00  0.00     0.025 C 
+ATOM     26  C18 ITD d          22.552  -7.752  68.473  0.00  0.00     0.002 C 
+ATOM     27  C19 ITD d          23.512  -6.603  68.157  0.00  0.00     0.000 C 
+ATOM     28  C20 ITD d          24.516  -6.362  69.280  0.00  0.00     0.002 C 
+ATOM     29  C21 ITD d          23.828  -6.218  70.637  0.00  0.00     0.025 C 
+ENDBRANCH   1  24
+TORSDOF 6

@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_13  and  O16_1 
+REMARK    2  A    between atoms: C10_8  and  O18_2 
+REMARK    3  A    between atoms: C17_10  and  N8_5 
+REMARK    4  A    between atoms: C12_13  and  C1_7 
+ROOT
+ATOM      1  C1  TMC d          50.262  33.934  -0.176  0.00  0.00     0.013 A 
+ATOM      2  C10 TMC d          49.722  34.609  -1.433  0.00  0.00     0.131 C 
+ATOM      3  C14 TMC d          48.591  33.732  -1.982  0.00  0.00     0.058 C 
+ATOM      4  C17 TMC d          48.095  32.874  -0.779  0.00  0.00     0.101 C 
+ATOM      5  C13 TMC d          49.222  32.924   0.294  0.00  0.00     0.023 A 
+ATOM      6  C15 TMC d          50.567  32.480  -0.238  0.00  0.00     0.022 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  N8  TMC d          46.802  33.461  -0.283  0.00  0.00    -0.304 N 
+ATOM      8  C11 TMC d          45.637  32.811  -0.637  0.00  0.00     0.329 A 
+ATOM      9  N5  TMC d          44.464  33.209   0.028  0.00  0.00    -0.275 N 
+ATOM     10  O9  TMC d          45.578  31.908  -1.474  0.00  0.00    -0.246 OA
+ATOM     11  C6  TMC d          44.355  34.237   0.951  0.00  0.00     0.256 A 
+ATOM     12  H3  TMC d          43.629  32.702  -0.185  0.00  0.00     0.173 HD
+ATOM     13  C4  TMC d          45.625  34.886   1.259  0.00  0.00     0.022 A 
+ATOM     14  O7  TMC d          43.295  34.605   1.477  0.00  0.00    -0.267 OA
+ATOM     15  C2  TMC d          46.780  34.489   0.655  0.00  0.00     0.108 A 
+ATOM     16  C3  TMC d          45.575  36.005   2.295  0.00  0.00     0.056 C 
+ENDBRANCH   4   7
+BRANCH   1  17
+ATOM     17  C12 TMC d          50.876  34.846   0.843  0.00  0.00     0.176 C 
+BRANCH  17  18
+ATOM     18  O16 TMC d          50.248  36.156   0.638  0.00  0.00    -0.400 OA
+ATOM     19  H1  TMC d          50.603  36.778   1.263  0.00  0.00     0.209 HD
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+BRANCH   2  20
+ATOM     20  O18 TMC d          50.749  34.862  -2.406  0.00  0.00    -0.395 OA
+ATOM     21  H2  TMC d          51.423  35.407  -2.018  0.00  0.00     0.210 HD
+ENDBRANCH   2  20
+TORSDOF 4

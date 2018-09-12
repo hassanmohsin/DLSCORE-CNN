@@ -1,0 +1,64 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C11_7 
+REMARK    2  A    between atoms: C11_7  and  C12_8 
+REMARK    3  A    between atoms: C12_8  and  N18_11 
+REMARK    4  A    between atoms: N18_11  and  C21_12 
+REMARK    5  A    between atoms: N23_14  and  C33_20 
+REMARK    6  A    between atoms: C33_20  and  C34_21 
+REMARK       I    between atoms: C34_21  and  N37_22 
+REMARK    7  A    between atoms: N37_22  and  C39_24 
+REMARK    8  A    between atoms: C39_24  and  C40_25 
+ROOT
+ATOM      1  C21 CDB d          18.146 -15.360  22.972  0.00  0.00     0.193 A 
+ATOM      2  C22 CDB d          17.454 -14.125  22.483  0.00  0.00     0.294 A 
+ATOM      3  N23 CDB d          18.105 -13.412  21.482  0.00  0.00    -0.305 N 
+ATOM      4  C24 CDB d          19.351 -13.885  20.922  0.00  0.00     0.029 A 
+ATOM      5  C25 CDB d          19.930 -15.065  21.433  0.00  0.00     0.144 A 
+ATOM      6  N26 CDB d          19.336 -15.733  22.427  0.00  0.00    -0.237 NA
+ATOM      7  O28 CDB d          16.369 -13.749  22.931  0.00  0.00    -0.264 OA
+ATOM      8  C29 CDB d          20.065 -13.180  19.833  0.00  0.00     0.070 C 
+ENDROOT
+BRANCH   3   9
+ATOM      9  C33 CDB d          17.460 -12.178  20.970  0.00  0.00     0.235 C 
+BRANCH   9  10
+ATOM     10  C34 CDB d          16.035 -12.486  20.532  0.00  0.00     0.236 C 
+ATOM     11  N37 CDB d          15.091 -11.573  20.901  0.00  0.00    -0.354 N 
+ATOM     12  H14 CDB d          15.367 -10.746  21.391  0.00  0.00     0.162 HD
+ATOM     13  O38 CDB d          15.795 -13.493  19.876  0.00  0.00    -0.272 OA
+BRANCH  11  14
+ATOM     14  C39 CDB d          13.663 -11.794  20.584  0.00  0.00     0.185 C 
+BRANCH  14  15
+ATOM     15  C40 CDB d          12.738 -11.684  21.798  0.00  0.00     0.090 A 
+ATOM     16  C43 CDB d          12.836 -10.567  22.669  0.00  0.00     0.148 A 
+ATOM     17  C44 CDB d          11.987 -10.483  23.827  0.00  0.00    -0.020 A 
+ATOM     18  F47 CDB d          13.730  -9.611  22.384  0.00  0.00    -0.203 F 
+ATOM     19  C45 CDB d          11.036 -11.528  24.113  0.00  0.00     0.029 A 
+ATOM     20  C1  CDB d          12.066  -9.314  24.745  0.00  0.00     0.051 C 
+ATOM     21  C50 CDB d          10.961 -12.635  23.199  0.00  0.00     0.117 A 
+ATOM     22  N46 CDB d          11.802 -12.663  22.097  0.00  0.00    -0.261 NA
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+ENDBRANCH   9  10
+ENDBRANCH   3   9
+BRANCH   1  23
+ATOM     23  N18 CDB d          17.553 -16.068  23.996  0.00  0.00    -0.364 N 
+ATOM     24  H7  CDB d          16.619 -15.764  24.306  0.00  0.00     0.161 HD
+BRANCH  23  25
+ATOM     25  C12 CDB d          18.155 -17.228  24.682  0.00  0.00     0.207 C 
+BRANCH  25  26
+ATOM     26  C11 CDB d          18.747 -16.875  26.044  0.00  0.00     0.303 C 
+ATOM     27  F13 CDB d          17.780 -16.290  26.795  0.00  0.00    -0.197 F 
+ATOM     28  F1  CDB d          19.061 -18.050  26.611  0.00  0.00    -0.197 F 
+BRANCH  26  29
+ATOM     29  C2  CDB d          20.033 -16.052  25.922  0.00  0.00     0.107 A 
+ATOM     30  N1  CDB d          21.178 -16.701  25.407  0.00  0.00    -0.259 NA
+ATOM     31  C6  CDB d          22.379 -16.076  25.112  0.00  0.00     0.117 A 
+ATOM     32  C5  CDB d          22.453 -14.653  25.387  0.00  0.00     0.019 A 
+ATOM     33  C4  CDB d          21.315 -13.943  25.957  0.00  0.00     0.004 A 
+ATOM     34  C3  CDB d          20.065 -14.626  26.228  0.00  0.00     0.033 A 
+ENDBRANCH  26  29
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH   1  23
+TORSDOF 8

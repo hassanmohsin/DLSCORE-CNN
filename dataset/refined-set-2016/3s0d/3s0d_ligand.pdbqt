@@ -1,0 +1,37 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_11  and  N1_2 
+REMARK    2  A    between atoms: C4_5  and  C3_4 
+REMARK    3  A    between atoms: C6_7  and  C5_6 
+REMARK    4  A    between atoms: C7_8  and  C6_7 
+REMARK    5  A    between atoms: C8_9  and  C7_8 
+REMARK    6  A    between atoms: C8_9  and  C10_11 
+ROOT
+ATOM      1  C7  CTV d           9.917  11.523  33.924  0.00  0.00    -0.017 C 
+ATOM      2  C9  CTV d          10.283  10.212  34.818  0.00  0.00     0.010 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  CTV d          10.010  11.425  32.359  0.00  0.00     0.004 C 
+BRANCH   3   4
+ATOM      4  C5  CTV d           9.833  12.703  31.607  0.00  0.00     0.005 C 
+ATOM      5  C4  CTV d           8.615  12.679  30.883  0.00  0.00     0.033 C 
+BRANCH   5   6
+ATOM      6  C3  CTV d           8.486  11.866  29.584  0.00  0.00    -0.093 C 
+ATOM      7  C1  CTV d           8.429  10.545  29.637  0.00  0.00     0.014 C 
+ATOM      8  C2  CTV d           8.032  12.488  28.476  0.00  0.00     0.042 C 
+ENDBRANCH   5   6
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   9
+ATOM      9  C8  CTV d           9.417  12.681  34.679  0.00  0.00     0.031 C 
+BRANCH   9  10
+ATOM     10  C10 CTV d           8.913  13.844  34.005  0.00  0.00     0.230 C 
+BRANCH  10  11
+ATOM     11  N1  CTV d           8.311  15.057  33.294  0.00  0.00    -0.079 N 
+ATOM     12  H3  CTV d           9.048  15.693  33.032  0.00  0.00     0.274 HD
+ATOM     13  H4  CTV d           7.668  15.525  33.914  0.00  0.00     0.274 HD
+ATOM     14  H5  CTV d           7.820  14.753  32.468  0.00  0.00     0.274 HD
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6

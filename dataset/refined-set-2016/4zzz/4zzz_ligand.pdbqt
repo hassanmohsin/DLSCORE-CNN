@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_2  and  C11_11 
+REMARK    2  A    between atoms: C5_5  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N10_10 
+REMARK    3  A    between atoms: C11_11  and  C14_14 
+REMARK    4  A    between atoms: C14_14  and  C17_17 
+REMARK    5  A    between atoms: C17_17  and  O16_16 
+ROOT
+ATOM      1  C1  FSU d          62.802   6.640   9.351  0.00  0.00     0.189 A 
+ATOM      2  N2  FSU d          61.878   6.245  10.228  0.00  0.00    -0.355 N 
+ATOM      3  C3  FSU d          63.725   5.681   9.124  0.00  0.00     0.041 A 
+ATOM      4  C4  FSU d          63.328   4.638   9.909  0.00  0.00    -0.025 A 
+ATOM      5  C5  FSU d          64.852   5.588   8.321  0.00  0.00     0.046 A 
+ATOM      6  C6  FSU d          62.201   4.984  10.580  0.00  0.00     0.164 A 
+ATOM      7  O8  FSU d          62.725   7.879   8.835  0.00  0.00    -0.171 OA
+ATOM      8  C12 FSU d          64.023   3.472   9.964  0.00  0.00     0.010 A 
+ATOM      9  C13 FSU d          65.588   4.382   8.367  0.00  0.00     0.018 A 
+ATOM     10  C15 FSU d          65.165   3.330   9.175  0.00  0.00     0.002 A 
+ENDROOT
+BRANCH   2  11
+ATOM     11  C11 FSU d          60.677   7.040  10.741  0.00  0.00     0.127 C 
+BRANCH  11  12
+ATOM     12  C14 FSU d          60.917   7.667  12.133  0.00  0.00     0.046 C 
+BRANCH  12  13
+ATOM     13  C17 FSU d          62.186   8.478  12.149  0.00  0.00     0.168 C 
+BRANCH  13  14
+ATOM     14  O16 FSU d          61.900   9.788  11.604  0.00  0.00    -0.396 OA
+ATOM     15  C18 FSU d          62.984  10.314  10.794  0.00  0.00     0.201 C 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   2  11
+BRANCH   5  16
+ATOM     16  C7  FSU d          65.370   6.549   7.410  0.00  0.00     0.250 C 
+ATOM     17  O9  FSU d          66.253   6.248   6.585  0.00  0.00    -0.268 OA
+ATOM     18  N10 FSU d          64.837   7.784   7.410  0.00  0.00    -0.366 N 
+ATOM     19  H3  FSU d          65.183   8.478   6.779  0.00  0.00     0.159 HD
+ATOM     20  H4  FSU d          64.094   8.008   8.041  0.00  0.00     0.159 HD
+ENDBRANCH   5  16
+TORSDOF 5

@@ -1,0 +1,58 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1B_2  and  C2B_3 
+REMARK       I    between atoms: C1B_2  and  N1B_12 
+REMARK    2  A    between atoms: C5B_6  and  N5B_7 
+REMARK    3  A    between atoms: N1B_12  and  C1A_13 
+REMARK    4  A    between atoms: C1A_13  and  C2A_14 
+REMARK    5  A    between atoms: C5M_16  and  C6A_17 
+REMARK    6  A    between atoms: C6A_17  and  O6A_18 
+REMARK    7  A    between atoms: C4A_19  and  O4A_20 
+REMARK    8  A    between atoms: C3A_21  and  O3A_22 
+ROOT
+ATOM      1  C2A MNI d          24.177  58.969 -29.074  0.00  0.00     0.235 C 
+ATOM      2  N5A MNI d          23.790  57.845 -28.238  0.00  0.00    -0.058 N 
+ATOM      3  C5M MNI d          24.904  57.426 -27.419  0.00  0.00     0.240 C 
+ATOM      4  C4A MNI d          25.896  58.569 -27.533  0.00  0.00     0.181 C 
+ATOM      5  C3A MNI d          25.679  59.026 -28.960  0.00  0.00     0.181 C 
+ATOM      6  H15 MNI d          23.501  57.078 -28.824  0.00  0.00     0.278 HD
+ATOM      7  H16 MNI d          23.024  58.120 -27.643  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   8
+ATOM      8  C1A MNI d          23.683  58.860 -30.500  0.00  0.00     0.158 C 
+BRANCH   8   9
+ATOM      9  N1B MNI d          23.911  57.625 -31.244  0.00  0.00    -0.355 N 
+ATOM     10  C1B MNI d          24.669  57.544 -32.347  0.00  0.00     0.251 C 
+ATOM     11  O1B MNI d          25.325  58.511 -32.708  0.00  0.00    -0.268 OA
+ATOM     12  H11 MNI d          23.476  56.789 -30.911  0.00  0.00     0.162 HD
+BRANCH  10  13
+ATOM     13  C2B MNI d          24.811  56.273 -33.133  0.00  0.00     0.032 A 
+ATOM     14  C3B MNI d          24.107  55.112 -32.811  0.00  0.00     0.019 A 
+ATOM     15  C4B MNI d          24.266  53.960 -33.569  0.00  0.00     0.030 A 
+ATOM     16  C5B MNI d          25.115  53.953 -34.680  0.00  0.00     0.029 A 
+ATOM     17  C6B MNI d          25.800  55.119 -35.001  0.00  0.00     0.030 A 
+ATOM     18  C7B MNI d          25.653  56.264 -34.234  0.00  0.00     0.019 A 
+BRANCH  16  19
+ATOM     19  N5B MNI d          25.275  52.833 -35.447  0.00  0.00    -0.390 N 
+ATOM     20  C8B MNI d          26.161  52.841 -36.602  0.00  0.00     0.149 C 
+ATOM     21  C9B MNI d          24.575  51.606 -35.118  0.00  0.00     0.149 C 
+ENDBRANCH  16  19
+ENDBRANCH  10  13
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   5  22
+ATOM     22  O3A MNI d          26.227  60.327 -29.200  0.00  0.00    -0.391 OA
+ATOM     23  H24 MNI d          26.069  60.574 -30.104  0.00  0.00     0.210 HD
+ENDBRANCH   5  22
+BRANCH   3  24
+ATOM     24  C6A MNI d          24.491  57.081 -25.999  0.00  0.00     0.199 C 
+BRANCH  24  25
+ATOM     25  O6A MNI d          23.421  56.136 -26.067  0.00  0.00    -0.399 OA
+ATOM     26  H20 MNI d          23.147  55.906 -25.187  0.00  0.00     0.209 HD
+ENDBRANCH  24  25
+ENDBRANCH   3  24
+BRANCH   4  27
+ATOM     27  O4A MNI d          27.248  58.176 -27.287  0.00  0.00    -0.391 OA
+ATOM     28  H22 MNI d          27.817  58.932 -27.373  0.00  0.00     0.210 HD
+ENDBRANCH   4  27
+TORSDOF 8

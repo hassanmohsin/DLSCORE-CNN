@@ -1,0 +1,44 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_7  and  S_1 
+REMARK    2  A    between atoms: S_1  and  N3S_16 
+REMARK       I    between atoms: C7_10  and  N'_2 
+REMARK    3  A    between atoms: N'_2  and  C1'_11 
+REMARK    4  A    between atoms: C1_4  and  C7_10 
+REMARK    5  A    between atoms: C1'_11  and  C2'_13 
+REMARK    6  A    between atoms: C2'_13  and  C3'_15 
+ROOT
+ATOM      1  C1  RZ0 d          16.903   3.830  14.809  0.00  0.00     0.032 A 
+ATOM      2  C2  RZ0 d          17.281   1.741  15.916  0.00  0.00     0.026 A 
+ATOM      3  C3  RZ0 d          17.805   2.844  15.204  0.00  0.00     0.018 A 
+ATOM      4  C4  RZ0 d          15.908   1.589  16.134  0.00  0.00     0.079 A 
+ATOM      5  C5  RZ0 d          15.538   3.743  15.077  0.00  0.00     0.018 A 
+ATOM      6  C6  RZ0 d          15.040   2.612  15.739  0.00  0.00     0.026 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C7  RZ0 d          17.386   5.048  14.063  0.00  0.00     0.251 C 
+ATOM      8  N'  RZ0 d          18.498   5.296  13.488  0.00  0.00    -0.357 N 
+ATOM      9  H1  RZ0 d          18.209   5.886  12.734  0.00  0.00     0.162 HD
+ATOM     10  O'  RZ0 d          16.656   5.955  13.682  0.00  0.00    -0.268 OA
+BRANCH   8  11
+ATOM     11  C1' RZ0 d          19.864   5.235  13.287  0.00  0.00     0.123 C 
+BRANCH  11  12
+ATOM     12  C2' RZ0 d          20.027   6.743  13.127  0.00  0.00     0.019 C 
+BRANCH  12  13
+ATOM     13  C3' RZ0 d          19.729   7.519  14.449  0.00  0.00    -0.003 C 
+ATOM     14  C4' RZ0 d          20.512   8.824  14.628  0.00  0.00     0.005 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  S   RZ0 d          15.324   0.273  16.961  0.00  0.00     0.256 S 
+ATOM     16  O1S RZ0 d          13.881   0.304  16.846  0.00  0.00    -0.201 OA
+ATOM     17  O2S RZ0 d          15.842   0.255  18.299  0.00  0.00    -0.201 OA
+BRANCH  15  18
+ATOM     18  N3S RZ0 d          15.859  -1.024  16.284  0.00  0.00    -0.324 N 
+ATOM     19  H12 RZ0 d          15.607  -1.920  16.651  0.00  0.00     0.169 HD
+ATOM     20  H13 RZ0 d          16.454  -0.961  15.483  0.00  0.00     0.169 HD
+ENDBRANCH  15  18
+ENDBRANCH   4  15
+TORSDOF 6

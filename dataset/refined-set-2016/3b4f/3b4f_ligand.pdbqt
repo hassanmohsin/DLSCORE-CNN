@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAF_6  and  CAN_7 
+REMARK    2  A    between atoms: CAK_10  and  SAJ_11 
+REMARK    3  A    between atoms: SAJ_11  and  NAI_14 
+REMARK    4  A    between atoms: CAO_19  and  CAP_20 
+REMARK       I    between atoms: CAP_20  and  NAQ_22 
+REMARK    5  A    between atoms: NAQ_22  and  NAR_23 
+ROOT
+ATOM      1  CAN TUO d          -4.157   2.951  12.410  0.00  0.00     0.019 A 
+ATOM      2  CAM TUO d          -4.746   2.969  13.663  0.00  0.00     0.006 A 
+ATOM      3  CAL TUO d          -5.020   1.958  14.596  0.00  0.00     0.040 A 
+ATOM      4  CAK TUO d          -5.628   2.305  15.798  0.00  0.00     0.080 A 
+ATOM      5  CAT TUO d          -5.979   3.635  16.030  0.00  0.00     0.027 A 
+ATOM      6  CAU TUO d          -5.702   4.635  15.104  0.00  0.00     0.032 A 
+ATOM      7  CAV TUO d          -5.082   4.300  13.915  0.00  0.00     0.044 A 
+ATOM      8  NAW TUO d          -4.713   5.060  12.880  0.00  0.00    -0.350 N 
+ATOM      9  CAO TUO d          -4.161   4.281  11.952  0.00  0.00     0.115 A 
+ATOM     10  H11 TUO d          -4.835   6.080  12.811  0.00  0.00     0.166 HD
+ENDROOT
+BRANCH   9  11
+ATOM     11  CAP TUO d          -3.634   4.913  10.645  0.00  0.00     0.292 C 
+ATOM     12  OAH TUO d          -3.176   6.057  10.668  0.00  0.00    -0.264 OA
+ATOM     13  NAQ TUO d          -3.704   4.210   9.533  0.00  0.00    -0.185 N 
+ATOM     14  H12 TUO d          -3.366   4.623   8.687  0.00  0.00     0.196 HD
+BRANCH  13  15
+ATOM     15  NAR TUO d          -4.207   2.965   9.479  0.00  0.00     0.003 N 
+ATOM     16  H13 TUO d          -4.160   2.624   8.531  0.00  0.00     0.303 HD
+ATOM     17  H14 TUO d          -5.168   2.977   9.784  0.00  0.00     0.303 HD
+ATOM     18  H15 TUO d          -3.671   2.360  10.081  0.00  0.00     0.303 HD
+ENDBRANCH  13  15
+ENDBRANCH   9  11
+BRANCH   1  19
+ATOM     19  CAF TUO d          -3.684   1.758  11.833  0.00  0.00    -0.023 A 
+ATOM     20  CAE TUO d          -2.414   1.658  11.249  0.00  0.00     0.012 A 
+ATOM     21  CAA TUO d          -1.994   0.434  10.700  0.00  0.00     0.001 A 
+ATOM     22  CAB TUO d          -2.816  -0.695  10.767  0.00  0.00     0.000 A 
+ATOM     23  CAC TUO d          -4.075  -0.611  11.364  0.00  0.00     0.001 A 
+ATOM     24  CAG TUO d          -4.493   0.605  11.895  0.00  0.00     0.012 A 
+ENDBRANCH   1  19
+BRANCH   4  25
+ATOM     25  SAJ TUO d          -6.102   1.252  17.116  0.00  0.00     0.256 S 
+ATOM     26  OAS TUO d          -5.209   0.874  18.218  0.00  0.00    -0.201 OA
+ATOM     27  OAD TUO d          -7.551   1.013  17.029  0.00  0.00    -0.201 OA
+BRANCH  25  28
+ATOM     28  NAI TUO d          -5.652  -0.138  16.407  0.00  0.00    -0.324 N 
+ATOM     29  H7  TUO d          -5.776  -1.007  16.886  0.00  0.00     0.169 HD
+ATOM     30  H8  TUO d          -5.251  -0.125  15.491  0.00  0.00     0.169 HD
+ENDBRANCH  25  28
+ENDBRANCH   4  25
+TORSDOF 5

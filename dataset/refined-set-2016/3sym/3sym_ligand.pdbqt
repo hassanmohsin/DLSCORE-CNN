@@ -1,0 +1,57 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_3  and  C1'_10 
+REMARK    2  A    between atoms: C2'_11  and  O2'_12 
+REMARK    3  A    between atoms: C3'_13  and  O3'_14 
+REMARK    4  A    between atoms: C3'_13  and  C7'_21 
+REMARK    5  A    between atoms: C4'_15  and  O4'_16 
+REMARK    6  A    between atoms: C5'_17  and  C6'_19 
+REMARK    7  A    between atoms: C6'_19  and  O6'_20 
+REMARK    8  A    between atoms: C7'_21  and  O7'_22 
+ROOT
+ATOM      1  C1' GP0 d          33.188  22.865  27.863  0.00  0.00     0.264 C 
+ATOM      2  C2' GP0 d          33.552  23.187  26.385  0.00  0.00     0.206 C 
+ATOM      3  C3' GP0 d          32.496  22.589  25.414  0.00  0.00     0.137 C 
+ATOM      4  C4' GP0 d          32.211  21.121  25.821  0.00  0.00     0.188 C 
+ATOM      5  C5' GP0 d          32.042  20.890  27.348  0.00  0.00     0.179 C 
+ATOM      6  O5' GP0 d          33.161  21.425  28.087  0.00  0.00    -0.353 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  N1  GP0 d          34.059  23.578  28.814  0.00  0.00    -0.277 N 
+ATOM      8  C1  GP0 d          35.446  23.679  28.579  0.00  0.00     0.146 A 
+ATOM      9  C2  GP0 d          36.241  24.363  29.483  0.00  0.00     0.199 A 
+ATOM     10  F1  GP0 d          37.556  24.434  29.240  0.00  0.00    -0.199 F 
+ATOM     11  C3  GP0 d          35.678  24.961  30.627  0.00  0.00     0.289 A 
+ATOM     12  O3  GP0 d          36.366  25.596  31.432  0.00  0.00    -0.265 OA
+ATOM     13  N4  GP0 d          34.302  24.861  30.863  0.00  0.00    -0.273 N 
+ATOM     14  C5  GP0 d          33.492  24.167  29.963  0.00  0.00     0.331 A 
+ATOM     15  H2  GP0 d          33.900  25.286  31.674  0.00  0.00     0.173 HD
+ATOM     16  O5  GP0 d          32.287  24.074  30.194  0.00  0.00    -0.246 OA
+ENDBRANCH   1   7
+BRANCH   2  17
+ATOM     17  O2' GP0 d          33.710  24.593  26.193  0.00  0.00    -0.388 OA
+ATOM     18  H5  GP0 d          33.931  24.765  25.285  0.00  0.00     0.210 HD
+ENDBRANCH   2  17
+BRANCH   3  19
+ATOM     19  O3' GP0 d          32.972  22.524  24.076  0.00  0.00    -0.382 OA
+ATOM     20  H6  GP0 d          32.297  22.154  23.519  0.00  0.00     0.210 HD
+ENDBRANCH   3  19
+BRANCH   3  21
+ATOM     21  C7' GP0 d          31.251  23.501  25.408  0.00  0.00     0.207 C 
+BRANCH  21  22
+ATOM     22  O7' GP0 d          30.559  23.777  26.624  0.00  0.00    -0.398 OA
+ATOM     23  H15 GP0 d          29.823  24.350  26.445  0.00  0.00     0.209 HD
+ENDBRANCH  21  22
+ENDBRANCH   3  21
+BRANCH   5  24
+ATOM     24  C6' GP0 d          32.007  19.422  27.764  0.00  0.00     0.198 C 
+BRANCH  24  25
+ATOM     25  O6' GP0 d          33.124  18.723  27.237  0.00  0.00    -0.398 OA
+ATOM     26  H12 GP0 d          33.925  19.116  27.564  0.00  0.00     0.209 HD
+ENDBRANCH  24  25
+ENDBRANCH   5  24
+BRANCH   4  27
+ATOM     27  O4' GP0 d          31.084  20.642  25.089  0.00  0.00    -0.390 OA
+ATOM     28  H8  GP0 d          31.271  20.685  24.159  0.00  0.00     0.210 HD
+ENDBRANCH   4  27
+TORSDOF 8

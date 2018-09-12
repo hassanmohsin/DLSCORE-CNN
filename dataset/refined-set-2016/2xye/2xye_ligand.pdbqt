@@ -1,0 +1,123 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAA_1  and  C1_45 
+REMARK    2  A    between atoms: C24_49  and  CAA_1 
+REMARK       I    between atoms: CBK_2  and  N_4 
+REMARK    3  A    between atoms: C1_45  and  CBK_2 
+REMARK    4  A    between atoms: N_4  and  CA_5 
+REMARK    5  A    between atoms: CA_5  and  CB_6 
+REMARK    6  A    between atoms: CA_5  and  C_10 
+REMARK       I    between atoms: C_10  and  NBG_12 
+REMARK    7  A    between atoms: CBA_13  and  CBO_14 
+REMARK    8  A    between atoms: C1_45  and  CBA_13 
+REMARK    9  A    between atoms: C1_45  and  OAM_20 
+REMARK   10  A    between atoms: CBC_21  and  NBW_22 
+REMARK   11  A    between atoms: CBC_21  and  C24_49 
+REMARK   12  A    between atoms: NBW_22  and  NBH_23 
+REMARK   13  A    between atoms: NBW_22  and  CBB_36 
+REMARK       I    between atoms: NBH_23  and  CBN_24 
+REMARK   14  A    between atoms: CBN_24  and  CBV_26 
+REMARK   15  A    between atoms: CBV_26  and  CBY_27 
+REMARK   16  A    between atoms: CBV_26  and  NBF_31 
+REMARK       I    between atoms: NBF_31  and  CBL_32 
+REMARK   17  A    between atoms: CBL_32  and  OBJ_34 
+REMARK   18  A    between atoms: CBB_36  and  CBP_37 
+REMARK   19  A    between atoms: CBQ_42  and  CBR_43 
+ROOT
+ATOM      1  NBW CXG d          15.343  22.393   7.142  0.00  0.00     0.015 N 
+ATOM      2  H25 CXG d          14.429  22.057   7.402  0.00  0.00     0.309 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  CBC CXG d          15.225  23.703   6.596  0.00  0.00     0.263 C 
+BRANCH   3   4
+ATOM      4  C24 CXG d          13.755  24.028   6.392  0.00  0.00     0.033 C 
+BRANCH   4   5
+ATOM      5  CAA CXG d          13.197  23.540   5.028  0.00  0.00     0.050 C 
+BRANCH   5   6
+ATOM      6  C1  CXG d          11.867  24.195   4.581  0.00  0.00     0.142 C 
+BRANCH   6   7
+ATOM      7  CBK CXG d          10.686  24.216   5.602  0.00  0.00     0.253 C 
+ATOM      8  OAI CXG d          10.395  23.233   6.292  0.00  0.00    -0.270 OA
+ATOM      9  N   CXG d           9.992  25.375   5.642  0.00  0.00    -0.344 N 
+ATOM     10  H3  CXG d          10.332  26.095   5.037  0.00  0.00     0.163 HD
+BRANCH   9  11
+ATOM     11  CA  CXG d           8.746  25.757   6.486  0.00  0.00     0.184 C 
+BRANCH  11  12
+ATOM     12  CB  CXG d           8.974  26.338   8.022  0.00  0.00    -0.022 C 
+ATOM     13  CG1 CXG d           9.768  27.655   8.053  0.00  0.00     0.017 C 
+ATOM     14  CAE CXG d           7.615  26.657   8.741  0.00  0.00     0.017 C 
+ATOM     15  CG2 CXG d           9.757  25.352   8.896  0.00  0.00     0.017 C 
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  C   CXG d           7.963  26.734   5.630  0.00  0.00     0.240 C 
+ATOM     17  O   CXG d           8.349  27.822   5.197  0.00  0.00    -0.271 OA
+ATOM     18  NBG CXG d           6.730  26.198   5.404  0.00  0.00    -0.364 N 
+ATOM     19  C9  CXG d           5.644  26.801   4.620  0.00  0.00     0.149 C 
+ATOM     20  H14 CXG d           6.546  25.304   5.813  0.00  0.00     0.161 HD
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+BRANCH   6  21
+ATOM     21  CBA CXG d          11.330  23.499   3.257  0.00  0.00     0.086 C 
+BRANCH  21  22
+ATOM     22  CBO CXG d           9.975  24.063   2.709  0.00  0.00    -0.055 A 
+ATOM     23  CAT CXG d           8.750  23.281   2.922  0.00  0.00     0.007 A 
+ATOM     24  CAP CXG d           7.477  23.777   2.438  0.00  0.00     0.001 A 
+ATOM     25  CAN CXG d           7.409  25.052   1.740  0.00  0.00     0.000 A 
+ATOM     26  CAQ CXG d           8.617  25.828   1.525  0.00  0.00     0.001 A 
+ATOM     27  CAU CXG d           9.892  25.334   2.009  0.00  0.00     0.007 A 
+ENDBRANCH  21  22
+ENDBRANCH   6  21
+BRANCH   6  28
+ATOM     28  OAM CXG d          12.278  25.520   4.237  0.00  0.00    -0.380 OA
+ATOM     29  H22 CXG d          12.996  25.477   3.616  0.00  0.00     0.211 HD
+ENDBRANCH   6  28
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  30
+ATOM     30  NBH CXG d          15.945  21.481   6.094  0.00  0.00    -0.185 N 
+ATOM     31  CBN CXG d          15.277  20.446   5.563  0.00  0.00     0.265 C 
+ATOM     32  OAL CXG d          14.102  20.162   5.894  0.00  0.00    -0.269 OA
+ATOM     33  H26 CXG d          16.880  21.658   5.785  0.00  0.00     0.197 HD
+BRANCH  31  34
+ATOM     34  CBV CXG d          16.037  19.621   4.519  0.00  0.00     0.188 C 
+BRANCH  34  35
+ATOM     35  CBY CXG d          15.345  18.736   3.417  0.00  0.00    -0.022 C 
+ATOM     36  CAF CXG d          16.432  18.077   2.561  0.00  0.00     0.017 C 
+ATOM     37  CAG CXG d          14.510  19.547   2.446  0.00  0.00     0.017 C 
+ATOM     38  CAH CXG d          14.523  17.597   4.013  0.00  0.00     0.017 C 
+ENDBRANCH  34  35
+BRANCH  34  39
+ATOM     39  NBF CXG d          16.846  18.833   5.487  0.00  0.00    -0.323 N 
+ATOM     40  CBL CXG d          18.172  18.947   5.657  0.00  0.00     0.360 C 
+ATOM     41  OAJ CXG d          18.943  19.704   5.062  0.00  0.00    -0.239 OA
+ATOM     42  H37 CXG d          16.364  18.166   6.055  0.00  0.00     0.165 HD
+BRANCH  40  43
+ATOM     43  OBJ CXG d          18.587  18.041   6.658  0.00  0.00    -0.309 OA
+ATOM     44  CAB CXG d          19.322  16.874   6.262  0.00  0.00     0.215 C 
+ENDBRANCH  40  43
+ENDBRANCH  34  39
+ENDBRANCH  31  34
+ENDBRANCH   1  30
+BRANCH   1  45
+ATOM     45  CBB CXG d          16.206  22.390   8.309  0.00  0.00     0.301 C 
+BRANCH  45  46
+ATOM     46  CBP CXG d          16.412  21.024   8.989  0.00  0.00    -0.030 A 
+ATOM     47  CAW CXG d          15.250  20.236   9.382  0.00  0.00     0.010 A 
+ATOM     48  CAY CXG d          15.427  18.950  10.021  0.00  0.00     0.013 A 
+ATOM     49  CBQ CXG d          16.770  18.444  10.272  0.00  0.00    -0.026 A 
+ATOM     50  CAZ CXG d          17.941  19.223   9.880  0.00  0.00     0.013 A 
+ATOM     51  CAX CXG d          17.758  20.523   9.232  0.00  0.00     0.010 A 
+BRANCH  49  52
+ATOM     52  CBR CXG d          16.860  17.077  10.961  0.00  0.00    -0.026 A 
+ATOM     53  CAV CXG d          16.756  15.820  10.236  0.00  0.00     0.012 A 
+ATOM     54  CAR CXG d          16.843  14.541  10.937  0.00  0.00     0.001 A 
+ATOM     55  CAO CXG d          17.033  14.512  12.377  0.00  0.00     0.000 A 
+ATOM     56  CAS CXG d          17.140  15.750  13.116  0.00  0.00     0.001 A 
+ATOM     57  C53 CXG d          17.055  17.029  12.413  0.00  0.00     0.012 A 
+ENDBRANCH  49  52
+ENDBRANCH  45  46
+ENDBRANCH   1  45
+TORSDOF 19

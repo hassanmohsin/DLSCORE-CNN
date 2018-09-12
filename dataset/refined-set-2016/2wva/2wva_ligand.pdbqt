@@ -1,0 +1,60 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P2_2  and  O11_5 
+REMARK    2  A    between atoms: O11_5  and  P1_6 
+REMARK    3  A    between atoms: P1_6  and  O5G_9 
+REMARK    4  A    between atoms: O5G_9  and  C5B_10 
+REMARK    5  A    between atoms: C5B_10  and  C5A_11 
+REMARK    6  A    between atoms: C5A_11  and  C5_12 
+REMARK    7  A    between atoms: N3_17  and  C35_18 
+REMARK    8  A    between atoms: C35_18  and  C5'_19 
+REMARK    9  A    between atoms: C4'_25  and  N4'_26 
+ROOT
+ATOM      1  C5  TPU d         -21.818  25.996 -74.965  0.00  0.00     0.078 A 
+ATOM      2  C4  TPU d         -21.302  24.912 -74.355  0.00  0.00     0.049 A 
+ATOM      3  C4A TPU d         -20.897  24.858 -72.891  0.00  0.00     0.072 C 
+ATOM      4  N1  TPU d         -22.041  25.693 -76.308  0.00  0.00    -0.163 NA
+ATOM      5  N2  TPU d         -21.649  24.437 -76.492  0.00  0.00     0.005 NA
+ATOM      6  N3  TPU d         -21.178  23.919 -75.298  0.00  0.00    -0.272 N 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C5A TPU d         -22.124  27.332 -74.330  0.00  0.00     0.089 C 
+BRANCH   7   8
+ATOM      8  C5B TPU d         -21.790  28.578 -75.141  0.00  0.00     0.187 C 
+BRANCH   8   9
+ATOM      9  O5G TPU d         -21.426  29.634 -74.323  0.00  0.00    -0.289 OA
+BRANCH   9  10
+ATOM     10  P1  TPU d         -21.432  31.180 -74.837  0.00  0.00     0.418 P 
+ATOM     11  O12 TPU d         -21.733  32.208 -73.553  0.00  0.00    -0.624 OA
+ATOM     12  O13 TPU d         -20.161  31.430 -75.527  0.00  0.00    -0.624 OA
+BRANCH  10  13
+ATOM     13  O11 TPU d         -22.577  31.332 -75.995  0.00  0.00    -0.173 OA
+BRANCH  13  14
+ATOM     14  P2  TPU d         -23.924  32.259 -75.748  0.00  0.00     0.431 P 
+ATOM     15  O23 TPU d         -23.743  33.663 -76.617  0.00  0.00    -0.616 OA
+ATOM     16  O22 TPU d         -25.171  31.378 -76.361  0.00  0.00    -0.616 OA
+ATOM     17  O21 TPU d         -24.126  32.515 -74.308  0.00  0.00    -0.616 OA
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  18
+ATOM     18  C35 TPU d         -20.696  22.552 -75.144  0.00  0.00     0.190 C 
+BRANCH  18  19
+ATOM     19  C5' TPU d         -19.211  22.428 -75.501  0.00  0.00     0.024 A 
+ATOM     20  C6' TPU d         -18.370  22.140 -74.513  0.00  0.00     0.131 A 
+ATOM     21  N1' TPU d         -17.038  22.034 -74.750  0.00  0.00    -0.245 NA
+ATOM     22  C2' TPU d         -16.534  22.204 -76.039  0.00  0.00     0.124 A 
+ATOM     23  C2A TPU d         -15.027  22.056 -76.242  0.00  0.00     0.093 C 
+ATOM     24  N3' TPU d         -17.397  22.499 -77.081  0.00  0.00    -0.216 NA
+ATOM     25  C4' TPU d         -18.681  22.621 -76.858  0.00  0.00     0.132 A 
+BRANCH  25  26
+ATOM     26  N4' TPU d         -19.575  22.898 -77.969  0.00  0.00    -0.383 N 
+ATOM     27  H14 TPU d         -19.193  23.032 -78.916  0.00  0.00     0.157 HD
+ATOM     28  H15 TPU d         -20.591  22.961 -77.809  0.00  0.00     0.157 HD
+ENDBRANCH  25  26
+ENDBRANCH  18  19
+ENDBRANCH   6  18
+TORSDOF 9

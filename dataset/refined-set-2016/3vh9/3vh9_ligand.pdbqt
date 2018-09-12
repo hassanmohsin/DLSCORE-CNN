@@ -1,0 +1,20 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAJ_8  and  OAA_1 
+ROOT
+ATOM      1  CAD HQY d          19.559 -26.602 -10.235  0.00  0.00     0.020 A 
+ATOM      2  CAE HQY d          20.549 -27.299  -9.527  0.00  0.00     0.117 A 
+ATOM      3  CAF HQY d          18.219 -26.626  -9.825  0.00  0.00     0.015 A 
+ATOM      4  CAG HQY d          16.301 -28.366  -7.144  0.00  0.00     0.004 A 
+ATOM      5  NAH HQY d          20.246 -28.050  -8.474  0.00  0.00    -0.257 NA
+ATOM      6  CAI HQY d          16.558 -27.557  -8.237  0.00  0.00     0.014 A 
+ATOM      7  CAJ HQY d          18.671 -28.960  -6.933  0.00  0.00     0.095 A 
+ATOM      8  CAK HQY d          17.351 -29.067  -6.498  0.00  0.00     0.039 A 
+ATOM      9  CAL HQY d          17.903 -27.445  -8.704  0.00  0.00    -0.005 A 
+ATOM     10  CAM HQY d          18.931 -28.129  -8.065  0.00  0.00     0.099 A 
+ENDROOT
+BRANCH   7  11
+ATOM     11  OAA HQY d          19.732 -29.633  -6.354  0.00  0.00    -0.358 OA
+ATOM     12  H1  HQY d          20.534 -29.410  -6.811  0.00  0.00     0.217 HD
+ENDBRANCH   7  11
+TORSDOF 1

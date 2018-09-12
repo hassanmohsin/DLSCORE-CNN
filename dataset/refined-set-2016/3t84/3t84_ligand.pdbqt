@@ -1,0 +1,56 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1A_7 
+REMARK    2  A    between atoms: C2_3  and  O2A_8 
+REMARK    3  A    between atoms: C3_4  and  O3A_9 
+REMARK    4  A    between atoms: C4_5  and  O4A_10 
+REMARK    5  A    between atoms: C5_6  and  C5A_14 
+REMARK    6  A    between atoms: O4A_10  and  C4C_12 
+REMARK    7  A    between atoms: C5A_14  and  O5B_15 
+REMARK    8  A    between atoms: O5B_15  and  S5C_16 
+REMARK    9  A    between atoms: S5C_16  and  N5F_19 
+ROOT
+ATOM      1  C1  SG6 d          16.828  -0.916  11.737  0.00  0.00     0.288 C 
+ATOM      2  O5  SG6 d          16.778  -0.736  13.136  0.00  0.00    -0.349 OA
+ATOM      3  C2  SG6 d          16.306   0.235  11.009  0.00  0.00     0.204 C 
+ATOM      4  C3  SG6 d          16.972   1.490  11.279  0.00  0.00     0.183 C 
+ATOM      5  C4  SG6 d          17.029   1.747  12.734  0.00  0.00     0.194 C 
+ATOM      6  C5  SG6 d          17.389   0.503  13.548  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C5A SG6 d          17.432   0.612  15.070  0.00  0.00     0.226 C 
+BRANCH   7   8
+ATOM      8  O5B SG6 d          16.223   0.977  15.623  0.00  0.00    -0.257 OA
+BRANCH   8   9
+ATOM      9  S5C SG6 d          15.438   0.096  16.513  0.00  0.00     0.355 S 
+ATOM     10  O5D SG6 d          14.074   0.418  16.950  0.00  0.00    -0.176 OA
+ATOM     11  O5E SG6 d          16.057   0.677  17.703  0.00  0.00    -0.176 OA
+BRANCH   9  12
+ATOM     12  N5F SG6 d          15.814  -1.429  16.449  0.00  0.00    -0.306 N 
+ATOM     13  H14 SG6 d          15.327  -2.088  17.022  0.00  0.00     0.171 HD
+ATOM     14  H15 SG6 d          16.540  -1.740  15.835  0.00  0.00     0.171 HD
+ENDBRANCH   9  12
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   5  15
+ATOM     15  O4A SG6 d          15.898   2.435  13.223  0.00  0.00    -0.311 OA
+BRANCH  15  16
+ATOM     16  C4C SG6 d          16.051   3.448  13.975  0.00  0.00     0.255 C 
+ATOM     17  C4B SG6 d          14.850   4.077  14.602  0.00  0.00     0.126 C 
+ATOM     18  O4D SG6 d          17.199   3.812  14.364  0.00  0.00    -0.266 OA
+ENDBRANCH  15  16
+ENDBRANCH   5  15
+BRANCH   1  19
+ATOM     19  O1A SG6 d          18.102  -1.275  11.262  0.00  0.00    -0.369 OA
+ATOM     20  H6  SG6 d          18.069  -1.381  10.319  0.00  0.00     0.212 HD
+ENDBRANCH   1  19
+BRANCH   4  21
+ATOM     21  O3A SG6 d          16.518   2.541  10.469  0.00  0.00    -0.390 OA
+ATOM     22  H8  SG6 d          16.524   2.264   9.560  0.00  0.00     0.210 HD
+ENDBRANCH   4  21
+BRANCH   3  23
+ATOM     23  O2A SG6 d          16.209  -0.049   9.646  0.00  0.00    -0.388 OA
+ATOM     24  H7  SG6 d          15.716   0.639   9.215  0.00  0.00     0.210 HD
+ENDBRANCH   3  23
+TORSDOF 9

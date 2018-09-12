@@ -1,0 +1,24 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAJ_5  and  CAG_6 
+REMARK    2  A    between atoms: CAG_6  and  CAF_7 
+REMARK    3  A    between atoms: CAF_7  and  CAI_8 
+ROOT
+ATOM      1  fur MOL d          -2.695  28.476 -11.007  0.00  0.00     0.034 A 
+ATOM      2  CAC MOL d          -2.259  27.228 -10.857  0.00  0.00     0.027 A 
+ATOM      3  CAD MOL d          -3.306  26.420 -10.707  0.00  0.00     0.142 A 
+ATOM      4  OAH MOL d          -4.444  27.179 -10.759  0.00  0.00    -0.327 OA
+ATOM      5  CAJ MOL d          -4.020  28.458 -10.950  0.00  0.00     0.053 A 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CAG MOL d          -4.975  29.633 -11.072  0.00  0.00     0.075 C 
+BRANCH   6   7
+ATOM      7  CAF MOL d          -5.697  29.594 -12.411  0.00  0.00     0.119 C 
+BRANCH   7   8
+ATOM      8  CAI MOL d          -5.658  30.971 -13.069  0.00  0.00     0.172 C 
+ATOM      9  OAB MOL d          -6.612  31.737 -12.817  0.00  0.00    -0.648 OA
+ATOM     10  OAA MOL d          -4.673  31.222 -13.801  0.00  0.00    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+TORSDOF 3

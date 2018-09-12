@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_2  and  CB_4 
+REMARK    2  A    between atoms: CB_4  and  CA_5 
+REMARK    3  A    between atoms: CA_5  and  C_8 
+REMARK    4  A    between atoms: CA_5  and  N_11 
+ROOT
+ATOM      1  CB  S2P d         -11.694  26.175  42.700  0.00  0.00     0.108 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CG  S2P d         -11.550  25.966  41.207  0.00  0.00     0.101 A 
+ATOM      3  CD2 S2P d         -11.693  27.104  40.253  0.00  0.00     0.211 A 
+ATOM      4  O2  S2P d         -11.951  28.288  40.800  0.00  0.00    -0.169 OA
+ATOM      5  N2  S2P d         -11.547  26.782  38.929  0.00  0.00    -0.287 N 
+ATOM      6  SE1 S2P d         -11.219  25.055  38.812  0.00  0.00     0.093 SA
+ATOM      7  H4  S2P d         -11.615  27.418  38.161  0.00  0.00     0.178 HD
+ATOM      8  N1  S2P d         -11.292  24.824  40.566  0.00  0.00    -0.195 NA
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  CA  S2P d         -10.318  26.411  43.373  0.00  0.00     0.289 C 
+BRANCH   9  10
+ATOM     10  C   S2P d         -10.469  26.639  44.917  0.00  0.00     0.204 C 
+ATOM     11  O   S2P d         -11.246  27.469  45.361  0.00  0.00    -0.646 OA
+ATOM     12  O   S2P d          -9.660  25.809  45.569  0.00  0.00    -0.646 OA
+ENDBRANCH   9  10
+BRANCH   9  13
+ATOM     13  N   S2P d          -9.292  25.262  43.159  0.00  0.00    -0.065 N 
+ATOM     14  H5  S2P d          -8.428  25.492  43.625  0.00  0.00     0.275 HD
+ATOM     15  H6  S2P d          -9.120  25.144  42.173  0.00  0.00     0.275 HD
+ATOM     16  H7  S2P d          -9.662  24.405  43.540  0.00  0.00     0.275 HD
+ENDBRANCH   9  13
+ENDBRANCH   1   9
+TORSDOF 4

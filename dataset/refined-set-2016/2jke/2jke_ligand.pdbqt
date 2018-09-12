@@ -1,0 +1,37 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O2_3 
+REMARK    2  A    between atoms: C3_4  and  O3_5 
+REMARK    3  A    between atoms: C4_6  and  O4_7 
+REMARK    4  A    between atoms: C5_8  and  C6_10 
+REMARK    5  A    between atoms: C6_10  and  O6_11 
+ROOT
+ATOM      1  C1  NOJ d          23.556  44.257  68.629  0.00  0.00     0.267 C 
+ATOM      2  C2  NOJ d          23.230  43.223  69.722  0.00  0.00     0.175 C 
+ATOM      3  C3  NOJ d          24.559  42.627  70.212  0.00  0.00     0.179 C 
+ATOM      4  C4  NOJ d          25.171  41.802  69.082  0.00  0.00     0.182 C 
+ATOM      5  C5  NOJ d          25.389  42.721  67.860  0.00  0.00     0.240 C 
+ATOM      6  N5  NOJ d          24.238  43.592  67.509  0.00  0.00    -0.064 N 
+ATOM      7  H10 NOJ d          24.575  44.309  66.886  0.00  0.00     0.277 HD
+ATOM      8  H11 NOJ d          23.558  43.023  67.030  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   5   9
+ATOM      9  C6  NOJ d          25.725  41.923  66.593  0.00  0.00     0.199 C 
+BRANCH   9  10
+ATOM     10  O6  NOJ d          24.629  41.033  66.291  0.00  0.00    -0.399 OA
+ATOM     11  H14 NOJ d          24.832  40.537  65.507  0.00  0.00     0.209 HD
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+BRANCH   4  12
+ATOM     12  O4  NOJ d          26.455  41.362  69.549  0.00  0.00    -0.391 OA
+ATOM     13  H8  NOJ d          26.343  40.836  70.332  0.00  0.00     0.210 HD
+ENDBRANCH   4  12
+BRANCH   3  14
+ATOM     14  O3  NOJ d          24.379  41.800  71.327  0.00  0.00    -0.390 OA
+ATOM     15  H6  NOJ d          25.219  41.451  71.600  0.00  0.00     0.210 HD
+ENDBRANCH   3  14
+BRANCH   2  16
+ATOM     16  O2  NOJ d          22.583  43.893  70.779  0.00  0.00    -0.391 OA
+ATOM     17  H4  NOJ d          22.373  43.271  71.465  0.00  0.00     0.210 HD
+ENDBRANCH   2  16
+TORSDOF 5

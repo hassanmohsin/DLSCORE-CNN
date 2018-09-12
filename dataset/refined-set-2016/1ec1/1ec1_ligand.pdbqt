@@ -1,0 +1,132 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C31_31  and  C1_1 
+REMARK    2  A    between atoms: C4_4  and  C48_48 
+REMARK    3  A    between atoms: C7_7  and  C13_13 
+REMARK    4  A    between atoms: C10_10  and  C52_52 
+REMARK    5  A    between atoms: C13_13  and  O14_14 
+REMARK    6  A    between atoms: O14_14  and  C15_15 
+REMARK    7  A    between atoms: C15_15  and  C16_16 
+REMARK    8  A    between atoms: C15_15  and  C34_34 
+REMARK    9  A    between atoms: C16_16  and  C17_17 
+REMARK   10  A    between atoms: C16_16  and  O33_33 
+REMARK   11  A    between atoms: C17_17  and  C18_18 
+REMARK   12  A    between atoms: C17_17  and  O32_32 
+REMARK   13  A    between atoms: C18_18  and  C19_19 
+REMARK   14  A    between atoms: C18_18  and  O30_30 
+REMARK       I    between atoms: C19_19  and  N21_21 
+REMARK   15  A    between atoms: N21_21  and  C22_22 
+REMARK   16  A    between atoms: C22_22  and  C23_23 
+REMARK   17  A    between atoms: C22_22  and  C26_26 
+REMARK       I    between atoms: C26_26  and  N28_28 
+REMARK   18  A    between atoms: O30_30  and  C31_31 
+REMARK       I    between atoms: C34_34  and  N36_36 
+REMARK   19  A    between atoms: N36_36  and  C37_37 
+REMARK   20  A    between atoms: C37_37  and  C38_38 
+REMARK   21  A    between atoms: C37_37  and  C41_41 
+REMARK       I    between atoms: C41_41  and  N43_43 
+ROOT
+ATOM      1  C16 BEE d          13.966  23.037   4.534  0.00  0.00     0.188 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C15 BEE d          14.975  22.631   5.602  0.00  0.00     0.244 C 
+BRANCH   2   3
+ATOM      3  O14 BEE d          14.483  23.079   6.889  0.00  0.00    -0.369 OA
+BRANCH   3   4
+ATOM      4  C13 BEE d          15.536  23.468   7.828  0.00  0.00     0.207 C 
+BRANCH   4   5
+ATOM      5  C7  BEE d          16.129  22.256   8.486  0.00  0.00    -0.035 A 
+ATOM      6  C8  BEE d          15.288  21.382   9.256  0.00  0.00     0.010 A 
+ATOM      7  C9  BEE d          15.830  20.219   9.878  0.00  0.00     0.013 A 
+ATOM      8  C10 BEE d          17.207  19.941   9.723  0.00  0.00    -0.025 A 
+ATOM      9  C11 BEE d          18.050  20.817   8.950  0.00  0.00     0.013 A 
+ATOM     10  C12 BEE d          17.507  21.976   8.330  0.00  0.00     0.010 A 
+BRANCH   8  11
+ATOM     11  C52 BEE d          17.800  18.710  10.387  0.00  0.00    -0.019 A 
+ATOM     12  C51 BEE d          19.034  18.661  10.897  0.00  0.00     0.061 A 
+ATOM     13  S50 BEE d          19.438  17.092  11.613  0.00  0.00    -0.113 SA
+ATOM     14  C54 BEE d          17.814  16.511  11.169  0.00  0.00     0.050 A 
+ATOM     15  C53 BEE d          17.080  17.433  10.550  0.00  0.00     0.020 A 
+ENDBRANCH   8  11
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  16
+ATOM     16  C34 BEE d          15.186  21.177   5.498  0.00  0.00     0.250 C 
+ATOM     17  O35 BEE d          14.260  20.433   5.825  0.00  0.00    -0.271 OA
+ATOM     18  N36 BEE d          16.378  20.755   5.039  0.00  0.00    -0.345 N 
+ATOM     19  H32 BEE d          17.067  21.439   4.801  0.00  0.00     0.163 HD
+BRANCH  18  20
+ATOM     20  C37 BEE d          16.707  19.361   4.875  0.00  0.00     0.180 C 
+BRANCH  20  21
+ATOM     21  C38 BEE d          16.742  18.989   3.339  0.00  0.00     0.009 C 
+ATOM     22  C39 BEE d          15.353  19.199   2.609  0.00  0.00     0.012 C 
+ATOM     23  C40 BEE d          17.232  17.522   3.097  0.00  0.00     0.012 C 
+ENDBRANCH  20  21
+BRANCH  20  24
+ATOM     24  C41 BEE d          18.085  19.201   5.463  0.00  0.00     0.240 C 
+ATOM     25  O42 BEE d          19.031  19.939   5.059  0.00  0.00    -0.271 OA
+ATOM     26  N43 BEE d          18.192  18.238   6.398  0.00  0.00    -0.364 N 
+ATOM     27  C44 BEE d          19.514  18.036   6.990  0.00  0.00     0.149 C 
+ATOM     28  H41 BEE d          17.405  17.687   6.675  0.00  0.00     0.161 HD
+ENDBRANCH  20  24
+ENDBRANCH  18  20
+ENDBRANCH   2  16
+ENDBRANCH   1   2
+BRANCH   1  29
+ATOM     29  C17 BEE d          13.609  24.489   4.621  0.00  0.00     0.188 C 
+BRANCH  29  30
+ATOM     30  C18 BEE d          12.244  24.775   3.933  0.00  0.00     0.244 C 
+BRANCH  30  31
+ATOM     31  C19 BEE d          11.113  24.739   4.947  0.00  0.00     0.250 C 
+ATOM     32  O20 BEE d          10.858  23.670   5.505  0.00  0.00    -0.271 OA
+ATOM     33  N21 BEE d          10.445  25.870   5.186  0.00  0.00    -0.345 N 
+ATOM     34  H15 BEE d          10.725  26.687   4.682  0.00  0.00     0.163 HD
+BRANCH  33  35
+ATOM     35  C22 BEE d           9.313  26.008   6.147  0.00  0.00     0.180 C 
+BRANCH  35  36
+ATOM     36  C23 BEE d           9.795  26.662   7.507  0.00  0.00     0.009 C 
+ATOM     37  C24 BEE d           8.622  26.845   8.539  0.00  0.00     0.012 C 
+ATOM     38  C25 BEE d          10.929  25.867   8.217  0.00  0.00     0.012 C 
+ENDBRANCH  35  36
+BRANCH  35  39
+ATOM     39  C26 BEE d           8.328  26.939   5.471  0.00  0.00     0.240 C 
+ATOM     40  O27 BEE d           8.755  27.979   4.911  0.00  0.00    -0.271 OA
+ATOM     41  N28 BEE d           7.006  26.555   5.529  0.00  0.00    -0.364 N 
+ATOM     42  C29 BEE d           6.029  27.413   4.902  0.00  0.00     0.149 C 
+ATOM     43  H24 BEE d           6.733  25.711   5.990  0.00  0.00     0.161 HD
+ENDBRANCH  35  39
+ENDBRANCH  33  35
+ENDBRANCH  30  31
+BRANCH  30  44
+ATOM     44  O30 BEE d          11.983  23.776   2.875  0.00  0.00    -0.369 OA
+BRANCH  44  45
+ATOM     45  C31 BEE d          11.174  24.264   1.744  0.00  0.00     0.207 C 
+BRANCH  45  46
+ATOM     46  C1  BEE d           9.699  24.197   2.021  0.00  0.00    -0.035 A 
+ATOM     47  C2  BEE d           8.875  25.328   1.778  0.00  0.00     0.010 A 
+ATOM     48  C3  BEE d           7.487  25.268   2.045  0.00  0.00     0.013 A 
+ATOM     49  C4  BEE d           6.924  24.070   2.561  0.00  0.00    -0.025 A 
+ATOM     50  C5  BEE d           7.745  22.949   2.802  0.00  0.00     0.013 A 
+ATOM     51  C6  BEE d           9.132  23.013   2.531  0.00  0.00     0.010 A 
+BRANCH  49  52
+ATOM     52  C48 BEE d           5.429  23.989   2.853  0.00  0.00    -0.019 A 
+ATOM     53  C47 BEE d           4.862  23.349   4.053  0.00  0.00     0.020 A 
+ATOM     54  C46 BEE d           3.532  23.399   4.083  0.00  0.00     0.050 A 
+ATOM     55  S45 BEE d           2.832  24.222   2.669  0.00  0.00    -0.113 SA
+ATOM     56  C49 BEE d           4.478  24.483   2.053  0.00  0.00     0.061 A 
+ENDBRANCH  49  52
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+ENDBRANCH  30  44
+ENDBRANCH  29  30
+BRANCH  29  57
+ATOM     57  O32 BEE d          14.730  25.209   4.068  0.00  0.00    -0.390 OA
+ATOM     58  H30 BEE d          14.832  24.979   3.152  0.00  0.00     0.210 HD
+ENDBRANCH  29  57
+ENDBRANCH   1  29
+BRANCH   1  59
+ATOM     59  O33 BEE d          14.492  22.689   3.206  0.00  0.00    -0.390 OA
+ATOM     60  H31 BEE d          13.834  22.877   2.547  0.00  0.00     0.210 HD
+ENDBRANCH   1  59
+TORSDOF 21

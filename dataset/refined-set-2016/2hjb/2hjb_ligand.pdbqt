@@ -1,0 +1,27 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  CB_2 
+REMARK    2  A    between atoms: CB_2  and  CG_3 
+REMARK    3  A    between atoms: CZ_6  and  O1_9 
+ROOT
+ATOM      1  CG  PZM d          51.617  22.308  29.514  0.00  0.00    -0.033 A 
+ATOM      2  CD1 PZM d          50.417  22.992  29.256  0.00  0.00     0.011 A 
+ATOM      3  CE1 PZM d          49.577  23.496  30.303  0.00  0.00     0.037 A 
+ATOM      4  CZ  PZM d          49.926  23.339  31.658  0.00  0.00     0.068 A 
+ATOM      5  CE2 PZM d          51.092  22.696  31.991  0.00  0.00     0.037 A 
+ATOM      6  CD2 PZM d          52.026  22.139  30.816  0.00  0.00     0.011 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CB  PZM d          52.495  21.804  28.406  0.00  0.00     0.268 C 
+BRANCH   7   8
+ATOM      8  N1  PZM d          53.873  22.330  28.252  0.00  0.00    -0.075 N 
+ATOM      9  H1  PZM d          54.316  21.885  27.463  0.00  0.00     0.274 HD
+ATOM     10  H2  PZM d          54.402  22.137  29.088  0.00  0.00     0.274 HD
+ATOM     11  H3  PZM d          53.837  23.326  28.100  0.00  0.00     0.274 HD
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   4  12
+ATOM     12  O1  PZM d          49.137  23.845  32.726  0.00  0.00    -0.356 OA
+ATOM     13  CF1 PZM d          48.452  25.064  32.533  0.00  0.00     0.210 C 
+ENDBRANCH   4  12
+TORSDOF 3

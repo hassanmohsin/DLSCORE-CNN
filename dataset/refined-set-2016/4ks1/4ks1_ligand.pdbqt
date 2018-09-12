@@ -1,0 +1,51 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_2  and  CAR_3 
+REMARK    2  A    between atoms: CAR_3  and  CAJ_4 
+REMARK    3  A    between atoms: CAR_3  and  OAM_6 
+REMARK    4  A    between atoms: OAM_6  and  CAS_7 
+REMARK    5  A    between atoms: CAP_9  and  CAO_10 
+REMARK    6  A    between atoms: CAQ_14  and  NAD_15 
+REMARK    7  A    between atoms: CAT_16  and  NAL_17 
+REMARK       I    between atoms: NAL_17  and  CAN_18 
+ROOT
+ATOM      1  CAS 2H8 d         -24.649 -19.838 -11.111  0.00  0.00     0.151 C 
+ATOM      2  CAK 2H8 d         -24.131 -20.713  -9.949  0.00  0.00     0.079 C 
+ATOM      3  CAP 2H8 d         -22.739 -20.465  -9.644  0.00  0.00     0.019 C 
+ATOM      4  CAH 2H8 d         -22.091 -19.238  -9.954  0.00  0.00     0.021 C 
+ATOM      5  CAQ 2H8 d         -22.714 -18.273 -10.784  0.00  0.00     0.232 C 
+ATOM      6  CAT 2H8 d         -24.279 -18.372 -10.849  0.00  0.00     0.147 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  OAM 2H8 d         -26.069 -19.960 -11.133  0.00  0.00    -0.378 OA
+BRANCH   7   8
+ATOM      8  CAR 2H8 d         -26.692 -20.199 -12.412  0.00  0.00     0.121 C 
+BRANCH   8   9
+ATOM      9  CAI 2H8 d         -26.255 -21.600 -13.015  0.00  0.00     0.027 C 
+ATOM     10  CAA 2H8 d         -26.711 -22.772 -12.143  0.00  0.00     0.007 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  CAJ 2H8 d         -28.246 -20.043 -12.270  0.00  0.00     0.027 C 
+ATOM     12  CAB 2H8 d         -28.673 -18.596 -11.913  0.00  0.00     0.007 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  NAL 2H8 d         -24.769 -17.561 -11.953  0.00  0.00    -0.352 N 
+ATOM     14  CAN 2H8 d         -25.601 -16.507 -11.803  0.00  0.00     0.214 C 
+ATOM     15  OAE 2H8 d         -26.037 -16.126 -10.749  0.00  0.00    -0.274 OA
+ATOM     16  CAC 2H8 d         -25.985 -15.792 -13.101  0.00  0.00     0.117 C 
+ATOM     17  H21 2H8 d         -24.472 -17.798 -12.878  0.00  0.00     0.163 HD
+ENDBRANCH   6  13
+BRANCH   3  18
+ATOM     18  CAO 2H8 d         -21.992 -21.534  -9.123  0.00  0.00     0.205 C 
+ATOM     19  OAG 2H8 d         -22.468 -22.717  -9.177  0.00  0.00    -0.644 OA
+ATOM     20  OAF 2H8 d         -20.844 -21.293  -8.620  0.00  0.00    -0.644 OA
+ENDBRANCH   3  18
+BRANCH   5  21
+ATOM     21  NAD 2H8 d         -22.211 -16.914 -10.525  0.00  0.00    -0.070 N 
+ATOM     22  H17 2H8 d         -21.203 -16.928 -10.497  0.00  0.00     0.275 HD
+ATOM     23  H18 2H8 d         -22.567 -16.587  -9.640  0.00  0.00     0.275 HD
+ATOM     24  H19 2H8 d         -22.518 -16.296 -11.260  0.00  0.00     0.275 HD
+ENDBRANCH   5  21
+TORSDOF 7

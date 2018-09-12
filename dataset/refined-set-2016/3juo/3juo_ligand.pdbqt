@@ -1,0 +1,34 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_15  and  NAL_12 
+REMARK    2  A    between atoms: NAL_12  and  CAQ_17 
+REMARK    3  A    between atoms: CAM_13  and  CAP_16 
+ROOT
+ATOM      1 BRAC AJD d          48.337   0.393  93.775  0.00  0.00    -0.051 Br
+ATOM      2  CAD AJD d          45.394   0.484  93.491  0.00  0.00     0.021 A 
+ATOM      3  CAE AJD d          44.129  -0.054  93.269  0.00  0.00     0.031 A 
+ATOM      4  CAF AJD d          46.428  -1.709  93.233  0.00  0.00     0.040 A 
+ATOM      5  CAN AJD d          46.551  -0.344  93.473  0.00  0.00     0.012 A 
+ATOM      6  CAO AJD d          44.005  -1.442  93.016  0.00  0.00     0.045 A 
+ATOM      7  CAP AJD d          45.156  -2.251  92.981  0.00  0.00     0.068 A 
+ENDROOT
+BRANCH   6   8
+ATOM      8  NAL AJD d          42.819  -2.013  92.767  0.00  0.00    -0.383 N 
+ATOM      9  H14 AJD d          42.801  -3.036  92.651  0.00  0.00     0.160 HD
+BRANCH   8  10
+ATOM     10  CAQ AJD d          41.526  -1.289  92.645  0.00  0.00     0.107 C 
+ATOM     11  CAI AJD d          40.458  -2.345  92.562  0.00  0.00     0.028 C 
+ATOM     12  CAG AJD d          39.116  -1.636  92.464  0.00  0.00     0.029 C 
+ATOM     13  CAH AJD d          39.014  -0.888  91.138  0.00  0.00     0.232 C 
+ATOM     14  NAK AJD d          40.117   0.084  91.042  0.00  0.00    -0.073 N 
+ATOM     15  CAJ AJD d          41.487  -0.408  91.318  0.00  0.00     0.257 C 
+ATOM     16  H12 AJD d          39.925   0.825  91.698  0.00  0.00     0.277 HD
+ATOM     17  H13 AJD d          40.112   0.455  90.105  0.00  0.00     0.277 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+BRANCH   7  18
+ATOM     18  CAM AJD d          45.058  -3.738  92.721  0.00  0.00     0.211 C 
+ATOM     19  OAA AJD d          46.017  -4.404  93.013  0.00  0.00    -0.644 OA
+ATOM     20  OAB AJD d          44.018  -4.273  92.302  0.00  0.00    -0.644 OA
+ENDBRANCH   7  18
+TORSDOF 3

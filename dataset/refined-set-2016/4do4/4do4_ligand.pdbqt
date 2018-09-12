@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C7_2  and  N2_4 
+REMARK    1  A    between atoms: N2_4  and  C2_5 
+REMARK    2  A    between atoms: C3_6  and  O3_7 
+REMARK    3  A    between atoms: C4_8  and  O4_9 
+REMARK    4  A    between atoms: C5_10  and  C6_11 
+REMARK    5  A    between atoms: C6_11  and  O6_12 
+ROOT
+ATOM      1  C2  DJN d          58.261  -4.680  18.114  0.00  0.00     0.141 C 
+ATOM      2  C3  DJN d          57.644  -5.576  17.075  0.00  0.00     0.173 C 
+ATOM      3  C4  DJN d          58.791  -6.190  16.272  0.00  0.00     0.181 C 
+ATOM      4  C5  DJN d          59.734  -6.934  17.211  0.00  0.00     0.240 C 
+ATOM      5  N5  DJN d          60.193  -6.203  18.397  0.00  0.00    -0.064 N 
+ATOM      6  C1  DJN d          59.068  -5.552  19.082  0.00  0.00     0.260 C 
+ATOM      7  H14 DJN d          60.858  -5.500  18.114  0.00  0.00     0.277 HD
+ATOM      8  H15 DJN d          60.636  -6.849  19.032  0.00  0.00     0.277 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  N2  DJN d          57.322  -3.888  18.896  0.00  0.00    -0.353 N 
+ATOM     10  C7  DJN d          57.324  -2.552  18.888  0.00  0.00     0.214 C 
+ATOM     11  O7  DJN d          58.030  -1.930  18.092  0.00  0.00    -0.274 OA
+ATOM     12  C8  DJN d          56.413  -1.871  19.895  0.00  0.00     0.117 C 
+ATOM     13  H4  DJN d          56.648  -4.363  19.462  0.00  0.00     0.163 HD
+ENDBRANCH   1   9
+BRANCH   2  14
+ATOM     14  O3  DJN d          56.737  -4.876  16.214  0.00  0.00    -0.391 OA
+ATOM     15  H7  DJN d          57.203  -4.182  15.763  0.00  0.00     0.210 HD
+ENDBRANCH   2  14
+BRANCH   3  16
+ATOM     16  O4  DJN d          59.502  -5.149  15.595  0.00  0.00    -0.391 OA
+ATOM     17  H9  DJN d          58.910  -4.692  15.008  0.00  0.00     0.210 HD
+ENDBRANCH   3  16
+BRANCH   4  18
+ATOM     18  C6  DJN d          60.963  -7.448  16.434  0.00  0.00     0.199 C 
+BRANCH  18  19
+ATOM     19  O6  DJN d          61.869  -8.103  17.341  0.00  0.00    -0.399 OA
+ATOM     20  H13 DJN d          62.625  -8.418  16.859  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH   4  18
+TORSDOF 5

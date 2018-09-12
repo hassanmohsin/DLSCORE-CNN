@@ -1,0 +1,18 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_3  and  C_8 
+ROOT
+ATOM      1  N   PBE d          13.597   2.132  15.166  0.00  0.00    -0.061 N 
+ATOM      2  CD  PBE d          12.300   2.179  15.785  0.00  0.00     0.237 C 
+ATOM      3  CA  PBE d          13.960   3.496  14.808  0.00  0.00     0.289 C 
+ATOM      4  CB  PBE d          13.495   4.273  16.048  0.00  0.00     0.046 C 
+ATOM      5  CG  PBE d          12.572   3.317  16.755  0.00  0.00     0.030 C 
+ATOM      6  CE  PBE d          14.449   1.627  16.254  0.00  0.00     0.273 C 
+ATOM      7  CF  PBE d          13.580   1.371  13.909  0.00  0.00     0.273 C 
+ENDROOT
+BRANCH   3   8
+ATOM      8  C   PBE d          15.435   3.527  14.567  0.00  0.00     0.205 C 
+ATOM      9  O   PBE d          15.898   3.244  13.428  0.00  0.00    -0.646 OA
+ATOM     10  OXT PBE d          16.137   3.861  15.543  0.00  0.00    -0.646 OA
+ENDBRANCH   3   8
+TORSDOF 1

@@ -1,0 +1,100 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_4  and  C11_3 
+REMARK       I    between atoms: C11_3  and  N2_22 
+REMARK    2  A    between atoms: C13_5  and  C12_4 
+REMARK    3  A    between atoms: C27_19  and  C13_5 
+REMARK    4  A    between atoms: C16_8  and  C18_10 
+REMARK    5  A    between atoms: C20_12  and  C21_13 
+REMARK    6  A    between atoms: N2_22  and  C7_23 
+REMARK    7  A    between atoms: C7_23  and  C6_24 
+REMARK    8  A    between atoms: C7_23  and  C8_26 
+REMARK       I    between atoms: C6_24  and  N1_31 
+REMARK    9  A    between atoms: C8_26  and  C9_27 
+REMARK   10  A    between atoms: C9_27  and  C10_28 
+REMARK       I    between atoms: C10_28  and  N4_30 
+REMARK   11  A    between atoms: N1_31  and  C2_32 
+REMARK   12  A    between atoms: C2_32  and  C1_33 
+REMARK   13  A    between atoms: C2_32  and  C3_35 
+REMARK       I    between atoms: C1_33  and  N9_40 
+REMARK   14  A    between atoms: C3_35  and  C4_36 
+REMARK   15  A    between atoms: C4_36  and  C5_37 
+ROOT
+ATOM      1  O2  QEG d           9.740  26.224   4.440  0.00  0.00    -0.274 OA
+ATOM      2  C11 QEG d           8.561  26.317   4.385  0.00  0.00     0.218 C 
+ATOM      3  N2  QEG d           7.880  27.364   4.826  0.00  0.00    -0.348 N 
+ATOM      4  H16 QEG d           6.886  27.319   4.730  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  C7  QEG d           8.414  28.569   5.432  0.00  0.00     0.177 C 
+BRANCH   5   6
+ATOM      6  C6  QEG d           7.758  28.811   6.784  0.00  0.00     0.241 C 
+ATOM      7  O1  QEG d           6.689  28.354   7.100  0.00  0.00    -0.271 OA
+ATOM      8  N1  QEG d           8.422  29.540   7.647  0.00  0.00    -0.346 N 
+ATOM      9  H24 QEG d           9.312  29.926   7.404  0.00  0.00     0.163 HD
+BRANCH   8  10
+ATOM     10  C2  QEG d           7.855  29.780   8.952  0.00  0.00     0.176 C 
+BRANCH  10  11
+ATOM     11  C1  QEG d           6.585  30.583   8.902  0.00  0.00     0.238 C 
+ATOM     12  O9  QEG d           6.448  31.512   8.178  0.00  0.00    -0.271 OA
+ATOM     13  N9  QEG d           5.617  30.198   9.689  0.00  0.00    -0.368 N 
+ATOM     14  H30 QEG d           4.750  30.696   9.696  0.00  0.00     0.159 HD
+ATOM     15  H31 QEG d           5.742  29.405  10.285  0.00  0.00     0.159 HD
+ENDBRANCH  10  11
+BRANCH  10  16
+ATOM     16  C3  QEG d           8.821  30.438   9.888  0.00  0.00     0.045 C 
+BRANCH  16  17
+ATOM     17  C4  QEG d           8.970  29.887  11.287  0.00  0.00     0.116 C 
+BRANCH  17  18
+ATOM     18  C5  QEG d           9.830  30.436  12.356  0.00  0.00     0.172 C 
+ATOM     19  O8E QEG d           9.816  29.846  13.430  0.00  0.00    -0.648 OA
+ATOM     20  O8  QEG d          10.526  31.455  12.214  0.00  0.00    -0.648 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  10  16
+ENDBRANCH   8  10
+ENDBRANCH   5   6
+BRANCH   5  21
+ATOM     21  C8  QEG d           8.242  29.718   4.409  0.00  0.00     0.044 C 
+BRANCH  21  22
+ATOM     22  C9  QEG d           9.500  30.567   4.104  0.00  0.00     0.105 C 
+BRANCH  22  23
+ATOM     23  C10 QEG d           9.569  31.483   2.877  0.00  0.00     0.215 C 
+ATOM     24  O4E QEG d           8.896  31.383   1.895  0.00  0.00    -0.274 OA
+ATOM     25  N4  QEG d          10.477  32.430   2.903  0.00  0.00    -0.370 N 
+ATOM     26  H22 QEG d          10.568  33.057   2.130  0.00  0.00     0.159 HD
+ATOM     27  H23 QEG d          11.079  32.524   3.696  0.00  0.00     0.159 HD
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH   5  21
+ENDBRANCH   3   5
+BRANCH   2  28
+ATOM     28  C12 QEG d           7.773  25.190   3.769  0.00  0.00     0.107 C 
+BRANCH  28  29
+ATOM     29  C13 QEG d           7.683  23.875   4.520  0.00  0.00     0.047 C 
+BRANCH  29  30
+ATOM     30  C27 QEG d           6.303  23.661   5.081  0.00  0.00    -0.058 A 
+ATOM     31  C14 QEG d           5.164  24.216   4.508  0.00  0.00     0.008 A 
+ATOM     32  C17 QEG d           3.894  24.003   5.050  0.00  0.00     0.013 A 
+ATOM     33  C16 QEG d           3.723  23.235   6.192  0.00  0.00    -0.019 A 
+ATOM     34  C15 QEG d           4.877  22.709   6.740  0.00  0.00     0.013 A 
+ATOM     35  C28 QEG d           6.142  22.908   6.219  0.00  0.00     0.008 A 
+BRANCH  33  36
+ATOM     36  C18 QEG d           2.388  22.933   6.860  0.00  0.00     0.015 A 
+ATOM     37  S7  QEG d           2.446  22.303   8.412  0.00  0.00    -0.100 SA
+ATOM     38  C29 QEG d           0.859  22.046   8.803  0.00  0.00     0.062 A 
+ATOM     39  C20 QEG d           0.225  22.462   7.684  0.00  0.00    -0.018 A 
+ATOM     40  C19 QEG d           1.041  22.960   6.616  0.00  0.00     0.032 A 
+BRANCH  39  41
+ATOM     41  C21 QEG d          -1.239  22.417   7.751  0.00  0.00    -0.025 A 
+ATOM     42  C22 QEG d          -1.850  21.285   8.182  0.00  0.00     0.012 A 
+ATOM     43  C23 QEG d          -3.214  21.212   8.276  0.00  0.00     0.001 A 
+ATOM     44  C24 QEG d          -3.963  22.313   7.983  0.00  0.00     0.000 A 
+ATOM     45  C25 QEG d          -3.353  23.468   7.578  0.00  0.00     0.001 A 
+ATOM     46  C26 QEG d          -1.986  23.529   7.471  0.00  0.00     0.012 A 
+ENDBRANCH  39  41
+ENDBRANCH  33  36
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH   2  28
+TORSDOF 15

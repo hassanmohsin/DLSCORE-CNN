@@ -1,0 +1,61 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: CAG_2  and  NAI_4 
+REMARK    1  A    between atoms: NAI_4  and  CAB_5 
+REMARK    2  A    between atoms: CAC_6  and  OAJ_7 
+REMARK    3  A    between atoms: CAD_8  and  OAK_9 
+REMARK    4  A    between atoms: CAE_10  and  CAF_11 
+REMARK    5  A    between atoms: CAF_11  and  OAM_12 
+REMARK    6  A    between atoms: NAY_15  and  OAQ_16 
+REMARK    7  A    between atoms: OAQ_16  and  CAP_17 
+REMARK       I    between atoms: CAP_17  and  NAO_19 
+REMARK    8  A    between atoms: NAO_19  and  CAS_20 
+ROOT
+ATOM      1  CAB OAN d          35.119 -57.999  39.907  0.00  0.00     0.194 C 
+ATOM      2  CAC OAN d          34.179 -56.847  40.341  0.00  0.00     0.180 C 
+ATOM      3  CAD OAN d          33.470 -57.193  41.630  0.00  0.00     0.180 C 
+ATOM      4  CAE OAN d          34.552 -57.382  42.670  0.00  0.00     0.185 C 
+ATOM      5  OAL OAN d          35.370 -58.519  42.299  0.00  0.00    -0.324 OA
+ATOM      6  CAA OAN d          35.569 -58.837  40.970  0.00  0.00     0.194 C 
+ATOM      7  NAY OAN d          36.205 -59.960  40.635  0.00  0.00    -0.100 NA
+ENDROOT
+BRANCH   1   8
+ATOM      8  NAI OAN d          36.255 -57.385  39.181  0.00  0.00    -0.347 N 
+ATOM      9  CAG OAN d          37.297 -56.769  39.783  0.00  0.00     0.214 C 
+ATOM     10  CAH OAN d          38.334 -56.175  38.830  0.00  0.00     0.117 C 
+ATOM     11  OAN OAN d          37.452 -56.683  41.000  0.00  0.00    -0.274 OA
+ATOM     12  H4  OAN d          36.251 -57.429  38.182  0.00  0.00     0.163 HD
+ENDBRANCH   1   8
+BRANCH   7  13
+ATOM     13  OAQ OAN d          36.703 -60.793  41.757  0.00  0.00    -0.153 OA
+BRANCH  13  14
+ATOM     14  CAP OAN d          36.365 -62.117  41.733  0.00  0.00     0.389 C 
+ATOM     15  OAR OAN d          36.527 -62.793  40.714  0.00  0.00    -0.236 OA
+ATOM     16  NAO OAN d          35.895 -62.655  42.874  0.00  0.00    -0.301 N 
+ATOM     17  H14 OAN d          35.797 -62.060  43.672  0.00  0.00     0.171 HD
+BRANCH  16  18
+ATOM     18  CAS OAN d          35.552 -63.942  42.999  0.00  0.00     0.036 A 
+ATOM     19  CAT OAN d          36.531 -64.918  43.209  0.00  0.00     0.029 A 
+ATOM     20  CAU OAN d          36.160 -66.255  43.371  0.00  0.00     0.002 A 
+ATOM     21  CAV OAN d          34.810 -66.614  43.337  0.00  0.00     0.000 A 
+ATOM     22  CAW OAN d          33.829 -65.641  43.143  0.00  0.00     0.002 A 
+ATOM     23  CAX OAN d          34.201 -64.304  42.982  0.00  0.00     0.029 A 
+ENDBRANCH  16  18
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+BRANCH   2  24
+ATOM     24  OAJ OAN d          33.228 -56.589  39.306  0.00  0.00    -0.390 OA
+ATOM     25  H7  OAN d          32.653 -55.882  39.575  0.00  0.00     0.210 HD
+ENDBRANCH   2  24
+BRANCH   4  26
+ATOM     26  CAF OAN d          33.940 -57.647  44.042  0.00  0.00     0.199 C 
+BRANCH  26  27
+ATOM     27  OAM OAN d          34.976 -57.804  45.014  0.00  0.00    -0.398 OA
+ATOM     28  H13 OAN d          35.529 -58.537  44.770  0.00  0.00     0.209 HD
+ENDBRANCH  26  27
+ENDBRANCH   4  26
+BRANCH   3  29
+ATOM     29  OAK OAN d          32.585 -56.128  41.995  0.00  0.00    -0.390 OA
+ATOM     30  H9  OAN d          31.943 -56.001  41.306  0.00  0.00     0.210 HD
+ENDBRANCH   3  29
+TORSDOF 8

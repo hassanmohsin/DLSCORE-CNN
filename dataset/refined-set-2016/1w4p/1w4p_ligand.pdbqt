@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  C1_9 
+REMARK    2  A    between atoms: C3_11  and  O3_13 
+REMARK    3  A    between atoms: C4_12  and  C5_15 
+REMARK    4  A    between atoms: O3_13  and  P_17 
+REMARK    5  A    between atoms: C5_15  and  O5_16 
+ROOT
+ATOM      1  C1  UM3 d          37.504  -1.135  12.252  0.00  0.00     0.235 C 
+ATOM      2  C2  UM3 d          37.306  -0.184  13.554  0.00  0.00     0.089 C 
+ATOM      3  C3  UM3 d          38.358   0.985  13.162  0.00  0.00     0.170 C 
+ATOM      4  C4  UM3 d          39.567   0.222  12.602  0.00  0.00     0.177 C 
+ATOM      5  O4  UM3 d          38.861  -0.736  11.813  0.00  0.00    -0.356 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  N1  UM3 d          36.580  -2.238  12.200  0.00  0.00    -0.282 N 
+ATOM      7  C2  UM3 d          35.391  -2.358  11.436  0.00  0.00     0.331 A 
+ATOM      8  N3  UM3 d          34.751  -3.584  11.586  0.00  0.00    -0.275 N 
+ATOM      9  O2  UM3 d          34.944  -1.477  10.698  0.00  0.00    -0.246 OA
+ATOM     10  C4  UM3 d          35.159  -4.669  12.396  0.00  0.00     0.250 A 
+ATOM     11  H1  UM3 d          33.908  -3.712  11.063  0.00  0.00     0.173 HD
+ATOM     12  C5  UM3 d          36.373  -4.458  13.137  0.00  0.00     0.092 A 
+ATOM     13  O4  UM3 d          34.487  -5.690  12.421  0.00  0.00    -0.268 OA
+ATOM     14  C6  UM3 d          37.028  -3.278  13.018  0.00  0.00     0.104 A 
+ENDBRANCH   1   6
+BRANCH   3  15
+ATOM     15  O3  UM3 d          38.060   1.950  12.530  0.00  0.00    -0.275 OA
+BRANCH  15  16
+ATOM     16  P   UM3 d          37.477   3.104  13.364  0.00  0.00     0.422 P 
+ATOM     17  O1P UM3 d          37.439   4.568  12.865  0.00  0.00    -0.617 OA
+ATOM     18  O2P UM3 d          35.913   3.108  13.510  0.00  0.00    -0.617 OA
+ATOM     19  O3P UM3 d          37.714   3.781  15.050  0.00  0.00    -0.617 OA
+ENDBRANCH  15  16
+ENDBRANCH   3  15
+BRANCH   4  20
+ATOM     20  C5  UM3 d          40.679   0.075  13.626  0.00  0.00     0.198 C 
+BRANCH  20  21
+ATOM     21  O5  UM3 d          40.143  -1.176  14.256  0.00  0.00    -0.398 OA
+ATOM     22  H11 UM3 d          40.091  -1.862  13.601  0.00  0.00     0.209 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 5

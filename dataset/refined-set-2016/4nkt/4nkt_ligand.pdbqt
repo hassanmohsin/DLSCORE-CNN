@@ -1,0 +1,68 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PA_1  and  N3A_4 
+REMARK    2  A    between atoms: PA_1  and  O5'_5 
+REMARK    3  A    between atoms: N3A_4  and  PB_6 
+REMARK    4  A    between atoms: O5'_5  and  C5'_14 
+REMARK    5  A    between atoms: PB_6  and  O3B_9 
+REMARK    6  A    between atoms: O3B_9  and  PG_10 
+REMARK    7  A    between atoms: C5'_14  and  C4'_15 
+REMARK    8  A    between atoms: C1'_17  and  N1_22 
+REMARK    9  A    between atoms: C2'_18  and  O2'_19 
+REMARK   10  A    between atoms: C3'_20  and  O3'_21 
+ROOT
+ATOM      1  C4' 2KH d          63.262  21.867  90.704  0.00  0.00     0.180 C 
+ATOM      2  O4' 2KH d          63.889  23.050  91.224  0.00  0.00    -0.353 OA
+ATOM      3  C1' 2KH d          64.953  23.387  90.361  0.00  0.00     0.263 C 
+ATOM      4  C2' 2KH d          64.873  22.423  89.254  0.00  0.00     0.198 C 
+ATOM      5  C3' 2KH d          64.273  21.257  89.876  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' 2KH d          62.867  20.949  91.779  0.00  0.00     0.215 C 
+BRANCH   6   7
+ATOM      7  O5' 2KH d          63.907  20.489  92.632  0.00  0.00    -0.293 OA
+BRANCH   7   8
+ATOM      8  PA  2KH d          63.667  19.290  93.655  0.00  0.00     0.368 P 
+ATOM      9  O1A 2KH d          65.099  18.844  94.192  0.00  0.00    -0.629 OA
+ATOM     10  O2A 2KH d          62.844  19.789  94.805  0.00  0.00    -0.629 OA
+BRANCH   8  11
+ATOM     11  N3A 2KH d          62.931  18.002  92.908  0.00  0.00    -0.225 N 
+ATOM     12  H1  2KH d          63.308  17.575  92.086  0.00  0.00     0.178 HD
+BRANCH  11  13
+ATOM     13  PB  2KH d          61.538  17.475  93.613  0.00  0.00     0.378 P 
+ATOM     14  O1B 2KH d          60.627  18.688  94.067  0.00  0.00    -0.629 OA
+ATOM     15  O2B 2KH d          60.836  16.737  92.527  0.00  0.00    -0.629 OA
+BRANCH  13  16
+ATOM     16  O3B 2KH d          61.711  16.391  94.796  0.00  0.00    -0.178 OA
+BRANCH  16  17
+ATOM     17  PG  2KH d          61.605  16.682  96.340  0.00  0.00     0.431 P 
+ATOM     18  O1G 2KH d          60.374  16.109  96.802  0.00  0.00    -0.616 OA
+ATOM     19  O2G 2KH d          61.617  18.141  96.662  0.00  0.00    -0.616 OA
+ATOM     20  O3G 2KH d          62.743  16.042  97.082  0.00  0.00    -0.616 OA
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   5  21
+ATOM     21  O3' 2KH d          63.710  20.341  88.953  0.00  0.00    -0.390 OA
+ATOM     22  H9  2KH d          63.029  20.775  88.453  0.00  0.00     0.210 HD
+ENDBRANCH   5  21
+BRANCH   3  23
+ATOM     23  N1  2KH d          66.218  23.313  91.030  0.00  0.00    -0.280 N 
+ATOM     24  C6  2KH d          66.367  22.572  92.172  0.00  0.00     0.103 A 
+ATOM     25  C5  2KH d          67.605  22.493  92.807  0.00  0.00     0.076 A 
+ATOM     26  C4  2KH d          68.698  23.205  92.223  0.00  0.00     0.184 A 
+ATOM     27  N3  2KH d          68.502  23.920  91.102  0.00  0.00    -0.286 N 
+ATOM     28  O4  2KH d          69.942  23.139  92.821  0.00  0.00    -0.172 OA
+ATOM     29  C2  2KH d          67.299  23.978  90.508  0.00  0.00     0.330 A 
+ATOM     30  H11 2KH d          69.269  24.420  90.701  0.00  0.00     0.172 HD
+ATOM     31  O2  2KH d          67.158  24.673  89.430  0.00  0.00    -0.246 OA
+ENDBRANCH   3  23
+BRANCH   4  32
+ATOM     32  O2' 2KH d          64.045  22.876  88.214  0.00  0.00    -0.388 OA
+ATOM     33  H7  2KH d          64.022  22.225  87.522  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 10

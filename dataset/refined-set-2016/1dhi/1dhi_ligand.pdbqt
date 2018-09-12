@@ -1,0 +1,77 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  NA2_3 
+REMARK    2  A    between atoms: C4_5  and  NA4_6 
+REMARK    3  A    between atoms: C6_9  and  C9_13 
+REMARK    4  A    between atoms: C9_13  and  N10_14 
+REMARK    5  A    between atoms: N10_14  and  C14_19 
+REMARK    6  A    between atoms: C11_16  and  C_22 
+REMARK       I    between atoms: C_22  and  N_24 
+REMARK    7  A    between atoms: N_24  and  CA_25 
+REMARK    8  A    between atoms: CA_25  and  CB_29 
+REMARK    9  A    between atoms: CA_25  and  CT_26 
+REMARK   10  A    between atoms: CB_29  and  CG_30 
+REMARK   11  A    between atoms: CG_30  and  CD_31 
+ROOT
+ATOM      1  C11 MTX d          19.884  70.185  41.279  0.00  0.00     0.032 A 
+ATOM      2  C12 MTX d          21.063  69.522  40.874  0.00  0.00     0.019 A 
+ATOM      3  C13 MTX d          21.806  68.773  41.765  0.00  0.00     0.030 A 
+ATOM      4  C14 MTX d          21.371  68.669  43.109  0.00  0.00     0.030 A 
+ATOM      5  C15 MTX d          20.249  69.337  43.512  0.00  0.00     0.030 A 
+ATOM      6  C16 MTX d          19.498  70.086  42.605  0.00  0.00     0.019 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  N10 MTX d          22.124  67.865  43.955  0.00  0.00    -0.379 N 
+ATOM      8  CM  MTX d          23.338  67.190  43.562  0.00  0.00     0.150 C 
+BRANCH   7   9
+ATOM      9  C9  MTX d          21.750  67.661  45.385  0.00  0.00     0.183 C 
+BRANCH   9  10
+ATOM     10  C6  MTX d          20.389  67.084  45.502  0.00  0.00     0.070 A 
+ATOM     11  N5  MTX d          19.778  67.219  46.698  0.00  0.00    -0.242 NA
+ATOM     12  C4A MTX d          18.556  66.671  46.862  0.00  0.00     0.151 A 
+ATOM     13  C4  MTX d          17.937  66.809  48.158  0.00  0.00     0.173 A 
+ATOM     14  C8A MTX d          17.905  66.062  45.869  0.00  0.00     0.201 A 
+ATOM     15  N3  MTX d          16.687  66.291  48.220  0.00  0.00    -0.043 NA
+ATOM     16  C2  MTX d          15.955  65.684  47.182  0.00  0.00     0.724 A 
+ATOM     17  N1  MTX d          16.604  65.580  46.026  0.00  0.00    -0.041 NA
+ATOM     18  N8  MTX d          18.468  65.898  44.674  0.00  0.00    -0.237 NA
+ATOM     19  C7  MTX d          19.671  66.379  44.529  0.00  0.00     0.148 A 
+BRANCH  13  20
+ATOM     20  NA4 MTX d          18.527  67.384  49.175  0.00  0.00    -0.381 N 
+ATOM     21  H3  MTX d          19.480  67.761  49.072  0.00  0.00     0.157 HD
+ATOM     22  H4  MTX d          18.038  67.459  50.079  0.00  0.00     0.157 HD
+ENDBRANCH  13  20
+BRANCH  16  23
+ATOM     23  NA2 MTX d          14.743  65.313  47.418  0.00  0.00    -0.231 N 
+ATOM     24  H1  MTX d          14.187  64.867  46.675  0.00  0.00     0.174 HD
+ATOM     25  H2  MTX d          14.331  65.463  48.350  0.00  0.00     0.174 HD
+ENDBRANCH  16  23
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  26
+ATOM     26  C   MTX d          19.078  70.996  40.353  0.00  0.00     0.252 C 
+ATOM     27  N   MTX d          17.920  71.501  40.761  0.00  0.00    -0.342 N 
+ATOM     28  H15 MTX d          17.623  71.284  41.691  0.00  0.00     0.163 HD
+ATOM     29  O   MTX d          19.470  71.190  39.192  0.00  0.00    -0.268 OA
+BRANCH  27  30
+ATOM     30  CA  MTX d          17.023  72.373  39.931  0.00  0.00     0.186 C 
+BRANCH  30  31
+ATOM     31  CB  MTX d          15.874  71.540  39.336  0.00  0.00     0.046 C 
+BRANCH  31  32
+ATOM     32  CG  MTX d          16.283  70.505  38.168  0.00  0.00     0.116 C 
+BRANCH  32  33
+ATOM     33  CD  MTX d          16.578  70.950  36.697  0.00  0.00     0.172 C 
+ATOM     34  OE2 MTX d          16.356  72.118  36.287  0.00  0.00    -0.648 OA
+ATOM     35  OE1 MTX d          17.099  69.999  36.008  0.00  0.00    -0.648 OA
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+BRANCH  30  36
+ATOM     36  CT  MTX d          16.327  73.254  40.913  0.00  0.00     0.196 C 
+ATOM     37  O2  MTX d          15.890  74.311  40.413  0.00  0.00    -0.646 OA
+ATOM     38  O1  MTX d          16.188  72.861  42.109  0.00  0.00    -0.646 OA
+ENDBRANCH  30  36
+ENDBRANCH  27  30
+ENDBRANCH   1  26
+TORSDOF 11

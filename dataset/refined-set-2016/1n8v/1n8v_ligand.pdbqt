@@ -1,0 +1,56 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C1_2 
+REMARK    2  A    between atoms: C1_2  and  C2_3 
+REMARK    3  A    between atoms: C2_3  and  C3_4 
+REMARK    4  A    between atoms: C3_4  and  C4_5 
+REMARK    5  A    between atoms: C4_5  and  C5_6 
+REMARK    6  A    between atoms: C5_6  and  C6_7 
+REMARK    7  A    between atoms: C6_7  and  C7_8 
+REMARK    8  A    between atoms: C7_8  and  C8_9 
+REMARK    9  A    between atoms: C8_9  and  C9_10 
+REMARK   10  A    between atoms: C9_10  and  C10_11 
+REMARK   11  A    between atoms: C10_11  and  C11_12 
+REMARK   12  A    between atoms: C11_12  and  C12_13 
+ROOT
+ATOM      1  C6  BDD d          16.944  24.271  29.734  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C5  BDD d          17.704  25.594  29.609  0.00  0.00     0.000 C 
+BRANCH   2   3
+ATOM      3  C4  BDD d          18.755  25.548  28.504  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  C3  BDD d          18.130  25.900  27.162  0.00  0.00     0.002 C 
+BRANCH   4   5
+ATOM      5  C2  BDD d          19.034  25.526  25.995  0.00  0.00     0.026 C 
+BRANCH   5   6
+ATOM      6  C1  BDD d          18.850  24.061  25.610  0.00  0.00     0.164 C 
+BRANCH   6   7
+ATOM      7  O1  BDD d          18.743  23.945  24.199  0.00  0.00    -0.401 OA
+ATOM      8  H1  BDD d          18.629  23.031  23.965  0.00  0.00     0.209 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C7  BDD d          15.690  24.391  30.599  0.00  0.00     0.000 C 
+BRANCH   9  10
+ATOM     10  C8  BDD d          14.680  23.281  30.306  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  C9  BDD d          13.560  23.272  31.341  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  C10 BDD d          12.483  24.303  31.031  0.00  0.00     0.001 C 
+BRANCH  12  13
+ATOM     13  C11 BDD d          11.310  24.224  31.991  0.00  0.00     0.011 C 
+BRANCH  13  14
+ATOM     14  C12 BDD d          10.196  25.201  31.620  0.00  0.00     0.085 C 
+ATOM     15 BR   BDD d          10.544  26.709  32.119  0.00  0.00    -0.097 Br
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 12

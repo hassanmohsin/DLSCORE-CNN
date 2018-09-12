@@ -1,0 +1,30 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_12 
+REMARK    2  A    between atoms: N4_8  and  C2_2 
+REMARK    3  A    between atoms: S1_12  and  N1_5 
+ROOT
+ATOM      1  C1  AZM d          -5.171   2.053  15.988  0.00  0.00     0.237 C 
+ATOM      2  C2  AZM d          -4.726   3.847  14.562  0.00  0.00     0.196 C 
+ATOM      3  N2  AZM d          -3.595   3.279  15.057  0.00  0.00    -0.122 NA
+ATOM      4  N3  AZM d          -3.853   2.168  15.932  0.00  0.00    -0.126 NA
+ATOM      5  S2  AZM d          -6.065   3.319  15.240  0.00  0.00    -0.015 SA
+ENDROOT
+BRANCH   1   6
+ATOM      6  S1  AZM d          -5.963   0.821  16.904  0.00  0.00     0.282 S 
+ATOM      7  O1  AZM d          -5.494   0.927  18.280  0.00  0.00    -0.199 OA
+ATOM      8  O2  AZM d          -7.374   1.021  16.711  0.00  0.00    -0.199 OA
+BRANCH   6   9
+ATOM      9  N1  AZM d          -5.492  -0.586  16.315  0.00  0.00    -0.323 N 
+ATOM     10  H4  AZM d          -5.840  -1.436  16.711  0.00  0.00     0.169 HD
+ATOM     11  H5  AZM d          -4.849  -0.618  15.550  0.00  0.00     0.169 HD
+ENDBRANCH   6   9
+ENDBRANCH   1   6
+BRANCH   2  12
+ATOM     12  N4  AZM d          -4.641   5.095  13.961  0.00  0.00    -0.316 N 
+ATOM     13  C3  AZM d          -5.532   5.753  13.264  0.00  0.00     0.153 C 
+ATOM     14  C4  AZM d          -5.207   6.698  12.497  0.00  0.00     0.100 C 
+ATOM     15  O3  AZM d          -6.980   5.606  13.577  0.00  0.00    -0.177 OA
+ATOM     16  H6  AZM d          -3.765   5.563  14.079  0.00  0.00     0.170 HD
+ENDBRANCH   2  12
+TORSDOF 3

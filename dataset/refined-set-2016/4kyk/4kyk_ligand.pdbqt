@@ -1,0 +1,43 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_4  and  O_21 
+REMARK    2  A    between atoms: C7_8  and  C17_18 
+REMARK    3  A    between atoms: C9_10  and  C10_11 
+REMARK       I    between atoms: C9_10  and  N_20 
+REMARK    4  A    between atoms: C17_18  and  C18_19 
+ROOT
+ATOM      1  C   IMN d          20.601  13.964  61.047  0.00  0.00     0.053 A 
+ATOM      2  C1  IMN d          20.586  15.139  60.282  0.00  0.00     0.003 A 
+ATOM      3  C2  IMN d          20.487  15.043  58.897  0.00  0.00     0.051 A 
+ATOM      4  C3  IMN d          20.409  13.789  58.305  0.00  0.00     0.069 A 
+ATOM      5  C4  IMN d          20.435  12.631  59.070  0.00  0.00     0.039 A 
+ATOM      6  C5  IMN d          20.532  12.713  60.447  0.00  0.00     0.034 A 
+ATOM      7  C7  IMN d          20.668  16.244  61.197  0.00  0.00    -0.013 A 
+ATOM      8  C8  IMN d          20.710  15.753  62.457  0.00  0.00     0.024 A 
+ATOM      9  C9  IMN d          20.779  13.460  63.528  0.00  0.00     0.263 C 
+ATOM     10  C16 IMN d          20.754  16.511  63.739  0.00  0.00     0.069 C 
+ATOM     11  N   IMN d          20.682  14.351  62.410  0.00  0.00    -0.281 N 
+ATOM     12  O1  IMN d          21.592  13.668  64.408  0.00  0.00    -0.267 OA
+ENDROOT
+BRANCH   9  13
+ATOM     13  C10 IMN d          19.885  12.261  63.598  0.00  0.00     0.033 A 
+ATOM     14  C11 IMN d          20.325  11.146  64.300  0.00  0.00     0.018 A 
+ATOM     15  C12 IMN d          19.544  10.011  64.389  0.00  0.00     0.025 A 
+ATOM     16  C13 IMN d          18.319   9.984  63.759  0.00  0.00     0.034 A 
+ATOM     17  C14 IMN d          17.848  11.083  63.072  0.00  0.00     0.025 A 
+ATOM     18 CL   IMN d          17.384   8.514  63.774  0.00  0.00    -0.084 Cl
+ATOM     19  C15 IMN d          18.631  12.219  62.995  0.00  0.00     0.018 A 
+ENDBRANCH   9  13
+BRANCH   7  20
+ATOM     20  C17 IMN d          20.738  17.694  60.797  0.00  0.00     0.154 C 
+BRANCH  20  21
+ATOM     21  C18 IMN d          19.475  18.120  60.098  0.00  0.00     0.177 C 
+ATOM     22  O2  IMN d          19.455  18.750  59.070  0.00  0.00    -0.648 OA
+ATOM     23  O3  IMN d          18.406  17.731  60.702  0.00  0.00    -0.648 OA
+ENDBRANCH  20  21
+ENDBRANCH   7  20
+BRANCH   4  24
+ATOM     24  O   IMN d          20.300  13.719  56.941  0.00  0.00    -0.356 OA
+ATOM     25  C6  IMN d          20.214  12.424  56.357  0.00  0.00     0.210 C 
+ENDBRANCH   4  24
+TORSDOF 4

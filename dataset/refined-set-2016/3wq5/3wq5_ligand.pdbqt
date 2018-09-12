@@ -1,0 +1,83 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C1_1  and  N2_3 
+REMARK    3  A    between atoms: C2_2  and  C3_4 
+REMARK    4  A    between atoms: N1_10  and  C1'_11 
+REMARK    5  A    between atoms: C2'_13  and  O2'_14 
+REMARK    6  A    between atoms: C3'_15  and  O3'_16 
+REMARK    7  A    between atoms: C4'_17  and  O4'_18 
+REMARK    8  A    between atoms: C5'_19  and  C6'_20 
+REMARK    9  A    between atoms: C6'_20  and  O6'_21 
+REMARK   10  A    between atoms: O6'_21  and  C1A_22 
+REMARK   11  A    between atoms: C4A_25  and  O4A_26 
+REMARK   12  A    between atoms: C3A_27  and  O3A_28 
+REMARK   13  A    between atoms: C2A_29  and  O2A_30 
+ROOT
+ATOM      1  C1' VPA d         -28.304  13.275 -23.775  0.00  0.00     0.254 C 
+ATOM      2  O5' VPA d         -29.705  13.511 -24.084  0.00  0.00    -0.354 OA
+ATOM      3  C2' VPA d         -27.614  12.067 -24.441  0.00  0.00     0.198 C 
+ATOM      4  C3' VPA d         -28.232  11.696 -25.793  0.00  0.00     0.182 C 
+ATOM      5  C4' VPA d         -29.741  11.719 -25.643  0.00  0.00     0.180 C 
+ATOM      6  C5' VPA d         -30.183  13.147 -25.380  0.00  0.00     0.179 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C6' VPA d         -31.689  13.203 -25.267  0.00  0.00     0.205 C 
+BRANCH   7   8
+ATOM      8  O6' VPA d         -31.955  12.380 -24.116  0.00  0.00    -0.356 OA
+BRANCH   8   9
+ATOM      9  C1A VPA d         -33.354  12.135 -23.952  0.00  0.00     0.290 C 
+ATOM     10  O5A VPA d         -33.847  13.002 -22.899  0.00  0.00    -0.356 OA
+ATOM     11  C5A VPA d         -35.248  12.780 -22.631  0.00  0.00     0.205 C 
+ATOM     12  C4A VPA d         -35.453  11.337 -22.171  0.00  0.00     0.173 C 
+ATOM     13  C3A VPA d         -35.011  10.402 -23.289  0.00  0.00     0.182 C 
+ATOM     14  C2A VPA d         -33.539  10.663 -23.575  0.00  0.00     0.204 C 
+BRANCH  12  15
+ATOM     15  O4A VPA d         -36.826  11.107 -21.849  0.00  0.00    -0.391 OA
+ATOM     16  H25 VPA d         -37.361  11.266 -22.617  0.00  0.00     0.210 HD
+ENDBRANCH  12  15
+BRANCH  13  17
+ATOM     17  O3A VPA d         -35.204   9.047 -22.896  0.00  0.00    -0.390 OA
+ATOM     18  H27 VPA d         -36.124   8.900 -22.711  0.00  0.00     0.210 HD
+ENDBRANCH  13  17
+BRANCH  14  19
+ATOM     19  O2A VPA d         -33.066   9.809 -24.625  0.00  0.00    -0.388 OA
+ATOM     20  H29 VPA d         -33.566   9.974 -25.416  0.00  0.00     0.210 HD
+ENDBRANCH  14  19
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   5  21
+ATOM     21  O4' VPA d         -30.362  11.208 -26.818  0.00  0.00    -0.390 OA
+ATOM     22  H17 VPA d         -31.306  11.228 -26.710  0.00  0.00     0.210 HD
+ENDBRANCH   5  21
+BRANCH   1  23
+ATOM     23  N1  VPA d         -28.186  13.046 -22.322  0.00  0.00    -0.351 N 
+ATOM     24  C1  VPA d         -29.216  12.631 -21.601  0.00  0.00     0.076 C 
+ATOM     25  H10 VPA d         -27.282  13.213 -21.858  0.00  0.00     0.163 HD
+BRANCH  24  26
+ATOM     26  C2  VPA d         -29.025  12.387 -20.099  0.00  0.00     0.114 C 
+BRANCH  26  27
+ATOM     27  C3  VPA d         -29.867  11.204 -19.567  0.00  0.00    -0.051 A 
+ATOM     28  C4  VPA d         -30.160  11.154 -18.206  0.00  0.00     0.007 A 
+ATOM     29  C5  VPA d         -30.912  10.109 -17.676  0.00  0.00     0.001 A 
+ATOM     30  C6  VPA d         -31.378   9.098 -18.507  0.00  0.00     0.000 A 
+ATOM     31  C7  VPA d         -31.093   9.137 -19.867  0.00  0.00     0.001 A 
+ATOM     32  C8  VPA d         -30.336  10.180 -20.392  0.00  0.00     0.007 A 
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+BRANCH  24  33
+ATOM     33  N2  VPA d         -30.400  12.493 -22.178  0.00  0.00    -0.389 N 
+ATOM     34  H3  VPA d         -30.503  12.662 -23.189  0.00  0.00     0.157 HD
+ATOM     35  H4  VPA d         -31.218  12.216 -21.616  0.00  0.00     0.157 HD
+ENDBRANCH  24  33
+ENDBRANCH   1  23
+BRANCH   4  36
+ATOM     36  O3' VPA d         -27.812  10.390 -26.205  0.00  0.00    -0.390 OA
+ATOM     37  H15 VPA d         -28.206  10.182 -27.044  0.00  0.00     0.210 HD
+ENDBRANCH   4  36
+BRANCH   3  38
+ATOM     38  O2' VPA d         -26.216  12.348 -24.587  0.00  0.00    -0.389 OA
+ATOM     39  H13 VPA d         -26.104  13.120 -25.129  0.00  0.00     0.210 HD
+ENDBRANCH   3  38
+TORSDOF 13

@@ -1,0 +1,130 @@
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N4B_18  and  C1A_1 
+REMARK    2  A    between atoms: C2A_2  and  O2A_8 
+REMARK    3  A    between atoms: C3A_3  and  O3A_9 
+REMARK    4  A    between atoms: C4A_4  and  O4A_10 
+REMARK    5  A    between atoms: C5A_5  and  C6A_6 
+REMARK    6  A    between atoms: C6A_6  and  O6A_11 
+REMARK    7  A    between atoms: O4C_30  and  C1B_12 
+REMARK    8  A    between atoms: C2B_13  and  O2B_19 
+REMARK    9  A    between atoms: C3B_14  and  O3B_20 
+REMARK   10  A    between atoms: C4B_15  and  N4B_18 
+REMARK   11  A    between atoms: O4D_42  and  C1C_22 
+REMARK   12  A    between atoms: C2C_23  and  O2C_28 
+REMARK   13  A    between atoms: C3C_24  and  O3C_29 
+REMARK   14  A    between atoms: C4C_25  and  O4C_30 
+REMARK   15  A    between atoms: C5C_26  and  C6C_27 
+REMARK   16  A    between atoms: C6C_27  and  O6C_32 
+REMARK   17  A    between atoms: C1D_33  and  O1D_39 
+REMARK   18  A    between atoms: C2D_34  and  O2D_40 
+REMARK   19  A    between atoms: C3D_35  and  O3D_41 
+REMARK   20  A    between atoms: C4D_36  and  O4D_42 
+REMARK   21  A    between atoms: C5D_37  and  C6D_38 
+REMARK   22  A    between atoms: C6D_38  and  O6D_44 
+ROOT
+ATOM      1  O4C GAC d          31.575  16.907   3.824  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C1B GAC d          31.706  18.270   3.522  0.00  0.00     0.292 C 
+ATOM      3  C2B GAC d          33.179  18.615   3.786  0.00  0.00     0.204 C 
+ATOM      4  C3B GAC d          33.494  18.445   5.286  0.00  0.00     0.184 C 
+ATOM      5  C4B GAC d          32.573  19.381   6.087  0.00  0.00     0.246 C 
+ATOM      6  C5B GAC d          31.127  18.938   5.790  0.00  0.00     0.154 C 
+ATOM      7  C6B GAC d          30.066  19.772   6.483  0.00  0.00     0.042 C 
+ATOM      8  O5B GAC d          30.863  19.049   4.371  0.00  0.00    -0.351 OA
+BRANCH   3   9
+ATOM      9  O2B GAC d          34.002  17.737   3.025  0.00  0.00    -0.388 OA
+ATOM     10  H24 GAC d          33.831  16.840   3.285  0.00  0.00     0.210 HD
+ENDBRANCH   3   9
+BRANCH   4  11
+ATOM     11  O3B GAC d          34.864  18.740   5.542  0.00  0.00    -0.391 OA
+ATOM     12  H25 GAC d          35.043  18.627   6.468  0.00  0.00     0.210 HD
+ENDBRANCH   4  11
+BRANCH   5  13
+ATOM     13  N4B GAC d          32.876  19.318   7.536  0.00  0.00    -0.059 N 
+ATOM     14  H22 GAC d          32.080  18.912   8.003  0.00  0.00     0.278 HD
+ATOM     15  H23 GAC d          33.679  18.721   7.660  0.00  0.00     0.278 HD
+BRANCH  13  16
+ATOM     16  C1A GAC d          33.170  20.622   8.181  0.00  0.00     0.218 C 
+ATOM     17  C2A GAC d          34.370  20.482   9.121  0.00  0.00     0.180 C 
+ATOM     18  C3A GAC d          33.998  19.616  10.323  0.00  0.00     0.178 C 
+ATOM     19  C4A GAC d          32.901  20.289  11.143  0.00  0.00     0.155 C 
+ATOM     20  C5A GAC d          31.630  20.514  10.300  0.00  0.00     0.043 C 
+ATOM     21  C7A GAC d          31.948  21.184   8.934  0.00  0.00     0.045 C 
+BRANCH  17  22
+ATOM     22  O2A GAC d          35.453  19.879   8.431  0.00  0.00    -0.391 OA
+ATOM     23  H10 GAC d          36.198  19.806   9.016  0.00  0.00     0.210 HD
+ENDBRANCH  17  22
+BRANCH  18  24
+ATOM     24  O3A GAC d          35.144  19.427  11.142  0.00  0.00    -0.390 OA
+ATOM     25  H11 GAC d          35.829  19.008  10.634  0.00  0.00     0.210 HD
+ENDBRANCH  18  24
+BRANCH  19  26
+ATOM     26  O4A GAC d          32.594  19.474  12.273  0.00  0.00    -0.392 OA
+ATOM     27  H12 GAC d          33.381  19.339  12.788  0.00  0.00     0.210 HD
+ENDBRANCH  19  26
+BRANCH  20  28
+ATOM     28  C6A GAC d          30.612  21.349  11.082  0.00  0.00     0.171 C 
+BRANCH  28  29
+ATOM     29  O6A GAC d          31.127  22.642  11.401  0.00  0.00    -0.400 OA
+ATOM     30  H13 GAC d          30.472  23.132  11.884  0.00  0.00     0.209 HD
+ENDBRANCH  28  29
+ENDBRANCH  20  28
+ENDBRANCH  13  16
+ENDBRANCH   5  13
+ENDBRANCH   1   2
+BRANCH   1  31
+ATOM     31  C4C GAC d          30.706  16.013   3.094  0.00  0.00     0.187 C 
+ATOM     32  C3C GAC d          30.997  16.081   1.581  0.00  0.00     0.183 C 
+ATOM     33  C2C GAC d          30.334  14.921   0.837  0.00  0.00     0.204 C 
+ATOM     34  C1C GAC d          30.703  13.600   1.485  0.00  0.00     0.292 C 
+ATOM     35  O5C GAC d          30.299  13.612   2.847  0.00  0.00    -0.348 OA
+ATOM     36  C5C GAC d          30.968  14.611   3.640  0.00  0.00     0.180 C 
+BRANCH  32  37
+ATOM     37  O3C GAC d          30.488  17.290   1.041  0.00  0.00    -0.390 OA
+ATOM     38  H34 GAC d          30.672  17.322   0.110  0.00  0.00     0.210 HD
+ENDBRANCH  32  37
+BRANCH  33  39
+ATOM     39  O2C GAC d          30.778  14.922  -0.512  0.00  0.00    -0.388 OA
+ATOM     40  H33 GAC d          31.722  14.819  -0.533  0.00  0.00     0.210 HD
+ENDBRANCH  33  39
+BRANCH  34  41
+ATOM     41  O4D GAC d          32.086  13.428   1.353  0.00  0.00    -0.348 OA
+BRANCH  41  42
+ATOM     42  C4D GAC d          32.558  12.144   0.912  0.00  0.00     0.187 C 
+ATOM     43  C3D GAC d          33.485  12.341  -0.290  0.00  0.00     0.183 C 
+ATOM     44  C2D GAC d          34.131  11.014  -0.672  0.00  0.00     0.204 C 
+ATOM     45  C1D GAC d          34.835  10.433   0.556  0.00  0.00     0.288 C 
+ATOM     46  O5D GAC d          33.892  10.234   1.617  0.00  0.00    -0.349 OA
+ATOM     47  C5D GAC d          33.303  11.471   2.063  0.00  0.00     0.180 C 
+BRANCH  43  48
+ATOM     48  O3D GAC d          32.748  12.854  -1.393  0.00  0.00    -0.390 OA
+ATOM     49  H45 GAC d          32.363  13.689  -1.154  0.00  0.00     0.210 HD
+ENDBRANCH  43  48
+BRANCH  44  50
+ATOM     50  O2D GAC d          35.070  11.222  -1.723  0.00  0.00    -0.388 OA
+ATOM     51  H44 GAC d          35.742  11.827  -1.431  0.00  0.00     0.210 HD
+ENDBRANCH  44  50
+BRANCH  45  52
+ATOM     52  O1D GAC d          35.792  11.329   1.000  0.00  0.00    -0.369 OA
+ATOM     53  H43 GAC d          36.227  10.972   1.765  0.00  0.00     0.212 HD
+ENDBRANCH  45  52
+BRANCH  47  54
+ATOM     54  C6D GAC d          32.380  11.136   3.217  0.00  0.00     0.198 C 
+BRANCH  54  55
+ATOM     55  O6D GAC d          31.331  10.270   2.802  0.00  0.00    -0.398 OA
+ATOM     56  H46 GAC d          31.703   9.463   2.466  0.00  0.00     0.209 HD
+ENDBRANCH  54  55
+ENDBRANCH  47  54
+ENDBRANCH  41  42
+ENDBRANCH  34  41
+BRANCH  36  57
+ATOM     57  C6C GAC d          30.513  14.442   5.079  0.00  0.00     0.198 C 
+BRANCH  57  58
+ATOM     58  O6C GAC d          30.964  13.212   5.619  0.00  0.00    -0.398 OA
+ATOM     59  H35 GAC d          30.614  12.494   5.104  0.00  0.00     0.209 HD
+ENDBRANCH  57  58
+ENDBRANCH  36  57
+ENDBRANCH   1  31
+TORSDOF 22

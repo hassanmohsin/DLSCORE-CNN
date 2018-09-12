@@ -1,0 +1,57 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C04_4  and  C05_5 
+REMARK    5  A    between atoms: C05_5  and  N06_6 
+REMARK    6  A    between atoms: C08_8  and  C09_9 
+REMARK    7  A    between atoms: C09_9  and  C10_10 
+REMARK    8  A    between atoms: C10_10  and  N11_11 
+ROOT
+ATOM      1  C09 JRJ d           5.181  -0.651 -11.617  0.00  0.00     0.086 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C08 JRJ d           4.970  -1.755 -10.508  0.00  0.00     0.077 A 
+ATOM      3  C07 JRJ d           5.311  -3.202 -10.571  0.00  0.00     0.143 A 
+ATOM      4  N06 JRJ d           4.934  -3.742  -9.359  0.00  0.00    -0.261 N 
+ATOM      5  N25 JRJ d           4.398  -2.725  -8.585  0.00  0.00    -0.066 NA
+ATOM      6  N24 JRJ d           4.402  -1.596  -9.203  0.00  0.00    -0.135 NA
+BRANCH   4   7
+ATOM      7  C05 JRJ d           5.065  -5.094  -8.953  0.00  0.00     0.152 C 
+BRANCH   7   8
+ATOM      8  C04 JRJ d           4.760  -6.221 -10.010  0.00  0.00     0.024 C 
+BRANCH   8   9
+ATOM      9  C03 JRJ d           4.992  -7.638  -9.601  0.00  0.00     0.029 C 
+BRANCH   9  10
+ATOM     10  C02 JRJ d           4.162  -8.189  -8.490  0.00  0.00     0.229 C 
+BRANCH  10  11
+ATOM     11  N01 JRJ d           4.740  -9.145  -7.667  0.00  0.00    -0.079 N 
+ATOM     12  H1  JRJ d           4.076  -9.429  -6.964  0.00  0.00     0.274 HD
+ATOM     13  H2  JRJ d           5.555  -8.755  -7.220  0.00  0.00     0.274 HD
+ATOM     14  H3  JRJ d           5.009  -9.945  -8.218  0.00  0.00     0.274 HD
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C10 JRJ d           4.239  -0.626 -12.751  0.00  0.00     0.180 C 
+BRANCH  15  16
+ATOM     16  N11 JRJ d           4.545  -1.569 -13.899  0.00  0.00    -0.187 N 
+ATOM     17  N12 JRJ d           4.633  -1.225 -15.108  0.00  0.00    -0.151 NA
+ATOM     18  C13 JRJ d           4.928  -2.369 -15.869  0.00  0.00     0.129 A 
+ATOM     19  C14 JRJ d           5.152  -2.632 -17.312  0.00  0.00     0.062 A 
+ATOM     20  C22 JRJ d           5.006  -3.451 -14.928  0.00  0.00     0.129 A 
+ATOM     21 BR1  JRJ d           5.050  -1.240 -18.523  0.00  0.00    -0.047 Br
+ATOM     22  C16 JRJ d           5.429  -3.905 -17.732  0.00  0.00     0.049 A 
+ATOM     23 BR2  JRJ d           5.731  -4.302 -19.632  0.00  0.00    -0.048 Br
+ATOM     24  C18 JRJ d           5.504  -4.956 -16.813  0.00  0.00     0.049 A 
+ATOM     25 BR3  JRJ d           5.897  -6.733 -17.436  0.00  0.00    -0.048 Br
+ATOM     26  C20 JRJ d           5.279  -4.698 -15.350  0.00  0.00     0.062 A 
+ATOM     27 BR4  JRJ d           5.383  -6.183 -14.046  0.00  0.00    -0.047 Br
+ATOM     28  N23 JRJ d           4.758  -2.886 -13.730  0.00  0.00    -0.151 NA
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 8

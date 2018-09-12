@@ -1,0 +1,28 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAO_12  and  CAP_13 
+ROOT
+ATOM      1  CAA AJ4 d           5.655 -12.162 -14.095  0.00  0.00     0.049 C 
+ATOM      2  CAM AJ4 d           4.168 -12.167 -13.622  0.00  0.00    -0.044 A 
+ATOM      3  CAJ AJ4 d           3.137 -12.349 -14.570  0.00  0.00     0.082 A 
+ATOM      4  CAQ AJ4 d           1.801 -12.348 -14.167  0.00  0.00     0.246 A 
+ATOM      5  OAB AJ4 d           0.865 -12.526 -14.958  0.00  0.00    -0.268 OA
+ATOM      6  NAL AJ4 d           1.497 -12.166 -12.802  0.00  0.00    -0.323 N 
+ATOM      7  CAR AJ4 d           2.503 -11.990 -11.847  0.00  0.00     0.046 A 
+ATOM      8  CAK AJ4 d           2.149 -11.805 -10.509  0.00  0.00     0.042 A 
+ATOM      9  CAS AJ4 d           3.851 -11.983 -12.246  0.00  0.00    -0.003 A 
+ATOM     10  CAI AJ4 d           4.840 -11.774 -11.239  0.00  0.00     0.015 A 
+ATOM     11  CAH AJ4 d           4.470 -11.610  -9.883  0.00  0.00     0.013 A 
+ATOM     12  CAO AJ4 d           3.117 -11.613  -9.517  0.00  0.00    -0.021 A 
+ATOM     13  H5  AJ4 d           0.540 -12.163 -12.511  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH  12  14
+ATOM     14  CAP AJ4 d           2.698 -11.482  -8.182  0.00  0.00     0.013 A 
+ATOM     15  CAG AJ4 d           3.142 -10.399  -7.408  0.00  0.00     0.015 A 
+ATOM     16  CAE AJ4 d           2.740 -10.235  -6.088  0.00  0.00     0.001 A 
+ATOM     17  CAD AJ4 d           1.895 -11.161  -5.497  0.00  0.00     0.003 A 
+ATOM     18  CAF AJ4 d           1.445 -12.270  -6.235  0.00  0.00     0.043 A 
+ATOM     19  CAN AJ4 d           1.816 -12.446  -7.581  0.00  0.00     0.127 A 
+ATOM     20  FAC AJ4 d           1.325 -13.560  -8.232  0.00  0.00    -0.205 F 
+ENDBRANCH  12  14
+TORSDOF 1

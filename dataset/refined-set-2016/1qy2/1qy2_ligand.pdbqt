@@ -1,0 +1,22 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C8_2  and  C2_4 
+REMARK    2  A    between atoms: C3_9  and  O7_10 
+ROOT
+ATOM      1  C2  IPZ d          49.966  23.768  41.325  0.00  0.00     0.090 A 
+ATOM      2  N1  IPZ d          49.851  23.068  42.460  0.00  0.00    -0.259 NA
+ATOM      3  C6  IPZ d          50.704  22.112  42.795  0.00  0.00     0.136 A 
+ATOM      4  C5  IPZ d          51.757  21.808  41.937  0.00  0.00     0.138 A 
+ATOM      5  N4  IPZ d          51.889  22.485  40.806  0.00  0.00    -0.234 NA
+ATOM      6  C3  IPZ d          51.028  23.459  40.478  0.00  0.00     0.189 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C8  IPZ d          48.959  24.854  40.924  0.00  0.00     0.034 C 
+ATOM      8  C9  IPZ d          48.475  25.649  42.140  0.00  0.00     0.016 C 
+ATOM      9  C10 IPZ d          47.769  24.215  40.210  0.00  0.00     0.016 C 
+ENDBRANCH   1   7
+BRANCH   6  10
+ATOM     10  O7  IPZ d          51.146  24.192  39.337  0.00  0.00    -0.338 OA
+ATOM     11  C11 IPZ d          52.410  24.112  38.667  0.00  0.00     0.211 C 
+ENDBRANCH   6  10
+TORSDOF 2

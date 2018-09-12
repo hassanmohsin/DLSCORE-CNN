@@ -1,0 +1,53 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_4  and  N1_1 
+REMARK    2  A    between atoms: C7_5  and  C8_6 
+REMARK    3  A    between atoms: C3_12  and  C7_5 
+REMARK    4  A    between atoms: C8_6  and  C12_9 
+REMARK    5  A    between atoms: C8_6  and  N2_11 
+REMARK    6  A    between atoms: C9_18  and  C10_7 
+REMARK    7  A    between atoms: C10_7  and  C11_19 
+REMARK    8  A    between atoms: C2_17  and  C9_18 
+ROOT
+ATOM      1  C4  TZG d          -3.898  27.587  57.276  0.00  0.00     0.034 A 
+ATOM      2  C5  TZG d          -5.244  27.918  57.364  0.00  0.00     0.067 A 
+ATOM      3  C6  TZG d          -6.158  27.322  56.498  0.00  0.00     0.125 A 
+ATOM      4  C3  TZG d          -3.457  26.670  56.322  0.00  0.00    -0.048 A 
+ATOM      5 CL1  TZG d          -5.748  29.052  58.574  0.00  0.00    -0.082 Cl
+ATOM      6  C1  TZG d          -5.716  26.417  55.543  0.00  0.00     0.045 A 
+ATOM      7  C2  TZG d          -4.372  26.081  55.449  0.00  0.00    -0.049 A 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C7  TZG d          -1.962  26.368  56.294  0.00  0.00     0.083 C 
+BRANCH   8   9
+ATOM      9  C8  TZG d          -1.716  24.995  56.892  0.00  0.00     0.287 C 
+BRANCH   9  10
+ATOM     10  C12 TZG d          -0.249  24.628  56.692  0.00  0.00     0.204 C 
+ATOM     11  O4  TZG d           0.104  24.384  55.515  0.00  0.00    -0.646 OA
+ATOM     12  O5  TZG d           0.482  24.606  57.710  0.00  0.00    -0.646 OA
+ENDBRANCH   9  10
+BRANCH   9  13
+ATOM     13  N2  TZG d          -2.051  25.042  58.316  0.00  0.00    -0.065 N 
+ATOM     14  H7  TZG d          -1.893  24.136  58.728  0.00  0.00     0.275 HD
+ATOM     15  H8  TZG d          -3.020  25.296  58.425  0.00  0.00     0.275 HD
+ATOM     16  H9  TZG d          -1.471  25.726  58.775  0.00  0.00     0.275 HD
+ENDBRANCH   9  13
+ENDBRANCH   8   9
+ENDBRANCH   4   8
+BRANCH   7  17
+ATOM     17  C9  TZG d          -3.989  25.070  54.368  0.00  0.00     0.049 C 
+BRANCH  17  18
+ATOM     18  C10 TZG d          -4.509  25.505  53.001  0.00  0.00     0.117 C 
+BRANCH  18  19
+ATOM     19  C11 TZG d          -5.985  25.125  52.830  0.00  0.00     0.172 C 
+ATOM     20  O7  TZG d          -6.688  25.897  52.153  0.00  0.00    -0.648 OA
+ATOM     21  O6  TZG d          -6.386  24.083  53.388  0.00  0.00    -0.648 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   7  17
+BRANCH   3  22
+ATOM     22  N1  TZG d          -7.454  27.621  56.534  0.00  0.00    -0.114 N 
+ATOM     23  O1  TZG d          -8.429  26.662  56.138  0.00  0.00    -0.532 OA
+ATOM     24  O2  TZG d          -7.850  28.939  56.848  0.00  0.00    -0.532 OA
+ENDBRANCH   3  22
+TORSDOF 8

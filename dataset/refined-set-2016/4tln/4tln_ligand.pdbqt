@@ -1,0 +1,36 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N2_9 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: N2_9  and  ON2_10 
+ROOT
+ATOM      1  CA  LNO d          51.998  17.681  -4.752  0.00  0.00     0.277 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LNO d          52.907  16.546  -4.354  0.00  0.00    -0.066 N 
+ATOM      3  H1  LNO d          52.408  15.912  -3.750  0.00  0.00     0.275 HD
+ATOM      4  H2  LNO d          53.709  16.913  -3.866  0.00  0.00     0.275 HD
+ATOM      5  H3  LNO d          53.212  16.054  -5.179  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   LNO d          52.570  18.758  -5.673  0.00  0.00     0.271 C 
+ATOM      7  O   LNO d          53.633  18.701  -6.374  0.00  0.00    -0.269 OA
+ATOM      8  N2  LNO d          51.844  19.830  -5.654  0.00  0.00    -0.236 N 
+ATOM      9  H14 LNO d          51.000  19.978  -5.139  0.00  0.00     0.197 HD
+BRANCH   8  10
+ATOM     10  ON2 LNO d          52.476  20.725  -6.492  0.00  0.00    -0.287 OA
+ATOM     11  H15 LNO d          53.353  20.895  -6.168  0.00  0.00     0.244 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   6
+BRANCH   1  12
+ATOM     12  CB  LNO d          52.028  18.472  -3.348  0.00  0.00     0.046 C 
+BRANCH  12  13
+ATOM     13  CG  LNO d          52.920  17.721  -2.366  0.00  0.00    -0.020 C 
+ATOM     14  CD1 LNO d          54.277  17.669  -3.142  0.00  0.00     0.009 C 
+ATOM     15  CD2 LNO d          53.031  18.254  -0.947  0.00  0.00     0.009 C 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 5

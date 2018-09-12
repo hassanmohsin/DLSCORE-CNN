@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  S1_2 
+REMARK    2  A    between atoms: S1_2  and  C1_5 
+REMARK    3  A    between atoms: C4_9  and  N2_10 
+REMARK    4  A    between atoms: N2_10  and  C5_11 
+REMARK    5  A    between atoms: C5_11  and  C6_12 
+REMARK    6  A    between atoms: C10_17  and  C12_19 
+ROOT
+ATOM      1  C1  FUN d          15.610   3.973  15.675  0.00  0.00     0.102 A 
+ATOM      2  C2  FUN d          15.293   5.320  15.885  0.00  0.00     0.059 A 
+ATOM      3 CL1  FUN d          14.452   5.808  17.337  0.00  0.00    -0.083 Cl
+ATOM      4  C3  FUN d          15.637   6.352  15.001  0.00  0.00     0.055 A 
+ATOM      5  C4  FUN d          16.404   6.027  13.888  0.00  0.00     0.047 A 
+ATOM      6  C10 FUN d          16.695   4.674  13.652  0.00  0.00     0.068 A 
+ATOM      7  C11 FUN d          16.316   3.648  14.514  0.00  0.00     0.047 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  N2  FUN d          16.779   6.993  12.936  0.00  0.00    -0.383 N 
+ATOM      9  H4  FUN d          17.302   6.712  12.094  0.00  0.00     0.160 HD
+BRANCH   8  10
+ATOM     10  C5  FUN d          16.423   8.403  13.146  0.00  0.00     0.184 C 
+BRANCH  10  11
+ATOM     11  C6  FUN d          17.421   9.022  14.085  0.00  0.00     0.070 A 
+ATOM     12  C7  FUN d          18.622   9.482  13.738  0.00  0.00     0.036 A 
+ATOM     13  C8  FUN d          19.145   9.967  15.019  0.00  0.00     0.027 A 
+ATOM     14  C9  FUN d          18.145   9.721  15.870  0.00  0.00     0.142 A 
+ATOM     15  O3  FUN d          17.077   9.080  15.378  0.00  0.00    -0.325 OA
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   5   8
+BRANCH   6  16
+ATOM     16  C12 FUN d          17.499   4.232  12.448  0.00  0.00     0.211 C 
+ATOM     17  O4  FUN d          17.872   5.050  11.641  0.00  0.00    -0.644 OA
+ATOM     18  O5  FUN d          17.776   2.949  12.324  0.00  0.00    -0.644 OA
+ENDBRANCH   6  16
+BRANCH   1  19
+ATOM     19  S1  FUN d          15.137   2.679  16.784  0.00  0.00     0.258 S 
+ATOM     20  O1  FUN d          13.659   2.616  16.733  0.00  0.00    -0.201 OA
+ATOM     21  O2  FUN d          15.713   2.917  18.087  0.00  0.00    -0.201 OA
+BRANCH  19  22
+ATOM     22  N1  FUN d          15.638   1.427  16.184  0.00  0.00    -0.324 N 
+ATOM     23  H1  FUN d          15.318   1.143  15.280  0.00  0.00     0.169 HD
+ATOM     24  H2  FUN d          16.297   0.863  16.681  0.00  0.00     0.169 HD
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+TORSDOF 6

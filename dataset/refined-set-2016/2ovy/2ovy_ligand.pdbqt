@@ -1,0 +1,50 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N15_20  and  C7_2 
+REMARK    2  A    between atoms: C21_5  and  O20_22 
+REMARK    3  A    between atoms: C2_12  and  O13_11 
+REMARK    4  A    between atoms: C1_17  and  O11_18 
+REMARK    5  A    between atoms: O20_22  and  C17_21 
+ROOT
+ATOM      1  C18 PFJ d           9.764  21.924  45.679  0.00  0.00     0.054 C 
+ATOM      2  C16 PFJ d          10.673  20.420  44.026  0.00  0.00     0.157 C 
+ATOM      3  C19 PFJ d          10.663  20.947  46.425  0.00  0.00     0.127 C 
+ATOM      4  N15 PFJ d          11.154  20.049  45.355  0.00  0.00    -0.362 N 
+ATOM      5  C17 PFJ d          10.259  21.900  44.258  0.00  0.00     0.150 C 
+ENDROOT
+BRANCH   4   6
+ATOM      6  C7  PFJ d          12.006  19.047  45.760  0.00  0.00     0.139 A 
+ATOM      7  C6  PFJ d          12.557  18.096  44.915  0.00  0.00     0.041 A 
+ATOM      8  C3  PFJ d          12.173  18.032  43.530  0.00  0.00     0.057 A 
+ATOM      9  C5  PFJ d          13.380  17.152  45.419  0.00  0.00     0.075 A 
+ATOM     10  C2  PFJ d          12.717  17.012  42.671  0.00  0.00     0.102 A 
+ATOM     11  C1  PFJ d          13.611  16.072  43.233  0.00  0.00     0.103 A 
+ATOM     12  C4  PFJ d          13.959  16.161  44.592  0.00  0.00     0.072 A 
+ATOM     13  N10 PFJ d          13.721  17.122  46.730  0.00  0.00    -0.241 NA
+ATOM     14  C9  PFJ d          13.223  18.072  47.550  0.00  0.00     0.236 A 
+ATOM     15  N8  PFJ d          12.347  19.008  47.090  0.00  0.00    -0.224 NA
+BRANCH  10  16
+ATOM     16  O13 PFJ d          12.583  16.858  41.258  0.00  0.00    -0.353 OA
+ATOM     17  C14 PFJ d          11.513  17.340  40.448  0.00  0.00     0.210 C 
+ENDBRANCH  10  16
+BRANCH  11  18
+ATOM     18  O11 PFJ d          14.060  15.048  42.440  0.00  0.00    -0.353 OA
+ATOM     19  C12 PFJ d          15.381  14.508  42.580  0.00  0.00     0.210 C 
+ENDBRANCH  11  18
+ENDBRANCH   4   6
+BRANCH   5  20
+ATOM     20  O20 PFJ d          11.303  22.921  44.221  0.00  0.00    -0.326 OA
+BRANCH  20  21
+ATOM     21  C21 PFJ d          11.895  23.374  43.085  0.00  0.00     0.183 A 
+ATOM     22  N24 PFJ d          11.744  22.645  41.922  0.00  0.00    -0.221 NA
+ATOM     23  C25 PFJ d          12.361  22.951  40.745  0.00  0.00     0.088 A 
+ATOM     24  C26 PFJ d          13.103  24.127  40.702  0.00  0.00     0.085 A 
+ATOM     25  C30 PFJ d          12.178  22.130  39.640  0.00  0.00     0.034 A 
+ATOM     26  C27 PFJ d          13.639  24.539  39.489  0.00  0.00     0.034 A 
+ATOM     27  N23 PFJ d          13.171  24.898  41.860  0.00  0.00    -0.254 NA
+ATOM     28  C28 PFJ d          13.420  23.721  38.373  0.00  0.00     0.002 A 
+ATOM     29  C29 PFJ d          12.648  22.526  38.427  0.00  0.00     0.002 A 
+ATOM     30  C22 PFJ d          12.663  24.548  43.061  0.00  0.00     0.175 A 
+ENDBRANCH  20  21
+ENDBRANCH   5  20
+TORSDOF 5

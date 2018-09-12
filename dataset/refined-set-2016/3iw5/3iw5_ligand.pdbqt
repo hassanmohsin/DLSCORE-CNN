@@ -1,0 +1,75 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAU_21  and  CAR_18 
+REMARK    2  A    between atoms: CAR_18  and  NAW_23 
+REMARK    3  A    between atoms: NBL_38  and  CAU_21 
+REMARK    4  A    between atoms: SBA_27  and  CAV_22 
+REMARK    5  A    between atoms: CAV_22  and  CBB_28 
+REMARK       I    between atoms: NAW_23  and  CBC_29 
+REMARK       I    between atoms: CBB_28  and  NAX_24 
+REMARK    6  A    between atoms: NAX_24  and  CBD_30 
+REMARK    7  A    between atoms: CBI_35  and  SBA_27 
+REMARK    8  A    between atoms: CBC_29  and  CBE_31 
+REMARK    9  A    between atoms: CBF_32  and  CBM_39 
+ROOT
+ATOM      1  CAG DF3 d          17.621   3.612 -23.546  0.00  0.00     0.001 A 
+ATOM      2  CAH DF3 d          17.531   3.938 -22.200  0.00  0.00     0.002 A 
+ATOM      3  CAM DF3 d          18.082   2.361 -23.922  0.00  0.00     0.015 A 
+ATOM      4  CAN DF3 d          17.915   2.992 -21.239  0.00  0.00     0.030 A 
+ATOM      5  CAQ DF3 d          19.162  -0.303 -21.796  0.00  0.00     0.110 A 
+ATOM      6  CBI DF3 d          18.955   0.130 -23.023  0.00  0.00     0.029 A 
+ATOM      7  CBJ DF3 d          18.468   1.427 -22.973  0.00  0.00     0.009 A 
+ATOM      8  CBK DF3 d          18.394   1.740 -21.633  0.00  0.00     0.045 A 
+ATOM      9  NBL DF3 d          18.829   0.670 -20.973  0.00  0.00    -0.353 N 
+ENDROOT
+BRANCH   6  10
+ATOM     10  SBA DF3 d          19.300  -0.861 -24.440  0.00  0.00    -0.118 SA
+BRANCH  10  11
+ATOM     11  CAV DF3 d          21.029  -0.423 -24.780  0.00  0.00     0.182 C 
+BRANCH  11  12
+ATOM     12  CBB DF3 d          21.091   1.032 -25.112  0.00  0.00     0.231 C 
+ATOM     13  OAA DF3 d          20.815   1.400 -26.237  0.00  0.00    -0.272 OA
+ATOM     14  NAX DF3 d          21.444   1.821 -24.122  0.00  0.00    -0.326 N 
+ATOM     15  H24 DF3 d          21.705   1.445 -23.233  0.00  0.00     0.169 HD
+BRANCH  14  16
+ATOM     16  CBD DF3 d          21.444   3.098 -24.331  0.00  0.00     0.037 A 
+ATOM     17  CAK DF3 d          21.551   3.577 -25.619  0.00  0.00     0.032 A 
+ATOM     18  CAL DF3 d          21.506   4.933 -25.902  0.00  0.00     0.042 A 
+ATOM     19  CBG DF3 d          21.317   5.809 -24.876  0.00  0.00     0.102 A 
+ATOM     20  OAY DF3 d          21.275   7.118 -25.214  0.00  0.00    -0.346 OA
+ATOM     21  CBH DF3 d          21.165   5.324 -23.580  0.00  0.00     0.104 A 
+ATOM     22  CAS DF3 d          21.256   7.950 -24.063  0.00  0.00     0.202 C 
+ATOM     23  CAT DF3 d          20.321   7.319 -23.058  0.00  0.00     0.202 C 
+ATOM     24  OAZ DF3 d          20.986   6.160 -22.552  0.00  0.00    -0.346 OA
+ATOM     25  CAO DF3 d          21.213   3.974 -23.292  0.00  0.00     0.069 A 
+ENDBRANCH  14  16
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   6  10
+BRANCH   9  26
+ATOM     26  CAU DF3 d          18.962   0.546 -19.518  0.00  0.00     0.148 C 
+BRANCH  26  27
+ATOM     27  CAR DF3 d          20.361   1.107 -19.152  0.00  0.00     0.143 C 
+BRANCH  27  28
+ATOM     28  NAW DF3 d          21.290   0.050 -19.553  0.00  0.00    -0.355 N 
+ATOM     29  CBC DF3 d          22.086   0.099 -20.656  0.00  0.00     0.251 C 
+ATOM     30  OAB DF3 d          22.133   1.021 -21.474  0.00  0.00    -0.268 OA
+ATOM     31  H23 DF3 d          21.344  -0.765 -18.976  0.00  0.00     0.162 HD
+BRANCH  29  32
+ATOM     32  CBE DF3 d          22.918  -1.167 -20.875  0.00  0.00     0.032 A 
+ATOM     33  CAI DF3 d          24.123  -1.100 -21.575  0.00  0.00     0.017 A 
+ATOM     34  CAF DF3 d          24.849  -2.267 -21.795  0.00  0.00     0.002 A 
+ATOM     35  CAJ DF3 d          24.372  -3.487 -21.318  0.00  0.00     0.016 A 
+ATOM     36  CBF DF3 d          23.160  -3.562 -20.632  0.00  0.00     0.048 A 
+ATOM     37  CAP DF3 d          22.419  -2.409 -20.416  0.00  0.00     0.033 A 
+BRANCH  36  38
+ATOM     38  CBM DF3 d          22.693  -4.935 -20.149  0.00  0.00     0.417 C 
+ATOM     39  FAC DF3 d          23.475  -5.422 -19.231  0.00  0.00    -0.166 F 
+ATOM     40  FAD DF3 d          21.550  -4.901 -19.574  0.00  0.00    -0.166 F 
+ATOM     41  FAE DF3 d          22.589  -5.752 -21.193  0.00  0.00    -0.166 F 
+ENDBRANCH  36  38
+ENDBRANCH  29  32
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH   9  26
+TORSDOF 9

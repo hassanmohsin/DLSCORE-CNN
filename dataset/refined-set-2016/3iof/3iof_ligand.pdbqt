@@ -1,0 +1,45 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: P1_3  and  C1_1 
+REMARK    2  A    between atoms: P1_3  and  O21_13 
+REMARK    3  A    between atoms: O22_14  and  P1_3 
+REMARK    4  A    between atoms: C7_10  and  S1_4 
+REMARK    5  A    between atoms: C2_5  and  C7_10 
+REMARK    6  A    between atoms: O21_13  and  C82_16 
+REMARK    7  A    between atoms: O22_14  and  C81_15 
+ROOT
+ATOM      1  O1  IFS d           5.161  50.802  47.722  0.00  0.00    -0.253 OA
+ATOM      2  P1  IFS d           5.151  49.288  48.201  0.00  0.00     0.363 P 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C1  IFS d           3.591  48.781  48.759  0.00  0.00     0.063 A 
+ATOM      4  C2  IFS d           3.208  47.331  48.872  0.00  0.00    -0.031 A 
+ATOM      5  C3  IFS d           1.925  47.081  49.354  0.00  0.00     0.009 A 
+ATOM      6  C4  IFS d           1.052  48.117  49.712  0.00  0.00     0.001 A 
+ATOM      7  C5  IFS d           1.429  49.449  49.598  0.00  0.00     0.001 A 
+ATOM      8  C6  IFS d           2.695  49.778  49.120  0.00  0.00     0.020 A 
+BRANCH   4   9
+ATOM      9  C7  IFS d           4.070  46.118  48.474  0.00  0.00     0.110 C 
+BRANCH   9  10
+ATOM     10  S1  IFS d           3.575  45.388  46.861  0.00  0.00    -0.178 SA
+ATOM     11  H1  IFS d           4.170  44.602  46.653  0.00  0.00     0.101 HD
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+ENDBRANCH   2   3
+BRANCH   2  12
+ATOM     12  O21 IFS d           5.742  48.274  47.110  0.00  0.00    -0.306 OA
+BRANCH  12  13
+ATOM     13  C82 IFS d           7.147  48.117  46.851  0.00  0.00     0.123 C 
+ATOM     14  C10 IFS d           7.476  46.631  46.774  0.00  0.00     0.040 C 
+ATOM     15  C92 IFS d           7.431  48.837  45.549  0.00  0.00     0.040 C 
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+BRANCH   2  16
+ATOM     16  O22 IFS d           6.136  49.191  49.450  0.00  0.00    -0.306 OA
+BRANCH  16  17
+ATOM     17  C81 IFS d           5.919  50.124  50.519  0.00  0.00     0.123 C 
+ATOM     18  C10 IFS d           6.887  51.301  50.366  0.00  0.00     0.040 C 
+ATOM     19  C91 IFS d           6.058  49.383  51.845  0.00  0.00     0.040 C 
+ENDBRANCH  16  17
+ENDBRANCH   2  16
+TORSDOF 7

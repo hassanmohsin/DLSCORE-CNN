@@ -1,0 +1,121 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  N_1 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK    3  A    between atoms: C_3  and  CA_2 
+REMARK       I    between atoms: N_12  and  C_3 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+REMARK    6  A    between atoms: CD_7  and  NE_8 
+REMARK       I    between atoms: NE_8  and  CZ_9 
+REMARK       I    between atoms: CZ_9  and  NH2_11 
+REMARK       I    between atoms: CZ_9  and  NH1_10 
+REMARK    7  A    between atoms: CA_13  and  N_12 
+REMARK    8  A    between atoms: CA_13  and  CB_16 
+REMARK    9  A    between atoms: C_14  and  CA_13 
+REMARK       I    between atoms: N_23  and  C_14 
+REMARK   10  A    between atoms: CB_16  and  CG_17 
+REMARK   11  A    between atoms: CG_17  and  CD_18 
+REMARK   12  A    between atoms: CD_18  and  NE_19 
+REMARK       I    between atoms: NE_19  and  CZ_20 
+REMARK       I    between atoms: CZ_20  and  NH1_21 
+REMARK   13  A    between atoms: CA_24  and  N_23 
+REMARK   14  A    between atoms: C_25  and  CA_24 
+REMARK       I    between atoms: C_25  and  N_27 
+REMARK   15  A    between atoms: N_27  and  CA_28 
+REMARK   16  A    between atoms: CA_28  and  CB_31 
+REMARK   17  A    between atoms: CA_28  and  C_29 
+REMARK   18  A    between atoms: C_29  and  O1_33 
+REMARK   19  A    between atoms: CB_31  and  SG_32 
+ROOT
+ATOM      1  CA  ARG d 500      25.206  23.739  54.805  0.00  0.00     0.176 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ARG d 500      26.193  24.357  53.929  0.00  0.00    -0.346 N 
+ATOM      3  C   ARG d 500      26.821  25.498  54.201  0.00  0.00     0.248 C 
+ATOM      4  O   ARG d 500      26.657  26.142  55.237  0.00  0.00    -0.271 OA
+ATOM      5  H16 ARG d 500      26.412  23.895  53.070  0.00  0.00     0.163 HD
+BRANCH   3   6
+ATOM      6  CA  ARG d 500      27.795  25.975  53.130  0.00  0.00     0.274 C 
+BRANCH   6   7
+ATOM      7  N   ARG d 500      27.855  27.433  53.095  0.00  0.00    -0.067 N 
+ATOM      8  H1  ARG d 500      28.504  27.726  52.381  0.00  0.00     0.275 HD
+ATOM      9  H2  ARG d 500      28.163  27.778  53.991  0.00  0.00     0.275 HD
+ATOM     10  H3  ARG d 500      26.940  27.802  52.889  0.00  0.00     0.275 HD
+ENDBRANCH   6   7
+BRANCH   6  11
+ATOM     11  CB  ARG d 500      29.179  25.383  53.398  0.00  0.00     0.044 C 
+BRANCH  11  12
+ATOM     12  CG  ARG d 500      30.216  25.721  52.346  0.00  0.00     0.023 C 
+BRANCH  12  13
+ATOM     13  CD  ARG d 500      31.446  24.838  52.507  0.00  0.00     0.138 C 
+BRANCH  13  14
+ATOM     14  NE  ARG d 500      32.479  25.162  51.531  0.00  0.00    -0.227 N 
+ATOM     15  CZ  ARG d 500      33.236  26.253  51.575  0.00  0.00     0.665 C 
+ATOM     16  NH2 ARG d 500      34.146  26.465  50.633  0.00  0.00    -0.235 N 
+ATOM     17  NH1 ARG d 500      33.083  27.134  52.555  0.00  0.00    -0.235 N 
+ATOM     18  H14 ARG d 500      34.267  25.783  49.871  0.00  0.00     0.174 HD
+ATOM     19  H15 ARG d 500      34.731  27.312  50.664  0.00  0.00     0.174 HD
+ATOM     20  H12 ARG d 500      33.672  27.978  52.585  0.00  0.00     0.174 HD
+ATOM     21  H13 ARG d 500      32.375  26.974  53.286  0.00  0.00     0.174 HD
+ATOM     22  H11 ARG d 500      32.632  24.501  50.756  0.00  0.00     0.177 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   6  11
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  23
+ATOM     23  CB  ARG d 500      24.454  22.643  54.037  0.00  0.00     0.036 C 
+BRANCH  23  24
+ATOM     24  CG  ARG d 500      23.392  23.166  53.079  0.00  0.00     0.023 C 
+BRANCH  24  25
+ATOM     25  CD  ARG d 500      22.088  23.401  53.820  0.00  0.00     0.138 C 
+BRANCH  25  26
+ATOM     26  NE  ARG d 500      21.729  22.240  54.628  0.00  0.00    -0.227 N 
+ATOM     27  CZ  ARG d 500      20.572  22.098  55.265  0.00  0.00     0.665 C 
+ATOM     28  NH2 ARG d 500      20.346  21.007  55.978  0.00  0.00    -0.235 N 
+ATOM     29  NH1 ARG d 500      19.642  23.044  55.192  0.00  0.00    -0.235 N 
+ATOM     30  H27 ARG d 500      21.065  20.272  56.036  0.00  0.00     0.174 HD
+ATOM     31  H28 ARG d 500      19.451  20.893  56.475  0.00  0.00     0.174 HD
+ATOM     32  H25 ARG d 500      18.747  22.926  55.689  0.00  0.00     0.174 HD
+ATOM     33  H26 ARG d 500      19.816  23.895  54.639  0.00  0.00     0.174 HD
+ATOM     34  H24 ARG d 500      22.419  21.480  54.710  0.00  0.00     0.177 HD
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH   1  35
+ATOM     35  C   ARG d 500      25.749  23.134  56.106  0.00  0.00     0.240 C 
+ATOM     36  O   ARG d 500      25.102  23.293  57.165  0.00  0.00    -0.271 OA
+ATOM     37  N   ARG d 500      26.913  22.469  56.030  0.00  0.00    -0.351 N 
+ATOM     38  H29 ARG d 500      27.407  22.430  55.162  0.00  0.00     0.163 HD
+BRANCH  37  39
+ATOM     39  CA  ARG d 500      27.463  21.800  57.210  0.00  0.00     0.225 C 
+BRANCH  39  40
+ATOM     40  C   ARG d 500      26.843  20.410  57.437  0.00  0.00     0.236 C 
+ATOM     41  O   ARG d 500      26.228  19.858  56.491  0.00  0.00    -0.272 OA
+ATOM     42  N   ARG d 500      26.992  19.893  58.675  0.00  0.00    -0.344 N 
+ATOM     43  H32 ARG d 500      27.470  20.439  59.363  0.00  0.00     0.163 HD
+BRANCH  42  44
+ATOM     44  CA  ARG d 500      26.484  18.558  59.065  0.00  0.00     0.191 C 
+BRANCH  44  45
+ATOM     45  CB  ARG d 500      26.949  18.109  60.471  0.00  0.00     0.106 C 
+BRANCH  45  46
+ATOM     46  SG  ARG d 500      28.735  17.875  60.635  0.00  0.00    -0.180 SA
+ATOM     47  H36 ARG d 500      28.950  17.585  61.576  0.00  0.00     0.101 HD
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+BRANCH  44  48
+ATOM     48  C   ARG d 500      24.980  18.525  59.044  0.00  0.00     0.164 C 
+ATOM     49  O   ARG d 500      24.454  17.408  58.856  0.00  0.00    -0.648 OA
+BRANCH  48  50
+ATOM     50  O1  ARG d 500      24.251  19.624  59.216  0.00  0.00    -0.775 OA
+ATOM     51  H37 ARG d 500      23.712  19.768  58.448  0.00  0.00     0.167 HD
+ENDBRANCH  48  50
+ENDBRANCH  44  48
+ENDBRANCH  42  44
+ENDBRANCH  39  40
+ENDBRANCH  37  39
+ENDBRANCH   1  35
+TORSDOF 19

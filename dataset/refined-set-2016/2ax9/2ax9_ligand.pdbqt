@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_2  and  C11_3 
+REMARK    2  A    between atoms: C11_3  and  O11_4 
+REMARK    3  A    between atoms: C11_3  and  C10_6 
+REMARK       I    between atoms: C10_6  and  N09_8 
+REMARK    4  A    between atoms: N09_8  and  C06_9 
+REMARK    5  A    between atoms: C03_13  and  N08_14 
+REMARK    6  A    between atoms: C04_17  and  C07_18 
+ROOT
+ATOM      1  C06 BHM d          27.787   3.622   3.746  0.00  0.00     0.035 A 
+ATOM      2  C05 BHM d          26.454   3.345   4.038  0.00  0.00     0.048 A 
+ATOM      3  C01 BHM d          28.154   4.935   3.470  0.00  0.00     0.032 A 
+ATOM      4  C02 BHM d          27.193   5.939   3.508  0.00  0.00     0.039 A 
+ATOM      5  C03 BHM d          25.865   5.657   3.817  0.00  0.00     0.118 A 
+ATOM      6  C04 BHM d          25.474   4.339   4.070  0.00  0.00     0.083 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N09 BHM d          28.728   2.680   3.691  0.00  0.00    -0.325 N 
+ATOM      8  C10 BHM d          28.541   1.386   3.943  0.00  0.00     0.257 C 
+ATOM      9  O10 BHM d          27.477   0.886   4.309  0.00  0.00    -0.270 OA
+ATOM     10  H7  BHM d          29.652   2.969   3.439  0.00  0.00     0.169 HD
+BRANCH   8  11
+ATOM     11  C11 BHM d          29.797   0.524   3.794  0.00  0.00     0.144 C 
+ATOM     12  C12 BHM d          29.475  -0.677   2.903  0.00  0.00     0.057 C 
+BRANCH  11  13
+ATOM     13  C13 BHM d          30.268   0.044   5.169  0.00  0.00     0.132 C 
+ATOM     14 BRAI BHM d          30.748   1.562   6.284  0.00  0.00    -0.093 Br
+ENDBRANCH  11  13
+BRANCH  11  15
+ATOM     15  O11 BHM d          30.833   1.313   3.202  0.00  0.00    -0.380 OA
+ATOM     16  H3  BHM d          30.550   1.616   2.347  0.00  0.00     0.211 HD
+ENDBRANCH  11  15
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   6  17
+ATOM     17  C07 BHM d          24.008   3.923   4.290  0.00  0.00     0.419 C 
+ATOM     18  F01 BHM d          23.612   4.280   5.508  0.00  0.00    -0.166 F 
+ATOM     19  F02 BHM d          23.182   4.462   3.397  0.00  0.00    -0.166 F 
+ATOM     20  F03 BHM d          23.834   2.609   4.182  0.00  0.00    -0.166 F 
+ENDBRANCH   6  17
+BRANCH   5  21
+ATOM     21  N08 BHM d          25.039   6.703   3.874  0.00  0.00    -0.115 N 
+ATOM     22  O02 BHM d          23.697   6.611   4.329  0.00  0.00    -0.532 OA
+ATOM     23  O01 BHM d          25.539   8.001   3.584  0.00  0.00    -0.532 OA
+ENDBRANCH   5  21
+TORSDOF 6

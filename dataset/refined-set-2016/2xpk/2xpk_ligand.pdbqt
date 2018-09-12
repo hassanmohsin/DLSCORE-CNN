@@ -1,0 +1,71 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_2  and  CAZ_1 
+REMARK    2  A    between atoms: CAZ_1  and  SAZ_27 
+REMARK    3  A    between atoms: CAL_3  and  CAN_2 
+REMARK       I    between atoms: NAK_5  and  CAL_3 
+REMARK    4  A    between atoms: CAC_24  and  NAK_5 
+REMARK    5  A    between atoms: CAB_6  and  OAG_7 
+REMARK    6  A    between atoms: CAA_8  and  OAH_9 
+REMARK    7  A    between atoms: CAF_10  and  CAI_11 
+REMARK    8  A    between atoms: CAI_11  and  OAJ_12 
+REMARK    9  A    between atoms: CAP_17  and  CAR_18 
+REMARK   10  A    between atoms: CAR_18  and  CAS_19 
+REMARK   11  A    between atoms: CAS_19  and  CAT_20 
+ROOT
+ATOM      1  CAB Z0M d           1.438   1.953  15.047  0.00  0.00     0.179 C 
+ATOM      2  CAA Z0M d           1.566   3.486  14.923  0.00  0.00     0.174 C 
+ATOM      3  CAF Z0M d           2.991   3.884  15.254  0.00  0.00     0.145 C 
+ATOM      4  NAE Z0M d           3.186   3.584  16.699  0.00  0.00    -0.332 N 
+ATOM      5  CAQ Z0M d           3.851   4.202  17.669  0.00  0.00     0.120 A 
+ATOM      6  CAD Z0M d           2.616   2.442  17.278  0.00  0.00     0.132 A 
+ATOM      7  NAO Z0M d           2.950   2.461  18.557  0.00  0.00    -0.236 NA
+ATOM      8  CAP Z0M d           3.699   3.525  18.816  0.00  0.00     0.052 A 
+ATOM      9  CAC Z0M d           1.717   1.458  16.476  0.00  0.00     0.185 C 
+ENDROOT
+BRANCH   8  10
+ATOM     10  CAR Z0M d           4.340   3.916  20.196  0.00  0.00     0.065 C 
+BRANCH  10  11
+ATOM     11  CAS Z0M d           3.383   3.770  21.397  0.00  0.00     0.044 C 
+BRANCH  11  12
+ATOM     12  CAT Z0M d           2.284   4.838  21.361  0.00  0.00    -0.058 A 
+ATOM     13  CAU Z0M d           1.096   4.586  20.643  0.00  0.00     0.007 A 
+ATOM     14  CAV Z0M d           0.093   5.552  20.585  0.00  0.00     0.001 A 
+ATOM     15  CAW Z0M d           0.285   6.772  21.242  0.00  0.00     0.000 A 
+ATOM     16  CAX Z0M d           1.468   7.028  21.955  0.00  0.00     0.001 A 
+ATOM     17  CAY Z0M d           2.480   6.059  22.022  0.00  0.00     0.007 A 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+BRANCH   3  18
+ATOM     18  CAI Z0M d           3.284   5.342  14.922  0.00  0.00     0.192 C 
+BRANCH  18  19
+ATOM     19  OAJ Z0M d           2.436   6.228  15.696  0.00  0.00    -0.399 OA
+ATOM     20  H13 Z0M d           2.594   6.087  16.622  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH   3  18
+BRANCH   9  21
+ATOM     21  NAK Z0M d           2.268   0.108  16.401  0.00  0.00    -0.347 N 
+ATOM     22  CAL Z0M d           3.546  -0.192  16.092  0.00  0.00     0.219 C 
+ATOM     23  OAM Z0M d           4.417   0.647  15.843  0.00  0.00    -0.274 OA
+ATOM     24  H5  Z0M d           1.649  -0.654  16.594  0.00  0.00     0.163 HD
+BRANCH  22  25
+ATOM     25  CAN Z0M d           3.831  -1.713  16.041  0.00  0.00     0.112 C 
+BRANCH  25  26
+ATOM     26  CAZ Z0M d           5.288  -2.034  15.701  0.00  0.00     0.080 C 
+BRANCH  26  27
+ATOM     27  SAZ Z0M d           5.590  -3.824  15.440  0.00  0.00    -0.182 SA
+ATOM     28  H25 Z0M d           6.563  -3.971  15.220  0.00  0.00     0.101 HD
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  22  25
+ENDBRANCH   9  21
+BRANCH   2  29
+ATOM     29  OAH Z0M d           1.250   3.865  13.602  0.00  0.00    -0.391 OA
+ATOM     30  H9  Z0M d           0.360   3.599  13.402  0.00  0.00     0.210 HD
+ENDBRANCH   2  29
+BRANCH   1  31
+ATOM     31  OAG Z0M d           0.117   1.598  14.711  0.00  0.00    -0.390 OA
+ATOM     32  H7  Z0M d          -0.067   1.872  13.820  0.00  0.00     0.210 HD
+ENDBRANCH   1  31
+TORSDOF 11

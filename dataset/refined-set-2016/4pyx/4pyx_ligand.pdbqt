@@ -1,0 +1,59 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C6_3  and  S12_4 
+REMARK    2  A    between atoms: S12_4  and  C13_5 
+REMARK    3  A    between atoms: C13_5  and  C14_6 
+REMARK    4  A    between atoms: C14_6  and  O15_7 
+REMARK    5  A    between atoms: C4_10  and  N7_18 
+REMARK    6  A    between atoms: C3_11  and  S8_12 
+REMARK    7  A    between atoms: S8_12  and  N11_14 
+REMARK    8  A    between atoms: N7_18  and  C19_19 
+ROOT
+ATOM      1  F18 V90 d          -2.912   3.208  13.242  0.00  0.00    -0.202 F 
+ATOM      2  C5  V90 d          -3.840   3.286  14.173  0.00  0.00     0.164 A 
+ATOM      3  C6  V90 d          -4.351   4.511  14.550  0.00  0.00     0.083 A 
+ATOM      4  C1  V90 d          -5.336   4.563  15.521  0.00  0.00     0.176 A 
+ATOM      5  F17 V90 d          -5.892   5.715  15.904  0.00  0.00    -0.201 F 
+ATOM      6  C4  V90 d          -4.311   2.074  14.732  0.00  0.00     0.095 A 
+ATOM      7  C3  V90 d          -5.236   2.166  15.774  0.00  0.00     0.150 A 
+ATOM      8  C2  V90 d          -5.779   3.394  16.141  0.00  0.00     0.181 A 
+ATOM      9  F16 V90 d          -6.679   3.456  17.093  0.00  0.00    -0.201 F 
+ENDROOT
+BRANCH   6  10
+ATOM     10  N7  V90 d          -3.744   0.846  14.302  0.00  0.00    -0.381 N 
+ATOM     11  H8  V90 d          -3.429   0.162  15.005  0.00  0.00     0.160 HD
+BRANCH  10  12
+ATOM     12  C19 V90 d          -3.600   0.536  12.898  0.00  0.00     0.082 C 
+ATOM     13  C26 V90 d          -3.816  -1.003  12.833  0.00  0.00     0.025 C 
+ATOM     14  C25 V90 d          -3.032  -1.714  11.725  0.00  0.00     0.002 C 
+ATOM     15  C24 V90 d          -2.975  -1.209  10.299  0.00  0.00     0.000 C 
+ATOM     16  C23 V90 d          -2.492   0.225   9.954  0.00  0.00     0.000 C 
+ATOM     17  C22 V90 d          -3.762   0.982   9.662  0.00  0.00     0.000 C 
+ATOM     18  C21 V90 d          -4.219   1.930  10.763  0.00  0.00     0.002 C 
+ATOM     19  C20 V90 d          -4.710   1.208  12.031  0.00  0.00     0.025 C 
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+BRANCH   7  20
+ATOM     20  S8  V90 d          -5.850   0.756  16.665  0.00  0.00     0.262 S 
+ATOM     21  O10 V90 d          -7.339   0.820  16.566  0.00  0.00    -0.201 OA
+ATOM     22  O9  V90 d          -5.427   0.984  18.057  0.00  0.00    -0.201 OA
+BRANCH  20  23
+ATOM     23  N11 V90 d          -5.120  -0.668  16.110  0.00  0.00    -0.324 N 
+ATOM     24  H6  V90 d          -5.366  -1.548  16.518  0.00  0.00     0.169 HD
+ATOM     25  H7  V90 d          -4.443  -0.629  15.375  0.00  0.00     0.169 HD
+ENDBRANCH  20  23
+ENDBRANCH   7  20
+BRANCH   3  26
+ATOM     26  S12 V90 d          -3.723   6.023  13.820  0.00  0.00    -0.121 SA
+BRANCH  26  27
+ATOM     27  C13 V90 d          -4.203   5.818  12.049  0.00  0.00     0.105 C 
+BRANCH  27  28
+ATOM     28  C14 V90 d          -5.662   6.245  11.714  0.00  0.00     0.174 C 
+BRANCH  28  29
+ATOM     29  O15 V90 d          -6.026   5.862  10.390  0.00  0.00    -0.400 OA
+ATOM     30  H5  V90 d          -6.919   6.136  10.216  0.00  0.00     0.209 HD
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH   3  26
+TORSDOF 8

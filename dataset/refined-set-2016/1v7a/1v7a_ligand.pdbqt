@@ -1,0 +1,58 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C13_9  and  N2_2 
+REMARK    2  A    between atoms: C5_5  and  C8_6 
+REMARK       I    between atoms: C8_6  and  N10_8 
+REMARK    3  A    between atoms: C13_9  and  C14_10 
+REMARK    4  A    between atoms: C18_12  and  C13_9 
+REMARK    5  A    between atoms: C14_10  and  O15_11 
+REMARK    6  A    between atoms: C2_13  and  C18_12 
+REMARK    7  A    between atoms: O1_15  and  C2_13 
+REMARK    8  A    between atoms: C19_24  and  O1_15 
+ROOT
+ATOM      1  C13 FRC d          50.904  56.439  22.046  0.00  0.00     0.120 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N2  FRC d          50.814  55.002  22.158  0.00  0.00    -0.342 N 
+ATOM      3  C1  FRC d          50.751  54.054  21.048  0.00  0.00     0.129 C 
+ATOM      4  C5  FRC d          50.547  52.854  21.613  0.00  0.00     0.141 C 
+ATOM      5  N4  FRC d          50.632  53.002  23.084  0.00  0.00    -0.237 NA
+ATOM      6  C3  FRC d          50.663  54.330  23.301  0.00  0.00     0.210 C 
+BRANCH   4   7
+ATOM      7  C8  FRC d          50.253  51.586  20.893  0.00  0.00     0.269 C 
+ATOM      8  O9  FRC d          50.132  51.530  19.680  0.00  0.00    -0.266 OA
+ATOM      9  N10 FRC d          50.150  50.489  21.626  0.00  0.00    -0.365 N 
+ATOM     10  H3  FRC d          49.953  49.612  21.188  0.00  0.00     0.159 HD
+ATOM     11  H4  FRC d          50.269  50.537  22.618  0.00  0.00     0.159 HD
+ENDBRANCH   4   7
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C14 FRC d          52.372  56.905  21.896  0.00  0.00     0.137 C 
+ATOM     13  C9  FRC d          52.909  56.489  20.496  0.00  0.00     0.041 C 
+BRANCH  12  14
+ATOM     14  O15 FRC d          53.227  56.677  23.076  0.00  0.00    -0.394 OA
+ATOM     15  H7  FRC d          54.105  56.992  22.895  0.00  0.00     0.210 HD
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+BRANCH   1  16
+ATOM     16  C18 FRC d          49.954  56.996  20.992  0.00  0.00     0.055 C 
+BRANCH  16  17
+ATOM     17  C2  FRC d          48.527  57.065  21.570  0.00  0.00     0.178 C 
+BRANCH  17  18
+ATOM     18  O1  FRC d          47.600  57.520  20.612  0.00  0.00    -0.351 OA
+BRANCH  18  19
+ATOM     19  C19 FRC d          47.416  56.704  19.508  0.00  0.00     0.069 A 
+ATOM     20  C16 FRC d          46.856  57.352  18.400  0.00  0.00     0.037 A 
+ATOM     21  C7  FRC d          46.585  56.680  17.207  0.00  0.00     0.015 A 
+ATOM     22  C12 FRC d          46.925  55.324  17.124  0.00  0.00    -0.026 A 
+ATOM     23  C17 FRC d          46.580  54.616  15.967  0.00  0.00     0.012 A 
+ATOM     24  C4  FRC d          47.471  54.641  18.234  0.00  0.00    -0.023 A 
+ATOM     25  C11 FRC d          46.883  53.250  15.885  0.00  0.00     0.001 A 
+ATOM     26  C6  FRC d          47.466  52.576  16.962  0.00  0.00     0.001 A 
+ATOM     27  C15 FRC d          47.782  53.278  18.129  0.00  0.00     0.012 A 
+ATOM     28  C10 FRC d          47.754  55.333  19.423  0.00  0.00     0.049 A 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 8

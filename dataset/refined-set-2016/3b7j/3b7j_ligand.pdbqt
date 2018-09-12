@@ -1,0 +1,22 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAI_12  and  OAC_13 
+ROOT
+ATOM      1  OAA JUG d          21.081  12.782 -12.576  0.00  0.00    -0.288 OA
+ATOM      2  CAJ JUG d          20.593  13.874 -12.287  0.00  0.00     0.183 A 
+ATOM      3  CAF JUG d          21.416  14.978 -12.096  0.00  0.00     0.059 A 
+ATOM      4  CAG JUG d          20.853  16.213 -11.788  0.00  0.00     0.059 A 
+ATOM      5  CAK JUG d          19.474  16.338 -11.672  0.00  0.00     0.185 A 
+ATOM      6  OAB JUG d          18.982  17.434 -11.398  0.00  0.00    -0.287 OA
+ATOM      7  CAM JUG d          18.650  15.232 -11.859  0.00  0.00     0.061 A 
+ATOM      8  CAL JUG d          19.214  13.999 -12.166  0.00  0.00     0.031 A 
+ATOM      9  CAH JUG d          18.402  12.880 -12.325  0.00  0.00     0.017 A 
+ATOM     10  CAD JUG d          17.024  12.994 -12.175  0.00  0.00     0.004 A 
+ATOM     11  CAE JUG d          16.460  14.227 -11.868  0.00  0.00     0.037 A 
+ATOM     12  CAI JUG d          17.271  15.347 -11.712  0.00  0.00     0.080 A 
+ENDROOT
+BRANCH  12  13
+ATOM     13  OAC JUG d          16.708  16.552 -11.429  0.00  0.00    -0.360 OA
+ATOM     14  H6  JUG d          17.390  17.209 -11.354  0.00  0.00     0.217 HD
+ENDBRANCH  12  13
+TORSDOF 1

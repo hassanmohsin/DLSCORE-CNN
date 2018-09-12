@@ -1,0 +1,47 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O01_1  and  C02_2 
+REMARK    2  A    between atoms: C02_2  and  C03_3 
+REMARK    3  A    between atoms: C03_3  and  C04_4 
+REMARK    4  A    between atoms: C06_6  and  C07_7 
+REMARK    5  A    between atoms: C11_11  and  O12_12 
+REMARK    6  A    between atoms: O12_12  and  C13_13 
+REMARK    7  A    between atoms: C13_13  and  C14_14 
+ROOT
+ATOM      1  C07 SW4 d          15.274  26.564  20.460  0.00  0.00    -0.033 A 
+ATOM      2  C08 SW4 d          14.899  25.229  20.609  0.00  0.00     0.123 A 
+ATOM      3  N09 SW4 d          15.077  24.378  19.552  0.00  0.00    -0.270 NA
+ATOM      4  C10 SW4 d          15.617  24.800  18.379  0.00  0.00     0.152 A 
+ATOM      5  C11 SW4 d          15.991  26.163  18.210  0.00  0.00     0.086 A 
+ATOM      6  C18 SW4 d          15.816  27.032  19.268  0.00  0.00     0.047 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  O12 SW4 d          16.542  26.709  17.007  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C13 SW4 d          17.453  27.752  17.064  0.00  0.00     0.208 C 
+BRANCH   8   9
+ATOM      9  C14 SW4 d          18.154  28.032  15.755  0.00  0.00     0.211 C 
+ATOM     10  C15 SW4 d          17.386  27.430  14.662  0.00  0.00     0.062 C 
+ATOM     11  C16 SW4 d          18.287  26.264  14.699  0.00  0.00     0.235 C 
+ATOM     12  N17 SW4 d          19.194  27.020  15.554  0.00  0.00    -0.069 N 
+ATOM     13  H19 SW4 d          19.466  26.536  16.395  0.00  0.00     0.277 HD
+ATOM     14  H20 SW4 d          20.016  27.362  15.082  0.00  0.00     0.277 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   1  15
+ATOM     15  C06 SW4 d          15.132  27.670  21.510  0.00  0.00     0.025 A 
+ATOM     16  C04 SW4 d          15.331  29.033  22.070  0.00  0.00    -0.003 A 
+ATOM     17  C05 SW4 d          16.220  27.911  22.509  0.00  0.00     0.015 A 
+BRANCH  16  18
+ATOM     18  C03 SW4 d          14.227  29.362  23.010  0.00  0.00     0.031 C 
+BRANCH  18  19
+ATOM     19  C02 SW4 d          14.120  30.849  23.316  0.00  0.00     0.164 C 
+BRANCH  19  20
+ATOM     20  O01 SW4 d          13.519  31.626  22.352  0.00  0.00    -0.401 OA
+ATOM     21  H1  SW4 d          13.504  32.531  22.641  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  16  18
+ENDBRANCH   1  15
+TORSDOF 7

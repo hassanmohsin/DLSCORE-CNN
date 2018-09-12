@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5'_3  and  S5'_2 
+REMARK    2  A    between atoms: C4'_4  and  C5'_3 
+REMARK    3  A    between atoms: C2'_6  and  O2'_7 
+REMARK    4  A    between atoms: C3'_8  and  O3'_9 
+REMARK    5  A    between atoms: C1'_10  and  N9_11 
+REMARK    6  A    between atoms: C6_15  and  N6_16 
+ROOT
+ATOM      1  C4' MTH d          12.104  -1.724   1.536  0.00  0.00     0.165 C 
+ATOM      2  O4' MTH d          12.224  -0.313   1.231  0.00  0.00    -0.355 OA
+ATOM      3  C2' MTH d           9.893  -0.937   1.107  0.00  0.00     0.198 C 
+ATOM      4  C3' MTH d          10.652  -1.933   1.974  0.00  0.00     0.180 C 
+ATOM      5  C1' MTH d          10.923   0.167   0.770  0.00  0.00     0.261 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  N9  MTH d          10.996   0.397  -0.659  0.00  0.00    -0.311 N 
+ATOM      7  C8  MTH d          11.957   0.991  -1.284  0.00  0.00     0.096 C 
+ATOM      8  C7  MTH d          11.702   1.246  -2.490  0.00  0.00     0.036 C 
+ATOM      9  C5  MTH d          10.781   0.473  -2.971  0.00  0.00     0.057 A 
+ATOM     10  C6  MTH d          10.260   0.254  -4.216  0.00  0.00     0.136 A 
+ATOM     11  C4  MTH d          10.238  -0.043  -1.775  0.00  0.00     0.147 A 
+ATOM     12  N1  MTH d           9.171  -0.572  -4.226  0.00  0.00    -0.224 NA
+ATOM     13  C2  MTH d           8.633  -1.098  -3.073  0.00  0.00     0.237 A 
+ATOM     14  N3  MTH d           9.162  -0.864  -1.832  0.00  0.00    -0.223 NA
+BRANCH  10  15
+ATOM     15  N6  MTH d          10.826   0.784  -5.336  0.00  0.00    -0.383 N 
+ATOM     16  H14 MTH d          10.409   0.600  -6.260  0.00  0.00     0.157 HD
+ATOM     17  H15 MTH d          11.671   1.368  -5.259  0.00  0.00     0.157 HD
+ENDBRANCH  10  15
+ENDBRANCH   5   6
+BRANCH   3  18
+ATOM     18  O2' MTH d           8.734  -0.316   1.714  0.00  0.00    -0.388 OA
+ATOM     19  H8  MTH d           9.002   0.162   2.490  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+BRANCH   1  20
+ATOM     20  C5' MTH d          12.534  -2.508   0.287  0.00  0.00     0.108 C 
+BRANCH  20  21
+ATOM     21  S5' MTH d          12.566  -4.273   0.429  0.00  0.00    -0.171 SA
+ATOM     22  CS  MTH d          14.196  -4.382   1.175  0.00  0.00     0.089 C 
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   4  23
+ATOM     23  O3' MTH d          10.589  -1.667   3.386  0.00  0.00    -0.390 OA
+ATOM     24  H10 MTH d           9.683  -1.687   3.671  0.00  0.00     0.210 HD
+ENDBRANCH   4  23
+TORSDOF 6

@@ -1,0 +1,49 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_4 
+REMARK    2  A    between atoms: S1_4  and  N1_2 
+REMARK    3  A    between atoms: C4_8  and  N7_11 
+REMARK       I    between atoms: N7_11  and  C8_12 
+REMARK       I    between atoms: C8_12  and  N9_14 
+REMARK    4  A    between atoms: N9_14  and  C10_15 
+REMARK    5  A    between atoms: C11_16  and  C16_21 
+ROOT
+ATOM      1  N7  WWV d          -2.917   5.045  13.494  0.00  0.00    -0.309 N 
+ATOM      2  C8  WWV d          -3.277   6.213  12.980  0.00  0.00     0.325 C 
+ATOM      3  O8  WWV d          -4.453   6.573  12.933  0.00  0.00    -0.247 OA
+ATOM      4  N9  WWV d          -2.252   6.924  12.467  0.00  0.00    -0.308 N 
+ATOM      5  H7  WWV d          -1.961   4.779  13.372  0.00  0.00     0.170 HD
+ATOM      6  H8  WWV d          -1.341   6.512  12.443  0.00  0.00     0.170 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  C4  WWV d          -3.749   4.126  14.203  0.00  0.00     0.036 A 
+ATOM      8  C3  WWV d          -5.136   4.252  14.389  0.00  0.00     0.031 A 
+ATOM      9  C2  WWV d          -5.799   3.267  15.141  0.00  0.00     0.027 A 
+ATOM     10  C1  WWV d          -5.088   2.169  15.670  0.00  0.00     0.079 A 
+ATOM     11  C6  WWV d          -3.705   2.060  15.476  0.00  0.00     0.027 A 
+ATOM     12  C5  WWV d          -3.054   3.038  14.723  0.00  0.00     0.031 A 
+BRANCH  10  13
+ATOM     13  S1  WWV d          -5.896   0.965  16.641  0.00  0.00     0.256 S 
+ATOM     14  O1  WWV d          -7.366   1.215  16.518  0.00  0.00    -0.201 OA
+ATOM     15  O2  WWV d          -5.403   1.089  18.071  0.00  0.00    -0.201 OA
+BRANCH  13  16
+ATOM     16  N1  WWV d          -5.498  -0.446  16.027  0.00  0.00    -0.324 N 
+ATOM     17  H1  WWV d          -5.854  -1.287  16.434  0.00  0.00     0.169 HD
+ATOM     18  H2  WWV d          -4.891  -0.493  15.233  0.00  0.00     0.169 HD
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   1   7
+BRANCH   4  19
+ATOM     19  C10 WWV d          -2.422   8.209  11.972  0.00  0.00     0.043 A 
+ATOM     20  C11 WWV d          -1.808   9.271  12.648  0.00  0.00    -0.028 A 
+ATOM     21  C12 WWV d          -1.976  10.572  12.172  0.00  0.00     0.010 A 
+ATOM     22  C13 WWV d          -2.737  10.796  11.015  0.00  0.00     0.001 A 
+ATOM     23  C14 WWV d          -3.353   9.729  10.350  0.00  0.00     0.002 A 
+ATOM     24  C15 WWV d          -3.200   8.425  10.828  0.00  0.00     0.030 A 
+BRANCH  20  25
+ATOM     25  C16 WWV d          -0.967   9.006  13.932  0.00  0.00     0.013 C 
+ATOM     26  C17 WWV d           0.048  10.128  14.209  0.00  0.00     0.015 C 
+ATOM     27  C18 WWV d          -1.822   8.747  15.188  0.00  0.00     0.015 C 
+ENDBRANCH  20  25
+ENDBRANCH   4  19
+TORSDOF 5

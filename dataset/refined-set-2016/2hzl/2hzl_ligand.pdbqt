@@ -1,0 +1,14 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_4 
+ROOT
+ATOM      1  C1  PYR d          63.035  76.262  27.331  0.00  0.00     0.216 C 
+ATOM      2  O1  PYR d          63.811  75.251  27.592  0.00  0.00    -0.646 OA
+ATOM      3  O2  PYR d          63.560  77.457  27.280  0.00  0.00    -0.646 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C2  PYR d          61.658  76.109  27.110  0.00  0.00     0.223 C 
+ATOM      5  O3  PYR d          60.973  77.131  26.687  0.00  0.00    -0.213 OA
+ATOM      6  C3  PYR d          60.945  74.815  27.339  0.00  0.00     0.065 C 
+ENDBRANCH   1   4
+TORSDOF 1

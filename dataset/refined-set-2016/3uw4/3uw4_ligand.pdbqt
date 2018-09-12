@@ -1,0 +1,71 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_3 
+REMARK    2  A    between atoms: CA_3  and  C_5 
+REMARK       I    between atoms: C_5  and  N_7 
+REMARK    3  A    between atoms: N_7  and  CA_8 
+REMARK    4  A    between atoms: CA_8  and  C_9 
+REMARK    5  A    between atoms: CA_8  and  C1_11 
+REMARK       I    between atoms: C_9  and  N_17 
+REMARK    6  A    between atoms: CA_18  and  C_19 
+REMARK       I    between atoms: C_19  and  N25_24 
+REMARK    7  A    between atoms: N25_24  and  C26_25 
+REMARK    8  A    between atoms: C27_26  and  C31_30 
+ROOT
+ATOM      1  C   MAA d         -12.231  -6.603  -4.520  0.00  0.00     0.243 C 
+ATOM      2  O   MAA d         -12.638  -5.770  -5.302  0.00  0.00    -0.271 OA
+ATOM      3  N   MAA d         -11.210  -7.401  -4.876  0.00  0.00    -0.337 N 
+ATOM      4  CA  MAA d         -10.527  -7.267  -6.148  0.00  0.00     0.179 C 
+ATOM      5  CB  MAA d          -9.275  -8.183  -6.123  0.00  0.00     0.037 C 
+ATOM      6  CG  MAA d          -9.127  -8.607  -4.638  0.00  0.00     0.022 C 
+ATOM      7  CD  MAA d         -10.570  -8.469  -4.088  0.00  0.00     0.127 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA  MAA d         -12.914  -6.775  -3.204  0.00  0.00     0.181 C 
+BRANCH   8   9
+ATOM      9  N   MAA d         -13.114  -5.459  -2.596  0.00  0.00    -0.346 N 
+ATOM     10  C   MAA d         -12.760  -5.116  -1.348  0.00  0.00     0.248 C 
+ATOM     11  O   MAA d         -12.192  -5.882  -0.594  0.00  0.00    -0.271 OA
+ATOM     12  H10 MAA d         -13.551  -4.756  -3.158  0.00  0.00     0.163 HD
+BRANCH  10  13
+ATOM     13  CA  MAA d         -13.132  -3.733  -0.886  0.00  0.00     0.272 C 
+ATOM     14  CB  MAA d         -12.223  -2.683  -1.526  0.00  0.00     0.050 C 
+BRANCH  13  15
+ATOM     15  N   MAA d         -13.059  -3.692   0.595  0.00  0.00    -0.067 N 
+ATOM     16  CM  MAA d         -14.198  -4.387   1.255  0.00  0.00     0.267 C 
+ATOM     17  H1  MAA d         -12.201  -4.134   0.886  0.00  0.00     0.277 HD
+ATOM     18  H2  MAA d         -13.057  -2.728   0.889  0.00  0.00     0.277 HD
+ENDBRANCH  13  15
+ENDBRANCH  10  13
+ENDBRANCH   8   9
+BRANCH   8  19
+ATOM     19  C1  MAA d         -14.300  -7.402  -3.499  0.00  0.00     0.018 C 
+ATOM     20  C2  MAA d         -15.220  -7.358  -2.253  0.00  0.00     0.007 C 
+ATOM     21  C3  MAA d         -14.778  -8.365  -1.170  0.00  0.00     0.000 C 
+ATOM     22  C4  MAA d         -14.702  -9.787  -1.740  0.00  0.00     0.000 C 
+ATOM     23  C5  MAA d         -15.027  -9.815  -3.235  0.00  0.00     0.000 C 
+ATOM     24  C6  MAA d         -14.157  -8.839  -4.031  0.00  0.00     0.007 C 
+ENDBRANCH   8  19
+ENDBRANCH   1   8
+BRANCH   4  25
+ATOM     25  C   MAA d         -11.346  -7.712  -7.316  0.00  0.00     0.245 C 
+ATOM     26  O   MAA d         -12.232  -8.553  -7.190  0.00  0.00    -0.271 OA
+ATOM     27  N25 MAA d         -11.025  -7.118  -8.483  0.00  0.00    -0.316 N 
+ATOM     28  H30 MAA d         -10.351  -6.379  -8.479  0.00  0.00     0.169 HD
+BRANCH  27  29
+ATOM     29  C26 MAA d         -11.593  -7.494  -9.684  0.00  0.00     0.128 A 
+ATOM     30  C27 MAA d         -11.987  -6.814 -10.829  0.00  0.00     0.125 A 
+ATOM     31  N28 MAA d         -12.435  -7.606 -11.806  0.00  0.00    -0.139 NA
+ATOM     32  N29 MAA d         -12.432  -8.875 -11.607  0.00  0.00    -0.108 NA
+ATOM     33  S30 MAA d         -11.804  -9.163 -10.039  0.00  0.00     0.055 SA
+BRANCH  30  34
+ATOM     34  C31 MAA d         -11.966  -5.340 -11.008  0.00  0.00    -0.003 A 
+ATOM     35  C32 MAA d         -12.448  -4.481 -10.014  0.00  0.00     0.014 A 
+ATOM     36  C33 MAA d         -12.421  -3.115 -10.234  0.00  0.00     0.001 A 
+ATOM     37  C34 MAA d         -11.927  -2.599 -11.431  0.00  0.00     0.000 A 
+ATOM     38  C35 MAA d         -11.449  -3.445 -12.420  0.00  0.00     0.001 A 
+ATOM     39  C36 MAA d         -11.478  -4.818 -12.214  0.00  0.00     0.014 A 
+ENDBRANCH  30  34
+ENDBRANCH  27  29
+ENDBRANCH   4  25
+TORSDOF 8

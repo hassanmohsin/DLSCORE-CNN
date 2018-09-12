@@ -1,0 +1,150 @@
+REMARK  24 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O42_24  and  C11_1 
+REMARK    2  A    between atoms: C21_2  and  N21_3 
+REMARK       I    between atoms: N21_3  and  C71_4 
+REMARK    3  A    between atoms: C31_7  and  O31_8 
+REMARK    4  A    between atoms: C41_9  and  O41_10 
+REMARK    5  A    between atoms: O41_10  and  C1_44 
+REMARK    6  A    between atoms: C51_11  and  C61_13 
+REMARK    7  A    between atoms: C61_13  and  O61_14 
+REMARK    8  A    between atoms: O43_39  and  C12_15 
+REMARK    9  A    between atoms: C22_16  and  N22_17 
+REMARK       I    between atoms: N22_17  and  C72_18 
+REMARK   10  A    between atoms: C32_21  and  O32_22 
+REMARK   11  A    between atoms: C42_23  and  O42_24 
+REMARK   12  A    between atoms: C52_25  and  C62_27 
+REMARK   13  A    between atoms: C62_27  and  O62_28 
+REMARK   14  A    between atoms: C13_29  and  O13_30 
+REMARK   15  A    between atoms: C23_31  and  N23_32 
+REMARK       I    between atoms: N23_32  and  C73_33 
+REMARK   16  A    between atoms: C33_36  and  O33_37 
+REMARK   17  A    between atoms: C43_38  and  O43_39 
+REMARK   18  A    between atoms: C53_40  and  C63_42 
+REMARK   19  A    between atoms: C63_42  and  O63_43 
+REMARK   20  A    between atoms: C2_45  and  N2_46 
+REMARK   21  A    between atoms: C3_47  and  O3_48 
+REMARK   22  A    between atoms: C4_49  and  O4_50 
+REMARK   23  A    between atoms: C5_51  and  C6_53 
+REMARK   24  A    between atoms: C6_53  and  O6_54 
+ROOT
+ATOM      1  C12 CTO d          31.054   4.173  14.693  0.00  0.00     0.286 C 
+ATOM      2  C22 CTO d          31.375   2.702  14.515  0.00  0.00     0.170 C 
+ATOM      3  C32 CTO d          32.882   2.444  14.631  0.00  0.00     0.177 C 
+ATOM      4  C42 CTO d          33.716   3.375  13.729  0.00  0.00     0.186 C 
+ATOM      5  C52 CTO d          33.212   4.827  13.783  0.00  0.00     0.180 C 
+ATOM      6  O52 CTO d          31.765   4.919  13.697  0.00  0.00    -0.349 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  O42 CTO d          35.090   3.338  14.174  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C11 CTO d          35.985   2.644  13.271  0.00  0.00     0.286 C 
+ATOM      9  C21 CTO d          37.440   2.963  13.651  0.00  0.00     0.170 C 
+ATOM     10  C31 CTO d          38.429   2.121  12.821  0.00  0.00     0.177 C 
+ATOM     11  C41 CTO d          38.047   0.626  12.763  0.00  0.00     0.186 C 
+ATOM     12  C51 CTO d          36.552   0.483  12.434  0.00  0.00     0.180 C 
+ATOM     13  O51 CTO d          35.759   1.236  13.366  0.00  0.00    -0.349 OA
+BRANCH   9  14
+ATOM     14  N21 CTO d          37.689   4.394  13.405  0.00  0.00    -0.349 N 
+ATOM     15  C71 CTO d          37.781   5.326  14.375  0.00  0.00     0.214 C 
+ATOM     16  O71 CTO d          37.982   6.525  14.159  0.00  0.00    -0.274 OA
+ATOM     17  C81 CTO d          37.612   4.831  15.802  0.00  0.00     0.117 C 
+ATOM     18  H3  CTO d          37.797   4.694  12.457  0.00  0.00     0.163 HD
+ENDBRANCH   9  14
+BRANCH  10  19
+ATOM     19  O31 CTO d          39.768   2.253  13.347  0.00  0.00    -0.391 OA
+ATOM     20  H8  CTO d          40.365   1.729  12.826  0.00  0.00     0.210 HD
+ENDBRANCH  10  19
+BRANCH  11  21
+ATOM     21  O41 CTO d          38.848   0.042  11.729  0.00  0.00    -0.348 OA
+BRANCH  21  22
+ATOM     22  C1  CTO d          39.288  -1.336  11.901  0.00  0.00     0.294 C 
+ATOM     23  C2  CTO d          40.286  -1.691  10.740  0.00  0.00     0.274 C 
+ATOM     24  C3  CTO d          41.739  -1.195  11.058  0.00  0.00     0.185 C 
+ATOM     25  C4  CTO d          41.821  -0.413  12.371  0.00  0.00     0.180 C 
+ATOM     26  C5  CTO d          41.217  -1.251  13.507  0.00  0.00     0.179 C 
+ATOM     27  O5  CTO d          39.825  -1.615  13.239  0.00  0.00    -0.349 OA
+BRANCH  23  28
+ATOM     28  N2  CTO d          40.210  -3.116  10.267  0.00  0.00    -0.067 N 
+ATOM     29  C7  CTO d          38.919  -3.392   9.625  0.00  0.00     0.272 C 
+ATOM     30  C8  CTO d          40.376  -4.120  11.331  0.00  0.00     0.272 C 
+ATOM     31  C9  CTO d          41.238  -3.396   9.247  0.00  0.00     0.272 C 
+ENDBRANCH  23  28
+BRANCH  24  32
+ATOM     32  O3  CTO d          42.224  -0.368   9.983  0.00  0.00    -0.391 OA
+ATOM     33  H44 CTO d          43.104  -0.073  10.184  0.00  0.00     0.210 HD
+ENDBRANCH  24  32
+BRANCH  25  34
+ATOM     34  O4  CTO d          43.198  -0.120  12.643  0.00  0.00    -0.390 OA
+ATOM     35  H46 CTO d          43.556   0.400  11.933  0.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  26  36
+ATOM     36  C6  CTO d          41.277  -0.502  14.835  0.00  0.00     0.198 C 
+BRANCH  36  37
+ATOM     37  O6  CTO d          40.873  -1.390  15.885  0.00  0.00    -0.398 OA
+ATOM     38  H50 CTO d          39.986  -1.688  15.723  0.00  0.00     0.209 HD
+ENDBRANCH  36  37
+ENDBRANCH  26  36
+ENDBRANCH  21  22
+ENDBRANCH  11  21
+BRANCH  12  39
+ATOM     39  C61 CTO d          36.099  -0.965  12.582  0.00  0.00     0.198 C 
+BRANCH  39  40
+ATOM     40  O61 CTO d          34.811  -1.102  12.000  0.00  0.00    -0.398 OA
+ATOM     41  H13 CTO d          34.201  -0.526  12.445  0.00  0.00     0.209 HD
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  42
+ATOM     42  O32 CTO d          33.142   1.082  14.259  0.00  0.00    -0.391 OA
+ATOM     43  H21 CTO d          34.074   0.909  14.327  0.00  0.00     0.210 HD
+ENDBRANCH   3  42
+BRANCH   5  44
+ATOM     44  C62 CTO d          33.769   5.584  12.581  0.00  0.00     0.198 C 
+BRANCH  44  45
+ATOM     45  O62 CTO d          34.145   6.888  13.002  0.00  0.00    -0.398 OA
+ATOM     46  H26 CTO d          34.494   7.370  12.262  0.00  0.00     0.209 HD
+ENDBRANCH  44  45
+ENDBRANCH   5  44
+BRANCH   2  47
+ATOM     47  N22 CTO d          30.663   1.920  15.541  0.00  0.00    -0.349 N 
+ATOM     48  C72 CTO d          29.566   1.199  15.259  0.00  0.00     0.214 C 
+ATOM     49  O72 CTO d          29.061   1.115  14.139  0.00  0.00    -0.274 OA
+ATOM     50  C82 CTO d          28.957   0.455  16.456  0.00  0.00     0.117 C 
+ATOM     51  H16 CTO d          31.009   1.927  16.479  0.00  0.00     0.163 HD
+ENDBRANCH   2  47
+BRANCH   1  52
+ATOM     52  O43 CTO d          29.642   4.337  14.450  0.00  0.00    -0.348 OA
+BRANCH  52  53
+ATOM     53  C43 CTO d          28.833   5.335  15.182  0.00  0.00     0.186 C 
+ATOM     54  C33 CTO d          29.484   5.856  16.489  0.00  0.00     0.177 C 
+ATOM     55  C23 CTO d          29.092   7.337  16.885  0.00  0.00     0.170 C 
+ATOM     56  C13 CTO d          27.993   8.045  16.011  0.00  0.00     0.282 C 
+ATOM     57  O53 CTO d          27.436   7.233  14.943  0.00  0.00    -0.349 OA
+ATOM     58  C53 CTO d          28.483   6.518  14.288  0.00  0.00     0.179 C 
+BRANCH  54  59
+ATOM     59  O33 CTO d          29.159   4.968  17.577  0.00  0.00    -0.391 OA
+ATOM     60  H35 CTO d          29.394   4.079  17.340  0.00  0.00     0.210 HD
+ENDBRANCH  54  59
+BRANCH  55  61
+ATOM     61  N23 CTO d          30.292   8.207  16.885  0.00  0.00    -0.349 N 
+ATOM     62  C73 CTO d          31.264   8.177  17.821  0.00  0.00     0.214 C 
+ATOM     63  O73 CTO d          31.292   7.413  18.787  0.00  0.00    -0.274 OA
+ATOM     64  C83 CTO d          32.390   9.188  17.599  0.00  0.00     0.117 C 
+ATOM     65  H30 CTO d          30.389   8.864  16.137  0.00  0.00     0.163 HD
+ENDBRANCH  55  61
+BRANCH  56  66
+ATOM     66  O13 CTO d          26.921   8.505  16.853  0.00  0.00    -0.369 OA
+ATOM     67  H28 CTO d          27.277   9.037  17.555  0.00  0.00     0.212 HD
+ENDBRANCH  56  66
+BRANCH  58  68
+ATOM     68  C63 CTO d          28.051   6.050  12.900  0.00  0.00     0.198 C 
+BRANCH  68  69
+ATOM     69  O63 CTO d          29.192   6.128  12.046  0.00  0.00    -0.398 OA
+ATOM     70  H40 CTO d          29.880   5.568  12.386  0.00  0.00     0.209 HD
+ENDBRANCH  68  69
+ENDBRANCH  58  68
+ENDBRANCH  52  53
+ENDBRANCH   1  52
+TORSDOF 24

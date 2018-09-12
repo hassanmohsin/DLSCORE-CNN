@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_1  and  S1_2 
+REMARK    2  A    between atoms: S1_2  and  C1_5 
+REMARK    3  A    between atoms: C2_7  and  N4_11 
+REMARK       I    between atoms: N4_11  and  C3_12 
+ROOT
+ATOM      1  C1  MZM d          52.669  41.983  89.411  0.00  0.00     0.276 A 
+ATOM      2  S2  MZM d          53.358  43.339  89.326  0.00  0.00    -0.041 SA
+ATOM      3  C2  MZM d          53.456  43.700  87.843  0.00  0.00     0.163 A 
+ATOM      4  N2  MZM d          52.884  42.625  87.127  0.00  0.00    -0.277 N 
+ATOM      5  C5  MZM d          52.777  42.542  85.721  0.00  0.00     0.175 C 
+ATOM      6  N3  MZM d          52.379  41.528  88.122  0.00  0.00    -0.092 NA
+ENDROOT
+BRANCH   1   7
+ATOM      7  S1  MZM d          52.283  41.131  90.895  0.00  0.00     0.264 S 
+ATOM      8  O1  MZM d          52.893  41.831  91.982  0.00  0.00    -0.203 OA
+ATOM      9  O2  MZM d          52.865  39.834  90.926  0.00  0.00    -0.203 OA
+BRANCH   7  10
+ATOM     10  N1  MZM d          50.656  41.062  91.081  0.00  0.00    -0.326 N 
+ATOM     11  H1  MZM d          50.116  41.904  91.079  0.00  0.00     0.168 HD
+ATOM     12  H2  MZM d          50.203  40.178  91.197  0.00  0.00     0.168 HD
+ENDBRANCH   7  10
+ENDBRANCH   1   7
+BRANCH   3  13
+ATOM     13  N4  MZM d          54.022  44.867  87.242  0.00  0.00    -0.307 N 
+ATOM     14  C3  MZM d          54.606  45.978  87.928  0.00  0.00     0.219 C 
+ATOM     15  O3  MZM d          54.669  46.032  89.135  0.00  0.00    -0.274 OA
+ATOM     16  C4  MZM d          55.159  47.148  87.142  0.00  0.00     0.117 C 
+ATOM     17  H6  MZM d          54.008  44.911  86.243  0.00  0.00     0.171 HD
+ENDBRANCH   3  13
+TORSDOF 3

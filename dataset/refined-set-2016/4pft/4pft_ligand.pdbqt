@@ -1,0 +1,68 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2A_2  and  O2A_7 
+REMARK    2  A    between atoms: C3A_3  and  O3A_8 
+REMARK    3  A    between atoms: C4A_4  and  O4A_9 
+REMARK    4  A    between atoms: C5A_5  and  C6A_6 
+REMARK    5  A    between atoms: C6A_6  and  O6A_11 
+REMARK    6  A    between atoms: O4A_9  and  C1B_12 
+REMARK    7  A    between atoms: C2B_13  and  O2B_18 
+REMARK    8  A    between atoms: C3B_14  and  O3B_19 
+REMARK    9  A    between atoms: C4B_15  and  O4B_20 
+REMARK   10  A    between atoms: C5B_16  and  C6B_17 
+REMARK   11  A    between atoms: C6B_17  and  O6B_22 
+ROOT
+ATOM      1  C1B MAB d         123.290  99.636  15.203  0.00  0.00     0.292 C 
+ATOM      2  C2B MAB d         122.498  98.441  15.673  0.00  0.00     0.204 C 
+ATOM      3  C3B MAB d         122.867  98.069  17.086  0.00  0.00     0.183 C 
+ATOM      4  C4B MAB d         124.355  97.887  17.266  0.00  0.00     0.180 C 
+ATOM      5  C5B MAB d         125.079  99.140  16.753  0.00  0.00     0.179 C 
+ATOM      6  O5B MAB d         124.743  99.386  15.363  0.00  0.00    -0.348 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  O4A MAB d         123.026  99.893  13.842  0.00  0.00    -0.348 OA
+BRANCH   7   8
+ATOM      8  C4A MAB d         123.491 101.231  13.476  0.00  0.00     0.187 C 
+ATOM      9  C3A MAB d         124.634 101.074  12.478  0.00  0.00     0.184 C 
+ATOM     10  C2A MAB d         125.053 102.411  11.946  0.00  0.00     0.220 C 
+ATOM     11  C1A MAB d         123.701 102.726  11.406  0.00  0.00     0.289 C 
+ATOM     12  O5A MAB d         122.765 103.312  12.380  0.00  0.00    -0.336 OA
+ATOM     13  O1A MAB d         123.532 103.034  10.108  0.00  0.00    -0.188 OA
+ATOM     14  C5A MAB d         122.317 101.996  12.886  0.00  0.00     0.180 C 
+BRANCH   9  15
+ATOM     15  O3A MAB d         125.757 100.394  13.046  0.00  0.00    -0.390 OA
+ATOM     16  H   MAB d         126.443 100.318  12.393  0.00  0.00     0.210 HD
+ENDBRANCH   9  15
+BRANCH  10  17
+ATOM     17  O2A MAB d         125.432 103.230  13.060  0.00  0.00    -0.387 OA
+ATOM     18  H   MAB d         126.153 102.819  13.523  0.00  0.00     0.210 HD
+ENDBRANCH  10  17
+BRANCH  14  19
+ATOM     19  C6A MAB d         121.148 102.194  13.826  0.00  0.00     0.198 C 
+BRANCH  19  20
+ATOM     20  O6A MAB d         120.036 102.766  13.130  0.00  0.00    -0.398 OA
+ATOM     21  H   MAB d         120.289 103.608  12.769  0.00  0.00     0.209 HD
+ENDBRANCH  19  20
+ENDBRANCH  14  19
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  22
+ATOM     22  O2B MAB d         122.788  97.346  14.740  0.00  0.00    -0.388 OA
+ATOM     23  H   MAB d         122.546  97.609  13.860  0.00  0.00     0.210 HD
+ENDBRANCH   2  22
+BRANCH   3  24
+ATOM     24  O3B MAB d         122.185  96.829  17.449  0.00  0.00    -0.390 OA
+ATOM     25  H   MAB d         122.374  96.619  18.356  0.00  0.00     0.210 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  C6B MAB d         126.581  99.105  16.872  0.00  0.00     0.198 C 
+BRANCH  26  27
+ATOM     27  O6B MAB d         127.125  97.972  16.194  0.00  0.00    -0.398 OA
+ATOM     28  H   MAB d         126.771  97.177  16.575  0.00  0.00     0.209 HD
+ENDBRANCH  26  27
+ENDBRANCH   5  26
+BRANCH   4  29
+ATOM     29  O4B MAB d         124.647  97.706  18.660  0.00  0.00    -0.390 OA
+ATOM     30  H   MAB d         125.584  97.601  18.775  0.00  0.00     0.210 HD
+ENDBRANCH   4  29
+TORSDOF 11

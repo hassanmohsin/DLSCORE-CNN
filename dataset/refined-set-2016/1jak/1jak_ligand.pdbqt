@@ -1,0 +1,41 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N2_10  and  C2_2 
+REMARK    2  A    between atoms: C3_3  and  O3_12 
+REMARK    3  A    between atoms: C4_4  and  O4_13 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+REMARK    5  A    between atoms: C6_6  and  O6_14 
+REMARK       I    between atoms: C7_7  and  N2_10 
+ROOT
+ATOM      1  N1  IFG d          -4.921  66.073  10.195  0.00  0.00    -0.051 N 
+ATOM      2  C2  IFG d          -5.323  66.597   8.864  0.00  0.00     0.318 C 
+ATOM      3  C3  IFG d          -4.133  66.963   7.887  0.00  0.00     0.197 C 
+ATOM      4  C4  IFG d          -2.925  67.614   8.593  0.00  0.00     0.158 C 
+ATOM      5  C5  IFG d          -2.514  66.725   9.769  0.00  0.00     0.066 C 
+ATOM      6  C9  IFG d          -3.648  66.519  10.782  0.00  0.00     0.244 C 
+ATOM      7  H1  IFG d          -4.874  65.069  10.115  0.00  0.00     0.279 HD
+ATOM      8  H2  IFG d          -5.650  66.325  10.844  0.00  0.00     0.279 HD
+ENDROOT
+BRANCH   2   9
+ATOM      9  N2  IFG d          -6.219  65.624   8.200  0.00  0.00    -0.332 N 
+ATOM     10  C7  IFG d          -5.837  64.316   8.096  0.00  0.00     0.215 C 
+ATOM     11  C8  IFG d          -6.654  63.252   7.409  0.00  0.00     0.117 C 
+ATOM     12  O7  IFG d          -4.780  63.953   8.593  0.00  0.00    -0.274 OA
+ATOM     13  H14 IFG d          -7.099  65.922   7.830  0.00  0.00     0.164 HD
+ENDBRANCH   2   9
+BRANCH   3  14
+ATOM     14  O3  IFG d          -4.612  67.832   6.869  0.00  0.00    -0.389 OA
+ATOM     15  H15 IFG d          -4.879  68.657   7.258  0.00  0.00     0.210 HD
+ENDBRANCH   3  14
+BRANCH   4  16
+ATOM     16  O4  IFG d          -3.320  68.892   9.090  0.00  0.00    -0.392 OA
+ATOM     17  H16 IFG d          -3.576  69.448   8.363  0.00  0.00     0.210 HD
+ENDBRANCH   4  16
+BRANCH   5  18
+ATOM     18  C6  IFG d          -1.294  67.197  10.553  0.00  0.00     0.173 C 
+BRANCH  18  19
+ATOM     19  O6  IFG d          -0.684  66.122  11.259  0.00  0.00    -0.400 OA
+ATOM     20  H17 IFG d           0.071  66.446  11.736  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH   5  18
+TORSDOF 5

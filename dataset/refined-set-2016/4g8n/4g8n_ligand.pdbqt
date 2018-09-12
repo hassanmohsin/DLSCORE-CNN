@@ -1,0 +1,32 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_4  and  CD_1 
+REMARK    2  A    between atoms: CA_8  and  C_5 
+REMARK    3  A    between atoms: CA_8  and  N_9 
+REMARK    4  A    between atoms: CA_8  and  CB_10 
+ROOT
+ATOM      1  CA  G8M d           2.796  30.047  12.764  0.00  0.00     0.288 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   G8M d           1.604  30.997  12.549  0.00  0.00     0.204 C 
+ATOM      3  OXT G8M d           1.790  32.073  11.951  0.00  0.00    -0.646 OA
+ATOM      4  O   G8M d           0.492  30.691  12.994  0.00  0.00    -0.646 OA
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  N   G8M d           3.984  30.651  12.125  0.00  0.00    -0.065 N 
+ATOM      6  H3  G8M d           3.780  30.852  11.159  0.00  0.00     0.275 HD
+ATOM      7  H4  G8M d           4.758  30.007  12.178  0.00  0.00     0.275 HD
+ATOM      8  H5  G8M d           4.224  31.506  12.602  0.00  0.00     0.275 HD
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  G8M d           3.024  29.704  14.263  0.00  0.00     0.041 C 
+ATOM     10  CG  G8M d           2.270  28.512  14.912  0.00  0.00     0.093 C 
+ATOM     11  C7  G8M d           3.516  28.265  15.786  0.00  0.00     0.016 C 
+ATOM     12  C6  G8M d           4.334  29.024  14.729  0.00  0.00     0.009 C 
+BRANCH  10  13
+ATOM     13  CD  G8M d           1.986  27.362  13.909  0.00  0.00     0.177 C 
+ATOM     14  OE1 G8M d           2.860  26.535  13.612  0.00  0.00    -0.648 OA
+ATOM     15  OE2 G8M d           0.865  27.301  13.384  0.00  0.00    -0.648 OA
+ENDBRANCH  10  13
+ENDBRANCH   1   9
+TORSDOF 4

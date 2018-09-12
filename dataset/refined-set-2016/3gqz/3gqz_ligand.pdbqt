@@ -1,0 +1,32 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C16_2  and  C9_4 
+REMARK    2  A    between atoms: C6_9  and  N1_10 
+REMARK    3  A    between atoms: C4_14  and  C13_16 
+ROOT
+ATOM      1  C9  GF7 d         -35.843  12.770  18.174  0.00  0.00     0.009 A 
+ATOM      2  C8  GF7 d         -35.576  12.776  19.544  0.00  0.00     0.017 A 
+ATOM      3  C7  GF7 d         -34.569  11.967  20.062  0.00  0.00     0.031 A 
+ATOM      4  C10 GF7 d         -35.095  11.950  17.326  0.00  0.00     0.017 A 
+ATOM      5  C11 GF7 d         -34.086  11.139  17.841  0.00  0.00     0.031 A 
+ATOM      6  C6  GF7 d         -33.826  11.150  19.211  0.00  0.00     0.037 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N1  GF7 d         -32.816  10.345  19.750  0.00  0.00    -0.317 N 
+ATOM      8  C2  GF7 d         -32.986   9.046  19.933  0.00  0.00     0.225 C 
+ATOM      9  O12 GF7 d         -33.969   8.377  19.632  0.00  0.00    -0.273 OA
+ATOM     10  C3  GF7 d         -31.754   8.481  20.595  0.00  0.00     0.120 C 
+ATOM     11  C4  GF7 d         -30.796   9.677  20.601  0.00  0.00     0.114 C 
+ATOM     12  C5  GF7 d         -31.548  10.932  20.144  0.00  0.00     0.148 C 
+BRANCH  11  13
+ATOM     13  C13 GF7 d         -30.175   9.891  21.957  0.00  0.00     0.179 C 
+ATOM     14  O14 GF7 d         -30.097  11.050  22.421  0.00  0.00    -0.648 OA
+ATOM     15  O15 GF7 d         -29.725   8.893  22.569  0.00  0.00    -0.648 OA
+ENDBRANCH  11  13
+ENDBRANCH   6   7
+BRANCH   1  16
+ATOM     16  C16 GF7 d         -36.926  13.642  17.602  0.00  0.00     0.155 C 
+ATOM     17  O18 GF7 d         -37.158  13.597  16.404  0.00  0.00    -0.293 OA
+ATOM     18  C17 GF7 d         -37.702  14.566  18.496  0.00  0.00     0.096 C 
+ENDBRANCH   1  16
+TORSDOF 3

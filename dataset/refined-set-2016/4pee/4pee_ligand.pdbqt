@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAN_6  and  NAK_7 
+REMARK    2  A    between atoms: CAF_11  and  CAD_12 
+REMARK    3  A    between atoms: CAB_16  and  OAH_17 
+REMARK    4  A    between atoms: CAC_18  and  OAI_19 
+ROOT
+ATOM      1  CAD MOL d          30.516   6.150  55.788  0.00  0.00     0.272 C 
+ATOM      2  NAE MOL d          29.064   6.312  56.015  0.00  0.00    -0.056 N 
+ATOM      3  CAA MOL d          28.492   4.944  56.029  0.00  0.00     0.214 C 
+ATOM      4  CAG MOL d          27.034   4.947  55.593  0.00  0.00     0.043 C 
+ATOM      5  CAB MOL d          29.418   4.196  55.058  0.00  0.00     0.179 C 
+ATOM      6  CAC MOL d          30.718   4.621  55.713  0.00  0.00     0.185 C 
+ATOM      7  H   MOL d          28.653   6.855  55.272  0.00  0.00     0.278 HD
+ATOM      8  H   MOL d          28.897   6.769  56.898  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  CAF MOL d          31.513   6.873  56.797  0.00  0.00     0.109 A 
+ATOM     10  CAJ MOL d          31.489   8.131  57.247  0.00  0.00     0.151 A 
+ATOM     11  NAK MOL d          32.563   8.264  58.048  0.00  0.00    -0.225 N 
+ATOM     12  NAL MOL d          33.174   7.149  58.000  0.00  0.00    -0.061 NA
+ATOM     13  NAM MOL d          32.600   6.306  57.282  0.00  0.00    -0.133 NA
+BRANCH  11  14
+ATOM     14  CAN MOL d          33.029   9.351  58.727  0.00  0.00     0.059 A 
+ATOM     15  CAO MOL d          34.420   9.479  58.959  0.00  0.00     0.031 A 
+ATOM     16  CAP MOL d          34.952  10.596  59.606  0.00  0.00     0.002 A 
+ATOM     17  CAQ MOL d          34.101  11.624  60.028  0.00  0.00     0.000 A 
+ATOM     18  CAR MOL d          32.723  11.530  59.802  0.00  0.00     0.002 A 
+ATOM     19  CAS MOL d          32.193  10.404  59.150  0.00  0.00     0.031 A 
+ENDBRANCH  11  14
+ENDBRANCH   1   9
+BRANCH   6  20
+ATOM     20  OAI MOL d          31.913   4.151  54.962  0.00  0.00    -0.390 OA
+ATOM     21  H   MOL d          31.904   3.202  54.916  0.00  0.00     0.210 HD
+ENDBRANCH   6  20
+BRANCH   5  22
+ATOM     22  OAH MOL d          29.144   4.736  53.679  0.00  0.00    -0.391 OA
+ATOM     23  H   MOL d          29.702   4.294  53.050  0.00  0.00     0.210 HD
+ENDBRANCH   5  22
+TORSDOF 4

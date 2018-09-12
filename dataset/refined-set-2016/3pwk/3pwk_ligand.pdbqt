@@ -1,0 +1,23 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAK_11  and  CAI_9 
+REMARK    2  A    between atoms: CAJ_10  and  CAL_12 
+ROOT
+ATOM      1  CAE L14 d           0.377  23.189  46.016  0.00  0.00     0.016 C 
+ATOM      2  CAF L14 d          -0.743  23.575  46.981  0.00  0.00     0.016 C 
+ATOM      3  CAG L14 d           0.633  25.621  45.361  0.00  0.00     0.016 C 
+ATOM      4  CAH L14 d          -0.487  26.007  46.300  0.00  0.00     0.016 C 
+ATOM      5  CAK L14 d           1.343  24.373  45.871  0.00  0.00     0.087 C 
+ATOM      6  CAL L14 d          -1.452  24.843  46.495  0.00  0.00     0.087 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  CAI L14 d           2.420  24.138  44.866  0.00  0.00     0.177 C 
+ATOM      8  OAA L14 d           2.271  23.263  43.981  0.00  0.00    -0.648 OA
+ATOM      9  OAC L14 d           3.425  24.870  44.988  0.00  0.00    -0.648 OA
+ENDBRANCH   5   7
+BRANCH   6  10
+ATOM     10  CAJ L14 d          -2.430  25.335  47.504  0.00  0.00     0.177 C 
+ATOM     11  OAB L14 d          -3.529  25.713  47.062  0.00  0.00    -0.648 OA
+ATOM     12  OAD L14 d          -2.102  25.366  48.712  0.00  0.00    -0.648 OA
+ENDBRANCH   6  10
+TORSDOF 2

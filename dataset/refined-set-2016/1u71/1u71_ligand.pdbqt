@@ -1,0 +1,51 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N2_3 
+REMARK    2  A    between atoms: C4_5  and  N4_6 
+REMARK    3  A    between atoms: C6_10  and  C9_14 
+REMARK    4  A    between atoms: C9_14  and  C1'_15 
+REMARK    5  A    between atoms: C2'_16  and  O2'_17 
+REMARK    6  A    between atoms: C5'_21  and  O5'_22 
+ROOT
+ATOM      1  N1  MXA d          28.796  13.139  -4.319  0.00  0.00    -0.042 NA
+ATOM      2  C2  MXA d          27.596  12.644  -4.455  0.00  0.00     0.724 A 
+ATOM      3  N3  MXA d          26.752  12.365  -3.424  0.00  0.00    -0.045 NA
+ATOM      4  C4  MXA d          27.102  12.613  -2.212  0.00  0.00     0.155 A 
+ATOM      5  C4A MXA d          28.375  13.227  -1.915  0.00  0.00     0.065 A 
+ATOM      6  C5  MXA d          28.903  13.607  -0.674  0.00  0.00    -0.036 A 
+ATOM      7  C5M MXA d          28.179  13.440   0.652  0.00  0.00     0.050 C 
+ATOM      8  C6  MXA d          30.171  14.172  -0.645  0.00  0.00    -0.029 A 
+ATOM      9  C7  MXA d          30.848  14.357  -1.861  0.00  0.00     0.127 A 
+ATOM     10  N8  MXA d          30.407  14.021  -3.042  0.00  0.00    -0.239 NA
+ATOM     11  C8A MXA d          29.188  13.455  -3.076  0.00  0.00     0.182 A 
+ENDROOT
+BRANCH   8  12
+ATOM     12  C9  MXA d          30.823  14.676   0.605  0.00  0.00     0.082 C 
+BRANCH  12  13
+ATOM     13  C1' MXA d          32.247  14.320   0.954  0.00  0.00    -0.018 A 
+ATOM     14  C2' MXA d          33.277  15.250   0.897  0.00  0.00     0.074 A 
+ATOM     15  C3' MXA d          34.547  14.874   1.267  0.00  0.00     0.040 A 
+ATOM     16  C4' MXA d          34.808  13.570   1.706  0.00  0.00     0.039 A 
+ATOM     17  C5' MXA d          33.819  12.674   1.740  0.00  0.00     0.068 A 
+ATOM     18  C6' MXA d          32.533  13.060   1.396  0.00  0.00     0.047 A 
+BRANCH  14  19
+ATOM     19  O2' MXA d          32.883  16.513   0.499  0.00  0.00    -0.355 OA
+ATOM     20  C21 MXA d          33.905  17.478   0.251  0.00  0.00     0.210 C 
+ENDBRANCH  14  19
+BRANCH  17  21
+ATOM     21  O5' MXA d          33.800  11.326   2.099  0.00  0.00    -0.356 OA
+ATOM     22  C51 MXA d          32.462  10.825   2.070  0.00  0.00     0.210 C 
+ENDBRANCH  17  21
+ENDBRANCH  12  13
+ENDBRANCH   8  12
+BRANCH   4  23
+ATOM     23  N4  MXA d          26.137  12.302  -1.332  0.00  0.00    -0.383 N 
+ATOM     24  H3  MXA d          26.291  12.453  -0.325  0.00  0.00     0.157 HD
+ATOM     25  H4  MXA d          25.243  11.913  -1.664  0.00  0.00     0.157 HD
+ENDBRANCH   4  23
+BRANCH   2  26
+ATOM     26  N2  MXA d          27.196  12.327  -5.700  0.00  0.00    -0.231 N 
+ATOM     27  H1  MXA d          27.809  12.524  -6.504  0.00  0.00     0.174 HD
+ATOM     28  H2  MXA d          26.276  11.887  -5.849  0.00  0.00     0.174 HD
+ENDBRANCH   2  26
+TORSDOF 6

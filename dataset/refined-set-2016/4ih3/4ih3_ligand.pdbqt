@@ -1,0 +1,23 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C7_7 
+REMARK    2  A    between atoms: C6_6  and  C8_10 
+ROOT
+ATOM      1  N1  PDC d          -0.303 -12.948   8.473  0.00  0.00    -0.235 NA
+ATOM      2  C2  PDC d          -1.483 -12.289   8.445  0.00  0.00     0.134 A 
+ATOM      3  C3  PDC d          -2.698 -12.897   8.781  0.00  0.00     0.039 A 
+ATOM      4  C4  PDC d          -2.734 -14.218   9.188  0.00  0.00     0.005 A 
+ATOM      5  C5  PDC d          -1.508 -14.905   9.219  0.00  0.00     0.039 A 
+ATOM      6  C6  PDC d          -0.328 -14.234   8.868  0.00  0.00     0.134 A 
+ENDROOT
+BRANCH   2   7
+ATOM      7  C7  PDC d          -1.579 -10.805   7.995  0.00  0.00     0.229 C 
+ATOM      8  O1  PDC d          -0.797  -9.946   8.487  0.00  0.00    -0.643 OA
+ATOM      9  O2  PDC d          -2.463 -10.574   7.131  0.00  0.00    -0.643 OA
+ENDBRANCH   2   7
+BRANCH   6  10
+ATOM     10  C8  PDC d           0.961 -14.981   8.901  0.00  0.00     0.229 C 
+ATOM     11  O3  PDC d           1.344 -15.569   9.953  0.00  0.00    -0.643 OA
+ATOM     12  O4  PDC d           1.572 -14.954   7.813  0.00  0.00    -0.643 OA
+ENDBRANCH   6  10
+TORSDOF 2

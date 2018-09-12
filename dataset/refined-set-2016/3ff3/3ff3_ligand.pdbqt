@@ -1,0 +1,33 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+ROOT
+ATOM      1  CA  GLU d          18.078  42.678  18.807  0.00  0.00     0.283 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLU d          18.519  44.039  18.228  0.00  0.00    -0.065 N 
+ATOM      3  H1  GLU d          17.795  44.722  18.387  0.00  0.00     0.275 HD
+ATOM      4  H2  GLU d          18.682  43.946  17.238  0.00  0.00     0.275 HD
+ATOM      5  H3  GLU d          19.368  44.338  18.682  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   GLU d          19.126  41.647  18.589  0.00  0.00     0.204 C 
+ATOM      7  O   GLU d          19.102  40.604  19.251  0.00  0.00    -0.646 OA
+ATOM      8  OXT GLU d          19.951  41.859  17.629  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  GLU d          16.747  42.225  18.246  0.00  0.00     0.054 C 
+BRANCH   9  10
+ATOM     10  CG  GLU d          16.820  42.160  16.715  0.00  0.00     0.116 C 
+BRANCH  10  11
+ATOM     11  CD  GLU d          15.638  41.476  16.034  0.00  0.00     0.172 C 
+ATOM     12  OE1 GLU d          14.914  40.736  16.717  0.00  0.00    -0.648 OA
+ATOM     13  OE2 GLU d          15.451  41.703  14.794  0.00  0.00    -0.648 OA
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5

@@ -1,0 +1,33 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_2  and  C8_4 
+REMARK       I    between atoms: N_8  and  C4_9 
+REMARK    2  A    between atoms: C4_9  and  C2_11 
+REMARK    3  A    between atoms: C2_11  and  C1_13 
+REMARK    4  A    between atoms: C1_13  and  S_14 
+ROOT
+ATOM      1  C8  MCO d         -28.041  36.409   8.574  0.00  0.00     0.188 C 
+ATOM      2  C7  MCO d         -28.763  35.752   9.752  0.00  0.00     0.038 C 
+ATOM      3  C6  MCO d         -27.781  34.697  10.275  0.00  0.00     0.022 C 
+ATOM      4  C5  MCO d         -26.394  35.313  10.065  0.00  0.00     0.127 C 
+ATOM      5  N   MCO d         -26.625  36.306   8.990  0.00  0.00    -0.337 N 
+ATOM      6  C4  MCO d         -25.654  37.122   8.526  0.00  0.00     0.225 C 
+ATOM      7  O1  MCO d         -25.928  37.991   7.697  0.00  0.00    -0.273 OA
+ENDROOT
+BRANCH   1   8
+ATOM      8  C9  MCO d         -28.257  35.582   7.286  0.00  0.00     0.196 C 
+ATOM      9  O2  MCO d         -29.413  35.148   7.074  0.00  0.00    -0.646 OA
+ATOM     10  O3  MCO d         -27.268  35.407   6.548  0.00  0.00    -0.646 OA
+ENDBRANCH   1   8
+BRANCH   6  11
+ATOM     11  C2  MCO d         -24.213  36.950   9.022  0.00  0.00     0.083 C 
+ATOM     12  C3  MCO d         -23.989  37.862  10.234  0.00  0.00     0.020 C 
+BRANCH  11  13
+ATOM     13  C1  MCO d         -23.228  37.287   7.900  0.00  0.00     0.084 C 
+BRANCH  13  14
+ATOM     14  S   MCO d         -21.514  36.816   8.323  0.00  0.00    -0.181 SA
+ATOM     15  H14 MCO d         -20.902  37.056   7.558  0.00  0.00     0.101 HD
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   6  11
+TORSDOF 4

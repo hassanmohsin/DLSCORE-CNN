@@ -1,0 +1,40 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C7_1  and  C4_2 
+REMARK    2  A    between atoms: C3_3  and  O21_4 
+REMARK    3  A    between atoms: C1_9  and  O20_10 
+REMARK    4  A    between atoms: C9_16  and  C14_17 
+ROOT
+ATOM      1  C7  ZY5 d          30.228  -6.592  62.645  0.00  0.00     0.023 C 
+ATOM      2  C8  ZY5 d          29.934  -5.296  62.402  0.00  0.00    -0.028 C 
+ATOM      3  C13 ZY5 d          30.299  -4.167  63.345  0.00  0.00     0.042 C 
+ATOM      4  C12 ZY5 d          29.473  -2.914  63.108  0.00  0.00     0.026 C 
+ATOM      5  C11 ZY5 d          29.550  -2.509  61.651  0.00  0.00     0.150 C 
+ATOM      6  N10 ZY5 d          29.078  -3.686  60.932  0.00  0.00    -0.288 NA
+ATOM      7  C9  ZY5 d          29.295  -4.926  61.141  0.00  0.00     0.069 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  C4  ZY5 d          30.934  -7.084  63.886  0.00  0.00    -0.002 A 
+ATOM      9  C3  ZY5 d          30.600  -8.324  64.391  0.00  0.00     0.081 A 
+ATOM     10  C2  ZY5 d          31.234  -8.818  65.545  0.00  0.00     0.074 A 
+ATOM     11  C1  ZY5 d          32.213  -8.057  66.180  0.00  0.00     0.068 A 
+ATOM     12  C6  ZY5 d          32.538  -6.819  65.669  0.00  0.00     0.037 A 
+ATOM     13  C5  ZY5 d          31.923  -6.342  64.523  0.00  0.00     0.017 A 
+BRANCH   9  14
+ATOM     14  O21 ZY5 d          29.633  -8.990  63.695  0.00  0.00    -0.355 OA
+ATOM     15  C22 ZY5 d          29.165 -10.331  63.966  0.00  0.00     0.210 C 
+ENDBRANCH   9  14
+BRANCH  11  16
+ATOM     16  O20 ZY5 d          32.839  -8.506  67.331  0.00  0.00    -0.361 OA
+ATOM     17  H8  ZY5 d          32.510  -9.369  67.553  0.00  0.00     0.217 HD
+ENDBRANCH  11  16
+ENDBRANCH   1   8
+BRANCH   7  18
+ATOM     18  C14 ZY5 d          28.918  -5.884  60.042  0.00  0.00     0.010 A 
+ATOM     19  C19 ZY5 d          27.592  -6.049  59.670  0.00  0.00     0.130 A 
+ATOM     20  N18 ZY5 d          27.242  -6.853  58.661  0.00  0.00    -0.272 NA
+ATOM     21  C17 ZY5 d          28.170  -7.536  57.976  0.00  0.00     0.116 A 
+ATOM     22  C16 ZY5 d          29.537  -7.399  58.300  0.00  0.00     0.020 A 
+ATOM     23  C15 ZY5 d          29.911  -6.571  59.345  0.00  0.00     0.017 A 
+ENDBRANCH   7  18
+TORSDOF 4

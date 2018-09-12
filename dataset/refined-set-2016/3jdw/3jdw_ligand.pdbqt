@@ -1,0 +1,38 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_7 
+REMARK    3  A    between atoms: CA_2  and  CB_3 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CG_4  and  CD_5 
+REMARK    6  A    between atoms: CD_5  and  NE_6 
+ROOT
+ATOM      1  CA  ORN d          44.315  72.538  16.140  0.00  0.00     0.283 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ORN d          45.346  72.949  15.145  0.00  0.00    -0.065 N 
+ATOM      3  H1  ORN d          45.483  72.207  14.477  0.00  0.00     0.275 HD
+ATOM      4  H2  ORN d          46.215  73.138  15.620  0.00  0.00     0.275 HD
+ATOM      5  H3  ORN d          45.038  73.780  14.665  0.00  0.00     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   ORN d          44.060  73.623  17.185  0.00  0.00     0.204 C 
+ATOM      7  OXT ORN d          44.715  74.693  17.121  0.00  0.00    -0.646 OA
+ATOM      8  O   ORN d          43.152  73.431  18.017  0.00  0.00    -0.646 OA
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  CB  ORN d          44.657  71.180  16.798  0.00  0.00     0.045 C 
+BRANCH   9  10
+ATOM     10  CG  ORN d          46.129  70.825  17.011  0.00  0.00     0.030 C 
+BRANCH  10  11
+ATOM     11  CD  ORN d          46.263  69.289  17.156  0.00  0.00     0.230 C 
+BRANCH  11  12
+ATOM     12  NE  ORN d          47.688  68.731  17.032  0.00  0.00    -0.079 N 
+ATOM     13  H11 ORN d          47.667  67.729  17.140  0.00  0.00     0.274 HD
+ATOM     14  H12 ORN d          48.270  69.135  17.749  0.00  0.00     0.274 HD
+ATOM     15  H13 ORN d          48.062  68.963  16.125  0.00  0.00     0.274 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6

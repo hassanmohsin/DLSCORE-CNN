@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  O7_5 
+REMARK    2  A    between atoms: C2_3  and  O2_6 
+REMARK    3  A    between atoms: C3_7  and  O3_8 
+REMARK    4  A    between atoms: C4_9  and  O4_10 
+REMARK    5  A    between atoms: C5_11  and  C6_12 
+REMARK    6  A    between atoms: C6_12  and  O6_13 
+ROOT
+ATOM      1  C1  GTL d          -1.004  10.713  10.559  0.00  0.00     0.159 C 
+ATOM      2  N1  GTL d          -0.659  10.372  11.800  0.00  0.00    -0.120 NA
+ATOM      3  C2  GTL d           0.082  11.461   9.758  0.00  0.00     0.220 C 
+ATOM      4  N5  GTL d          -2.302  10.382  10.075  0.00  0.00    -0.365 N 
+ATOM      5  C3  GTL d          -0.475  11.897   8.400  0.00  0.00     0.185 C 
+ATOM      6  C4  GTL d          -1.435  10.853   7.767  0.00  0.00     0.174 C 
+ATOM      7  C5  GTL d          -2.664  10.669   8.685  0.00  0.00     0.138 C 
+ATOM      8  H2  GTL d          -2.988   9.940  10.704  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   2   9
+ATOM      9  O7  GTL d          -1.493   9.512  12.533  0.00  0.00    -0.265 OA
+ATOM     10  H3  GTL d          -1.116   9.364  13.392  0.00  0.00     0.247 HD
+ENDBRANCH   2   9
+BRANCH   3  11
+ATOM     11  O2  GTL d           0.494  12.667  10.358  0.00  0.00    -0.385 OA
+ATOM     12  H4  GTL d           1.160  13.076   9.818  0.00  0.00     0.210 HD
+ENDBRANCH   3  11
+BRANCH   5  13
+ATOM     13  O3  GTL d           0.652  12.163   7.593  0.00  0.00    -0.390 OA
+ATOM     14  H6  GTL d           1.170  12.852   7.992  0.00  0.00     0.210 HD
+ENDBRANCH   5  13
+BRANCH   7  15
+ATOM     15  C6  GTL d          -3.667   9.567   8.298  0.00  0.00     0.191 C 
+BRANCH  15  16
+ATOM     16  O6  GTL d          -3.215   8.279   8.628  0.00  0.00    -0.399 OA
+ATOM     17  H12 GTL d          -2.400   8.104   8.172  0.00  0.00     0.209 HD
+ENDBRANCH  15  16
+ENDBRANCH   7  15
+BRANCH   6  18
+ATOM     18  O4  GTL d          -0.684   9.666   7.648  0.00  0.00    -0.391 OA
+ATOM     19  H8  GTL d           0.070   9.824   7.092  0.00  0.00     0.210 HD
+ENDBRANCH   6  18
+TORSDOF 6

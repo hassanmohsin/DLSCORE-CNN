@@ -1,0 +1,68 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_3 
+REMARK    3  A    between atoms: CA_2  and  C_6 
+REMARK    4  A    between atoms: CB_3  and  CG_4 
+REMARK    5  A    between atoms: CG_4  and  SD_5 
+REMARK    6  A    between atoms: SD_5  and  C5'_9 
+REMARK    7  A    between atoms: C5'_9  and  C4'_10 
+REMARK    8  A    between atoms: C3'_12  and  O3'_13 
+REMARK    9  A    between atoms: C2'_14  and  O2'_15 
+REMARK   10  A    between atoms: C1'_16  and  N9_17 
+ROOT
+ATOM      1  C4' SAH d           9.931  10.977  -1.902  0.00  0.00     0.165 C 
+ATOM      2  O4' SAH d           8.597  10.701  -2.349  0.00  0.00    -0.355 OA
+ATOM      3  C3' SAH d          10.832  11.026  -3.119  0.00  0.00     0.180 C 
+ATOM      4  C2' SAH d           9.855  10.825  -4.335  0.00  0.00     0.198 C 
+ATOM      5  C1' SAH d           8.673  10.085  -3.673  0.00  0.00     0.262 C 
+ENDROOT
+BRANCH   1   6
+ATOM      6  C5' SAH d           9.741  12.367  -1.135  0.00  0.00     0.108 C 
+BRANCH   6   7
+ATOM      7  SD  SAH d          11.296  12.783  -0.335  0.00  0.00    -0.166 SA
+BRANCH   7   8
+ATOM      8  CG  SAH d          11.899  11.451   0.649  0.00  0.00     0.076 C 
+BRANCH   8   9
+ATOM      9  CB  SAH d          10.929  10.778   1.574  0.00  0.00     0.054 C 
+BRANCH   9  10
+ATOM     10  CA  SAH d          11.431   9.615   2.434  0.00  0.00     0.284 C 
+BRANCH  10  11
+ATOM     11  N   SAH d          10.376   8.867   2.877  0.00  0.00    -0.065 N 
+ATOM     12  H1  SAH d           9.803   8.597   2.093  0.00  0.00     0.275 HD
+ATOM     13  H2  SAH d           9.826   9.411   3.523  0.00  0.00     0.275 HD
+ATOM     14  H3  SAH d          10.721   8.041   3.341  0.00  0.00     0.275 HD
+ENDBRANCH  10  11
+BRANCH  10  15
+ATOM     15  C   SAH d          12.328  10.036   3.678  0.00  0.00     0.204 C 
+ATOM     16  O   SAH d          13.404  10.158   3.268  0.00  0.00    -0.646 OA
+ATOM     17  OXT SAH d          11.949  10.194   4.750  0.00  0.00    -0.646 OA
+ENDBRANCH  10  15
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   3  18
+ATOM     18  O3' SAH d          11.898  10.030  -3.015  0.00  0.00    -0.390 OA
+ATOM     19  H13 SAH d          12.450  10.077  -3.786  0.00  0.00     0.210 HD
+ENDBRANCH   3  18
+BRANCH   5  20
+ATOM     20  N9  SAH d           7.349  10.271  -4.389  0.00  0.00    -0.294 N 
+ATOM     21  C8  SAH d           6.792  11.480  -4.829  0.00  0.00     0.214 A 
+ATOM     22  N7  SAH d           5.651  11.312  -5.473  0.00  0.00    -0.236 NA
+ATOM     23  C5  SAH d           5.488   9.887  -5.426  0.00  0.00     0.149 A 
+ATOM     24  C6  SAH d           4.398   9.134  -5.984  0.00  0.00     0.155 A 
+ATOM     25  C4  SAH d           6.488   9.257  -4.783  0.00  0.00     0.167 A 
+ATOM     26  N6  SAH d           3.371   9.724  -6.640  0.00  0.00    -0.382 N 
+ATOM     27  N1  SAH d           4.498   7.767  -5.790  0.00  0.00    -0.222 NA
+ATOM     28  H18 SAH d           2.608   9.149  -7.026  0.00  0.00     0.157 HD
+ATOM     29  H19 SAH d           3.353  10.748  -6.753  0.00  0.00     0.157 HD
+ATOM     30  C2  SAH d           5.564   7.166  -5.109  0.00  0.00     0.237 A 
+ATOM     31  N3  SAH d           6.614   7.906  -4.573  0.00  0.00    -0.222 NA
+ENDBRANCH   5  20
+BRANCH   4  32
+ATOM     32  O2' SAH d          10.383  10.144  -5.452  0.00  0.00    -0.388 OA
+ATOM     33  H15 SAH d           9.716  10.077  -6.125  0.00  0.00     0.210 HD
+ENDBRANCH   4  32
+TORSDOF 10

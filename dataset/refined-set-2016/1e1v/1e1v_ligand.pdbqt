@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  N2_12 
+REMARK    2  A    between atoms: C6_6  and  O6_7 
+REMARK    3  A    between atoms: O6_7  and  C9_8 
+REMARK    4  A    between atoms: C9_8  and  C10_13 
+ROOT
+ATOM      1  N1  CMG d           2.445  28.991   7.346  0.00  0.00    -0.036 NA
+ATOM      2  C2  CMG d           2.981  29.960   6.614  0.00  0.00     0.724 A 
+ATOM      3  N3  CMG d           2.390  31.170   6.609  0.00  0.00    -0.043 NA
+ATOM      4  C4  CMG d           1.301  31.419   7.326  0.00  0.00     0.181 A 
+ATOM      5  C5  CMG d           0.749  30.408   8.049  0.00  0.00     0.158 A 
+ATOM      6  C6  CMG d           1.327  29.141   8.057  0.00  0.00     0.216 A 
+ATOM      7  N7  CMG d          -0.292  31.001   8.618  0.00  0.00    -0.236 NA
+ATOM      8  C8  CMG d          -0.492  32.319   8.278  0.00  0.00     0.209 A 
+ATOM      9  N9  CMG d           0.588  32.528   7.490  0.00  0.00    -0.333 N 
+ATOM     10  H4  CMG d           0.828  33.437   7.069  0.00  0.00     0.168 HD
+ENDROOT
+BRANCH   6  11
+ATOM     11  O6  CMG d           0.722  28.160   8.841  0.00  0.00    -0.332 OA
+BRANCH  11  12
+ATOM     12  C9  CMG d           1.706  27.118   9.112  0.00  0.00     0.182 C 
+BRANCH  12  13
+ATOM     13  C10 CMG d           0.979  26.303  10.257  0.00  0.00     0.010 C 
+ATOM     14  C15 CMG d           1.848  25.047  10.126  0.00  0.00     0.007 C 
+ATOM     15  C14 CMG d           1.364  23.999  11.171  0.00  0.00     0.000 C 
+ATOM     16  C13 CMG d           0.172  23.387  10.321  0.00  0.00     0.000 C 
+ATOM     17  C12 CMG d          -0.778  24.578  10.592  0.00  0.00     0.000 C 
+ATOM     18  C11 CMG d          -0.223  25.570   9.570  0.00  0.00     0.007 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   6  11
+BRANCH   2  19
+ATOM     19  N2  CMG d           4.122  29.981   5.880  0.00  0.00    -0.231 N 
+ATOM     20  H5  CMG d           4.690  29.127   5.787  0.00  0.00     0.174 HD
+ATOM     21  H6  CMG d           4.420  30.851   5.416  0.00  0.00     0.174 HD
+ENDBRANCH   2  19
+TORSDOF 4

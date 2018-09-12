@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_9  and  C21_10 
+REMARK    2  A    between atoms: C21_10  and  O27_12 
+REMARK    3  A    between atoms: O27_12  and  C15_13 
+REMARK    4  A    between atoms: C19_15  and  N22_16 
+REMARK    5  A    between atoms: C14_19  and  C16_20 
+REMARK    6  A    between atoms: N26_24  and  C20_25 
+ROOT
+ATOM      1  C15 VHS d         -15.255 -16.162  12.053  0.00  0.00     0.116 A 
+ATOM      2  C4  VHS d         -16.565 -15.932  11.604  0.00  0.00     0.054 A 
+ATOM      3  C19 VHS d         -14.682 -17.421  11.907  0.00  0.00     0.154 A 
+ATOM      4  N23 VHS d         -15.398 -18.387  11.350  0.00  0.00    -0.240 NA
+ATOM      5  C5  VHS d         -16.710 -18.187  10.880  0.00  0.00     0.131 A 
+ATOM      6  C14 VHS d         -17.329 -16.937  11.009  0.00  0.00    -0.003 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C16 VHS d         -18.605 -16.690  10.585  0.00  0.00     0.012 A 
+ATOM      8  C7  VHS d         -19.108 -15.545  10.111  0.00  0.00     0.126 A 
+ATOM      9  N26 VHS d         -20.406 -15.759   9.828  0.00  0.00    -0.276 N 
+ATOM     10  N24 VHS d         -20.692 -16.928  10.106  0.00  0.00    -0.184 NA
+ATOM     11  C6  VHS d         -19.611 -17.556  10.580  0.00  0.00     0.152 A 
+BRANCH   9  12
+ATOM     12  C20 VHS d         -21.457 -14.843   9.267  0.00  0.00     0.112 C 
+ATOM     13  C8  VHS d         -21.835 -15.297   7.927  0.00  0.00     0.055 C 
+ATOM     14  C10 VHS d         -22.978 -14.410   7.505  0.00  0.00     0.234 C 
+ATOM     15  N25 VHS d         -22.505 -13.036   7.311  0.00  0.00    -0.075 N 
+ATOM     16  C11 VHS d         -22.060 -12.505   8.608  0.00  0.00     0.234 C 
+ATOM     17  H   VHS d         -23.255 -12.467   6.950  0.00  0.00     0.277 HD
+ATOM     18  H   VHS d         -21.735 -13.031   6.660  0.00  0.00     0.277 HD
+ATOM     19  C9  VHS d         -20.973 -13.401   9.204  0.00  0.00     0.055 C 
+ENDBRANCH   9  12
+ENDBRANCH   6   7
+BRANCH   1  20
+ATOM     20  O27 VHS d         -14.439 -15.246  12.643  0.00  0.00    -0.338 OA
+BRANCH  20  21
+ATOM     21  C21 VHS d         -14.917 -13.899  12.883  0.00  0.00     0.161 C 
+ATOM     22  C1  VHS d         -13.846 -13.203  13.729  0.00  0.00     0.045 C 
+BRANCH  21  23
+ATOM     23  C17 VHS d         -15.206 -13.168  11.672  0.00  0.00     0.017 A 
+ATOM     24  C18 VHS d         -14.332 -13.149  10.575  0.00  0.00     0.083 A 
+ATOM     25 CL2  VHS d         -12.848 -13.959  10.583  0.00  0.00    -0.080 Cl
+ATOM     26  C12 VHS d         -14.649 -12.434   9.421  0.00  0.00     0.138 A 
+ATOM     27  F   VHS d         -13.806 -12.437   8.407  0.00  0.00    -0.204 F 
+ATOM     28  C2  VHS d         -15.836 -11.726   9.323  0.00  0.00     0.046 A 
+ATOM     29  C3  VHS d         -16.716 -11.728  10.385  0.00  0.00     0.028 A 
+ATOM     30  C13 VHS d         -16.403 -12.431  11.543  0.00  0.00     0.044 A 
+ATOM     31 CL   VHS d         -17.527 -12.353  12.758  0.00  0.00    -0.084 Cl
+ENDBRANCH  21  23
+ENDBRANCH  20  21
+ENDBRANCH   1  20
+BRANCH   3  32
+ATOM     32  N22 VHS d         -13.429 -17.622  12.356  0.00  0.00    -0.382 N 
+ATOM     33  H   VHS d         -12.989 -18.548  12.256  0.00  0.00     0.157 HD
+ATOM     34  H   VHS d         -12.911 -16.850  12.799  0.00  0.00     0.157 HD
+ENDBRANCH   3  32
+TORSDOF 6

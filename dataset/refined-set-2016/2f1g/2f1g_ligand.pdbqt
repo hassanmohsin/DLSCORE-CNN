@@ -1,0 +1,71 @@
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_2  and  C12_3 
+REMARK       I    between atoms: C10_2  and  N9_21 
+REMARK    2  A    between atoms: C12_3  and  N20_4 
+REMARK    3  A    between atoms: C12_3  and  C13_14 
+REMARK    4  A    between atoms: N20_4  and  C21_5 
+REMARK    5  A    between atoms: C13_14  and  C14_15 
+REMARK    6  A    between atoms: N9_21  and  C8_22 
+REMARK    7  A    between atoms: C8_22  and  C7_23 
+REMARK    8  A    between atoms: C7_23  and  N_24 
+REMARK    9  A    between atoms: N_24  and  C5_25 
+REMARK   10  A    between atoms: C2_30  and  O_31 
+ROOT
+ATOM      1  C12 GNF d          22.615  35.682  11.902  0.00  0.00     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C10 GNF d          22.098  37.054  11.564  0.00  0.00     0.240 C 
+ATOM      3  O11 GNF d          21.096  37.436  12.157  0.00  0.00    -0.271 OA
+ATOM      4  N9  GNF d          22.795  37.797  10.680  0.00  0.00    -0.358 N 
+ATOM      5  H20 GNF d          23.610  37.394  10.264  0.00  0.00     0.162 HD
+BRANCH   4   6
+ATOM      6  C8  GNF d          22.427  39.158  10.296  0.00  0.00     0.142 C 
+BRANCH   6   7
+ATOM      7  C7  GNF d          23.154  39.684   9.040  0.00  0.00     0.139 C 
+BRANCH   7   8
+ATOM      8  N   GNF d          22.749  38.934   7.858  0.00  0.00    -0.388 N 
+ATOM      9  H25 GNF d          23.459  38.487   7.261  0.00  0.00     0.159 HD
+BRANCH   8  10
+ATOM     10  C5  GNF d          21.433  38.826   7.547  0.00  0.00     0.028 A 
+ATOM     11  C4  GNF d          20.973  37.706   6.835  0.00  0.00     0.032 A 
+ATOM     12  C3  GNF d          19.601  37.556   6.604  0.00  0.00     0.039 A 
+ATOM     13  C2  GNF d          18.718  38.499   7.132  0.00  0.00     0.068 A 
+ATOM     14  C31 GNF d          19.156  39.590   7.839  0.00  0.00     0.039 A 
+ATOM     15  C30 GNF d          20.511  39.758   8.052  0.00  0.00     0.032 A 
+BRANCH  13  16
+ATOM     16  O   GNF d          17.395  38.432   6.934  0.00  0.00    -0.356 OA
+ATOM     17  C   GNF d          16.954  39.407   6.036  0.00  0.00     0.210 C 
+ENDBRANCH  13  16
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  18
+ATOM     18  N20 GNF d          22.956  35.768  13.301  0.00  0.00    -0.341 N 
+ATOM     19  H2  GNF d          22.274  35.413  13.986  0.00  0.00     0.164 HD
+BRANCH  18  20
+ATOM     20  C21 GNF d          24.107  36.282  13.769  0.00  0.00     0.248 A 
+ATOM     21  O29 GNF d          24.331  36.355  15.108  0.00  0.00    -0.276 OA
+ATOM     22  C28 GNF d          25.605  36.935  15.151  0.00  0.00     0.108 A 
+ATOM     23  C27 GNF d          26.312  37.236  16.302  0.00  0.00     0.040 A 
+ATOM     24  C23 GNF d          26.084  37.179  13.870  0.00  0.00     0.095 A 
+ATOM     25  C26 GNF d          27.570  37.795  16.152  0.00  0.00     0.003 A 
+ATOM     26  C25 GNF d          28.079  38.037  14.870  0.00  0.00     0.002 A 
+ATOM     27  C24 GNF d          27.340  37.746  13.723  0.00  0.00     0.034 A 
+ATOM     28  N22 GNF d          25.117  36.761  12.999  0.00  0.00    -0.206 NA
+ENDBRANCH  18  20
+ENDBRANCH   1  18
+BRANCH   1  29
+ATOM     29  C13 GNF d          21.560  34.607  11.652  0.00  0.00     0.039 C 
+BRANCH  29  30
+ATOM     30  C14 GNF d          21.517  33.470  12.684  0.00  0.00    -0.012 C 
+ATOM     31  C19 GNF d          22.359  32.288  12.198  0.00  0.00     0.005 C 
+ATOM     32  C18 GNF d          22.238  31.117  13.166  0.00  0.00     0.000 C 
+ATOM     33  C17 GNF d          20.790  30.687  13.378  0.00  0.00     0.000 C 
+ATOM     34  C16 GNF d          19.815  31.600  12.646  0.00  0.00     0.000 C 
+ATOM     35  C15 GNF d          20.074  33.065  12.965  0.00  0.00     0.005 C 
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+TORSDOF 10

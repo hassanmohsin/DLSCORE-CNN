@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_6  and  CAG_7 
+REMARK    2  A    between atoms: CAF_8  and  CAD_9 
+REMARK    3  A    between atoms: CAB_13  and  OAO_14 
+REMARK    4  A    between atoms: CAC_15  and  OAP_16 
+ROOT
+ATOM      1  CAD MOL d          30.910   6.381  55.928  0.00  0.00     0.296 C 
+ATOM      2  NAE MOL d          29.469   6.491  56.253  0.00  0.00    -0.051 N 
+ATOM      3  CAA MOL d          28.951   5.113  56.226  0.00  0.00     0.214 C 
+ATOM      4  CAN MOL d          27.518   5.041  55.786  0.00  0.00     0.043 C 
+ATOM      5  CAB MOL d          29.873   4.415  55.284  0.00  0.00     0.180 C 
+ATOM      6  CAC MOL d          31.165   4.907  55.892  0.00  0.00     0.191 C 
+ATOM      7  H   MOL d          28.996   7.058  55.567  0.00  0.00     0.279 HD
+ATOM      8  H   MOL d          29.344   6.896  57.168  0.00  0.00     0.279 HD
+ENDROOT
+BRANCH   1   9
+ATOM      9  CAF MOL d          31.605   7.096  57.027  0.00  0.00    -0.065 C 
+ATOM     10  CAG MOL d          32.179   7.641  57.817  0.00  0.00    -0.065 C 
+BRANCH  10  11
+ATOM     11  CAH MOL d          32.838   8.378  58.908  0.00  0.00     0.017 A 
+ATOM     12  CAI MOL d          34.061   9.004  58.633  0.00  0.00     0.020 A 
+ATOM     13  CAJ MOL d          34.761   9.700  59.611  0.00  0.00     0.001 A 
+ATOM     14  CAK MOL d          34.207   9.746  60.893  0.00  0.00     0.000 A 
+ATOM     15  CAL MOL d          32.982   9.116  61.193  0.00  0.00     0.001 A 
+ATOM     16  CAM MOL d          32.291   8.417  60.195  0.00  0.00     0.020 A 
+ENDBRANCH  10  11
+ENDBRANCH   1   9
+BRANCH   6  17
+ATOM     17  OAP MOL d          32.310   4.489  55.104  0.00  0.00    -0.390 OA
+ATOM     18  H   MOL d          32.336   3.540  55.064  0.00  0.00     0.210 HD
+ENDBRANCH   6  17
+BRANCH   5  19
+ATOM     19  OAO MOL d          29.634   4.947  53.952  0.00  0.00    -0.391 OA
+ATOM     20  H   MOL d          30.211   4.517  53.332  0.00  0.00     0.210 HD
+ENDBRANCH   5  19
+TORSDOF 4

@@ -1,0 +1,58 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_1  and  C09_12 
+REMARK    2  A    between atoms: C11_13  and  C10_1 
+REMARK    3  A    between atoms: O14_16  and  C15_2 
+REMARK    4  A    between atoms: C03_6  and  C02_5 
+REMARK    5  A    between atoms: C04_7  and  C03_6 
+REMARK    6  A    between atoms: C05_8  and  C04_7 
+REMARK    7  A    between atoms: C06_9  and  C05_8 
+REMARK    8  A    between atoms: C07_10  and  C06_9 
+REMARK    9  A    between atoms: C08_11  and  C07_10 
+REMARK   10  A    between atoms: C09_12  and  C08_11 
+REMARK   11  A    between atoms: C12_14  and  C11_13 
+REMARK   12  A    between atoms: C12_14  and  O14_16 
+ROOT
+ATOM      1  C09 MOL d         -17.067  -7.833 159.739  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C10 MOL d         -17.265  -6.517 160.519  0.00  0.00     0.010 C 
+BRANCH   2   3
+ATOM      3  C11 MOL d         -17.377  -6.520 162.038  0.00  0.00     0.111 C 
+BRANCH   3   4
+ATOM      4  C12 MOL d         -17.224  -5.256 162.859  0.00  0.00     0.259 C 
+ATOM      5  O13 MOL d         -18.050  -4.355 162.810  0.00  0.00    -0.265 OA
+BRANCH   4   6
+ATOM      6  O14 MOL d         -16.386  -5.259 163.943  0.00  0.00    -0.317 OA
+BRANCH   6   7
+ATOM      7  C15 MOL d         -15.802  -4.055 164.303  0.00  0.00     0.123 C 
+ATOM      8  C17 MOL d         -16.773  -3.088 164.912  0.00  0.00     0.040 C 
+ATOM      9  C16 MOL d         -14.568  -4.248 165.130  0.00  0.00     0.040 C 
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  10
+ATOM     10  C08 MOL d         -16.911  -7.801 158.208  0.00  0.00     0.000 C 
+BRANCH  10  11
+ATOM     11  C07 MOL d         -16.377  -9.029 157.441  0.00  0.00     0.000 C 
+BRANCH  11  12
+ATOM     12  C06 MOL d         -16.455  -8.962 155.916  0.00  0.00     0.000 C 
+BRANCH  12  13
+ATOM     13  C05 MOL d         -15.856 -10.019 154.990  0.00  0.00     0.000 C 
+BRANCH  13  14
+ATOM     14  C04 MOL d         -16.497 -11.376 155.064  0.00  0.00     0.000 C 
+BRANCH  14  15
+ATOM     15  C03 MOL d         -17.242 -11.863 153.875  0.00  0.00    -0.000 C 
+BRANCH  15  16
+ATOM     16  C02 MOL d         -18.382 -12.763 154.208  0.00  0.00    -0.005 C 
+ATOM     17  C01 MOL d         -19.131 -13.380 153.096  0.00  0.00     0.005 C 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   1  10
+TORSDOF 12

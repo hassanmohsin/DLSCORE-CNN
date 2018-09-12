@@ -1,0 +1,38 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_21 
+REMARK    2  A    between atoms: C5_5  and  O4_22 
+ROOT
+ATOM      1  C1  RDC d           2.467  55.629  -5.818  0.00  0.00     0.297 C 
+ATOM      2  C2  RDC d           3.340  55.754  -4.635  0.00  0.00     0.081 A 
+ATOM      3  C3  RDC d           4.493  56.703  -4.724  0.00  0.00     0.085 A 
+ATOM      4  C4  RDC d           5.354  56.779  -3.609  0.00  0.00     0.076 A 
+ATOM      5  C5  RDC d           5.201  55.986  -2.451  0.00  0.00     0.090 A 
+ATOM      6  C6  RDC d           4.087  55.030  -2.355  0.00  0.00     0.075 A 
+ATOM      7  C7  RDC d           3.155  54.883  -3.473  0.00  0.00    -0.007 A 
+ATOM      8  C8  RDC d           1.982  53.918  -3.333  0.00  0.00     0.124 C 
+ATOM      9  C9  RDC d           2.276  52.517  -2.875  0.00  0.00     0.153 C 
+ATOM     10  C10 RDC d           3.301  51.660  -3.513  0.00  0.00     0.050 C 
+ATOM     11  C11 RDC d           3.745  51.954  -4.736  0.00  0.00     0.003 C 
+ATOM     12  C12 RDC d           4.719  51.094  -5.425  0.00  0.00    -0.001 C 
+ATOM     13  C13 RDC d           5.080  51.333  -6.698  0.00  0.00     0.007 C 
+ATOM     14  C14 RDC d           4.600  52.525  -7.491  0.00  0.00     0.174 A 
+ATOM     15  C15 RDC d           3.205  52.350  -8.107  0.00  0.00     0.157 A 
+ATOM     16  C16 RDC d           2.472  53.630  -8.525  0.00  0.00     0.067 C 
+ATOM     17  C17 RDC d           1.529  54.146  -7.417  0.00  0.00     0.130 C 
+ATOM     18  C18 RDC d           0.448  53.152  -7.060  0.00  0.00     0.040 C 
+ATOM     19  O1  RDC d           2.315  54.261  -6.236  0.00  0.00    -0.312 OA
+ATOM     20  O2  RDC d           2.010  56.537  -6.431  0.00  0.00    -0.259 OA
+ATOM     21 CL1  RDC d           3.802  54.121  -0.903  0.00  0.00    -0.081 Cl
+ATOM     22  O5  RDC d           1.572  52.072  -1.990  0.00  0.00    -0.293 OA
+ATOM     23  O6  RDC d           4.429  52.231  -8.879  0.00  0.00    -0.371 OA
+ENDROOT
+BRANCH   3  24
+ATOM     24  O3  RDC d           4.585  57.471  -5.840  0.00  0.00    -0.360 OA
+ATOM     25  H16 RDC d           3.893  57.232  -6.446  0.00  0.00     0.217 HD
+ENDBRANCH   3  24
+BRANCH   5  26
+ATOM     26  O4  RDC d           6.038  56.047  -1.398  0.00  0.00    -0.359 OA
+ATOM     27  H17 RDC d           6.714  56.693  -1.569  0.00  0.00     0.217 HD
+ENDBRANCH   5  26
+TORSDOF 2

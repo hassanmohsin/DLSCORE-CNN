@@ -1,0 +1,52 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAB_1  and  OAA_24 
+REMARK    2  A    between atoms: CAP_13  and  OAQ_26 
+REMARK    3  A    between atoms: NAS_23  and  CBB_28 
+REMARK    4  A    between atoms: CBB_28  and  CBC_29 
+ROOT
+ATOM      1  CAB EJ4 d          -6.217 -65.863  71.510  0.00  0.00     0.099 A 
+ATOM      2  CAC EJ4 d          -6.857 -67.021  71.104  0.00  0.00     0.110 A 
+ATOM      3  CAE EJ4 d          -7.716 -68.849  69.818  0.00  0.00     0.195 C 
+ATOM      4  CAF EJ4 d          -6.752 -69.027  68.774  0.00  0.00     0.048 A 
+ATOM      5  CAG EJ4 d          -5.520 -69.667  68.895  0.00  0.00    -0.017 A 
+ATOM      6  CAH EJ4 d          -4.856 -69.492  67.725  0.00  0.00    -0.001 A 
+ATOM      7  CAI EJ4 d          -3.616 -69.870  67.311  0.00  0.00     0.014 A 
+ATOM      8  CAJ EJ4 d          -3.153 -69.570  66.021  0.00  0.00     0.001 A 
+ATOM      9  CAK EJ4 d          -3.978 -68.800  65.188  0.00  0.00     0.002 A 
+ATOM     10  CAL EJ4 d          -5.235 -68.411  65.657  0.00  0.00     0.030 A 
+ATOM     11  CAM EJ4 d          -5.631 -68.766  66.903  0.00  0.00     0.043 A 
+ATOM     12  CAO EJ4 d          -5.089 -70.341  70.088  0.00  0.00     0.083 C 
+ATOM     13  CAP EJ4 d          -6.231 -70.597  71.088  0.00  0.00     0.105 C 
+ATOM     14  CAR EJ4 d          -5.738 -70.835  72.504  0.00  0.00     0.228 C 
+ATOM     15  CAT EJ4 d          -7.876 -70.215  73.465  0.00  0.00     0.236 C 
+ATOM     16  CAU EJ4 d          -8.334 -69.694  72.147  0.00  0.00     0.048 C 
+ATOM     17  CAV EJ4 d          -7.199 -69.351  71.161  0.00  0.00     0.057 C 
+ATOM     18  CAW EJ4 d          -6.449 -68.213  71.669  0.00  0.00    -0.001 A 
+ATOM     19  CAX EJ4 d          -5.466 -68.345  72.585  0.00  0.00    -0.046 A 
+ATOM     20  CAY EJ4 d          -4.812 -67.172  73.007  0.00  0.00     0.011 A 
+ATOM     21  CAZ EJ4 d          -5.181 -65.918  72.460  0.00  0.00     0.040 A 
+ATOM     22  NAN EJ4 d          -6.766 -68.514  67.536  0.00  0.00    -0.356 N 
+ATOM     23  NAS EJ4 d          -6.890 -71.346  73.355  0.00  0.00    -0.063 N 
+ATOM     24  OAD EJ4 d          -7.844 -67.260  70.154  0.00  0.00    -0.335 OA
+ATOM     25  CBA EJ4 d          -5.136 -69.639  73.082  0.00  0.00     0.075 C 
+ATOM     26  H15 EJ4 d          -7.556 -67.992  67.130  0.00  0.00     0.166 HD
+ATOM     27  H16 EJ4 d          -7.319 -72.100  72.842  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH  23  28
+ATOM     28  CBB EJ4 d          -6.595 -71.876  74.700  0.00  0.00     0.240 C 
+BRANCH  28  29
+ATOM     29  CBC EJ4 d          -5.553 -73.017  74.613  0.00  0.00     0.011 A 
+ATOM     30  CBD EJ4 d          -4.070 -72.716  74.922  0.00  0.00     0.007 A 
+ATOM     31  CBE EJ4 d          -4.899 -73.452  75.953  0.00  0.00     0.007 A 
+ENDBRANCH  28  29
+ENDBRANCH  23  28
+BRANCH  13  32
+ATOM     32  OAQ EJ4 d          -6.965 -71.850  70.661  0.00  0.00    -0.386 OA
+ATOM     33  H18 EJ4 d          -7.290 -71.739  69.775  0.00  0.00     0.210 HD
+ENDBRANCH  13  32
+BRANCH   1  34
+ATOM     34  OAA EJ4 d          -6.615 -64.677  70.925  0.00  0.00    -0.358 OA
+ATOM     35  H17 EJ4 d          -7.323 -64.848  70.315  0.00  0.00     0.217 HD
+ENDBRANCH   1  34
+TORSDOF 4

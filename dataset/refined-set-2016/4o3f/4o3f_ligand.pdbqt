@@ -1,0 +1,51 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAJ_5  and  CAP_6 
+REMARK       I    between atoms: CAP_6  and  NAE_8 
+REMARK    2  A    between atoms: NAF_13  and  C2_14 
+REMARK    3  A    between atoms: CAY_19  and  OAC_20 
+REMARK    4  A    between atoms: CAZ_22  and  OAD_23 
+REMARK    5  A    between atoms: C4_27  and  NAI_28 
+ROOT
+ATOM      1  C2  TZN d         -17.101  -7.149 -27.213  0.00  0.00     0.727 A 
+ATOM      2  N3  TZN d         -16.096  -7.281 -26.506  0.00  0.00    -0.045 NA
+ATOM      3  N1  TZN d         -17.563  -8.020 -27.989  0.00  0.00    -0.062 NA
+ATOM      4  C6  TZN d         -17.017  -9.219 -28.100  0.00  0.00     0.092 A 
+ATOM      5  CAW TZN d         -17.508 -10.183 -28.932  0.00  0.00     0.073 A 
+ATOM      6  CAY TZN d         -16.852 -11.405 -29.007  0.00  0.00     0.103 A 
+ATOM      7  CAZ TZN d         -15.738 -11.635 -28.255  0.00  0.00     0.102 A 
+ATOM      8  CAX TZN d         -15.237 -10.693 -27.421  0.00  0.00     0.057 A 
+ATOM      9  C5  TZN d         -15.878  -9.478 -27.340  0.00  0.00     0.042 A 
+ATOM     10  C4  TZN d         -15.446  -8.393 -26.517  0.00  0.00     0.153 A 
+ENDROOT
+BRANCH   1  11
+ATOM     11  NAF TZN d         -17.699  -5.865 -27.079  0.00  0.00    -0.211 N 
+ATOM     12  CAN TZN d         -17.211  -4.992 -26.093  0.00  0.00     0.161 C 
+ATOM     13  CAL TZN d         -17.596  -3.571 -26.418  0.00  0.00     0.146 C 
+ATOM     14  NAE TZN d         -18.985  -3.502 -26.366  0.00  0.00    -0.347 N 
+ATOM     15  CAP TZN d         -19.659  -2.422 -25.652  0.00  0.00     0.248 C 
+ATOM     16  CAK TZN d         -19.720  -4.555 -26.979  0.00  0.00     0.146 C 
+ATOM     17  OAB TZN d         -19.032  -1.558 -25.114  0.00  0.00    -0.270 OA
+ATOM     18  CAM TZN d         -18.839  -5.457 -27.807  0.00  0.00     0.161 C 
+BRANCH  15  19
+ATOM     19  CAJ TZN d         -21.141  -2.409 -25.598  0.00  0.00     0.213 C 
+ATOM     20  CAO TZN d         -21.765  -1.438 -24.660  0.00  0.00     0.043 C 
+ATOM     21  CAQ TZN d         -22.596  -0.601 -25.560  0.00  0.00     0.029 C 
+ATOM     22  CAR TZN d         -21.763  -0.680 -26.771  0.00  0.00     0.168 C 
+ATOM     23  OAA TZN d         -21.618  -2.074 -26.847  0.00  0.00    -0.376 OA
+ENDBRANCH  15  19
+ENDBRANCH   1  11
+BRANCH  10  24
+ATOM     24  NAI TZN d         -14.321  -8.559 -25.711  0.00  0.00    -0.383 N 
+ATOM     25  H   TZN d         -13.805  -9.450 -25.724  0.00  0.00     0.157 HD
+ATOM     26  H   TZN d         -14.005  -7.790 -25.102  0.00  0.00     0.157 HD
+ENDBRANCH  10  24
+BRANCH   6  27
+ATOM     27  OAC TZN d         -17.204 -12.496 -29.755  0.00  0.00    -0.353 OA
+ATOM     28  CBA TZN d         -18.312 -12.423 -30.533  0.00  0.00     0.210 C 
+ENDBRANCH   6  27
+BRANCH   7  29
+ATOM     29  OAD TZN d         -15.241 -12.861 -28.434  0.00  0.00    -0.353 OA
+ATOM     30  CBB TZN d         -14.008 -13.110 -27.969  0.00  0.00     0.210 C 
+ENDBRANCH   7  29
+TORSDOF 5

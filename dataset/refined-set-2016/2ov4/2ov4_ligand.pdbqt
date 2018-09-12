@@ -1,0 +1,80 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1'_27  and  N9_7 
+REMARK    2  A    between atoms: PA_11  and  O3A_14 
+REMARK    3  A    between atoms: O5'_31  and  PA_11 
+REMARK    4  A    between atoms: O3A_14  and  PB_15 
+REMARK    5  A    between atoms: PB_15  and  O3B_18 
+REMARK    6  A    between atoms: O3B_18  and  PG_19 
+REMARK    7  A    between atoms: PG_19  and  O3G_22 
+REMARK    8  A    between atoms: O3G_22  and  PD_23 
+REMARK    9  A    between atoms: C5'_30  and  C4'_29 
+REMARK   10  A    between atoms: C5'_30  and  O5'_31 
+REMARK   11  A    between atoms: C3'_32  and  O3'_33 
+REMARK   12  A    between atoms: C2'_34  and  O2'_35 
+ROOT
+ATOM      1  C1' AQP d          54.793  26.477  36.062  0.00  0.00     0.262 C 
+ATOM      2  O4' AQP d          54.912  25.173  35.741  0.00  0.00    -0.353 OA
+ATOM      3  C4' AQP d          55.254  24.327  36.873  0.00  0.00     0.180 C 
+ATOM      4  C3' AQP d          55.219  25.256  38.109  0.00  0.00     0.182 C 
+ATOM      5  C2' AQP d          54.397  26.381  37.508  0.00  0.00     0.198 C 
+ENDROOT
+BRANCH   3   6
+ATOM      6  C5' AQP d          54.500  23.084  36.895  0.00  0.00     0.216 C 
+BRANCH   6   7
+ATOM      7  O5' AQP d          53.167  23.399  37.351  0.00  0.00    -0.287 OA
+BRANCH   7   8
+ATOM      8  PA  AQP d          52.198  22.336  37.889  0.00  0.00     0.417 P 
+ATOM      9  O1A AQP d          51.612  21.622  36.786  0.00  0.00    -0.624 OA
+ATOM     10  O2A AQP d          52.914  21.544  38.863  0.00  0.00    -0.624 OA
+BRANCH   8  11
+ATOM     11  O3A AQP d          51.069  23.141  38.582  0.00  0.00    -0.180 OA
+BRANCH  11  12
+ATOM     12  PB  AQP d          50.059  24.158  37.924  0.00  0.00     0.427 P 
+ATOM     13  O2B AQP d          50.402  25.632  38.186  0.00  0.00    -0.624 OA
+ATOM     14  O1B AQP d          48.696  23.908  38.522  0.00  0.00    -0.624 OA
+BRANCH  12  15
+ATOM     15  O3B AQP d          50.217  23.589  36.415  0.00  0.00    -0.180 OA
+BRANCH  15  16
+ATOM     16  PG  AQP d          49.300  23.501  35.185  0.00  0.00     0.428 P 
+ATOM     17  O2G AQP d          50.022  23.571  33.887  0.00  0.00    -0.624 OA
+ATOM     18  O1G AQP d          48.290  24.541  35.332  0.00  0.00    -0.624 OA
+BRANCH  16  19
+ATOM     19  O3G AQP d          48.635  22.210  35.399  0.00  0.00    -0.173 OA
+BRANCH  19  20
+ATOM     20  PD  AQP d          47.226  21.818  36.104  0.00  0.00     0.431 P 
+ATOM     21  O2D AQP d          47.129  20.356  36.291  0.00  0.00    -0.616 OA
+ATOM     22  O1D AQP d          47.086  22.471  37.439  0.00  0.00    -0.616 OA
+ATOM     23  O3D AQP d          46.099  22.262  35.200  0.00  0.00    -0.616 OA
+ENDBRANCH  19  20
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+BRANCH   4  24
+ATOM     24  O3' AQP d          56.505  25.586  38.620  0.00  0.00    -0.390 OA
+ATOM     25  H10 AQP d          56.408  26.156  39.374  0.00  0.00     0.210 HD
+ENDBRANCH   4  24
+BRANCH   1  26
+ATOM     26  N9  AQP d          53.673  26.927  35.172  0.00  0.00    -0.294 N 
+ATOM     27  C4  AQP d          53.757  27.867  34.165  0.00  0.00     0.167 A 
+ATOM     28  N3  AQP d          54.853  28.660  33.715  0.00  0.00    -0.222 NA
+ATOM     29  C5  AQP d          52.466  27.941  33.598  0.00  0.00     0.149 A 
+ATOM     30  C2  AQP d          54.681  29.544  32.672  0.00  0.00     0.237 A 
+ATOM     31  N1  AQP d          53.412  29.604  32.073  0.00  0.00    -0.222 NA
+ATOM     32  C6  AQP d          52.275  28.858  32.477  0.00  0.00     0.155 A 
+ATOM     33  N6  AQP d          51.146  29.022  31.838  0.00  0.00    -0.382 N 
+ATOM     34  H1  AQP d          50.312  28.487  32.120  0.00  0.00     0.157 HD
+ATOM     35  H2  AQP d          51.090  29.686  31.052  0.00  0.00     0.157 HD
+ATOM     36  N7  AQP d          51.581  27.078  34.251  0.00  0.00    -0.236 NA
+ATOM     37  C8  AQP d          52.356  26.478  35.201  0.00  0.00     0.214 A 
+ENDBRANCH   1  26
+BRANCH   5  38
+ATOM     38  O2' AQP d          54.283  27.608  38.114  0.00  0.00    -0.388 OA
+ATOM     39  H12 AQP d          53.730  28.171  37.585  0.00  0.00     0.210 HD
+ENDBRANCH   5  38
+TORSDOF 12

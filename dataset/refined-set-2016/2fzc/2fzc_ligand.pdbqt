@@ -1,0 +1,48 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: PAR_2  and  CAL_5 
+REMARK    2  A    between atoms: CAL_5  and  CAP_6 
+REMARK       I    between atoms: CAP_6  and  NAN_8 
+REMARK    3  A    between atoms: NAN_8  and  CAJ_9 
+REMARK    4  A    between atoms: CAJ_9  and  CAI_10 
+REMARK    5  A    between atoms: CAI_10  and  NAM_11 
+REMARK       I    between atoms: NAM_11  and  CAO_12 
+REMARK    6  A    between atoms: CAO_12  and  CAK_14 
+REMARK    7  A    between atoms: CAK_14  and  PAQ_15 
+ROOT
+ATOM      1  CAJ EOP d          41.156  28.478  16.757  0.00  0.00     0.142 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  NAN EOP d          42.566  28.738  17.104  0.00  0.00    -0.359 N 
+ATOM      3  CAP EOP d          43.110  29.949  17.157  0.00  0.00     0.230 C 
+ATOM      4  OAB EOP d          42.507  30.991  16.930  0.00  0.00    -0.273 OA
+ATOM      5  H3  EOP d          43.149  27.953  17.313  0.00  0.00     0.162 HD
+BRANCH   3   6
+ATOM      6  CAL EOP d          44.613  29.973  17.483  0.00  0.00     0.248 C 
+BRANCH   6   7
+ATOM      7  PAR EOP d          45.064  29.736  19.219  0.00  0.00     0.268 P 
+ATOM      8  OAD EOP d          43.900  28.845  19.886  0.00  0.00    -0.639 OA
+ATOM      9  OAH EOP d          44.999  31.181  19.928  0.00  0.00    -0.639 OA
+ATOM     10  OAG EOP d          46.399  29.113  19.364  0.00  0.00    -0.639 OA
+ENDBRANCH   6   7
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CAI EOP d          40.237  28.438  17.979  0.00  0.00     0.142 C 
+BRANCH  11  12
+ATOM     12  NAM EOP d          39.555  29.736  18.074  0.00  0.00    -0.359 N 
+ATOM     13  CAO EOP d          39.329  30.401  19.206  0.00  0.00     0.230 C 
+ATOM     14  OAA EOP d          38.859  31.539  19.229  0.00  0.00    -0.273 OA
+ATOM     15  H8  EOP d          39.236  30.153  17.223  0.00  0.00     0.162 HD
+BRANCH  13  16
+ATOM     16  CAK EOP d          39.808  29.737  20.498  0.00  0.00     0.248 C 
+BRANCH  16  17
+ATOM     17  PAQ EOP d          41.448  30.372  20.916  0.00  0.00     0.268 P 
+ATOM     18  OAF EOP d          41.192  31.560  21.973  0.00  0.00    -0.639 OA
+ATOM     19  OAE EOP d          42.012  31.059  19.572  0.00  0.00    -0.639 OA
+ATOM     20  OAC EOP d          42.353  29.325  21.440  0.00  0.00    -0.639 OA
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 7

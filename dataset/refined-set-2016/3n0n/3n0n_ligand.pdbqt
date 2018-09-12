@@ -1,0 +1,48 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S1_4 
+REMARK    2  A    between atoms: S1_4  and  N1_2 
+REMARK    3  A    between atoms: C4_8  and  N7_11 
+REMARK       I    between atoms: N7_11  and  C8_12 
+REMARK       I    between atoms: C8_12  and  N9_14 
+REMARK    4  A    between atoms: N9_14  and  C10_15 
+ROOT
+ATOM      1  N7  P9B d          -3.356   5.456  13.695  0.00  0.00    -0.309 N 
+ATOM      2  C8  P9B d          -4.035   6.254  12.749  0.00  0.00     0.325 C 
+ATOM      3  O8  P9B d          -5.152   5.993  12.308  0.00  0.00    -0.247 OA
+ATOM      4  N9  P9B d          -3.299   7.343  12.222  0.00  0.00    -0.303 N 
+ATOM      5  H7  P9B d          -2.401   5.665  13.906  0.00  0.00     0.170 HD
+ATOM      6  H8  P9B d          -3.685   7.843  11.447  0.00  0.00     0.171 HD
+ENDROOT
+BRANCH   1   7
+ATOM      7  C4  P9B d          -3.976   4.377  14.352  0.00  0.00     0.036 A 
+ATOM      8  C3  P9B d          -3.137   3.274  14.798  0.00  0.00     0.031 A 
+ATOM      9  C2  P9B d          -3.712   2.250  15.455  0.00  0.00     0.027 A 
+ATOM     10  C1  P9B d          -5.156   2.264  15.783  0.00  0.00     0.079 A 
+ATOM     11  C6  P9B d          -5.935   3.319  15.385  0.00  0.00     0.027 A 
+ATOM     12  C5  P9B d          -5.311   4.431  14.639  0.00  0.00     0.031 A 
+BRANCH  10  13
+ATOM     13  S1  P9B d          -5.879   0.947  16.698  0.00  0.00     0.256 S 
+ATOM     14  O1  P9B d          -5.350   1.029  18.030  0.00  0.00    -0.201 OA
+ATOM     15  O2  P9B d          -7.295   1.072  16.625  0.00  0.00    -0.201 OA
+BRANCH  13  16
+ATOM     16  N1  P9B d          -5.399  -0.389  16.046  0.00  0.00    -0.324 N 
+ATOM     17  H1  P9B d          -5.701  -1.265  16.421  0.00  0.00     0.169 HD
+ATOM     18  H2  P9B d          -4.790  -0.368  15.253  0.00  0.00     0.169 HD
+ENDBRANCH  13  16
+ENDBRANCH  10  13
+ENDBRANCH   1   7
+BRANCH   4  19
+ATOM     19  C10 P9B d          -2.041   7.765  12.734  0.00  0.00     0.120 A 
+ATOM     20  C11 P9B d          -1.938   8.097  14.073  0.00  0.00     0.188 A 
+ATOM     21  F11 P9B d          -2.942   7.946  14.936  0.00  0.00    -0.200 F 
+ATOM     22  C12 P9B d          -0.746   8.589  14.570  0.00  0.00     0.199 A 
+ATOM     23  F12 P9B d          -0.734   8.841  15.868  0.00  0.00    -0.199 F 
+ATOM     24  C13 P9B d           0.358   8.778  13.728  0.00  0.00     0.199 A 
+ATOM     25  F13 P9B d           1.525   9.258  14.164  0.00  0.00    -0.199 F 
+ATOM     26  C14 P9B d           0.208   8.457  12.375  0.00  0.00     0.199 A 
+ATOM     27  F14 P9B d           1.226   8.633  11.551  0.00  0.00    -0.199 F 
+ATOM     28  C15 P9B d          -1.002   7.983  11.882  0.00  0.00     0.188 A 
+ATOM     29  F15 P9B d          -1.181   7.672  10.603  0.00  0.00    -0.200 F 
+ENDBRANCH   4  19
+TORSDOF 4

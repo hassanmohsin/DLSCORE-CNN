@@ -1,0 +1,77 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_3  and  N1_4 
+REMARK    2  A    between atoms: C15_9  and  O1_10 
+REMARK    3  A    between atoms: O1_10  and  C1_11 
+REMARK    4  A    between atoms: C2_13  and  O2_14 
+REMARK    5  A    between atoms: C3_15  and  O3_16 
+REMARK    6  A    between atoms: C4_17  and  O4_18 
+REMARK    7  A    between atoms: C5_19  and  C6_20 
+REMARK    8  A    between atoms: C6_20  and  S6_21 
+REMARK    9  A    between atoms: S6_21  and  C7_22 
+REMARK   10  A    between atoms: C10_25  and  O8_26 
+REMARK   11  A    between atoms: C9_27  and  O7_28 
+REMARK   12  A    between atoms: C8_29  and  O6_30 
+ROOT
+ATOM      1  C1  XTG d         143.790  62.849 132.701  0.00  0.00     0.298 C 
+ATOM      2  O5  XTG d         144.605  62.295 133.747  0.00  0.00    -0.349 OA
+ATOM      3  C2  XTG d         143.523  64.313 133.103  0.00  0.00     0.205 C 
+ATOM      4  C3  XTG d         144.833  65.072 133.241  0.00  0.00     0.183 C 
+ATOM      5  C4  XTG d         145.681  64.286 134.193  0.00  0.00     0.179 C 
+ATOM      6  C5  XTG d         145.842  62.930 133.562  0.00  0.00     0.165 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C6  XTG d         147.105  62.356 134.111  0.00  0.00     0.111 C 
+BRANCH   7   8
+ATOM      8  S6  XTG d         146.870  60.970 135.251  0.00  0.00    -0.132 SA
+BRANCH   8   9
+ATOM      9  C7  XTG d         147.709  61.192 136.910  0.00  0.00     0.214 C 
+ATOM     10  O9  XTG d         146.901  60.738 138.003  0.00  0.00    -0.370 OA
+ATOM     11  C11 XTG d         146.778  59.287 138.082  0.00  0.00     0.203 C 
+ATOM     12  C10 XTG d         148.102  58.495 138.118  0.00  0.00     0.173 C 
+ATOM     13  C9  XTG d         149.079  59.022 137.036  0.00  0.00     0.181 C 
+ATOM     14  C8  XTG d         149.120  60.582 137.112  0.00  0.00     0.188 C 
+BRANCH  12  15
+ATOM     15  O8  XTG d         147.775  57.096 137.888  0.00  0.00    -0.391 OA
+ATOM     16  H19 XTG d         148.572  56.579 137.904  0.00  0.00     0.210 HD
+ENDBRANCH  12  15
+BRANCH  13  17
+ATOM     17  O7  XTG d         150.365  58.339 137.141  0.00  0.00    -0.390 OA
+ATOM     18  H21 XTG d         150.954  58.671 136.473  0.00  0.00     0.210 HD
+ENDBRANCH  13  17
+BRANCH  14  19
+ATOM     19  O6  XTG d         149.997  61.292 136.208  0.00  0.00    -0.389 OA
+ATOM     20  H23 XTG d         149.921  62.226 136.363  0.00  0.00     0.210 HD
+ENDBRANCH  14  19
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   5  21
+ATOM     21  O4  XTG d         146.959  64.832 134.322  0.00  0.00    -0.390 OA
+ATOM     22  H11 XTG d         146.891  65.722 134.648  0.00  0.00     0.210 HD
+ENDBRANCH   5  21
+BRANCH   1  23
+ATOM     23  O1  XTG d         142.525  62.150 132.394  0.00  0.00    -0.318 OA
+BRANCH  23  24
+ATOM     24  C15 XTG d         142.550  60.789 132.331  0.00  0.00     0.072 A 
+ATOM     25  C14 XTG d         141.386  60.115 132.666  0.00  0.00     0.039 A 
+ATOM     26  C13 XTG d         141.337  58.728 132.666  0.00  0.00     0.039 A 
+ATOM     27  C12 XTG d         142.467  57.986 132.327  0.00  0.00     0.103 A 
+ATOM     28  C17 XTG d         143.630  58.674 131.972  0.00  0.00     0.039 A 
+ATOM     29  C16 XTG d         143.677  60.056 131.979  0.00  0.00     0.039 A 
+BRANCH  27  30
+ATOM     30  N1  XTG d         142.446  56.630 132.306  0.00  0.00    -0.116 N 
+ATOM     31  O10 XTG d         143.604  55.992 131.815  0.00  0.00    -0.532 OA
+ATOM     32  O11 XTG d         141.318  55.826 132.756  0.00  0.00    -0.532 OA
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+BRANCH   4  33
+ATOM     33  O3  XTG d         144.625  66.378 133.662  0.00  0.00    -0.390 OA
+ATOM     34  H9  XTG d         144.081  66.831 133.029  0.00  0.00     0.210 HD
+ENDBRANCH   4  33
+BRANCH   3  35
+ATOM     35  O2  XTG d         142.728  64.901 132.113  0.00  0.00    -0.388 OA
+ATOM     36  H7  XTG d         141.908  64.426 132.044  0.00  0.00     0.210 HD
+ENDBRANCH   3  35
+TORSDOF 12

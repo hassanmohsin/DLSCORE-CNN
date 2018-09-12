@@ -1,0 +1,45 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAD_6  and  CAG_7 
+REMARK       I    between atoms: CAG_7  and  NAH_9 
+REMARK    2  A    between atoms: NAH_9  and  NAI_10 
+REMARK    3  A    between atoms: CAJ_11  and  CAK_12 
+REMARK    4  A    between atoms: CAN_16  and  OAS_17 
+REMARK    5  A    between atoms: CAP_20  and  OAQ_21 
+ROOT
+ATOM      1  CAK BDE d         -76.040  36.307 128.777  0.00  0.00     0.019 A 
+ATOM      2  CAL BDE d         -77.163  36.996 129.228  0.00  0.00     0.038 A 
+ATOM      3  CAM BDE d         -78.377  36.878 128.559  0.00  0.00     0.046 A 
+ATOM      4 BRAT BDE d         -79.941  37.663 129.284  0.00  0.00    -0.048 Br
+ATOM      5  CAN BDE d         -78.465  36.097 127.412  0.00  0.00     0.103 A 
+ATOM      6  CAO BDE d         -77.339  35.426 126.947  0.00  0.00     0.079 A 
+ATOM      7 BRAR BDE d         -77.361  34.742 125.181  0.00  0.00    -0.045 Br
+ATOM      8  CAP BDE d         -76.135  35.502 127.643  0.00  0.00     0.097 A 
+ENDROOT
+BRANCH   1   9
+ATOM      9  CAJ BDE d         -74.892  36.379 129.557  0.00  0.00     0.153 C 
+ATOM     10  NAI BDE d         -73.809  35.643 129.389  0.00  0.00    -0.183 NA
+BRANCH  10  11
+ATOM     11  NAH BDE d         -72.745  36.162 129.732  0.00  0.00    -0.243 N 
+ATOM     12  CAG BDE d         -71.553  35.569 129.750  0.00  0.00     0.273 C 
+ATOM     13  OAU BDE d         -70.516  36.189 129.984  0.00  0.00    -0.266 OA
+ATOM     14  H5  BDE d         -72.780  37.118 130.024  0.00  0.00     0.192 HD
+BRANCH  12  15
+ATOM     15  CAD BDE d         -71.491  34.075 129.420  0.00  0.00     0.051 A 
+ATOM     16  CAE BDE d         -72.641  33.349 129.128  0.00  0.00     0.020 A 
+ATOM     17  CAF BDE d         -72.574  31.962 129.054  0.00  0.00     0.020 A 
+ATOM     18  CAA BDE d         -71.349  31.338 129.270  0.00  0.00     0.116 A 
+ATOM     19  NAB BDE d         -70.272  32.059 129.536  0.00  0.00    -0.272 NA
+ATOM     20  CAC BDE d         -70.300  33.380 129.613  0.00  0.00     0.133 A 
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+ENDBRANCH   1   9
+BRANCH   8  21
+ATOM     21  OAQ BDE d         -75.063  34.792 127.202  0.00  0.00    -0.358 OA
+ATOM     22  H9  BDE d         -74.323  34.947 127.778  0.00  0.00     0.217 HD
+ENDBRANCH   8  21
+BRANCH   5  23
+ATOM     23  OAS BDE d         -79.644  35.988 126.742  0.00  0.00    -0.358 OA
+ATOM     24  H8  BDE d         -79.528  35.421 125.989  0.00  0.00     0.217 HD
+ENDBRANCH   5  23
+TORSDOF 5

@@ -1,0 +1,51 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAN_2  and  CAR_3 
+REMARK    2  A    between atoms: CAQ_8  and  CAL_9 
+REMARK    3  A    between atoms: CAL_9  and  CAU_10 
+REMARK    4  A    between atoms: CAT_13  and  OAF_14 
+REMARK    5  A    between atoms: CAS_15  and  OAE_16 
+REMARK    6  A    between atoms: CAV_18  and  CAO_19 
+REMARK    7  A    between atoms: CAV_18  and  OAG_22 
+ROOT
+ATOM      1  CAU XNW d          13.369   2.705  38.852  0.00  0.00     0.108 C 
+ATOM      2  CAP XNW d          13.762   3.375  40.168  0.00  0.00     0.165 C 
+ATOM      3  OAC XNW d          14.528   4.341  40.200  0.00  0.00    -0.294 OA
+ATOM      4  CAT XNW d          13.182   2.849  41.463  0.00  0.00     0.216 C 
+ATOM      5  CAS XNW d          11.667   2.729  41.295  0.00  0.00     0.157 C 
+ATOM      6  CAM XNW d          11.243   2.027  39.981  0.00  0.00     0.084 C 
+ATOM      7  CAV XNW d          11.843   2.666  38.721  0.00  0.00     0.158 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAL XNW d          14.032   3.454  37.703  0.00  0.00     0.054 C 
+BRANCH   8   9
+ATOM      9  CAQ XNW d          15.449   2.984  37.360  0.00  0.00    -0.057 A 
+ATOM     10  CAI XNW d          15.568   2.155  36.286  0.00  0.00     0.010 A 
+ATOM     11  CAK XNW d          16.801   1.694  35.864  0.00  0.00     0.037 A 
+ATOM     12  CAR XNW d          17.974   2.016  36.494  0.00  0.00     0.068 A 
+ATOM     13  CAJ XNW d          17.885   2.858  37.601  0.00  0.00     0.037 A 
+ATOM     14  CAH XNW d          16.624   3.333  38.023  0.00  0.00     0.010 A 
+BRANCH  12  15
+ATOM     15  OAN XNW d          19.130   1.471  35.962  0.00  0.00    -0.356 OA
+ATOM     16  CAA XNW d          20.244   1.668  36.833  0.00  0.00     0.210 C 
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   7  17
+ATOM     17  CAO XNW d          11.461   1.807  37.496  0.00  0.00     0.210 C 
+ATOM     18  OAD XNW d          11.501   0.552  37.640  0.00  0.00    -0.646 OA
+ATOM     19  OAB XNW d          11.061   2.420  36.467  0.00  0.00    -0.646 OA
+ENDBRANCH   7  17
+BRANCH   7  20
+ATOM     20  OAG XNW d          11.276   3.995  38.540  0.00  0.00    -0.378 OA
+ATOM     21  H17 XNW d          11.646   4.393  37.761  0.00  0.00     0.211 HD
+ENDBRANCH   7  20
+BRANCH   4  22
+ATOM     22  OAF XNW d          13.444   3.812  42.508  0.00  0.00    -0.385 OA
+ATOM     23  H12 XNW d          14.382   3.933  42.598  0.00  0.00     0.210 HD
+ENDBRANCH   4  22
+BRANCH   5  24
+ATOM     24  OAE XNW d          11.138   2.043  42.437  0.00  0.00    -0.392 OA
+ATOM     25  H14 XNW d          11.340   2.537  43.223  0.00  0.00     0.210 HD
+ENDBRANCH   5  24
+TORSDOF 7

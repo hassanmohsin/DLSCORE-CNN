@@ -1,0 +1,103 @@
+REMARK  20 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1A_28 
+REMARK    2  A    between atoms: C1_1  and  C2_2 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C4_4  and  C5_5 
+REMARK    5  A    between atoms: C6_6  and  O6_32 
+REMARK    6  A    between atoms: C7_7  and  O7_31 
+REMARK    7  A    between atoms: C8_8  and  C9_9 
+REMARK    8  A    between atoms: C9_9  and  C10_10 
+REMARK    9  A    between atoms: C11_11  and  C12_12 
+REMARK   10  A    between atoms: C12_12  and  C13_13 
+REMARK   11  A    between atoms: C13_13  and  O13_35 
+REMARK   12  A    between atoms: C2'_20  and  C1'_17 
+REMARK   13  A    between atoms: C3'_21  and  C2'_20 
+REMARK   14  A    between atoms: C4'_22  and  C3'_21 
+REMARK   15  A    between atoms: C5'_23  and  C4'_22 
+REMARK   16  A    between atoms: C6'_24  and  C5'_23 
+REMARK   17  A    between atoms: C7'_25  and  C6'_24 
+REMARK   18  A    between atoms: C8'_26  and  C7'_25 
+REMARK   19  A    between atoms: C9'_27  and  C8'_26 
+REMARK   20  A    between atoms: O1A_28  and  C9'_27 
+ROOT
+ATOM      1  C5  MRC d         -25.602   6.216 -29.222  0.00  0.00     0.156 C 
+ATOM      2  C6  MRC d         -26.786   5.688 -28.345  0.00  0.00     0.176 C 
+ATOM      3  C7  MRC d         -27.785   4.896 -29.217  0.00  0.00     0.155 C 
+ATOM      4  C8  MRC d         -28.349   5.769 -30.351  0.00  0.00     0.043 C 
+ATOM      5  C16 MRC d         -27.181   6.430 -31.100  0.00  0.00     0.175 C 
+ATOM      6  O5  MRC d         -26.230   7.068 -30.202  0.00  0.00    -0.382 OA
+ENDROOT
+BRANCH   1   7
+ATOM      7  C4  MRC d         -24.625   7.019 -28.349  0.00  0.00     0.068 C 
+BRANCH   7   8
+ATOM      8  C3  MRC d         -23.277   7.335 -28.973  0.00  0.00    -0.075 C 
+ATOM      9  C2  MRC d         -23.034   8.633 -29.331  0.00  0.00     0.084 C 
+ATOM     10  C15 MRC d         -22.273   6.203 -29.057  0.00  0.00     0.043 C 
+BRANCH   9  11
+ATOM     11  C1  MRC d         -21.881   9.252 -29.806  0.00  0.00     0.283 C 
+ATOM     12  O1B MRC d         -20.769   8.719 -30.002  0.00  0.00    -0.260 OA
+BRANCH  11  13
+ATOM     13  O1A MRC d         -22.050  10.650 -30.092  0.00  0.00    -0.318 OA
+BRANCH  13  14
+ATOM     14  C9' MRC d         -21.006  11.505 -30.608  0.00  0.00     0.179 C 
+BRANCH  14  15
+ATOM     15  C8' MRC d         -21.611  12.447 -31.653  0.00  0.00     0.027 C 
+BRANCH  15  16
+ATOM     16  C7' MRC d         -22.368  13.539 -30.925  0.00  0.00     0.002 C 
+BRANCH  16  17
+ATOM     17  C6' MRC d         -22.976  14.485 -31.923  0.00  0.00     0.000 C 
+BRANCH  17  18
+ATOM     18  C5' MRC d         -24.422  14.664 -31.496  0.00  0.00     0.000 C 
+BRANCH  18  19
+ATOM     19  C4' MRC d         -24.772  15.686 -30.415  0.00  0.00     0.001 C 
+BRANCH  19  20
+ATOM     20  C3' MRC d         -26.254  16.069 -30.526  0.00  0.00     0.010 C 
+BRANCH  20  21
+ATOM     21  C2' MRC d         -26.883  16.181 -29.130  0.00  0.00     0.113 C 
+BRANCH  21  22
+ATOM     22  C1' MRC d         -27.906  15.137 -28.687  0.00  0.00     0.172 C 
+ATOM     23  O1Q MRC d         -29.029  15.197 -29.222  0.00  0.00    -0.648 OA
+ATOM     24  O1P MRC d         -27.603  14.290 -27.836  0.00  0.00    -0.648 OA
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  11  13
+ENDBRANCH   9  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   2  25
+ATOM     25  O6  MRC d         -26.300   4.830 -27.309  0.00  0.00    -0.390 OA
+ATOM     26  H39 MRC d         -25.850   4.089 -27.698  0.00  0.00     0.210 HD
+ENDBRANCH   2  25
+BRANCH   3  27
+ATOM     27  O7  MRC d         -27.106   3.767 -29.794  0.00  0.00    -0.392 OA
+ATOM     28  H38 MRC d         -26.773   3.210 -29.100  0.00  0.00     0.210 HD
+ENDBRANCH   3  27
+BRANCH   4  29
+ATOM     29  C9  MRC d         -29.344   6.803 -29.797  0.00  0.00     0.044 C 
+BRANCH  29  30
+ATOM     30  C10 MRC d         -30.810   6.432 -30.012  0.00  0.00     0.152 A 
+ATOM     31  O10 MRC d         -31.790   6.996 -29.105  0.00  0.00    -0.375 OA
+ATOM     32  C11 MRC d         -31.357   5.613 -28.828  0.00  0.00     0.157 A 
+BRANCH  32  33
+ATOM     33  C12 MRC d         -32.602   4.724 -28.459  0.00  0.00     0.041 C 
+ATOM     34  C17 MRC d         -31.943   3.411 -28.190  0.00  0.00     0.015 C 
+BRANCH  33  35
+ATOM     35  C13 MRC d         -33.318   4.828 -27.110  0.00  0.00     0.120 C 
+ATOM     36  C14 MRC d         -34.731   4.186 -27.155  0.00  0.00     0.040 C 
+BRANCH  35  37
+ATOM     37  O13 MRC d         -33.426   6.233 -26.776  0.00  0.00    -0.396 OA
+ATOM     38  H43 MRC d         -32.556   6.612 -26.719  0.00  0.00     0.210 HD
+ENDBRANCH  35  37
+ENDBRANCH  33  35
+ENDBRANCH  32  33
+ENDBRANCH  29  30
+ENDBRANCH   4  29
+TORSDOF 20

@@ -1,0 +1,90 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N25_2  and  C24_3 
+REMARK       I    between atoms: C24_3  and  N23_5 
+REMARK       I    between atoms: N23_5  and  C22_6 
+REMARK       I    between atoms: C22_6  and  N27_7 
+REMARK    1  A    between atoms: N21_8  and  C20_9 
+REMARK    2  A    between atoms: C20_9  and  C19_10 
+REMARK    3  A    between atoms: C19_10  and  C18_11 
+REMARK    4  A    between atoms: C18_11  and  C17_12 
+REMARK    5  A    between atoms: C54_26  and  C53_27 
+REMARK    6  A    between atoms: C45_34  and  C46_35 
+REMARK    7  A    between atoms: C40_41  and  C39_42 
+REMARK    8  A    between atoms: C39_42  and  C38_43 
+ROOT
+ATOM      1  C17 RAG d          94.537  73.030  -8.881  0.00  0.00     0.176 C 
+ATOM      2  C30 RAG d          95.691  74.022  -9.057  0.00  0.00     0.243 C 
+ATOM      3  O29 RAG d          96.730  73.850  -8.419  0.00  0.00    -0.271 OA
+ATOM      4  N32 RAG d          95.525  75.019  -9.925  0.00  0.00    -0.341 N 
+ATOM      5  C31 RAG d          96.673  75.935 -10.027  0.00  0.00     0.153 C 
+ATOM      6  N16 RAG d          95.076  71.666  -8.988  0.00  0.00    -0.346 N 
+ATOM      7  C15 RAG d          95.453  71.152 -10.156  0.00  0.00     0.240 C 
+ATOM      8  O14 RAG d          95.394  71.762 -11.223  0.00  0.00    -0.271 OA
+ATOM      9  C13 RAG d          96.024  69.733 -10.107  0.00  0.00     0.172 C 
+ATOM     10  C12 RAG d          94.980  68.736 -10.614  0.00  0.00     0.042 C 
+ATOM     11  N11 RAG d          97.215  69.699 -10.971  0.00  0.00    -0.348 N 
+ATOM     12  C58 RAG d          98.314  70.388 -10.674  0.00  0.00     0.220 C 
+ATOM     13  O57 RAG d          98.431  71.096  -9.675  0.00  0.00    -0.274 OA
+ATOM     14  C56 RAG d          99.460  70.276 -11.682  0.00  0.00     0.139 C 
+ATOM     15  C54 RAG d          99.560  71.582 -12.473  0.00  0.00     0.194 C 
+ATOM     16  N51 RAG d          98.353  71.752 -13.298  0.00  0.00    -0.346 N 
+ATOM     17  C50 RAG d          97.787  72.939 -13.501  0.00  0.00     0.220 C 
+ATOM     18  O49 RAG d          98.229  74.001 -13.063  0.00  0.00    -0.274 OA
+ATOM     19  C48 RAG d          96.525  72.912 -14.367  0.00  0.00     0.139 C 
+ATOM     20  C45 RAG d          95.653  74.148 -14.130  0.00  0.00     0.194 C 
+ATOM     21  N43 RAG d          95.231  74.215 -12.722  0.00  0.00    -0.344 N 
+ATOM     22  C42 RAG d          94.646  75.292 -12.199  0.00  0.00     0.241 C 
+ATOM     23  O41 RAG d          94.394  76.312 -12.840  0.00  0.00    -0.271 OA
+ATOM     24  C40 RAG d          94.292  75.189 -10.712  0.00  0.00     0.183 C 
+ATOM     25  H19 RAG d          95.162  71.110  -8.161  0.00  0.00     0.163 HD
+ATOM     26  H24 RAG d          97.198  69.144 -11.803  0.00  0.00     0.163 HD
+ATOM     27  H28 RAG d          97.943  70.945 -13.722  0.00  0.00     0.163 HD
+ATOM     28  H32 RAG d          95.389  73.421 -12.135  0.00  0.00     0.163 HD
+ENDROOT
+BRANCH   1  29
+ATOM     29  C18 RAG d          93.926  73.243  -7.494  0.00  0.00     0.036 C 
+BRANCH  29  30
+ATOM     30  C19 RAG d          92.805  72.243  -7.204  0.00  0.00     0.023 C 
+BRANCH  30  31
+ATOM     31  C20 RAG d          92.192  72.496  -5.825  0.00  0.00     0.138 C 
+BRANCH  31  32
+ATOM     32  N21 RAG d          91.194  71.451  -5.553  0.00  0.00    -0.226 N 
+ATOM     33  C22 RAG d          91.341  70.599  -4.542  0.00  0.00     0.675 C 
+ATOM     34  N23 RAG d          90.407  69.668  -4.353  0.00  0.00    -0.142 N 
+ATOM     35  N27 RAG d          92.428  70.655  -3.776  0.00  0.00    -0.235 N 
+ATOM     36  C24 RAG d          90.427  68.769  -3.358  0.00  0.00     0.334 C 
+ATOM     37  H5  RAG d          89.641  69.638  -4.995  0.00  0.00     0.189 HD
+ATOM     38  N25 RAG d          89.431  67.887  -3.316  0.00  0.00    -0.347 N 
+ATOM     39  O28 RAG d          91.305  68.827  -2.497  0.00  0.00    -0.247 OA
+ATOM     40  C26 RAG d          89.430  66.896  -2.231  0.00  0.00     0.151 C 
+ATOM     41  H4  RAG d          88.704  67.898  -4.003  0.00  0.00     0.163 HD
+ATOM     42  H6  RAG d          93.137  71.384  -3.941  0.00  0.00     0.174 HD
+ATOM     43  H7  RAG d          92.560  69.970  -3.019  0.00  0.00     0.174 HD
+ATOM     44  H8  RAG d          90.364  71.377  -6.158  0.00  0.00     0.177 HD
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH   1  29
+BRANCH  24  45
+ATOM     45  C39 RAG d          93.556  76.461 -10.281  0.00  0.00     0.073 C 
+BRANCH  45  46
+ATOM     46  C38 RAG d          93.142  76.434  -8.807  0.00  0.00    -0.056 A 
+ATOM     47  C33 RAG d          93.976  76.988  -7.840  0.00  0.00     0.007 A 
+ATOM     48  C34 RAG d          93.582  77.002  -6.505  0.00  0.00     0.001 A 
+ATOM     49  C35 RAG d          92.354  76.461  -6.137  0.00  0.00     0.000 A 
+ATOM     50  C36 RAG d          91.520  75.905  -7.103  0.00  0.00     0.001 A 
+ATOM     51  C37 RAG d          91.914  75.892  -8.438  0.00  0.00     0.007 A 
+ENDBRANCH  45  46
+ENDBRANCH  24  45
+BRANCH  20  52
+ATOM     52  C46 RAG d          94.442  74.099 -15.064  0.00  0.00     0.197 C 
+ATOM     53  O44 RAG d          94.552  74.465 -16.233  0.00  0.00    -0.646 OA
+ATOM     54  O47 RAG d          93.351  73.697 -14.659  0.00  0.00    -0.646 OA
+ENDBRANCH  20  52
+BRANCH  15  55
+ATOM     55  C53 RAG d         100.824  71.580 -13.337  0.00  0.00     0.197 C 
+ATOM     56  O52 RAG d         101.928  71.695 -12.809  0.00  0.00    -0.646 OA
+ATOM     57  O55 RAG d         100.745  71.471 -14.559  0.00  0.00    -0.646 OA
+ENDBRANCH  15  55
+TORSDOF 8

@@ -1,0 +1,39 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2 
+REMARK    2  A    between atoms: C2_2  and  C3_3 
+REMARK    3  A    between atoms: C3_3  and  C4_4 
+REMARK    4  A    between atoms: C3_3  and  C9_7 
+REMARK    5  A    between atoms: C3_3  and  NZ_11 
+REMARK    6  A    between atoms: C4_4  and  C5_5 
+ROOT
+ATOM      1  C3  A33 d          50.020  47.104 -17.603  0.00  0.00     0.229 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  A33 d          50.788  46.073 -18.472  0.00  0.00     0.163 C 
+BRANCH   2   3
+ATOM      3  C1  A33 d          52.226  45.747 -18.030  0.00  0.00     0.175 C 
+ATOM      4  O12 A33 d          52.463  45.409 -16.827  0.00  0.00    -0.648 OA
+ATOM      5  O11 A33 d          53.163  45.818 -18.885  0.00  0.00    -0.648 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C4  A33 d          50.653  48.498 -17.564  0.00  0.00     0.163 C 
+BRANCH   6   7
+ATOM      7  C5  A33 d          49.793  49.653 -18.123  0.00  0.00     0.175 C 
+ATOM      8  O51 A33 d          49.540  49.698 -19.348  0.00  0.00    -0.648 OA
+ATOM      9  O52 A33 d          49.373  50.580 -17.386  0.00  0.00    -0.648 OA
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  C9  A33 d          49.922  46.395 -16.288  0.00  0.00     0.211 C 
+ATOM     11  O92 A33 d          49.988  46.975 -15.181  0.00  0.00    -0.646 OA
+ATOM     12  O91 A33 d          49.779  45.172 -16.410  0.00  0.00    -0.646 OA
+ENDBRANCH   1  10
+BRANCH   1  13
+ATOM     13  NZ  A33 d          48.651  47.315 -18.041  0.00  0.00    -0.059 N 
+ATOM     14  H5  A33 d          48.173  46.429 -18.089  0.00  0.00     0.275 HD
+ATOM     15  H6  A33 d          48.652  47.745 -18.953  0.00  0.00     0.275 HD
+ATOM     16  H7  A33 d          48.178  47.917 -17.386  0.00  0.00     0.275 HD
+ENDBRANCH   1  13
+TORSDOF 6

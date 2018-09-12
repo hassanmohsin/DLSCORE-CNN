@@ -1,0 +1,55 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_4  and  C_1 
+REMARK    2  A    between atoms: N_2  and  CA_4 
+REMARK       I    between atoms: NAQ_18  and  CAU_21 
+REMARK    3  A    between atoms: SBD_29  and  NAQ_18 
+REMARK    4  A    between atoms: CAV_22  and  OAR_19 
+REMARK    5  A    between atoms: CAU_21  and  CAX_24 
+REMARK    6  A    between atoms: CAW_23  and  SBD_29 
+ROOT
+ATOM      1  OAC FG6 d          17.019  10.367   1.291  0.00  0.00    -0.265 OA
+ATOM      2  NAQ FG6 d          15.074  11.375   1.816  0.00  0.00    -0.243 N 
+ATOM      3  CAU FG6 d          15.892  10.765   0.953  0.00  0.00     0.282 C 
+ATOM      4  H15 FG6 d          14.162  11.653   1.516  0.00  0.00     0.182 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CAX FG6 d          15.411  10.590  -0.313  0.00  0.00     0.105 A 
+ATOM      6  N   FG6 d          16.174  10.338  -1.378  0.00  0.00    -0.332 N 
+ATOM      7  CBB FG6 d          15.388  10.220  -2.447  0.00  0.00     0.046 A 
+ATOM      8  CAL FG6 d          15.712   9.965  -3.742  0.00  0.00     0.033 A 
+ATOM      9  CAZ FG6 d          14.108  10.415  -2.056  0.00  0.00    -0.004 A 
+ATOM     10  CAI FG6 d          14.712   9.878  -4.705  0.00  0.00     0.039 A 
+ATOM     11  CAV FG6 d          13.391  10.061  -4.329  0.00  0.00     0.069 A 
+ATOM     12  CAM FG6 d          13.111  10.340  -2.969  0.00  0.00     0.050 A 
+ATOM     13  CAO FG6 d          14.129  10.638  -0.725  0.00  0.00     0.049 A 
+BRANCH   6  14
+ATOM     14  CA  FG6 d          17.649  10.128  -1.598  0.00  0.00     0.242 C 
+BRANCH  14  15
+ATOM     15  C   FG6 d          18.671  11.057  -0.958  0.00  0.00     0.191 C 
+ATOM     16  O   FG6 d          18.315  12.171  -0.558  0.00  0.00    -0.647 OA
+ATOM     17  OXT FG6 d          19.834  10.602  -0.919  0.00  0.00    -0.647 OA
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH  11  18
+ATOM     18  OAR FG6 d          12.462   9.952  -5.334  0.00  0.00    -0.356 OA
+ATOM     19  CAA FG6 d          11.075   9.757  -5.010  0.00  0.00     0.210 C 
+ENDBRANCH  11  18
+ENDBRANCH   3   5
+BRANCH   2  20
+ATOM     20  SBD FG6 d          15.554  11.684   3.401  0.00  0.00     0.287 S 
+ATOM     21  OAD FG6 d          15.149  13.072   3.742  0.00  0.00    -0.198 OA
+ATOM     22  OAE FG6 d          17.067  11.671   3.583  0.00  0.00    -0.198 OA
+BRANCH  20  23
+ATOM     23  CAW FG6 d          14.864  10.652   4.447  0.00  0.00     0.191 A 
+ATOM     24  CAN FG6 d          14.767  10.974   5.722  0.00  0.00     0.066 A 
+ATOM     25  CAY FG6 d          14.188   9.999   6.398  0.00  0.00     0.001 A 
+ATOM     26  CAJ FG6 d          13.885   9.921   7.690  0.00  0.00     0.014 A 
+ATOM     27  CBA FG6 d          13.907   9.016   5.528  0.00  0.00     0.087 A 
+ATOM     28  CAG FG6 d          13.269   8.783   8.185  0.00  0.00     0.001 A 
+ATOM     29  CAH FG6 d          12.981   7.744   7.301  0.00  0.00     0.003 A 
+ATOM     30  CAK FG6 d          13.316   7.894   5.952  0.00  0.00     0.038 A 
+ATOM     31  OAS FG6 d          14.366   9.472   4.200  0.00  0.00    -0.296 OA
+ENDBRANCH  20  23
+ENDBRANCH   2  20
+TORSDOF 6

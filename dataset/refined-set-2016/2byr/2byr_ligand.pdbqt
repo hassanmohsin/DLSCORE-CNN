@@ -1,0 +1,97 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N7_8  and  C6_9 
+REMARK    2  A    between atoms: C1_14  and  C13_15 
+REMARK    3  A    between atoms: C13_15  and  O14_17 
+REMARK    4  A    between atoms: O14_17  and  C15_18 
+REMARK    5  A    between atoms: C15_18  and  C16_19 
+REMARK    6  A    between atoms: C19_22  and  O19_23 
+REMARK    7  A    between atoms: C18_25  and  C30_32 
+REMARK    8  A    between atoms: N23_28  and  C24_29 
+REMARK    9  A    between atoms: C35_35  and  O35_36 
+REMARK   10  A    between atoms: C38_40  and  O38_41 
+REMARK   11  A    between atoms: C32_43  and  O32_44 
+REMARK   12  A    between atoms: C32_43  and  C27_45 
+REMARK   13  A    between atoms: C27_45  and  O27_46 
+REMARK   14  A    between atoms: C28_47  and  O28_48 
+ROOT
+ATOM      1  C16 MLK d           6.759  -1.162 -10.516  0.00  0.00     0.013 C 
+ATOM      2  C21 MLK d           7.408  -2.549 -10.359  0.00  0.00     0.016 C 
+ATOM      3  C20 MLK d           8.299  -2.886 -11.533  0.00  0.00     0.034 C 
+ATOM      4  C19 MLK d           9.314  -1.762 -11.775  0.00  0.00     0.132 C 
+ATOM      5  C18 MLK d           8.633  -0.393 -12.005  0.00  0.00     0.029 C 
+ATOM      6  C17 MLK d           7.111  -0.472 -11.849  0.00  0.00     0.043 C 
+ATOM      7  C26 MLK d           8.859   0.714 -10.978  0.00  0.00     0.239 C 
+ATOM      8  N23 MLK d           8.631   0.201  -9.592  0.00  0.00    -0.062 N 
+ATOM      9  C23 MLK d           7.250  -0.282  -9.359  0.00  0.00     0.247 C 
+ATOM     10  C27 MLK d           7.875   1.780 -11.496  0.00  0.00     0.145 C 
+ATOM     11  C28 MLK d           6.624   0.973 -11.833  0.00  0.00     0.166 C 
+ATOM     12  H23 MLK d           9.242  -0.593  -9.481  0.00  0.00     0.280 HD
+ENDROOT
+BRANCH   1  13
+ATOM     13  C15 MLK d           5.261  -1.397 -10.412  0.00  0.00     0.190 C 
+BRANCH  13  14
+ATOM     14  O14 MLK d           4.898  -2.290 -11.448  0.00  0.00    -0.317 OA
+BRANCH  14  15
+ATOM     15  C13 MLK d           3.518  -2.616 -11.718  0.00  0.00     0.295 C 
+ATOM     16  O13 MLK d           2.642  -2.151 -11.011  0.00  0.00    -0.259 OA
+BRANCH  15  17
+ATOM     17  C1  MLK d           3.214  -3.515 -12.872  0.00  0.00     0.066 A 
+ATOM     18  C6  MLK d           1.859  -3.533 -13.465  0.00  0.00     0.061 A 
+ATOM     19  C5  MLK d           1.609  -4.379 -14.543  0.00  0.00     0.031 A 
+ATOM     20  C4  MLK d           2.623  -5.189 -15.059  0.00  0.00     0.002 A 
+ATOM     21  C3  MLK d           3.906  -5.173 -14.504  0.00  0.00     0.001 A 
+ATOM     22  C2  MLK d           4.203  -4.340 -13.416  0.00  0.00     0.020 A 
+BRANCH  18  23
+ATOM     23  N7  MLK d           0.857  -2.713 -12.931  0.00  0.00    -0.251 N 
+ATOM     24  C8  MLK d           0.737  -1.404 -13.206  0.00  0.00     0.232 A 
+ATOM     25  O8  MLK d           1.584  -0.663 -13.710  0.00  0.00    -0.273 OA
+ATOM     26  C9  MLK d          -0.640  -0.930 -12.793  0.00  0.00     0.117 A 
+ATOM     27  C10 MLK d          -1.267  -2.155 -12.155  0.00  0.00     0.083 A 
+ATOM     28  C12 MLK d          -1.559  -1.962 -10.673  0.00  0.00     0.020 C 
+ATOM     29  C11 MLK d          -0.242  -3.226 -12.379  0.00  0.00     0.235 A 
+ATOM     30  O11 MLK d          -0.414  -4.385 -12.029  0.00  0.00    -0.272 OA
+ENDBRANCH  18  23
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   5  31
+ATOM     31  C30 MLK d           9.129   0.109 -13.388  0.00  0.00     0.009 C 
+ATOM     32  C33 MLK d          10.663   0.238 -13.467  0.00  0.00     0.015 C 
+ATOM     33  C34 MLK d          10.954   1.653 -13.954  0.00  0.00     0.044 C 
+ATOM     34  C35 MLK d          11.050   2.648 -12.803  0.00  0.00     0.130 C 
+ATOM     35  C38 MLK d           9.762   1.927 -14.830  0.00  0.00     0.135 C 
+ATOM     36  C36 MLK d           9.704   3.283 -12.411  0.00  0.00     0.074 C 
+ATOM     37  C32 MLK d           8.430   2.478 -12.740  0.00  0.00     0.102 C 
+ATOM     38  C31 MLK d           8.648   1.479 -13.888  0.00  0.00     0.058 C 
+BRANCH  34  39
+ATOM     39  O35 MLK d          11.967   3.705 -13.106  0.00  0.00    -0.390 OA
+ATOM     40  C37 MLK d          13.348   3.348 -12.913  0.00  0.00     0.202 C 
+ENDBRANCH  34  39
+BRANCH  37  41
+ATOM     41  O32 MLK d           7.441   3.412 -13.130  0.00  0.00    -0.386 OA
+ATOM     42  H46 MLK d           6.630   2.954 -13.317  0.00  0.00     0.210 HD
+ENDBRANCH  37  41
+BRANCH  35  43
+ATOM     43  O38 MLK d           9.724   3.282 -15.295  0.00  0.00    -0.390 OA
+ATOM     44  C39 MLK d           8.674   3.493 -16.241  0.00  0.00     0.202 C 
+ENDBRANCH  35  43
+ENDBRANCH   5  31
+BRANCH  11  45
+ATOM     45  O28 MLK d           6.039   1.340 -13.072  0.00  0.00    -0.387 OA
+ATOM     46  C29 MLK d           4.695   0.899 -13.212  0.00  0.00     0.202 C 
+ENDBRANCH  11  45
+BRANCH   8  47
+ATOM     47  C24 MLK d           8.999   1.182  -8.541  0.00  0.00     0.231 C 
+ATOM     48  C25 MLK d          10.503   1.330  -8.399  0.00  0.00     0.034 C 
+ENDBRANCH   8  47
+BRANCH   4  49
+ATOM     49  O19 MLK d          10.252  -1.675 -10.708  0.00  0.00    -0.390 OA
+ATOM     50  C22 MLK d          11.109  -2.800 -10.538  0.00  0.00     0.202 C 
+ENDBRANCH   4  49
+BRANCH  10  51
+ATOM     51  O27 MLK d           7.551   2.807 -10.552  0.00  0.00    -0.382 OA
+ATOM     52  H47 MLK d           6.902   3.389 -10.929  0.00  0.00     0.210 HD
+ENDBRANCH  10  51
+TORSDOF 14

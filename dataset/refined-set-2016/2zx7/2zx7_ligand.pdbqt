@@ -1,0 +1,54 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OAD_1  and  CAV_2 
+REMARK    2  A    between atoms: CAW_3  and  OAE_4 
+REMARK    3  A    between atoms: CAU_5  and  OAC_6 
+REMARK    4  A    between atoms: CAT_10  and  CAK_11 
+REMARK    5  A    between atoms: CAK_11  and  NAL_12 
+REMARK       I    between atoms: NAL_12  and  CAO_13 
+REMARK    6  A    between atoms: CAO_13  and  CAP_15 
+ROOT
+ATOM      1  CAV ZX7 d          -1.912  26.363  24.357  0.00  0.00     0.181 C 
+ATOM      2  CAW ZX7 d          -1.797  27.588  23.448  0.00  0.00     0.179 C 
+ATOM      3  CAU ZX7 d          -0.338  28.044  23.437  0.00  0.00     0.179 C 
+ATOM      4  CAS ZX7 d           0.150  28.303  24.868  0.00  0.00     0.213 C 
+ATOM      5  CAA ZX7 d           1.653  28.584  24.877  0.00  0.00     0.043 C 
+ATOM      6  NAM ZX7 d          -0.107  27.159  25.759  0.00  0.00    -0.060 N 
+ATOM      7  CAT ZX7 d          -1.528  26.773  25.782  0.00  0.00     0.235 C 
+ATOM      8  H11 ZX7 d           0.176  27.407  26.694  0.00  0.00     0.278 HD
+ATOM      9  H12 ZX7 d           0.437  26.372  25.441  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   7  10
+ATOM     10  CAK ZX7 d          -1.733  25.594  26.736  0.00  0.00     0.158 C 
+BRANCH  10  11
+ATOM     11  NAL ZX7 d          -1.619  25.979  28.151  0.00  0.00    -0.354 N 
+ATOM     12  CAO ZX7 d          -1.419  25.028  29.062  0.00  0.00     0.268 C 
+ATOM     13  OAB ZX7 d          -1.269  23.837  28.785  0.00  0.00    -0.266 OA
+ATOM     14  H16 ZX7 d          -1.690  26.938  28.424  0.00  0.00     0.162 HD
+BRANCH  12  15
+ATOM     15  CAP ZX7 d          -1.328  25.452  30.531  0.00  0.00     0.102 A 
+ATOM     16  CAJ ZX7 d          -1.787  24.674  31.505  0.00  0.00     0.049 A 
+ATOM     17  CAQ ZX7 d          -1.580  25.322  32.647  0.00  0.00    -0.007 A 
+ATOM     18  CAH ZX7 d          -1.910  25.005  33.960  0.00  0.00     0.014 A 
+ATOM     19  CAR ZX7 d          -0.960  26.527  32.330  0.00  0.00     0.043 A 
+ATOM     20  CAF ZX7 d          -1.615  25.906  34.977  0.00  0.00     0.001 A 
+ATOM     21  CAG ZX7 d          -0.987  27.107  34.660  0.00  0.00     0.002 A 
+ATOM     22  CAI ZX7 d          -0.654  27.425  33.346  0.00  0.00     0.030 A 
+ATOM     23  NAN ZX7 d          -0.823  26.586  31.008  0.00  0.00    -0.351 N 
+ATOM     24  H22 ZX7 d          -0.409  27.356  30.463  0.00  0.00     0.166 HD
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+ENDBRANCH   7  10
+BRANCH   1  25
+ATOM     25  OAD ZX7 d          -3.243  25.847  24.306  0.00  0.00    -0.391 OA
+ATOM     26  H1  ZX7 d          -3.451  25.597  23.413  0.00  0.00     0.210 HD
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  OAE ZX7 d          -2.230  27.239  22.134  0.00  0.00    -0.390 OA
+ATOM     28  H4  ZX7 d          -3.134  26.949  22.166  0.00  0.00     0.210 HD
+ENDBRANCH   2  27
+BRANCH   3  29
+ATOM     29  OAC ZX7 d           0.458  27.032  22.815  0.00  0.00    -0.391 OA
+ATOM     30  H6  ZX7 d           0.156  26.896  21.924  0.00  0.00     0.210 HD
+ENDBRANCH   3  29
+TORSDOF 6

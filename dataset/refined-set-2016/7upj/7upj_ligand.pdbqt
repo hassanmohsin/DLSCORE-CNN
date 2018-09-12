@@ -1,0 +1,62 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  CG1_15 
+REMARK    2  A    between atoms: CA6_7  and  OA6_8 
+REMARK    3  A    between atoms: CG1_15  and  CB1_9 
+REMARK    4  A    between atoms: CB5_13  and  N_25 
+REMARK    5  A    between atoms: CG1_15  and  CG2_16 
+REMARK    6  A    between atoms: N_25  and  S_26 
+REMARK    7  A    between atoms: S_26  and  CE1_29 
+ROOT
+ATOM      1  CG1 INU d          11.910  25.051   4.833  0.00  0.00     0.065 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CA  INU d          12.963  24.100   5.373  0.00  0.00     0.060 A 
+ATOM      3  CA6 INU d          14.312  24.482   5.355  0.00  0.00     0.087 A 
+ATOM      4  CA5 INU d          15.271  23.623   5.889  0.00  0.00     0.006 A 
+ATOM      5  CA4 INU d          14.830  22.403   6.423  0.00  0.00     0.066 A 
+ATOM      6  CD6 INU d          16.737  24.009   5.909  0.00  0.00     0.044 C 
+ATOM      7  OA3 INU d          13.486  21.977   6.469  0.00  0.00    -0.279 OA
+ATOM      8  CD1 INU d          15.768  21.383   7.050  0.00  0.00     0.066 C 
+ATOM      9  CA2 INU d          12.594  22.844   5.947  0.00  0.00     0.297 A 
+ATOM     10  OA2 INU d          11.447  22.544   6.022  0.00  0.00    -0.259 OA
+ATOM     11  CD2 INU d          15.978  21.556   8.539  0.00  0.00     0.006 C 
+ATOM     12  CD3 INU d          16.214  22.987   8.994  0.00  0.00     0.000 C 
+ATOM     13  CD4 INU d          17.492  23.659   8.442  0.00  0.00     0.000 C 
+ATOM     14  CD5 INU d          17.302  24.628   7.252  0.00  0.00     0.005 C 
+BRANCH   3  15
+ATOM     15  OA6 INU d          14.725  25.675   4.830  0.00  0.00    -0.359 OA
+ATOM     16  H1  INU d          13.972  26.154   4.505  0.00  0.00     0.217 HD
+ENDBRANCH   3  15
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  CG2 INU d          10.934  24.388   3.837  0.00  0.00    -0.001 A 
+ATOM     18  CG4 INU d          10.215  25.197   2.775  0.00  0.00     0.006 A 
+ATOM     19  CG3 INU d          11.362  24.270   2.383  0.00  0.00     0.006 A 
+ENDBRANCH   1  17
+BRANCH   1  20
+ATOM     20  CB1 INU d          11.272  25.856   5.936  0.00  0.00    -0.047 A 
+ATOM     21  CB6 INU d           9.872  26.100   5.949  0.00  0.00     0.038 A 
+ATOM     22  CB5 INU d           9.280  26.926   6.950  0.00  0.00     0.043 A 
+ATOM     23  CB4 INU d          10.110  27.495   7.953  0.00  0.00     0.030 A 
+ATOM     24  CB3 INU d          11.487  27.246   7.930  0.00  0.00     0.003 A 
+ATOM     25  CB2 INU d          12.082  26.440   6.943  0.00  0.00     0.008 A 
+BRANCH  22  26
+ATOM     26  N   INU d           7.891  27.277   6.908  0.00  0.00    -0.281 N 
+ATOM     27  H24 INU d           7.192  26.711   7.345  0.00  0.00     0.179 HD
+BRANCH  26  28
+ATOM     28  S   INU d           7.503  28.678   6.093  0.00  0.00     0.263 S 
+ATOM     29  O2  INU d           8.511  29.640   6.439  0.00  0.00    -0.200 OA
+ATOM     30  O1  INU d           6.159  28.970   6.543  0.00  0.00    -0.200 OA
+BRANCH  28  31
+ATOM     31  CE1 INU d           7.484  28.220   4.412  0.00  0.00     0.079 A 
+ATOM     32  CE6 INU d           8.539  28.596   3.528  0.00  0.00     0.025 A 
+ATOM     33  CE5 INU d           8.489  28.186   2.189  0.00  0.00     0.002 A 
+ATOM     34  CE4 INU d           7.407  27.408   1.726  0.00  0.00     0.000 A 
+ATOM     35  CE3 INU d           6.368  27.032   2.604  0.00  0.00     0.002 A 
+ATOM     36  CE2 INU d           6.397  27.430   3.937  0.00  0.00     0.025 A 
+ENDBRANCH  28  31
+ENDBRANCH  26  28
+ENDBRANCH  22  26
+ENDBRANCH   1  20
+TORSDOF 7

@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  N12_10 
+REMARK    2  A    between atoms: C4_4  and  C18_16 
+REMARK       I    between atoms: N12_10  and  C13_11 
+REMARK    3  A    between atoms: C13_11  and  C14_12 
+ROOT
+ATOM      1  C1  OAI d          45.273  11.816   2.090  0.00  0.00     0.044 A 
+ATOM      2  C2  OAI d          45.406  12.893   2.908  0.00  0.00     0.061 A 
+ATOM      3  C3  OAI d          44.728  14.090   2.617  0.00  0.00     0.054 A 
+ATOM      4  C4  OAI d          43.930  14.162   1.451  0.00  0.00     0.068 A 
+ATOM      5  C5  OAI d          43.776  13.025   0.627  0.00  0.00     0.034 A 
+ATOM      6  C6  OAI d          44.432  11.872   0.952  0.00  0.00    -0.007 A 
+ATOM      7  C9  OAI d          44.506  10.604   0.300  0.00  0.00     0.030 A 
+ATOM      8  C10 OAI d          45.420   9.859   1.055  0.00  0.00     0.089 A 
+ATOM      9  N11 OAI d          45.861  10.573   2.103  0.00  0.00    -0.365 N 
+ATOM     10  H5  OAI d          46.535  10.241   2.808  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   3  11
+ATOM     11  N12 OAI d          44.825  15.182   3.428  0.00  0.00    -0.317 N 
+ATOM     12  C13 OAI d          45.473  15.388   4.638  0.00  0.00     0.322 C 
+ATOM     13  O17 OAI d          46.040  14.498   5.277  0.00  0.00    -0.261 OA
+ATOM     14  H6  OAI d          44.337  15.986   3.087  0.00  0.00     0.169 HD
+BRANCH  12  15
+ATOM     15  C14 OAI d          45.166  16.769   5.248  0.00  0.00     0.270 C 
+ATOM     16  O16 OAI d          43.863  17.105   5.133  0.00  0.00    -0.640 OA
+ATOM     17  O15 OAI d          45.886  17.431   5.904  0.00  0.00    -0.640 OA
+ENDBRANCH  12  15
+ENDBRANCH   3  11
+BRANCH   4  18
+ATOM     18  C18 OAI d          43.301  15.419   1.066  0.00  0.00     0.211 C 
+ATOM     19  O20 OAI d          42.963  15.437  -0.220  0.00  0.00    -0.644 OA
+ATOM     20  O19 OAI d          43.098  16.293   1.856  0.00  0.00    -0.644 OA
+ENDBRANCH   4  18
+TORSDOF 3

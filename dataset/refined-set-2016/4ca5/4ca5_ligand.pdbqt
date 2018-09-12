@@ -1,0 +1,115 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OBJ_8  and  CBB_7 
+REMARK    2  A    between atoms: CBB_7  and  CBP_10 
+REMARK    3  A    between atoms: CBM_9  and  OBJ_8 
+REMARK       I    between atoms: NBI_15  and  CBM_9 
+REMARK    4  A    between atoms: PBY_12  and  CBX_14 
+REMARK    5  A    between atoms: CBF_31  and  PBY_12 
+REMARK    6  A    between atoms: CBX_14  and  NBI_15 
+REMARK    7  A    between atoms: CBX_14  and  CBE_16 
+REMARK    8  A    between atoms: CBE_16  and  CBQ_17 
+REMARK    9  A    between atoms: CBS_35  and  CBC_30 
+REMARK   10  A    between atoms: CBC_30  and  CBV_38 
+REMARK   11  A    between atoms: CBV_38  and  CBF_31 
+REMARK   12  A    between atoms: CBV_38  and  CBN_34 
+REMARK       I    between atoms: CBN_34  and  N_39 
+REMARK   13  A    between atoms: CBT_36  and  CBU_37 
+REMARK   14  A    between atoms: N_39  and  CA_40 
+REMARK   15  A    between atoms: CA_40  and  C_41 
+REMARK   16  A    between atoms: CA_40  and  CB_43 
+REMARK   17  A    between atoms: CB_43  and  CG_44 
+REMARK   18  A    between atoms: CZ_49  and  OH_50 
+ROOT
+ATOM      1  CBV 3EF d          14.285  -8.259 -21.281  0.00  0.00     0.093 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CBC 3EF d          14.718  -9.726 -21.510  0.00  0.00     0.082 C 
+BRANCH   2   3
+ATOM      3  CBS 3EF d          15.387  -9.936 -22.878  0.00  0.00     0.082 A 
+ATOM      4  CBA 3EF d          15.161 -10.964 -23.726  0.00  0.00     0.069 A 
+ATOM      5  CBU 3EF d          15.931 -10.772 -24.808  0.00  0.00     0.097 A 
+ATOM      6  NBG 3EF d          16.646  -9.663 -24.663  0.00  0.00    -0.128 NA
+ATOM      7  OBK 3EF d          16.305  -9.077 -23.392  0.00  0.00    -0.217 OA
+BRANCH   5   8
+ATOM      8  CBT 3EF d          16.063 -11.568 -25.899  0.00  0.00    -0.005 A 
+ATOM      9  CAU 3EF d          16.742 -11.091 -27.029  0.00  0.00     0.014 A 
+ATOM     10  CAO 3EF d          16.923 -11.906 -28.155  0.00  0.00     0.001 A 
+ATOM     11  CAJ 3EF d          16.437 -13.220 -28.155  0.00  0.00     0.000 A 
+ATOM     12  CAP 3EF d          15.775 -13.713 -27.026  0.00  0.00     0.001 A 
+ATOM     13  CAV 3EF d          15.598 -12.888 -25.905  0.00  0.00     0.014 A 
+ENDBRANCH   5   8
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  CBF 3EF d          13.933  -8.123 -19.802  0.00  0.00     0.120 C 
+BRANCH  14  15
+ATOM     15  PBY 3EF d          14.067  -6.424 -19.270  0.00  0.00     0.130 P 
+ATOM     16  OAD 3EF d          13.585  -5.504 -20.328  0.00  0.00    -0.666 OA
+ATOM     17  OAG 3EF d          15.461  -6.218 -18.809  0.00  0.00    -0.666 OA
+BRANCH  15  18
+ATOM     18  CBX 3EF d          13.001  -6.255 -17.798  0.00  0.00     0.182 C 
+BRANCH  18  19
+ATOM     19  NBI 3EF d          13.140  -4.844 -17.408  0.00  0.00    -0.322 N 
+ATOM     20  CBM 3EF d          13.875  -4.428 -16.371  0.00  0.00     0.361 C 
+ATOM     21  OAB 3EF d          14.530  -5.231 -15.687  0.00  0.00    -0.238 OA
+ATOM     22  H9  3EF d          12.657  -4.156 -17.949  0.00  0.00     0.165 HD
+BRANCH  20  23
+ATOM     23  OBJ 3EF d          13.874  -3.098 -16.118  0.00  0.00    -0.299 OA
+BRANCH  23  24
+ATOM     24  CBB 3EF d          14.766  -2.590 -15.090  0.00  0.00     0.219 C 
+BRANCH  24  25
+ATOM     25  CBP 3EF d          14.498  -1.204 -14.915  0.00  0.00    -0.034 A 
+ATOM     26  CAQ 3EF d          14.201  -0.694 -13.650  0.00  0.00     0.009 A 
+ATOM     27  CAK 3EF d          13.948   0.672 -13.480  0.00  0.00     0.001 A 
+ATOM     28  CAH 3EF d          13.972   1.538 -14.573  0.00  0.00     0.000 A 
+ATOM     29  CAL 3EF d          14.262   1.035 -15.835  0.00  0.00     0.001 A 
+ATOM     30  CAR 3EF d          14.524  -0.333 -16.007  0.00  0.00     0.009 A 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH  18  19
+BRANCH  18  31
+ATOM     31  CBE 3EF d          11.502  -6.510 -18.056  0.00  0.00     0.074 C 
+BRANCH  31  32
+ATOM     32  CBQ 3EF d          10.754  -6.327 -16.856  0.00  0.00    -0.056 A 
+ATOM     33  CAS 3EF d          10.519  -7.410 -16.007  0.00  0.00     0.007 A 
+ATOM     34  CAM 3EF d           9.794  -7.259 -14.818  0.00  0.00     0.001 A 
+ATOM     35  CAI 3EF d           9.302  -5.997 -14.456  0.00  0.00     0.000 A 
+ATOM     36  CAN 3EF d           9.548  -4.891 -15.284  0.00  0.00     0.001 A 
+ATOM     37  CAT 3EF d          10.260  -5.061 -16.480  0.00  0.00     0.007 A 
+ENDBRANCH  31  32
+ENDBRANCH  18  31
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+BRANCH   1  38
+ATOM     38  CBN 3EF d          13.014  -8.025 -22.093  0.00  0.00     0.223 C 
+ATOM     39  OAC 3EF d          11.893  -8.126 -21.585  0.00  0.00    -0.273 OA
+ATOM     40  N   3EF d          13.222  -7.732 -23.380  0.00  0.00    -0.346 N 
+ATOM     41  H28 3EF d          14.157  -7.616 -23.716  0.00  0.00     0.163 HD
+BRANCH  40  42
+ATOM     42  CA  3EF d          12.102  -7.579 -24.300  0.00  0.00     0.189 C 
+BRANCH  42  43
+ATOM     43  C   3EF d          11.514  -8.980 -24.618  0.00  0.00     0.197 C 
+ATOM     44  O   3EF d          10.499  -9.012 -25.334  0.00  0.00    -0.646 OA
+ATOM     45  OXT 3EF d          12.067  -9.992 -24.100  0.00  0.00    -0.646 OA
+ENDBRANCH  42  43
+BRANCH  42  46
+ATOM     46  CB  3EF d          12.537  -6.853 -25.585  0.00  0.00     0.074 C 
+BRANCH  46  47
+ATOM     47  CG  3EF d          13.799  -7.077 -26.140  0.00  0.00    -0.056 A 
+ATOM     48  CD1 3EF d          13.942  -7.962 -27.213  0.00  0.00     0.010 A 
+ATOM     49  CE1 3EF d          15.203  -8.165 -27.792  0.00  0.00     0.037 A 
+ATOM     50  CZ  3EF d          16.320  -7.469 -27.311  0.00  0.00     0.065 A 
+ATOM     51  CE2 3EF d          16.177  -6.578 -26.247  0.00  0.00     0.037 A 
+ATOM     52  CD2 3EF d          14.921  -6.374 -25.666  0.00  0.00     0.010 A 
+BRANCH  50  53
+ATOM     53  OH  3EF d          17.549  -7.661 -27.888  0.00  0.00    -0.361 OA
+ATOM     54  H36 3EF d          17.472  -8.294 -28.592  0.00  0.00     0.217 HD
+ENDBRANCH  50  53
+ENDBRANCH  46  47
+ENDBRANCH  42  46
+ENDBRANCH  40  42
+ENDBRANCH   1  38
+TORSDOF 18

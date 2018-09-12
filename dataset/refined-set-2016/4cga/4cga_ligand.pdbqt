@@ -1,0 +1,47 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAW_2  and  CAV_4 
+REMARK    2  A    between atoms: NAX_9  and  CAR_10 
+REMARK    3  A    between atoms: CAR_10  and  CAU_11 
+REMARK    4  A    between atoms: CAT_16  and  CAQ_17 
+REMARK    5  A    between atoms: CAQ_17  and  CAP_18 
+REMARK    6  A    between atoms: CAP_18  and  CAS_19 
+ROOT
+ATOM      1  CAU QLW d         -16.790   9.309   8.706  0.00  0.00    -0.040 A 
+ATOM      2  CAK QLW d         -16.327   9.937   7.550  0.00  0.00     0.009 A 
+ATOM      3  CAI QLW d         -16.139   9.223   6.355  0.00  0.00     0.007 A 
+ATOM      4  CAJ QLW d         -17.077   7.942   8.640  0.00  0.00     0.009 A 
+ATOM      5  CAH QLW d         -16.907   7.218   7.452  0.00  0.00     0.007 A 
+ATOM      6  CAT QLW d         -16.448   7.855   6.295  0.00  0.00    -0.058 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CAR QLW d         -16.966  10.042   9.920  0.00  0.00     0.166 C 
+BRANCH   7   8
+ATOM      8  NAX QLW d         -18.107  10.956   9.782  0.00  0.00    -0.362 N 
+ATOM      9  CAO QLW d         -17.939  12.343   9.906  0.00  0.00     0.093 A 
+ATOM     10  CAM QLW d         -19.048  13.163   9.740  0.00  0.00     0.046 A 
+ATOM     11  CAV QLW d         -20.322  12.645   9.465  0.00  0.00     0.032 A 
+ATOM     12  CAL QLW d         -20.474  11.268   9.349  0.00  0.00     0.046 A 
+ATOM     13  CAN QLW d         -19.378  10.425   9.502  0.00  0.00     0.093 A 
+BRANCH  11  14
+ATOM     14  NAW QLW d         -21.362  13.485   9.292  0.00  0.00    -0.389 N 
+ATOM     15  CAA QLW d         -21.085  14.933   9.332  0.00  0.00     0.149 C 
+ATOM     16  CAB QLW d         -22.711  12.960   8.958  0.00  0.00     0.149 C 
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  17
+ATOM     17  CAQ QLW d         -16.247   7.114   5.108  0.00  0.00     0.043 C 
+BRANCH  17  18
+ATOM     18  CAP QLW d         -17.427   7.134   4.128  0.00  0.00     0.043 C 
+BRANCH  18  19
+ATOM     19  CAS QLW d         -17.155   6.301   3.022  0.00  0.00    -0.058 A 
+ATOM     20  CAF QLW d         -16.030   6.514   2.213  0.00  0.00     0.007 A 
+ATOM     21  CAD QLW d         -15.770   5.683   1.119  0.00  0.00     0.001 A 
+ATOM     22  CAC QLW d         -16.641   4.630   0.821  0.00  0.00     0.000 A 
+ATOM     23  CAE QLW d         -17.765   4.419   1.620  0.00  0.00     0.001 A 
+ATOM     24  CAG QLW d         -18.020   5.250   2.715  0.00  0.00     0.007 A 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH   6  17
+TORSDOF 6

@@ -1,0 +1,54 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C11_16  and  C10_3 
+REMARK    2  A    between atoms: C15_5  and  C14_18 
+REMARK       I    between atoms: N17_20  and  C15_5 
+REMARK    3  A    between atoms: C18_21  and  N17_20 
+REMARK    4  A    between atoms: C19_22  and  C18_21 
+REMARK    5  A    between atoms: C19_22  and  N20_23 
+ROOT
+ATOM      1  C13 AJ7 d           5.171  10.159  -6.036  0.00  0.00     0.018 A 
+ATOM      2  C26 AJ7 d           7.561  10.526  -6.092  0.00  0.00     0.042 A 
+ATOM      3  C11 AJ7 d           6.259  10.602  -8.163  0.00  0.00    -0.004 A 
+ATOM      4  C12 AJ7 d           5.113  10.313  -7.410  0.00  0.00     0.015 A 
+ATOM      5  C14 AJ7 d           6.389  10.231  -5.370  0.00  0.00     0.033 A 
+ATOM      6  C27 AJ7 d           7.520  10.703  -7.467  0.00  0.00     0.046 A 
+ATOM      7 CL   AJ7 d           9.028  11.064  -8.248  0.00  0.00    -0.083 Cl
+ENDROOT
+BRANCH   3   8
+ATOM      8  C10 AJ7 d           6.135  10.875  -9.625  0.00  0.00    -0.022 A 
+ATOM      9  C9  AJ7 d           6.987  10.320 -10.585  0.00  0.00     0.042 A 
+ATOM     10  C8  AJ7 d           6.805  10.641 -11.927  0.00  0.00     0.046 A 
+ATOM     11  N6  AJ7 d           7.640  10.067 -12.885  0.00  0.00    -0.323 N 
+ATOM     12  C31 AJ7 d           5.824  11.610 -12.340  0.00  0.00    -0.003 A 
+ATOM     13  C4  AJ7 d           7.570  10.410 -14.180  0.00  0.00     0.246 A 
+ATOM     14  H13 AJ7 d           8.309   9.381 -12.599  0.00  0.00     0.169 HD
+ATOM     15  C3  AJ7 d           6.615  11.382 -14.699  0.00  0.00     0.082 A 
+ATOM     16  O5  AJ7 d           8.366   9.852 -14.870  0.00  0.00    -0.268 OA
+ATOM     17  C2  AJ7 d           5.730  11.968 -13.783  0.00  0.00    -0.044 A 
+ATOM     18  C1  AJ7 d           4.711  13.030 -14.202  0.00  0.00     0.049 C 
+ATOM     19  C30 AJ7 d           4.990  12.210 -11.328  0.00  0.00     0.015 A 
+ATOM     20  C29 AJ7 d           5.179  11.841 -10.014  0.00  0.00     0.013 A 
+ENDBRANCH   3   8
+BRANCH   5  21
+ATOM     21  C15 AJ7 d           6.430  10.089  -3.887  0.00  0.00     0.251 C 
+ATOM     22  O16 AJ7 d           7.397  10.540  -3.302  0.00  0.00    -0.268 OA
+ATOM     23  N17 AJ7 d           5.386   9.621  -3.183  0.00  0.00    -0.355 N 
+ATOM     24  H16 AJ7 d           4.576   9.303  -3.676  0.00  0.00     0.162 HD
+BRANCH  23  25
+ATOM     25  C18 AJ7 d           5.390   9.559  -1.700  0.00  0.00     0.150 C 
+BRANCH  25  26
+ATOM     26  C19 AJ7 d           4.754  10.871  -1.174  0.00  0.00     0.254 C 
+BRANCH  26  27
+ATOM     27  N20 AJ7 d           4.786  11.082   0.305  0.00  0.00    -0.066 N 
+ATOM     28  C21 AJ7 d           3.605  10.492   1.031  0.00  0.00     0.261 C 
+ATOM     29  C22 AJ7 d           3.656  10.627   2.576  0.00  0.00     0.195 C 
+ATOM     30  O23 AJ7 d           4.993  10.463   3.110  0.00  0.00    -0.388 OA
+ATOM     31  C24 AJ7 d           6.033  10.020   2.201  0.00  0.00     0.195 C 
+ATOM     32  C25 AJ7 d           6.121  10.971   0.981  0.00  0.00     0.261 C 
+ATOM     33  H21 AJ7 d           4.606  12.071   0.380  0.00  0.00     0.280 HD
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+ENDBRANCH  23  25
+ENDBRANCH   5  21
+TORSDOF 5

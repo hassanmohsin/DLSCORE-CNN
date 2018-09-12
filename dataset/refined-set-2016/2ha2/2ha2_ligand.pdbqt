@@ -1,0 +1,58 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_2  and  O14_3 
+REMARK    2  A    between atoms: C12_2  and  C11_10 
+REMARK    3  A    between atoms: O14_3  and  C15_4 
+REMARK    4  A    between atoms: C15_4  and  C16_5 
+REMARK    5  A    between atoms: C16_5  and  N17_6 
+REMARK    6  A    between atoms: C11_10  and  C6_11 
+REMARK    7  A    between atoms: C6_11  and  C5_12 
+REMARK    8  A    between atoms: C5_12  and  O4_14 
+REMARK    9  A    between atoms: O4_14  and  C3_15 
+REMARK   10  A    between atoms: C3_15  and  C2_16 
+REMARK   11  A    between atoms: C2_16  and  N1_17 
+ROOT
+ATOM      1  C11 SCK d          29.536  21.672  10.440  0.00  0.00     0.121 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C12 SCK d          29.863  22.352  11.743  0.00  0.00     0.259 C 
+ATOM      3  O13 SCK d          30.867  23.033  11.853  0.00  0.00    -0.265 OA
+BRANCH   2   4
+ATOM      4  O14 SCK d          28.980  22.207  12.882  0.00  0.00    -0.320 OA
+BRANCH   4   5
+ATOM      5  C15 SCK d          28.621  20.906  13.325  0.00  0.00     0.206 C 
+BRANCH   5   6
+ATOM      6  C16 SCK d          27.326  20.993  14.114  0.00  0.00     0.262 C 
+BRANCH   6   7
+ATOM      7  N17 SCK d          26.850  19.630  14.360  0.00  0.00    -0.077 N 
+ATOM      8  C20 SCK d          27.620  19.025  15.450  0.00  0.00     0.271 C 
+ATOM      9  C19 SCK d          25.431  19.667  14.719  0.00  0.00     0.271 C 
+ATOM     10  C18 SCK d          27.031  18.839  13.141  0.00  0.00     0.271 C 
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C6  SCK d          30.412  22.266   9.352  0.00  0.00     0.121 C 
+BRANCH  11  12
+ATOM     12  C5  SCK d          31.777  21.644   9.439  0.00  0.00     0.259 C 
+ATOM     13  O7  SCK d          31.898  20.442   9.573  0.00  0.00    -0.265 OA
+BRANCH  12  14
+ATOM     14  O4  SCK d          32.962  22.473   9.366  0.00  0.00    -0.320 OA
+BRANCH  14  15
+ATOM     15  C3  SCK d          34.155  21.943   8.801  0.00  0.00     0.206 C 
+BRANCH  15  16
+ATOM     16  C2  SCK d          34.990  23.074   8.218  0.00  0.00     0.262 C 
+BRANCH  16  17
+ATOM     17  N1  SCK d          35.794  23.676   9.280  0.00  0.00    -0.077 N 
+ATOM     18  C8  SCK d          36.464  22.612  10.032  0.00  0.00     0.271 C 
+ATOM     19  C9  SCK d          36.793  24.573   8.697  0.00  0.00     0.271 C 
+ATOM     20  C10 SCK d          34.925  24.443  10.173  0.00  0.00     0.271 C 
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 11

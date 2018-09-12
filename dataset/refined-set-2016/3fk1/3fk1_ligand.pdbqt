@@ -1,0 +1,29 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  P1_8 
+REMARK    2  A    between atoms: N1_10  and  C1_1 
+REMARK    3  A    between atoms: C2_2  and  C3_3 
+REMARK    4  A    between atoms: C2_2  and  N1_10 
+ROOT
+ATOM      1  N1  GPF d          60.710   8.582  29.397  0.00  0.00    -0.053 N 
+ATOM      2  H5  GPF d          60.330   9.515  29.417  0.00  0.00     0.278 HD
+ATOM      3  H6  GPF d          61.710   8.629  29.279  0.00  0.00     0.278 HD
+ENDROOT
+BRANCH   1   4
+ATOM      4  C1  GPF d          60.176   7.931  28.233  0.00  0.00     0.377 C 
+BRANCH   4   5
+ATOM      5  P1  GPF d          60.603   8.790  26.828  0.00  0.00     0.285 P 
+ATOM      6  O1  GPF d          60.631  10.272  27.124  0.00  0.00    -0.638 OA
+ATOM      7  O2  GPF d          59.532   8.394  25.847  0.00  0.00    -0.638 OA
+ATOM      8  O3  GPF d          62.005   8.287  26.460  0.00  0.00    -0.638 OA
+ENDBRANCH   4   5
+ENDBRANCH   1   4
+BRANCH   1   9
+ATOM      9  C2  GPF d          60.459   7.990  30.695  0.00  0.00     0.345 C 
+BRANCH   9  10
+ATOM     10  C3  GPF d          60.973   8.847  31.749  0.00  0.00     0.199 C 
+ATOM     11  O4  GPF d          61.527   9.979  31.426  0.00  0.00    -0.647 OA
+ATOM     12  O5  GPF d          60.827   8.430  32.868  0.00  0.00    -0.647 OA
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 4

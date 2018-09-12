@@ -1,0 +1,98 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C10_10 
+REMARK    2  A    between atoms: O13_13  and  C4_4 
+REMARK    3  A    between atoms: C7_7  and  C11_11 
+REMARK    4  A    between atoms: C10_10  and  C14_14 
+REMARK    5  A    between atoms: C10_10  and  O13_13 
+REMARK    6  A    between atoms: C11_11  and  C12_12 
+REMARK    7  A    between atoms: C12_12  and  N17_17 
+REMARK    8  A    between atoms: C12_12  and  C18_18 
+REMARK       I    between atoms: N17_17  and  C19_19 
+REMARK       I    between atoms: C18_18  and  N20_20 
+REMARK       I    between atoms: C19_19  and  N28_28 
+REMARK    9  A    between atoms: N20_20  and  C22_22 
+REMARK   10  A    between atoms: C22_22  and  C23_23 
+REMARK   11  A    between atoms: C23_23  and  C24_24 
+REMARK   12  A    between atoms: C24_24  and  C25_25 
+REMARK   13  A    between atoms: N28_28  and  C29_29 
+REMARK   14  A    between atoms: C29_29  and  C31_31 
+REMARK   15  A    between atoms: C29_29  and  C30_30 
+REMARK   16  A    between atoms: C30_30  and  C34_34 
+ROOT
+ATOM      1  C12 INZ d           9.229  18.738   9.400  0.00  0.00     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C11 INZ d           9.913  17.342   9.226  0.00  0.00     0.073 C 
+BRANCH   2   3
+ATOM      3  C7  INZ d          11.194  17.185   9.998  0.00  0.00    -0.056 A 
+ATOM      4  C6  INZ d          12.342  16.778   9.287  0.00  0.00     0.010 A 
+ATOM      5  C5  INZ d          13.529  16.622   9.984  0.00  0.00     0.037 A 
+ATOM      6  C4  INZ d          13.620  16.845  11.370  0.00  0.00     0.070 A 
+ATOM      7  C9  INZ d          12.478  17.257  12.086  0.00  0.00     0.037 A 
+ATOM      8  C8  INZ d          11.268  17.430  11.378  0.00  0.00     0.010 A 
+BRANCH   6   9
+ATOM      9  O13 INZ d          14.849  16.627  11.935  0.00  0.00    -0.324 OA
+BRANCH   9  10
+ATOM     10  C10 INZ d          15.115  17.100  13.292  0.00  0.00     0.329 C 
+BRANCH  10  11
+ATOM     11  C1  INZ d          16.631  16.912  13.464  0.00  0.00     0.214 C 
+ATOM     12  O3  INZ d          17.243  16.147  12.773  0.00  0.00    -0.646 OA
+ATOM     13  O2  INZ d          17.112  17.666  14.443  0.00  0.00    -0.646 OA
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C14 INZ d          14.461  16.248  14.392  0.00  0.00     0.214 C 
+ATOM     15  O16 INZ d          14.101  15.011  14.024  0.00  0.00    -0.646 OA
+ATOM     16  O15 INZ d          14.310  16.662  15.530  0.00  0.00    -0.646 OA
+ENDBRANCH  10  14
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  N17 INZ d           7.979  18.666   8.649  0.00  0.00    -0.330 N 
+ATOM     18  C19 INZ d           6.917  19.313   9.130  0.00  0.00     0.317 C 
+ATOM     19  N28 INZ d           5.755  19.004   8.557  0.00  0.00    -0.328 N 
+ATOM     20  O27 INZ d           7.049  20.207  10.026  0.00  0.00    -0.247 OA
+ATOM     21  H22 INZ d           5.699  18.279   7.870  0.00  0.00     0.165 HD
+ATOM     22  H9  INZ d           7.921  18.146   7.797  0.00  0.00     0.165 HD
+BRANCH  19  23
+ATOM     23  C29 INZ d           4.554  19.756   8.960  0.00  0.00     0.191 C 
+BRANCH  23  24
+ATOM     24  C31 INZ d           3.339  18.836   8.850  0.00  0.00     0.197 C 
+ATOM     25  O33 INZ d           2.230  19.176   9.139  0.00  0.00    -0.646 OA
+ATOM     26  O32 INZ d           3.681  17.584   8.501  0.00  0.00    -0.646 OA
+ENDBRANCH  23  24
+BRANCH  23  27
+ATOM     27  C30 INZ d           4.442  21.006   8.008  0.00  0.00     0.074 C 
+BRANCH  27  28
+ATOM     28  C34 INZ d           4.186  20.593   6.562  0.00  0.00    -0.056 A 
+ATOM     29  C39 INZ d           2.877  20.617   6.051  0.00  0.00     0.007 A 
+ATOM     30  C38 INZ d           2.625  20.230   4.719  0.00  0.00     0.001 A 
+ATOM     31  C37 INZ d           3.680  19.820   3.894  0.00  0.00     0.000 A 
+ATOM     32  C36 INZ d           4.983  19.795   4.387  0.00  0.00     0.001 A 
+ATOM     33  C35 INZ d           5.233  20.183   5.724  0.00  0.00     0.007 A 
+ENDBRANCH  27  28
+ENDBRANCH  23  27
+ENDBRANCH  19  23
+ENDBRANCH   1  17
+BRANCH   1  34
+ATOM     34  C18 INZ d          10.060  19.829   8.677  0.00  0.00     0.240 C 
+ATOM     35  N20 INZ d          10.039  19.724   7.336  0.00  0.00    -0.359 N 
+ATOM     36  H10 INZ d           9.326  19.157   6.923  0.00  0.00     0.162 HD
+ATOM     37  O21 INZ d          10.876  20.485   9.326  0.00  0.00    -0.271 OA
+BRANCH  35  38
+ATOM     38  C22 INZ d          10.984  20.380   6.446  0.00  0.00     0.122 C 
+BRANCH  38  39
+ATOM     39  C23 INZ d          11.350  19.436   5.279  0.00  0.00     0.020 C 
+BRANCH  39  40
+ATOM     40  C24 INZ d          11.513  17.950   5.733  0.00  0.00     0.001 C 
+BRANCH  40  41
+ATOM     41  C25 INZ d          11.796  17.030   4.522  0.00  0.00    -0.004 C 
+ATOM     42  C26 INZ d          13.290  16.755   4.429  0.00  0.00     0.005 C 
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  38  39
+ENDBRANCH  35  38
+ENDBRANCH   1  34
+TORSDOF 16

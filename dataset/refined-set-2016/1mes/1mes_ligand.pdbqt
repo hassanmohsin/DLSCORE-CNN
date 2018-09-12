@@ -1,0 +1,93 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_2  and  C30_14 
+REMARK    2  A    between atoms: C4_3  and  O4_39 
+REMARK    3  A    between atoms: C5_4  and  O5_40 
+REMARK    4  A    between atoms: C6_5  and  C60_21 
+REMARK    5  A    between atoms: N2_36  and  C20_6 
+REMARK    6  A    between atoms: C20_6  and  C21_7 
+REMARK    7  A    between atoms: C24_10  and  C27_13 
+REMARK    8  A    between atoms: C27_13  and  O27_41 
+REMARK    9  A    between atoms: C30_14  and  C31_15 
+REMARK   10  A    between atoms: C60_21  and  C61_22 
+REMARK   11  A    between atoms: N7_37  and  C70_28 
+REMARK   12  A    between atoms: C70_28  and  C71_29 
+REMARK   13  A    between atoms: C74_32  and  C77_35 
+REMARK   14  A    between atoms: C77_35  and  O77_42 
+ROOT
+ATOM      1  C1  DMP d          -8.869  15.378  27.964  0.00  0.00     0.322 C 
+ATOM      2  C3  DMP d          -8.815  17.672  26.960  0.00  0.00     0.124 C 
+ATOM      3  C4  DMP d         -10.199  18.248  27.179  0.00  0.00     0.172 C 
+ATOM      4  C5  DMP d         -10.669  18.006  28.598  0.00  0.00     0.172 C 
+ATOM      5  C6  DMP d         -10.909  16.541  28.885  0.00  0.00     0.124 C 
+ATOM      6  N2  DMP d          -8.658  16.207  26.925  0.00  0.00    -0.322 N 
+ATOM      7  N7  DMP d          -9.736  15.638  28.963  0.00  0.00    -0.322 N 
+ATOM      8  O1  DMP d          -8.248  14.324  27.998  0.00  0.00    -0.247 OA
+ENDROOT
+BRANCH   6   9
+ATOM      9  C20 DMP d          -8.011  15.606  25.770  0.00  0.00     0.166 C 
+BRANCH   9  10
+ATOM     10  C21 DMP d          -8.474  16.051  24.425  0.00  0.00    -0.040 A 
+ATOM     11  C26 DMP d          -7.476  16.178  23.446  0.00  0.00     0.009 A 
+ATOM     12  C25 DMP d          -7.848  16.523  22.138  0.00  0.00     0.010 A 
+ATOM     13  C24 DMP d          -9.205  16.757  21.817  0.00  0.00    -0.035 A 
+ATOM     14  C23 DMP d         -10.205  16.636  22.813  0.00  0.00     0.010 A 
+ATOM     15  C22 DMP d          -9.836  16.282  24.130  0.00  0.00     0.009 A 
+BRANCH  13  16
+ATOM     16  C27 DMP d          -9.586  17.104  20.397  0.00  0.00     0.202 C 
+BRANCH  16  17
+ATOM     17  O27 DMP d          -8.734  18.127  19.862  0.00  0.00    -0.396 OA
+ATOM     18  H37 DMP d          -8.998  18.323  18.971  0.00  0.00     0.209 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+BRANCH   2  19
+ATOM     19  C30 DMP d          -7.704  18.279  27.841  0.00  0.00     0.066 C 
+BRANCH  19  20
+ATOM     20  C31 DMP d          -6.332  18.120  27.213  0.00  0.00    -0.056 A 
+ATOM     21  C36 DMP d          -6.063  18.717  25.954  0.00  0.00     0.007 A 
+ATOM     22  C35 DMP d          -4.812  18.529  25.342  0.00  0.00     0.001 A 
+ATOM     23  C34 DMP d          -3.833  17.755  25.994  0.00  0.00     0.000 A 
+ATOM     24  C33 DMP d          -4.094  17.168  27.250  0.00  0.00     0.001 A 
+ATOM     25  C32 DMP d          -5.346  17.347  27.863  0.00  0.00     0.007 A 
+ENDBRANCH  19  20
+ENDBRANCH   2  19
+BRANCH   7  26
+ATOM     26  C70 DMP d          -9.629  14.753  30.114  0.00  0.00     0.166 C 
+BRANCH  26  27
+ATOM     27  C71 DMP d          -9.720  15.363  31.470  0.00  0.00    -0.040 A 
+ATOM     28  C76 DMP d          -9.143  16.612  31.798  0.00  0.00     0.009 A 
+ATOM     29  C75 DMP d          -9.197  17.061  33.131  0.00  0.00     0.010 A 
+ATOM     30  C74 DMP d          -9.839  16.267  34.111  0.00  0.00    -0.035 A 
+ATOM     31  C73 DMP d         -10.417  15.025  33.755  0.00  0.00     0.010 A 
+ATOM     32  C72 DMP d         -10.366  14.576  32.435  0.00  0.00     0.009 A 
+BRANCH  30  33
+ATOM     33  C77 DMP d          -9.890  16.729  35.545  0.00  0.00     0.202 C 
+BRANCH  33  34
+ATOM     34  O77 DMP d         -11.195  16.517  36.103  0.00  0.00    -0.396 OA
+ATOM     35  H38 DMP d         -11.205  16.814  37.005  0.00  0.00     0.209 HD
+ENDBRANCH  33  34
+ENDBRANCH  30  33
+ENDBRANCH  26  27
+ENDBRANCH   7  26
+BRANCH   3  36
+ATOM     36  O4  DMP d         -10.073  19.626  26.903  0.00  0.00    -0.391 OA
+ATOM     37  H35 DMP d         -10.915  20.050  27.023  0.00  0.00     0.210 HD
+ENDBRANCH   3  36
+BRANCH   5  38
+ATOM     38  C60 DMP d         -12.011  15.876  28.025  0.00  0.00     0.066 C 
+BRANCH  38  39
+ATOM     39  C61 DMP d         -12.570  14.622  28.660  0.00  0.00    -0.056 A 
+ATOM     40  C66 DMP d         -13.409  14.733  29.798  0.00  0.00     0.007 A 
+ATOM     41  C65 DMP d         -13.876  13.560  30.425  0.00  0.00     0.001 A 
+ATOM     42  C64 DMP d         -13.511  12.290  29.917  0.00  0.00     0.000 A 
+ATOM     43  C63 DMP d         -12.684  12.184  28.778  0.00  0.00     0.001 A 
+ATOM     44  C62 DMP d         -12.208  13.354  28.147  0.00  0.00     0.007 A 
+ENDBRANCH  38  39
+ENDBRANCH   5  38
+BRANCH   4  45
+ATOM     45  O5  DMP d         -11.889  18.659  28.831  0.00  0.00    -0.391 OA
+ATOM     46  H36 DMP d         -11.777  19.593  28.698  0.00  0.00     0.210 HD
+ENDBRANCH   4  45
+TORSDOF 14

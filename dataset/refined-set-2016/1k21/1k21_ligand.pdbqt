@@ -1,0 +1,81 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C12_12  and  C1_1 
+REMARK       I    between atoms: C1_1  and  N3_3 
+REMARK    2  A    between atoms: N3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  C5_5 
+REMARK    4  A    between atoms: C5_5  and  C6_6 
+REMARK    5  A    between atoms: C6_6  and  N7_7 
+REMARK       I    between atoms: N7_7  and  C8_8 
+REMARK       I    between atoms: C8_8  and  N9_9 
+REMARK       I    between atoms: N11_11  and  C32_18 
+REMARK    6  A    between atoms: C32_18  and  C33_19 
+REMARK    7  A    between atoms: C33_19  and  N21_27 
+REMARK    8  A    between atoms: C33_19  and  C34_20 
+REMARK    9  A    between atoms: C34_20  and  C52_22 
+REMARK   10  A    between atoms: N21_27  and  C22_28 
+REMARK   11  A    between atoms: C22_28  and  C23_29 
+ROOT
+ATOM      1  N11 IGN d          17.950 -13.254  21.063  0.00  0.00    -0.337 N 
+ATOM      2  C12 IGN d          17.679 -11.853  20.487  0.00  0.00     0.179 C 
+ATOM      3  C13 IGN d          18.423 -11.609  19.140  0.00  0.00     0.035 C 
+ATOM      4  C14 IGN d          19.899 -12.049  19.181  0.00  0.00     0.004 C 
+ATOM      5  C15 IGN d          20.001 -13.580  19.421  0.00  0.00     0.020 C 
+ATOM      6  C16 IGN d          18.887 -14.193  20.323  0.00  0.00     0.127 C 
+ATOM      7  O31 IGN d          16.574 -12.900  22.860  0.00  0.00    -0.271 OA
+ATOM      8  C32 IGN d          17.345 -13.661  22.251  0.00  0.00     0.251 C 
+ENDROOT
+BRANCH   2   9
+ATOM      9  C1  IGN d          16.156 -11.622  20.207  0.00  0.00     0.240 C 
+ATOM     10  N3  IGN d          15.634 -10.397  20.399  0.00  0.00    -0.359 N 
+ATOM     11  H1  IGN d          16.256  -9.677  20.707  0.00  0.00     0.162 HD
+ATOM     12  O2  IGN d          15.451 -12.564  19.827  0.00  0.00    -0.271 OA
+BRANCH  10  13
+ATOM     13  C4  IGN d          14.222 -10.026  20.193  0.00  0.00     0.124 C 
+BRANCH  13  14
+ATOM     14  C5  IGN d          13.495  -9.765  21.520  0.00  0.00     0.040 C 
+BRANCH  14  15
+ATOM     15  C6  IGN d          12.009 -10.093  21.421  0.00  0.00     0.139 C 
+BRANCH  15  16
+ATOM     16  N7  IGN d          11.609 -11.122  22.390  0.00  0.00    -0.227 N 
+ATOM     17  C8  IGN d          11.003 -10.883  23.671  0.00  0.00     0.665 C 
+ATOM     18  N10 IGN d          10.758  -9.637  24.078  0.00  0.00    -0.235 N 
+ATOM     19  N9  IGN d          10.687 -11.916  24.442  0.00  0.00    -0.235 N 
+ATOM     20  H11 IGN d          11.006  -8.840  23.474  0.00  0.00     0.174 HD
+ATOM     21  H12 IGN d          10.321  -9.472  24.996  0.00  0.00     0.174 HD
+ATOM     22  H9  IGN d          10.252 -11.758  25.362  0.00  0.00     0.174 HD
+ATOM     23  H10 IGN d          10.877 -12.876  24.120  0.00  0.00     0.174 HD
+ATOM     24  H8  IGN d          11.778 -12.104  22.128  0.00  0.00     0.177 HD
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  10  13
+ENDBRANCH   2   9
+BRANCH   8  25
+ATOM     25  C33 IGN d          17.552 -15.070  22.930  0.00  0.00     0.278 C 
+BRANCH  25  26
+ATOM     26  N21 IGN d          16.273 -15.830  22.838  0.00  0.00    -0.053 N 
+ATOM     27  H36 IGN d          15.579 -15.255  23.288  0.00  0.00     0.278 HD
+ATOM     28  H37 IGN d          16.414 -16.670  23.377  0.00  0.00     0.278 HD
+BRANCH  26  29
+ATOM     29  C22 IGN d          15.660 -16.272  21.546  0.00  0.00     0.345 C 
+BRANCH  29  30
+ATOM     30  C23 IGN d          14.243 -16.786  21.769  0.00  0.00     0.199 C 
+ATOM     31  O25 IGN d          13.519 -17.047  20.780  0.00  0.00    -0.647 OA
+ATOM     32  O24 IGN d          13.804 -16.948  22.932  0.00  0.00    -0.647 OA
+ENDBRANCH  29  30
+ENDBRANCH  26  29
+ENDBRANCH  25  26
+BRANCH  25  33
+ATOM     33  C34 IGN d          17.926 -15.000  24.467  0.00  0.00     0.047 C 
+BRANCH  33  34
+ATOM     34  C52 IGN d          19.452 -14.740  24.805  0.00  0.00    -0.012 C 
+ATOM     35  C51 IGN d          20.437 -14.821  23.554  0.00  0.00     0.005 C 
+ATOM     36  C56 IGN d          21.928 -14.723  24.013  0.00  0.00     0.000 C 
+ATOM     37  C55 IGN d          22.160 -13.370  24.753  0.00  0.00     0.000 C 
+ATOM     38  C54 IGN d          21.212 -13.265  25.991  0.00  0.00     0.000 C 
+ATOM     39  C53 IGN d          19.720 -13.372  25.526  0.00  0.00     0.005 C 
+ENDBRANCH  33  34
+ENDBRANCH  25  33
+ENDBRANCH   8  25
+TORSDOF 11

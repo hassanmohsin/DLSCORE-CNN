@@ -1,0 +1,31 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA1_1  and  CB1_9 
+REMARK    2  A    between atoms: CA2_2  and  OA2_3 
+REMARK    3  A    between atoms: CA3_4  and  OA3_5 
+ROOT
+ATOM      1  CA1 BP3 d          22.490  21.771  16.533  0.00  0.00     0.012 A 
+ATOM      2  CA2 BP3 d          21.124  22.006  16.281  0.00  0.00     0.110 A 
+ATOM      3  CA3 BP3 d          20.217  20.938  16.063  0.00  0.00     0.099 A 
+ATOM      4  CA4 BP3 d          20.674  19.603  16.092  0.00  0.00     0.039 A 
+ATOM      5  CA5 BP3 d          22.046  19.351  16.341  0.00  0.00     0.004 A 
+ATOM      6  CA6 BP3 d          22.946  20.433  16.561  0.00  0.00     0.015 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  CB1 BP3 d          23.429  22.922  16.767  0.00  0.00    -0.001 A 
+ATOM      8  CB6 BP3 d          24.394  23.258  15.791  0.00  0.00     0.014 A 
+ATOM      9  CB5 BP3 d          25.293  24.341  15.982  0.00  0.00     0.001 A 
+ATOM     10  CB4 BP3 d          25.234  25.113  17.168  0.00  0.00     0.002 A 
+ATOM     11  CB3 BP3 d          24.273  24.793  18.160  0.00  0.00     0.024 A 
+ATOM     12  CB2 BP3 d          23.379  23.705  17.961  0.00  0.00     0.045 A 
+ATOM     13 CL1  BP3 d          22.252  23.423  19.272  0.00  0.00    -0.083 Cl
+ENDBRANCH   1   7
+BRANCH   2  14
+ATOM     14  OA2 BP3 d          20.609  23.281  16.237  0.00  0.00    -0.357 OA
+ATOM     15  H1  BP3 d          21.305  23.908  16.396  0.00  0.00     0.217 HD
+ENDBRANCH   2  14
+BRANCH   3  16
+ATOM     16  OA3 BP3 d          18.884  21.225  15.822  0.00  0.00    -0.358 OA
+ATOM     17  H2  BP3 d          18.756  22.166  15.838  0.00  0.00     0.217 HD
+ENDBRANCH   3  16
+TORSDOF 3

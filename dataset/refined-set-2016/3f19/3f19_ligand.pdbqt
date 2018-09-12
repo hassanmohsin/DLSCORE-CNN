@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S1_2  and  N1_4 
+REMARK    2  A    between atoms: S1_2  and  C3_10 
+REMARK    3  A    between atoms: N1_4  and  C6_5 
+REMARK    4  A    between atoms: C6_5  and  C8_6 
+REMARK       I    between atoms: C8_6  and  N2_8 
+REMARK    5  A    between atoms: N2_8  and  O1_9 
+ROOT
+ATOM      1  O4  HS6 d         -12.978  -7.596 -20.025  0.00  0.00    -0.201 OA
+ATOM      2  S1  HS6 d         -12.923  -6.239 -19.544  0.00  0.00     0.259 S 
+ATOM      3  O3  HS6 d         -14.124  -5.872 -18.849  0.00  0.00    -0.201 OA
+ENDROOT
+BRANCH   2   4
+ATOM      4  N1  HS6 d         -12.750  -5.267 -20.810  0.00  0.00    -0.307 N 
+ATOM      5  H1  HS6 d         -12.234  -5.589 -21.604  0.00  0.00     0.172 HD
+BRANCH   4   6
+ATOM      6  C6  HS6 d         -13.322  -3.934 -20.833  0.00  0.00     0.237 C 
+BRANCH   6   7
+ATOM      7  C8  HS6 d         -12.369  -2.956 -20.206  0.00  0.00     0.259 C 
+ATOM      8  O2  HS6 d         -11.223  -2.856 -20.618  0.00  0.00    -0.270 OA
+ATOM      9  N2  HS6 d         -12.830  -2.237 -19.190  0.00  0.00    -0.236 N 
+ATOM     10  H4  HS6 d         -13.781  -2.320 -18.891  0.00  0.00     0.197 HD
+BRANCH   9  11
+ATOM     11  O1  HS6 d         -11.955  -1.366 -18.554  0.00  0.00    -0.287 OA
+ATOM     12  H5  HS6 d         -11.633  -0.729 -19.181  0.00  0.00     0.244 HD
+ENDBRANCH   9  11
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   2   4
+BRANCH   2  13
+ATOM     13  C3  HS6 d         -11.701  -6.135 -18.493  0.00  0.00     0.079 A 
+ATOM     14  C1  HS6 d         -10.523  -6.862 -18.706  0.00  0.00     0.028 A 
+ATOM     15  C2  HS6 d          -9.464  -6.800 -17.797  0.00  0.00     0.044 A 
+ATOM     16  C4  HS6 d          -9.576  -6.013 -16.654  0.00  0.00     0.116 A 
+ATOM     17  C7  HS6 d         -10.746  -5.285 -16.422  0.00  0.00     0.044 A 
+ATOM     18  F1  HS6 d          -8.551  -5.965 -15.778  0.00  0.00    -0.206 F 
+ATOM     19  C5  HS6 d         -11.802  -5.349 -17.335  0.00  0.00     0.028 A 
+ENDBRANCH   2  13
+TORSDOF 5
