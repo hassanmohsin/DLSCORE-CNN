@@ -18,6 +18,10 @@ DOI: 10.1021/acs.jcim.7b00650 <br>
   conda install htmd 
   ```
 
-### Training the model
+### Training the model (by generating augmented data on the fly)
  * First extract the voxel features using the script `feature_extraction_htmd.py` insdie the directory `training_with_htmd`. The script will create the file called `data.h5` inside the `dataset` dir
  * Run the script `train.py` to train the model. Modify the code in the method `main()` to enable/disable data augmentation and tweak other training parameters.
+
+### Training the model (using saved augmented data)
+ * Make sure `npy_data` directory is inside the `dataset` directory.
+ * Run `train2.py` to train the model.
