@@ -89,8 +89,8 @@ class DataGeneratorFromDir(keras.utils.Sequence):
         # Generate data
         for i, ID in enumerate(list_IDs_temp):
             # Store sample
-            X[i,] = np.load('../../dataset/npy_data/' + ID + '.npy')
-
+            X[i,] = np.load('../dataset/npy_data/' + ID + '.npy')
+            #X[i,] = np.load('../../CNN_experiments/npy_data/' + ID + '.npy')
             # Store class
             y[i] = self.labels[ID]
 

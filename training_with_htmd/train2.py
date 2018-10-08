@@ -126,4 +126,4 @@ if __name__=="__main__":
   # Without augmentation
   #train(nb_epochs=100)
   # With augmented data (24 rotation)
-  train(nb_epochs=1,nb_batch=4, augmented=True, multi_gpu=4)
+  train(nb_epochs=1, nb_batch=10, multi_gpu=4)
