@@ -1,4 +1,4 @@
-# Training the SqueezeNet without augmentation
+# Training the SqueezeNet 
 # Mahmudulla Hassan
 # The University of Texas at El Paso
 # Last modified: 10/08/2018
