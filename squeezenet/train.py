@@ -23,13 +23,21 @@ from generators import DataGeneratorFromDir
 from model import SqueezeModel
 from time import time
 
+## required for efficient GPU use
+import tensorflow as tf
+from keras.backend import tensorflow_backend
+config = tf.ConfigProto(gpu_options=tf.GPUOptions(allow_growth=True))
+session = tf.Session(config=config)
+tensorflow_backend.set_session(session)
+
 #os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 #os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
-def train(nb_batch, nb_epochs, l_rate, multi_gpu, train_data_dir, test_data, output_dir, plot_figure=False):
+def train(nb_batch, nb_epochs, l_rate, multi_gpu, train_data_dir, test_data, output_dir, plot_figure=False, early_stop=False):
   # Check if output dir exists, otherwise create one
   if os.path.isdir(output_dir):
       print("OUTPUT DIRECTORY {} ALREADY EXISTS! EXITING THE PROGRAM!!!".format(output_dir))
+      return
   os.makedirs(output_dir)
   # Load the test data
   h5f = h5py.File(test_data, "r")
@@ -54,8 +62,9 @@ def train(nb_batch, nb_epochs, l_rate, multi_gpu, train_data_dir, test_data, out
                                     save_best_only=True,
                                     save_weights_only=True,
                                     mode='auto', period=1),
-                    EarlyStopping(monitor='val_loss', verbose=1, patience=10),
                     TensorBoard(log_dir=output_dir+"/logs/{}".format(time()))]
+  if early_stop:
+      callbacks_list.append(EarlyStopping(monitor='val_loss', verbose=1, patience=10))
 
   # Parameters
   params = {'data_dir': train_data_dir,
@@ -138,8 +147,8 @@ def train(nb_batch, nb_epochs, l_rate, multi_gpu, train_data_dir, test_data, out
 
 
 if __name__=="__main__":
-  train_data_dir = "dataset/dataset2"
-  test_data = "dataset/dataset2/test_data.h5"
+  train_data_dir = "../dataset/dataset2"
+  test_data = "../dataset/dataset2/test_data.h5"
 
   #train_data_dir = "dataset/npy_data32"
   #test_data = "dataset/test_data_augmented.h5"
