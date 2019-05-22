@@ -1,6 +1,6 @@
 # Script for extracting features from pdb-bind complexes
 # Mahmudulla Hassan
-# Last modified: 04/16/2019
+# Last modified: 05/21/2019
 
 import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning) 
@@ -14,8 +14,6 @@ import pandas as pd
 import numpy as np
 from itertools import permutations
 import h5py
-from oddt import toolkit
-from oddt import datasets
 from tqdm import *
 import pickle
 import dask.array as da
@@ -78,9 +76,21 @@ def _getRadii(mol):
         res[a] = rad
     return res
 
+def get_voxel_feature(pdbid, voxel_size=24, resolution=1.0, rotation=False, translation=False, trans_size=1):
+    """ Returns voxel features for a pdb complex.
+    # Arguments
+        pdbid: id of the pdb complex
+        voxel_size: Size of the 3D grid, e.g., (24, 24, 24)
+        resolution: Voxel resolution in angstorm
+        rotation: `"True"` or `"False"` for enabling rotational augmentation.
+        translation: `"True"` or `"False"` for enabling translational augmentation.
+        trans_size: Number of voxels to shift while doing translational augmentation. `translation` must be enabled.
+        y_value: `"True"` or `"False"` for providing y values
+    """
 
-def get_pdb_feature(pdbid, voxel_size=(24, 24, 24), augmented=False, y_value=False):
-    """ Returns voxel features for a pdb complex """
+    # Initialize the variables
+    total_voxel_size = voxel_size + 2 * trans_size if translation else voxel_size
+    voxel_shape = (total_voxel_size, ) * 3  # convert into a tuple
 
     def get_prop(mol, left_most_point):
         """ Returns atom occupancies """
@@ -90,12 +100,12 @@ def get_pdb_feature(pdbid, voxel_size=(24, 24, 24), augmented=False, y_value=Fal
         channels = sigmas[:, np.newaxis] * channels.astype(float)
         
         # Choose the grid centers
-        centers = vd._getGridCenters(llc=left_most_point, N=voxel_size, resolution=1)
-        centers = centers.reshape(np.prod(voxel_size), 3)
+        centers = vd._getGridCenters(llc=left_most_point, N=voxel_shape, resolution=resolution)
+        centers = centers.reshape(np.prod(voxel_shape), 3)
         
         # Extract the features and return
         features = vd._getOccupancyC(mol.coords[:, :, mol.frame], centers, channels)
-        return features.reshape(*voxel_size, -1)
+        return features.reshape(*voxel_shape, -1)
     
     def _rotate_sample(sample):
         output = np.zeros((24,)+sample.shape) #24 possible rotation
@@ -115,7 +125,7 @@ def get_pdb_feature(pdbid, voxel_size=(24, 24, 24), augmented=False, y_value=Fal
 
         return output
     
-    def get_augmented_data(x):
+    def get_rotated_data(x):
         aug_count = 24 # 24 possible rotation
         aug_data_x = np.zeros((x.shape[0]*aug_count,) + x.shape[1:])
         
@@ -124,6 +134,19 @@ def get_pdb_feature(pdbid, voxel_size=(24, 24, 24), augmented=False, y_value=Fal
             aug_data_x[i*aug_count:i*aug_count+aug_count] = aug_x
             
         return aug_data_x
+        
+    def get_translated_data(x):
+        
+        middle = x[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        east = np.roll(x, -1*trans_size, axis=2)[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        west = np.roll(x, trans_size, axis=2)[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        north = np.roll(x, -1*trans_size, axis=1)[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        south = np.roll(x, trans_size, axis=1)[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        up = np.roll(x, trans_size, axis=0)[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        down = np.roll(x, -1*trans_size, axis=0)[trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size, trans_size:trans_size+voxel_size]
+        
+        return np.vstack([middle, east, west, north, south, up, down]).reshape((-1, *middle.shape))
+        
     
     # Find the files
     protein_file = os.path.join(pdbbind_dir, pdbid, pdbid + "_protein.pdbqt")
@@ -139,22 +162,39 @@ def get_pdb_feature(pdbid, voxel_size=(24, 24, 24), augmented=False, y_value=Fal
     left_most_point = list(np.mean(ligand_mol.coords.reshape(-1, 3), axis=0) - 12.0)    
     
     # Get the features for both the protein and the ligand. Return those after concatenation.
-    protein_featuers = get_prop(protein_mol, left_most_point)
-    ligand_features = get_prop(ligand_mol, left_most_point)
+    protein_features = get_prop(protein_mol, left_most_point)
+    ligand_features = get_prop(ligand_mol, left_most_point)    
+    feature = np.concatenate((protein_features, ligand_features), axis=3)
     
-    feature = np.concatenate((protein_featuers, ligand_features), axis=3)
+    if not (rotation or translation): return feature
     
-    if not y_value:
-        return feature if not augmented else get_augmented_data(feature.reshape(1, *feature.shape))
-    else:
-        y = None
-        affinity_df = pd.read_csv("PDBbind_refined16.txt", sep='\t', header=None, index_col=0)
-        if pdbid in affinity_df.index:
-            y = affinity_df.loc[pdbid].values[0] 
-        else:
-            raise ValueError("Invalid pdbid")
-        return [feature, y] if not augmented else [get_augmented_data(feature.reshape(1, *feature.shape)), np.ones(24)*y]
+    rotated_features = get_rotated_data(feature.reshape(1, *feature.shape))
+    
+    if rotation and not translation:
+        #print("returning rotated features")
+        return rotated_features
+    
+    translated_features = get_translated_data(feature)
+    if translation and not rotation:
+        #print("returning translated features")
+        return translated_features
+        
+    if rotation and translation:
+        #print("returning rotated and translated features")
+        return np.vstack([get_translated_data(x) for x in rotated_features])
+    
 
+
+def get_voxel_feature_with_y(pdbid, voxel_size=24, rotation=True, translation=True, trans_size=1, y_value=True):
+    features = get_voxel_feature(pdbid, voxel_size, rotation, translation, trans_size)
+    y = None
+    affinity_df = pd.read_csv("PDBbind_refined16.txt", sep='\t', header=None, index_col=0)
+    if pdbid in affinity_df.index:
+        y = affinity_df.loc[pdbid].values[0]
+    else:
+        raise ValueError("Invalid pdbid")
+    
+    return [features, np.ones(features.shape[0])*y]
     
 def get_pdb_features(ids, sets, dirname):
     """ Returns features for given pdb ids"""
@@ -165,7 +205,8 @@ def get_pdb_features(ids, sets, dirname):
     
     for pdbid in tqdm(ids):
         try:
-            [features, y_values] = get_pdb_feature(pdbid, y_value=True, augmented=True)
+            [features, y_values] = get_voxel_feature_with_y(pdbid, voxel_size=24, rotation=True, translation=True, trans_size=1, y_value=True)
+
             for x, y in zip(features, y_values):
                 np.save(os.path.join(dirname, "id_"+str(counter)), x.astype(np.float32))
                 labels["id_"+str(counter)] = y
@@ -174,10 +215,7 @@ def get_pdb_features(ids, sets, dirname):
         except Exception as e:
             print("ERROR in ", pdbid , " ", str(e))
             continue
-
         pdb_ids.append(pdbid)
-        #x.append(features)
-        #y.append(y_values)
     
     label = "test" if sets == 'core' else "train"
     label_file = os.path.join(dirname, "labels.json")
@@ -195,9 +233,7 @@ def get_pdb_features(ids, sets, dirname):
     
     # save the successful pdb ids
     with open(os.path.join(dirname, 'successful_' + sets + '_pdb_ids.pickle'), 'wb') as f:
-        pickle.dump(pdb_ids, f)
-
-    
+        pickle.dump(pdb_ids, f)    
     
 def to_hdf5(data):
     # Get the features
@@ -209,23 +245,14 @@ def to_hdf5(data):
     h5f.create_dataset('train_y', data=train_y)
     h5f.create_dataset('test_x', data=test_x)
     h5f.create_dataset('test_y', data=test_y)
-    h5f.close()   
-    
+    h5f.close()    
     
 def main():
     """ Returns features for all the complexes in the dataset. """ 
     # List ids of the core set and the refined set
-    core_ids = open('../core_ids.txt', 'r').readlines()[0].split(',')
-    refined_ids = open('../refined_ids.txt', 'r').readlines()[0].split(',')
-    
-    # Get the features 
-    #print("Extracting features for the core set")
-    #core_x, core_y = get_pdb_features(core_ids, sets="core")
-    #print("Extracting features for the refined set")
-    #refined_x, refined_y = get_pdb_features(refined_ids, sets='refined')    
-    
-    #return core_x, core_y, refined_x, refined_y
-    
+    core_ids = open('core_ids.txt', 'r').readlines()[0].split(',')
+    refined_ids = open('refined_ids.txt', 'r').readlines()[0].split(',')
+        
     # Write the features to the directory
     train_dir = os.path.join(data_dir, 'training_data')
     if not os.path.isdir(train_dir): os.makedirs(train_dir)
