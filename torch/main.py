@@ -22,7 +22,7 @@ from torch.utils.data import DataLoader
 from torchviz import make_dot
 from dataset import CustomDataset
 
-parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
+parser = argparse.ArgumentParser(description='PyTorch DLSCORE-CNN Training')
 parser.add_argument('data', metavar='DIR',
                     help='path to dataset')
 parser.add_argument('-j', '--workers', default=8, type=int, metavar='N',
