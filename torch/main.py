@@ -62,7 +62,7 @@ parser.add_argument('--multiprocessing-distributed', action='store_true',
                          'fastest way to use PyTorch for either single node or '
                          'multi node data parallel training')
 
-best_loss = 0
+best_loss = np.inf
 
 
 def main():
@@ -209,11 +209,11 @@ def main_worker(gpu, ngpus_per_node, args):
         train(train_loader, model, criterion, optimizer, epoch, args)
 
         # evaluate on validation set
-        loss1 = validate(val_loader, model, criterion, args)
+        loss = validate(val_loader, model, criterion, args)
 
         # remember best loss and save checkpoint
-        is_best = loss1 < best_loss
-        best_loss = min(loss1, best_loss)
+        is_best = loss < best_loss
+        best_loss = min(loss, best_loss)
 
         if not args.multiprocessing_distributed or (args.multiprocessing_distributed
                 and args.rank % ngpus_per_node == 0):
@@ -228,7 +228,7 @@ def main_worker(gpu, ngpus_per_node, args):
 def train(train_loader, model, criterion, optimizer, epoch, args):
     batch_time = AverageMeter('Time', ':6.3f')
     data_time = AverageMeter('Data', ':6.3f')
-    losses = AverageMeter('Loss', ':.4e')
+    losses = AverageMeter('Loss', ':6.3f')
     progress = ProgressMeter(
         len(train_loader),
         [batch_time, data_time, losses],
@@ -264,6 +264,7 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
 
         if i % args.print_freq == 0:
             progress.display(i)
+            
 
 def pearsonr(x, y):
     """
@@ -291,7 +292,7 @@ def pearsonr(x, y):
 
 def validate(val_loader, model, criterion, args):
     batch_time = AverageMeter('Time', ':6.3f')
-    losses = AverageMeter('Loss', ':.4e')
+    losses = AverageMeter('Loss', ':6.3f')
     actual_values = torch.empty(290)
     predicted_values = torch.empty(290)
     progress = ProgressMeter(
@@ -330,7 +331,7 @@ def validate(val_loader, model, criterion, args):
         mseloss = criterion(predicted_values, actual_values).item()
         print('Test: [{0}/{0}]\t Pearson R: {1:.4f}\t MSE loss: {2:.4f}'.format(len(val_loader), pr, mseloss))
 
-    return losses.avg
+    return mseloss
 
 
 def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
