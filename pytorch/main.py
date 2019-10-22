@@ -14,7 +14,8 @@ import torch.optim
 import torch.multiprocessing as mp
 import torch.utils.data
 import torch.utils.data.distributed
-from model import cnnscore
+#from torch.utils.tensorboard import SummaryWriter
+from model import cnnscore, vggnet
 from dataset import CustomDataset
 
 parser = argparse.ArgumentParser(description='PyTorch DLSCORE-CNN Training')
@@ -63,7 +64,7 @@ parser.add_argument('--multiprocessing-distributed', action='store_true',
                          'multi node data parallel training')
 
 best_loss = np.inf
-
+#writer = SummaryWriter('runs/')
 
 def main():
     args = parser.parse_args()
@@ -94,7 +95,8 @@ def main():
         args.world_size = ngpus_per_node * args.world_size
         # Use torch.multiprocessing.spawn to launch distributed processes: the
         # main_worker process function
-        mp.spawn(main_worker, nprocs=ngpus_per_node, args=(ngpus_per_node, args))
+        mp.spawn(main_worker, nprocs=ngpus_per_node,
+                 args=(ngpus_per_node, args))
     else:
         # Simply call main_worker function
         main_worker(args.gpu, ngpus_per_node, args)
@@ -118,7 +120,10 @@ def main_worker(gpu, ngpus_per_node, args):
                                 world_size=args.world_size, rank=args.rank)
     # create model
     print("=> creating model '{}'".format('cnnscore'))
-    model = cnnscore()
+    #model = cnnscore()
+    model = vggnet()
+    print(model)
+
 
     if args.distributed:
         # For multiprocessing distributed, DistributedDataParallel constructor
@@ -131,8 +136,10 @@ def main_worker(gpu, ngpus_per_node, args):
             # DistributedDataParallel, we need to divide the batch size
             # ourselves based on the total number of GPUs we have
             args.batch_size = int(args.batch_size / ngpus_per_node)
-            args.workers = int((args.workers + ngpus_per_node - 1) / ngpus_per_node)
-            model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.gpu])
+            args.workers = int(
+                (args.workers + ngpus_per_node - 1) / ngpus_per_node)
+            model = torch.nn.parallel.DistributedDataParallel(
+                model, device_ids=[args.gpu])
         else:
             model.cuda()
             # DistributedDataParallel will divide and allocate batch_size to all
@@ -148,7 +155,8 @@ def main_worker(gpu, ngpus_per_node, args):
     # define loss function (criterion) and optimizer
 
     criterion = nn.MSELoss().cuda(args.gpu)
-    optimizer = torch.optim.Adam(model.parameters(), args.lr, betas=(0.9, 0.999))
+    optimizer = torch.optim.Adam(
+        model.parameters(), args.lr, betas=(0.9, 0.999))
 
     # optionally resume from a checkpoint
     if args.resume:
@@ -163,6 +171,7 @@ def main_worker(gpu, ngpus_per_node, args):
             args.start_epoch = checkpoint['epoch']
             best_loss = checkpoint['best_loss']
             if args.gpu is not None:
+                print(args.gpu)
                 # best_loss1 may be from a checkpoint from a different GPU
                 best_loss = best_loss.to(args.gpu)
             model.load_state_dict(checkpoint['state_dict'])
@@ -181,14 +190,15 @@ def main_worker(gpu, ngpus_per_node, args):
     train_dataset = CustomDataset(train_dir)
     test_dataset = CustomDataset(val_dir)
 
-
     if args.distributed:
-        train_sampler = torch.utils.data.distributed.DistributedSampler(train_dataset)
+        train_sampler = torch.utils.data.distributed.DistributedSampler(
+            train_dataset)
     else:
         train_sampler = None
 
     train_loader = torch.utils.data.DataLoader(
-        train_dataset, batch_size=args.batch_size, shuffle=(train_sampler is None),
+        train_dataset, batch_size=args.batch_size, shuffle=(
+            train_sampler is None),
         num_workers=args.workers, pin_memory=True, sampler=train_sampler)
 
     val_loader = torch.utils.data.DataLoader(
@@ -216,7 +226,7 @@ def main_worker(gpu, ngpus_per_node, args):
         best_loss = min(loss, best_loss)
 
         if not args.multiprocessing_distributed or (args.multiprocessing_distributed
-                and args.rank % ngpus_per_node == 0):
+                                                    and args.rank % ngpus_per_node == 0):
             save_checkpoint({
                 'epoch': epoch + 1,
                 'state_dict': model.state_dict(),
@@ -247,7 +257,7 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
         target = target.cuda(args.gpu, non_blocking=True)
 
         # compute output
-        output = model(input)
+        output, _ = model(input)
         loss = criterion(output, target)
 
         # measure and record loss
@@ -264,7 +274,7 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
 
         if i % args.print_freq == 0:
             progress.display(i)
-            
+
 
 def pearsonr(x, y):
     """
@@ -311,9 +321,11 @@ def validate(val_loader, model, criterion, args):
             target = target.cuda(args.gpu, non_blocking=True)
 
             # compute output
-            output = model(input)
+            output, last_layer_features = model(input)
+            #print(last_layer_features.shape)
+            np.save('l_features_' + str(i), last_layer_features)
             loss = criterion(output, target)
-            
+
             # measure pearsonr and record loss
             actual_values[i] = target.mean()
             predicted_values[i] = output.mean()
@@ -329,7 +341,8 @@ def validate(val_loader, model, criterion, args):
 
         pr = pearsonr(actual_values, predicted_values).item()
         mseloss = criterion(predicted_values, actual_values).item()
-        print('Test: [{0}/{0}]\t Pearson R: {1:.4f}\t MSE loss: {2:.4f}'.format(len(val_loader), pr, mseloss))
+        print('Test: [{0}/{0}]\t Pearson R: {1:.4f}\t MSE loss: {2:.4f}'.format(
+            len(val_loader), pr, mseloss))
 
     return mseloss
 
@@ -342,6 +355,7 @@ def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
+
     def __init__(self, name, fmt=':f'):
         self.name = name
         self.fmt = fmt
